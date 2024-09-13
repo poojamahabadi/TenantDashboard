@@ -1,4 +1,4 @@
-{<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Tenant</title>
@@ -16,10 +16,14 @@
 
 <header class="l-header">
 <div class="l-header__inner clearfix">
-<div class="c-header-icon js-hamburger">
-<div class="hamburger-toggle"><span class="bar-top"></span>
-<span class="bar-mid"></span><span class="bar-bot"></span>
+<div class="c-header-icon">
+  <a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+  <span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
 </div>
+</a>
 </div>
 <div class="logo">
 <div class="logo__txt">
@@ -63,72 +67,45 @@
 </div>
 </div>
 </header>
-<div class="l-sidebar">
-<div class="l-sidebar__content">
-<nav class="c-menu js-menu">
-<ul class="u-list">
-<li class="c-menu__item is-active" data-toggle="tooltip" title="My Information">
-<a href="myinformation.html">
-<div class="c-menu__item__inner"><i class="fa fa-file-text-o"></i>
-<div class="c-menu-item__title"><span>My Information</span>
-</div>
-</div>
-</a>
 
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Communications">
-<a href="communication.html">
-<div class="c-menu__item__inner"><i class="fa fa-history"></i>
-<div class="c-menu-item__title"><span>Communications</span></div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="topsec_menu">
+  <div class="profilepic">
+    <img src="images/menu/profilemenu.svg">
+    <div class="status status_green">
+      <span></span>
+      </div>
+  </div>
+  <div class="profiledetails">
+    <p>Mae Coleman <small>Tenant</small></p>
+    <a href="">View Profile</a>
+  </div>
+  <div class="upgradediv">
+    <button class="btn upgrade_btn">Upgrade</button>
+  </div>
 </div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Active Lease">
-<a href="active_lease.html">
-<div class="c-menu__item__inner"><i class="fa fa-address-book-o"></i>
-<div class="c-menu-item__title"><span>Active Lease</span></div>
+<div class="c-search menusearch">
+  <input class="c-search__input form-control" placeholder="Search" type="text"/>
+  <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+  </button>
 </div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="showings">
-<a href="showings.html">
-<div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
-<div class="c-menu-item__title"><span>showings</span></div>
+  <div class="menu_nav">
+    <a href="#" class="active">  <img src="images/menu/my_info.svg"> My Information</a>
+    <a href="#">  <img src="images/menu/communication.svg"> Communications</a>
+    <a href="#">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+    <a href="#">  <img src="images/menu/showings.svg"> Showings</a>
+    <a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+    <a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+    <a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+    <a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+    <div class="logoutsec">
+      <a href="javascript:void(0);">Logout</a>
+    </div>
+  </div>
 </div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Maintenance">
-<a href="maintenance.html">
-<div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
-<div class="c-menu-item__title"><span>Maintenance</span></div>
-</div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Transactions">
-<a href="transaction.html">
-<div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
-<div class="c-menu-item__title"><span>Transactions</span></div>
-</div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Benefits">
-<a href="benefit.html">
-<div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
-<div class="c-menu-item__title"><span>Benefits</span></div>
-</div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Find a Properties">
-<a href="properties.html">
-<div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
-<div class="c-menu-item__title"><span>Find a Properties</span></div>
-</div>
-</a>
-</li>
-</ul>
-</nav>
-</div>
-</div>
+
 
 
 <main class="l-main">

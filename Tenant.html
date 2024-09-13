@@ -11,121 +11,98 @@
 </head>
 <body>
 
-<header class="l-header">
-<div class="l-header__inner clearfix">
-<div class="c-header-icon js-hamburger">
-<div class="hamburger-toggle"><span class="bar-top"></span>
-<span class="bar-mid"></span><span class="bar-bot"></span>
-</div>
-</div>
-<div class="logo">
-<div class="logo__txt">
-<a href="tenant.html"><img src="images/logo.svg"></a>
-</div>
-</div>
-
-<div class="c-search">
-<input class="c-search__input form-control" placeholder="Search" type="text"/>
-<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
-</button>
-</div>
-
-<div class="links">
-<ul>
-<li class="phone"> <a href="">
-<img src="images/phone.svg"></a>
-<div class="count_phone">
-<span>4</span>
-</div>
-</li>
-<li class="comment"> <a href="">
-<img src="images/comment.svg"></a>
-<div class="count_comment">
-<span>5</span>
-</div>
-</li>
-<li class="email"> <a href="">
-<img src="images/email.svg"></a>
-<div class="count_email">
-<span>6</span>
-</div>
-</li>
-<li class="notify"> <a href="">
-<img src="images/notify.svg"></a>
-<div class="count_notify">
-<span>30</span>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</header>
-<div class="l-sidebar">
-<div class="l-sidebar__content">
-<nav class="c-menu js-menu">
-<ul class="u-list">
-<li class="c-menu__item is-active" data-toggle="tooltip" title="My Information">
-<a href="myinformation.html">
-<div class="c-menu__item__inner"><i class="fa fa-file-text-o"></i>
-    <div class="c-menu-item__title"><span>My Information</span>
-  </div>
-</div>
-</a>
-
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Communications">
-<a href="communication.html">
-<div class="c-menu__item__inner"><i class="fa fa-history"></i>
-<div class="c-menu-item__title"><span>Communications</span></div>
-</div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Active Lease">
-  <a href="active_lease.html">
-<div class="c-menu__item__inner"><i class="fa fa-address-book-o"></i>
-<div class="c-menu-item__title"><span>Active Lease</span></div>
-</div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="showings">
-<a href="showings.html">
-<div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
-<div class="c-menu-item__title"><span>showings</span></div>
-</div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Maintenance">
-  <a href="maintenance.html">
-<div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
-<div class="c-menu-item__title"><span>Maintenance</span></div>
-</div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Transactions">
-  <a href="transaction.html">
-<div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
-<div class="c-menu-item__title"><span>Transactions</span></div>
-</div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Benefits">
-<a href="benefit.html">
-<div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
-<div class="c-menu-item__title"><span>Benefits</span></div>
-</div>
-</a>
-</li>
-<li class="c-menu__item has-submenu" data-toggle="tooltip" title="Find a Properties">
-  <a href="properties.html">
-<div class="c-menu__item__inner"><i class="fa fa-cogs"></i>
-<div class="c-menu-item__title"><span>Find a Properties</span></div>
-</div>
-</a>
-</li>
-</ul>
-</nav>
-</div>
-</div>
+  <header class="l-header">
+    <div class="l-header__inner clearfix">
+    <div class="c-header-icon">
+      <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+      <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    <div class="logo">
+    <div class="logo__txt">
+    <a href="tenant.html"><img src="images/logo.svg"></a>
+    </div>
+    </div>
+    
+    <div class="c-search">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    
+    <div class="links">
+    <ul>
+    <li class="phone"> <a href="">
+    <img src="images/phone.svg"></a>
+    <div class="count_phone">
+    <span>4</span>
+    </div>
+    </li>
+    <li class="comment"> <a href="">
+    <img src="images/comment.svg"></a>
+    <div class="count_comment">
+    <span>5</span>
+    </div>
+    </li>
+    <li class="email"> <a href="">
+    <img src="images/email.svg"></a>
+    <div class="count_email">
+    <span>6</span>
+    </div>
+    </li>
+    <li class="notify"> <a href="">
+    <img src="images/notify.svg"></a>
+    <div class="count_notify">
+    <span>30</span>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </header>
+    
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="topsec_menu">
+      <div class="profilepic">
+        <img src="images/menu/profilemenu.svg">
+        <div class="status status_green">
+          <span></span>
+          </div>
+      </div>
+      <div class="profiledetails">
+        <p>Mae Coleman <small>Tenant</small></p>
+        <a href="">View Profile</a>
+      </div>
+      <div class="upgradediv">
+        <button class="btn upgrade_btn">Upgrade</button>
+      </div>
+    </div>
+    <div class="c-search menusearch">
+      <input class="c-search__input form-control" placeholder="Search" type="text"/>
+      <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+      </button>
+    </div>
+      <div class="menu_nav">
+        <a href="#" class="active">  <img src="images/menu/my_info.svg"> My Information</a>
+        <a href="#">  <img src="images/menu/communication.svg"> Communications</a>
+        <a href="#">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+        <a href="#">  <img src="images/menu/showings.svg"> Showings</a>
+        <a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+        <a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+        <a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+        <a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+        <div class="logoutsec">
+          <a href="javascript:void(0);">Logout</a>
+        </div>
+      </div>
+    </div>
+    
 
 
 <main class="l-main">
@@ -133,9 +110,9 @@
 
 <div class="container-fluid">
 <div class="row">
-<div class="col-xl-6">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 <div class="row">
-<div class="col-xl-12">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 <div class="tenant_profilebg"></div>
 
 <div class="belowpart_tenant">
@@ -210,7 +187,7 @@
 </div>
 
 <div class="row">
-<div class="col-xl-12">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 <div class="my_info">
 <div class="divinfo">
 <div class="myinfo_txt">
@@ -244,7 +221,7 @@ basic information
 <div class="card-body">
 <div class="container-fluid">
 <div class="row">
-<div class="col-xl-6">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 <div class="flexdiv">
 <div>
 <label>First Name (Legal)*</label>
@@ -286,7 +263,7 @@ basic information
 </div>
 </div>
 </div>
-<div class="col-xl-6">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 <div class="flexdiv">
 <div>
 <label>last name *</label>
@@ -346,7 +323,7 @@ employment
 <div class="card-body">
 <div class="container-fluid">
 <div class="row">
-<div class="col-xl-6">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 <div class="flexdiv">
 <div>
 <label>occupation *</label>
@@ -393,7 +370,7 @@ employment
 </div>
 </div>
 </div>
-<div class="col-xl-6">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 <div class="flexdiv">
 <div>
 <label>employer </label>
@@ -491,7 +468,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 
 
-<div class="col-xl-6">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 <div class="req_document">
 <div class="divinfo req_border">
 <div class="myinfo_txt">
@@ -519,12 +496,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 <div class="tab-pane container active" id="Personal">
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="tabcontent_tenant">
 <p>Government ID - 1</p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -536,7 +513,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
 </div> 
 </div>
@@ -544,12 +521,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="tabcontent_tenant">
 <p>Government ID - 2</p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -561,7 +538,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <button class="btn commn upload" data-toggle="modal" data-target="#uploadpop">upload <img src="images/tenant_prof/upload.svg"></button>
 </div> 
 </div>
@@ -569,12 +546,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="tabcontent_tenant">
 <p>Credit Report</p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -586,7 +563,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
 </div> 
 </div>
@@ -594,12 +571,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="tabcontent_tenant">
 <p>Employment Letter </p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -611,7 +588,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
 </div> 
 </div>
@@ -623,12 +600,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 <div class="tab-pane container fade" id="Corporate">
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="tabcontent_tenant">
 <p>Government ID - 1</p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -640,7 +617,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
 </div> 
 </div>
@@ -648,12 +625,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="tabcontent_tenant">
 <p>Government ID - 2</p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -665,7 +642,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <button class="btn commn upload">upload <img src="images/tenant_prof/upload.svg"></button>
 </div> 
 </div>
@@ -673,12 +650,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="tabcontent_tenant">
 <p>Credit Report</p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -690,7 +667,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
 </div> 
 </div>
@@ -698,12 +675,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="tabcontent_tenant">
 <p>Employment Letter </p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -715,7 +692,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
 <button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
 </div> 
 </div>
@@ -726,18 +703,15 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </div>
 
 <div class="row">
-<div class="col-xl-12">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
   <div class="btncenter_div">
     <button class="btn explore"><img src="images/tenant_prof/explore.svg">Explore</button>
   </div>
-
 </div>
 </div>
 </div>
 </div>
 </div>
-
-
 </div>
 </main>
 
