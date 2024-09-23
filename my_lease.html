@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Lease</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="l-header">
+<div class="l-header__inner clearfix">
+<div class="c-header-icon">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+<div class="logo">
+<div class="logo__txt">
+<a href="tenant.html"><img src="images/logo.svg"></a>
+</div>
+</div>
+
+<div class="c-search">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+
+<div class="links">
+<ul>
+<li class="phone"> <a href="">
+<img src="images/phone.svg"></a>
+<div class="count_phone">
+<span>4</span>
+</div>
+</li>
+<li class="comment"> <a href="">
+<img src="images/comment.svg"></a>
+<div class="count_comment">
+<span>5</span>
+</div>
+</li>
+<li class="email"> <a href="">
+<img src="images/email.svg"></a>
+<div class="count_email">
+<span>6</span>
+</div>
+</li>
+<li class="notify"> <a href="">
+<img src="images/notify.svg"></a>
+<div class="count_notify">
+<span>30</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</header>
+
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="topsec_menu">
+<div class="profilepic">
+<img src="images/menu/profilemenu.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+<div class="profiledetails">
+<p>Mae Coleman <small>Tenant</small></p>
+<a href="">View Profile</a>
+</div>
+<div class="upgradediv">
+<button class="btn upgrade_btn">Upgrade</button>
+</div>
+</div>
+<div class="c-search menusearch">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+<div class="menu_nav">
+<a href="myinformation.html" class="active">  <img src="images/menu/my_info.svg"> My Information</a>
+<a href="#">  <img src="images/menu/communication.svg"> Communications</a>
+<a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+<a href="#">  <img src="images/menu/showings.svg"> Showings</a>
+<a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+<a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+<a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+<a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+<div class="logoutsec">
+<a href="javascript:void(0);">Logout</a>
+</div>
+</div>
+</div>
+
+
+
+<main class="l-main">
+<div class="content-wrapper content-wrapper--with-bg">
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+<div class="tenant_profilebg"></div>
+
+<div class="belowpart_tenant">
+<div class="tenant_imgs">
+<div class="bgtenant_div">
+<div class="imgtenant_profile">
+<img src="images/tenant_prof/t1img.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+<div class="tenant_info">
+<p class="tenant_name">merry smith</p>
+<p class="tenant_no">tenant 1</p>
+</div>
+</div>
+
+<div class="bgtenant_div">
+<div class="imgtenant_profile">
+<img src="images/tenant_prof/t2img.svg">
+<div class="status status_yellow">
+<span></span>
+</div>
+</div>
+<div class="tenant_info">
+<p class="tenant_name">merry smith</p>
+<p class="tenant_no">tenant 2</p>
+</div>
+</div>
+
+<div class="bgtenant_div">
+<div class="imgtenant_profile">
+<img src="images/tenant_prof/t3img.svg">
+<div class="status status_grey">
+<span></span>
+</div>
+</div>
+<div class="tenant_info">
+<p class="tenant_name">molan smith</p>
+<p class="tenant_no">tenant 3</p>
+</div>
+</div>
+
+<div class="bgtenant_div">
+<div class="imgtenant_profile">
+<img src="images/tenant_prof/t4img.svg">
+<div class="status status_grey">
+<span></span>
+</div>
+</div>
+<div class="tenant_info">
+<p class="tenant_name">henry smith</p>
+<p class="tenant_no">tenant 4</p>
+</div>
+</div>
+
+<div class="bgtenant_div">
+<div class="imgtenant_profile">
+<img src="images/tenant_prof/t5img.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+<div class="tenant_info">
+<p class="tenant_name">lora smith</p>
+<p class="tenant_no">tenant 5</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+<div class="my_info">
+
+<div class="divinfo">
+<div class="myinfo_txt">
+<img src="images/lease/lease.svg"> <span>My Lease</span>
+</div>
+<div class="account_nolease">
+<p><span>Account No.</span><span class="accno">1087623</span></p>
+</div>
+</div>
+
+<div class="tabsdiv">
+<ul class="nav nav-tabs">
+<li class="nav-item">
+<a class="nav-link active" data-toggle="tab" href="#info_mylease">information </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#transactions_mylease">transactions</a>
+</li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+<div class="tab-pane container active" id="info_mylease">
+<div class="accordion tenantaccord" id="myleasedash">
+<div class="card">
+<div class="card-header">
+<h2 class="mb-0">
+<div class="linediv cancel"></div>  
+<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#leaseinfo" aria-expanded="true" aria-controls="leaseinfo">
+Lease information
+</button>
+</h2>
+</div>
+
+<div id="leaseinfo" class="collapse show" data-parent="#myleasedash">
+<div class="card-body">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="flexdiv">
+<div>
+<label>monthly rent</label>
+</div>
+<div>
+<p>CA $3,000</p>  
+</div>
+</div>
+
+<div class="flexdiv">
+<div>
+<label>occupants </label>
+</div>
+<div>
+<p>3</p> 
+</div>
+</div>
+
+<div class="flexdiv">
+<div>
+<label>ocipence relationship</label>
+</div>
+<div>
+<p>child & spouse</p> 
+</div>
+</div>
+</div>
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="flexdiv">
+<div>
+<label>rent due on</label>
+</div>
+<div>
+<p>1st of the month </p> 
+</div>
+</div>
+<div class="flexdiv">
+<div>
+<label>move-in date</label>
+</div>
+<div>
+<p>15/05/2024 <img src="images/lease/calender.svg"></p>  
+</div>
+</div>
+
+<div class="flexdiv">
+<div>
+<label>renewal date</label>
+</div>
+<div>
+<p>01/05/2025 <img src="images/lease/calender.svg"></p> 
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header">
+<h2 class="mb-0">
+<div class="linediv cancel emp"></div>  
+<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#util_insur" aria-expanded="true" aria-controls="util_insur">
+utilities & insurance
+</button>
+</h2>
+</div>
+
+<div id="util_insur" class="collapse" data-parent="#myleasedash">
+<div class="card-body">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="flexdiv">
+<div>
+<label>electricity</label>
+</div>
+<div>
+<p>Toronto Hydro</p>  
+</div>
+</div>
+
+<div class="flexdiv">
+<div>
+<label>gas </label>
+</div>
+<div>
+<p>Enbridge</p> 
+</div>
+</div>
+
+<div class="flexdiv">
+<div>
+<label>insurance</label>
+</div>
+<div>
+<p>Apollo Insurance</p> 
+</div>
+</div>
+</div>
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="flexdiv">
+<div>
+<label>water</label>
+</div>
+<div>
+<p>City of Toronto </p> 
+</div>
+</div>
+<div class="flexdiv">
+<div>
+<label>hot water tank</label>
+</div>
+<div>
+<p>Enercare</p>  
+</div>
+</div>
+
+<div class="flexdiv">
+<div>
+<label>communication</label>
+</div>
+<div>
+<p>Bell</p> 
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- end of information lease -->
+<div class="tab-pane container fade" id="transactions_mylease">
+
+<div class="infolease_trans">
+<div class="row flexcentr_div">
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12">
+    <div class="amount_trans">
+        <h3>$2,239.97</h3>
+        <p>Outstanding Balance (Total Unpaid)</p>
+    </div>
+</div>
+<div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-12">
+    <div class="amt_payment">
+        <button class="btn full_amt">pay Full amount</button>
+        <button class="btn make_pay">Make A Payment</button>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="bgcolr_depos">
+        <div class="row">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 flex_centercss">
+                <div class="trans_txt">
+                    <h3>$2,250</h3>
+                    <p>Deposit Held</p>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 flex_centercss">
+                <div class="trans_details">
+                    <p>Last Month Rent & Key Deposit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="bgcolr_depos">
+        <div class="row">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 flex_centercss">
+                <div class="trans_txt">
+                    <h3>$4,000</h3>
+                    <p>Prepayments</p>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 flex_centercss">
+                <div class="trans_details">
+                    <p>2nd & 3rd Last Months Rent</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="button_groupbtn">
+<div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <button class="btn credit_today">Apply for Credit today </button>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <button class="btn view_trans">view all transactions</button>
+    </div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end of transaction -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- left col-6 -->
+
+
+
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="my_teamdiv">
+<div class="row">
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 leaseflex">
+<div class="teamtxt">
+<h3>my team</h3>
+</div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 leaseflex">
+<div class="team_memname">
+<div class="prof_img">
+<img src="images/lease/t1.svg">
+</div>  
+<div class="prof_name">
+<p>jack smith</p>
+<p>property manager</p>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 leaseflex">
+<div class="team_memname">
+<div class="prof_img">
+<img src="images/lease/t2.svg">
+</div>  
+<div class="prof_name">
+<p>mark dega</p>
+<p>leasing agent</p>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 leaseflex">
+<div class="btnappoint">
+<button class="btn btn_appoint">book appointment</button>
+</div>
+</div>
+</div>
+</div>
+<!-- end of my team -->
+
+
+
+
+<!-- my unit -->
+<div class="row">
+<div class="col-xl-12">
+<div class="my_info mylease">
+<div class="divinfo">
+<div class="myinfo_txt">
+<img src="images/lease/my_unit.svg"> <span>my unit</span>
+</div>
+<div class="tabsdiv tabs_lease">
+<ul class="nav nav-tabs">
+<li class="nav-item">
+<a class="nav-link active" data-toggle="tab" href="#unit">Unit </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#building">Building</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="unit_tabmenu">
+<div class="tab-content">
+<div class="tab-pane fade active show" id="unit">
+    <!-- unit -->
+<ul class="nav nav-tabs">
+<li class="nav-item">
+<a class="nav-link active" data-toggle="tab" href="#common_area">common area </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#bedrooms">bedrooms</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#bathrooms">bathrooms</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#kitchen">kitchen</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#laundry">laundry</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#outdoor">outdoor</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="tab" href="#he">he</a>
+</li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane fade active show" id="common_area">
+<div class="comm_areadiv">
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Ceilings</p>
+        <p>8 feet</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/hvac.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>HVAC</p>
+        <p>Heat & A/C</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/closets.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Closets</p>
+        <p>walk-in</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/view.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>View</p>
+        <p>lake & city</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Wash</p>
+        <p></p>
+    </div>
+</div>
+</div>
+</div>
+<!-- common area end -->
+<div class="tab-pane fade" id="bedrooms">
+<div class="comm_areadiv">
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Ceilings</p>
+        <p>8 feet</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/hvac.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>HVAC</p>
+        <p>Heat & A/C</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/closets.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Closets</p>
+        <p>walk-in</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/view.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>View</p>
+        <p>lake & city</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Wash</p>
+        <p></p>
+    </div>
+</div>
+</div>
+</div>
+<!-- end of bedrooms -->
+
+<div class="tab-pane fade" id="bathrooms">
+<div class="comm_areadiv">
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Ceilings</p>
+        <p>8 feet</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/hvac.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>HVAC</p>
+        <p>Heat & A/C</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/closets.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Closets</p>
+        <p>walk-in</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/view.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>View</p>
+        <p>lake & city</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Wash</p>
+        <p></p>
+    </div>
+</div>
+</div>
+</div>
+<!-- end of bathrooms -->
+
+<div class="tab-pane fade" id="kitchen">
+<div class="comm_areadiv">
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Ceilings</p>
+        <p>8 feet</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/hvac.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>HVAC</p>
+        <p>Heat & A/C</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/closets.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Closets</p>
+        <p>walk-in</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/view.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>View</p>
+        <p>lake & city</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Wash</p>
+        <p></p>
+    </div>
+</div>
+</div>       
+</div>
+<!-- end of kitchen -->
+<div class="tab-pane fade" id="laundry">
+<div class="comm_areadiv">
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Ceilings</p>
+        <p>8 feet</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/hvac.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>HVAC</p>
+        <p>Heat & A/C</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/closets.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Closets</p>
+        <p>walk-in</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/view.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>View</p>
+        <p>lake & city</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Wash</p>
+        <p></p>
+    </div>
+</div>
+</div>
+</div>
+<!-- end of laundry -->
+
+<div class="tab-pane fade" id="outdoor">
+<div class="comm_areadiv">
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Ceilings</p>
+        <p>8 feet</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/hvac.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>HVAC</p>
+        <p>Heat & A/C</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/closets.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Closets</p>
+        <p>walk-in</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/view.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>View</p>
+        <p>lake & city</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Wash</p>
+        <p></p>
+    </div>
+</div>
+</div>
+</div>
+<!-- end of outdoor -->
+
+<div class="tab-pane container fade" id="he">
+<div class="comm_areadiv">
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Ceilings</p>
+        <p>8 feet</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/hvac.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>HVAC</p>
+        <p>Heat & A/C</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/closets.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Closets</p>
+        <p>walk-in</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/view.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>View</p>
+        <p>lake & city</p>
+    </div>
+</div>
+<div class="flexdiv_area">
+    <div class="ceilingimg_div">
+        <img src="images/lease/ceilings.svg">
+    </div>
+    <div class="txt_decripunit">
+        <p>Wash</p>
+        <p></p>
+    </div>
+</div>
+</div>
+</div>
+<!-- end of he -->
+</div>
+<!-- end of unit content -->
+</div>
+<div class="tab-pane fade" id="building">
+   <!-- building content -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- end of unit -->
+
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+<div class="my_info agreemt_confrm">
+
+<div class="divinfo">
+<div class="myinfo_txt">
+<img src="images/lease/agree.svg"> <span>agreements & Confirmations</span>
+</div>
+</div>
+
+<div class="bg_colr_progress">
+<div class="progress agremts_progress">
+    <div class="progress-bar yellow" style="width:70%">
+      <div class="txt_progress">
+        <h3>Move in progress</h3>
+      </div>
+      <div class="percent_progress">
+        <span>70%</span>
+      </div>
+    </div>
+    <div class="progress-bar green" style="width:30%">
+        <div class="percent_greenclr">
+            <span>100%</span>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- move in completed section -->
+<div class="bg_colr_progress">
+<div class="progress movein_progress">
+    <div class="progress-bar" style="width:100%">
+      <div class="txt_progress">
+        <h3>Move-in completed</h3>
+      </div>
+      <div class="percent_progress">
+        <span>100%</span>
+      </div>
+    </div>
+</div>
+</div>
+<!-- move in completed section end-->
+
+
+<div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="offer_lease">
+            <div class="">
+                <p>Offer to Lease Agreement</p>
+            </div>
+            <div class="rightimg_marg">
+                <img src="images/lease/lease_agree.svg">
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="offer_agree">
+            <div class="">
+                <p>Offer to Lease Certificate</p>
+            </div>
+            <div class="rightimg_marg">
+                <img src="images/lease/lease_agree.svg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="offer_lease">
+            <div class="">
+                <p>Lease Agreement</p>
+            </div>
+            <div class="start_signbtn">
+                <button class="start_btn_signin">start signing <img src="images/lease/start_sign.svg"></button>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="offer_agree certi">
+            <div class="">
+                <p>Lease Agreement Certificate</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bgcolor_blu">
+<div class="row">
+    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 padright">
+        <div class="ten_insur">
+            <div class="">
+                <p>tenant insurance</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 padlef_rig">
+        <div class="due_datetxt">
+                <p>
+                    <img src="images/lease/date.svg">
+                    <span class="txt_span">Due On</span>  
+                    <span class="txt_date">15/04/2024</span>
+                </p>
+                <p><span class="txt_span">required lability</span>
+                    <span class="txt_price">$2,000,000</span>
+                </p>
+        </div>
+    </div>
+    <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-12 padlef">
+        <div class="preapprov_btn">
+            <div class="">
+                <button class="btn preapprove">pre-approved <span> $17/<sub>Mo</sub></button>
+                    <button class="btn upload">upload <img src="images/lease/upload.svg"></button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- move in completed section -->
+<div class="bgcolor_blu movein_complete">
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 padright">
+            <div class="ten_insur">
+                <div class="">
+                    <p>tenant insurance</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 padlef_rig">
+            <div class="due_datetxt">
+                    <p>
+                        <img src="images/lease/date.svg">
+                        <span class="txt_span">verified On</span>  
+                        <span class="txt_date">15/04/2024</span>
+                    </p>
+                    <p>
+                        <img src="images/lease/date.svg">
+                        <span class="txt_span">renew on</span>
+                        <span class="txt_date">15/04/2025</span>
+                    </p>
+            </div>
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-12 padlef">
+            <div class="verify_btn">
+                <button class="btn">Verified <img src="images/lease/verify.svg"></button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!-- move in completed section end-->
+<div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="offer_lease">
+            <div class="">
+                <p>Electricity</p>
+            </div>
+            <div class="verify_btn">
+                <button class="btn">Verified <img src="images/lease/verify.svg"></button>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="offer_agree nonappli">
+            <div class="">
+                <p>Water Transfer</p>
+            </div>
+            <div class="not_appli">
+                <p>Not Applicable</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="offer_lease">
+            <div class="">
+                <p>Gas Transfer</p>
+            </div>
+            <div class="pending_divbtn">
+                <button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="offer_agree tankhot">
+            <div class="hotwater">
+                <p>Hot Water Tank</p>
+            </div>
+            <div class="pending_divbtn">
+                <button class="btn upload">upload <img src="images/lease/upload.svg"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- move in completed section -->
+<div class="row">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="offer_lease">
+            <div class="">
+                <p>Gas Transfer</p>
+            </div>
+            <div class="verify_btn">
+                <button class="btn">Verified <img src="images/lease/verify.svg"></button>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="offer_agree tankhot">
+            <div class="hotwater">
+                <p>Hot Water Tank</p>
+            </div>
+            <div class="verify_btn">
+                <button class="btn">Verified <img src="images/lease/verify.svg"></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- move in completed section end -->
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
