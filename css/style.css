@@ -567,7 +567,7 @@ background: #9D9D9D;
   text-transform: capitalize;
   padding: 0;
   border: unset;
-  font-size: 15px;
+  font-size: 14px;
 }
 .tenantaccord .card .card-header h2{
   display: flex;
@@ -597,13 +597,13 @@ box-shadow: inset 4px 2px 5px rgba(255, 255, 255, 0.1);
   justify-content: space-between;
   border-bottom: 1px solid #C9D7E5;
   align-items: center;
-  padding: 10px 3px;
+  padding: 6px 3px;
 }
 .flexdiv div label{
   margin:0;
   color:#315D80;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
   text-transform: capitalize;
 }
 .flexdiv div p{
@@ -648,15 +648,15 @@ box-shadow: inset 4px 2px 5px rgba(255, 255, 255, 0.1);
 .flexdiv:last-child{
   border: unset;
 }
-.refresh_anchor a{
-  color:#315D80;
+.refresh_anchor a {
+  color: #315D80;
   font-family: 'Helvetica';
   text-transform: capitalize;
-  font-size: 13px;
+  font-size: 11px;
 }
-.refresh_anchor a img{
-  height: 20px;
-  margin: 0 4px 0 0px;
+.refresh_anchor a img {
+  height: 15px;
+  margin: 0px 1px 0 0px;
 }
 .req_document{
 background: #EDF2FA;
@@ -667,10 +667,10 @@ padding: 14px 20px;
 .divinfo.req_border{
   border-bottom: 1px solid rgba(189, 206, 223, 0.3);
   border-radius: 10px;
-  padding: 0px 0 12px 0;
+  padding: 0px 0 10px 0;
 }
-.tabsdiv{
-  padding: 20px 0 0 0;
+.tabsdiv {
+  padding: 1px 0 0 0;
 }
 .tabsdiv .nav.nav-tabs {
 background: #DEE7F2;
@@ -679,16 +679,17 @@ border-radius: 40px;
   border: unset;
   margin:0 0 1em 0;
 }
-.tabsdiv .nav.nav-tabs  li a {
-  font-size: 17px;
+.tabsdiv .nav.nav-tabs li a {
+  font-size: 16px;
   font-weight: bold;
+  font-family: 'Helvetica Rounded';
   border: unset;
   margin: 0;
-  padding: 13px 52px;
+  padding: 11px 52px;
   text-transform: capitalize;
   display: block;
   text-align: center;
-  color:#315D80;
+  color: #315D80;
 }
 .tabsdiv .nav.nav-tabs  li a.active {
 background: #376990;
@@ -700,9 +701,9 @@ color: #ffffff;
   width: 49.88%;
 }
 .myinfo_txt img{
-  margin-right: 10px;
-  height: 23px;
-  width: 23px;
+  margin-right: 4px;
+  height: 21px;
+  width: 21px;
   vertical-align: sub;
 }
 .details_block {
@@ -719,7 +720,8 @@ color: #ffffff;
   color:#315D80;
   font-weight: bold;
   font-size: 14px;
-  margin: 0 0 5px 0;
+  margin: 0;
+  text-transform: capitalize;
 }
 .row.tablealign{
   align-items: center;
@@ -727,7 +729,7 @@ color: #ffffff;
 .flexcss_tenant p{
   font-family: 'Helvetica';
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
   text-transform: capitalize;
   color: rgba(49, 93, 128, 0.52);
   margin: 0 0 0px 0;
@@ -757,15 +759,16 @@ border-radius: 40px;
 .btn.commn.pendingverif span{
   display: inline-block;
 }
-.btn.commn img{
-  height: 19px;
-  margin-left: 5px;
+.btn.commn img {
+  height: 11px;
+  margin-left: 2px;
 }
 .btn.commn{
-  font-weight: 600;
-  font-size: 14px;
-  width: 100%;
-  padding: 10px 12px;
+  font-weight: bold;
+  font-size: 12px;
+  width: 51%;
+  font-family: 'Helvetica';
+  padding: 7px 7px;
   color: #ffffff;
   letter-spacing: 0.9px;
   text-transform: capitalize;
@@ -941,44 +944,50 @@ color: #F2727F;
   font-weight: 500;
   background: #315D80;
   border-radius: 19px;
-  padding: 6px 18px;
+  padding: 4px 10px;
+  font-size: 14px;
 }
 .content_right .btn.btn-create img{
   margin: 0 5px 0 0px;
-  height: 13px;
+  height: 10px;
   vertical-align: baseline;
 }
 .refresh_a img{
-  height: 17px;
-  margin: 0 5px 0 10px;
+  height: 16px;
+  margin: 0 5px 0 6px;
   vertical-align: sub;
 }
 .refresh_a{
   color: #315D80;
   text-transform: capitalize;
-  font-size: 0.85em;
-  margin: 0 10px 0 0;
+  font-size: 0.75em;
+  margin: 0px 6px 0 0;
 }
 .dots_a{
   vertical-align: text-bottom;
   margin: 0 0 0 5px;
 }
 .dots_a img{
-  height: 5px;
+  height: 4px;
   vertical-align: baseline;
 }
 .pendingverif img{
   margin-top: -14px;
 }
+.rightalign{
+  text-align: right;
+  padding-right: 2px;
+}
 .details_block {
   background: #DCE4F1;
   box-shadow: inset 4px 5px 5px rgba(57, 124, 238, 0.12);
   border-radius: 36px;
-  padding: 10px 20px;
+  padding: 4px 20px;
   margin: 10px 0 0 0;
+  height: 46px;
 }
-.tablealign {
-  align-items: center;
+.details_block.myinfodiv_sec{
+  height: 59px;
 }
 .flexdiv_myinfo {
   display: flex;
@@ -1030,16 +1039,13 @@ color: #F2727F;
 .myinfotabs .btn.commn {
   text-transform: capitalize;
   border-radius: 14px;
-  width: -webkit-fill-available;
   color: #ffffff;
   padding: 7px 5px;
   font-family: 'Helvetica Rounded';
   font-weight: 400;
-  display: flex;
   text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.51);
   font-size: 11px;
-  align-items: baseline;
-  justify-content: center;
+  width: 104px;
 }
 .flexdiv_myinfo .addr{
 color: #315D80;
@@ -1056,15 +1062,22 @@ margin: 0;
 .myinfotabs .btn.commn img {
   height: 11px;
   margin-left: 0px;
-  margin-right: 5px;
+  margin-right: 2px;
+  float: left;
+}
+.alignbtn_right{
+  text-align: right;
 }
 .high {
   background: #EA4B62;
   box-shadow: inset 2px 2px 4px rgba(255, 154, 169, 0.6), inset -2px -2px 5px -1px rgba(215, 47, 71, 0.59);
 }
 .name_addr p{
-  line-height: 14px;
-  margin:4px 0 0 0;
+  line-height: 13px;
+  margin: 3px 0 0 0;
+}
+.myinfoview{
+  margin:4em 0 0 0;
 }
 .stat_div{
   font-family: 'Helvetica Rounded';
@@ -1073,7 +1086,7 @@ margin: 0;
   text-align: center;
   text-transform: capitalize;
   color: #315D80;
-  margin: 4px 0;
+  margin: 1px 0 2px 18px;
 }
 .myinfotabs .container{
   padding: 0;
@@ -1112,7 +1125,7 @@ color: #ffffff;
   font-weight: bold;
 }
 .my_info.maintenance{
-  padding: 19px 13px;
+  padding: 14px 13px;
 }
 .mainte_tabs .nav.nav-tabs{
   background: rgba(55, 105, 144, 0.08);
@@ -1129,7 +1142,7 @@ color: #ffffff;
 .mainte_tabs{
   padding: 1em 0 0 0;
   border-top: 1px solid #BDCEDF;
-  margin: 16px 0 0 0;
+  margin: 10px 0 0 0;
 }
 .mainte_tabs .nav-tabs .nav-item .nav-link{
   text-align: center;
@@ -1180,13 +1193,16 @@ color: #ffffff;
   color: #315D80;
   font-weight: bold;
   text-transform: capitalize;
+  font-size: 14px;
 }
 .showingslider{
   background: #DEE7F2;
   box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
   border-radius: 20px;
-  padding: 13px;
   margin-right: 11px;
+}
+.showimg{
+  padding: 13px 0px 0 13px;
 }
 .showimg img{
   width: 100%;
@@ -1219,6 +1235,7 @@ color: #ffffff;
   font-weight: 500;
   letter-spacing: 1.04px;
   padding: 5px 12px;
+  border:unset;
 }
 .button_myinfos{
   margin: 0.5em 0 0 0;
@@ -1246,17 +1263,19 @@ box-shadow: inset 2px 2px 4px rgba(255, 235, 166, 0.6), inset -2px -2px 5px -1px
 }
 .order_links{
   text-align: center;
+  margin: 10px 0 0px 0;
 }
 .order_links span a{
   font-size: 12px;
   color: #315D80;
   display: inline-block;
+  text-transform: capitalize;
 }
 .padleftinfo{
   padding-left: 0;
 }
 .showtime{
-margin:0 0 4px 0;
+  margin: 13px 0 4px 0;
 }
 .showdate{
   margin:0 0 10px 0;
@@ -1264,15 +1283,18 @@ margin:0 0 4px 0;
 .showing_details p{
   color:#315D80;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
   margin:0;
+}
+.beddetails,.cardetails{
+  text-align: center;
 }
 .bottomdiv_info{
   background: #C9D7E5;
   box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
   border-radius: 20px;
   padding: 12px 15px;
-  margin: 1em 0 0.5em 0;
+  margin: 1em 0 0em 0;
 }
 .showingdetails_option ul{
   padding: 0;
@@ -1334,7 +1356,7 @@ margin:0 0 4px 0;
   box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
   border-radius: 25px 25px 0px 0px;
   border: unset;
-  padding: 15px 20px 24px 20px;
+  padding: 12px 20px 20px 20px;
 }
 .card.balancecard .card-header h3{
   text-transform: uppercase;
@@ -1425,7 +1447,7 @@ box-shadow: inset 2px 2px 4px rgba(255, 235, 166, 0.6), inset -2px -2px 5px -1px
   box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.1), inset 4px 5px 5px rgba(81, 93, 112, 0.1);
   border-radius: 40px;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
 }
 .monthcustom{
   display: flex;
@@ -1439,18 +1461,35 @@ box-shadow: inset 2px 2px 4px rgba(255, 235, 166, 0.6), inset -2px -2px 5px -1px
   box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.1), inset 4px 5px 5px rgba(81, 93, 112, 0.1);
   border-radius: 40px;
   display: flex;
-  padding: 8px 8px 8px 14px;
+  padding: 4px 8px 4px 14px;
   align-items: center;
+}
+.dropdown.dropinfo .dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .2rem 1.3rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+}
+.transac .divinfo {
+  margin: 0;
+  padding: 0px 0 7px 0;
 }
 .txtmonth{
   color: #ffffff;
-  font-size: 14px;
+  font-size: 13px;
   margin-right: 9px;
 }
 .set_custom{
   padding: 0 20px 0 10px;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
 }
 .set_custom img{
   height: 19px;
@@ -1501,8 +1540,8 @@ font-family: 'Helvetica';
   font-weight: bold;
   text-transform: capitalize;
   color: #54526B;
-  font-size: 13px;
-  padding: 7px 9px;
+  font-size: 12px;
+  padding: 8px 13px;
 }
 .prof_img img{
   border-radius: 50%;
@@ -1569,7 +1608,7 @@ color:#ffffff;
 }
 .flexdiv_area{
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 .txt_decripunit p:first-child{
   font-family: 'Helvetica';
@@ -1640,7 +1679,7 @@ color:#ffffff;
   justify-content: space-between;
   padding: 10px 6px 10px 16px;
   align-items: center;
-  height: 60px;
+  height: 46px;
   margin: 0 0 14px 0;
 }
 .offer_lease p,.offer_agree p{
@@ -1665,8 +1704,10 @@ color: #315D80;
   background: #EA4B61;
   box-shadow: inset 2px 2px 4px rgba(255, 154, 169, 0.6), inset -2px -2px 5px -1px rgba(215, 47, 71, 0.59);
   border-radius: 42px;
-
-  padding: 14px 10px;
+  padding: 6px 10px;
+}
+.start_signbtn .start_btn_signin .starttxt{
+  margin: 0 5px 0 0;
 }
 .pending_divbtn{
   text-align: right;
@@ -1687,7 +1728,7 @@ color: rgba(49, 93, 128, 0.5);
   font-family: 'Helvetica';
   font-weight: 500;
   text-align: right;
-  padding: 13px 12px 13px 13px;
+  padding: 3px 11px 3px 7px;
   text-transform: capitalize;
   color: #FFFFFF;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
@@ -1696,14 +1737,14 @@ color: rgba(49, 93, 128, 0.5);
 font-family: 'Helvetica';
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
+font-size: 14px;
 line-height: 17px;
 text-transform: capitalize;
 color: rgba(49, 93, 128, 0.5);
 }
 .not_appli p{
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
   color: rgba(49, 93, 128, 0.52);
   padding: 0 5px 0 0;
 }
@@ -1719,28 +1760,28 @@ color: #315D80;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 500;
-  padding: 13px 20px;
-  font-size: 13px;
+  padding: 8px 13px;
+  font-size: 12px;
   line-height: 16px;
   text-transform: capitalize;
   color: #FFFFFF;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 .txt_span{
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 12px;
-line-height: 16px;
-text-transform: capitalize;
-color: rgba(49, 93, 128, 0.52);
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: capitalize;
+  color: rgba(49, 93, 128, 0.52);
 }
 .txt_date,.txt_price{
-font-family: 'Helvetica';
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
-display: flex;
-color: rgba(49, 93, 128, 0.52);
+  font-family: 'Helvetica';
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  color: rgba(49, 93, 128, 0.52);
 }
 .due_datetxt p{
   display: flex;
@@ -1757,45 +1798,50 @@ color: rgba(49, 93, 128, 0.52);
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 12px;
   text-align: center;
   text-transform: capitalize;
   color: #FFFFFF;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   background: #9BB997;
-   box-shadow: inset 2px 2px 4px #ABCBA7, inset -2px -2px 5px -1px #6A9365;
+  box-shadow: inset 2px 2px 4px #ABCBA7, inset -2px -2px 5px -1px #6A9365;
   border-radius: 40px;
-  padding: 17px 7px 16px 7px;
+  padding: 11px 5px 12px 13px;
   border: unset;
 }
 .btn.preapprove span{
   background: #769672;
-  border-radius: 6px 40px 40px 6px;
+  border-radius: 18px 40px 40px 18px;
   padding: 6px;
 }
 .preapprov_btn .btn.upload{
   text-transform: capitalize;
   color: #FFFFFF;
-  font-size: 13px;
-  padding: 12px 12px 11px 12px;
+  font-size: 12px;
+  padding: 8px 13px 8px 13px;
 }
 .due_datetxt{
   padding: 4px 0 0 0;
+}
+.preapprov_btn{
+  text-align: right;
 }
 .bgcolor_blu{
   background: #C9D7E5;
   box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
   border-radius: 36px;
   border: unset;
-  height: 60px;
-  padding: 7px 6px 8px 0px;
+  height: 46px;
+  padding: 4px 6px 3px 0px;
   margin: 0 0 14px 0;
 }
 .ten_insur p{
   margin: 0;
   text-align: center;
-  padding: 12px 0 0 0;
+}
+.bgcolor_blu .row{
+  align-items: center;
 }
 .ten_insur{
   margin: 0;
@@ -1817,15 +1863,29 @@ color: rgba(49, 93, 128, 0.52);
   padding-left: 7px;
 }
 .start_signbtn .start_btn_signin,.verify_btn .btn,.btn.commn.pendingverif{
-  font-size: 13px;
+  font-size: 11px;
   border: unset;
-  width: 119px;
+  width: 91px;
   margin: 0 0 0 auto;
+  height: 34px;
 }
-.verify_btn .btn img,.btn.commn.pendingverif img{
-  height: 15px;
+.start_signbtn .start_btn_signin{
+  display: flex;
+  line-height: 10px;
+  align-items: center;
+}
+.btn.commn.pendingverif{
+  padding: 3px 4px;
+}
+.verify_btn .btn img{
+  height: 11px;
+  vertical-align: text-bottom;
+  margin-left: 0px;
+}
+.btn.commn.pendingverif img{
+  height: 11px;
   vertical-align: middle;
-  margin-left: 2px;
+  margin-left: 0px;
 }
 .progress.movein_progress .progress-bar{
 background: #9BB997;
