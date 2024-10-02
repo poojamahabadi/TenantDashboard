@@ -910,6 +910,10 @@ color: #6B5E7B;
   line-height: 23px;
   text-transform: capitalize;
   color: #315D80;
+  margin:0;
+}
+.my_info, .req_document {
+  padding: 14px 22px;
 }
 .acc_label{
 font-weight: 400;
@@ -933,8 +937,20 @@ color: #F2727F;
     height: 8px;
     border: 1px solid #EDF2FA;
 }
+.tenantacc .acc_label{
+  color:#6B5E7B;
+}
+.acc_infotxt.tenantacc{
+  margin-right: 1em;
+margin-left: 0;
+text-align: right;
+}
 .acc_infotxt{
   margin-left: 3em;
+}
+.rightalignod{
+  text-align:right;
+  padding-right: 20px;
 }
 .maintenance .divinfo {
   margin: 0 ;
