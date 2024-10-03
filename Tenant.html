@@ -12,98 +12,116 @@
 </head>
 <body>
 
-  <header class="l-header">
-    <div class="l-header__inner clearfix">
-    <div class="c-header-icon">
-      <a href="javascript:void(0)" onclick="openNav()">
-    <div class="hamburger-toggle">
-      <span class="bar-top"></span>
-    <span class="bar-mid">
-    </span><span class="bar-bot"></span>
-    </div>
-    </a>
-    </div>
-    <div class="logo">
-    <div class="logo__txt">
-    <a href="tenant.html"><img src="images/logo.svg"></a>
-    </div>
-    </div>
-    
-    <div class="c-search">
-    <input class="c-search__input form-control" placeholder="Search" type="text"/>
-    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
-    </button>
-    </div>
-    
-    <div class="links">
-    <ul>
-    <li class="phone"> <a href="">
-    <img src="images/phone.svg"></a>
-    <div class="count_phone">
-    <span>4</span>
-    </div>
-    </li>
-    <li class="comment"> <a href="">
-    <img src="images/comment.svg"></a>
-    <div class="count_comment">
-    <span>5</span>
-    </div>
-    </li>
-    <li class="email"> <a href="">
-    <img src="images/email.svg"></a>
-    <div class="count_email">
-    <span>6</span>
-    </div>
-    </li>
-    <li class="notify"> <a href="">
-    <img src="images/notify.svg"></a>
-    <div class="count_notify">
-    <span>30</span>
-    </div>
-    </li>
-    </ul>
-    </div>
-    </div>
-    </header>
-    
-    
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="topsec_menu">
-      <div class="profilepic">
-        <img src="images/menu/profilemenu.svg">
-        <div class="status status_green">
-          <span></span>
-          </div>
-      </div>
-      <div class="profiledetails">
-        <p>Mae Coleman <small>Tenant</small></p>
-        <a href="">View Profile</a>
-      </div>
-      <div class="upgradediv">
-        <button class="btn upgrade_btn">Upgrade</button>
-      </div>
-    </div>
-    <div class="c-search menusearch">
-      <input class="c-search__input form-control" placeholder="Search" type="text"/>
-      <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
-      </button>
-    </div>
-      <div class="menu_nav">
-        <a href="myinformation.html" class="active">  <img src="images/menu/my_info.svg"> My Information</a>
-        <a href="#">  <img src="images/menu/communication.svg"> Communications</a>
-        <a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
-        <a href="#">  <img src="images/menu/showings.svg"> Showings</a>
-        <a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
-        <a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
-        <a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
-        <a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
-        <div class="logoutsec">
-          <a href="javascript:void(0);">Logout</a>
-        </div>
-      </div>
-    </div>
-    
+<header class="l-header">
+<div class="l-header__inner clearfix">
+<div class="c-header-icon desktopversion_search">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+<div class="logo">
+<div class="logo__txt">
+<a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+<div class="mobileversion_view">
+  <a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+</div>
+
+</div>
+</div>
+
+<div class="c-search desktopversion_search">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+
+<div class="mobileversion_view txt_heading">
+  <h3>My Information</h3>
+</div>
+
+<div class="links">
+<ul>
+<li class="phone desktopversion_search"> <a href="">
+<img src="images/phone.svg"></a>
+<div class="count_phone">
+<span>4</span>
+</div>
+</li>
+<li class="comment desktopversion_search"> <a href="">
+<img src="images/comment.svg"></a>
+<div class="count_comment">
+<span>5</span>
+</div>
+</li>
+<li class="email desktopversion_search"> <a href="">
+<img src="images/email.svg"></a>
+<div class="count_email">
+<span>6</span>
+</div>
+</li>
+<li class="notify"> <a href="">
+<img src="images/notify.svg"></a>
+<div class="count_notify">
+<span>30</span>
+</div>
+</li>
+</ul>
+</div>
+
+<div class="c-header-icon mobileversion_view">
+  <a href="javascript:void(0)" onclick="openNav()">
+  <div class="hamburger-toggle">
+  <span class="bar-top"></span>
+  <span class="bar-mid">
+  </span><span class="bar-bot"></span>
+  </div>
+  </a>
+  </div>
+</div>
+</header>
+
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="topsec_menu">
+<div class="profilepic">
+<img src="images/menu/profilemenu.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+<div class="profiledetails">
+<p>Mae Coleman <small>Tenant</small></p>
+<a href="">View Profile</a>
+</div>
+<div class="upgradediv">
+<button class="btn upgrade_btn">Upgrade</button>
+</div>
+</div>
+<div class="c-search menusearch">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+<div class="menu_nav">
+<a href="myinformation.html" class="active">  <img src="images/menu/my_info.svg"> My Information</a>
+<a href="#">  <img src="images/menu/communication.svg"> Communications</a>
+<a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+<a href="#">  <img src="images/menu/showings.svg"> Showings</a>
+<a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+<a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+<a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+<a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+<div class="logoutsec">
+<a href="javascript:void(0);">Logout</a>
+</div>
+</div>
+</div>
+
 
 
 <main class="l-main">
@@ -111,36 +129,36 @@
 <div class="container-fluid">
 <div class="row">
 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-  <div class="row">
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-    <div class="tenant_profilebg"></div>
-    
-    <div class="belowpart_tenant">
-      <div class="row">
-        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
-        <div class="profimg_div">
-        <img src="images/client.svg">
-        <div class="status status_green">
-        <span></span>
-        </div>
-        </div>
-        </div>
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-4 col-12">
-        <div class="profile_infotxt">
-        <p class="prof_label">Nickname</p>
-        <p class="profilename">Mae Coleman</p>
-        </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-        <div class="acc_infotxt tenantacc rightalignid">
-        <p class="acc_label"> ID No.</p>
-        <p class="account_no">1087623</p>
-        </div>
-        </div>
-        </div>
-    </div>
-    </div>
-    </div>
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+<div class="tenant_profilebg"></div>
+
+<div class="belowpart_tenant">
+<div class="row">
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
+<div class="profimg_div">
+<img src="images/client.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+</div>
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-4 col-6">
+<div class="profile_infotxt">
+<p class="prof_label">Nickname</p>
+<p class="profilename">Mae Coleman</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="acc_infotxt tenantacc rightalignid">
+<p class="acc_label"> ID No.</p>
+<p class="account_no">1087623</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <div class="row">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -182,7 +200,7 @@ basic information
 <div class="card-body">
 <div class="container-fluid">
 <div class="row">
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 border_atend">
 <div class="flexdiv">
 <div class="basicdatatxt">
 <label>First Name (Legal)*</label>
@@ -279,8 +297,8 @@ basic information
 employment
 </button>
 <span class="save_edit">
-  <a href="javascript:void(0)" class="accord_edit"><img src="images/myinfo/saveedit.svg"></a>  
-  <a href="javascript:void(0)" class="accord_save">Save</a>
+<a href="javascript:void(0)" class="accord_edit"><img src="images/myinfo/saveedit.svg"></a>  
+<a href="javascript:void(0)" class="accord_save">Save</a>
 </span>
 
 </h2>
@@ -289,7 +307,7 @@ employment
 <div class="card-body">
 <div class="container-fluid">
 <div class="row">
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 border_atend">
 <div class="flexdiv">
 <div class="basicdatatxt">
 <label>occupation *</label>
@@ -465,12 +483,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 <div class="tab-pane container active" id="Personal">
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 <div class="tabcontent_tenant">
 <p>Government ID - 1</p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -482,7 +500,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
 <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
 </div> 
 </div>
@@ -490,12 +508,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 <div class="tabcontent_tenant">
 <p>Government ID - 2</p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -507,7 +525,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
 <button class="btn commn upload" data-toggle="modal" data-target="#uploadpop">upload <img src="images/tenant_prof/upload.svg"></button>
 </div> 
 </div>
@@ -515,12 +533,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 <div class="tabcontent_tenant">
 <p>Credit Report</p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -532,7 +550,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
 <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
 </div> 
 </div>
@@ -540,12 +558,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 <div class="tabcontent_tenant">
 <p>Employment Letter </p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -557,7 +575,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
 <button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
 </div> 
 </div>
@@ -565,174 +583,13 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 
 <div class="details_block">
-  <div class="row tablealign">
-  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-  <div class="tabcontent_tenant">
-  <p>Pay stub - 1</p>
-  </div>
-  </div>
-  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-  <div class="flexcss_tenant">
-  <p>
-  <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-  <span>20/04/2024</span>
-  </p>
-  <p>
-  <span><img src="images/tenant_prof/cal.svg"> Verified</span>
-  <span>22/04/2024</span>
-  </p>
-  </div>
-  </div>
-  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-  <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
-  </div> 
-  </div>
-  </div>
-
-  <div class="details_block">
-    <div class="row tablealign">
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-    <div class="tabcontent_tenant">
-    <p>Pay stub - 2</p>
-    </div>
-    </div>
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-    <div class="flexcss_tenant">
-    <p>
-    <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-    <span>20/04/2024</span>
-    </p>
-    <p>
-    <span><img src="images/tenant_prof/cal.svg"> Verified</span>
-    <span>22/04/2024</span>
-    </p>
-    </div>
-    </div>
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-    <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
-    </div> 
-    </div>
-    </div>
-
-    <div class="details_block">
-      <div class="row tablealign">
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-      <div class="tabcontent_tenant">
-      <p>Pay stub - 3</p>
-      </div>
-      </div>
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-      <div class="flexcss_tenant">
-      <p>
-      <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-      <span>20/04/2024</span>
-      </p>
-      <p>
-      <span><img src="images/tenant_prof/cal.svg"> Verified</span>
-      <span>22/04/2024</span>
-      </p>
-      </div>
-      </div>
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-      <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
-      </div> 
-      </div>
-      </div>
-
-      <div class="details_block">
-        <div class="row tablealign">
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-        <div class="tabcontent_tenant">
-        <p>Bank Statement - 1 </p>
-        </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-        <div class="flexcss_tenant">
-        <p>
-        <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-        <span>20/04/2024</span>
-        </p>
-        </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-          <button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
-        </div> 
-        </div>
-        </div>
-
-        <div class="details_block">
-          <div class="row tablealign">
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-          <div class="tabcontent_tenant">
-          <p>Bank Statement - 2 </p>
-          </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-          <div class="flexcss_tenant">
-          <p>
-          <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-          <span>20/04/2024</span>
-          </p>
-          </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-            <button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
-          </div> 
-          </div>
-          </div>
-
-          <div class="details_block">
-            <div class="row tablealign">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-            <div class="tabcontent_tenant">
-            <p>Bank Statement - 3 </p>
-            </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-            <div class="flexcss_tenant">
-            <p>
-            <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-            <span>20/04/2024</span>
-            </p>
-            </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-              <button class="btn commn upload">upload <img src="images/tenant_prof/upload.svg"></button>
-            </div> 
-            </div>
-            </div>
-
-            <div class="details_block">
-              <div class="row tablealign">
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-              <div class="tabcontent_tenant">
-              <p>vehicle Ownership </p>
-              </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-              <div class="flexcss_tenant">
-              <p>
-                not required
-              </p>
-              </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-                <button class="btn commn upload">upload <img src="images/tenant_prof/upload.svg"></button>
-              </div> 
-              </div>
-              </div>
-
-</div>
-
-<div class="tab-pane container fade" id="Corporate">
-<div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 <div class="tabcontent_tenant">
-<p>Government ID - 1</p>
+<p>Pay stub - 1</p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -744,7 +601,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
 <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
 </div> 
 </div>
@@ -752,12 +609,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 <div class="tabcontent_tenant">
-<p>Government ID - 2</p>
+<p>Pay stub - 2</p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -769,7 +626,95 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
+</div> 
+</div>
+</div>
+
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Pay stub - 3</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Verified</span>
+<span>22/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
+</div> 
+</div>
+</div>
+
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Bank Statement - 1 </p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
+</div> 
+</div>
+</div>
+
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Bank Statement - 2 </p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
+</div> 
+</div>
+</div>
+
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Bank Statement - 3 </p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
 <button class="btn commn upload">upload <img src="images/tenant_prof/upload.svg"></button>
 </div> 
 </div>
@@ -777,12 +722,35 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 <div class="tabcontent_tenant">
-<p>Credit Report</p>
+<p>vehicle Ownership </p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+not required
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn upload">upload <img src="images/tenant_prof/upload.svg"></button>
+</div> 
+</div>
+</div>
+
+</div>
+
+<div class="tab-pane container fade" id="Corporate">
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Government ID - 1</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -794,7 +762,7 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
 <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
 </div> 
 </div>
@@ -802,12 +770,12 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="details_block">
 <div class="row tablealign">
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 <div class="tabcontent_tenant">
-<p>Employment Letter </p>
+<p>Government ID - 2</p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
 <div class="flexcss_tenant">
 <p>
 <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
@@ -819,169 +787,219 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 </p>
 </div>
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn upload">upload <img src="images/tenant_prof/upload.svg"></button>
+</div> 
+</div>
+</div>
+
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Credit Report</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Verified</span>
+<span>22/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
+</div> 
+</div>
+</div>
+
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Employment Letter </p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Verified</span>
+<span>22/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
 <button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
 </div> 
 </div>
 </div>
 
 <div class="details_block">
-  <div class="row tablealign">
-  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-  <div class="tabcontent_tenant">
-  <p>Pay stub - 1</p>
-  </div>
-  </div>
-  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-  <div class="flexcss_tenant">
-  <p>
-  <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-  <span>20/04/2024</span>
-  </p>
-  <p>
-  <span><img src="images/tenant_prof/cal.svg"> Verified</span>
-  <span>22/04/2024</span>
-  </p>
-  </div>
-  </div>
-  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-  <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
-  </div> 
-  </div>
-  </div>
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Pay stub - 1</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Verified</span>
+<span>22/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
+</div> 
+</div>
+</div>
 
-  <div class="details_block">
-    <div class="row tablealign">
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-    <div class="tabcontent_tenant">
-    <p>Pay stub - 2</p>
-    </div>
-    </div>
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-    <div class="flexcss_tenant">
-    <p>
-    <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-    <span>20/04/2024</span>
-    </p>
-    <p>
-    <span><img src="images/tenant_prof/cal.svg"> Verified</span>
-    <span>22/04/2024</span>
-    </p>
-    </div>
-    </div>
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-    <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
-    </div> 
-    </div>
-    </div>
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Pay stub - 2</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Verified</span>
+<span>22/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
+</div> 
+</div>
+</div>
 
-    <div class="details_block">
-      <div class="row tablealign">
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-      <div class="tabcontent_tenant">
-      <p>Pay stub - 3</p>
-      </div>
-      </div>
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-      <div class="flexcss_tenant">
-      <p>
-      <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-      <span>20/04/2024</span>
-      </p>
-      <p>
-      <span><img src="images/tenant_prof/cal.svg"> Verified</span>
-      <span>22/04/2024</span>
-      </p>
-      </div>
-      </div>
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-      <button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
-      </div> 
-      </div>
-      </div>
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Pay stub - 3</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Verified</span>
+<span>22/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn verified">Verified <img src="images/tenant_prof/verified.svg"></button>
+</div> 
+</div>
+</div>
 
-      <div class="details_block">
-        <div class="row tablealign">
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-        <div class="tabcontent_tenant">
-        <p>Bank Statement - 1 </p>
-        </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-        <div class="flexcss_tenant">
-        <p>
-        <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-        <span>20/04/2024</span>
-        </p>
-        </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-          <button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
-        </div> 
-        </div>
-        </div>
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Bank Statement - 1 </p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
+</div> 
+</div>
+</div>
 
-        <div class="details_block">
-          <div class="row tablealign">
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-          <div class="tabcontent_tenant">
-          <p>Bank Statement - 2 </p>
-          </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-          <div class="flexcss_tenant">
-          <p>
-          <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-          <span>20/04/2024</span>
-          </p>
-          </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-            <button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
-          </div> 
-          </div>
-          </div>
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Bank Statement - 2 </p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn pendingverif">Pending <span>Verification</span> <img src="images/tenant_prof/pending.svg"></button>
+</div> 
+</div>
+</div>
 
-          <div class="details_block">
-            <div class="row tablealign">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-            <div class="tabcontent_tenant">
-            <p>Bank Statement - 3 </p>
-            </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-            <div class="flexcss_tenant">
-            <p>
-            <span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
-            <span>20/04/2024</span>
-            </p>
-            </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-              <button class="btn commn upload">upload <img src="images/tenant_prof/upload.svg"></button>
-            </div> 
-            </div>
-            </div>
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>Bank Statement - 3 </p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+<span><img src="images/tenant_prof/cal.svg"> Uploaded</span>
+<span>20/04/2024</span>
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn upload">upload <img src="images/tenant_prof/upload.svg"></button>
+</div> 
+</div>
+</div>
 
-            <div class="details_block">
-              <div class="row tablealign">
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-              <div class="tabcontent_tenant">
-              <p>vehicle Ownership </p>
-              </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-              <div class="flexcss_tenant">
-              <p>
-                not required
-              </p>
-              </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 rightalign">
-                <button class="btn commn upload">upload <img src="images/tenant_prof/upload.svg"></button>
-              </div> 
-              </div>
-              </div>
+<div class="details_block">
+<div class="row tablealign">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+<div class="tabcontent_tenant">
+<p>vehicle Ownership </p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mobilehide_div">
+<div class="flexcss_tenant">
+<p>
+not required
+</p>
+</div>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 rightalign">
+<button class="btn commn upload">upload <img src="images/tenant_prof/upload.svg"></button>
+</div> 
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -989,9 +1007,9 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <div class="row">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-  <div class="btncenter_div">
-    <button class="btn explore"><img src="images/tenant_prof/explore.svg">Explore</button>
-  </div>
+<div class="btncenter_div">
+<button class="btn explore"><img src="images/tenant_prof/explore.svg">Explore</button>
+</div>
 </div>
 </div>
 </div>
@@ -1004,39 +1022,70 @@ And lastly, the placeholder content for the third and final accordion panel. Thi
 
 <!-- The Modal -->
 <div class="modal fade uploaddesign_popup show" id="uploadpop">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-    
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      
-      <!-- Modal body -->
-      <div class="modal-body">
-            <div class="container">
-              <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                  <form>
-                    <div class="upload_file">
-                        <img src="images/upload.svg">
-                        <h3>Upload Vehicle Ownership</h3>
-                    </div>
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
 
-                    <div class="uploadbuttons">
-                      <input type="file"/>
-                      <button class="btn btnupl"><img src="images/uploadimg.svg">upload from Desktop</button>
-
-                      <button class="btn btnscan"><img src="images/scan.svg">open scanner</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-      </div>
-    </div>
-  </div>
+<!-- Modal Header -->
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
 </div>
+
+<!-- Modal body -->
+<div class="modal-body">
+<div class="container">
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+<form>
+<div class="upload_file">
+<img src="images/upload.svg">
+<h3>Upload Vehicle Ownership</h3>
+</div>
+
+<div class="uploadbuttons">
+<input type="file"/>
+<button class="btn btnupl"><img src="images/uploadimg.svg">upload from Desktop</button>
+
+<button class="btn btnscan"><img src="images/scan.svg">open scanner</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- mobileview menu -->
+<div class="container-fluid btmmenu">
+<div class="flex_menubottom">
+<div class="dash">
+<a href="">
+<img src="images/dashboard.svg">
+<p>Dashboard</p>
+</a> 
+</div>
+<div class="commu">
+<a href="">
+<img src="images/communication.svg">
+<p>Communication</p>
+</a>
+</div>
+<div class="maint">
+<a href="">
+<img src="images/maintenance.svg">
+<p>Maintenance</p>
+</a>
+</div>
+<div class="rent">
+<a href="">
+<img src="images/rentals.svg">
+<p>Rentals</p>
+</a>
+</div>
+</div>
+</div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>

@@ -60,7 +60,7 @@
     .myinfo_txt span {
         font-size: 19px;
     }
-    .flexdiv .basicdata p {
+    .flexdiv .basicdata p,.flexdiv .basicdata .form-group select.form-control {
         font-size: 10px;
     }
     .l-header {
@@ -167,6 +167,9 @@
     .c-search {
         margin-left: 7em;
     }
+    .my_info, .req_document {
+        padding: 14px 9px;
+    }
     .profimg_div img {
         height: 92px;
         width: 92px;
@@ -202,11 +205,14 @@
 }
 
 @media only screen and (max-width:992px){
-    .my_info,.req_document {
-        padding: 14px 10px;
+    .l-header {
+        height: 111px;
     }
     .profimg_div .status {
         right: -9px;
+    }
+    .flexdiv div label {
+        font-size: 10px;
     }
 }
 
@@ -218,7 +224,7 @@
         width: 50%;
     }
     .profimg_div {
-        margin: -42px 0 0 58px;
+        margin: -54px 0 0 70px;
     }
     .belowpart_tenant {
         padding: 19px 0 21px 0;
@@ -232,7 +238,7 @@
     .c-search {
         margin-left: 1em;
     }
-    .flexdiv .basicdata p {
+    .flexdiv .basicdata p,.flexdiv .basicdata .form-group select.form-control {
         font-size: 13px;
     }
     .profimg_div img {
@@ -254,16 +260,641 @@
     .tabcontent_tenant p {
         font-size: 14px;
     }
-    .btn.commn {
+    .btn.commn,.start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 13px;
+    }
+    .my_info, .req_document {
+        padding: 14px 20px;
     }
 }
 
 @media only screen and (max-width:768px){
     .profimg_div .status {
-        right: 6px;
+        right: -5px;
     }
     .btn.commn img {
         height: 12px;
     } 
+    .l-header__inner {
+        height: 77px;
+    }
+    .flexdiv {
+        padding: 10px 3px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width:320px) {
+    .profimg_div .status {
+        right: 56px;
+    }
+    .border_atend{
+        border-bottom: 1px solid #C9D7E5;
+    }
+    .basicdatatxt {
+        flex-basis: 49%;
+    }
+    .basicdata {
+        flex-basis: 49%;
+    }
+    .edit_anchor .cancelbtn{
+        font-size: 12px;
+    }
+    .btn.explore {
+        width: 24%;
+    }
+    .btn.commn.pendingverif,.btn.commn {
+        width: 62%;
+    }
+    .myinfo_txt span {
+        font-size: 19px;
+    }
+    .profimg_div img {
+        height: 115px;
+        width: 115px;
+    }
+    .tenantaccord .card .card-header h2 button {
+        font-size: 16px;
+    }
+    .profimg_div .status {
+        right: 46px;
+    }
+    .flexdiv div label {
+        font-size: 14px;
+    }
+    .flexdiv .basicdata p ,.flexdiv .basicdata .form-group select.form-control{
+        font-size: 14px;
+    }
+    .req_document .tab-content .tab-pane.container{
+        max-width: 100%;
+    }
+    .c-search {
+        margin-left: 10px;
+    }
+    .btncenter_div {
+        margin: 14px 0 9px 0;
+    }
+
+    .btn.commn.pendingverif img {
+        height: 15px;
+    }
+}
+
+@media only screen and (max-width: 754px) and (min-width:736px) {
+    .profimg_div .status {
+        right: 36px;
+        bottom: 20px;
+    }
+}
+@media only screen and (max-width: 735px) and (min-width:718px) {
+    .profimg_div .status {
+        right: 35px;
+    }
+}
+@media only screen and (max-width: 717px) and (min-width:699px) {
+    .profimg_div .status {
+        right: 30px;
+    }
+}
+@media only screen and (max-width: 698px) and (min-width:676px) {
+    .profimg_div .status {
+        right: 20px;
+        bottom: 19px;
+    }
+}
+@media only screen and (max-width: 675px) and (min-width:641px) {
+    .profimg_div .status {
+        right: 13px;
+    }
+}
+@media only screen and (max-width: 640px) and (min-width:569px) {
+    .links ul li {
+        padding: 0 7px;
+    }
+    .profimg_div .status {
+        right: 7px;
+    }
+    .btn.commn.pendingverif, .btn.commn {
+        width: 67%;
+        font-size: 12px;
+    }
+    .tabcontent_tenant p {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:575px) {
+.mobilehide_div{
+    display: none;
+}
+.flex_menubottom{
+    display: block;
+}
+.sidenav {
+    height: 100%;
+    top: 1px;
+}
+.btn.explore {
+    width: 30%;
+}
+.btmmenu{
+    padding: 0;
+    margin: 1em 0 0 0;
+}
+.flex_menubottom p{
+font-family: 'Helvetica Rounded';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+text-transform: capitalize;
+margin:10px 0 0 0;
+}
+.flex_menubottom .dash p{
+    color: #C9D7E5;
+}
+.flex_menubottom .commu p{
+    color: #9BB997;
+}
+.flex_menubottom .maint p{
+    color: #F8B195;
+}
+.flex_menubottom .rent p{
+    color: #F1D15B;
+}
+.flex_menubottom{
+    background: #315D80;
+    box-shadow: inset 4px 4px 4px #4D7EA5;
+    border-radius: 24px 24px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 22px 10px;
+}
+.belowpart_tenant {
+    padding: 19px 17px 21px 17px;
+}
+.acc_infotxt.tenantacc{
+    margin:0;
+}
+.profimg_div {
+    margin: -67px 0 0 0px;
+    display: inline-flex;
+}
+.profimg_div img {
+    height: 95px;
+    width: 95px;
+}
+.profimg_div .status {
+    right: 9px;
+}
+.profile_infotxt,.acc_infotxt.tenantacc{
+    display: flex;
+    flex-direction: column;
+}
+.profile_infotxt .prof_label ,.tenantacc .acc_label{
+    display: flex;
+    order: 2;
+}
+.tenantacc .acc_label,.account_no {
+    justify-content: right;
+}
+.profilename, .account_no {
+    display: flex;
+    order: 1;
+}
+.links ul li img {
+    height: 14px;
+}
+.links ul li div span {
+    height: 20px;
+    width: 20px;
+    font-size: 9px;
+}
+.count_phone, .count_notify, .count_comment, .count_email {
+    top: -15px;
+    right: -2px;
+}
+.c-search__input {
+    padding: 0 9px;
+    font-size: 12px;
+    height: 40px;
+}
+.logo__txt a img{
+    height: 40px;
+}
+.links ul li {
+    padding: 0 9px;
+}
+.tenant_profilebg {
+    height: 103px;
+}
+.tenantaccord .card .card-header h2 button {
+    font-size: 15px;
+}
+.flexdiv div label,.flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
+    font-size: 13px;
+}
+.btn.commn.pendingverif{
+    text-align: center;
+}
+.btn.commn{
+    text-align: right;
+}
+.btn.commn.pendingverif, .btn.commn {
+    width: 53%;
+    padding: 7px 12px 7px 11px;
+}
+.btn.explore {
+    padding: 9px;
+    font-size: 14px;
+}
+.desktopversion_logo,.desktopversion_search{
+    display:none;
+}
+.mobileversion_view{
+    display:block;
+}
+.hamburger-toggle [class*='bar-'] {
+    height:3px;
+    width: 28px;
+}
+.hamburger-toggle [class*='bar-']:nth-child(2) {
+    width: 23px;
+}
+.hamburger-toggle [class*='bar-']:last-child {
+    width: 19px;
+}
+.links ul li img {
+    height: 29px;
+}
+.txt_heading{
+    margin: 0 1.4em 0 3.5em;
+}
+.txt_heading h3{
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #EEF4FF;
+    letter-spacing: 1.5px;
+}
+.l-header {
+    background: url(../images/mobilebg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 131px;
+}
+.l-header__inner {
+    height: 75px;
+    justify-content: space-between;
+}
+}
+@media only screen and (max-width: 568px) and (min-width:481px) {
+    .acc_label,.profile_infotxt .prof_label{
+        font-size: 13px;
+    }
+    .btn.commn img {
+        height: 14px;
+    }
+    .refresh_anchor a {
+        font-size: 13px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 480px) and (min-width:449px) {
+    .txt_heading {
+        margin: 0 1em 0 3em;
+    }
+    .txt_heading h3 {
+        font-size: 24px;
+    }
+    .l-header {
+        height: 126px;
+    }
+    .btn.commn.pendingverif, .btn.commn {
+        width: 69%;
+    }
+    .my_info, .req_document {
+        padding: 14px 14px;
+    }
+    .tenant_profilebg {
+        height: 93px;
+    }
+    .l-header__inner {
+        height: 78px;
+    }
+}
+@media only screen and (max-width: 448px) and (min-width:415px) {
+    .btn.commn.pendingverif, .btn.commn {
+        width: 72%;
+        padding: 7px 9px 7px 8px;
+    }
+    .txt_heading h3 {
+        font-size: 23px;
+    }
+    .l-header {
+        height: 117px;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .profilename, .account_no {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 414px) and (min-width:386px) {
+    .txt_heading {
+        margin: 0 1.4em 0 2.9em;
+    }
+    .l-header {
+        height: 112px;
+    }
+    .txt_heading h3 {
+        font-size: 22px;
+    }
+    .myinfo_txt img {
+        margin-right: 2px;
+    }
+    .myinfo_txt span {
+        font-size: 17px;
+    }
+    .profilename, .account_no {
+        font-size: 16px;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
+        font-size: 12px;
+    }
+    .tenantaccord .card .card-header h2 button {
+        font-size: 14px;
+    }
+    .btn.commn.pendingverif, .btn.commn {
+        width: 86%;
+    }
+    .flex_menubottom p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .tenant_profilebg {
+        height: 82px;
+    }
+    .profimg_div img {
+        height: 79px;
+        width: 79px;
+    }
+    .profimg_div .status {
+        right: 11px;
+        bottom: 11px;
+    }
+}
+
+@media only screen and (max-width: 385px) and (min-width:376px) {
+    .my_info, .req_document {
+        padding: 14px 10px;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .btn.commn.pendingverif, .btn.commn {
+        width: 80%;
+    }
+    .btn.explore {
+        width: 35%;
+    }
+    .flex_menubottom p {
+        font-size: 13px;
+    }
+    .txt_heading h3 {
+        font-size: 22px;
+    }
+    .l-header {
+        height: 111px;
+    }
+    .txt_heading {
+        margin: 0 1.2em 0 3.1em;
+    }
+}
+
+
+@media only screen and (max-width: 375px) and (min-width:361px) {
+    .txt_heading h3 {
+        font-size: 22px;
+    }
+    .l-header {
+        height: 111px;
+    }
+    .txt_heading {
+        margin: 0 1.1em 0 2.8em;
+    }
+    .my_info, .req_document {
+        padding: 14px 10px;
+    }
+    .edit_anchor .cancelbtn {
+        font-size: 10px;
+    }
+    .myinfo_txt span {
+        font-size: 17px;
+    }
+    .profilename, .account_no {
+        font-size: 16px;
+    }
+    .tenantaccord .card .card-header h2 button {
+        font-size: 14px;
+    }
+    .btn.commn.pendingverif, .btn.commn {
+        width: 90%;
+        padding: 7px 12px 7px 11px;
+    }
+    .tabcontent_tenant p {
+        font-size: 13px;
+    }
+    .myinfo_txt span {
+        font-size: 16px;
+    }
+    .profilename, .account_no {
+        font-size: 15px;
+    }
+    .profile_infotxt .prof_label {
+        font-size: 12px;
+    }
+    .flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
+        font-size: 12px;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .flex_menubottom p {
+        font-size: 12px;
+    }
+    .btn.explore {
+        width: 37%;
+    }
+}
+
+
+
+@media only screen and (max-width: 360px) and (min-width:341px) {
+    .txt_heading h3 {
+        font-size: 19px;
+    }
+    .l-header {
+        height: 106px;
+    }
+    .txt_heading {
+        margin: 0 1.2em 0 2.3em;
+    }
+    .my_info, .req_document {
+        padding: 14px 10px;
+    }
+    .myinfo_txt span {
+        font-size: 15px;
+    }
+    .edit_anchor .cancelbtn {
+        font-size: 11px;
+    }
+    .tenant_profilebg {
+        height: 82px;
+    }
+    .profimg_div img {
+        height: 83px;
+        width: 83px;
+    }
+    .profimg_div .status {
+        bottom: 13px;
+    }
+    .profilename, .account_no {
+        font-size: 15px;
+    }
+    .edit_anchor img{
+        height: 35px;
+    }
+    .flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
+        font-size: 12px;
+    }
+    .tenantaccord .card .card-header h2 button {
+        font-size: 14px;
+    }
+    .tabcontent_tenant p {
+        font-size: 13px;
+    }
+    .btn.commn.pendingverif, .btn.commn {
+        width: 100%;
+    }
+    .btn.explore {
+        width: 41%;
+    }
+    .tabsdiv .nav.nav-tabs li a {
+        padding: 11px 16px;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .links ul li img {
+        height: 23px;
+    }
+    .flex_menubottom p {
+        font-size: 12px;
+    }
+    .belowpart_tenant {
+        padding: 19px 17px 16px 17px;
+    }
+}
+
+@media only screen and (max-width: 340px) and (min-width:320px) {
+    .txt_heading {
+        margin: 0 1em 0 1.5em;
+    }
+    .profimg_div .status {
+        bottom: 12px;
+    }
+    .flex_menubottom img{
+        height: 26px;
+    }
+    .txt_heading h3 {
+        font-size: 19px;
+    }
+    .l-header {
+        height: 100px;
+    }
+    .links ul li img {
+        height: 23px;
+    }
+    .profimg_div img {
+        height: 80px;
+        width: 80px;
+    }
+    .details_block {
+        padding: 4px 20px 4px 12px;
+    }
+    .edit_anchor .cancelbtn {
+        font-size: 10px;
+    }
+    .myinfo_txt span {
+        font-size: 14px;
+    }
+    .tenant_profilebg {
+        height: 86px;
+    }
+    .profile_infotxt .prof_label, .acc_label {
+        font-size: 13px;
+    }
+    .my_info, .req_document {
+        padding: 14px 10px;
+    }
+    .editoption .form-group select.form-control {
+        font-size: 11px;
+        padding: 5px 3px;
+        width: 50px;
+    }
+    .myinfo_txt img {
+        margin-right: 2px;
+    }
+    .tenantaccord .card .card-header {
+        padding: 8px 20px;
+    }
+    .flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
+        font-size: 12px;
+    }
+    .btn.explore {
+        width: 42%;
+    }
+    .flex_menubottom p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .tabcontent_tenant p {
+        font-size: 12px;
+    }
+    .btn.commn.pendingverif, .btn.commn {
+        width: 100%;
+    }
+    .profilename, .account_no {
+        font-size: 15px;
+    }
+    .tenantaccord .card .card-header h2 button {
+        font-size: 13px;
+    }
+    .tenantaccord .card .card-header {
+        padding: 8px 20px 8px 13px;
+    }
+    .edit_anchor img{
+        height: 30px;
+    }
+    .tabsdiv .nav.nav-tabs li a {
+        font-size: 13px;
+        padding: 11px;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 10px;
+    }
 }
