@@ -287,6 +287,10 @@
     .profimg_div .status {
         right: 56px;
     }
+    .btn.btnupl, .btn.btnscan {
+        width: 67%;
+        margin: 0 10px 14px 0;
+    }
     .border_atend{
         border-bottom: 1px solid #C9D7E5;
     }
@@ -382,6 +386,13 @@
     }
 }
 @media only screen and (max-width:575px) {
+    .uploaddesign_popup .modal-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .modal.uploaddesign_popup.success{
+        top: 19%;
+    }
 .mobilehide_div{
     display: none;
 }
@@ -508,6 +519,9 @@ margin:10px 0 0 0;
     width: 53%;
     padding: 5px 12px 7px 11px;
 }
+.btn.commn.upload ,.btn.commn.verified{
+    width: 46%;
+}
 .btn.explore {
     padding: 9px;
     font-size: 14px;
@@ -566,11 +580,32 @@ margin:10px 0 0 0;
     .refresh_anchor a {
         font-size: 13px;
     }
+    .btn.commn.pendingverif, .btn.commn {
+        width: 59%;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .btn.commn.upload, .btn.commn.verified {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
     .txt_heading {
         margin: 0 1em 0 3em;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .uploaddesign_popup.success .modal-content {
+        width: 97%;
+    }
+    .btn.commn.upload, .btn.commn.verified {
+        width: 60%;
+    }
+    .btn.btnupl, .btn.btnscan {
+        width: 83%;
     }
     .txt_heading h3 {
         font-size: 24px;
@@ -596,17 +631,29 @@ margin:10px 0 0 0;
         width: 80%;
         padding: 7px 9px 7px 8px;
     }
+    .btn.commn.upload, .btn.commn.verified {
+        width: 60%;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .uploaddesign_popup.success .modal-content {
+        width: 97%;
+    }
+    .btn.btnupl, .btn.btnscan {
+        width: 83%;
+    }
     .txt_heading h3 {
         font-size: 23px;
     }
     .l-header {
         height: 117px;
     }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
     .profilename, .account_no {
         font-size: 16px;
+    }
+    .btn.commn.pendingverif, .btn.commn {
+        padding: 5px 9px 7px 8px;
     }
 }
 
@@ -614,6 +661,19 @@ margin:10px 0 0 0;
 @media only screen and (max-width: 414px) and (min-width:386px) {
     .txt_heading {
         margin: 0 1.4em 0 2.9em;
+    }
+
+    .btn.commn.upload, .btn.commn.verified {
+        width: 70%;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .uploaddesign_popup.success .modal-content {
+        width: 97%;
+    }
+    .btn.btnupl, .btn.btnscan {
+        width: 83%;
     }
     .tabcontent_tenant p {
         font-size: 12px;
@@ -644,7 +704,7 @@ margin:10px 0 0 0;
         font-size: 14px;
     }
     .btn.commn.pendingverif, .btn.commn {
-        width: 95%;
+        width: 79%;
     }
     .flex_menubottom p {
         font-size: 13px;
@@ -667,11 +727,23 @@ margin:10px 0 0 0;
     .my_info, .req_document {
         padding: 14px 10px;
     }
+    .uploaddesign_popup.success .modal-content {
+        width: 97%;
+    }
     .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 12px;
     }
+    .btn.btnupl, .btn.btnscan {
+        width: 83%;
+    }
     .btn.commn.pendingverif, .btn.commn {
         width: 95%;
+    }
+    .btn.commn.upload, .btn.commn.verified {
+        width: 73%;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
     }
     .btn.explore {
         width: 35%;
@@ -701,6 +773,19 @@ margin:10px 0 0 0;
 @media only screen and (max-width: 375px) and (min-width:361px) {
     .txt_heading h3 {
         font-size: 22px;
+    }
+    .uploaddesign_popup.success .modal-content {
+        width: 97%;
+    }
+    .btn.commn.upload, .btn.commn.verified {
+        width: 73%;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .btn.btnupl, .btn.btnscan {
+        width: 100%;
+        font-size: 13px;
     }
     .tabcontent_tenant p {
         font-size: 12px;
@@ -765,6 +850,19 @@ margin:10px 0 0 0;
 @media only screen and (max-width: 360px) and (min-width:341px) {
     .txt_heading h3 {
         font-size: 19px;
+    }
+    .btn.commn.upload, .btn.commn.verified {
+        width: 78%;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .uploaddesign_popup.success .modal-content {
+        width: 97%;
+    }
+    .btn.btnupl, .btn.btnscan {
+        width: 100%;
+        font-size: 13px;
     }
     .details_block {
         height: auto;
@@ -841,6 +939,19 @@ margin:10px 0 0 0;
     .txt_heading {
         margin: 0 1em 0 1.5em;
     }
+    .btn.commn.upload, .btn.commn.verified {
+        width: 75%;
+    }
+    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+        font-size: 12px;
+    }
+    .uploaddesign_popup.success .modal-content {
+        width: 97%;
+    }
+    .btn.btnupl, .btn.btnscan {
+        width: 100%;
+        font-size: 13px;
+    }
     .details_block {
         height: auto;
     }
@@ -907,7 +1018,7 @@ margin:10px 0 0 0;
         line-height: 13px;
     }
     .btn.commn.pendingverif, .btn.commn {
-        width: 100%;
+        width: 90%;
     }
     .profilename, .account_no {
         font-size: 15px;

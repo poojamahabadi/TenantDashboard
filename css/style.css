@@ -2337,6 +2337,37 @@ input.form-control.edit-input, select.form-control.edit-input {
   justify-content: center;
   padding-bottom: 5%;
 }
+
+.uploadbuttons .btn.btnok{
+  background: #3E6B8E;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1), inset 2px 4px 10px 1px #5983A3;
+  border-radius: 40px;
+  padding: 10px 39px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.uploaddesign_popup.success .modal-body {
+  padding: 2em 0em;
+}
+.uploaddesign_popup.success .upload_file{
+  margin: 0 0 20px 0;
+}
+.upload_file p{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+text-transform: capitalize;
+color: #315D80;
+}
 /* .success_css {
   display: flex;
   align-items: center;
