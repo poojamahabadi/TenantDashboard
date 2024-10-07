@@ -395,6 +395,9 @@
 .btn.explore {
     width: 30%;
 }
+.my_info, .req_document {
+    padding: 14px 10px;
+}
 .btmmenu{
     padding: 0;
     margin: 1em 0 0 0;
@@ -576,7 +579,7 @@ margin:10px 0 0 0;
         height: 126px;
     }
     .btn.commn.pendingverif, .btn.commn {
-        width: 69%;
+        width: 75%;
     }
     .my_info, .req_document {
         padding: 14px 14px;
@@ -590,7 +593,7 @@ margin:10px 0 0 0;
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
     .btn.commn.pendingverif, .btn.commn {
-        width: 72%;
+        width: 80%;
         padding: 7px 9px 7px 8px;
     }
     .txt_heading h3 {
@@ -612,7 +615,10 @@ margin:10px 0 0 0;
     .txt_heading {
         margin: 0 1.4em 0 2.9em;
     }
-
+    .tabcontent_tenant p {
+        font-size: 12px;
+        line-height: 13px;
+    }
     .l-header {
         height: 112px;
     }
@@ -638,7 +644,7 @@ margin:10px 0 0 0;
         font-size: 14px;
     }
     .btn.commn.pendingverif, .btn.commn {
-        width: 86%;
+        width: 95%;
     }
     .flex_menubottom p {
         font-size: 13px;
@@ -665,7 +671,7 @@ margin:10px 0 0 0;
         font-size: 12px;
     }
     .btn.commn.pendingverif, .btn.commn {
-        width: 80%;
+        width: 95%;
     }
     .btn.explore {
         width: 35%;
@@ -682,12 +688,26 @@ margin:10px 0 0 0;
     .txt_heading {
         margin: 0 1.2em 0 3.1em;
     }
+    .tabcontent_tenant p {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .details_block {
+        height: auto;
+    }
 }
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
     .txt_heading h3 {
         font-size: 22px;
+    }
+    .tabcontent_tenant p {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .details_block {
+        height: auto;
     }
     .l-header {
         height: 111px;
@@ -746,6 +766,13 @@ margin:10px 0 0 0;
     .txt_heading h3 {
         font-size: 19px;
     }
+    .details_block {
+        height: auto;
+    }
+    .tabcontent_tenant p {
+        font-size: 12px;
+        line-height: 13px;
+    }
     .l-header {
         height: 106px;
     }
@@ -783,9 +810,6 @@ margin:10px 0 0 0;
     .tenantaccord .card .card-header h2 button {
         font-size: 14px;
     }
-    .tabcontent_tenant p {
-        font-size: 13px;
-    }
     .btn.commn.pendingverif, .btn.commn {
         width: 100%;
     }
@@ -807,11 +831,18 @@ margin:10px 0 0 0;
     .belowpart_tenant {
         padding: 19px 17px 16px 17px;
     }
+    .tabcontent_tenant p {
+        font-size: 12px;
+        line-height: 13px;
+    }
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
     .txt_heading {
         margin: 0 1em 0 1.5em;
+    }
+    .details_block {
+        height: auto;
     }
     .profimg_div .status {
         bottom: 12px;
@@ -873,6 +904,7 @@ margin:10px 0 0 0;
     }
     .tabcontent_tenant p {
         font-size: 12px;
+        line-height: 13px;
     }
     .btn.commn.pendingverif, .btn.commn {
         width: 100%;
@@ -891,7 +923,7 @@ margin:10px 0 0 0;
     }
     .tabsdiv .nav.nav-tabs li a {
         font-size: 13px;
-        padding: 11px;
+        padding: 9px;
     }
     .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 10px;
