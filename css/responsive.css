@@ -8,6 +8,9 @@
 .profimg_div .status {
     right: 66px;
 }
+.modal.uploaddesign_popup.success{
+    top: 22%;
+}
 }
 
 @media only screen and (max-width: 1600px) {
@@ -105,6 +108,9 @@
     .l-header__inner {
         height: 77px;
     }
+    .modal.uploaddesign_popup.success {
+        top: 12%;
+    }
     .profimg_div {
         margin: -53px 0 0 16px;
     }
@@ -120,6 +126,9 @@
     .profimg_div img {
         height: 105px;
         width: 105px;
+    }
+    .modal.uploaddesign_popup.success {
+        top: 17%;
     }
     .links ul li {
         padding: 0 14px;
@@ -215,10 +224,20 @@
         font-size: 10px;
     }
 }
-
+@media only screen and (max-width: 991px) and (min-width: 320px){
+    .btn.commn {
+        width: 35%;
+    }
+    .req_document .tabsdiv .tab-content .container {
+        max-width: 100%;
+    }
+}
 @media only screen and (max-width:800px){
     .btn.explore {
         width: 20%;
+    }
+    .modal.uploaddesign_popup.success {
+        top: 11%;
     }
     .btn.commn {
         width: 50%;
@@ -246,7 +265,7 @@
         width: 101px;
     }
     .profimg_div .status {
-        right: 14px;
+        right: 4px;
     }
     .tenantaccord .card .card-header h2 button {
         font-size: 14px;
@@ -287,6 +306,9 @@
     .profimg_div .status {
         right: 56px;
     }
+    .uploaddesign_popup{
+        margin: 4em auto 0 auto;
+    }
     .btn.btnupl, .btn.btnscan {
         width: 67%;
         margin: 0 10px 14px 0;
@@ -306,8 +328,11 @@
     .btn.explore {
         width: 24%;
     }
-    .btn.commn.pendingverif,.btn.commn {
+    .btn.commn.pendingverif {
         width: 62%;
+    }
+    .btn.commn{
+        width: 54%;
     }
     .myinfo_txt span {
         font-size: 19px;
@@ -377,8 +402,12 @@
     .profimg_div .status {
         right: 7px;
     }
-    .btn.commn.pendingverif, .btn.commn {
+    .btn.commn.pendingverif {
         width: 67%;
+        font-size: 12px;
+    }
+     .btn.commn {
+        width: 60%;
         font-size: 12px;
     }
     .tabcontent_tenant p {
@@ -392,6 +421,9 @@
     }
     .modal.uploaddesign_popup.success{
         top: 19%;
+    }
+    .uploaddesign_popup {
+        margin: 2em auto 0 auto;
     }
 .mobilehide_div{
     display: none;
@@ -520,7 +552,7 @@ margin:10px 0 0 0;
     padding: 5px 12px 7px 11px;
 }
 .btn.commn.upload ,.btn.commn.verified{
-    width: 46%;
+    width: 44%;
 }
 .btn.explore {
     padding: 9px;
@@ -580,14 +612,15 @@ margin:10px 0 0 0;
     .refresh_anchor a {
         font-size: 13px;
     }
-    .btn.commn.pendingverif, .btn.commn {
-        width: 59%;
+    .btn.commn.pendingverif {
+        width: 60%;
     }
     .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 12px;
     }
     .btn.commn.upload, .btn.commn.verified {
         width: 50%;
+        text-align: center;
     }
 }
 
@@ -595,14 +628,17 @@ margin:10px 0 0 0;
     .txt_heading {
         margin: 0 1em 0 3em;
     }
+    .upload_file img {
+        height: 133px;
+    }
+    .uploaddesign_popup .modal-body {
+        padding: 2em 0em;
+    }
     .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 12px;
     }
     .uploaddesign_popup.success .modal-content {
         width: 97%;
-    }
-    .btn.commn.upload, .btn.commn.verified {
-        width: 60%;
     }
     .btn.btnupl, .btn.btnscan {
         width: 83%;
@@ -613,8 +649,15 @@ margin:10px 0 0 0;
     .l-header {
         height: 126px;
     }
-    .btn.commn.pendingverif, .btn.commn {
-        width: 75%;
+    .btn.commn.pendingverif {
+        width: 69%;
+    }
+    .btn.commn.upload, .btn.commn.verified {
+        width: 58%;
+        text-align: center;
+    }
+    .btn.commn img {
+        margin-left: 0px;
     }
     .my_info, .req_document {
         padding: 14px 14px;
@@ -627,12 +670,22 @@ margin:10px 0 0 0;
     }
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
-    .btn.commn.pendingverif, .btn.commn {
-        width: 80%;
-        padding: 7px 9px 7px 8px;
+    .btn.commn.pendingverif {
+        width: 73%;
+        padding: 5px 9px 7px 8px;
+    }
+    .upload_file img {
+        height: 133px;
+    }
+    .uploaddesign_popup .modal-body {
+        padding: 2em 0em;
+    }
+    .btn.commn img {
+        margin-left:0px;
     }
     .btn.commn.upload, .btn.commn.verified {
         width: 60%;
+        text-align: center;
     }
     .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 12px;
@@ -652,9 +705,6 @@ margin:10px 0 0 0;
     .profilename, .account_no {
         font-size: 16px;
     }
-    .btn.commn.pendingverif, .btn.commn {
-        padding: 5px 9px 7px 8px;
-    }
 }
 
 
@@ -662,9 +712,24 @@ margin:10px 0 0 0;
     .txt_heading {
         margin: 0 1.4em 0 2.9em;
     }
-
+    .upload_file img {
+        height: 133px;
+    }
+    .uploaddesign_popup .modal-body {
+        padding: 2em 0em;
+    }
+    .upload_file {
+        margin: 0 0 2em 0;
+    }
+    .uploaddesign_popup {
+        margin: 4em auto 0 auto;
+    }
+    .btn.commn img {
+        margin-left:0px;
+    }
     .btn.commn.upload, .btn.commn.verified {
-        width: 70%;
+        width: 67%;
+        text-align: center;
     }
     .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 12px;
@@ -703,8 +768,8 @@ margin:10px 0 0 0;
     .tenantaccord .card .card-header h2 button {
         font-size: 14px;
     }
-    .btn.commn.pendingverif, .btn.commn {
-        width: 79%;
+    .btn.commn.pendingverif {
+        width: 80%;
     }
     .flex_menubottom p {
         font-size: 13px;
@@ -727,6 +792,21 @@ margin:10px 0 0 0;
     .my_info, .req_document {
         padding: 14px 10px;
     }
+    .modal.uploaddesign_popup.success {
+        top: 12%;
+    }
+    .upload_file img {
+        height: 133px;
+    }
+    .uploaddesign_popup .modal-body {
+        padding: 2em 0em;
+    }
+    .upload_file {
+        margin: 0 0 2em 0;
+    }
+    .uploaddesign_popup {
+        margin: 4em auto 0 auto;
+    }
     .uploaddesign_popup.success .modal-content {
         width: 97%;
     }
@@ -736,11 +816,12 @@ margin:10px 0 0 0;
     .btn.btnupl, .btn.btnscan {
         width: 83%;
     }
-    .btn.commn.pendingverif, .btn.commn {
-        width: 95%;
+    .btn.commn.pendingverif{
+        width: 85%;
     }
     .btn.commn.upload, .btn.commn.verified {
-        width: 73%;
+        width: 70%;
+        text-align: center;
     }
     .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 12px;
@@ -767,6 +848,9 @@ margin:10px 0 0 0;
     .details_block {
         height: auto;
     }
+    .btn.commn img {
+        margin-left:0px;
+    }
 }
 
 
@@ -774,18 +858,44 @@ margin:10px 0 0 0;
     .txt_heading h3 {
         font-size: 22px;
     }
+    .modal.uploaddesign_popup.success {
+        top: 12%;
+    }
     .uploaddesign_popup.success .modal-content {
         width: 97%;
     }
     .btn.commn.upload, .btn.commn.verified {
-        width: 73%;
+        width: 72%;
+        text-align: center;
+    }
+    .btn.commn img {
+        margin-left: 0px;
+        vertical-align: text-top;
+    }
+    .upload_file img {
+        height: 133px;
+    }
+    .uploaddesign_popup .modal-body {
+        padding: 2em 0em;
+    }
+    .upload_file {
+        margin: 0 0 2em 0;
+    }
+    .uploaddesign_popup {
+        margin: 4em auto 0 auto;
+    }
+    .btn.btnupl, .btn.btnscan {
+        width: 85%;
+        font-size: 14px;
+        margin: 0 auto 10px auto;
+    }
+    .upload_file h3 {
+        font-size: 17px;
+        line-height: 21px;
+        margin: 0;
     }
     .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 12px;
-    }
-    .btn.btnupl, .btn.btnscan {
-        width: 100%;
-        font-size: 13px;
     }
     .tabcontent_tenant p {
         font-size: 12px;
@@ -798,7 +908,7 @@ margin:10px 0 0 0;
         height: 111px;
     }
     .txt_heading {
-        margin: 0 1.1em 0 2.8em;
+        margin: 0 1.1em 0 2.5em;
     }
     .my_info, .req_document {
         padding: 14px 10px;
@@ -815,9 +925,9 @@ margin:10px 0 0 0;
     .tenantaccord .card .card-header h2 button {
         font-size: 14px;
     }
-    .btn.commn.pendingverif, .btn.commn {
+    .btn.commn.pendingverif {
         width: 90%;
-        padding: 7px 12px 7px 11px;
+        padding: 5px 12px 7px 11px;
     }
     .tabcontent_tenant p {
         font-size: 13px;
@@ -851,18 +961,47 @@ margin:10px 0 0 0;
     .txt_heading h3 {
         font-size: 19px;
     }
+    .upload_file p {
+        margin: 10px 0 0 0;
+    }
+    .modal.uploaddesign_popup.success {
+        top: 12%;
+    }
+    .upload_file img {
+        height: 133px;
+    }
+    .uploaddesign_popup .modal-body {
+        padding: 2em 0em;
+    }
+    .upload_file {
+        margin: 0 0 2em 0;
+    }
+    .uploaddesign_popup {
+        margin: 4em auto 0 auto;
+    }
+    .btn.btnupl, .btn.btnscan {
+        width: 85%;
+        font-size: 14px;
+        margin: 0 auto 10px auto;
+    }
+    .upload_file h3 {
+        font-size: 17px;
+        line-height: 21px;
+        margin: 0;
+    }
+    .btn.commn img {
+        margin-left: 0px;
+        vertical-align: text-top;
+    }
     .btn.commn.upload, .btn.commn.verified {
-        width: 78%;
+        width: 73%;
+        text-align: center;
     }
     .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 12px;
     }
     .uploaddesign_popup.success .modal-content {
         width: 97%;
-    }
-    .btn.btnupl, .btn.btnscan {
-        width: 100%;
-        font-size: 13px;
     }
     .details_block {
         height: auto;
@@ -908,8 +1047,8 @@ margin:10px 0 0 0;
     .tenantaccord .card .card-header h2 button {
         font-size: 14px;
     }
-    .btn.commn.pendingverif, .btn.commn {
-        width: 100%;
+    .btn.commn.pendingverif {
+        width: 90%;
     }
     .btn.explore {
         width: 41%;
@@ -937,10 +1076,43 @@ margin:10px 0 0 0;
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
     .txt_heading {
-        margin: 0 1em 0 1.5em;
+        margin: 0 0.6em 0 1.7em;
+    }
+    .upload_file p {
+        margin: 10px 0 0 0;
+    }
+    .modal.uploaddesign_popup.success {
+        top: 9%;
+    }
+    .upload_file img {
+        height: 133px;
+    }
+    .uploaddesign_popup .modal-body {
+        padding: 2em 0em;
+    }
+    .upload_file {
+        margin: 0 0 2em 0;
+    }
+    .uploaddesign_popup {
+        margin: 4em auto 0 auto;
+    }
+    .btn.btnupl, .btn.btnscan {
+        width: 85%;
+        font-size: 14px;
+        margin: 0 auto 10px auto;
+    }
+    .upload_file h3 {
+        font-size: 16px;
+        line-height: 21px;
+        margin: 0;
+    }
+    .btn.commn img {
+        margin-left: 0px;
+        vertical-align: text-top;
     }
     .btn.commn.upload, .btn.commn.verified {
         width: 75%;
+        text-align: center;
     }
     .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
         font-size: 12px;
@@ -948,10 +1120,7 @@ margin:10px 0 0 0;
     .uploaddesign_popup.success .modal-content {
         width: 97%;
     }
-    .btn.btnupl, .btn.btnscan {
-        width: 100%;
-        font-size: 13px;
-    }
+    
     .details_block {
         height: auto;
     }
@@ -1017,8 +1186,8 @@ margin:10px 0 0 0;
         font-size: 12px;
         line-height: 13px;
     }
-    .btn.commn.pendingverif, .btn.commn {
-        width: 90%;
+    .btn.commn.pendingverif {
+        width: 94%;
     }
     .profilename, .account_no {
         font-size: 15px;
