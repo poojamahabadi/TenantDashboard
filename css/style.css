@@ -426,13 +426,12 @@ button.submt_btn {
   background-size: cover;
   height: 126px;
   background-repeat: no-repeat;
-  box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.3), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
   border-radius: 17px 17px 0px 0px;
   width: 100%;
 }
 .myinfo_txt span {
   color: #315d80;
-  font-family: 'Helvetica Rounded';
+  font-family: 'Helvetica';
   font-weight: bold;
   text-transform: capitalize;
   font-size: 21px;
@@ -463,7 +462,6 @@ button.submt_btn {
 }
 .my_info {
   background: #edf2fa;
-  box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.3), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
   border-radius: 17px;
   padding: 14px 20px;
   margin: 0 0 2em 0;
@@ -480,7 +478,6 @@ button.submt_btn {
   width: 70px;
   border-radius: 50%;
   background: #315d80;
-  box-shadow: inset 2.31429px 2.89286px 2.89286px rgba(57, 124, 238, 0.06);
   padding: 4px;
 }
 .bgtenant_div .tenant_info p:first-child {
@@ -508,7 +505,6 @@ button.submt_btn {
 }
 .belowpart_tenant {
   background: #edf2fa;
-  box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.3), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
   border-radius: 0 0 17px 17px;
   width: 100%;
   height: auto;
@@ -543,7 +539,6 @@ button.submt_btn {
 }
 .tenantaccord .card .card-header {
   background: #c9d7e5;
-  box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
   border-radius: 20px;
   padding: 11px 20px;
   border: unset;
@@ -573,16 +568,7 @@ button.submt_btn {
   background: #f1d15b;
   box-shadow: inset 4px 2px 5px rgba(255, 255, 255, 0.1);
 }
-.linediv:before {
-  content: '';
-  display: flex;
-  width: 14px;
-  height: 26px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  margin: 0 10px 0 0;
-}
+
 .tenantaccord .card-body {
   padding: 0;
 }
@@ -657,7 +643,6 @@ button.submt_btn {
 }
 .req_document {
   background: #edf2fa;
-  box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.1), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
   border-radius: 17px;
   padding: 14px 20px;
 }
@@ -679,7 +664,7 @@ button.submt_btn {
 .tabsdiv .nav.nav-tabs li a {
   font-size: 16px;
   font-weight: bold;
-  font-family: 'Helvetica Rounded';
+  font-family: 'Helvetica';
   border: unset;
   margin: 0;
   padding: 11px 52px;
@@ -690,7 +675,6 @@ button.submt_btn {
 }
 .tabsdiv .nav.nav-tabs li a.active {
   background: #376990;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05), inset 2px 4px 10px 1px #468dc4;
   border-radius: 40px;
   color: #fff;
 }
@@ -702,13 +686,6 @@ button.submt_btn {
   height: 21px;
   width: 21px;
   vertical-align: sub;
-}
-.details_block {
-  padding: 10px 10px 10px 14px;
-  margin: 10px 0 0 0;
-  background: #c9d7e5;
-  box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
-  border-radius: 40px;
 }
 .tabsdiv .tab-content .container {
   padding: 0;
@@ -736,18 +713,15 @@ button.submt_btn {
 }
 .verified {
   background: #9bb997;
-  box-shadow: inset 2px 2px 4px #abcba7, inset -2px -2px 5px -1px #6a9365;
   border-radius: 40px;
 }
 .upload {
   background: #ea4b61;
-  box-shadow: inset 2px 2px 4px rgba(255, 154, 169, 0.6), inset -2px -2px 5px -1px rgba(215, 47, 71, 0.59);
   border-radius: 42px;
   padding: 9px 8px 9px 8px;
 }
 .btn.commn.pendingverif {
   background: #f1d15b;
-  box-shadow: inset 2px 2px 4px rgba(255, 235, 166, 0.6), inset -2px -2px 5px -1px #c5a530;
   border-radius: 40px;
   color: #315d80;
   padding: 10px 12px;
@@ -765,7 +739,7 @@ button.submt_btn {
   font-size: 12px;
   width: 51%;
   font-family: 'Helvetica';
-  padding: 7px 7px;
+  padding: 9px 7px;
   color: #fff;
   letter-spacing: 0.9px;
   text-transform: capitalize;
@@ -887,7 +861,6 @@ button.submt_btn {
   object-fit: cover;
   padding: 4px;
   background: #3e6b8e;
-  box-shadow: inset 2.31429px 2.89286px 2.89286px rgba(57, 124, 238, 0.06);
 }
 .profile_infotxt .prof_label {
   font-family: 'Helvetica';
@@ -898,7 +871,7 @@ button.submt_btn {
   color: #6b5e7b;
 }
 .profilename, .account_no {
-  font-family: 'Helvetica Rounded';
+  font-family: 'Helvetica';
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
@@ -981,16 +954,13 @@ button.submt_btn {
   height: 4px;
   vertical-align: baseline;
 }
-.pendingverif img {
-  margin-top: -14px;
-}
+
 .rightalign {
   text-align: right;
   padding-right: 2px;
 }
 .details_block {
   background: #dce4f1;
-  box-shadow: inset 4px 5px 5px rgba(57, 124, 238, 0.12);
   border-radius: 36px;
   padding: 4px 20px;
   margin: 10px 0 0 0;
@@ -1872,9 +1842,9 @@ div.infocount_notify span {
 .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
   font-size: 11px;
   border: unset;
-  width: 91px;
+  width: 97px;
   margin: 0 0 0 auto;
-  height: 34px;
+  height: 37px;
 }
 .start_signbtn .start_btn_signin {
   display: flex;
@@ -1890,7 +1860,7 @@ div.infocount_notify span {
   margin-left: 0px;
 }
 .btn.commn.pendingverif img {
-  height: 11px;
+  height: 13px;
   vertical-align: middle;
   margin-left: 0px;
 }
@@ -2215,44 +2185,12 @@ div.infocount_notify span {
 .all-sel {
   width: 59px !important;
 }
-.rectangle_1 {
-  width: 76px;
-  height: 22px;
-  left: 481px;
-  top: 439px;
-  background: #c9d7e5;
-  box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
-  border-radius: 20px;
-}
-.save_new {
-  display: flex;
-  font-size: medium;
-  background-color: #9bb997;
-  border-radius: 10px;
-  color: white;
-  align-items: center;
-  justify-content: center;
-  margin-right: 15%;
-}
-.save_btn_all {
-  display: flex;
-  font-size: small !important;
-  background-color: #9bb997;
-  border-radius: 10px;
-  color: white !important;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  font-weight: lighter !important;
-  padding: 5% !important;
-  padding-right: 5px !important;
-}
+
 .title-res {
   width: 90% !important;
 }
 .toggle-accordion {
   background-color: #c9d7e5;
-  box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
   border-radius: 20px;
   width: 62px;
   height: 26px;
@@ -2270,34 +2208,10 @@ div.infocount_notify span {
 .tenantaccord .card-body .container-fluid {
   padding: 0;
 }
-.tenantaccord .card .card-header h2 button {
-  font-family: 'Helvetica';
-  color: #315d80;
-  font-weight: bold;
-  text-transform: capitalize;
-  padding: 0;
-  border: unset;
-  font-size: 15px;
-}
 .tenantaccord .card .card-header h2 {
   display: flex;
 }
-.tenantaccord .card .card-header h2 button {
-  font-family: 'Helvetica';
-  color: #315d80;
-  font-weight: bold;
-  text-transform: capitalize;
-  padding: 0;
-  border: unset;
-  font-size: 14px;
-}
-.tenantaccord .card .card-header {
-  background: #c9d7e5;
-  box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
-  border-radius: 20px;
-  padding: 11px 20px;
-  border: unset;
-}
+
 .tenantaccord .card .card-header h2 button:hover {
   text-decoration: none;
   outline: none;
@@ -2541,4 +2455,158 @@ color: #315D80;
   padding: 0 2em 0 0;
   height: 15px;
   margin: 2px 0 0 0;
+}
+.btn.btnsave{
+  width: 100%;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: #9BB997;
+  border-radius: 40px;
+  display: block;
+  margin: 10px 0 0 0;
+}
+.tenantaccord .card .card-header h2 .cancel_btn_all{
+background: #A7BBCE;
+padding:4px 20px 4px 12px;
+font-size: 11px;
+}
+.save_new {
+  display: flex;
+  margin: 0 5px 0 5px;
+}
+.tenantaccord .card .card-header h2 .cancel_btn_all,
+.tenantaccord .card .card-header h2 .save_btn_all{
+  border-radius: 12px 13px 13px 12px;
+  font-family: 'Helvetica';
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+  width: 100%;
+
+}
+.tenantaccord .card .card-header h2 .save_btn_all {
+  background-color: #9bb997;
+  padding: 4px 12px;
+  font-size: 13px;
+  margin: 0 0 0 -17px;
+}
+.btn.btnadd_emp{
+  width: 100%;
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #315D80;
+  text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.5);
+  background: rgba(55, 105, 144, 0.08);
+  border-radius: 40px;
+  display: block;
+  margin: 5px 0 5px 0;
+}
+.btn.btnadd_emp img.quesimg{
+  margin: 0 -5px 0 7px;
+}
+.btn.btnadd_emp img.plus_imgtenant{
+margin-right: 5px;
+}
+.addi_incomeemp_section .card .card-header {
+  padding: 6px 20px;
+  background-color: #DEE7F2;
+}
+.addi_incomeemp_section .card .card-header span{
+  color:#A7BBCE;
+  margin-right: 10px;
+}
+.addi_incomeemp_section .style-edit {
+  width: 9px;
+  height: 9px;
+}
+.addi_incomeemp_section .editall {
+  width: 20px !important;
+  height: 20px;
+}
+.comm_p p{
+  color:#6388A5;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin:0 0 15px 0;
+}
+.personal_p p{
+  margin: 0 0 20px 0;
+}
+.comm_p h4{
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  font-weight:bold;
+  text-transform: capitalize;
+}
+.personal_p h4{
+color:#315D80;
+}
+.upload_p h4{
+color:#F2727F;
+}
+.pending_p h4{
+color:#F1D15B;
+}
+.verified_p h4{
+color:#9BB997;
+}
+.question_tooltipcontent{
+  background: #FFFFFF;
+  border-radius: 30px;
+  position: absolute;
+  top: 4em;
+  left: 6px;
+  z-index: 10;
+  padding: 17px;
+  width: 59%;
+  display: none;
+}
+.question_tooltipcontent::before{
+  border-left: solid transparent 30px;
+  border-right: solid transparent 30px;
+  border-top: solid #ffffff 30px;
+  top: -30px;
+  content: " ";
+  height: 0;
+  left: 42%;
+  margin-left: 0;
+  position: absolute;
+  width: 0;
+  transform: rotate(180deg);
+}
+.tooltipdivcss{
+  position: relative;
+}
+.linedivtool:before {
+  content: '';
+  display: flex;
+  width: 5px;
+  height: 99%;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  margin: 0px 6px 0 0;
+}
+.comm_p h4{
+  display: flex;
+}
+.linedivtool.veri:before {
+  background: #9BB997;
+  box-shadow: inset 4px 2px 5px rgba(255, 255, 255, 0.1);
+}
+.linedivtool.upl:before {
+  background: #F1D15B;
+  box-shadow: inset 4px 2px 5px rgba(255, 255, 255, 0.1);
+}
+.linedivtool.pend:before {
+  background: #F2727F;
+  box-shadow: inset 4px 2px 5px rgba(255, 255, 255, 0.1);
 }
