@@ -2487,7 +2487,6 @@ font-size: 11px;
   text-transform: capitalize;
   font-weight: 500;
   width: 100%;
-
 }
 .tenantaccord .card .card-header h2 .save_btn_all {
   background-color: #9bb997;
@@ -2499,7 +2498,6 @@ font-size: 11px;
   width: 100%;
   font-family: 'Helvetica';
   font-weight: bold;
-  font-size: 12px;
   line-height: 20px;
   text-transform: capitalize;
   color: #315D80;
@@ -2509,6 +2507,7 @@ font-size: 11px;
   display: block;
   margin: 5px 0 5px 0;
 }
+
 .btn.btnadd_emp img.quesimg{
   margin: 0 -5px 0 7px;
 }
@@ -2518,6 +2517,9 @@ margin-right: 5px;
 .addi_incomeemp_section .card .card-header {
   padding: 6px 20px;
   background-color: #DEE7F2;
+}
+.tenantaccord .addi_incomeemp_section .card .card-header h2 button,.btn.btnadd_emp{
+  font-size: 13px;
 }
 .addi_incomeemp_section .card .card-header span{
   color:#A7BBCE;
@@ -2564,10 +2566,10 @@ color:#9BB997;
   position: absolute;
   top: 4em;
   left: 6px;
-  z-index: 10;
+  z-index: 1;
   padding: 17px;
   width: 59%;
-  display: none;
+  /* display: none; */
 }
 .question_tooltipcontent::before{
   border-left: solid transparent 30px;
