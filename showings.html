@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Showings</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header class="l-header">
+        <div class="l-header__inner clearfix">
+        <div class="c-header-icon desktopversion_search">
+        <a href="javascript:void(0)" onclick="openNav()">
+        <div class="hamburger-toggle">
+        <span class="bar-top"></span>
+        <span class="bar-mid">
+        </span><span class="bar-bot"></span>
+        </div>
+        </a>
+        </div>
+        <div class="logo">
+        <div class="logo__txt">
+        <a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+        <div class="mobileversion_view">
+          <a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+        </div>
+        </div>
+        </div>
+        
+        <div class="c-search desktopversion_search">
+        <input class="c-search__input form-control" placeholder="Search" type="text"/>
+        <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+        </button>
+        </div>
+        
+        <div class="mobileversion_view txt_heading">
+          <h3>showings</h3>
+        </div>
+        
+        <div class="links">
+        <ul>
+        <li class="phone desktopversion_search"> <a href="">
+        <img src="images/phone.svg"></a>
+        <div class="count_phone">
+        <span>4</span>
+        </div>
+        </li>
+        <li class="comment desktopversion_search"> <a href="">
+        <img src="images/comment.svg"></a>
+        <div class="count_comment">
+        <span>5</span>
+        </div>
+        </li>
+        <li class="email desktopversion_search"> <a href="">
+        <img src="images/email.svg"></a>
+        <div class="count_email">
+        <span>6</span>
+        </div>
+        </li>
+        <li class="notify"> <a href="">
+        <img src="images/notify.svg"></a>
+        <div class="count_notify">
+        <span>30</span>
+        </div>
+        </li>
+        </ul>
+        </div>
+        
+        <div class="c-header-icon mobileversion_view">
+          <a href="javascript:void(0)" onclick="openNav()">
+          <div class="hamburger-toggle">
+          <span class="bar-top"></span>
+          <span class="bar-mid">
+          </span><span class="bar-bot"></span>
+          </div>
+          </a>
+          </div>
+        </div>
+        </header>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="topsec_menu">
+  <div class="profilepic">
+    <img src="images/menu/profilemenu.svg">
+    <div class="status status_green">
+      <span></span>
+      </div>
+  </div>
+  <div class="profiledetails">
+    <p>Mae Coleman <small>Tenant</small></p>
+    <a href="">View Profile</a>
+  </div>
+  <div class="upgradediv">
+    <button class="btn upgrade_btn">Upgrade</button>
+  </div>
+</div>
+<div class="c-search menusearch">
+  <input class="c-search__input form-control" placeholder="Search" type="text"/>
+  <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+  </button>
+</div>
+  <div class="menu_nav">
+    <a href="myinformation.html">  <img src="images/menu/my_info.svg"> My Information</a>
+    <a href="#">  <img src="images/menu/communication.svg"> Communications</a>
+    <a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+    <a href="#" class="active">  <img src="images/menu/showings.svg"> Showings</a>
+    <a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+    <a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+    <a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+    <a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+    <div class="logoutsec">
+      <a href="javascript:void(0);">Logout</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<main class="l-main">
+    <div class="content-wrapper content-wrapper--with-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
+                <div class="search showing_search mobile_showshowings">
+                    <div class="form-search mobileview_searchshowings">
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-append">
+                            <button type="submit" data-toggle="modal" data-target="#filter_map"><i class="fa fa-search"></i></button>
+                        </div>
+                        <div class="listview_abl">
+                            <button type="button">Map View <img src="images/showings/map_pin.svg"></button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="backg_colr_showings">
+                <div class="flex_showingsdiv">
+                    <div class="showing_imgdiv">
+                        <img src="images/showings.svg"> <span>showings</span>
+                    </div>
+                    <div class="filter_show">
+                        <img src="images/showings/filter_icon.svg">
+                    </div>
+                </div>
+
+                <div class="search showing_search mobile_hideshowings">
+                    <div class="form-search">
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-append">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showingssec_infodiv">
+                <section class="showingssec" data-target="group-showing">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
+                        <div class="showimg">
+                        <img src="images/myinfo/showimg1.svg">
+                        </div>
+                        </div>
+                        
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-7">
+                        <div class="showtime">
+                        <div class="timelabel">
+                        <span><img src="images/clock.svg">showing time</span>
+                        </div>
+                        <div class="timeinfo">
+                        <span>08:42 am</span>
+                        </div>
+                        </div>
+                        
+                        <div class="showdate">
+                        <div class="datelabel">
+                        <span><img src="images/cal.svg">showing date</span>
+                        </div>
+                        <div class="dateinfo">
+                        <span>10/02/2024</span>
+                        </div>
+                        </div>
+                        <div class="button_myinfos">
+                            <button class="btn confirmbtn">Confirm</button>
+                            <div class="dropdown">
+                                <button class="btn reschedulebtn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Reschedule
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="order_links">
+                            <span><a href="javascript:void(0);"><img src="images/myinfo/map.svg">get direction</a></span>
+                            <span><a href="javascript:void(0);"><img src="images/myinfo/uber.svg">Order Uber </a></span>
+                            <span><a href="javascript:void(0);"><img src="images/myinfo/lyft.svg">Order Lyft</a></span>
+                            </div>
+                    </div>
+                </div>
+                <div class="bottomdiv_info showingsbottom">
+                    <div class="row centerdivinfo">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="showing_details">
+                    <p>111 Renfrew Trail Welland, Ontario L3C 0K2 </p>
+                    </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 infopad">
+                    <div class="showingdetails_option">
+                    <ul>
+                    <li>
+                    <div class="beddetails">
+                    <img src="images/myinfo/bed.svg">
+                    <p class="bedcount">02</p>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="showerdetails">
+                    <img src="images/myinfo/shower.svg" class="shwimg">
+                    <p class="showercount">02</p>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="cardetails">
+                    <img src="images/myinfo/car.svg">
+                    <p class="carcount">02</p>
+                    </div>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="showingssec_infodiv">
+                <section class="showingssec" data-target="group-showing">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
+                        <div class="showimg">
+                        <img src="images/myinfo/showimg1.svg">
+                        </div>
+                        </div>
+                        
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-7">
+                        <div class="showtime">
+                        <div class="timelabel">
+                        <span><img src="images/clock.svg">showing time</span>
+                        </div>
+                        <div class="timeinfo">
+                        <span>08:42 am</span>
+                        </div>
+                        </div>
+                        
+                        <div class="showdate">
+                        <div class="datelabel">
+                        <span><img src="images/cal.svg">showing date</span>
+                        </div>
+                        <div class="dateinfo">
+                        <span>10/02/2024</span>
+                        </div>
+                        </div>
+                        <div class="button_myinfos">
+                            <button class="btn confirmbtn">Confirm</button>
+                            <div class="dropdown">
+                                <button class="btn reschedulebtn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Reschedule
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="order_links">
+                            <span><a href="javascript:void(0);"><img src="images/myinfo/map.svg">get direction</a></span>
+                            <span><a href="javascript:void(0);"><img src="images/myinfo/uber.svg">Order Uber </a></span>
+                            <span><a href="javascript:void(0);"><img src="images/myinfo/lyft.svg">Order Lyft</a></span>
+                            </div>
+                    </div>
+                </div>
+                <div class="bottomdiv_info showingsbottom">
+                    <div class="row centerdivinfo">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="showing_details">
+                    <p>111 Renfrew Trail Welland, Ontario L3C 0K2 </p>
+                    </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 infopad">
+                    <div class="showingdetails_option">
+                    <ul>
+                    <li>
+                    <div class="beddetails">
+                    <img src="images/myinfo/bed.svg">
+                    <p class="bedcount">02</p>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="showerdetails">
+                    <img src="images/myinfo/shower.svg" class="shwimg">
+                    <p class="showercount">02</p>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="cardetails">
+                    <img src="images/myinfo/car.svg">
+                    <p class="carcount">02</p>
+                    </div>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="showingssec_infodiv">
+                <section class="showingssec" data-target="group-showing">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
+                        <div class="showimg">
+                        <img src="images/myinfo/showimg1.svg">
+                        </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-7">
+                        <div class="showtime">
+                        <div class="timelabel">
+                        <span><img src="images/clock.svg">showing time</span>
+                        </div>
+                        <div class="timeinfo">
+                        <span>08:42 am</span>
+                        </div>
+                        </div>
+                        <div class="showdate">
+                        <div class="datelabel">
+                        <span><img src="images/cal.svg">showing date</span>
+                        </div>
+                        <div class="dateinfo">
+                        <span>10/02/2024</span>
+                        </div>
+                        </div>
+                        <div class="button_myinfos">
+                            <button class="btn confirmbtn">Confirm</button>
+                            <div class="dropdown">
+                                <button class="btn reschedulebtn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Reschedule
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="order_links">
+                            <span><a href="javascript:void(0);"><img src="images/myinfo/map.svg">get direction</a></span>
+                            <span><a href="javascript:void(0);"><img src="images/myinfo/uber.svg">Order Uber </a></span>
+                            <span><a href="javascript:void(0);"><img src="images/myinfo/lyft.svg">Order Lyft</a></span>
+                            </div>
+                    </div>
+                </div>
+                <div class="bottomdiv_info showingsbottom">
+                    <div class="row centerdivinfo">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="showing_details">
+                    <p>111 Renfrew Trail Welland, Ontario L3C 0K2 </p>
+                    </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 infopad">
+                    <div class="showingdetails_option">
+                    <ul>
+                    <li>
+                    <div class="beddetails">
+                    <img src="images/myinfo/bed.svg">
+                    <p class="bedcount">02</p>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="showerdetails">
+                    <img src="images/myinfo/shower.svg" class="shwimg">
+                    <p class="showercount">02</p>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="cardetails">
+                    <img src="images/myinfo/car.svg">
+                    <p class="carcount">02</p>
+                    </div>
+                    </li>
+                    </ul>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </section>
+            </div>
+            </div>
+            </div>
+            <div class="col-xl-8 col-lg-4 col-md-7 col-sm-12 col-12">
+                <div class="google-map showingsmap">
+                    <div style="width: 100%; height: 100vh;" id="googleMapshowing"></div>
+                    <div class="form-search showmapgoogle">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn_sub"><i class="fa fa-search"></i></button>
+                        </div>
+                        <div class="listview_abl">
+                            <button type="submit">List View <img src="images/showings/list_view_icon.svg"></button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+    </div>
+    </main>
+
+
+<!-- mobileview menu -->
+<div class="container-fluid btmmenu">
+    <div class="flex_menubottommap">
+    <div class="saveprop">
+    <a href="javascript:void(0);">Saved Properties <img src="images/showings/prop_one.svg"></a> 
+    </div>
+    <div class="prop_noti">
+    <a href="javascript:void(0);"> Property Notification <img src="images/showings/prop_two.svg"></a>
+    </div>
+    <div class="icon_prop">
+        <a href="javascript:void(0);">
+            <img src="images/showings/bottom_propicon.svg">
+        </a>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="modal fade filtermap_modal" id="filter_map">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+                    
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <div class="modal-header modl_head">
+                <div class="titlemodal">
+                    <h4 class="modal-title">filter by</h4>
+                </div>
+                <div class="button_search">
+                    <button type="button" class="btn">Save Search</button>
+                </div>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-date">date & time</button>
+              <button type="button" class="btn btn-location">location</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- MAP -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDacJcoyPCr-jdlP9HK93h3YKNyf710J0"></script>
+<script>
+
+var markers = {
+  "group-showing": [
+    {
+      title: "<img src='images/showings/unitsmap.svg'> 20 Units",
+      lat: "42.144970",
+      lng: "-71.256950",
+      description:
+        "Union & West  95 West St, Walpole 1"
+    },
+    {
+      title: "$1,435",
+      lat: "43.715700",
+      lng: "-79.412480",
+      description: "Bathurs & King 1336 Kingston Rd, Toronto 1"
+    },
+    {
+      title: "$1,850",
+      lat: "42.144970",
+      lng: "-71.256950",
+      description: "95 West St, Walpole 1"
+    },
+    {
+      title: "$1,300",
+      lat: "37.078400",
+      lng: "-79.796150",
+      description: "Scarborough"
+    }
+  ]
+};
+
+(function ($) {
+  "use strict";
+
+  var infoWindow,
+    bounds,
+    map,
+    markerIcon,
+    markerActiveIcon,
+    mapMarkers = [];
+
+  function initializeMap() {
+    var mapOptions = {
+      scrollwheel: false
+    };
+    markerIcon = {
+      url:
+        "https://github.com/a7mg/Map-with-markers/blob/master/marker.png?raw=true",
+      size: new google.maps.Size(50, 50),
+      scaledSize: new google.maps.Size(50, 50),
+      origin: new google.maps.Point(0, 0)
+    };
+    markerActiveIcon = {
+      url:
+        "https://github.com/a7mg/Map-with-markers/blob/master/marker-active.png?raw=true",
+      size: new google.maps.Size(50, 50),
+      scaledSize: new google.maps.Size(50, 50),
+      origin: new google.maps.Point(0, 0)
+    };
+    infoWindow = new google.maps.InfoWindow();
+    bounds = new google.maps.LatLngBounds();
+    map = new google.maps.Map(document.getElementById("googleMapshowing"), mapOptions);
+
+    dropMarkers("group-showing");
+  }
+
+  function dropMarkers(target) {
+    for (var i in markers[target]) {
+      var data = markers[target][i];
+
+      var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+      var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        icon: markerIcon,
+        title: data.title,
+        animation: google.maps.Animation.DROP
+      });
+
+      mapMarkers.push(marker);
+
+      bounds.extend(marker.getPosition());
+
+      (function (marker, data) {
+        google.maps.event.addListener(marker, "click", function (e) {
+          for (var j = 0; j < mapMarkers.length; j++) {
+            mapMarkers[j].setIcon(markerIcon);
+          }
+          this.setIcon(markerActiveIcon);
+
+          infoWindow.setContent(
+            '<div style="width: 100%; text-align: center;"><h3>' +
+              data.title +
+              "</h3></div>"
+          );
+          infoWindow.open(map, marker);
+        });
+      })(marker, data);
+    }
+    map.fitBounds(bounds);
+  }
+
+  $(document).on("click", ".showingssec", function (e) {
+    e.preventDefault();
+    // DeleteMarkers();
+    dropMarkers($(this).data("target"));
+  });
+    $(document).on("click", ".showingssec", function (e) {
+    e.preventDefault();
+    google.maps.event.trigger(mapMarkers[$(this).parent().index()], "click");
+  });
+  window.addEventListener('load', (event) => { initializeMap(); });
+})(jQuery);
+</script>
+
+
+
+</body>
+</html>

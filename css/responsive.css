@@ -1,1402 +1,1425 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
 .l-header {
-    height: 145px;
+height: 145px;
 }
 .l-header__inner {
-    height: 80px;
+height: 80px;
 }
 .profimg_div .status {
-    right: 66px;
+right: 66px;
 }
 .modal.uploaddesign_popup.success{
-    top: 22%;
+top: 22%;
 }
 }
 
 @media only screen and (max-width: 1600px) {
-    .l-header {
-        height: 135px;
-    }
-    .profimg_div .status {
-        right: 30px;
-    }
+.l-header {
+height: 135px;
+}
+.profimg_div .status {
+right: 30px;
+}
 }
 
 @media only screen and (max-width: 1536px){
-    .profimg_div .status {
-        right: 22px;
-    }
-    .l-header__inner {
-        height: 82px;
-    }
+.profimg_div .status {
+right: 22px;
+}
+.l-header__inner {
+height: 82px;
+}
 }
 
 @media only screen and (max-width: 1400px){
 .l-header {
-    height: 131px;
+height: 131px;
 }
 .profimg_div .status {
-    right: 6px;
+right: 6px;
 }
 }
 
 
 @media only screen and (max-width: 1366px){
-    .l-header__inner {
-        height: 84px;
-    }
-    .profimg_div .status {
-        right: 2px;
-    }
+.l-header__inner {
+height: 84px;
+}
+.profimg_div .status {
+right: 2px;
+}
 }
 
 @media only screen and (max-width: 1280px){
-    .l-header {
-        height: 123px;
-    }
-    .tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
-        font-size: 12px;
-    }
-    .tenantaccord .card .card-header {
-        padding: 8px 20px;
-    }
-    .tenantaccord .card .card-header h2 .save_btn_all {
-        margin: 0 0 0 -15px;
-    }
-    .l-header__inner {
-        height: 79px;
-    }
-    .flexdiv div label {
-        font-size: 11px;
-    }
-    .myinfo_txt span {
-        font-size: 19px;
-    }
-    .flexdiv .basicdata p,.flexdiv .basicdata .form-group select.form-control {
-        font-size: 10px;
-    }
-    .l-header {
-        height: 117px;
-    }
-    .l-header__inner {
-        height: 74px;
-    }
-    .links ul li div span {
-        height: 23px;
-        width: 23px;
-        font-size: 11px;
-    }
-    .belowpart_tenant {
-        padding: 20px 0 26px 0;
-    }
-    .profilename, .account_no {
-        font-size: 18px;
-    }
-    .btn.commn {
-        font-size: 11px;
-    }
-    .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 10px;
-    }
-    .tabcontent_tenant p {
-        font-size: 12px;
-    }
-    .flexcss_tenant p {
-        font-size: 11px;
-    }
-    .tenantaccord .card .card-header h2 button {
-        font-size: 13px;
-    }
-    .profimg_div .status {
-        right: -9px;
-    }
+.l-header {
+height: 123px;
+}
+.tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
+font-size: 12px;
+}
+.tenantaccord .card .card-header {
+padding: 8px 20px;
+}
+.tenantaccord .card .card-header h2 .save_btn_all {
+margin: 0 0 0 -15px;
+}
+.l-header__inner {
+height: 79px;
+}
+.flexdiv div label {
+font-size: 11px;
+}
+.myinfo_txt span {
+font-size: 19px;
+}
+.flexdiv .basicdata p,.flexdiv .basicdata .form-group select.form-control {
+font-size: 10px;
+}
+.l-header {
+height: 117px;
+}
+.l-header__inner {
+height: 74px;
+}
+.links ul li div span {
+height: 23px;
+width: 23px;
+font-size: 11px;
+}
+.belowpart_tenant {
+padding: 20px 0 26px 0;
+}
+.profilename, .account_no {
+font-size: 18px;
+}
+.btn.commn {
+font-size: 11px;
+}
+.start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 10px;
+}
+.tabcontent_tenant p {
+font-size: 12px;
+}
+.flexcss_tenant p {
+font-size: 11px;
+}
+.tenantaccord .card .card-header h2 button {
+font-size: 13px;
+}
+.profimg_div .status {
+right: -9px;
+}
 }
 
 
 @media only screen and (max-width: 1200px){
-    .l-header__inner {
-        height: 77px;
-    }
-    .modal.uploaddesign_popup.success {
-        top: 12%;
-    }
-    .profimg_div {
-        margin: -53px 0 0 16px;
-    }
-    .myinfo_txt span {
-        font-size: 18px;
-    }
-    .tabsdiv .nav.nav-tabs li a {
-        font-size: 15px;
-    }
+.l-header__inner {
+height: 77px;
+}
+.modal.uploaddesign_popup.success {
+top: 12%;
+}
+.profimg_div {
+margin: -53px 0 0 16px;
+}
+.myinfo_txt span {
+font-size: 18px;
+}
+.tabsdiv .nav.nav-tabs li a {
+font-size: 15px;
+}
 }
 
 @media only screen and (max-width:1136px){
-    .profimg_div img {
-        height: 105px;
-        width: 105px;
-    }
-    .modal.uploaddesign_popup.success {
-        top: 17%;
-    }
-    .links ul li {
-        padding: 0 14px;
-    }
-    .logo__txt{
-        margin: 0 0 0 15px;
-    }
-    .btn.commn {
-        width: 62%;
-    }
-    .save_edit {
-        margin-right: 4px;
-    }
-    .myinfo_txt span {
-        font-size: 17px;
-    }
-    .profimg_div .status {
-        right: -5px;
-    }
-    .belowpart_tenant {
-        padding: 20px 0 14px 0;
-    }
+.profimg_div img {
+height: 105px;
+width: 105px;
+}
+.modal.uploaddesign_popup.success {
+top: 17%;
+}
+.links ul li {
+padding: 0 14px;
+}
+.logo__txt{
+margin: 0 0 0 15px;
+}
+.btn.commn {
+width: 62%;
+}
+.save_edit {
+margin-right: 4px;
+}
+.myinfo_txt span {
+font-size: 17px;
+}
+.profimg_div .status {
+right: -5px;
+}
+.belowpart_tenant {
+padding: 20px 0 14px 0;
+}
 }
 
 @media only screen and (max-width:1080px){
-    .basicdata {
-        flex-basis: 54%;
-    }
-    .basicdatatxt {
-        flex-basis: 43%;
-    }
-    .btn.commn {
-        width: 70%;
-    }
-    .flexcss_tenant p {
-        font-size: 10px;
-    }
-    .profimg_div .status {
-        right: -15px;
-    }
+.basicdata {
+flex-basis: 54%;
+}
+.basicdatatxt {
+flex-basis: 43%;
+}
+.btn.commn {
+width: 70%;
+}
+.flexcss_tenant p {
+font-size: 10px;
+}
+.profimg_div .status {
+right: -15px;
+}
 }
 
 
 @media only screen and (max-width:1024px){
-    .c-search {
-        margin-left: 7em;
-    }
-    .question_tooltipcontent {
-        width: 68%;
-    }
-    .my_info, .req_document {
-        padding: 14px 9px;
-    }
-    .profimg_div img {
-        height: 92px;
-        width: 92px;
-    }
-    .profimg_div {
-        margin: -42px 0 0 16px;
-    }
-    .profimg_div .status {
-        right: -7px;
-        bottom: 17px;
-    }
-    .belowpart_tenant {
-        padding: 12px 0 14px 0;
-    }
-    .basicdata {
-        flex-basis: 61%;
-    }
-    .basicdatatxt {
-        flex-basis: 37%;
-    }
-    .flexcss_tenant p {
-        font-size: 9px;
-    }
-    .tabsdiv .nav.nav-tabs li a {
-        font-size: 14px;
-    }
-    .btn.explore {
-        width: 31%;
-    }
-    .btncenter_div {
-        margin: 10px 0 0 0;
-    }
+.c-search {
+margin-left: 7em;
+}
+.question_tooltipcontent {
+width: 68%;
+}
+.my_info, .req_document {
+padding: 14px 9px;
+}
+.profimg_div img {
+height: 92px;
+width: 92px;
+}
+.profimg_div {
+margin: -42px 0 0 16px;
+}
+.profimg_div .status {
+right: -7px;
+bottom: 17px;
+}
+.belowpart_tenant {
+padding: 12px 0 14px 0;
+}
+.basicdata {
+flex-basis: 61%;
+}
+.basicdatatxt {
+flex-basis: 37%;
+}
+.flexcss_tenant p {
+font-size: 9px;
+}
+.tabsdiv .nav.nav-tabs li a {
+font-size: 14px;
+}
+.btn.explore {
+width: 31%;
+}
+.btncenter_div {
+margin: 10px 0 0 0;
+}
 }
 
 @media only screen and (max-width:992px){
-    .l-header {
-        height: 111px;
-    }
-    .profimg_div .status {
-        right: -9px;
-    }
-    .flexdiv div label {
-        font-size: 10px;
-    }
+.l-header {
+height: 111px;
+}
+.profimg_div .status {
+right: -9px;
+}
+.flexdiv div label {
+font-size: 10px;
+}
 }
 @media only screen and (max-width: 991px) and (min-width: 320px){
-    .btn.commn,.btn.commn.pendingverif {
-        width: 35%;
-    }
-    .addi_incomeemp_section .card .card-header span {
-        margin-right: 4px;
-    }
-        
-    .tenantaccord .card .card-header h2 .save_btn_all {
-        margin: 0 0 0 -17px;
-    }
-    .req_document .tabsdiv .tab-content .container {
-        max-width: 100%;
-    }
-    .profimg_div .status {
-        right: 9px;
-    }
-    .profimg_div {
-        text-align: right;
-    }
-    .question_tooltipcontent {
-        width: 58%;
-    }
-    .req_document{
-        margin:0 0 10px 0;
-    }
-    .tenantaccord .card .card-header h2 .cancel_btn_all {
-        padding: 4px 22px 4px 12px;
-    }
+.btn.commn,.btn.commn.pendingverif {
+width: 35%;
+}
+.addi_incomeemp_section .card .card-header span {
+margin-right: 4px;
+}
+
+.tenantaccord .card .card-header h2 .save_btn_all {
+margin: 0 0 0 -17px;
+}
+.req_document .tabsdiv .tab-content .container {
+max-width: 100%;
+}
+.profimg_div .status {
+right: 9px;
+}
+.profimg_div {
+text-align: right;
+}
+.question_tooltipcontent {
+width: 58%;
+}
+.req_document{
+margin:0 0 10px 0;
+}
+.tenantaccord .card .card-header h2 .cancel_btn_all {
+padding: 4px 22px 4px 12px;
+}
 
 }
 @media only screen and (max-width:800px){
-    .btn.explore {
-        width: 20%;
-    }
-    .modal.uploaddesign_popup.success {
-        top: 11%;
-    }
-    .btn.commn,.btn.commn.pendingverif {
-        width: 50%;
-    }
-    .profimg_div {
-        margin: -54px 0 0 70px;
-    }
-    .belowpart_tenant {
-        padding: 19px 0 21px 0;
-    }
-    .l-header__inner {
-        height: 81px;
-    }
-    .c-search {
-        margin-left: 1em;
-    }
-    .flexdiv .basicdata p,.flexdiv .basicdata .form-group select.form-control {
-        font-size: 13px;
-    }
-    .profimg_div img {
-        height: 101px;
-        width: 101px;
-    }
-    .profimg_div .status {
-        right: 4px;
-    }
-    .tenantaccord .card .card-header h2 button {
-        font-size: 14px;
-    }
-    .flexdiv div label {
-        font-size: 12px;
-    }
-    .flexcss_tenant p {
-        font-size: 12px;
-    }
-    .tabcontent_tenant p {
-        font-size: 14px;
-    }
-    .btn.commn,.start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 13px;
-    }
-    .my_info, .req_document {
-        padding: 14px 20px;
-    }
+.btn.explore {
+width: 20%;
+}
+.modal.uploaddesign_popup.success {
+top: 11%;
+}
+.btn.commn,.btn.commn.pendingverif {
+width: 50%;
+}
+.profimg_div {
+margin: -54px 0 0 70px;
+}
+.belowpart_tenant {
+padding: 19px 0 21px 0;
+}
+.l-header__inner {
+height: 81px;
+}
+.c-search {
+margin-left: 1em;
+}
+.flexdiv .basicdata p,.flexdiv .basicdata .form-group select.form-control {
+font-size: 13px;
+}
+.profimg_div img {
+height: 101px;
+width: 101px;
+}
+.profimg_div .status {
+right: 4px;
+}
+.tenantaccord .card .card-header h2 button {
+font-size: 14px;
+}
+.flexdiv div label {
+font-size: 12px;
+}
+.flexcss_tenant p {
+font-size: 12px;
+}
+.tabcontent_tenant p {
+font-size: 14px;
+}
+.btn.commn,.start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 13px;
+}
+.my_info, .req_document {
+padding: 14px 20px;
+}
 }
 
 @media only screen and (max-width:768px){
-    .profimg_div .status {
-        right: -5px;
-    }
-    .btn.commn img {
-        height: 12px;
-    } 
-    .l-header__inner {
-        height: 77px;
-    }
-    .flexdiv {
-        padding: 10px 3px;
-    }
-    .tenant_profilebg {
-        height: 145px;
-    }
-    .question_tooltipcontent {
-        width: 57%;
-    }
+.profimg_div .status {
+right: -5px;
+}
+.btn.commn img {
+height: 12px;
+} 
+.l-header__inner {
+height: 77px;
+}
+.flexdiv {
+padding: 10px 3px;
+}
+.tenant_profilebg {
+height: 145px;
+}
+.question_tooltipcontent {
+width: 57%;
+}
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
-    .profimg_div .status {
-        right: 56px;
-    }
-    .profimg_div {
-        text-align: left;
-    }
-    .tenantaccord .addi_incomeemp_section .card .card-header h2 button,
-    .btn.btnadd_emp {
+    .form-search.showmapgoogle {
+        position: absolute;
+        top: 4em;
+        transform: translate(-50%);
+        left: 50%;
+        width: 78%;
+    }   
+    .btmmenu{
+        padding: 0;
+        margin: 1em 0 0 0;
+        }
+        .flex_menubottom p{
+        font-family: 'Helvetica Rounded';
+        font-style: normal;
+        font-weight: 700;
         font-size: 14px;
-    }
-    .l-main {
-        margin: 7em 0 1em 0;
-    }
-    .uploaddesign_popup{
-        margin: 4em auto 0 auto;
-    }
-    .btn.btnupl, .btn.btnscan {
-        width: 67%;
-        margin: 0 10px 14px 0;
-    }
-    .border_atend{
-        border-bottom: 1px solid #C9D7E5;
-    }
-    .basicdatatxt {
-        flex-basis: 49%;
-    }
-    .basicdata {
-        flex-basis: 49%;
-    }
-    .edit_anchor .cancelbtn{
-        font-size: 12px;
-    }
-    .btn.explore {
-        width: 24%;
-    }
-    .btn.commn, .btn.commn.pendingverif{
-        width: 54%;
-    }
-    .myinfo_txt span {
-        font-size: 19px;
-    }
-    .profimg_div img {
-        height: 115px;
-        width: 115px;
-    }
-    .tenantaccord .card .card-header h2 button {
-        font-size: 16px;
-    }
-    .profimg_div .status {
-        right: 46px;
-    }
-    .flexdiv div label {
-        font-size: 14px;
-    }
-    .flexdiv .basicdata p ,.flexdiv .basicdata .form-group select.form-control{
-        font-size: 14px;
-    }
-    .req_document .tab-content .tab-pane.container{
-        max-width: 100%;
-    }
-    .c-search {
-        margin-left: 10px;
-    }
-    .btncenter_div {
-        margin: 14px 0 9px 0;
-    }
-
-    .btn.commn.pendingverif img {
-        height: 15px;
-    }
+        line-height: 19px;
+        text-align: center;
+        text-transform: capitalize;
+        margin:10px 0 0 0;
+        }
+        .flex_menubottom .dash p{
+        color: #C9D7E5;
+        }
+        .flex_menubottom .commu p{
+        color: #9BB997;
+        }
+        .flex_menubottom .maint p{
+        color: #F8B195;
+        }
+        .flex_menubottom .rent p{
+        color: #F1D15B;
+        }
+        .flex_menubottom{
+        background: #315D80;
+        box-shadow: inset 4px 4px 4px #4D7EA5;
+        border-radius: 24px 24px 0px 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 22px 10px;
+        } 
+.profimg_div .status {
+right: 56px;
+}
+.showing_search .form-search.mobileview_searchshowings .input-group input.form-control{
+background: #F8FAFF;
+border-radius: 40px;
+height:45px;
+}
+.mobileview_searchshowings .listview_abl button{
+background: #315D80;
+border-radius: 24px;
+padding: 7px 9px 7px 16px;
+}
+.mobileview_searchshowings .listview_abl button img{
+height: 25px;
+}
+.showing_search .form-search.mobileview_searchshowings  .input-group-append {
+right: 125px;
+}
+.mobile_showshowings{
+display: block;
+}
+.mobile_hideshowings{
+display: none;
+}
+.profimg_div {
+text-align: left;
+}
+.tenantaccord .addi_incomeemp_section .card .card-header h2 button,
+.btn.btnadd_emp {
+font-size: 14px;
+}
+.l-main {
+margin: 7em 0 1em 0;
+}
+.uploaddesign_popup{
+margin: 4em auto 0 auto;
+}
+.btn.btnupl, .btn.btnscan {
+width: 67%;
+margin: 0 10px 14px 0;
+}
+.border_atend{
+border-bottom: 1px solid #C9D7E5;
+}
+.basicdatatxt {
+flex-basis: 49%;
+}
+.basicdata {
+flex-basis: 49%;
+}
+.edit_anchor .cancelbtn{
+font-size: 12px;
+}
+.btn.explore {
+width: 24%;
+}
+.btn.commn, .btn.commn.pendingverif{
+width: 54%;
+}
+.myinfo_txt span {
+font-size: 19px;
+}
+.profimg_div img {
+height: 115px;
+width: 115px;
+}
+.tenantaccord .card .card-header h2 button {
+font-size: 16px;
+}
+.profimg_div .status {
+right: 46px;
+}
+.flexdiv div label {
+font-size: 14px;
+}
+.flexdiv .basicdata p ,.flexdiv .basicdata .form-group select.form-control{
+font-size: 14px;
+}
+.req_document .tab-content .tab-pane.container{
+max-width: 100%;
+}
+.c-search {
+margin-left: 10px;
+}
+.btncenter_div {
+margin: 14px 0 9px 0;
+}
+.btn.commn.pendingverif img {
+height: 15px;
+}
 }
 
 @media only screen and (max-width: 754px) and (min-width:736px) {
-    .profimg_div .status {
-        right: 36px;
-        bottom: 20px;
-    }
+.profimg_div .status {
+right: 36px;
+bottom: 20px;
+}
 }
 @media only screen and (max-width: 735px) and (min-width:718px) {
-    .profimg_div .status {
-        right: 35px;
-    }
+.profimg_div .status {
+right: 35px;
+}
 }
 @media only screen and (max-width: 717px) and (min-width:699px) {
-    .profimg_div .status {
-        right: 30px;
-    }
+.profimg_div .status {
+right: 30px;
+}
 }
 @media only screen and (max-width: 698px) and (min-width:676px) {
-    .profimg_div .status {
-        right: 20px;
-        bottom: 19px;
-    }
+.profimg_div .status {
+right: 20px;
+bottom: 19px;
+}
 }
 @media only screen and (max-width: 675px) and (min-width:641px) {
-    .profimg_div .status {
-        right: 13px;
-    }
+.profimg_div .status {
+right: 13px;
+}
 }
 @media only screen and (max-width: 640px) and (min-width:569px) {
-    .links ul li {
-        padding: 0 7px;
-    }
-    .profimg_div .status {
-        right: 7px;
-    }
-    .btn.commn, .btn.commn.pendingverif {
-        width: 60%;
-        font-size: 12px;
-    }
-    .tabcontent_tenant p {
-        font-size: 13px;
-    }
-    .question_tooltipcontent::before {
-        top: -28px;
-    }
-}
-@media only screen and (max-width:575px) {
-    .uploaddesign_popup .modal-content {
-        width: 90%;
-        margin: 0 auto;
-    }
-    .modal.uploaddesign_popup.success{
-        top: 19%;
-    }
-    .uploaddesign_popup {
-        margin: 2em auto 0 auto;
-    }
-.mobilehide_div{
-    display: none;
-}
-.flex_menubottom{
-    display: block;
-}
-.sidenav {
-    height: 100%;
-    top: 1px;
-}
-.btn.explore {
-    width: 30%;
-}
-.my_info, .req_document {
-    padding: 14px 10px;
-}
-.btmmenu{
-    padding: 0;
-    margin: 1em 0 0 0;
-}
-.flex_menubottom p{
-font-family: 'Helvetica Rounded';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 19px;
-text-align: center;
-text-transform: capitalize;
-margin:10px 0 0 0;
-}
-.flex_menubottom .dash p{
-    color: #C9D7E5;
-}
-.flex_menubottom .commu p{
-    color: #9BB997;
-}
-.flex_menubottom .maint p{
-    color: #F8B195;
-}
-.flex_menubottom .rent p{
-    color: #F1D15B;
-}
-.flex_menubottom{
-    background: #315D80;
-    box-shadow: inset 4px 4px 4px #4D7EA5;
-    border-radius: 24px 24px 0px 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding: 22px 10px;
-}
-.belowpart_tenant {
-    padding: 19px 17px 21px 17px;
-}
-.acc_infotxt.tenantacc{
-    margin:0;
-}
-.profimg_div {
-    margin: -67px 0 0 0px;
-    display: inline-flex;
-}
-.profimg_div img {
-    height: 95px;
-    width: 95px;
+.links ul li {
+padding: 0 7px;
 }
 .profimg_div .status {
-    right: 9px;
+right: 7px;
 }
-.profile_infotxt,.acc_infotxt.tenantacc{
-    display: flex;
-    flex-direction: column;
+.btn.commn, .btn.commn.pendingverif {
+width: 60%;
+font-size: 12px;
 }
-.profile_infotxt .prof_label ,.tenantacc .acc_label{
-    display: flex;
-    order: 2;
+.tabcontent_tenant p {
+font-size: 13px;
 }
-.tenantacc .acc_label,.account_no {
-    justify-content: right;
+.question_tooltipcontent::before {
+top: -28px;
 }
-.profilename, .account_no {
-    display: flex;
-    order: 1;
 }
-.links ul li img {
-    height: 14px;
+@media only screen and (max-width:575px) {
+.uploaddesign_popup .modal-content {
+width: 90%;
+margin: 0 auto;
 }
-.links ul li div span {
-    height: 20px;
-    width: 20px;
-    font-size: 9px;
+.modal.uploaddesign_popup.success{
+top: 19%;
 }
-.count_phone, .count_notify, .count_comment, .count_email {
-    top: -15px;
-    right: -2px;
+.uploaddesign_popup {
+margin: 2em auto 0 auto;
 }
-.c-search__input {
-    padding: 0 9px;
-    font-size: 12px;
-    height: 40px;
+.mobilehide_div{
+display: none;
 }
-.logo__txt a img{
-    height: 40px;
-}
-.links ul li {
-    padding: 0 9px;
-}
-.tenant_profilebg {
-    height: 103px;
-}
-.tenantaccord .card .card-header h2 button {
-    font-size: 15px;
-}
-.flexdiv div label,.flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
-    font-size: 13px;
-}
-.btn.commn.upload img {
-    margin-left: 8px;
-}
-.btn.commn.upload ,.btn.commn.verified,.btn.commn.pendingverif, .btn.commn{
-    width: 44%;
-    text-align: center;
+
+.sidenav {
+height: 100%;
+top: 1px;
 }
 .btn.explore {
-    padding: 9px;
-    font-size: 14px;
+width: 30%;
 }
-.desktopversion_logo,.desktopversion_search{
-    display:none;
+.my_info, .req_document {
+padding: 14px 10px;
 }
-.mobileversion_view{
-    display:block;
+
+.belowpart_tenant {
+padding: 19px 17px 21px 17px;
 }
-.hamburger-toggle [class*='bar-'] {
-    height:3px;
-    width: 28px;
+.acc_infotxt.tenantacc{
+margin:0;
 }
-.hamburger-toggle [class*='bar-']:nth-child(2) {
-    width: 23px;
+.profimg_div {
+margin: -67px 0 0 0px;
+display: inline-flex;
 }
-.hamburger-toggle [class*='bar-']:last-child {
-    width: 19px;
+.profimg_div img {
+height: 95px;
+width: 95px;
+}
+.profimg_div .status {
+right: 9px;
+}
+.profile_infotxt,.acc_infotxt.tenantacc{
+display: flex;
+flex-direction: column;
+}
+.profile_infotxt .prof_label ,.tenantacc .acc_label{
+display: flex;
+order: 2;
+}
+.tenantacc .acc_label,.account_no {
+justify-content: right;
+}
+.profilename, .account_no {
+display: flex;
+order: 1;
 }
 .links ul li img {
-    height: 29px;
+height: 14px;
+}
+.links ul li div span {
+height: 20px;
+width: 20px;
+font-size: 9px;
+}
+.count_phone, .count_notify, .count_comment, .count_email {
+top: -15px;
+right: -2px;
+}
+.c-search__input {
+padding: 0 9px;
+font-size: 12px;
+height: 40px;
+}
+.logo__txt a img{
+height: 40px;
+}
+.links ul li {
+padding: 0 9px;
+}
+.tenant_profilebg {
+height: 103px;
+}
+.tenantaccord .card .card-header h2 button {
+font-size: 15px;
+}
+.flexdiv div label,.flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
+font-size: 13px;
+}
+.btn.commn.upload img {
+margin-left: 8px;
+}
+.btn.commn.upload ,.btn.commn.verified,.btn.commn.pendingverif, .btn.commn{
+width: 44%;
+text-align: center;
+}
+.btn.explore {
+padding: 9px;
+font-size: 14px;
+}
+.desktopversion_logo,.desktopversion_search{
+display:none;
+}
+.mobileversion_view{
+display:block;
+}
+.hamburger-toggle [class*='bar-'] {
+height:3px;
+width: 28px;
+}
+.hamburger-toggle [class*='bar-']:nth-child(2) {
+width: 23px;
+}
+.hamburger-toggle [class*='bar-']:last-child {
+width: 19px;
+}
+.links ul li img {
+height: 29px;
 }
 .txt_heading{
-    margin: 0 1.4em 0 3.5em;
+margin: 0 1.4em 0 3.5em;
 }
 .txt_heading h3{
-    font-family: 'Helvetica';
-    font-weight: bold;
-    font-size: 27px;
-    line-height: 32px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #EEF4FF;
-    letter-spacing: 1.5px;
+font-family: 'Helvetica';
+font-weight: bold;
+font-size: 27px;
+line-height: 32px;
+text-align: center;
+text-transform: capitalize;
+color: #EEF4FF;
+letter-spacing: 1.5px;
 }
 .l-header {
-    background: url(../images/mobilebg.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 131px;
+background: url(../images/mobilebg.svg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+height: 131px;
 }
 .l-header__inner {
-    height: 75px;
-    justify-content: space-between;
+height: 75px;
+justify-content: space-between;
 }
 }
 @media only screen and (max-width: 568px) and (min-width:481px) {
-    .acc_label,.profile_infotxt .prof_label{
-        font-size: 13px;
-    }
-    .tenantaccord .card .card-header h2 .cancel_btn_all {
-        padding: 5px 22px 4px 12px;
-    }
-    .txt_heading {
-        margin: 0 1em 0 4.5em;
-    }
-    .btn.commn.upload img {
-        margin-left: 5px;
-    }
-    .btn.commn img {
-        height: 14px;
-    }
-    .refresh_anchor a {
-        font-size: 13px;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
-    .btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
-        width: 45%;
-        text-align: center;
-    }
-    .question_tooltipcontent::before {
-        top: -28px;
-    }
+.acc_label,.profile_infotxt .prof_label{
+font-size: 13px;
+}
+.tenantaccord .card .card-header h2 .cancel_btn_all {
+padding: 5px 22px 4px 12px;
+}
+.txt_heading {
+margin: 0 1em 0 4.5em;
+}
+.btn.commn.upload img {
+margin-left: 5px;
+}
+.btn.commn img {
+height: 14px;
+}
+.refresh_anchor a {
+font-size: 13px;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 12px;
+}
+.btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
+width: 45%;
+text-align: center;
+}
+.question_tooltipcontent::before {
+top: -28px;
+}
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
-    .txt_heading {
-        margin: 0 1em 0 3em;
-    }
-    .upload_file img {
-        height: 133px;
-    }
-    .uploaddesign_popup .modal-body {
-        padding: 2em 0em;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
-    .uploaddesign_popup.success .modal-content {
-        width: 97%;
-    }
-    .btn.btnupl, .btn.btnscan {
-        width: 83%;
-    }
-    .txt_heading h3 {
-        font-size: 24px;
-    }
-    .l-header {
-        height: 126px;
-    }
-    .btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
-        width: 58%;
-        text-align: center;
-    }
-    .btn.commn img {
-        margin-left: 0px;
-    }
-    .my_info, .req_document {
-        padding: 14px 14px;
-    }
-    .tenant_profilebg {
-        height: 93px;
-    }
-    .l-header__inner {
-        height: 78px;
-    }
-    .question_tooltipcontent {
-         padding: 15px;
-        width: 60%;
-    }
-    .question_tooltipcontent::before {
-        top: -28px;
-        left: 39%;
-    }
+.txt_heading {
+margin: 0 1em 0 3em;
+}
+.upload_file img {
+height: 133px;
+}
+.uploaddesign_popup .modal-body {
+padding: 2em 0em;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 12px;
+}
+.uploaddesign_popup.success .modal-content {
+width: 97%;
+}
+.btn.btnupl, .btn.btnscan {
+width: 83%;
+}
+.txt_heading h3 {
+font-size: 24px;
+}
+.l-header {
+height: 126px;
+}
+.btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
+width: 58%;
+text-align: center;
+}
+.btn.commn img {
+margin-left: 0px;
+}
+.my_info, .req_document {
+padding: 14px 14px;
+}
+.tenant_profilebg {
+height: 93px;
+}
+.l-header__inner {
+height: 78px;
+}
+.question_tooltipcontent {
+padding: 15px;
+width: 60%;
+}
+.question_tooltipcontent::before {
+top: -28px;
+left: 39%;
+}
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
-    .btn.commn.pendingverif {
-        width: 73%;
-        padding: 5px 9px 7px 8px;
-    }
-    .upload_file img {
-        height: 133px;
-    }
-    .uploaddesign_popup .modal-body {
-        padding: 2em 0em;
-    }
-    .btn.commn img {
-        margin-left:0px;
-    }
-    .btn.commn.upload, .btn.commn.verified {
-        width: 60%;
-        text-align: center;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
-    .uploaddesign_popup.success .modal-content {
-        width: 97%;
-    }
-    .btn.btnupl, .btn.btnscan {
-        width: 83%;
-    }
-    .txt_heading h3 {
-        font-size: 23px;
-    }
-    .l-header {
-        height: 117px;
-    }
-    .profilename, .account_no {
-        font-size: 16px;
-    }
-    .tabsdiv .nav.nav-tabs li a {
-        padding: 11px 16px;
-    }
+.btn.commn.pendingverif {
+padding: 5px 9px 7px 8px;
+}
+.upload_file img {
+height: 133px;
+}
+.uploaddesign_popup .modal-body {
+padding: 2em 0em;
+}
+.btn.commn img {
+margin-left:0px;
+}
+.btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
+width: 60%;
+text-align: center;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 12px;
+}
+.uploaddesign_popup.success .modal-content {
+width: 97%;
+}
+.btn.btnupl, .btn.btnscan {
+width: 83%;
+}
+.txt_heading h3 {
+font-size: 23px;
+}
+.l-header {
+height: 117px;
+}
+.profilename, .account_no {
+font-size: 16px;
+}
+.tabsdiv .nav.nav-tabs li a {
+padding: 11px 16px;
+}
 }
 
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
-    .txt_heading {
-        margin: 0 1.4em 0 2.9em;
-    }
-    .tenantaccord .card .card-header h2 .cancel_btn_all {
-        padding: 5px 22px 4px 12px;
-    }
-    .question_tooltipcontent {
-        border-radius: 23px;
-    }
-    .comm_p p {
-        line-height: 17px;
-    }
-    .tabsdiv .nav.nav-tabs li a {
-        padding: 11px 16px;
-    }
-    .upload_file img {
-        height: 133px;
-    }
-    .uploaddesign_popup .modal-body {
-        padding: 2em 0em;
-    }
-    .upload_file {
-        margin: 0 0 2em 0;
-    }
-    .uploaddesign_popup {
-        margin: 4em auto 0 auto;
-    }
-    .btn.commn img {
-        margin-left:0px;
-    }
-    .btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn{
-        width: 67%;
-        text-align: center;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
-    .uploaddesign_popup.success .modal-content {
-        width: 97%;
-    }
-    .btn.btnupl, .btn.btnscan {
-        width: 83%;
-    }
-    .tabcontent_tenant p {
-        font-size: 12px;
-        line-height: 13px;
-    }
-    .l-header {
-        height: 112px;
-    }
-    .txt_heading h3 {
-        font-size: 22px;
-    }
-    .myinfo_txt img {
-        margin-right: 2px;
-    }
-    .myinfo_txt span {
-        font-size: 17px;
-    }
-    .profilename, .account_no {
-        font-size: 16px;
-    }
-    .flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
-        font-size: 12px;
-    }
-    .tenantaccord .card .card-header h2 button {
-        font-size: 14px;
-    }
-    .btn.commn.upload img {
-        margin-left: 5px;
-    }
-    .flex_menubottom p {
-        font-size: 13px;
-        line-height: 17px;
-    }
-    .tenant_profilebg {
-        height: 82px;
-    }
-    .profimg_div img {
-        height: 79px;
-        width: 79px;
-    }
-    .profimg_div .status {
-        right: 11px;
-        bottom: 11px;
-    }
-    .tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
-        font-size: 13px;
-    }
-    .question_tooltipcontent::before {
-        top: -28px;
-        left: 38%;
-    }
-    .question_tooltipcontent {
-        width: 81%;
-        left: -18px;
-    }
+.txt_heading {
+margin: 0 1.4em 0 2.9em;
+}
+.tenantaccord .card .card-header h2 .cancel_btn_all {
+padding: 5px 22px 4px 12px;
+}
+.question_tooltipcontent {
+border-radius: 23px;
+}
+.comm_p p {
+line-height: 17px;
+}
+.tabsdiv .nav.nav-tabs li a {
+padding: 11px 16px;
+}
+.upload_file img {
+height: 133px;
+}
+.uploaddesign_popup .modal-body {
+padding: 2em 0em;
+}
+.upload_file {
+margin: 0 0 2em 0;
+}
+.uploaddesign_popup {
+margin: 4em auto 0 auto;
+}
+.btn.commn img {
+margin-left:0px;
+}
+.btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn{
+width: 67%;
+text-align: center;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 12px;
+}
+.uploaddesign_popup.success .modal-content {
+width: 97%;
+}
+.btn.btnupl, .btn.btnscan {
+width: 83%;
+}
+.tabcontent_tenant p {
+font-size: 12px;
+line-height: 13px;
+}
+.l-header {
+height: 112px;
+}
+.txt_heading h3 {
+font-size: 22px;
+}
+.myinfo_txt img {
+margin-right: 2px;
+}
+.myinfo_txt span {
+font-size: 17px;
+}
+.profilename, .account_no {
+font-size: 16px;
+}
+.flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
+font-size: 12px;
+}
+.tenantaccord .card .card-header h2 button {
+font-size: 14px;
+}
+.btn.commn.upload img {
+margin-left: 5px;
+}
+.flex_menubottom p {
+font-size: 13px;
+line-height: 17px;
+}
+.tenant_profilebg {
+height: 82px;
+}
+.profimg_div img {
+height: 79px;
+width: 79px;
+}
+.profimg_div .status {
+right: 11px;
+bottom: 11px;
+}
+.tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
+font-size: 13px;
+}
+.question_tooltipcontent::before {
+top: -28px;
+left: 38%;
+}
+.question_tooltipcontent {
+width: 81%;
+left: -18px;
+}
 }
 
 @media only screen and (max-width: 385px) and (min-width:376px) {
-    .my_info, .req_document {
-        padding: 14px 10px;
-    }
-    .tabsdiv .nav.nav-tabs li a {
-        padding: 11px 16px;
-    }
-    .modal.uploaddesign_popup.success {
-        top: 12%;
-    }
-    .upload_file img {
-        height: 133px;
-    }
-    .uploaddesign_popup .modal-body {
-        padding: 2em 0em;
-    }
-    .upload_file {
-        margin: 0 0 2em 0;
-    }
-    .uploaddesign_popup {
-        margin: 4em auto 0 auto;
-    }
-    .uploaddesign_popup.success .modal-content {
-        width: 97%;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
-    .btn.btnupl, .btn.btnscan {
-        width: 83%;
-    }
-    .btn.commn.pendingverif{
-        width: 85%;
-    }
-    .btn.commn.upload, .btn.commn.verified {
-        width: 70%;
-        text-align: center;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
-    .btn.explore {
-        width: 35%;
-    }
-    .flex_menubottom p {
-        font-size: 13px;
-    }
-    .txt_heading h3 {
-        font-size: 22px;
-    }
-    .l-header {
-        height: 111px;
-    }
-    .txt_heading {
-        margin: 0 1.2em 0 3.1em;
-    }
-    .tabcontent_tenant p {
-        font-size: 12px;
-        line-height: 13px;
-    }
-    .details_block {
-        height: auto;
-    }
-    .btn.commn img {
-        margin-left:0px;
-    }
-    .tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
-        font-size: 13px;
-    }
-    .question_tooltipcontent::before {
-        border-left: solid transparent 22px;
-        border-right: solid transparent 22px;
-        border-top: solid #ffffff 27px;
-        top: -27px;
-        left: 41%;
-    }
-    .question_tooltipcontent {
-        width: 85%;
-        top: 4em;
-        left: -22px;
-    }
+.my_info, .req_document {
+padding: 14px 10px;
+}
+.tabsdiv .nav.nav-tabs li a {
+padding: 11px 16px;
+}
+.modal.uploaddesign_popup.success {
+top: 12%;
+}
+.upload_file img {
+height: 133px;
+}
+.uploaddesign_popup .modal-body {
+padding: 2em 0em;
+}
+.upload_file {
+margin: 0 0 2em 0;
+}
+.uploaddesign_popup {
+margin: 4em auto 0 auto;
+}
+.uploaddesign_popup.success .modal-content {
+width: 97%;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 12px;
+}
+.btn.btnupl, .btn.btnscan {
+width: 83%;
+}
+.btn.commn.pendingverif{
+width: 85%;
+}
+.btn.commn.upload, .btn.commn.verified {
+width: 70%;
+text-align: center;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 12px;
+}
+.btn.explore {
+width: 35%;
+}
+.flex_menubottom p {
+font-size: 13px;
+}
+.txt_heading h3 {
+font-size: 22px;
+}
+.l-header {
+height: 111px;
+}
+.txt_heading {
+margin: 0 1.2em 0 3.1em;
+}
+.tabcontent_tenant p {
+font-size: 12px;
+line-height: 13px;
+}
+.details_block {
+height: auto;
+}
+.btn.commn img {
+margin-left:0px;
+}
+.tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
+font-size: 13px;
+}
+.question_tooltipcontent::before {
+border-left: solid transparent 22px;
+border-right: solid transparent 22px;
+border-top: solid #ffffff 27px;
+top: -27px;
+left: 41%;
+}
+.question_tooltipcontent {
+width: 85%;
+top: 4em;
+left: -22px;
+}
 }
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
-    .txt_heading h3 {
-        font-size: 22px;
-    }
-    
-    .tabsdiv .nav.nav-tabs li a {
-        padding: 11px 16px;
-    }
-    .question_tooltipcontent::before {
-        border-left: solid transparent 22px;
-        border-right: solid transparent 22px;
-        border-top: solid #ffffff 27px;
-        top: -27px;
-        left: 41%;
-    }
-    .question_tooltipcontent {
-        width: 85%;
-        top: 4em;
-        left: -22px;
-    }
-    .tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
-        font-size: 13px;
-    }
-    .comm_p p {
-        font-size: 12px;
-    }
-    .btn.btnadd_emp img.plus_imgtenant {
-        margin-right: 2px;
-    }
-    .btn.btnadd_emp img.quesimg {
-        margin: 0 -8px 0 2px;
-    }
-    .modal.uploaddesign_popup.success {
-        top: 12%;
-    }
-    .uploaddesign_popup.success .modal-content {
-        width: 97%;
-    }
-    .btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
-        width: 72%;
-        text-align: center;
-    }
-    .btn.commn img {
-        margin-left: 0px;
-        vertical-align: text-top;
-    }
-    .upload_file img {
-        height: 133px;
-    }
-    .uploaddesign_popup .modal-body {
-        padding: 2em 0em;
-    }
-    .upload_file {
-        margin: 0 0 2em 0;
-    }
-    .uploaddesign_popup {
-        margin: 4em auto 0 auto;
-    }
-    .btn.btnupl, .btn.btnscan {
-        width: 85%;
-        font-size: 14px;
-        margin: 0 auto 10px auto;
-    }
-    .upload_file h3 {
-        font-size: 17px;
-        line-height: 21px;
-        margin: 0;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
-    .tabcontent_tenant p {
-        font-size: 12px;
-        line-height: 13px;
-    }
-    .details_block {
-        height: auto;
-    }
-    .l-header {
-        height: 111px;
-    }
-    .txt_heading {
-        margin: 0 1.1em 0 2.5em;
-    }
-    .my_info, .req_document {
-        padding: 14px 10px;
-    }
-    .edit_anchor .cancelbtn {
-        font-size: 10px;
-    }
-    .myinfo_txt span {
-        font-size: 17px;
-    }
-    .profilename, .account_no {
-        font-size: 16px;
-    }
-    .btn.commn.upload img {
-        margin-left: 3px;
-    }
-    .tenantaccord .card .card-header {
-        padding: 11px 20px 11px 15px;
-    }
-    .tenantaccord .card .card-header h2 .cancel_btn_all {
-        padding: 4px 20px 4px 10px;
-    }
-    .tenantaccord .card .card-header h2 .save_btn_all {
-        margin: 0 0 0 -16px;
-    }
-    .tenantaccord .card .card-header h2 button {
-        font-size: 14px;
-    }
-    .tabcontent_tenant p {
-        font-size: 13px;
-    }
-    .myinfo_txt span {
-        font-size: 16px;
-    }
-    .profilename, .account_no {
-        font-size: 15px;
-    }
-    .profile_infotxt .prof_label {
-        font-size: 12px;
-    }
-    .flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
-        font-size: 12px;
-    }
-    .flex_menubottom p {
-        font-size: 12px;
-    }
-    .btn.explore {
-        width: 37%;
-    }
+.txt_heading h3 {
+font-size: 22px;
+}
+
+.tabsdiv .nav.nav-tabs li a {
+padding: 11px 16px;
+}
+.question_tooltipcontent::before {
+border-left: solid transparent 22px;
+border-right: solid transparent 22px;
+border-top: solid #ffffff 27px;
+top: -27px;
+left: 41%;
+}
+.question_tooltipcontent {
+width: 85%;
+top: 4em;
+left: -22px;
+}
+.tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
+font-size: 13px;
+}
+.comm_p p {
+font-size: 12px;
+}
+.btn.btnadd_emp img.plus_imgtenant {
+margin-right: 2px;
+}
+.btn.btnadd_emp img.quesimg {
+margin: 0 -8px 0 2px;
+}
+.modal.uploaddesign_popup.success {
+top: 12%;
+}
+.uploaddesign_popup.success .modal-content {
+width: 97%;
+}
+.btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
+width: 72%;
+text-align: center;
+}
+.btn.commn img {
+margin-left: 0px;
+vertical-align: text-top;
+}
+.upload_file img {
+height: 133px;
+}
+.uploaddesign_popup .modal-body {
+padding: 2em 0em;
+}
+.upload_file {
+margin: 0 0 2em 0;
+}
+.uploaddesign_popup {
+margin: 4em auto 0 auto;
+}
+.btn.btnupl, .btn.btnscan {
+width: 85%;
+font-size: 14px;
+margin: 0 auto 10px auto;
+}
+.upload_file h3 {
+font-size: 17px;
+line-height: 21px;
+margin: 0;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 12px;
+}
+.tabcontent_tenant p {
+font-size: 12px;
+line-height: 13px;
+}
+.details_block {
+height: auto;
+}
+.l-header {
+height: 111px;
+}
+.txt_heading {
+margin: 0 1.1em 0 2.5em;
+}
+.my_info, .req_document {
+padding: 14px 10px;
+}
+.edit_anchor .cancelbtn {
+font-size: 10px;
+}
+.myinfo_txt span {
+font-size: 17px;
+}
+.profilename, .account_no {
+font-size: 16px;
+}
+.btn.commn.upload img {
+margin-left: 3px;
+}
+.tenantaccord .card .card-header {
+padding: 11px 20px 11px 15px;
+}
+.tenantaccord .card .card-header h2 .cancel_btn_all {
+padding: 4px 20px 4px 10px;
+}
+.tenantaccord .card .card-header h2 .save_btn_all {
+margin: 0 0 0 -16px;
+}
+.tenantaccord .card .card-header h2 button {
+font-size: 14px;
+}
+.tabcontent_tenant p {
+font-size: 13px;
+}
+.myinfo_txt span {
+font-size: 16px;
+}
+.profilename, .account_no {
+font-size: 15px;
+}
+.profile_infotxt .prof_label {
+font-size: 12px;
+}
+.flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
+font-size: 12px;
+}
+.flex_menubottom p {
+font-size: 12px;
+}
+.btn.explore {
+width: 37%;
+}
 }
 
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
-    .txt_heading h3 {
-        font-size: 19px;
-    }
-    .title-res {
-          display: flex;
-        align-items: center;
-    }
-    .tenantaccord .card-header .btn-link.btn-block:after {
-        top: 8px;
-    }
-    .tenantaccord .card .card-header h2 .cancel_btn_all {
-        padding: 4px 20px 4px 9px;
-    }
-    .tenantaccord .card .card-header h2 .save_btn_all {
-        padding: 4px 10px;
-        font-size: 12px;
-    }
-    .personal_p p {
-        margin: 0px 0 14px 0;
-    }
-    .tenantaccord .card .card-header h2 .cancel_btn_all {
-        padding: 3px 20px 4px 9px;
-    }
-    .tenantaccord .card .card-header {
-        padding: 8px 21px 8px 10px;
-    }
-    .addi_incomeemp_section .card .card-header span {
-        margin-right: 2px;
-    }
-    .save_new {
-        margin: 0 2px 0 3px;
-    }
-    .tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
-        font-size: 12px;
-    }
-    .question_tooltipcontent::before {
-        border-left: solid transparent 22px;
-        border-right: solid transparent 22px;
-        border-top: solid #ffffff 27px;
-        top: -27px;
-        left: 41%;
-    }
-    .question_tooltipcontent {
-        width: 85%;
-        top: 4em;
-        left: -22px;
-    }
-    .upload_file p {
-        margin: 10px 0 0 0;
-    }
-    .modal.uploaddesign_popup.success {
-        top: 12%;
-    }
-    .upload_file img {
-        height: 133px;
-    }
-    .uploaddesign_popup .modal-body {
-        padding: 2em 0em;
-    }
-    .upload_file {
-        margin: 0 0 2em 0;
-    }
-    .uploaddesign_popup {
-        margin: 4em auto 0 auto;
-    }
-    .btn.btnupl, .btn.btnscan {
-        width: 85%;
-        font-size: 14px;
-        margin: 0 auto 10px auto;
-    }
-    .upload_file h3 {
-        font-size: 17px;
-        line-height: 21px;
-        margin: 0;
-    }
-    .btn.commn img {
-        margin-left: 0px;
-        vertical-align: text-top;
-    }
-    .btn.commn.upload, .btn.commn.verified {
-        width: 73%;
-        text-align: center;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
-    .uploaddesign_popup.success .modal-content {
-        width: 97%;
-    }
-    .details_block {
-        height: auto;
-    }
-    .tabcontent_tenant p {
-        font-size: 12px;
-        line-height: 13px;
-    }
-    .l-header {
-        height: 106px;
-    }
-    .txt_heading {
-        margin: 0 1.2em 0 2.3em;
-    }
-    .my_info, .req_document {
-        padding: 14px 10px;
-    }
-    .myinfo_txt span {
-        font-size: 15px;
-    }
-    .edit_anchor .cancelbtn {
-        font-size: 11px;
-    }
-    .tenant_profilebg {
-        height: 82px;
-    }
-    .profimg_div img {
-        height: 83px;
-        width: 83px;
-    }
-    .profimg_div .status {
-        bottom: 13px;
-    }
-    .profilename, .account_no {
-        font-size: 15px;
-    }
-    .edit_anchor img{
-        height: 35px;
-    }
-    .flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
-        font-size: 12px;
-    }
-    .tenantaccord .card .card-header h2 button {
-        font-size: 14px;
-    }
-    .btn.commn.pendingverif {
-        width: 90%;
-    }
-    .btn.explore {
-        width: 41%;
-    }
-    .tabsdiv .nav.nav-tabs li a {
-        padding: 11px 16px;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
-    .links ul li img {
-        height: 23px;
-    }
-    .flex_menubottom p {
-        font-size: 12px;
-    }
-    .belowpart_tenant {
-        padding: 19px 17px 16px 17px;
-    }
-    .tabcontent_tenant p {
-        font-size: 12px;
-        line-height: 13px;
-    }
+.txt_heading h3 {
+font-size: 19px;
+}
+.title-res {
+display: flex;
+align-items: center;
+}
+.tenantaccord .card-header .btn-link.btn-block:after {
+top: 8px;
+}
+.tenantaccord .card .card-header h2 .cancel_btn_all {
+padding: 4px 20px 4px 9px;
+}
+.tenantaccord .card .card-header h2 .save_btn_all {
+padding: 4px 10px;
+font-size: 12px;
+}
+.personal_p p {
+margin: 0px 0 14px 0;
+}
+.tenantaccord .card .card-header h2 .cancel_btn_all {
+padding: 3px 20px 4px 9px;
+}
+.tenantaccord .card .card-header {
+padding: 8px 21px 8px 10px;
+}
+.addi_incomeemp_section .card .card-header span {
+margin-right: 2px;
+}
+.save_new {
+margin: 0 2px 0 3px;
+}
+.tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
+font-size: 12px;
+}
+.question_tooltipcontent::before {
+border-left: solid transparent 22px;
+border-right: solid transparent 22px;
+border-top: solid #ffffff 27px;
+top: -27px;
+left: 41%;
+}
+.question_tooltipcontent {
+width: 85%;
+top: 4em;
+left: -22px;
+}
+.upload_file p {
+margin: 10px 0 0 0;
+}
+.modal.uploaddesign_popup.success {
+top: 12%;
+}
+.upload_file img {
+height: 133px;
+}
+.uploaddesign_popup .modal-body {
+padding: 2em 0em;
+}
+.upload_file {
+margin: 0 0 2em 0;
+}
+.uploaddesign_popup {
+margin: 4em auto 0 auto;
+}
+.btn.btnupl, .btn.btnscan {
+width: 85%;
+font-size: 14px;
+margin: 0 auto 10px auto;
+}
+.upload_file h3 {
+font-size: 17px;
+line-height: 21px;
+margin: 0;
+}
+.btn.commn img {
+margin-left: 0px;
+vertical-align: text-top;
+}
+.btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
+width: 73%;
+text-align: center;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 12px;
+}
+.uploaddesign_popup.success .modal-content {
+width: 97%;
+}
+.details_block {
+height: auto;
+}
+.tabcontent_tenant p {
+font-size: 12px;
+line-height: 13px;
+}
+.l-header {
+height: 106px;
+}
+.txt_heading {
+margin: 0 1.2em 0 2.3em;
+}
+.my_info, .req_document {
+padding: 14px 10px;
+}
+.myinfo_txt span {
+font-size: 15px;
+}
+.edit_anchor .cancelbtn {
+font-size: 11px;
+}
+.tenant_profilebg {
+height: 82px;
+}
+.profimg_div img {
+height: 83px;
+width: 83px;
+}
+.profimg_div .status {
+bottom: 13px;
+}
+.profilename, .account_no {
+font-size: 15px;
+}
+.edit_anchor img{
+height: 35px;
+}
+.flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
+font-size: 12px;
+}
+.tenantaccord .card .card-header h2 button {
+font-size: 14px;
+}
+.btn.explore {
+width: 41%;
+}
+.tabsdiv .nav.nav-tabs li a {
+padding: 11px 16px;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 12px;
+}
+.links ul li img {
+height: 23px;
+}
+.flex_menubottom p {
+font-size: 12px;
+}
+.belowpart_tenant {
+padding: 19px 17px 16px 17px;
+}
+.tabcontent_tenant p {
+font-size: 12px;
+line-height: 13px;
+}
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
-    .txt_heading {
-        margin: 0 0.6em 0 1.7em;
-    }
-    .question_tooltipcontent::before {
-        border-left: solid transparent 22px;
-        border-right: solid transparent 22px;
-        border-top: solid #ffffff 22px;
-        top: -15px;
-        left: 39%;
-    }
-    .question_tooltipcontent {
-        width: 92%;
-        top: 3em;
-        left: -23px;
-    }
-    .upload_file p {
-        margin: 10px 0 0 0;
-    }
-    .modal.uploaddesign_popup.success {
-        top: 9%;
-    }
-    .upload_file img {
-        height: 133px;
-    }
-    .uploaddesign_popup .modal-body {
-        padding: 2em 0em;
-    }
-    .upload_file {
-        margin: 0 0 2em 0;
-    }
-    .uploaddesign_popup {
-        margin: 4em auto 0 auto;
-    }
-    .btn.btnupl, .btn.btnscan {
-        width: 85%;
-        font-size: 14px;
-        margin: 0 auto 10px auto;
-    }
-    .upload_file h3 {
-        font-size: 16px;
-        line-height: 21px;
-        margin: 0;
-    }
-    .btn.commn img {
-        margin-left: 0px;
-        vertical-align: text-top;
-    }
-    .btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
-        width: 82%;
-        text-align: center;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 12px;
-    }
-    .uploaddesign_popup.success .modal-content {
-        width: 97%;
-    }
-    .btn.btnadd_emp img.plus_imgtenant {
-        margin-right: 0px;
-    }
-    .tenantaccord .addi_incomeemp_section .card .card-header h2 button,
-    .btn.btnadd_emp {
-        font-size: 11px;
-    }
-    .btn.btnadd_emp img.quesimg {
-        margin: 0 0px 0 2px;
-    }
-    .btn.commn.upload img {
-        margin-left: 5px;
-    }
-    .details_block {
-        height: auto;
-    }
-    .profimg_div .status {
-        bottom: 12px;
-    }
-    .flex_menubottom img{
-        height: 26px;
-    }
-    .txt_heading h3 {
-        font-size: 19px;
-    }
-    .l-header {
-        height: 100px;
-    }
-    .links ul li img {
-        height: 23px;
-    }
-    .profimg_div img {
-        height: 80px;
-        width: 80px;
-    }
-    .details_block {
-        padding: 4px 20px 4px 12px;
-    }
-    .edit_anchor .cancelbtn {
-        font-size: 10px;
-    }
-    .myinfo_txt span {
-        font-size: 14px;
-    }
-    .tenant_profilebg {
-        height: 86px;
-    }
-    .profile_infotxt .prof_label, .acc_label {
-        font-size: 13px;
-    }
-    .my_info, .req_document {
-        padding: 14px 10px;
-    }
-    .editoption .form-group select.form-control {
-        font-size: 11px;
-        padding: 5px 3px;
-        width: 50px;
-    }
-    .myinfo_txt img {
-        margin-right: 2px;
-    }
-    .tenantaccord .card .card-header {
-        padding: 8px 20px;
-    }
-    .flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
-        font-size: 12px;
-    }
-    .btn.explore {
-        width: 42%;
-    }
-    .flex_menubottom p {
-        font-size: 11px;
-        line-height: 16px;
-    }
-    .tabcontent_tenant p {
-        font-size: 12px;
-        line-height: 13px;
-    }
-    .profilename, .account_no {
-        font-size: 15px;
-    }
-    .tenantaccord .card .card-header h2 button {
-        font-size: 13px;
-    }
-    .tenantaccord .card .card-header {
-        padding: 8px 20px 8px 13px;
-    }
-    .edit_anchor img{
-        height: 30px;
-    }
-    .tabsdiv .nav.nav-tabs li a {
-        font-size: 13px;
-        padding: 9px;
-    }
-    .btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
-        font-size: 10px;
-    }
+.txt_heading {
+margin: 0 0.6em 0 1.7em;
+}
+.question_tooltipcontent::before {
+border-left: solid transparent 22px;
+border-right: solid transparent 22px;
+border-top: solid #ffffff 22px;
+top: -15px;
+left: 39%;
+}
+.question_tooltipcontent {
+width: 92%;
+top: 3em;
+left: -23px;
+}
+.upload_file p {
+margin: 10px 0 0 0;
+}
+.modal.uploaddesign_popup.success {
+top: 9%;
+}
+.upload_file img {
+height: 133px;
+}
+.uploaddesign_popup .modal-body {
+padding: 2em 0em;
+}
+.upload_file {
+margin: 0 0 2em 0;
+}
+.uploaddesign_popup {
+margin: 4em auto 0 auto;
+}
+.btn.btnupl, .btn.btnscan {
+width: 85%;
+font-size: 14px;
+margin: 0 auto 10px auto;
+}
+.upload_file h3 {
+font-size: 16px;
+line-height: 21px;
+margin: 0;
+}
+.btn.commn img {
+margin-left: 0px;
+vertical-align: text-top;
+}
+.btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
+width: 82%;
+text-align: center;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 12px;
+}
+.uploaddesign_popup.success .modal-content {
+width: 97%;
+}
+.btn.btnadd_emp img.plus_imgtenant {
+margin-right: 0px;
+}
+.tenantaccord .addi_incomeemp_section .card .card-header h2 button,
+.btn.btnadd_emp {
+font-size: 11px;
+}
+.btn.btnadd_emp img.quesimg {
+margin: 0 0px 0 2px;
+}
+.btn.commn.upload img {
+margin-left: 5px;
+}
+.details_block {
+height: auto;
+}
+.profimg_div .status {
+bottom: 12px;
+}
+.flex_menubottom img{
+height: 26px;
+}
+.txt_heading h3 {
+font-size: 19px;
+}
+.l-header {
+height: 100px;
+}
+.links ul li img {
+height: 23px;
+}
+.profimg_div img {
+height: 80px;
+width: 80px;
+}
+.details_block {
+padding: 4px 20px 4px 12px;
+}
+.edit_anchor .cancelbtn {
+font-size: 10px;
+}
+.myinfo_txt span {
+font-size: 14px;
+}
+.tenant_profilebg {
+height: 86px;
+}
+.profile_infotxt .prof_label, .acc_label {
+font-size: 13px;
+}
+.my_info, .req_document {
+padding: 14px 10px;
+}
+.editoption .form-group select.form-control {
+font-size: 11px;
+padding: 5px 3px;
+width: 50px;
+}
+.myinfo_txt img {
+margin-right: 2px;
+}
+.tenantaccord .card .card-header {
+padding: 8px 20px;
+}
+.flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
+font-size: 12px;
+}
+.btn.explore {
+width: 42%;
+}
+.flex_menubottom p {
+font-size: 11px;
+line-height: 16px;
+}
+.tabcontent_tenant p {
+font-size: 12px;
+line-height: 13px;
+}
+.profilename, .account_no {
+font-size: 15px;
+}
+.tenantaccord .card .card-header h2 button {
+font-size: 13px;
+}
+.tenantaccord .card .card-header {
+padding: 8px 20px 8px 13px;
+}
+.edit_anchor img{
+height: 30px;
+}
+.tabsdiv .nav.nav-tabs li a {
+font-size: 13px;
+padding: 9px;
+}
+.btn.commn, .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
+font-size: 10px;
+}
 }
