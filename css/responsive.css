@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
 .l-header {
-height: 145px;
+height: 115px;
 }
 .l-header__inner {
 height: 80px;
@@ -21,7 +21,7 @@ top: 22%;
 
 @media only screen and (max-width: 1600px) {
 .l-header {
-height: 135px;
+height: 100px;
 }
 .profimg_div .status {
 right: 30px;
@@ -45,7 +45,7 @@ height: 82px;
 
 @media only screen and (max-width: 1400px){
 .l-header {
-height: 131px;
+height: 100px;
 }
 .profimg_div .status {
 right: 6px;
@@ -680,6 +680,42 @@ width: 30%;
 .my_info {
 padding: 14px 10px;
 }
+.btmmenu{
+    padding: 0;
+    margin: 1em 0 0 0;
+}
+.flex_menubottom p{
+    font-family: 'Helvetica Rounded';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: capitalize;
+    margin:10px 0 0 0;
+    }
+    .flex_menubottom .dash p{
+        color: #C9D7E5;
+    }
+    .flex_menubottom .commu p{
+        color: #9BB997;
+    }
+    .flex_menubottom .maint p{
+        color: #F8B195;
+    }
+    .flex_menubottom .rent p{
+        color: #F1D15B;
+    }
+    .flex_menubottom{
+        background: #315D80;
+        box-shadow: inset 4px 4px 4px #4D7EA5;
+        border-radius: 24px 24px 0px 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding: 22px 10px;
+    }
 .belowpart_tenant {
     padding: 19px 10px 11px 17px;
 }
@@ -792,7 +828,7 @@ background: url(../images/mobilebg.svg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: bottom;
-height: 131px;
+height: 100px;
 }
 .l-header__inner {
 height: 75px;
@@ -862,7 +898,7 @@ width: 83%;
 font-size: 24px;
 }
 .l-header {
-height: 126px;
+height: 100px;
 }
 .btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
 width: 58%;
@@ -935,7 +971,7 @@ width: 83%;
 font-size: 23px;
 }
 .l-header {
-height: 117px;
+height:95px;
 }
 .profilename, .account_no {
 font-size: 16px;
@@ -1001,7 +1037,7 @@ font-size: 12px;
 line-height: 13px;
 }
 .l-header {
-height: 112px;
+height: 95px;
 }
 .txt_heading h3 {
 font-size: 22px;
@@ -1119,7 +1155,7 @@ font-size: 13px;
 font-size: 22px;
 }
 .l-header {
-height: 111px;
+height: 95px;
 }
 .txt_heading {
 margin: 0 1.2em 0 3.1em;
@@ -1249,7 +1285,7 @@ line-height: 13px;
 height: auto;
 }
 .l-header {
-height: 111px;
+height: 95px;
 }
 .txt_heading {
 margin: 0 1.1em 0 2.5em;
@@ -1424,7 +1460,7 @@ font-size: 12px;
 line-height: 13px;
 }
 .l-header {
-height: 106px;
+height: 90px;
 }
 .txt_heading {
 margin: 0 1.2em 0 2.3em;
@@ -1588,7 +1624,7 @@ height: 26px;
 font-size: 19px;
 }
 .l-header {
-height: 100px;
+height: 85px;
 }
 .links ul li img {
 height: 23px;
@@ -1660,3 +1696,13 @@ padding: 9px;
 font-size: 10px;
 }
 }
+@media screen and (max-width: 765px) {
+    /* Your styles for widths below 765px */
+    .form-css{
+        display: flex;
+        flex-direction: column;
+    }
+    .edit-card-employment{
+        width: 100%;
+    }
+  }
