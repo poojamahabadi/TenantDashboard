@@ -3262,3 +3262,53 @@
  .profimg_div .avatar-preview .status {
     right: 15px;
 }
+.logo__txt a img{
+    height: 44px;
+}
+
+
+  .avatar-upload.bgimg .avatar-edit {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    top: 0;
+  }
+  .avatar-upload.bgimg .avatar-edit input {
+    display: none;
+  }
+  .avatar-upload.bgimg .avatar-edit input + label {
+    margin-bottom: 0;
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
+  .avatar-upload.bgimg .avatar-edit input + label:after {
+    content: url(../images/camera.svg);
+    color: #ffffff;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    right: 20px;
+    text-align: right;
+    margin: auto;
+  }
+  .avatar-upload.bgimg .avatar-preview {
+    background-size: 100% 100%;
+    height: 126px;
+    border-radius: 17px 17px 0px 0px;
+    width: 100%;
+    background: unset;
+    padding: 0;
+  }
+  .avatar-upload.bgimg .avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 17px 17px 0px 0px;
+    background-position: unset;
+  }
+  
