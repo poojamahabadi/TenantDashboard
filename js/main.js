@@ -41,16 +41,20 @@ $(".quesimg").mouseleave(function() {
    });
 });  
 
+
 $(".showclick").hide();
 $(document).ready(function() {
 	$(".clk_editbtn").click(function(){
 		$(".showclick").show();
-		$("p.prof_label").addClass("rightshift");
+		$(".acc_infotxt").addClass("editbtnclsadd");
+		$(".edit_profi_name").addClass("editadd");
 		$(".clickhide").hide();
 	}); 
 	
 	$(".clck_cancel").click(function(){
 		$(".showclick").hide();
+		$(".acc_infotxt").removeClass("editbtnclsadd");
+		$(".edit_profi_name").removeClass("editadd");
 		$(".clickhide").show();
 	}); 
 });

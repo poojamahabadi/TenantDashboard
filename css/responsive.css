@@ -11,6 +11,12 @@ right: 66px;
 .modal.uploaddesign_popup.success{
 top: 22%;
 }
+.avatar-upload .avatar-edit input + label:after {
+    left: -63px;
+}
+.profimg_div .avatar-preview .status {
+    right: 11px;
+}
 }
 
 @media only screen and (max-width: 1600px) {
@@ -19,6 +25,9 @@ height: 135px;
 }
 .profimg_div .status {
 right: 30px;
+}
+.avatar-upload .avatar-edit input + label:after {
+    left: -31px;
 }
 }
 
@@ -29,6 +38,9 @@ right: 22px;
 .l-header__inner {
 height: 82px;
 }
+.avatar-upload .avatar-edit input + label:after {
+    left: -25px;
+}
 }
 
 @media only screen and (max-width: 1400px){
@@ -37,6 +49,9 @@ height: 131px;
 }
 .profimg_div .status {
 right: 6px;
+}
+.avatar-upload .avatar-edit input + label:after {
+    left: -3px;
 }
 }
 
@@ -53,6 +68,9 @@ right: 2px;
 @media only screen and (max-width: 1280px){
 .l-header {
 height: 123px;
+}
+.avatar-upload .avatar-edit input + label:after {
+    left: 8px;
 }
 .tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
 font-size: 12px;
@@ -86,9 +104,6 @@ height: 23px;
 width: 23px;
 font-size: 11px;
 }
-.belowpart_tenant {
-padding: 20px 0 26px 0;
-}
 .profilename, .account_no {
 font-size: 18px;
 }
@@ -117,6 +132,9 @@ right: -9px;
 .l-header__inner {
 height: 77px;
 }
+.edit_button.save_new {
+    width: 62%;
+}
 .modal.uploaddesign_popup.success {
 top: 12%;
 }
@@ -132,9 +150,12 @@ font-size: 15px;
 }
 
 @media only screen and (max-width:1136px){
-.profimg_div img {
+.profimg_div img,.avatar-upload .avatar-preview {
 height: 105px;
 width: 105px;
+}
+.avatar-upload .avatar-edit input + label:after {
+    top: 72px;
 }
 .modal.uploaddesign_popup.success {
 top: 17%;
@@ -157,14 +178,17 @@ font-size: 17px;
 .profimg_div .status {
 right: -5px;
 }
-.belowpart_tenant {
-padding: 20px 0 14px 0;
-}
 }
 
 @media only screen and (max-width:1080px){
 .basicdata {
 flex-basis: 54%;
+}
+.edit_button .cancel_btn_all {
+    padding: 4px 20px 4px 8px;
+}
+.profilename, .account_no {
+    font-size: 15px;
 }
 .basicdatatxt {
 flex-basis: 43%;
@@ -185,13 +209,20 @@ right: -15px;
 .c-search {
 margin-left: 7em;
 }
+.avatar-upload .avatar-edit input + label:after {
+    top: 57px;
+    left: 6px;
+}
+.edit_button.save_new {
+    width: 68%;
+}
 .question_tooltipcontent {
 width: 68%;
 }
-.my_info, .req_document {
+.my_info {
 padding: 14px 9px;
 }
-.profimg_div img {
+.profimg_div img,.avatar-upload .avatar-preview {
 height: 92px;
 width: 92px;
 }
@@ -201,9 +232,6 @@ margin: -42px 0 0 16px;
 .profimg_div .status {
 right: -7px;
 bottom: 17px;
-}
-.belowpart_tenant {
-padding: 12px 0 14px 0;
 }
 .basicdata {
 flex-basis: 61%;
@@ -229,6 +257,10 @@ margin: 10px 0 0 0;
 .l-header {
 height: 111px;
 }
+.avatar-upload .avatar-edit input + label:after {
+    top: 57px;
+    left: 11px;
+}
 .profimg_div .status {
 right: -9px;
 }
@@ -240,10 +272,30 @@ font-size: 10px;
 .btn.commn,.btn.commn.pendingverif {
 width: 35%;
 }
+.edit_button.save_new {
+    width: 39%;
+}
+.avatar-upload .avatar-edit input + label:after {
+    left: 86px;
+}
+.edit_button.save_new {
+    margin: 0 0 6px auto;
+}
+.edit_profi_name input.form-control {
+    width: 57%;
+}
+.profimg_div img, .avatar-upload .avatar-preview {
+    margin: 0 0 0 auto;
+}
+.profile_infotxt {
+    margin: 1px 0 0 0;
+}
 .addi_incomeemp_section .card .card-header span {
 margin-right: 4px;
 }
-
+.editadd {
+    margin: -1px 0 0 0;
+}
 .tenantaccord .card .card-header h2 .save_btn_all {
 margin: 0 0 0 -17px;
 }
@@ -265,11 +317,14 @@ margin:0 0 10px 0;
 .tenantaccord .card .card-header h2 .cancel_btn_all {
 padding: 4px 22px 4px 12px;
 }
-
 }
 @media only screen and (max-width:800px){
 .btn.explore {
 width: 20%;
+}
+.avatar-upload .avatar-edit input + label:after {
+    left: -2px;
+    top: 66px;
 }
 .modal.uploaddesign_popup.success {
 top: 11%;
@@ -280,9 +335,6 @@ width: 50%;
 .profimg_div {
 margin: -54px 0 0 70px;
 }
-.belowpart_tenant {
-padding: 19px 0 21px 0;
-}
 .l-header__inner {
 height: 81px;
 }
@@ -292,7 +344,7 @@ margin-left: 1em;
 .flexdiv .basicdata p,.flexdiv .basicdata .form-group select.form-control {
 font-size: 13px;
 }
-.profimg_div img {
+.profimg_div img,.avatar-upload .avatar-preview {
 height: 101px;
 width: 101px;
 }
@@ -314,7 +366,7 @@ font-size: 14px;
 .btn.commn,.start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
 font-size: 13px;
 }
-.my_info, .req_document {
+.my_info {
 padding: 14px 20px;
 }
 }
@@ -322,6 +374,12 @@ padding: 14px 20px;
 @media only screen and (max-width:768px){
 .profimg_div .status {
 right: -5px;
+}
+.edit_profi_name input.form-control {
+    width: 62%;
+}
+.avatar-upload .avatar-edit input + label:after {
+    left: 5px;
 }
 .btn.commn img {
 height: 12px;
@@ -347,7 +405,35 @@ width: 57%;
         transform: translate(-50%);
         left: 50%;
         width: 78%;
-    }   
+    } 
+    .profilename, .account_no {
+        line-height: 15px;
+    }
+    .avatar-upload .avatar-edit input + label:after {
+        left: 1px;
+        top: 77px;
+    }
+    .profimg_div .avatar-preview .status {
+        right: 14px;
+        bottom: 23px;
+    } 
+    .profile_infotxt {
+        margin: 0;
+    }
+    .avatar-upload .avatar-edit input + label:after {
+        left: 21px;
+    } 
+    .edit_button.save_new {
+        width: 51%;
+    }
+    .edit_profi_name input.form-control {
+        width: 79%;
+    }
+    /* .tenantacc .acc_label {
+        display: flex;
+        justify-content: end;
+        order: 2;
+    } */
     .btmmenu{
         padding: 0;
         margin: 1em 0 0 0;
@@ -447,7 +533,7 @@ width: 54%;
 .myinfo_txt span {
 font-size: 19px;
 }
-.profimg_div img {
+.profimg_div img,.avatar-upload .avatar-preview {
 height: 115px;
 width: 115px;
 }
@@ -508,6 +594,15 @@ right: 13px;
 .links ul li {
 padding: 0 7px;
 }
+.edit_button.save_new {
+    width: 57%;
+}
+.edit_profi_name input.form-control {
+    width: 87%;
+}
+.avatar-upload .avatar-edit input + label:after {
+    left: 2px;
+}
 .profimg_div .status {
 right: 7px;
 }
@@ -523,6 +618,45 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
+.profimg_div img, .avatar-upload .avatar-preview {
+    margin: -17px 0 0 auto;
+}
+.profile_infotxt .profilename{
+    display: block;
+    order: 1;
+}
+.profile_infotxt .prof_label {
+    order: 1;
+}
+.profimg_div .avatar-preview .status {
+    right: 11px;
+    bottom: 17px;
+}
+.edit_button.save_new {
+    width: 50%;
+}
+.acc_infotxt.tenantacc.editbtnclsadd{
+    margin: -37px 0 0 0;
+}
+.editadd {
+    margin: -20px 0 0 0;
+}
+.edit_profi_name input.form-control {
+    width: 66%;
+}
+.profile_infotxt {
+    margin: 0;
+}
+.avatar-upload .avatar-edit input + label:after {
+    left: -7px;
+    top: 45px;
+}
+.profile_infotxt {
+    margin: 8px 0 0 0;
+}
+.editprofi {
+    margin: -19px 0 8px 0;
+}
 .uploaddesign_popup .modal-content {
 width: 90%;
 margin: 0 auto;
@@ -536,7 +670,6 @@ margin: 2em auto 0 auto;
 .mobilehide_div{
 display: none;
 }
-
 .sidenav {
 height: 100%;
 top: 1px;
@@ -544,12 +677,11 @@ top: 1px;
 .btn.explore {
 width: 30%;
 }
-.my_info, .req_document {
+.my_info {
 padding: 14px 10px;
 }
-
 .belowpart_tenant {
-padding: 19px 17px 21px 17px;
+    padding: 19px 10px 11px 17px;
 }
 .acc_infotxt.tenantacc{
 margin:0;
@@ -558,7 +690,7 @@ margin:0;
 margin: -67px 0 0 0px;
 display: inline-flex;
 }
-.profimg_div img {
+.profimg_div img,.avatar-upload .avatar-preview {
 height: 95px;
 width: 95px;
 }
@@ -702,6 +834,15 @@ top: -28px;
 .txt_heading {
 margin: 0 1em 0 3em;
 }
+.profilename, .account_no {
+    line-height: 26px;
+}
+.edit_profi_name input.form-control {
+    width: 85%;
+}
+.belowpart_tenant {
+    padding: 19px 14px 11px 17px;
+}
 .upload_file img {
 height: 133px;
 }
@@ -747,10 +888,26 @@ width: 60%;
 top: -28px;
 left: 39%;
 }
+.edit_button.save_new {
+    width: 56%;
+}
+
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
 .btn.commn.pendingverif {
 padding: 5px 9px 7px 8px;
+}
+.edit_button.save_new {
+    width: 56%;
+}
+.profilename, .account_no {
+    line-height: 26px;
+}
+.edit_profi_name input.form-control {
+    width: 85%;
+}
+.belowpart_tenant {
+    padding: 19px 19px 11px 17px;
 }
 .upload_file img {
 height: 133px;
@@ -792,6 +949,12 @@ padding: 11px 16px;
 @media only screen and (max-width: 414px) and (min-width:386px) {
 .txt_heading {
 margin: 0 1.4em 0 2.9em;
+}
+.edit_profi_name input.form-control {
+    width: 100%;
+}
+.edit_button.save_new {
+    width: 62%;
 }
 .tenantaccord .card .card-header h2 .cancel_btn_all {
 padding: 5px 22px 4px 12px;
@@ -850,8 +1013,14 @@ margin-right: 2px;
 font-size: 17px;
 }
 .profilename, .account_no {
-font-size: 16px;
+    font-size: 15px;
+    line-height: 26px;
 }
+.edit_profi_name input.form-control {
+    width: 88%;
+    margin:0 0 1px 0;
+}
+
 .flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
 font-size: 12px;
 }
@@ -868,9 +1037,9 @@ line-height: 17px;
 .tenant_profilebg {
 height: 82px;
 }
-.profimg_div img {
-height: 79px;
-width: 79px;
+.profimg_div img, .avatar-upload .avatar-preview {
+    height: 92px;
+    width: 92px;
 }
 .profimg_div .status {
 right: 11px;
@@ -890,8 +1059,18 @@ left: -18px;
 }
 
 @media only screen and (max-width: 385px) and (min-width:376px) {
-.my_info, .req_document {
+.my_info {
 padding: 14px 10px;
+}
+.profilename, .account_no {
+    line-height: 29px;
+    font-size: 17px;
+}
+.edit_button.save_new {
+    width: 74%;
+}
+.edit_profi_name input.form-control {
+    width: 100%;
 }
 .tabsdiv .nav.nav-tabs li a {
 padding: 11px 16px;
@@ -977,7 +1156,25 @@ left: -22px;
 .txt_heading h3 {
 font-size: 22px;
 }
-
+.profilename, .account_no {
+    line-height: 29px;
+    font-size: 17px;
+}
+.editprofi img{
+    height: 20px;
+}
+.belowpart_tenant {
+    padding: 19px 10px 11px 10px;
+}
+.editprofi {
+    margin: -19px 0 6px 0;
+}
+.edit_button.save_new {
+    width: 74%;
+}
+.edit_profi_name input.form-control {
+    width: 100%;
+}
 .tabsdiv .nav.nav-tabs li a {
 padding: 11px 16px;
 }
@@ -1113,6 +1310,26 @@ width: 37%;
 .txt_heading h3 {
 font-size: 19px;
 }
+.profilename, .account_no {
+    line-height: 29px;
+    font-size: 17px;
+}
+.editprofi img{
+    height: 20px;
+}
+.belowpart_tenant {
+    padding: 19px 10px 11px 10px;
+}
+.editprofi {
+    margin: -17px 0 6px 0;
+}
+.edit_button.save_new {
+    width: 74%;
+}
+.edit_profi_name input.form-control {
+    width: 100%;
+    margin:0 0 1px 0;
+}
 .title-res {
 display: flex;
 align-items: center;
@@ -1224,9 +1441,12 @@ font-size: 11px;
 .tenant_profilebg {
 height: 82px;
 }
-.profimg_div img {
-height: 83px;
-width: 83px;
+.profimg_div img, .avatar-upload .avatar-preview {
+    height: 92px;
+    width: 92px;
+}
+.profile_infotxt {
+    margin: 14px 0 0 0;
 }
 .profimg_div .status {
 bottom: 13px;
@@ -1258,9 +1478,6 @@ height: 23px;
 .flex_menubottom p {
 font-size: 12px;
 }
-.belowpart_tenant {
-padding: 19px 17px 16px 17px;
-}
 .tabcontent_tenant p {
 font-size: 12px;
 line-height: 13px;
@@ -1270,6 +1487,26 @@ line-height: 13px;
 @media only screen and (max-width: 340px) and (min-width:320px) {
 .txt_heading {
 margin: 0 0.6em 0 1.7em;
+}
+.profilename, .account_no {
+    line-height: 29px;
+    font-size: 17px;
+}
+.editprofi img{
+    height: 20px;
+}
+.belowpart_tenant {
+    padding: 19px 10px 11px 10px;
+}
+.editprofi {
+    margin: -17px 0 6px 0;
+}
+.edit_button.save_new {
+    width: 74%;
+}
+.edit_profi_name input.form-control {
+    width: 100%;
+    margin:0 0 1px 0;
 }
 .question_tooltipcontent::before {
 border-left: solid transparent 22px;
@@ -1356,9 +1593,9 @@ height: 100px;
 .links ul li img {
 height: 23px;
 }
-.profimg_div img {
-height: 80px;
-width: 80px;
+.profimg_div img,.avatar-upload .avatar-preview {
+height:92px;
+width: 92px;
 }
 .details_block {
 padding: 4px 20px 4px 12px;
