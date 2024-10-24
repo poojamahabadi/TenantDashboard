@@ -42,6 +42,24 @@ $(".question_tooltipcontent").fadeOut(10);
 });  
 
 
+// book appointment button
+$(".btn_appoint").click(function(){
+$(".bkappontbtn").toggle();
+if($('#bk_apt:visible').length> 0)
+{
+$(".btn_appoint").addClass("changeborderbtn");
+}
+else{
+$(".btn_appoint").removeClass("changeborderbtn");
+}
+});
+
+// send reminder button tooltip
+$(".send_reminder_tooltip").hide();
+$(".remndbtn").click(function(){
+$(".send_reminder_tooltip").toggle();
+});
+
 $(".showclick").hide();
 $(document).ready(function() {
 $(".clk_editbtn").click(function(){
@@ -265,10 +283,12 @@ $(this).addClass("active");
 });
 
 $(document).ready(function () {
-	$('.buttons_map .btn').on('click', function () {
-	$('.slideronmap .slider').slick('refresh');
-	});
-	});
+$('.buttons_map .btn').on('click', function () {
+$('.slideronmap .slider').slick('refresh');
+});
+});
+
+// showimgs
 $('.shopping,.schools,.night').hide();
 $(document).ready(function(){
 $('.grocery').click(function(){
@@ -292,11 +312,11 @@ $('.groceries,.shopping,.schools').hide();
 
 
 $(document).ready(function(){
-	$('.propfeat_tab ul li').click(function(){
-	$('.propfeat_tab ul li').removeClass("active");
-	$(this).addClass("active");
-	});
-	});
+$('.propfeat_tab ul li').click(function(){
+$('.propfeat_tab ul li').removeClass("active");
+$(this).addClass("active");
+});
+});
 
 $('.building_div,.utilitiesdiv').hide();
 $(document).ready(function(){

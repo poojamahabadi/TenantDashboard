@@ -168,7 +168,7 @@ padding-left: 0px;
 position: fixed;
 top: 0;
 right: 0;
-z-index: 10;
+z-index: 1000;
 width: 100%;
 background: url(../images/headbg.svg);
 background-size: cover;
@@ -1526,10 +1526,10 @@ color: #315d80;
 padding-left: 7px;
 }
 .my_teamdiv {
-background: #54526b;
-box-shadow: 2.56499px 2.56499px 3.20624px rgba(58, 56, 80, 0.1), inset 2.56499px 2.56499px 6.41248px 0.641248px #7f7c97;
-border-radius: 17px;
-padding: 12px 10px 12px 10px;
+  background: #54526b;
+  border-radius: 17px;
+  padding: 12px 10px 12px 10px;
+  margin: 0 0 20px 0;
 }
 .teamtxt h3 {
 font-weight: bold;
@@ -1542,12 +1542,14 @@ margin: 7px 0 0 0;
 .btn.btn_appoint {
   background: #edf2fa;
   box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.1), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
-  border-radius: 50px;
+  border-radius: 20px;
   font-weight: bold;
   text-transform: capitalize;
   color: #54526b;
   font-size: 12px;
   padding: 12px 13px;
+  border:none;
+  outline: none;
 }
 .prof_img img {
 border-radius: 50%;
@@ -4448,17 +4450,17 @@ color:#ffffff;
   width: 81%;
   margin: 0 0 0 auto;
   height: 30px;
-background: #F1D15B;
-border-radius: 40px;
-display: flex;
-line-height: 10px;
-align-items: center;
-font-family: 'Helvetica';
-font-weight: 700;
-text-align: right;
-text-transform: capitalize;
-color: #fff;
-padding: 6px 10px;
+  background: #F1D15B;
+  border-radius: 40px;
+  display: flex;
+  line-height: 12px;
+  align-items: center;
+  font-family: 'Helvetica';
+  font-weight: 500;
+  text-align: right;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 6px 10px;
 }
 .btnreminder .starttxt {
   margin: 0 5px 0 0;
@@ -4467,9 +4469,274 @@ padding: 6px 10px;
   position: relative;
 }
 .bookappnt_divabs{
-background: #EDF2FA;
-border-radius: 12px 14px 14px 14px;
+  background: #EDF2FA;
+  border-radius: 14px 0px 14px 14px;
+  padding: 20px 20px;
+  width: 83%;
+  margin: 0 0 0 auto;
+  position: absolute;
+  z-index: 10;
+  right: 14px;
 }
-.repres_div{
+.bkappontbtn{
+  display: none;
+}
+.repres_div,.meet_timediv,.meet_datediv{
+  display: flex;
+  justify-content: space-between;
+}
+.bottomlease_agreeshowings{
+  position: relative;
+}
+.send_reminder_tooltip{
+  position: absolute;
+  background: url(../images/showings/showing_lease_offer/sendremind_box.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 24px 27px;
+  top: 32px;
+  right: -33px;
+  width: 58%;
+}
+.send_reminder_tooltip p{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #6388A5;
+  padding: 0 0 0 16px;
+}
+.btn.btnreminder i{
+  color:#FCE696;
+}
+.send_reminder_tooltip h3{
+  margin: 15px 0 5px 0;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #315D80;
+}
+.send_reminder_tooltip h3 img {
+  height: 21px;
+  margin: 0 6px 0 0px;
+}
+.agreemt_confrm.mylease_agreements{
+  height:370px;
+}
+.table_myleasetrans .table thead tr th{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-transform: capitalize;
+color: #315D80;
+border:unset;
+}
+
+.table_myleasetrans .table tbody tr td{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 12px;
+text-transform: capitalize;
+color: #315D80;
+}
+.table_myleasetrans .table tbody tr td span.date_txt{
+  font-weight: 400;
+}
+.table_myleasetrans .table tbody tr td p.green_clr{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 12px;
+text-transform: capitalize;
+color: #9BB997;
+margin:0;
+}
+.descrip_divwid{
+  width: 60%;
+}
+.txt_alignright{
+  text-align: right;
+}
+.descrip_divwid img{
+  height: 23px;
+  vertical-align: middle;
+  margin: 0 6px 0 0px;
+}
+.table_myleasetrans .table tbody tr:first-child td{
+  border:unset;
+}
+.table_myleasetrans .table tbody tr:last-child td{
+  border-bottom:1px solid #C9D7E5;
+}
+.my_lease_balance .card.balancecard .card-header h3 {
+  text-transform: capitalize;
+}
+.my_lease_balance .pricetxt {
+  font-size: 18px;
+}
+.download_trans .btn.btn_download{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-transform: capitalize;
+color: #315D80;
+padding:0;
+}
+.download_trans{
+  text-align: center;
+  margin: 1.5em 0 0.8em 0;
+}
+.my_lease_balance .btn.pay_amt,.my_lease_balance .btn.makepay_amt{
+  box-shadow: unset;
+}
+.bookappnt_divabs .label,.meet_timediv .label_meet,.meet_datediv .label_meet{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 15px;
+text-transform: capitalize;
+color: #315D80;
+display: flex;
+flex-basis: 49%;
+}
+.meet_timediv input{
+  padding: 0px 46px 0px 11px;
+}
+.meet_datediv input{
+  padding: 0px 11px 0px 11px;
+}
+.meet_timediv input,.meet_datediv input{
+  width: 100%;
+  background: #C9D7E5;
+  height: 33px;
+  text-transform: capitalize;
+  color: #315D80;
+  font-weight: 400;
+  font-family: 'Helvetica';
+  font-size: 13px;
+  border: unset;
+  border-radius: 20px;
+  text-align: right;
+}
+.meet_timediv input:focus,.meet_timediv input:hover,.meet_timediv input:active{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.meet_timediv .input-group-append{
+  background: #C9D7E5;
+  height: 33px;
+  border-radius: 0px 20px 20px 0;
+  margin-left: -40px;
+}
+.btn.active:focus, .btn:active:focus, .btn:focus,
+.meet_timediv .input-group-append .btn:active,.meet_timediv .input-group-append .btn:focus,.meet_timediv .input-group-append .btn:hover{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.meet_timediv .input-group-append .btn{
+  padding: 0px 7px;
+  border:unset;
+}
+.repres_div, .meet_timediv{
+  margin:0 0 10px 0;
+}
+.bookappnt_divabs .btn-select{
+  background: #C9D7E5;
+  border-radius: 20px;
+  height: 33px;
+  width: 100%;
+  border: unset;
+  padding: 2px 12px 2px 4px;
+}
+#select_listrepres li span, .btn-select li span{
+  text-transform: capitalize;
+  color: #315D80;
+  font-weight: 400;
+  font-family: 'Helvetica';
+  font-size: 13px;
+  margin-left: 10px;
+}
+.selectrespres{
+  display: none; 
+}
+#select_listrepres{
+  padding-left: 0px;
+  margin:0;
+}
+#select_listrepres img, .btn-select img{
+  width: 28px;
+  border-radius: 50%;
+}
+#select_listrepres li{
+  list-style: none;
+  padding: 3px 12px 3px 4px;
+}
+#select_listrepres li:hover{
+ background-color: #F4F3F3;
+}
+.open{
+  display: show !important;
+}
+.inputselect_div{
+  position: relative;
+  justify-content: end;
+  width: 49%;
   display: flex;
 }
+.meet_inputdate{
+  justify-content: end;
+}
+.meet_inputtime,.meet_inputdate {
+  display: flex;
+  flex-basis: 49%;
+}
+.selectdiv_representative{
+  display: none;
+  width: 100%;
+  position: absolute;
+  max-width: 350px;
+  border-radius: 5px;
+  z-index: 100;
+  padding: 5px;
+  background: #C9D7E5;
+}
+.btn-select li{
+  list-style: none;
+  padding-bottom: 0px;
+  text-align: left;
+}
+.lang-select{
+  display: flex;
+  flex-basis: 100%;
+}
+.btn.btn_appoint.changeborderbtn{
+  border-radius: 21px 21px 0px 0px;
+}
+.sched_meeting{
+  background: #9BB997;
+  box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.15), -2px -3px 10px rgba(64, 136, 255, 0.15);
+  border-radius: 0 0 14px 14px;
+  position: absolute;
+  z-index: 1;
+  width: 85%;
+  top: 212px;
+  margin: 0px 0px 0px auto;
+  right: 0;
+  padding: 7px;
+}
+.sched_meeting .btn{
+  color: #ffffff;
+    text-align: center;
+    width: 100%;
+    border:unset;
+}
+.showings_offerlease .tenant_info {
+  margin-left: 35px;
+}
+
