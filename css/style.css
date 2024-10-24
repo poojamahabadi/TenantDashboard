@@ -4609,7 +4609,7 @@ flex-basis: 49%;
 .meet_datediv input{
   padding: 0px 11px 0px 11px;
 }
-.meet_timediv input,.meet_datediv input{
+.meet_timediv input{
   width: 100%;
   background: #C9D7E5;
   height: 33px;
@@ -4631,7 +4631,7 @@ flex-basis: 49%;
   background: #C9D7E5;
   height: 33px;
   border-radius: 0px 20px 20px 0;
-  margin-left: -40px;
+  margin-left: -31px;
 }
 .btn.active:focus, .btn:active:focus, .btn:focus,
 .meet_timediv .input-group-append .btn:active,.meet_timediv .input-group-append .btn:focus,.meet_timediv .input-group-append .btn:hover{
@@ -4692,7 +4692,7 @@ flex-basis: 49%;
 .meet_inputdate{
   justify-content: end;
 }
-.meet_inputtime,.meet_inputdate {
+.meet_inputtime,.meet_inputdate.input-group {
   display: flex;
   flex-basis: 49%;
 }
@@ -4738,5 +4738,19 @@ flex-basis: 49%;
 }
 .showings_offerlease .tenant_info {
   margin-left: 35px;
+}
+.meet_datediv input.form-control {
+  background: #C9D7E5;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 13px;
+  text-align: right;
+  color: #315D80;
+}
+.meet_inputdate .input-group-text {
+  border: unset;
+  background-color: #c9d7e5;
+  padding: 0 10px 0 7px;
+  border-radius: 0px 20px 20px 0px;
 }
 
