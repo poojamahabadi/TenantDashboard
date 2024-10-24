@@ -86,7 +86,7 @@ arrows: true,
 centerMode: false,
 dots: false,
 speed: 300,
-infinite: true,
+infinite: false,
 autoplaySpeed: 5000,
 autoplay: false,
 responsive: [
@@ -115,7 +115,7 @@ arrows: true,
 centerMode: false,
 dots: false,
 speed: 300,
-infinite: true,
+infinite: false,
 autoplaySpeed: 5000,
 autoplay: false,
 responsive: [
@@ -160,7 +160,12 @@ $(".popup_reschedule_btn").slideToggle();
 }); 
 });
 
-
+$(".resche_yellowcard").hide();
+$(document).ready(function() {
+$(".reschedulebtncard").click(function(){
+$(".resche_yellowcard").slideToggle();
+}); 
+});
 
 // similar units
 $(document).ready(function(){
@@ -335,3 +340,31 @@ $('.unit_div,.building_div').hide();
 });
 
 
+$("#select-box,#select-box1").on("click" , function() {
+	$(this).parent(".select-box.month,.select-box1.year").toggleClass("open");
+ });
+
+
+  $(document).mouseup(function (e){
+    var container = $(".select-box.month,.select-box1.year");
+    if (container.has(e.target).length === 0){
+        container.removeClass("open");
+    }
+});
+
+$(".select-box.month select,.select-box1.year select").on("change" , function() {
+	var selection = $(this).find("option:selected").text(),
+		labelFor = $(this).attr("id"),
+		label = $("[for='" + labelFor + "']");
+	  
+	label.find(".label-desc").html(selection);
+  });
+
+  $(".select-box.month select,.select-box1.year select").on("change" , function() {
+	val = $( ".select-box.month select option:selected,.select-box1.year select option:selected" ).val(); 
+  });
+
+
+
+
+  

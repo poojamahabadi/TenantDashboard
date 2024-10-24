@@ -405,6 +405,8 @@
 </div>
 </div>
 </section>
+
+
 </div>
   <!-- pending offers end-->
 
@@ -449,6 +451,58 @@
     </div>
   </div>
   <!-- showing confirm green end -->
+
+<!-- reschedule yellow -->
+<div class="showing_confirmed reschedule_divyellow">
+<div class="button_myinfos sched_reschedule">
+  <div>
+  <button class="btn reschedulebtncard resch_clk" type="button" tabindex="0">
+  Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
+  </button>
+  </div>
+  </div>
+  <div class="resche_yellowcard">
+    <div class="row">
+    <div class="col-xl-12">
+      <form>
+      <div class="reschedule_divdropdown">
+          <div class="resch_time">
+            <div class="label_txtreschedule">
+              <label>showing time</label>
+            </div>
+            <div class="input_reschedule">
+              <input type="text" class="form-control" value="08:45 AM" tabindex="0">
+            </div>
+          </div>
+          <div class="resch_date">
+            <div class="label_txtreschedule">
+              <label>showing date</label>
+            </div>
+            <div class="input_reschedule">
+              <div class="form-group">
+                <div class="datepickershowing date input-group">
+                  <input type="text" value="10/02/2024" class="form-control" id="fecha1" tabindex="0">
+                  <div class="input-group-append">
+                    <span class="input-group-text">
+                      <img src="images/showings/date_icon.svg">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="two_buttonsschedule">
+            <button class="btn canc_show" tabindex="0">cancel showing</button>
+            <button class="btn conf_resch" tabindex="0">Confirm Reschedule </button>
+          </div>
+      </div>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- reschedule yellow end -->
+
 
      <!-- showing confirm yellow -->
   <div class="showing_confirmed confirmshow_divyellow">
@@ -711,7 +765,7 @@
 <div class="col-xl-8 col-lg-4 col-md-7 col-sm-12 col-12">
 <div class="google-map showingsmap">
   <div class="map" id="map wpsl-gmap" style="height: 800px">
-    <div class="marker" data-lat="25.1882843" data-   lng="55.2716891"></div>
+    <div class="marker" data-lat="25.1882843" data-lng="55.2716891"></div>
 </div> 
 <div id="map"></div>
 
@@ -726,9 +780,13 @@
 <div class="button_map">
   <button class="btn pendoffers"><img src="images/showings/pend_offersround.svg"> Pending offers</button>
   <button class="btn schedshow"><img src="images/showings/scheduleoff_round.svg"> Scheduled Showings</button>
+  <button class="filterbtnshow"><img src="images/showings/filter_showings.svg"></button>
 </div>
 </div>
+<!-- search end -->
 </div>
+
+
 </div>
 </div>
 </div>
@@ -773,6 +831,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 <script src="js/main.js"></script>
 <script src="https://maps.google.com/maps/api/js?key=AIzaSyDJnrEcWfE4re1fHfa_hPM_Lla9bGF7A3Y"></script>
+<script>
+  // datepicker
+$(document).ready(function(){
+$('.datepickershowing').datepicker({
+language: "es",
+autoclose: true,
+format: "dd/mm/yyyy"
+});
+});
+</script>
 <script>
   var markers = [
   {

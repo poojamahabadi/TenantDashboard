@@ -18,16 +18,14 @@ scrollbar-width: thin;
 }
 /* Track */
 ::-webkit-scrollbar-track {
-background: #f1f1f1;
+background: #DEE7F2;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-background: #888;
+background: #C9D7E5;
+border-radius: 20px;
 }
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-background: #555;
-}
+
 @font-face {
 font-family: 'Helvetica';
 src: url('../fonts/Helvetica.ttf'), url('../fonts/Helvetica-BoldOblique.ttf'), url('../fonts/Helvetica-Bold.ttf'), url('../fonts/Helvetica-BoldOblique.ttf'), url('../fonts/Helvetica-BoldOblique.ttf'), url('../fonts/helvetica-compressed-5871d14b6903a.otf'), url('../fonts/helvetica-light-587ebe5a59211.ttf'), url('../fonts/Helvetica-Oblique.ttf'), url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf');
@@ -3146,7 +3144,7 @@ letter-spacing: 0.7px;
   z-index: 10;
   top:3px;
 }
-.popup_reschedule_btn{
+.popup_reschedule_btn,.resche_yellowcard{
   position: relative;
   display: block;
   width: 86%;
@@ -3160,6 +3158,7 @@ color: #315D80;
 }
 .label_txtreschedule{
 flex-basis: 45%;
+text-align: left;
 }
 .input_reschedule{
   flex-basis: 53%;
@@ -3241,13 +3240,19 @@ flex-basis: 45%;
   justify-content: end;
 }
 .showingssec.slick-slide{
-  margin-right: 10px;
   background: #DEE7F2;
   border-radius: 20px;
   padding: 0;
+  margin: 0 10px 6px 0;
 }
-.showingssec_infodiv .slick-track{
-  margin-left: 35px;
+.showingssec_infodiv .slick-list{
+  overflow: auto;
+}
+.showing_confirmed.reschedule_divyellow{
+  background: #F1D15B;
+}
+.showing_confirmed.reschedule_divyellow .button_myinfos.sched_reschedule .btn.reschedulebtn{
+  box-shadow: unset;
 }
 /* map */
 .gm-style-iw-d{
@@ -3280,6 +3285,9 @@ width: 12px;
 }
 #googleMapshowing,.showingsmap{
 border-radius: 17px;
+}
+.map{
+  border-radius: 11px;
 }
 .showingsmap{
 position: relative;
@@ -3315,6 +3323,7 @@ color: #315D80;
   border-radius: 20px;
   background: #FFFFFF;
   letter-spacing: 0.7px;
+  padding: 4px 10px;
 }
 .form-search.showmapgoogle .input-group input.form-control {
 padding: 10px 186px 10px 21px;
@@ -4593,6 +4602,8 @@ padding:0;
 }
 .my_lease_balance .btn.pay_amt,.my_lease_balance .btn.makepay_amt{
   box-shadow: unset;
+  border:unset;
+  outline: none;
 }
 .bookappnt_divabs .label,.meet_timediv .label_meet,.meet_datediv .label_meet{
 font-family: 'Helvetica';
@@ -4736,9 +4747,6 @@ flex-basis: 49%;
     width: 100%;
     border:unset;
 }
-.showings_offerlease .tenant_info {
-  margin-left: 35px;
-}
 .meet_datediv input.form-control {
   background: #C9D7E5;
   border-radius: 20px;
@@ -4753,4 +4761,211 @@ flex-basis: 49%;
   padding: 0 10px 0 7px;
   border-radius: 0px 20px 20px 0px;
 }
+.filterbtnshow{
+  padding: 0;
+  border: unset;
+  background: unset;
+}
+.button_map .filterbtnshow img{
+  margin: 0;
+  height: 39px;
+}
+.headingcalen h3{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 21px;
+text-transform: capitalize;
+color: #315D80;
+margin:0;
+}
+.headingcalen h3 img{
+  height: 28px;
+  vertical-align: bottom;
+}
+.calendercard_show{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1em 0;
+}
+.upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link.active{
+background: #315D80;
+border-radius: 25.6499px;
+color:#ffffff;
+}
+.upcoming_eventsdiv .nav.upcom_events{
+background: #DEE7F2;
+border-radius: 40px;
+}
+.upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link{
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #315D80;
+  width: 100%;
+  text-align: center;
+  padding: 11px 10px;
+}
+.upcoming_eventsdiv .nav.upcom_events li{
+  width: 50%;
+}
+.headingcalen{
+  width: 63%;
+}
+.upcoming_eventsdiv{
+  width: 35%;
+}
+.crossic_cal{
+  margin: 0 10px 0 11px;
+}
 
+/* month select box */
+.select-box,.select-box1 {
+  cursor: pointer;
+  position : relative;
+  width: 29%;
+}
+.select-box .select,.select-box1 .select {
+  width: 100%;
+background: #C9D7E5;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  background: none transparent;
+  border: 0 none;
+  height: 31px;
+}
+.select-box .label,.select-box1 .label {
+  position: relative;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 0px;
+  display: block;
+  background: #C9D7E5;
+  border-radius: 42px;
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 13px;
+  text-align: left;
+  text-transform: capitalize;
+  color: #315D80;
+  height: 31px;
+}
+.select-box.open .label::after,.select-box1.open .label::after {
+  content: "\f106";
+  font-family: 'FontAwesome';
+}
+.select-box .label::after,.select-box1 .label::after {
+  content: "\f107";
+  font-family: 'FontAwesome';
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 6px 15px;
+}
+.date_heading h3{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+text-align: center;
+text-transform: capitalize;
+color: #315D80;
+margin:0;
+}
+.seldatebox{
+  justify-content: space-between;
+}
+.seldatebox,.datearrow{
+  display: flex;
+  flex-basis: 49%;
+  align-items: center;
+}
+.datesel_show{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 2.5em 0;
+}
+.datearrow{
+  justify-content: flex-end;
+}
+.datedetailsshow{
+  display: flex;
+  align-items: baseline;
+}
+.datedetailsshow p{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 14px;
+text-align: right;
+text-transform: capitalize;
+color: #315D80;
+margin:0;
+}
+.imgarrw_div{
+  margin-left:10px;
+}
+.calview_show{
+background: #DEE7F2;
+border-radius: 14px;
+padding:20px;
+}
+.calenderview_div{
+  margin:1em 0 0 0;
+background: #EDF2FA;
+border-radius: 17px;
+padding:20px;
+}
+.weekdaysname{
+  display: flex;
+  justify-content: space-between;
+}
+.wename{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+text-transform: capitalize;
+color: #92A3B4;
+margin: 0 0 5px 0;
+}
+.wekdate{
+  background: #C9D7E5;
+  border-radius: 42px;
+  margin: 0;
+  text-align: center;
+  padding: 9px 0px;
+  height: 40px;
+  width: 40px;
+  font-size: 14px;
+}
+.weknamediv.active .wekdate{
+  background: #376990;
+  border: 4px solid #C9D7E5;
+  padding: 6px 0px;
+  color:#ffffff;
+}
+.linecaldiv{
+  text-align: center;
+  margin:6px 0 0 0;
+}
+.linecaldiv img{
+  height: 30px;
+}
+.showing_confirmed.reschedule_divyellow{
+  display: block;
+  text-align: center;
+}
+.showing_confirmed.reschedule_divyellow .button_myinfos.sched_reschedule{
+  margin:0;
+  padding:0;
+}
+.btn.reschedulebtncard{
+  padding: 0;
+  color: #ffffff;
+  border: unset;
+}
