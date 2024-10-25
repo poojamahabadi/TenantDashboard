@@ -26,10 +26,6 @@ background: #C9D7E5;
 border-radius: 20px;
 }
 
-@font-face {
-font-family: 'Helvetica';
-src: url('../fonts/Helvetica.ttf'), url('../fonts/Helvetica-BoldOblique.ttf'), url('../fonts/Helvetica-Bold.ttf'), url('../fonts/Helvetica-BoldOblique.ttf'), url('../fonts/Helvetica-BoldOblique.ttf'), url('../fonts/helvetica-compressed-5871d14b6903a.otf'), url('../fonts/helvetica-light-587ebe5a59211.ttf'), url('../fonts/Helvetica-Oblique.ttf'), url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf');
-}
 .btn:hover, .btn:focus, .btn:active {
 outline: none;
 box-shadow: unset;
@@ -348,7 +344,6 @@ border-radius: 6px;
 }
 .sidenav .menu_nav a.active {
 background: linear-gradient(281.64deg, #f8b195 -63.17%, #f2727f 63.95%);
-/*box-shadow: 4.456px 4.456px 13.368px rgba(218, 104, 98, 0.5), -1.114px -1.114px 11.14px rgba(255, 170, 178, 0.5), inset 7.798px 7.798px 16.71px #ffb0ab;*/
 }
 .sidenav .menu_nav a:hover {
 background: linear-gradient(281.64deg, #f8b195 -63.17%, #f2727f 63.95%);
@@ -1698,7 +1693,6 @@ margin: 0 0 1em 0;
 .offer_lease p, .offer_agree p {
 margin: 0;
 font-family: 'Helvetica';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 17px;
@@ -4968,4 +4962,48 @@ margin: 0 0 5px 0;
   padding: 0;
   color: #ffffff;
   border: unset;
+}
+
+
+button.swal2-confirm.swal2-styled.swal2-default-outline {
+  border-radius: 40px;
+  width: 175px;
+}
+button.swal2-cancel.swal2-styled.swal2-default-outline {
+  border-radius: 40px;
+  width: 175px;
+}
+.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show {
+  border-radius: 17px;
+  background-color: #edf2fa;
+}
+.swal2-container.swal2-center.swal2-backdrop-show {
+  backdrop-filter: blur(10px);
+}
+.uploaddesign_popup {
+  backdrop-filter: blur(10px);
+}
+.error-message-upload {
+  width: 60%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  margin-left: 20%;
+  margin-top: -3%;
+  margin-bottom: 4%;
+  padding-bottom: 3%;
+  border-radius: 30px;
+}
+.swal2-show {
+  border-radius: 20px;
+  width: 50%;
+}
+.swal2-confirm {
+  width: 21% !important;
+  border-radius: 30px !important;
+  background: #376990;
+}
+.swal2-actions {
+  width: 100%;
 }
