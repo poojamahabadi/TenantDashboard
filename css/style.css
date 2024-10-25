@@ -314,7 +314,7 @@ font-weight: 700;
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 100;
+  z-index: 10000;
   top: 0px;
   left: 0;
   background: rgba(49, 93, 128, 0.8);
@@ -417,11 +417,15 @@ border-radius: 50%;
 border: 2px solid #416684;
 box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.1), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
 }
-.sidenav .menu_nav .logoutsec  a{
+.sidenav .menu_nav .logoutsec a{
   width: 100%;
+}
+.sidenav .menu_nav .logoutsec a:hover{
+	background: unset;
 }
 .logoutsec {
 display: flex;
+text-align: center;
 justify-content: space-evenly;
 }
 .l-main {
