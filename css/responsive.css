@@ -980,6 +980,23 @@ padding: 4px 22px 4px 12px;
 }
 @media only screen and (max-width:800px){
 /* showings */
+.google-map.showingsmap.mobileviewshow {
+    display: block;
+    padding: 0;
+    background: unset;
+}
+.form-search.showmapgoogle .input-group-append {
+    right: 4px;
+    top: 4px;
+}
+.map {
+    height: 672px;
+    border-radius: 0px;
+}
+.google-map {
+    margin: 79px 0 0 0;
+    border-radius: 0px;
+}
 .google-map.showingsmap{
 display: none;
 }
@@ -1016,9 +1033,7 @@ display: none;
     padding: 9px 20px;
     border:unset;
 }
-.google-map {
-    margin: 26px 0 0 0;
-}
+
 .mobileview_searchshowings .input-group-append .btn.btnmap{
     background: #315D80;
     border-radius: 24px;
@@ -1179,6 +1194,9 @@ padding: 14px 20px;
 .map {
     height: 571px;
 }
+.scheshow_flex .clcross_icon {
+    right: -2px;
+}
 /* end of showings */
 .profimg_div .status {
 right: -5px;
@@ -1221,6 +1239,16 @@ width: 57%;
 .downarrow{
 position: relative;
 }
+.map {
+    height: 100vh;
+}
+.showmapgoogle .input-group-append .btnlist_view {
+    padding: 11px 20px;
+}
+.form-search.showmapgoogle .input-group-append {
+    right: 2.5px;
+    top: 2.5px;
+}
 .downarrow a {
     background: linear-gradient(180deg, #FFFFFF 44.3%, rgba(255, 255, 255, 0) 66.98%);
     filter: drop-shadow(-3px -3px 10px rgba(255, 255, 255, 0.2));
@@ -1258,11 +1286,11 @@ position: relative;
 }
 .clickonfilterbtn.clkfilmap {
     width: 24%;
-    right: 53px;
-    top: -3px;
+    right: 87px;
+    top: 1px;
 }
 .clcross_icon.mapcross {
-    right: 72px;
+    right: 98px;
 }
  .about_descrip ul {
 flex-wrap: wrap;
@@ -1279,11 +1307,14 @@ font-size: 12px;
 line-height: 21px;
 }
 .form-search.showmapgoogle {
-position: absolute;
-top: 4em;
-transform: translate(-50%);
-left: 50%;
-width: 78%;
+    position: absolute;
+    top: 2em;
+    transform: translate(-50%);
+    left: 50%;
+    width: 78%;
+}
+.form-search.showmapgoogle .input-group input.form-control{
+background: #F8FAFF;
 }
 .mobileview_allunits .similar_unitsdiv .bottom_rightdetails {
 right: unset;
@@ -1369,7 +1400,6 @@ color: #C9D7E5;
 }
 .flex_menubottom{
 background: #315D80;
-box-shadow: inset 4px 4px 4px #4D7EA5;
 border-radius: 24px 24px 0px 0px;
 display: flex;
 justify-content: space-around;
@@ -1377,7 +1407,7 @@ align-items: center;
 text-align: center;
 padding: 22px 10px;
 position: fixed;
-bottom: 0px;
+bottom: -1px;
 width: 100%;
 } 
 .profimg_div .status {
@@ -1518,15 +1548,16 @@ right: 13px;
     width: 22%;
 }
 .bacgr_imagefiltershow {
-    margin: 42px 7px 0 7px;
+    margin: 53px 7px 0 7px;
 }
 .clickonfilterbtn.clkfilmap {
     width: 28%;
-    right: 23px;
-    top: -2px;
+    right: 42px;
+    top: 3px;
 }
 .clcross_icon.mapcross {
-    right: 38px;
+    right: 55px;
+    top: 9px;
 }
 /* end of showings */
 .links ul li {
@@ -2117,14 +2148,7 @@ margin:10px 0 0 0;
 }
 
 .flex_menubottom{
-background: #315D80;
-box-shadow: inset 4px 4px 4px #4D7EA5;
-border-radius: 24px 24px 0px 0px;
-display: flex;
-justify-content: space-around;
-align-items: center;
-text-align: center;
-padding: 22px 10px;
+    padding: 16px 10px 10px 10px;
 }
 .belowpart_tenant {
 padding: 19px 10px 11px 17px;
@@ -2255,6 +2279,12 @@ margin: 0;
 .slidelocation_div .txt_loc {
 font-size: 0.9em;
 }
+.clcross_icon.mapcross {
+    right: 31px;
+}
+.google-map {
+    margin: 52px 0 0 0;
+}
 .downarrow a {
     padding: 17px;
 }
@@ -2323,6 +2353,18 @@ justify-content: end;
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
 /* showings */
+.clcross_icon.mapcross {
+    right: 31px;
+}
+.mobileversion_view {
+    margin: 5px 0 0 0;
+}
+.form-search.showmapgoogle {
+    top: 4em;
+}
+.google-map {
+    margin: 63px 0 0 0;
+}
 .downarrow a {
     padding: 17px;
 }
@@ -2356,7 +2398,7 @@ justify-content: end;
 /* end of showings */
 
 .txt_heading {
-margin: 0 4.5em 0 6.5em;
+    margin: 0 4em 0 5em;
 }
 .showings_sche_div .bottom_rightdetails {
 bottom: 16px;
@@ -2542,6 +2584,37 @@ width: 56%;
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
     /* showings */
+    .google-map {
+        margin: 40px 0 0 0;
+    }
+    .logo__txt a img {
+        height: 36px;
+    }
+    .mobileversion_view {
+        margin: -7px 0 0 0;
+    }
+    .form-search.showmapgoogle {
+        position: absolute;
+        top: 4em;
+        width: 95%;
+    }
+    .clickonfilterbtn.clkfilmap {
+       top:0;
+        right: 2px;
+    }
+    .mobileviewshow .bacgr_imagefiltershow .btn {
+        width: 88%;
+    }
+    .clcross_icon.mapcross {
+        right: 10px;
+        top: 10px;
+    }
+    .form-search.showmapgoogle .input-group input.form-control {
+        height: 45px;
+    }
+    .showmapgoogle .input-group-append .btnlist_view {
+        padding: 9px 20px;
+    }
     .downarrow a {
         padding: 17px;
     }
@@ -2679,6 +2752,38 @@ height: 138px;
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
     /* showings */
+     .clickonfilterbtn.clkfilmap {
+        top: 0;
+        right: -2px;
+        width: 39%;
+    }
+     .form-search.showmapgoogle {
+        top: 4em;
+        width: 93%;
+    }
+    .button_map button img {
+        height: 14px;
+        margin: 0 3px 0 0px;
+    }
+    .btn.pendoffers, .btn.schedshow {
+        font-size: 12px;
+    }
+     .google-map {
+        margin: 48px 0 0 0;
+    }
+     .mobileviewshow .bacgr_imagefiltershow .btn {
+         width: 88%;
+     }
+     .clcross_icon.mapcross {
+        right: 13px;
+        top: 10px;
+     }
+     .form-search.showmapgoogle .input-group input.form-control {
+         height: 45px;
+     }
+     .showmapgoogle .input-group-append .btnlist_view {
+         padding: 9px 20px;
+     }
     .l-main {
         margin: 5em 0 8em 0;
     }
@@ -2891,7 +2996,7 @@ font-size: 12px;
     height: 87px;
 }
 .txt_heading {
-    margin: 0 3em 0 4em;
+    margin: 0 2em 0 3em;
 }
 .sche_pad_red {
 max-width: 100%;
@@ -3110,6 +3215,37 @@ left: -18px;
 }
 
 @media only screen and (max-width: 385px) and (min-width:376px) {
+    .clickonfilterbtn.clkfilmap {
+        top: 0;
+        right: -2px;
+        width: 39%;
+    }
+    .form-search.showmapgoogle .input-group-append {
+        right: 2.9px;
+    }
+    .form-search.showmapgoogle .input-group input.form-control {
+        height: 45px;
+    }
+    .showmapgoogle .input-group-append .btnlist_view {
+        padding: 9px 20px;
+    }
+    .btn.pendoffers, .btn.schedshow {
+        font-size: 11px;
+    }
+    .clcross_icon.mapcross {
+        right: 8px;
+    }
+     .form-search.showmapgoogle {
+        top: 4em;
+        width: 93%;
+    }
+    .google-map {
+        margin: 48px 0 0 0;
+    }
+    .button_map button img {
+        height: 14px;
+        margin: 0 3px 0 0px;
+    }
     .l-main {
         margin: 5em 0 8em 0;
     }
@@ -3301,13 +3437,13 @@ font-size: 12px;
 width: 35%;
 }
 .flex_menubottom p {
-font-size: 13px;
+    font-size: 12px;
 }
 .l-header {
 height: 95px;
 }
 .txt_heading {
-margin: 0 1.2em 0 3.1em;
+    margin: 0 2em 0 3em;
 }
 .tabcontent_tenant p {
 font-size: 12px;
@@ -3342,7 +3478,40 @@ left: -22px;
   .l-main {
     margin: 5.3em 0 8em 0;
 }
-
+.form-search.showmapgoogle .input-group-append {
+    right: 2.9px;
+}
+.txt_heading {
+    margin: 0 1.3em 0 1.5em;
+}
+.form-search.showmapgoogle .input-group input.form-control {
+    height: 45px;
+}
+.showmapgoogle .input-group-append .btnlist_view {
+    padding: 9px 20px;
+}
+.clickonfilterbtn.clkfilmap {
+    top: 0;
+    right: -2px;
+    width: 39%;
+}
+.btn.pendoffers, .btn.schedshow {
+    font-size: 11px;
+}
+.clcross_icon.mapcross {
+    right: 11px;
+}
+ .form-search.showmapgoogle {
+    top: 3.5em;
+    width: 97%;
+}
+.google-map {
+    margin: 48px 0 0 0;
+}
+.button_map button img {
+    height: 14px;
+    margin: 0 3px 0 0px;
+}
 .scheshow_flex .clcross_icon {
     right: -1px;
 }
@@ -3516,9 +3685,7 @@ height: 95px;
 .show_tablfull {
     padding: 0 10px;
 }
-.txt_heading {
-    margin: 0 1.5em 0 2em;
-}
+
 .my_info, .req_document {
 padding: 14px 10px;
 }
@@ -3575,6 +3742,41 @@ width: 37%;
   /* showings page */
   .l-main {
     margin: 5.3em 0 8em 0;
+}
+.mobileversion_view {
+    margin: -11px 0 0 0;
+}
+
+.form-search.showmapgoogle .input-group-append {
+    right: 2.9px;
+}
+.form-search.showmapgoogle .input-group input.form-control {
+    height: 45px;
+}
+.showmapgoogle .input-group-append .btnlist_view {
+    padding: 9px 20px;
+}
+.clickonfilterbtn.clkfilmap {
+    top: 0;
+    right: -2px;
+    width: 39%;
+}
+.btn.pendoffers, .btn.schedshow {
+    font-size: 11px;
+}
+.clcross_icon.mapcross {
+    right: 8px;
+}
+ .form-search.showmapgoogle {
+    top: 3.5em;
+    width: 97%;
+}
+.google-map {
+    margin: 48px 0 0 0;
+}
+.button_map button img {
+    height: 14px;
+    margin: 0 3px 0 0px;
 }
 .scheshow_flex .clcross_icon {
     right: -1px;
@@ -3806,7 +4008,7 @@ line-height: 13px;
 height: 90px;
 }
 .txt_heading {
-margin: 0 1.2em 0 2.3em;
+    margin: 0 1em 0 1.8em;
 }
 .my_info, .req_document {
 padding: 14px 10px;
@@ -3867,6 +4069,46 @@ line-height: 13px;
 /* showings page */
 .l-main {
     margin: 5em 0 8em 0;
+}
+.flex_menubottom {
+    padding: 11px 10px 10px 10px;
+}
+.mobileversion_view {
+    margin: -2px 0 0 0;
+}
+.btn.pendoffers, .btn.schedshow {
+    padding: 4px 6px;
+}
+.form-search.showmapgoogle .input-group-append {
+    right: 2.9px;
+}
+.form-search.showmapgoogle .input-group input.form-control {
+    height: 45px;
+}
+.showmapgoogle .input-group-append .btnlist_view {
+    padding: 9px 20px;
+}
+.clickonfilterbtn.clkfilmap {
+    top: 0;
+    right: -2px;
+    width: 39%;
+}
+.btn.pendoffers, .btn.schedshow {
+    font-size: 11px;
+}
+.clcross_icon.mapcross {
+    right: 5px;
+}
+ .form-search.showmapgoogle {
+    top: 3.5em;
+    width: 97%;
+}
+.google-map {
+    margin: 48px 0 0 0;
+}
+.button_map button img {
+    height: 14px;
+    margin: 0 3px 0 0px;
 }
 .scheshow_flex .clcross_icon {
     right: -1px;
@@ -4186,11 +4428,26 @@ font-size: 10px;
     .downarrow a {
         padding: 10px 16px 9px 16px;
     }
+    .links ul li.notify {
+        margin: -3px 6px 0 0px;
+    }
+    .clcross_icon.mapcross {
+        right: 8px;
+    }
+    .button_map .filterbtnshow img {
+        height: 34px;
+    }
+    .clickonfilterbtn.clkfilmap {
+        width: 46%;
+    }
     .input_reschedule input.form-control {
         font-size: 12px;
     }
     .scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img, .mobileviewblock_scheduleslider .showimgpend img {
         height: 74px;
+    }
+    .btn.pendoffers, .btn.schedshow {
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 765px) {

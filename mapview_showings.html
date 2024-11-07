@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Showings</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+    <!-- datepicker styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="l-header">
+<div class="l-header__inner clearfix">
+<div class="c-header-icon desktopversion_search">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+<div class="logo">
+<div class="logo__txt">
+<a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+<div class="mobileversion_view">
+<a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+</div>
+</div>
+</div>
+
+<div class="c-search desktopversion_search">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+
+<div class="mobileversion_view txt_heading">
+<h3>showings & offers</h3>
+</div>
+
+<div class="links">
+<ul>
+<li class="phone desktopversion_search"> <a href="">
+<img src="images/phone.svg"></a>
+<div class="count_phone">
+<span>4</span>
+</div>
+</li>
+<li class="comment desktopversion_search"> <a href="">
+<img src="images/comment.svg"></a>
+<div class="count_comment">
+<span>5</span>
+</div>
+</li>
+<li class="email desktopversion_search"> <a href="">
+<img src="images/email.svg"></a>
+<div class="count_email">
+<span>6</span>
+</div>
+</li>
+<li class="notify"> <a href="">
+<img src="images/notify.svg"></a>
+<div class="count_notify">
+<span>30</span>
+</div>
+</li>
+</ul>
+</div>
+
+<div class="c-header-icon mobileversion_view">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+</div>
+</header>
+
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="topsec_menu">
+<div class="profilepic">
+<img src="images/menu/profilemenu.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+<div class="profiledetails">
+<p>Mae Coleman <small>Tenant</small></p>
+<a href="">View Profile</a>
+</div>
+<div class="upgradediv">
+<button class="btn upgrade_btn">Upgrade</button>
+</div>
+</div>
+<div class="c-search menusearch">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+<div class="menu_nav">
+<a href="myinformation.html">  <img src="images/menu/my_info.svg"> My Information</a>
+<a href="#">  <img src="images/menu/communication.svg"> Communications</a>
+<a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+<a href="#" class="active">  <img src="images/menu/showings.svg"> Showings</a>
+<a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+<a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+<a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+<a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+<div class="logoutsec">
+<a href="javascript:void(0);">Logout</a>
+</div>
+</div>
+</div>
+
+
+<div class="google-map showingsmap mobileviewshow">
+  <div class="map" id="map wpsl-gmap">
+    <div class="marker" data-lat="25.1882843" data-lng="55.2716891"></div>
+</div> 
+<div id="map"></div>
+
+<div class="form-search showmapgoogle">
+<div class="input-group mb-3">
+<input type="text" class="form-control" placeholder="Search">
+<div class="input-group-append">
+<button type="submit" class="btn_sub"><i class="fa fa-search"></i></button>
+<button type="submit" class="btn btnlist_view">List View <img src="images/showings/listview.svg"></button>
+</div>
+</div>
+
+<div class="button_map">
+  <button class="btn pendoffers"><img src="images/showings/pend_offersround.svg"> Pending offers</button>
+  <button class="btn schedshow"><img src="images/showings/scheduleoff_round.svg"> Scheduled Showings</button>
+  <button class="filterbtnshow mapshow"><img src="images/showings/filter_showings.svg"></button>
+
+  <div class="clickonfilterbtn clkfilmap">
+    <div class="bacgr_imagefiltershow">
+      <button type="button" class="btn btnallshow">All</button>
+      <button type="button" class="btn btnconfrshow">Calender View</button>
+    </div>
+  </div>
+  <img src="images/showings/cross_icon.svg" class="clcross_icon mapcross">
+</div>
+</div>
+<!-- search end -->
+</div>
+
+
+
+
+<!-- mobileview menu -->
+<div class="container-fluid btmmenu">
+  <div class="flex_menubottom">
+  <div class="dash">
+  <a href="">
+  <img src="images/dashboard.svg">
+  <p>Dashboard</p>
+  </a> 
+  </div>
+  <div class="commu">
+  <a href="">
+  <img src="images/communication.svg">
+  <p>Communication</p>
+  </a>
+  </div>
+  <div class="maint">
+  <a href="">
+  <img src="images/maintenance.svg">
+  <p>Maintenance</p>
+  </a>
+  </div>
+  <div class="rent">
+  <a href="">
+  <img src="images/rentals.svg">
+  <p>Rentals</p>
+  </a>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+<div class="modal fade filtermap_modal" id="filter_map">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<!-- Modal Header -->
+
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<div class="modal-header modl_head">
+<div class="titlemodal">
+<h4 class="modal-title">filter by</h4>
+</div>
+<div class="button_search">
+<button type="button" class="btn">Save Search</button>
+</div>
+</div>
+
+<!-- Modal footer -->
+<div class="modal-footer">
+<button type="button" class="btn btn-date">date & time</button>
+<button type="button" class="btn btn-location">location</button>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<!--  slick js -->
+<script src="js/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyDJnrEcWfE4re1fHfa_hPM_Lla9bGF7A3Y"></script>
+<script>
+  // datepicker
+$(document).ready(function(){
+$('.datepickershowing').datepicker({
+language: "es",
+autoclose: true,
+format: "dd/mm/yyyy"
+});
+});
+</script>
+<script>
+  var markers = [
+  {
+title: "<img src='images/showings/unitsmap.svg'> 20 Units",
+lat: "42.144970",
+lng: "-71.256950",
+description:
+"Union & West  95 West St, Walpole 1"
+},
+{
+title: "$1,435",
+lat: "43.715700",
+lng: "-79.412480",
+description: "<img src='images/showings/unitsmap.svg'> 20 Units "
+},
+{
+title: "$1,850",
+lat: "42.144970",
+lng: "-71.256950",
+description: "95 West St, Walpole 1"
+},
+{
+title: "$1,300",
+lat: "37.078400",
+lng: "-79.796150",
+description: "Scarborough"
+}
+  ];
+    var geocoder = new google.maps.Geocoder();
+    var map = null;
+    var latitude = '';
+    var longitude = '';
+    var infowindows = [];
+    var lastOpenedInfoWindow ='';
+    var bounds = new google.maps.LatLngBounds();
+    jQuery(document).ready(function (){
+        jQuery('.map').each(function(){
+                map = new_map( jQuery(this) );
+        });
+    });
+    function new_map( $el ) {
+	var $markers = $el.find('.marker');
+	var args = {
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+	map = new google.maps.Map( $el[0], args);
+	map.markers = [];
+        add_marker( markers , map );
+            center_map( map );
+	return map;
+    }
+    function add_marker( $marker, map ) {
+        var marker = '';
+        var i ;
+        jQuery.each($marker, function( index, value ) {
+                geocoder.geocode(    { 'address': value.address}, function(results, status) {
+                longitude   = value.lng;
+                latitude    = value.lat;
+                marker = new google.maps.Marker({
+                    center: new google.maps.LatLng(latitude, longitude),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    position: new google.maps.LatLng(latitude, longitude),
+                    map: map,
+                    //icon: {url: value.iconURL, width: 35, height: 35},
+                });
+                  
+                map.setCenter(marker.getPosition());
+                bounds.extend(marker.getPosition());
+                
+                if( value.description )
+                {
+                        infowindows.push(new google.maps.InfoWindow({content: value.description}));
+                        var infowindow =  new google.maps.InfoWindow({content: value.description});
+                        google.maps.event.addListener(marker, 'click', (function(marker, content , infowindow) {
+                            return function() {
+                                closeLastOpenedInfoWindow();
+                                infowindow.setContent(content);
+                                infowindow.open(map, marker);
+                                lastOpenedInfoWindow = infowindow;
+                            };
+                })(marker, value.description , infowindow));
+                    center_map( map );
+            }
+  
+            
+            function closeLastOpenedInfoWindow() {
+                if (lastOpenedInfoWindow) {
+                    lastOpenedInfoWindow.close();
+                }
+            }
+            });
+        });
+      
+    }
+    function center_map( map ) {
+        if( map.markers.length == 1 ){
+            map.setCenter( bounds.getCenter() );
+        }else{
+            console.log( bounds );
+            map.fitBounds( bounds );
+        }
+    }
+</script>
+</body>
+</html>
