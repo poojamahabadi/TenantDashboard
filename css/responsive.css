@@ -1,9 +1,31 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
+/* showings page */
+.scheduleslider .showingssec .showimgpend img,
+.pendingslider .showingssec .showimgpend img {
+height: 85px;
+}
+.popup_reschedule_btn, .resche_yellowcard {
+width: 91%;
+}
+.clickonfilterbtn.clkfilmap {
+    height: 142px;
+    width: 23%;
+    right: 46px;
+}
+.clcross_icon.mapcross {
+    right: 54px;
+    top: 6px;
+}
+/* end of showings */
+
 .l-header {
 height: 115px;
 }
+.links{
+margin: 12px 0 0 0;
+}
 .l-header__inner {
-    height: 52px;
+height: 52px;
 }
 .profimg_div .status {
 right: 66px;
@@ -12,22 +34,68 @@ right: 66px;
 top: 22%;
 }
 .avatar-upload .avatar-edit input + label:after {
-    left: -63px;
+left: -63px;
 }
 .profimg_div .avatar-preview .status {
-    right: 11px;
+right: 11px;
 }
+/* schedule showings  */
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track{
+margin-left: 265px;
+}
+.tablinks_propfeat ul.nav li a {
+padding: 5px 37px;
+}
+.sche_pad_red {
+padding: 0 15px;
+}
+.showimgpend img {
+height: 151px;
+}
+.showingssec .order_links span a {
+font-size: 14px;
+}
+.buttons_map button {
+padding: 7px 16px;
+}
+.showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
+font-size: 15px;
+}
+/* schedule showings end  */
 }
 
 @media only screen and (max-width: 1600px) {
-.l-header {
-height: 100px;
+/* showings */
+.clickonfilterbtn.clkfilmap {
+    height: 131px;
+    width: 29%;
+    right: 27px;
 }
+.clickonfilterbtn {
+    right: -30px;
+}
+.clcross_icon.mapcross {
+    right: 36px;
+    top: 4px;
+}
+.scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img {
+height: 94px;
+}
+/* end of showings */
 .profimg_div .status {
 right: 30px;
 }
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 225px;
+}
 .avatar-upload .avatar-edit input + label:after {
-    left: -31px;
+left: -31px;
+}
+.l-header {
+height: 107px;
+}
+.tablinks_propfeat ul.nav li a {
+padding: 5px 19px;
 }
 }
 
@@ -35,42 +103,229 @@ right: 30px;
 .profimg_div .status {
 right: 22px;
 }
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 212px;
+}
+.slideronmap {
+margin: -133px 0 0 0;
+}
 .l-header__inner {
-    height: 55px;
+height: 55px;
 }
 .avatar-upload .avatar-edit input + label:after {
-    left: -25px;
+left: -25px;
 }
 }
 
 @media only screen and (max-width: 1400px){
+
+/* showings */
+.clickonfilterbtn {
+    right: -10px;
+}
+.bacgr_imagefiltershow {
+    margin: 49px auto 0 18px;
+}
+.clcross_icon.mapcross {
+    right: 12px;
+    top: 2px;
+}
+.clickonfilterbtn.clkfilmap {
+    height: 131px;
+    width: 34%;
+    right: 0px;
+}
+.map {
+height: 706px;
+}
+.showingssec_infodiv .showingssec .timelabel span,
+.showingssec_infodiv .showingssec .timeinfo span,
+.showingssec_infodiv .showingssec .datelabel span,
+.showingssec_infodiv .showingssec .dateinfo span {
+font-size: 13px;
+}
+/* end of showings */
 .l-header {
-height: 100px;
+height: 103px;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 186px;
+}
+.buttons_map button {
+padding: 7px 12px;
+}
+.tablinks_propfeat ul.nav li a {
+padding: 5px 12px;
+}
+.bottom_details {
+bottom: 11px;
+}
+.bannerimg {
+object-fit: cover;
+height: 183px;
 }
 .profimg_div .status {
 right: 6px;
 }
 .avatar-upload .avatar-edit input + label:after {
-    left: -3px;
+left: -3px;
+}
+.showimgpend img {
+height: 132px;
 }
 }
 
 
 @media only screen and (max-width: 1366px){
-    .l-header__inner {
-        height: 55px;
-    }
+/* showings */
+.scheshow_flex .clcross_icon {
+    right: 6px;
+    top: 3px;
+}
+.clcross_icon.mapcross {
+    right: 9px;
+    top: 9px;
+}
+.clickonfilterbtn {
+    width: 38%;
+    right: -29px;
+    top: -4px;
+}
+.scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img {
+height: 80px;
+}
+.popup_reschedule_btn, .resche_yellowcard {
+width: 92%;
+}
+.showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn {
+margin-right: 0px;
+}
+.map {
+height: 687px;
+}
+.reschedule_divdropdown {
+left: 3px;
+}
+.popup_reschedule_btn.yelwshowconfirm{
+width: 85%;
+}
+.reschedule_divdropdown.btnresched {
+    top: -1px;
+    left: 15px;
+}
+.reschedule_divdropdown {
+top: 12px;
+}
+/* end of showings */
+
+.l-header__inner {
+height: 55px;
+}
+.similar_unitsdiv .leasedslider {
+margin: 11px 0px 0 19px;
+}
 .profimg_div .status {
 right: 2px;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 86px;
+}
+.buttons_map button {
+padding: 7px 10px;
+}
+.showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
+font-size: 13px;
+}
+.showimgpend img {
+height: 115px;
+}
+.showingssec .order_links span a {
+margin: 0;
+}
+.sche_pad_red {
+padding: 0 8px;
 }
 }
 
 @media only screen and (max-width: 1280px){
-.l-header {
-height: 123px;
+/* showings */
+.form-search.showmapgoogle {
+width: 57%;
+}
+.clickonfilterbtn {
+    right: -14px;
+    height: 119px;
+}
+.clcross_icon.mapcross {
+    right: 24px;
+    top: 5px;
+}
+.reschedule_divdropdown.btnresched {
+top: -2px;
+}
+.content-wrapper .container-fluid {
+width: 97%;
+}
+.showingssec_infodiv .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn {
+width: 36%;
+}
+.showingssec_infodiv .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
+width: 59%;
+}
+.showingssec_infodiv .confirmshow_divyellow .span_start {
+font-size: 11px;
+}
+.showingssec_infodiv .showingssec .order_links span a {
+font-size: 11px;
+}
+.showingssec_infodiv .confrm_div p {
+font-size: 12px;
+}
+.showingssec_infodiv .showingssec .timelabel span, 
+.showingssec_infodiv .showingssec .timeinfo span, 
+.showingssec_infodiv .showingssec .datelabel span, 
+.showingssec_infodiv .showingssec .dateinfo span {
+font-size: 11px;
+}
+.showingssec_infodiv .showing_viewdetails .btn.view_detail {
+font-size: 12px;
+}
+.showingssec_infodiv .showingssec .showtime {
+padding: 8px 14px 4px 0px;
+}
+/* end of showings */
+
+
+.l-main {
+margin: 7em 0 0em 0;
+}
+.buttons_map {
+border-radius: 10px;
+display: flex;
+}
+.tablinks_propfeat ul.nav li a,.buttons_map button {
+white-space: nowrap;
+}
+.tablinks_propfeat ul.nav,.buttons_map {
+overflow-x: auto;
+overflow-y:hidden;
+flex-wrap: nowrap;
+}
+.about_descrip p {
+font-size: 13px;
+line-height: 19px;
+}
+.info_conddetails p:first-child {
+font-size: 11px;
+}
+.info_conddetails p:nth-child(2) {
+font-size: 10px;
+}
+.about_descrip ul li {
+font-size: 11px;
 }
 .avatar-upload .avatar-edit input + label:after {
-    left: 8px;
+left: 8px;
 }
 .tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
 font-size: 12px;
@@ -80,9 +335,6 @@ padding: 8px 20px;
 }
 .tenantaccord .card .card-header h2 .save_btn_all {
 margin: 0 0 0 -15px;
-}
-.l-header__inner {
-height: 79px;
 }
 .flexdiv div label {
 font-size: 11px;
@@ -94,10 +346,10 @@ font-size: 19px;
 font-size: 10px;
 }
 .l-header {
-height: 117px;
+height: 112px;
 }
 .l-header__inner {
-height: 74px;
+height: 68px;
 }
 .links ul li div span {
 height: 23px;
@@ -125,15 +377,126 @@ font-size: 13px;
 .profimg_div .status {
 right: -9px;
 }
+.bannerimg {
+height: 171px;
+}
+.pricedet_showings h3 {
+font-size: 22px;
+}
+.butn_green img {
+height: 18px;
+}
+.showimgpend img {
+height: 110px;
+}
+.leasedslider.areaexplr p {
+font-size: 10px;
+line-height: 14px;
+}
+.leasedslider.areaexplr h3 {
+font-size: 13px;
+}
+.showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
+font-size: 12px;
+}
+.showingssec .order_links span a {
+font-size: 13px;
+}
+.buttons_map button {
+padding: 6px 7px;
+font-size: 11px;
+}
+.head_explr {
+font-size: 19px;
+}
+.slideronmap {
+margin: -124px 0 0 0;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 80px;
+}
 }
 
 
 @media only screen and (max-width: 1200px){
+    /* showing page */
+.filter_click img{
+    height: 22px;
+}
+.scheshow_flex .clcross_icon {
+    right: 1px;
+    top: 3px;
+}
+.clickonfilterbtn {
+    right: -8px;
+}
+.clcross_icon.mapcross {
+    right: 16px;
+}
+.showingssec_infodiv .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
+width: auto;
+padding: 5px 10px;
+}
+.reschedule_divdropdown .btn.conf_resch,.reschedule_divdropdown .btn.canc_show {
+    font-size: 10px;
+}
+.showingssec_infodiv .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn {
+    width: auto;
+}
+    /* showing page end */
 .l-header__inner {
-height: 77px;
+height: 72px;
+}
+.leasedslider .imageover_details > img {
+height: 161px;
+}
+.about_descrip ul li {
+font-size: 10px;
+}
+.butn_green {
+margin: 0 12px 0 0px;
+}
+.butn_green .btn.btn_greenverif {
+font-size: 14px;
+}
+.leasedslider.areaexplr img {
+height: 12px;
+}
+.links {
+margin: 8px 0 0 0;
+}
+.mapdiv_showings {
+padding: 17px 12px 27px 12px;
+}
+.head_explr {
+font-size: 18px;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 71px;
+}
+.leaseddetails_slider {
+bottom: 9px;
+}
+.slideronmap .slider .slick-track {
+margin-left: 81px;
+}
+.tablinks_propfeat ul.nav li a {
+padding: 5px 7px;
+}
+.bannerimg {
+height: 159px;
+}
+.bottom_details span {
+font-size: 13px;
+}
+.butn_green .btn.btn_greenverif {
+padding: 4px 9px 4px 13px;
+}
+.map_streetshowings h3 {
+font-size: 15px;
 }
 .edit_button.save_new {
-    width: 62%;
+width: 62%;
 }
 .modal.uploaddesign_popup.success {
 top: 12%;
@@ -150,12 +513,68 @@ font-size: 15px;
 }
 
 @media only screen and (max-width:1136px){
+/* showings */
+.map {
+    height: 672px;
+}
+.google-map {
+    margin: 0 0 1em 0;
+}
+.scheshow_flex .clcross_icon {
+    right: 5px;
+    top: 4px;
+}
+.clickonfilterbtn {
+    right: -17px;
+    height: 134px;
+}
+.form-search.showmapgoogle {
+    width: 69%;
+}
+.showingssec_infodiv .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn{
+    padding: 5px 16px;
+}
+.showingssec_infodiv .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn{
+    padding: 5px 18px;
+}
+/* end of showings */
+
 .profimg_div img,.avatar-upload .avatar-preview {
 height: 105px;
 width: 105px;
 }
+.leasedslider .imageover_details > img {
+height: 149px;
+}
+.bannerimg {
+height: 150px;
+}
+.showimgpend img {
+height: 98px;
+}
+.bottomdetails_descrip {
+padding: 18px 14px 15px 12px;
+}
+.abtdescrip_css{
+padding:0 5px;
+}
+.about_descrip ul {
+margin: 0 0 7px 0;
+}
+.mrbtm {
+margin-bottom: 5px;
+}
+.about_descrip {
+padding: 14px 7px 10px 7px;
+}
+.tablinks_propfeat ul.nav li a {
+padding: 5px 6px;
+}
+.tablinks_propfeat ul.nav {
+justify-content: flex-start;
+}
 .avatar-upload .avatar-edit input + label:after {
-    top: 72px;
+top: 72px;
 }
 .modal.uploaddesign_popup.success {
 top: 17%;
@@ -181,17 +600,55 @@ right: -5px;
 }
 
 @media only screen and (max-width:1080px){
+/* showings */
+.clcross_icon.mapcross {
+    right: 8px;
+}
+.clickonfilterbtn {
+    right: -9px;
+}
+.showingssec_infodiv .showingssec .showtime {
+    padding: 12px 14px 4px 0px;
+}
+.showingssec_infodiv .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
+    padding: 5px 12px;
+}
+.showingssec_infodiv .confirmshow_divyellow .span_start {
+    font-size: 10px;
+}
+/* end of showings */
 .basicdata {
 flex-basis: 54%;
 }
+.slideronmap .slider .slick-track {
+margin-left: 76px;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 65px;
+}
+.buttons_map button {
+margin: 0 0 5px 0;
+}
+.propfeat_tab ul {
+padding: 0px 0px 5px 0;
+}
+.tablinks_propfeat ul.nav li a {
+padding: 5px 4px;
+}
+.addr_streetshowings h3,.map_streetshowings h3 {
+display: flex;
+}
+.bannerimg {
+height: 142px;
+}
 .l-header__inner {
-    height: 80px;
+height: 80px;
 }
 .edit_button .cancel_btn_all {
-    padding: 4px 20px 4px 8px;
+padding: 4px 20px 4px 8px;
 }
 .profilename, .account_no {
-    font-size: 15px;
+font-size: 15px;
 }
 .basicdatatxt {
 flex-basis: 43%;
@@ -209,15 +666,56 @@ right: -15px;
 
 
 @media only screen and (max-width:1024px){
+/* showings */
+.showingssec_infodiv .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
+    padding: 5px 8px;
+}
+.showing_imgdiv span {
+    font-size: 18px;
+}
+.btn.pendoffers, .btn.schedshow {
+    font-size: 12px;
+}
+.showingssec_infodiv .showing_viewdetails .btn.view_detail {
+    font-size: 11px;
+}
+.form-search.showmapgoogle {
+    width: 76%;
+}
+/* end of showings */
 .c-search {
 margin-left: 7em;
 }
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 55px;
+}
+.slideronmap {
+margin: -134px 0 0 0;
+}
+.tablinks_propfeat ul.nav li a {
+font-size: 11px;
+}
+.tablinks_propfeat ul.nav {
+justify-content: space-between;
+}
+.bannerimg {
+height: 135px;
+}
+.prop_headingfeat h3 {
+font-size: 15px;
+}
+.propfeat_tab ul li a {
+padding: 7px 25px;
+}
+.l-header__inner {
+height: 76px;
+}
 .avatar-upload .avatar-edit input + label:after {
-    top: 57px;
-    left: 6px;
+top: 57px;
+left: 6px;
 }
 .edit_button.save_new {
-    width: 68%;
+width: 68%;
 }
 .question_tooltipcontent {
 width: 68%;
@@ -257,15 +755,35 @@ margin: 10px 0 0 0;
 }
 
 @media only screen and (max-width:992px){
+/* showings */
+.clickonfilterbtn {
+    right: -4px;
+}
+.showingssec .showing_details p {
+    line-height: 15px;
+}
+.showingssec_infodiv .showingssec .order_links span a img {
+    height: 17px;
+}
+.showingssec_infodiv .timelabel span img,.showingssec_infodiv .timeinfo span img,.showingssec_infodiv .datelabel span img {
+    height: 12px;
+}
+.showingssec_infodiv .btn.confirmbtn,.showingssec_infodiv .btn.reschedulebtn {
+    font-size: 11px;
+}
+/* end of showings */
 .l-header {
 height: 111px;
 }
+.bannerimg {
+height: 130px;
+}
 .l-header__inner {
-    height: 78px;
+height: 78px;
 }
 .avatar-upload .avatar-edit input + label:after {
-    top: 57px;
-    left: 11px;
+top: 57px;
+left: 11px;
 }
 .profimg_div .status {
 right: -9px;
@@ -275,32 +793,168 @@ font-size: 10px;
 }
 }
 @media only screen and (max-width: 991px) and (min-width: 320px){
+.propfeat_tab ul li a {
+padding: 7px 39px;
+}
+.tablinks_propfeat ul.nav li a {
+font-size: 16px;
+padding: 10px 20px;
+}
+.info_conddetails p:first-child {
+font-size: 14px;
+}
+.info_conddetails p {
+line-height: 21px;
+}
+.showimgpend img {
+height: 140px;
+}
+.slideronmap {
+margin: -95px 0 0 0;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 128px;
+}
+.btn.btninvite {
+padding: 3px 14px 3px 18px;
+font-size: 16px;
+}
+.head_explr {
+font-size: 23px;
+}
+.detshow_div .showing_detailsdiv h3 {
+font-size: 21px;
+}
+.buttons_map button {
+padding: 6px 18px;
+font-size: 13px;
+}
+.leasedslider .imageover_details > img {
+height: 236px;
+}
+.ratingstar_count i {
+font-size: 12px;
+}
+.slidelocation_div .txt_loc {
+font-size: 1em;
+}
+.slidelocation_div {
+margin: 10px 0 0 0;
+}
+.lochouse_details .house span, .lochouse_details .clock span {
+font-size: 14px;
+}
+.slideronmap .slider .slick-track {
+margin-left: 136px;
+}
+.slideronmap div.leasedslider.areaexplr {
+display: block;
+margin: 0 15px 0 0;
+}
+.showingssec .order_links span a {
+font-size: 15px;
+}
+.order_links {
+margin: 15px 0 0px 0;
+}
+.button_myinfos.sched_reschedule .btn.reschedulebtn {
+font-size: 14px;
+}
+.showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
+font-size: 15px;
+}
+.timelabel span img, .timeinfo span img, .datelabel span img {
+height: 16px;
+}
+.about_descrip p {
+font-size: 14px;
+line-height: 20px;
+}
+.about_descrip .container{
+max-width: 100%;
+}
+.about_descrip ul li {
+font-size: 13px;
+padding: 0 9px;
+}
+.info_conddetails p:nth-child(2) {
+font-size: 13px;
+}
+.bottomdetails_descrip {
+padding: 18px 14px 21px 12px;
+}
+.butn_green .btn.btn_greenverif {
+font-size: 17px;
+}
+.addr_streetshowings h3 {
+font-size: 17px;
+}
+.pricedet_showings h3 {
+font-size: 28px;
+}
+.map_streetshowings h3 {
+font-size: 19px;
+}
+.bottom_rightdetails {
+bottom: 16px;
+right: 14px;
+}
+.videodiv_clr {
+margin: 0 0px 0 -28px;
+}
+.bannerimg {
+height: 260px;
+}
+.galdiv_clr,.videodiv_clr {
+padding: 14px 38px 8px 19px;
+}
+.details_slider .bed_details img {
+height: 17px;
+}
+.galdiv_clr img, .videodiv_clr img {
+height: 20px;
+}
+.galdiv_clr span, .videodiv_clr span {
+font-size: 15px;
+}
+.prop_headingfeat h3 {
+font-size: 25px;
+}
+.propfeat_tab ul li a {
+font-size: 19px;
+}
+.prop_feature {
+padding: 20px 19px 10px 19px;
+}
+.details_slider p {
+font-size: 14px;
+}
 .btn.commn,.btn.commn.pendingverif {
 width: 35%;
 }
 .edit_button.save_new {
-    width: 39%;
+width: 39%;
 }
 .avatar-upload .avatar-edit input + label:after {
-    left: 86px;
+left: 86px;
 }
 .edit_button.save_new {
-    margin: 0 0 6px auto;
+margin: 0 0 6px auto;
 }
 .edit_profi_name input.form-control {
-    width: 57%;
+width: 57%;
 }
 .profimg_div img, .avatar-upload .avatar-preview {
-    margin: 0 0 0 auto;
+margin: 0 0 0 auto;
 }
 .profile_infotxt {
-    margin: 1px 0 0 0;
+margin: 1px 0 0 0;
 }
 .addi_incomeemp_section .card .card-header span {
 margin-right: 4px;
 }
 .editadd {
-    margin: -1px 0 0 0;
+margin: -1px 0 0 0;
 }
 .tenantaccord .card .card-header h2 .save_btn_all {
 margin: 0 0 0 -17px;
@@ -325,12 +979,155 @@ padding: 4px 22px 4px 12px;
 }
 }
 @media only screen and (max-width:800px){
+/* showings */
+.google-map.showingsmap{
+display: none;
+}
+.reschedule_divdropdown.btnresched {
+    top: -9px;
+}
+.showmapgoogle .input-group-append .btnlist_view{
+    display: block;
+}
+.popup_reschedule_btn.yelwshowconfirm {
+    width: 92%;
+}
+.clickonfilterbtn.clkfilmap {
+    height: 136px;
+    width: 33%;
+    right: 30px;
+    top: -1px;
+}
+.clcross_icon.mapcross {
+    position: absolute;
+    right: 40px;
+    top: 6px;
+    z-index: 10;
+    cursor: pointer;
+    height: 26px;
+}
+.showmapgoogle .input-group-append .btnlist_view{
+    background: #315D80;
+    border-radius: 24px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    color: #ffffff;
+    font-size: 0.9em;
+    padding: 9px 20px;
+    border:unset;
+}
+.google-map {
+    margin: 26px 0 0 0;
+}
+.mobileview_searchshowings .input-group-append .btn.btnmap{
+    background: #315D80;
+    border-radius: 24px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    color: #ffffff;
+    font-size: 0.9em;
+    padding: 8px 20px;
+    border:unset;
+}
+.clickonfilterbtn {
+    height: 115px;
+    width: 18%;
+    right: -11px;
+}
+.show_tablfull{
+    max-width: 100%;
+    flex:100%;
+}
+.showingssec_infodiv .showingssec .bottomdiv_info {
+    padding: 10px 26px;
+}
+.mobile_showshowings{
+    display: block;
+    margin: 0 0 1em 0;
+}
+.showingssec_infodiv .showingssec .showtime, .showingssec_infodiv .showingssec .showdate {
+    padding: 2px 20px 4px 6px;
+}
+.showingssec_infodiv .showingssec .timelabel span, .showingssec_infodiv .showingssec .timeinfo span, .showingssec_infodiv .showingssec .datelabel span, .showingssec_infodiv .showingssec .dateinfo span {
+    font-size: 14px;
+}
+.mobileviewblock_scheduleslider .showingssec .showing_details p,
+.showingssec_infodiv .showingssec .showing_details p {
+    font-size: 14px;
+    margin: 0;
+}
+.mobileviewblock_scheduleslider .showingssec .timelabel span, .mobileviewblock_scheduleslider .showingssec .timeinfo span,
+ .mobileviewblock_scheduleslider .showingssec .datelabel span, .mobileviewblock_scheduleslider .showingssec .dateinfo span {
+    font-size: 14px;
+}
+.mobileviewblock_scheduleslider .timelabel span img, 
+.mobileviewblock_scheduleslider .timeinfo span img,
+.mobileviewblock_scheduleslider .datelabel span img {
+    height: 12px;
+}
+
+.mobileviewblock_scheduleslider .btn.confirmbtn, .mobileviewblock_scheduleslider .btn.reschedulebtn {
+    font-size: 15px;
+}
+.scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img {
+    height: 105px;
+}
+.showingssec_infodiv .showingssec .button_myinfos.pendingshowsbtn .btn.confirmbtn {
+    width: 45%;
+}
+.showingssec_infodiv .btn.confirmbtn, .showingssec_infodiv .btn.reschedulebtn {
+    font-size: 15px;
+}
+.showingssec_infodiv .showingssec .showingdetails_option div img {
+    height: 19px;
+}
+.showingssec_infodiv .showingssec .showingdetails_option div.showerdetails img {
+    height: 24px;
+}
+.showingssec_infodiv .showingssec .showingdetails_option div p {
+    font-size: 15px;
+}
+.showingssec_infodiv .showingssec .button_myinfos.pendingshowsbtn .btn.reschedulebtn {
+    width: 51%;
+}
+.showingssec_infodiv .showingssec .order_links span a {
+    font-size: 15px;
+}
+.form-search.showmapgoogle {
+    width: 61%;
+}
+.btn.pendoffers, .btn.schedshow {
+    font-size: 13px;
+}
+.showingssec_infodiv .showing_viewdetails .btn.view_detail {
+    font-size: 14px;
+}
+.showingssec_infodiv .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn {
+    width: 43%;
+}
+.showingssec_infodiv .showingssec .order_links span a img {
+    height: 26px;
+    vertical-align: bottom;
+}
+.showingssec_infodiv .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
+    width: 52%;
+}
+/* end of showings */
+.bannerimg {
+height: 215px;
+}
+.slideronmap .slider .slick-track {
+margin-left: 115px;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 103px;
+}
 .btn.explore {
 width: 20%;
 }
 .avatar-upload .avatar-edit input + label:after {
-    left: -2px;
-    top: 66px;
+left: -2px;
+top: 66px;
 }
 .modal.uploaddesign_popup.success {
 top: 11%;
@@ -342,7 +1139,7 @@ width: 50%;
 margin: -54px 0 0 70px;
 }
 .l-header__inner {
-    height: 78px;
+height: 78px;
 }
 .c-search {
 margin-left: 1em;
@@ -378,14 +1175,30 @@ padding: 14px 20px;
 }
 
 @media only screen and (max-width:768px){
+/* showings */
+.map {
+    height: 571px;
+}
+/* end of showings */
 .profimg_div .status {
 right: -5px;
 }
+.bannerimg {
+height: 206px;
+}
+.tablinks_propfeat ul.nav li a {
+font-size: 15px;
+padding: 10px 9px;
+}
+.propfeat_tab ul li a {
+padding: 7px 32px;
+font-size: 18px;
+}
 .edit_profi_name input.form-control {
-    width: 62%;
+width: 62%;
 }
 .avatar-upload .avatar-edit input + label:after {
-    left: 5px;
+left: 5px;
 }
 .btn.commn img {
 height: 12px;
@@ -405,77 +1218,168 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
-    .form-search.showmapgoogle {
-        position: absolute;
-        top: 4em;
-        transform: translate(-50%);
-        left: 50%;
-        width: 78%;
-    } 
-    .profilename, .account_no {
-        line-height: 15px;
-    }
-    .avatar-upload .avatar-edit input + label:after {
-        left: 1px;
-        top: 77px;
-    }
-    .profimg_div .avatar-preview .status {
-        right: 14px;
-        bottom: 23px;
-    } 
-    .profile_infotxt {
-        margin: 0;
-    }
-    .avatar-upload .avatar-edit input + label:after {
-        left: 21px;
-    } 
-    .edit_button.save_new {
-        width: 51%;
-    }
-    .edit_profi_name input.form-control {
-        width: 79%;
-    }
-    /* .tenantacc .acc_label {
-        display: flex;
-        justify-content: end;
-        order: 2;
-    } */
-    .btmmenu{
-        padding: 0;
-        margin: 1em 0 0 0;
-        }
-        .flex_menubottom p{
-        font-family: 'Helvetica Rounded';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 19px;
-        text-align: center;
-        text-transform: capitalize;
-        margin:10px 0 0 0;
-        }
-        .flex_menubottom .dash p{
-        color: #C9D7E5;
-        }
-        .flex_menubottom .commu p{
-        color: #9BB997;
-        }
-        .flex_menubottom .maint p{
-        color: #F8B195;
-        }
-        .flex_menubottom .rent p{
-        color: #F1D15B;
-        }
-        .flex_menubottom{
-        background: #315D80;
-        box-shadow: inset 4px 4px 4px #4D7EA5;
-        border-radius: 24px 24px 0px 0px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-        padding: 22px 10px;
-        } 
+.downarrow{
+position: relative;
+}
+.downarrow a {
+    background: linear-gradient(180deg, #FFFFFF 44.3%, rgba(255, 255, 255, 0) 66.98%);
+    filter: drop-shadow(-3px -3px 10px rgba(255, 255, 255, 0.2));
+    border-radius: 49.5px;
+    position: fixed;
+    bottom: 83px;
+    left: 45%;
+    padding: 22px;
+}
+.downarrow a img {
+    height: 22px;
+}
+.mobileviewblock_scheduleslider .showingssec{
+    background: #DEE7F2;
+    border-radius: 20px;
+    margin: 0 0 1em 0;
+}
+.mobileview_searchshowings .input-group-append .btn.btnmap {
+    font-size: 0.8em;
+}
+.backg_colr_showings {
+    padding: 27px 17px 10px 17px;
+}
+.scheshow_flex .clcross_icon {
+    right: -2px;
+}
+.showmapgoogle .input-group-append .btnlist_view {
+    padding: 11px 20px;
+}
+.reschedule_divdropdown.btnresched {
+    top: -25px;
+}
+.popup_reschedule_btn.yelwshowconfirm {
+    width: 93%;
+}
+.clickonfilterbtn.clkfilmap {
+    width: 24%;
+    right: 53px;
+    top: -3px;
+}
+.clcross_icon.mapcross {
+    right: 72px;
+}
+ .about_descrip ul {
+flex-wrap: wrap;
+}
+.mobileviewblock_scheduleslider{
+    display: block;
+}
+.mobileviewschedule_slider{
+    display: none;
+}
+.about_descrip ul li {
+padding: 0 6px 0 7px;
+font-size: 12px;
+line-height: 21px;
+}
+.form-search.showmapgoogle {
+position: absolute;
+top: 4em;
+transform: translate(-50%);
+left: 50%;
+width: 78%;
+}
+.mobileview_allunits .similar_unitsdiv .bottom_rightdetails {
+right: unset;
+left: 11px;
+display: block;
+}
+.mobileview_allunits .similar_unitsdiv .galdiv_clr img{
+height: 17px;
+width: auto;
+border-radius: unset;
+margin: 0 6px 0 0px;
+}
+
+.mobileview_allunits .similar_unitsdiv .galdiv_clr {
+padding: 5px 19px 4px 19px;
+width: auto;
+display: flex;
+align-items: center;
+}
+.similar_unitsdiv .leasedslider {
+box-shadow: unset;
+} 
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 96px;
+}
+.slideronmap .slider .slick-track {
+margin-left: 109px;
+}
+.profilename, .account_no {
+line-height: 15px;
+}
+.avatar-upload .avatar-edit input + label:after {
+left: 1px;
+top: 77px;
+}
+.profimg_div .avatar-preview .status {
+right: 14px;
+bottom: 23px;
+} 
+.profile_infotxt {
+margin: 0;
+}
+.avatar-upload .avatar-edit input + label:after {
+left: 21px;
+} 
+.edit_button.save_new {
+width: 51%;
+}
+.edit_profi_name input.form-control {
+width: 79%;
+}
+/* .tenantacc .acc_label {
+display: flex;
+justify-content: end;
+order: 2;
+} */
+.btmmenu{
+padding: 0;
+margin: 1em 0 0 0;
+position: relative;
+}
+.flex_menubottom p{
+font-family: 'Helvetica Rounded';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+text-transform: capitalize;
+margin:10px 0 0 0;
+}
+.flex_menubottom .dash p{
+color: #ffffff;
+}
+.flex_menubottom .commu p{
+color: #C9D7E5;
+}
+.flex_menubottom .maint p{
+color: #C9D7E5;
+}
+.flex_menubottom .rent p{
+color: #C9D7E5;
+}
+.flex_menubottom{
+background: #315D80;
+box-shadow: inset 4px 4px 4px #4D7EA5;
+border-radius: 24px 24px 0px 0px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+padding: 22px 10px;
+position: fixed;
+bottom: 0px;
+width: 100%;
+} 
 .profimg_div .status {
 right: 56px;
 }
@@ -483,6 +1387,7 @@ right: 56px;
 background: #F8FAFF;
 border-radius: 40px;
 height:45px;
+padding: 10px 163px 10px 21px;
 }
 .mobileview_searchshowings .listview_abl button{
 background: #315D80;
@@ -492,12 +1397,10 @@ padding: 7px 9px 7px 16px;
 .mobileview_searchshowings .listview_abl button img{
 height: 25px;
 }
-.showing_search .form-search.mobileview_searchshowings  .input-group-append {
-right: 125px;
+.showing_search .form-search.mobileview_searchshowings .input-group-append {
+    right: 0;
 }
-.mobile_showshowings{
-display: block;
-}
+
 .mobile_hideshowings{
 display: none;
 }
@@ -509,7 +1412,7 @@ text-align: left;
 font-size: 14px;
 }
 .l-main {
-margin: 7em 0 1em 0;
+    margin: 6.5em 0 8em 0;
 }
 .uploaddesign_popup{
 margin: 4em auto 0 auto;
@@ -596,18 +1499,376 @@ bottom: 19px;
 right: 13px;
 }
 }
-@media only screen and (max-width: 640px) and (min-width:569px) {
+@media only screen and (max-width: 640px){
+
+/* showings */
+.reschedule_divdropdown.btnresched {
+    top: -2px;
+}
+.reschedule_divdropdown .btn.conf_resch, .reschedule_divdropdown .btn.canc_show {
+    font-size: 12px;
+}
+.popup_reschedule_btn.yelwshowconfirm {
+    width: 89%;
+}
+.bacgr_imagefiltershow .btn {
+    margin: 0px auto 6px auto;
+}
+.clickonfilterbtn {
+    width: 22%;
+}
+.bacgr_imagefiltershow {
+    margin: 42px 7px 0 7px;
+}
+.clickonfilterbtn.clkfilmap {
+    width: 28%;
+    right: 23px;
+    top: -2px;
+}
+.clcross_icon.mapcross {
+    right: 38px;
+}
+/* end of showings */
 .links ul li {
 padding: 0 7px;
 }
+.map_streetshowings img {
+margin: 0 10px 0 0px;
+}
+.addr_streetshowings img {
+margin: 1px 7px 0 0px;
+}
+.bottom_rightdetails {
+bottom: 13px;
+}
+.details_slider,.bottom_details {
+left: 21px;
+}
+.menu_scanicon img{
+height: 31px;
+}
+.rat_tot_count p.count_rst span:nth-child(2){
+font-size: 0.8em;
+}
+.butn_green .btn.btn_greenverif {
+padding: 4px 4px 4px 10px;
+}
+.butn_green i {
+font-size: 14px;
+padding-right: 3px;
+}
+.butn_green .btn.btn_greenverif {
+font-size: 14px;
+box-shadow: unset;
+padding: 4px 4px 4px 10px;
+}
+.butn_green img {
+height: 16px;
+}
+.pricedet_showings h3 {
+font-size: 19px;
+}
+.bottomdetails_descrip {
+padding: 9px 14px 19px 12px;
+}
+.map_streetshowings img {
+height: 19px;
+}
+.map_streetshowings h3 {
+font-size: 15px;
+}
+.addr_streetshowings img {
+height: 15px;
+}
+.addr_streetshowings h3 {
+font-size: 15px;
+}
+.mobileview_allunits{
+margin: 0 0 2em 0;
+}
+.leasedslider .slidelocation_div span img {
+height: 19px;
+}
+.leasedslider .imageover_details > img {
+height: 189px;
+}
+.similar_unitsdiv .leasedslider {
+margin: 11px 0px 0 26px;
+}
+.about_descrip p{
+text-align: left;
+}
+.leaseddetails_slider .bed_details img {
+height: 17px;
+margin: 0 0 6px 0;
+}
+.leaseddetails_slider .shower_details img {
+height: 21px;
+}
+.leaseddetails_slider .car_details img {
+height: 20px;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 63px;
+}
+.lochouse_details .house span, .lochouse_details .clock span {
+font-size: 12px;
+}
+.slidelocation_div .txt_loc {
+font-size: 0.9em;
+}
+.rat_tot_count p{
+color:#F2727F;
+}
+.about_descrip p {
+font-size: 13px;
+line-height: 19px;
+}
+.view_alldiv {
+margin: 21px 0 4px 0px;
+}
+.showing_detailsdiv h3 img {
+height: 19px;
+vertical-align: text-top;
+}
+.showingssec .showtime {
+padding: 14px 14px 8px 0px;
+margin: 0;
+}
+.timelabel span img, .timeinfo span img, .datelabel span img {
+height: 13px;
+}
+.showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
+font-size: 13px;
+}
+.btn.btninvite img {
+height: 17px;
+vertical-align: text-bottom;
+}
+.btn.btninvite {
+font-size: 15px;
+}
+.tablinks_propfeat ul.nav li a {
+font-size: 14px;
+padding: 10px 12px;
+}
+.propfeat_tab ul li a {
+font-size: 15px;
+}
+.desk_featureimg {
+height: 21px;
+}
+.detshow_div .showing_detailsdiv h3,.prop_headingfeat h3 .clr_featr {
+font-size: 19px;
+}
+.info_conddetails p:nth-child(2) {
+font-size: 12px;
+}
+.info_conddetails p:first-child {
+font-size: 13px;
+}
+.sche_pad_red {
+padding: 0 4px;
+}
+.propfeat_tab ul {
+padding: 0px;
+}
+.propfeat_tab ul li a {
+width: 104px;
+padding: 7px 6px;
+display: flex;
+justify-content: center;
+}
+.mobileareamap,.mobileview_all{
+display: block;
+}
+.mobilehideabout{
+display: none;
+}
+.mobileviewabout{
+display:block;
+margin: 24px 0 0 0;
+}
+.about_descrip ul li {
+padding: 0 6px 0 7px;
+font-size: 12px;
+line-height: 21px;
+}
+.leasedslider.areaexplr p {
+font-size: 12px;
+line-height: 14px;
+margin: 0;
+}
+.leasedslider.areaexplr h3 {
+margin: 0 0 10px 0;
+}
+.leasedslider.areaexplr img {
+height: 15px;
+vertical-align: bottom;
+}
+.leasedslider.areaexplr.mobileareamap{
+padding: 0;
+background: unset;
+box-shadow: unset;
+border-radius: unset;
+}
+.leasedslider.areaexplr.mobileareamap a{
+background: #C9D7E5;
+border-radius: 10px;
+padding: 13px 20px;
+}
+.leasedslider.areaexplr.mobileareamap,.leasedslider.areaexplr.mobileareamap a{
+display:flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+}
+.mapdiv_showings {
+padding: 16px 6px 9px 6px;
+}
+.leasedslider.areaexplr.mobileareamap a {
+padding: 13px;
+}
+.buttons_map {
+width: 95%;
+margin: 0 auto;
+}
+.areadetails_div,.area_distance{
+flex-basis: 49%;
+}
+.groceries .slideronmap,.shopping .slideronmap,.schools .slideronmap,.night .slideronmap {
+display: none;
+}
+.leasedslider .imageover_details > img {
+height: 175px;
+}
+.slideronmap {
+margin: -99px 0 0 0;
+}
+.mobileview_allunits h3,.mobileview_allunits h3,.about_descrip h3,.head_explr{
+font-size: 21px;
+}
+.head_explr {
+margin: 0 0 17px 0;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 77px;
+}
+.slideronmap .slider .slick-track {
+margin-left: 94px;
+}
+.flex_headtabshows {
+display: block;
+text-align: center;
+}
+.buttons_map button {
+padding: 4px 18px 6px 18px;
+font-size: 13px;
+margin:0;
+}
+.buttons_map{
+box-shadow: unset;
+background: #DEE7F2;
+border-radius: 64.1248px;
+}
+.buttons_map img {
+height: 15px;
+}
+.tablinks_propfeat ul.nav, .buttons_map {
+justify-content: space-between;
+}
+.showimgpend img {
+height: 103px;
+}
+.mobhideproperties{
+display: none;
+}
+.desk_featureimg {
+display: block;
+height: 20px;
+margin: 0 8px 0 0;
+}
+.prop_headingfeat h3{
+display: flex;
+}
+.prop_headingfeat h3 .clr_featr{
+color:#315D80;
+}
+.map_streetshowings h3 {
+margin: 0 0 10px 0;
+}
+.map_streetdetails {
+flex-direction: column;
+align-items: flex-start;
+}
+.showings_sche_div{
+padding: 6px;
+background-color: #EDF2FA;
+border-radius: 20px 20px 0 0;
+}
+.bannerimg {
+height: 179px;
+border-radius: 20px;
+}
+.galdiv_clr {
+padding: 6px 33px 2px 15px;
+}
+.videodiv_clr {
+padding: 6px 18px 2px 16px;
+}
+.galdiv_clr img, .videodiv_clr img {
+height: 15px;
+}
+.calenderdiv {
+padding: 1px 12px;
+}
+.about_descrip {
+padding: 21px 14px 15px 14px;
+}
+.about_descrip h3{
+margin: 0 0 14px 0;
+text-align: center;
+}
+.mobileunitleasehide{
+display: none;
+}
+.mobileview_allunits{
+display: block;
+}
+.mobileview_allunits h3{
+font-family: 'Helvetica';
+font-weight: 700;
+text-transform: capitalize;
+color: #315D80;
+margin: 20px 0 15px 0;
+text-align: center;
+}
+.mobileview_allunits h3 span {
+color: #F2727F;
+}
+}
+@media only screen and (max-width: 640px) and (min-width:569px) {
+.order_links {
+margin: 9px 0 0px 0;
+}
+.showingssec .order_links span a {
+font-size: 13px;
+}
+.showingssec .order_links span a img {
+height: 16px;
+}
+.right_topheart {
+top: 12px;
+right: 12px;
+}
 .edit_button.save_new {
-    width: 57%;
+width: 57%;
 }
 .edit_profi_name input.form-control {
-    width: 87%;
+width: 87%;
 }
 .avatar-upload .avatar-edit input + label:after {
-    left: 2px;
+left: 2px;
 }
 .profimg_div .status {
 right: 7px;
@@ -624,44 +1885,198 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
+/* showings */
+.showingssec_infodiv .showingssec .timelabel span, .showingssec_infodiv .showingssec .timeinfo span, .showingssec_infodiv .showingssec .datelabel span, .showingssec_infodiv .showingssec .dateinfo span {
+    font-size: 13px;
+}
+.clickonfilterbtn {
+    width: 25%;
+}
+.reschedule_divdropdown .btn.conf_resch, .reschedule_divdropdown .btn.canc_show {
+    font-size: 13px;
+}
+.confrm_div p {
+    font-size: 15px;
+}
+.confrm_div span:nth-child(2) {
+    font-size: 15px;
+}
+.span_start ,.confirmshow_divyellow .span_start{
+    font-size: 14px;
+}
+.showing_viewdetails .btn.view_detail {
+    font-size: 14px;
+}
+
+.reschedule_divdropdown.btnresched {
+    top: -8px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links span a {
+    font-size: 14px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links span a img {
+    height: 21px;
+}
+
+.clickonfilterbtn.clkfilmap {
+    width: 32%;
+    right: 20px;
+}
+.mobileviewblock_scheduleslider .showingssec .timelabel span, .mobileviewblock_scheduleslider .showingssec .timeinfo span, .mobileviewblock_scheduleslider .showingssec .datelabel span, .mobileviewblock_scheduleslider .showingssec .dateinfo span {
+    font-size: 13px;
+}
+
+.showingssec_infodiv .showingssec .showingdetails_option div.showerdetails img {
+    height: 23px;
+}
+.showingssec_infodiv .btn.confirmbtn, .showingssec_infodiv .btn.reschedulebtn,
+.mobileviewblock_scheduleslider .btn.confirmbtn, .mobileviewblock_scheduleslider .btn.reschedulebtn {
+    font-size: 13px;
+}
+.showingssec_infodiv .showingssec .showingdetails_option div p {
+    font-size: 13px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links {
+    padding: 0px 12px 0 12px;
+}
+.mobileviewblock_scheduleslider .showingssec .showing_details p, .showingssec_infodiv .showingssec .showing_details p {
+    font-size: 13px;
+    line-height: 17px;
+}
+.showingssec_infodiv .showingssec .showimgpend,
+.mobileviewblock_scheduleslider .showingssec .showimgpend {
+    padding: 9px 0px 4px 14px;
+}
+.mobileviewblock_scheduleslider .showingssec .showtime {
+    padding: 14px 15px 8px 0px;
+}
+.mobileviewblock_scheduleslider .showingssec .showdate{
+    padding: 0px 15px 4px 0px;
+}
+/* end of showings */
+
+/* slider */
+.category-lists-slider{
+margin-top: 40px;
+}
+.category-button{
+font-size: 12px;
+padding: 4px 14px;
+}
+.slider-button{
+top: -40px;
+}
+.slider-button.slider-prev {
+left: inherit;
+right: 32px;
+}
+.slider-button.slider-next {
+right: 0;
+}
+/* end of slider */
+
 .profimg_div img, .avatar-upload .avatar-preview {
-    margin: -17px 0 0 auto;
+margin: -17px 0 0 auto;
+}
+.info_conddetails p {
+line-height: 18px;
+}
+.showingssec .showimgpend {
+padding: 9px 0px 4px 2px;
+}
+.slidelocation_div .txt_loc {
+font-size: 0.8em;
+}
+.clock span img {
+vertical-align: inherit;
+}
+.similar_unitsdiv .leasedslider .imageover_details > img {
+border-radius: 15px 15px 0 0;
+}
+.leaseddetails_slider .bed_details img {
+margin: 4px 0 4px 0;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 92px;
+}
+.links ul li div.count_phone span, .links ul li div.count_notify span {
+color: #ffffff;
+}
+.similar_unitsdiv .leasedslider {
+margin: 11px 8px 0 0px;
+}
+.txt_heading h3 {
+font-size: 19px;
+}
+.mobileview_allunits h3, .mobileview_allunits h3, .about_descrip h3, .head_explr {
+font-size: 19px;
+}
+.button_myinfos.sched_reschedule .btn.reschedulebtn {
+font-size: 13px;
+box-shadow: unset;
+}
+.btn i {
+font-size: 14px;
+}
+.showingssec .showtime {
+padding: 14px 5px 8px 0px;
+align-items: baseline;
+}
+.showingssec .showdate {
+padding: 0px 5px 4px 0px;
+align-items: baseline;
+}
+.showingssec .order_links {
+padding: 0px 8px 0 0px;
+}
+.showimgpend img {
+height: 114px;
+}
+.bottom_details {
+bottom: 14px;
+}
+.bottom_rightdetails {
+right: 20px;
+}
+.right_topheart {
+top: 15px;
+right: 20px;
 }
 .profile_infotxt .profilename{
-    display: block;
-    order: 1;
+display: block;
+order: 1;
 }
 .profile_infotxt .prof_label {
-    order: 1;
+order: 1;
 }
 .profimg_div .avatar-preview .status {
-    right: 11px;
-    bottom: 17px;
+right: 11px;
+bottom: 17px;
 }
 .edit_button.save_new {
-    width: 50%;
+width: 50%;
 }
 .acc_infotxt.tenantacc.editbtnclsadd{
-    margin: -37px 0 0 0;
+margin: -37px 0 0 0;
 }
 .editadd {
-    margin: -20px 0 0 0;
+margin: -20px 0 0 0;
 }
 .edit_profi_name input.form-control {
-    width: 66%;
+width: 66%;
 }
 .profile_infotxt {
-    margin: 0;
+margin: 0;
 }
 .avatar-upload .avatar-edit input + label:after {
-    left: -7px;
-    top: 45px;
+left: -7px;
+top: 45px;
 }
 .profile_infotxt {
-    margin: 8px 0 0 0;
+margin: 8px 0 0 0;
 }
 .editprofi {
-    margin: -19px 0 8px 0;
+margin: -19px 0 8px 0;
 }
 .uploaddesign_popup .modal-content {
 width: 90%;
@@ -687,43 +2102,32 @@ width: 30%;
 padding: 14px 10px;
 }
 .btmmenu{
-    padding: 0;
-    margin: 1em 0 0 0;
+padding: 0;
+margin: 1em 0 0 0;
 }
 .flex_menubottom p{
-    font-family: 'Helvetica Rounded';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    text-transform: capitalize;
-    margin:10px 0 0 0;
-    }
-    .flex_menubottom .dash p{
-        color: #C9D7E5;
-    }
-    .flex_menubottom .commu p{
-        color: #9BB997;
-    }
-    .flex_menubottom .maint p{
-        color: #F8B195;
-    }
-    .flex_menubottom .rent p{
-        color: #F1D15B;
-    }
-    .flex_menubottom{
-        background: #315D80;
-        box-shadow: inset 4px 4px 4px #4D7EA5;
-        border-radius: 24px 24px 0px 0px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-        padding: 22px 10px;
-    }
+font-family: 'Helvetica Rounded';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+text-transform: capitalize;
+margin:10px 0 0 0;
+}
+
+.flex_menubottom{
+background: #315D80;
+box-shadow: inset 4px 4px 4px #4D7EA5;
+border-radius: 24px 24px 0px 0px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+padding: 22px 10px;
+}
 .belowpart_tenant {
-    padding: 19px 10px 11px 17px;
+padding: 19px 10px 11px 17px;
 }
 .acc_infotxt.tenantacc{
 margin:0;
@@ -800,8 +2204,9 @@ font-size: 14px;
 .desktopversion_logo,.desktopversion_search{
 display:none;
 }
-.mobileversion_view{
-display:block;
+.mobileversion_view {
+display: block;
+margin: -5px 0 0 0;
 }
 .hamburger-toggle [class*='bar-'] {
 height:3px;
@@ -813,16 +2218,18 @@ width: 23px;
 .hamburger-toggle [class*='bar-']:last-child {
 width: 19px;
 }
-.links ul li img {
-height: 29px;
+.links ul li.notify{
+margin: -8px 11px 0 0px;
 }
-.txt_heading{
-margin: 0 1.4em 0 3.5em;
+.links ul li img {
+height: 23px;
+}
+.txt_heading {
+margin: 0 7.5em;
 }
 .txt_heading h3{
 font-family: 'Helvetica';
 font-weight: bold;
-font-size: 27px;
 line-height: 32px;
 text-align: center;
 text-transform: capitalize;
@@ -830,26 +2237,65 @@ color: #EEF4FF;
 letter-spacing: 1.5px;
 }
 .l-header {
-    background: url(../images/mobilebg.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 115px;
+background: url(../images/mobilebg.svg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+height: 115px;
 }
 .l-header__inner {
 height: 66px;
-justify-content: space-between;
+justify-content: center;
+}
+.links {
+margin: 0;
 }
 }
 @media only screen and (max-width: 568px) and (min-width:481px) {
+.slidelocation_div .txt_loc {
+font-size: 0.9em;
+}
+.downarrow a {
+    padding: 17px;
+}
+.downarrow a img {
+    height: 16px;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: 87px;
+}
+.newdiv img {
+height: 24px;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar-track,.buttons_map::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+border-radius: 10px;
+background-color: #F5F5F5;
+}
+
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar,.buttons_map::-webkit-scrollbar
+{
+width: 7px;
+height: 5px;
+background-color: #F5F5F5;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar-thumb,.buttons_map::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #DEE7F2;
+}
 .acc_label,.profile_infotxt .prof_label{
 font-size: 13px;
 }
+.prop_feature .row.mrbtm {
+overflow-x: auto;
+overflow-y: hidden;
+flex-wrap: nowrap;
+}
 .tenantaccord .card .card-header h2 .cancel_btn_all {
 padding: 5px 22px 4px 12px;
-}
-.txt_heading {
-margin: 0 1em 0 4.5em;
 }
 .btn.commn.upload img {
 margin-left: 5px;
@@ -870,20 +2316,172 @@ text-align: center;
 .question_tooltipcontent::before {
 top: -28px;
 }
+.detshow_div .showingssec .timeinfo, .detshow_div .showingssec .dateinfo {
+justify-content: end;
+}
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
-.txt_heading {
-margin: 0 1em 0 3em;
+/* showings */
+.downarrow a {
+    padding: 17px;
 }
-.profilename, .account_no {
-    line-height: 26px;
+.downarrow a img {
+    height: 16px;
 }
-.edit_profi_name input.form-control {
+.showingssec_infodiv .showingssec .showingdetails_option div img {
+    height: 17px;
+}
+.clickonfilterbtn {
+    width: 31%;
+}
+.showingssec_infodiv .showingssec .showingdetails_option div.showerdetails img {
+    height: 21px;
+}
+.form-search.showmapgoogle .input-group input.form-control {
+    padding: 10px 154px 10px 21px;
+}
+.form-search.showmapgoogle {
+    width: 90%;
+}
+.btn.pendoffers, .btn.schedshow {
+    padding: 4px 5px;
+}
+.reschedule_divdropdown.btnresched {
+    left: 23px;
+}
+.popup_reschedule_btn.yelwshowconfirm {
     width: 85%;
 }
+/* end of showings */
+
+.txt_heading {
+margin: 0 4.5em 0 6.5em;
+}
+.showings_sche_div .bottom_rightdetails {
+bottom: 16px;
+}
+.mobileview_allunits .bottom_rightdetails {
+bottom: 7px;
+}
+.detshow_div .showing_detailsdiv h3, .prop_headingfeat h3 .clr_featr {
+font-size: 17px;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: -139px;
+}
+.showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
+font-size: 12px;
+}
+.leaseddetails_slider .shower_details img {
+height: 15px;
+}
+.lochouse_details .house span, .lochouse_details .clock span {
+font-size: 11px;
+}
+.flex_menubottom p {
+font-size: 13px;
+}
+.galdiv_clr span, .videodiv_clr span {
+font-size: 11px;
+}
+.leasedslider .imageover_details > img {
+height: 134px;
+}
+.flex_menubottom div a img{
+height: 18px;
+}
+.rat_tot_count p.count_rst {
+font-size: 15px;
+}
+.leasedslider .unverifi_divtxt img {
+height: 17px;
+}
+.descrip_details_list .price_rate p {
+font-size: 13px;
+}
+.leaseddetails_slider .bed_details img {
+height: 11px;
+}
+.mobileview_allunits .similar_unitsdiv .galdiv_clr img {
+height: 11px;
+}
+.leaseddetails_slider .car_details img {
+height: 15px;
+}
+.about_descrip ul li {
+font-size: 11px;
+}
+.showimgpend img {
+height: 107px;
+}
+.sche_pad_red {
+max-width: 33.33%;
+}
+.galdiv_clr img, .videodiv_clr img {
+height: 12px;
+}
+.details_slider .bed_details img {
+height: 12px;
+}
+.details_slider .shower_details img {
+height: 15px;
+}
+.details_slider p {
+font-size: 12px;
+}
+.details_slider .shower_details, .details_slider .bed_details {
+padding: 2px 13px;
+}
+.galdiv_clr {
+padding: 4px 33px 6px 15px;
+}
+.videodiv_clr {
+padding: 4px 18px 6px 16px;
+}
+.mobileview_allunits h3, .mobileview_allunits h3, .about_descrip h3, .head_explr {
+font-size: 18px;
+}
+.about_descrip ul li {
+padding: 0 5px 0 5px;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar-track,.buttons_map::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+border-radius: 10px;
+background-color: #F5F5F5;
+}
+.detshow_div .showingssec .timeinfo, .detshow_div .showingssec .dateinfo {
+justify-content: end;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar,.buttons_map::-webkit-scrollbar
+{
+width: 7px;
+height: 5px;
+background-color: #F5F5F5;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar-thumb,.buttons_map::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #DEE7F2;
+}
+.prop_feature .row.mrbtm {
+overflow-x: auto;
+overflow-y: hidden;
+flex-wrap: nowrap;
+}
+.top_propsection {
+align-items: center;
+}
+.profilename, .account_no {
+line-height: 26px;
+}
+.edit_profi_name input.form-control {
+width: 85%;
+}
 .belowpart_tenant {
-    padding: 19px 14px 11px 17px;
+padding: 19px 14px 11px 17px;
 }
 .upload_file img {
 height: 133px;
@@ -901,10 +2499,17 @@ width: 97%;
 width: 83%;
 }
 .txt_heading h3 {
-font-size: 24px;
+font-size: 17px;
+margin: 0;
+}
+.links ul li.notify {
+margin: 1px 10px 0 0px;
+}
+.links ul li img {
+height: 22px;
 }
 .l-header {
-height: 100px;
+height: 117px;
 }
 .btn.commn.upload, .btn.commn.verified, .btn.commn.pendingverif, .btn.commn {
 width: 58%;
@@ -920,7 +2525,7 @@ padding: 14px 14px;
 height: 93px;
 }
 .l-header__inner {
-height: 58px;
+height: 69px;
 }
 .question_tooltipcontent {
 padding: 15px;
@@ -931,25 +2536,103 @@ top: -28px;
 left: 39%;
 }
 .edit_button.save_new {
-    width: 56%;
+width: 56%;
 }
 
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
+    /* showings */
+    .downarrow a {
+        padding: 17px;
+    }
+    .downarrow a img {
+        height: 16px;
+    }
+    .showingssec_infodiv .showingssec .showtime, .showingssec_infodiv .showingssec .showdate {
+        padding: 2px 20px 4px 2px;
+    }
+    .l-header__inner {
+        height: 59px;
+    }
+    .mobileviewblock_scheduleslider .col-5,.showingssec_infodiv .showingssec .col-5{
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+    }
+    .mobileviewblock_scheduleslider .col-7,.showingssec_infodiv .showingssec .col-7{
+        max-width: 66.66%;
+        flex: 0 0 66.66%;
+    }
+    .mobileview_searchshowings .input-group-append .btn.btnmap {
+        padding: 9px 20px;
+    }
+    
+    .popup_reschedule_btn.yelwshowconfirm {
+        width: 86%;
+    }
+    .clickonfilterbtn {
+        width: 37%;
+        right: -23px;
+    }
+    .txt_heading {
+        margin: 0 2.5em;
+    }
+    .span_start, .confirmshow_divyellow .span_start {
+        font-size: 12px;
+    }
+    .reschedule_divdropdown.btnresched {
+        top: 3px;
+    }
+    .reschedule_divdropdown .btn.conf_resch, .reschedule_divdropdown .btn.canc_show {
+        font-size: 12px;
+    }
+    .confrm_div span:nth-child(2) {
+        font-size: 13px;
+    }
+    .confrm_div p {
+        font-size: 14px;
+    }
+    .showimgpend img {
+        height: 86px;
+    }
+    .showing_viewdetails .btn.view_detail {
+        font-size: 13px;
+    }
+    .mobileviewblock_scheduleslider .showingssec .order_links span a {
+        font-size: 12px;
+    }
+    .showingssec_infodiv .btn.confirmbtn, .showingssec_infodiv .btn.reschedulebtn, .mobileviewblock_scheduleslider .btn.confirmbtn, .mobileviewblock_scheduleslider .btn.reschedulebtn {
+        font-size: 12px;
+    }
+    .scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img {
+        height: 77px;
+    }
+    .showingssec_infodiv .showingssec .showingdetails_option div img {
+        height: 15px;
+    }
+    .showingssec_infodiv .showingssec .showingdetails_option div.showerdetails img {
+        height: 18px;
+    }
+    .showingssec_infodiv .showingssec .showtime {
+        padding: 12px 14px 4px 0px;
+    }
+    .showingssec_infodiv .showingssec .bottomdiv_info {
+        padding: 10px 12px;
+    }
+    /* end of showings */
 .btn.commn.pendingverif {
 padding: 5px 9px 7px 8px;
 }
 .edit_button.save_new {
-    width: 56%;
+width: 56%;
 }
 .profilename, .account_no {
-    line-height: 26px;
+line-height: 26px;
 }
 .edit_profi_name input.form-control {
-    width: 85%;
+width: 85%;
 }
 .belowpart_tenant {
-    padding: 19px 19px 11px 17px;
+padding: 19px 19px 11px 17px;
 }
 .upload_file img {
 height: 133px;
@@ -974,7 +2657,7 @@ width: 97%;
 width: 83%;
 }
 .txt_heading h3 {
-font-size: 23px;
+    font-size: 19px;
 }
 .l-header {
 height:95px;
@@ -985,21 +2668,347 @@ font-size: 16px;
 .tabsdiv .nav.nav-tabs li a {
 padding: 11px 16px;
 }
+.prop_feature .tab-content>.tab-pane {
+padding: 0px 9px;
+}
+.leasedslider .imageover_details > img {
+height: 138px;
+}
 }
 
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
+    /* showings */
+    .l-main {
+        margin: 5em 0 8em 0;
+    }
+    .scheshow_flex .clcross_icon {
+        right: -1px;
+    }
+    .clickonfilterbtn {
+        right: -10px;
+    }
+    .downarrow a {
+        padding: 16px;
+    }
+    .downarrow a img {
+        height: 13px;
+    }
+    .showingssec_infodiv .showingssec .timelabel span, .showingssec_infodiv .showingssec .timeinfo span, .showingssec_infodiv .showingssec .datelabel span, .showingssec_infodiv .showingssec .dateinfo span {
+        font-size: 12px;
+    }
+    .mobileviewblock_scheduleslider .showingssec .showing_details p, .showingssec_infodiv .showingssec .showing_details p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .showingssec_infodiv .showingssec .showtime, .showingssec_infodiv .showingssec .showdate {
+        padding: 2px 20px 4px 2px;
+    }
+    .l-header__inner {
+        height: 59px;
+    }
+    .mobileviewblock_scheduleslider .col-5,.showingssec_infodiv .showingssec .col-5{
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+    }
+    .mobileviewblock_scheduleslider .col-7,.showingssec_infodiv .showingssec .col-7{
+        max-width: 66.66%;
+        flex: 0 0 66.66%;
+    }
+    .popup_reschedule_btn.yelwshowconfirm {
+        width: 86%;
+    }
+    .clickonfilterbtn {
+        width: 37%;
+    }
+    .txt_heading {
+        margin: 0 2.5em;
+    }
+    .span_start, .confirmshow_divyellow .span_start {
+        font-size: 11px;
+    }
+    .reschedule_divdropdown.btnresched {
+        top: 3px;
+    }
+    .reschedule_divdropdown .btn.conf_resch, .reschedule_divdropdown .btn.canc_show {
+        font-size: 12px;
+    }
+    .confrm_div span:nth-child(2) {
+        font-size: 12px;
+    }
+    .input_reschedule input.form-control {
+        font-size: 12px;
+    }
+    .showing_viewdetails .btn.view_detail {
+        font-size: 12px;
+    }
+    .confrm_div p {
+        font-size: 13px;
+    }
+    .showimgpend img {
+        height: 86px;
+    }
+    .showing_viewdetails .btn.view_detail {
+        font-size: 13px;
+    }
+    .mobileviewblock_scheduleslider .showingssec .order_links span a {
+        font-size: 12px;
+    }
+    .showingssec_infodiv .btn.confirmbtn, .showingssec_infodiv .btn.reschedulebtn, .mobileviewblock_scheduleslider .btn.confirmbtn, .mobileviewblock_scheduleslider .btn.reschedulebtn {
+        font-size: 12px;
+    }
+    .showingssec_infodiv .showingssec .showingdetails_option div p {
+        font-size: 12px;
+    }
+    .scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img {
+        height: 77px;
+    }
+    .showingssec_infodiv .showingssec .showingdetails_option div img {
+        height: 13px;
+    }
+    .showingssec_infodiv .showingssec .showingdetails_option div.showerdetails img {
+        height: 17px;
+    }
+    .showingssec_infodiv .showingssec .bottomdiv_info {
+        padding: 10px 12px;
+    }
+    /* end of showings */
+
+.mobileview_allunits .leaseddetails_slider .car_details img {
+height: 17px;
+}
+.info_conddetails p:first-child {
+font-size: 11px;
+line-height: 14px;
+}
+.propfet_infoimg img {
+height: 15px;
+}
+.mobileversion_view {
+margin: 6px 0 0 0;
+}
+.info_conddetails p:nth-child(2) {
+font-size: 10px;
+}
+.mobileview_allunits .leasedslider {
+padding: 10px;
+}
+.mobileview_allunits .leaseddetails_slider {
+bottom: 7px;
+}
+.showings_sche_div .bottom_rightdetails {
+bottom: 16px;
+}
+.mobileview_allunits .bottom_rightdetails {
+bottom: 7px;
+}
+.clock span img {
+vertical-align: text-top;
+}
+.lochouse_details .clock img {
+margin: 0 5px 0 0px;
+}
+.leaseddetails_slider .shower_details img {
+height: 18px;
+}
+.leaseddetails_slider .bed_details img {
+height: 14px;
+}
+.leaseddetails_slider p {
+font-size: 10px;
+}
+.area_distance {
+display: flex;
+justify-content: end;
+}
+.about_descrip ul {
+margin: 0;
+}
+.about_descrip p {
+text-align: justify;
+}
+.prop_feature .tab-content>.tab-pane {
+padding: 0px 9px;
+}
+.about_descrip p {
+font-size: 12px;
+}
+.similar_unitsdiv .leasedslider {
+margin: 0px 8px 0 0px;
+}
+.about_descrip {
+padding: 21px 10px 15px 10px;
+}
+.mobileview_allunits .similar_unitsdiv .galdiv_clr {
+padding: 3px 15px 3px 14px;
+}
+.about_descrip ul li {
+padding: 0 3px 0 3px;
+font-size: 11px;
+}
+.descrip_details_list {
+padding: 0.5em 0 1em 0;
+}
+.leasedslider .unverifi_divtxt img {
+height: 20px;
+}
+.descrip_details_list .price_rate p {
+font-size: 14px;
+}
+.mobileview_allunits .similar_unitsdiv .galdiv_clr img {
+height: 12px;
+}
+.leaseddetails_slider .car_details, .leaseddetails_slider .shower_details, .leaseddetails_slider .bed_details {
+padding: 6px 7px 2px 7px;
+}
+.leasedslider .imageover_details > img {
+height: 128px;
+}
+.rat_tot_count p.count_rst {
+font-size: 15px;
+}
+.similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
+margin-left: -243px;
+}
+.about_descrip ul li {
+padding: 0 5px 0 5px;
+font-size: 12px;
+}
+.mobileview_allunits h3, .mobileview_allunits h3, .about_descrip h3, .head_explr {
+font-size: 17px;
+line-height: 26px;
+}
+.detshow_div .showing_detailsdiv {
+align-items: baseline;
+}
+.showingssec .order_links span a {
+font-size: 13px;
+}
+.showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
+font-size: 12px;
+}
+.showimgpend img {
+    height: 87px;
+}
 .txt_heading {
-margin: 0 1.4em 0 2.9em;
+    margin: 0 3em 0 4em;
+}
+.sche_pad_red {
+max-width: 100%;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar-track,.buttons_map::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+border-radius: 10px;
+background-color: #F5F5F5;
+}
+.detshow_div .showingssec .timeinfo, .detshow_div .showingssec .dateinfo {
+justify-content: end;
+text-align: right;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar,.buttons_map::-webkit-scrollbar
+{
+width: 7px;
+height: 5px;
+background-color: #F5F5F5;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar-thumb,.buttons_map::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #DEE7F2;
+}
+.prop_feature .row.mrbtm {
+overflow-x: auto;
+overflow-y: hidden;
+flex-wrap: nowrap;
+}
+.details_slider .bed_details img {
+height: 12px;
+}
+.bottom_details span {
+font-size: 11px;
+}
+.calenderdiv {
+padding: 1px 8px;
+}
+.details_slider p {
+font-size: 12px;
+}
+.details_slider .shower_details img {
+height: 17px;
+}
+.details_slider .shower_details, .details_slider .bed_details {
+padding: 4px 13px;
+}
+.prop_headingfeat h3{
+margin:0;
+}
+.tablinks_propfeat ul.nav li a {
+font-size: 12px;
+padding: 7px 9px;
+}
+.prop_feature {
+padding: 20px 9px 10px 9px;
+}
+.top_propsection {
+align-items: center;
+}
+.bannerimg {
+height: 143px;
+}
+.detshow_div .showing_detailsdiv h3, .prop_headingfeat h3 .clr_featr {
+font-size: 17px;
+}
+.propfeat_tab ul li a {
+width: 91px;
+padding: 4px 6px;
+}
+.bottom_details{
+width: 44%;
+}
+.map_streetshowings img {
+height: 16px;
+}
+.map_streetshowings h3,
+.addr_streetshowings h3 {
+font-size: 13px;
+}
+.butn_green .btn.btn_greenverif {
+font-size: 13px;
+}
+.pricedet_showings h3 {
+font-size: 17px;
+}
+.galdiv_clr img, .videodiv_clr img {
+height: 13px;
+}
+.galdiv_clr span, .videodiv_clr span {
+font-size: 13px;
+vertical-align: top;
+}
+.logo__txt a img {
+height: 35px;
+}
+.links ul li.notify {
+margin: 0px 11px 0 0px;
+}
+.count_phone, .count_notify, .count_comment, .count_email {
+top: -12px;
+right: -2px;
+}
+.txt_heading h3 {
+font-size: 17px;
+margin: 0;
 }
 .l-header__inner {
-    height: 56px;
+height: 48px;
 }
 .edit_profi_name input.form-control {
-    width: 100%;
+width: 100%;
 }
 .edit_button.save_new {
-    width: 62%;
+width: 62%;
 }
 .tenantaccord .card .card-header h2 .cancel_btn_all {
 padding: 5px 22px 4px 12px;
@@ -1046,10 +3055,7 @@ font-size: 12px;
 line-height: 13px;
 }
 .l-header {
-    height: 90px;
-}
-.txt_heading h3 {
-font-size: 22px;
+height: 90px;
 }
 .myinfo_txt img {
 margin-right: 2px;
@@ -1058,12 +3064,12 @@ margin-right: 2px;
 font-size: 17px;
 }
 .profilename, .account_no {
-    font-size: 15px;
-    line-height: 26px;
+font-size: 15px;
+line-height: 26px;
 }
 .edit_profi_name input.form-control {
-    width: 88%;
-    margin:0 0 1px 0;
+width: 88%;
+margin:0 0 1px 0;
 }
 
 .flexdiv div label, .flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
@@ -1083,8 +3089,8 @@ line-height: 17px;
 height: 82px;
 }
 .profimg_div img, .avatar-upload .avatar-preview {
-    height: 92px;
-    width: 92px;
+height: 92px;
+width: 92px;
 }
 .profimg_div .status {
 right: 11px;
@@ -1104,18 +3110,155 @@ left: -18px;
 }
 
 @media only screen and (max-width: 385px) and (min-width:376px) {
+    .l-main {
+        margin: 5em 0 8em 0;
+    }
+    .scheshow_flex .clcross_icon {
+        right: -1px;
+    }
+    .clickonfilterbtn {
+        right: -10px;
+    }
+    .downarrow a {
+        padding: 16px;
+    }
+    .downarrow a img {
+        height: 13px;
+    }
+    .sche_pad_red {
+max-width: 100%;
+}
+.showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
+font-size: 11px;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar-track,.buttons_map::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+border-radius: 10px;
+background-color: #F5F5F5;
+}
+.detshow_div .showingssec .timeinfo, .detshow_div .showingssec .dateinfo {
+justify-content: end;
+text-align: right;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar,.buttons_map::-webkit-scrollbar
+{
+width: 7px;
+height: 5px;
+background-color: #F5F5F5;
+}
+.prop_feature .tab-content .tab-pane .row::-webkit-scrollbar-thumb,.buttons_map::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #DEE7F2;
+}
+.prop_feature .row.mrbtm {
+overflow-x: auto;
+overflow-y: hidden;
+flex-wrap: nowrap;
+}
+.txt_heading h3 {
+font-size: 17px;
+margin: 0;
+}
+.mobileversion_view {
+margin: 1px 0 0 0;
+}
+.links ul li.notify {
+margin: 3px 11px 0 0px;
+}
+.l-header__inner {
+height: 56px;
+}
+.txt_heading {
+margin: 0 2em 0 4em;
+}
+.showingssec .showtime {
+align-items: center;
+}
+.leasedslider.areaexplr.mobileareamap a {
+padding: 14px 9px;
+}
+.showingssec .order_links span a {
+font-size: 12px;
+}
+.buttons_map button {
+font-size: 12px;
+}
+.showingssec .order_links span a img {
+margin-right: 4px;
+}
+.btn.btninvite {
+font-size: 14px;
+}
+.btn.btninvite img {
+height: 15px;
+}
+.desk_featureimg {
+height: 18px;
+}
+.butn_green img {
+height: 14px;
+}
+.propfeat_tab ul li a {
+width: 84px;
+}
+.btn i {
+font-size: 12px;
+}
+.butn_green .btn.btn_greenverif {
+font-size: 12px;
+}
+.pricedet_showings h3 {
+font-size: 15px;
+}
+.details_slider .shower_details img {
+height: 17px;
+}
+.galdiv_clr span, .videodiv_clr span {
+font-size: 13px;
+vertical-align: top;
+}
+.galdiv_clr img, .videodiv_clr img {
+height: 13px;
+}
+.showings_sche_div .bottom_rightdetails {
+bottom: 16px;
+}
+.details_slider p {
+font-size: 12px;
+}
+.bottom_details span {
+font-size: 11px;
+}
+.calenderdiv {
+padding: 1px 8px;
+}
+.details_slider .bed_details img {
+height: 12px;
+}
+.details_slider .shower_details, .details_slider .bed_details {
+padding: 4px 13px;
+}
+.bannerimg {
+height: 117px;
+}
+.txt_heading {
+margin: 0 3em 0 4em;
+}
 .my_info {
 padding: 14px 10px;
 }
 .profilename, .account_no {
-    line-height: 29px;
-    font-size: 17px;
+line-height: 29px;
+font-size: 17px;
 }
 .edit_button.save_new {
-    width: 74%;
+width: 74%;
 }
 .edit_profi_name input.form-control {
-    width: 100%;
+width: 100%;
 }
 .tabsdiv .nav.nav-tabs li a {
 padding: 11px 16px;
@@ -1160,9 +3303,6 @@ width: 35%;
 .flex_menubottom p {
 font-size: 13px;
 }
-.txt_heading h3 {
-font-size: 22px;
-}
 .l-header {
 height: 95px;
 }
@@ -1198,27 +3338,104 @@ left: -22px;
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
-.txt_heading h3 {
-font-size: 22px;
+  /* showings page */
+  .l-main {
+    margin: 5.3em 0 8em 0;
 }
+
+.scheshow_flex .clcross_icon {
+    right: -1px;
+}
+.clickonfilterbtn {
+    right: -10px;
+}
+.downarrow a {
+    padding: 10px 13px 20px 13px;
+}
+.downarrow a img {
+    height: 13px;
+}
+    .txt_heading h3 {
+        font-size: 19px;
+    }
+    .mobileviewblock_scheduleslider .col-5,.showingssec_infodiv .showingssec .col-5{
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+    }
+    .mobileviewblock_scheduleslider .col-7,.showingssec_infodiv .showingssec .col-7{
+        max-width: 66.66%;
+        flex: 0 0 66.66%;
+    }
+    .clickonfilterbtn {
+        width: 40%;
+    }
+    .showingssec_infodiv .showingssec .bottomdiv_info {
+        padding: 10px 5px 10px 13px;
+    }
+    .showingssec_infodiv .showingssec .timelabel span, .showingssec_infodiv .showingssec .timeinfo span, .showingssec_infodiv .showingssec .datelabel span, .showingssec_infodiv .showingssec .dateinfo span {
+        font-size: 12px;
+    }
+    .scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img,
+    .mobileviewblock_scheduleslider .showimgpend img {
+        height: 87px;
+    }
+    .backg_colr_showings {
+        padding: 27px 11px 10px 11px;
+    }
+    .mobileviewblock_scheduleslider .showingssec .order_links {
+        padding: 0px 9px 0 9px;
+    }
+    .reschedule_divdropdown.btnresched {
+        top: 2px;
+        left: 8px;
+    }
+    .reschedule_divdropdown .btn.conf_resch, .reschedule_divdropdown .btn.canc_show {
+        font-size: 12px;
+    }
+    .mobileviewblock_scheduleslider .showingssec .showing_details p, .showingssec_infodiv .showingssec .showing_details p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .mobileviewblock_scheduleslider .showingssec .order_links span a {
+        font-size: 12px;
+    }
+    .mobileviewblock_scheduleslider .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn {
+        width: auto;
+    }
+    .mobileviewblock_scheduleslider .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
+        width: auto;
+    }
+    .span_start, .confirmshow_divyellow .span_start {
+        font-size: 11px;
+    }
+    .confrm_div p {
+        font-size: 13px;
+    }
+    .confrm_div span:nth-child(2) {
+        font-size: 13px;
+    }
+    .mobileviewblock_scheduleslider .showingssec .order_links span a img {
+        height: 18px;
+    }
+      /* showings page end */
 .profilename, .account_no {
-    line-height: 29px;
-    font-size: 17px;
+line-height: 29px;
+font-size: 17px;
 }
 .editprofi img{
-    height: 20px;
+height: 20px;
 }
 .belowpart_tenant {
-    padding: 19px 10px 11px 10px;
+padding: 19px 10px 11px 10px;
 }
 .editprofi {
-    margin: -19px 0 6px 0;
+margin: -19px 0 6px 0;
 }
 .edit_button.save_new {
-    width: 74%;
+width: 74%;
 }
 .edit_profi_name input.form-control {
-    width: 100%;
+width: 100%;
 }
 .tabsdiv .nav.nav-tabs li a {
 padding: 11px 16px;
@@ -1296,8 +3513,11 @@ height: auto;
 .l-header {
 height: 95px;
 }
+.show_tablfull {
+    padding: 0 10px;
+}
 .txt_heading {
-margin: 0 1.1em 0 2.5em;
+    margin: 0 1.5em 0 2em;
 }
 .my_info, .req_document {
 padding: 14px 10px;
@@ -1352,28 +3572,142 @@ width: 37%;
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
-.txt_heading h3 {
-font-size: 19px;
+  /* showings page */
+  .l-main {
+    margin: 5.3em 0 8em 0;
 }
-.profilename, .account_no {
-    line-height: 29px;
+.scheshow_flex .clcross_icon {
+    right: -1px;
+}
+.clickonfilterbtn {
+    right: -10px;
+}
+.downarrow a {
+    padding: 10px 13px 20px 13px;
+}
+.downarrow a img {
+    height: 13px;
+}
+  .txt_heading h3 {
+    font-size: 19px;
+}
+.mobileviewblock_scheduleslider .col-5,.showingssec_infodiv .showingssec .col-5{
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
+.mobileviewblock_scheduleslider .col-7,.showingssec_infodiv .showingssec .col-7{
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+}
+.clickonfilterbtn {
+    width: 40%;
+}
+.showingssec_infodiv .showingssec .bottomdiv_info {
+    padding: 10px 5px 10px 13px;
+}
+.showingssec_infodiv .showingssec .timelabel span, .showingssec_infodiv .showingssec .timeinfo span, .showingssec_infodiv .showingssec .datelabel span, .showingssec_infodiv .showingssec .dateinfo span {
+    font-size: 12px;
+}
+.scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img, .mobileviewblock_scheduleslider .showimgpend img {
+    height: 79px;
+}
+.showingssec_infodiv .showingssec .button_myinfos.pendingshowsbtn .btn.reschedulebtn,
+.showingssec_infodiv .showingssec .button_myinfos.pendingshowsbtn .btn.confirmbtn {
+    width: auto;
+    padding: 5px 14px;
+}
+.showingssec_infodiv .showingssec .showingdetails_option div img {
+    height: 15px;
+}
+.showingssec_infodiv .showingssec .showingdetails_option div.showerdetails img {
+    height: 17px;
+}
+.content-wrapper .container-fluid {
+    width: 100%;
+}
+.mobileviewblock_scheduleslider .showingssec .showtime,
+.mobileviewblock_scheduleslider .showingssec .showdate {
+    justify-content: space-between;
+    align-items: end;
+}
+.showingssec_infodiv .btn.confirmbtn, .showingssec_infodiv .btn.reschedulebtn, .mobileviewblock_scheduleslider .btn.confirmbtn, .mobileviewblock_scheduleslider .btn.reschedulebtn {
+    font-size: 11px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links {
+    margin: 7px 0 0px 0;
+}
+.mobileviewblock_scheduleslider .showingssec .showtime,
+.mobileviewblock_scheduleslider .showingssec .timelabel,
+.mobileviewblock_scheduleslider .showingssec .timeinfo,
+.mobileviewblock_scheduleslider .showingssec .dateinfo,
+.mobileviewblock_scheduleslider .showingssec .datelabel,
+.mobileviewblock_scheduleslider .showingssec .showdate {
+     width: auto;
+}
+.showingssec_infodiv .showingssec .showtime, .showingssec_infodiv .showingssec .showdate {
+    padding: 2px 20px 4px 0px;
+}
+.backg_colr_showings {
+    padding: 27px 11px 10px 11px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links {
+    padding: 0px 9px 0 9px;
+}
+.reschedule_divdropdown.btnresched {
+    top: 2px;
+    left: 8px;
+}
+.reschedule_divdropdown .btn.conf_resch, .reschedule_divdropdown .btn.canc_show {
+    font-size: 12px;
+}
+.mobileviewblock_scheduleslider .showingssec .showing_details p, .showingssec_infodiv .showingssec .showing_details p {
+    font-size: 12px;
+    line-height: 15px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links span a {
+    font-size: 12px;
+}
+.mobileviewblock_scheduleslider .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn {
+    width: auto;
+}
+.mobileviewblock_scheduleslider .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
+    width: auto;
+}
+.span_start, .confirmshow_divyellow .span_start {
+    font-size: 11px;
+}
+.confrm_div p {
+    font-size: 13px;
+}
+.confrm_div span:nth-child(2) {
+    font-size: 13px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links span a img {
+    height: 18px;
+}
+  /* showings page end */
+  .txt_heading h3 {
     font-size: 17px;
 }
+.profilename, .account_no {
+line-height: 29px;
+font-size: 17px;
+}
 .editprofi img{
-    height: 20px;
+height: 20px;
 }
 .belowpart_tenant {
-    padding: 19px 10px 11px 10px;
+padding: 19px 10px 11px 10px;
 }
 .editprofi {
-    margin: -17px 0 6px 0;
+margin: -17px 0 6px 0;
 }
 .edit_button.save_new {
-    width: 74%;
+width: 74%;
 }
 .edit_profi_name input.form-control {
-    width: 100%;
-    margin:0 0 1px 0;
+width: 100%;
+margin:0 0 1px 0;
 }
 .title-res {
 display: flex;
@@ -1487,11 +3821,11 @@ font-size: 11px;
 height: 82px;
 }
 .profimg_div img, .avatar-upload .avatar-preview {
-    height: 92px;
-    width: 92px;
+height: 92px;
+width: 92px;
 }
 .profile_infotxt {
-    margin: 14px 0 0 0;
+margin: 14px 0 0 0;
 }
 .profimg_div .status {
 bottom: 13px;
@@ -1530,31 +3864,170 @@ line-height: 13px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+/* showings page */
+.l-main {
+    margin: 5em 0 8em 0;
+}
+.scheshow_flex .clcross_icon {
+    right: -1px;
+}
+.clickonfilterbtn {
+    right: -20px;
+}
+.downarrow a {
+    padding: 9px 17px 15px 17px;
+}
+.downarrow a img {
+    height: 13px;
+}
+.showing_viewdetails .btn.view_detail {
+    font-size: 11px;
+}
+.confrm_div img{
+    height: 20px;
+}
+.confrm_div p {
+    font-size: 12px;
+}
+.confrm_div span:nth-child(2) {
+    font-size: 12px;
+}
+.span_start, .confirmshow_divyellow .span_start {
+    font-size: 10px;
+}
+.mobileviewblock_scheduleslider .showingssec .timelabel span, .mobileviewblock_scheduleslider .showingssec .timeinfo span, .mobileviewblock_scheduleslider .showingssec .datelabel span, .mobileviewblock_scheduleslider .showingssec .dateinfo span {
+    font-size: 11px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links span a {
+    font-size: 11px;
+}
+.showing_imgdiv span {
+    font-size: 16px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links span a {
+    font-size: 11px;
+}
+.links ul li.notify {
+    margin: -3px 11px 0 0px;
+}
+.mobileviewblock_scheduleslider .col-5,.showingssec_infodiv .showingssec .col-5{
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
+.mobileviewblock_scheduleslider .col-7,.showingssec_infodiv .showingssec .col-7{
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+}
+.clickonfilterbtn {
+    width: 47%;
+}
+.showingssec_infodiv .showingssec .bottomdiv_info {
+    padding: 10px 5px 10px 13px;
+}
+.showingssec_infodiv .showingssec .timelabel span, .showingssec_infodiv .showingssec .timeinfo span, .showingssec_infodiv .showingssec .datelabel span, .showingssec_infodiv .showingssec .dateinfo span {
+    font-size: 11px;
+}
+.scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img, .mobileviewblock_scheduleslider .showimgpend img {
+    height: 79px;
+}
+.showingssec_infodiv .showingssec .button_myinfos.pendingshowsbtn .btn.reschedulebtn,
+.showingssec_infodiv .showingssec .button_myinfos.pendingshowsbtn .btn.confirmbtn {
+    width: auto;
+    padding: 5px 14px;
+}
+.showingssec_infodiv .showingssec .showingdetails_option div img {
+    height: 15px;
+}
+.showingssec_infodiv .showingssec .showingdetails_option div.showerdetails img {
+    height: 18px;
+}
+.content-wrapper .container-fluid {
+    width: 100%;
+}
+.mobileviewblock_scheduleslider .showingssec .showtime,
+.mobileviewblock_scheduleslider .showingssec .showdate {
+    justify-content: space-between;
+    align-items: end;
+}
+.showingssec_infodiv .btn.confirmbtn, .showingssec_infodiv .btn.reschedulebtn, .mobileviewblock_scheduleslider .btn.confirmbtn, .mobileviewblock_scheduleslider .btn.reschedulebtn {
+    font-size: 10px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links {
+    margin: 7px 0 0px 0;
+}
+.mobileviewblock_scheduleslider .showingssec .showtime,
+.mobileviewblock_scheduleslider .showingssec .timelabel,
+.mobileviewblock_scheduleslider .showingssec .timeinfo,
+.mobileviewblock_scheduleslider .showingssec .dateinfo,
+.mobileviewblock_scheduleslider .showingssec .datelabel,
+.mobileviewblock_scheduleslider .showingssec .showdate {
+     width: auto;
+}
+.showingssec_infodiv .showingssec .showtime, .showingssec_infodiv .showingssec .showdate {
+    padding: 2px 20px 4px 0px;
+}
+.backg_colr_showings {
+    padding: 27px 11px 10px 11px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links {
+    padding: 0px 9px 0 9px;
+}
+.reschedule_divdropdown.btnresched {
+    top: 2px;
+    left: 8px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links span a {
+    font-size: 11px;
+}
+.reschedule_divdropdown .btn.conf_resch, .reschedule_divdropdown .btn.canc_show {
+    font-size: 12px;
+}
+.mobileviewblock_scheduleslider .showingssec .showing_details p, .showingssec_infodiv .showingssec .showing_details p {
+    font-size: 12px;
+    line-height: 15px;
+}
+.reschedule_divdropdown .btn.conf_resch, .reschedule_divdropdown .btn.canc_show {
+    font-size: 10px;
+}
+.mobileviewblock_scheduleslider .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn {
+    width: auto;
+}
+.mobileviewblock_scheduleslider .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
+    width: auto;
+}
+.span_start, .confirmshow_divyellow .span_start {
+    font-size: 9px;
+    padding: 3px 5px;
+}
+.mobileviewblock_scheduleslider .showingssec .order_links span a img {
+    height: 18px;
+}
+  /* showings page end */
 .txt_heading {
 margin: 0 0.6em 0 1.7em;
 }
 .l-header__inner {
-    height: 55px;
+height: 55px;
 }
 .profilename, .account_no {
-    line-height: 29px;
-    font-size: 17px;
+line-height: 29px;
+font-size: 17px;
 }
 .editprofi img{
-    height: 20px;
+height: 20px;
 }
 .belowpart_tenant {
-    padding: 19px 10px 11px 10px;
+padding: 19px 10px 11px 10px;
 }
 .editprofi {
-    margin: -17px 0 6px 0;
+margin: -17px 0 6px 0;
 }
 .edit_button.save_new {
-    width: 74%;
+width: 74%;
 }
 .edit_profi_name input.form-control {
-    width: 100%;
-    margin:0 0 1px 0;
+width: 100%;
+margin:0 0 1px 0;
 }
 .question_tooltipcontent::before {
 border-left: solid transparent 22px;
@@ -1629,11 +4102,11 @@ height: auto;
 .profimg_div .status {
 bottom: 12px;
 }
-.flex_menubottom img{
-height: 26px;
+.flex_menubottom img {
+    height: 23px;
 }
 .txt_heading h3 {
-font-size: 19px;
+    font-size: 15px;
 }
 .l-header {
 height: 85px;
@@ -1708,13 +4181,25 @@ padding: 9px;
 font-size: 10px;
 }
 }
+
+@media only screen and (max-width:320px){
+    .downarrow a {
+        padding: 10px 16px 9px 16px;
+    }
+    .input_reschedule input.form-control {
+        font-size: 12px;
+    }
+    .scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img, .mobileviewblock_scheduleslider .showimgpend img {
+        height: 74px;
+    }
+}
 @media screen and (max-width: 765px) {
-    /* Your styles for widths below 765px */
-    .form-css{
-        display: flex;
-        flex-direction: column;
-    }
-    .edit-card-employment{
-        width: 100%;
-    }
-  }
+/* Your styles for widths below 765px */
+.form-css{
+display: flex;
+flex-direction: column;
+}
+.edit-card-employment{
+width: 100%;
+}
+}

@@ -44,7 +44,7 @@
 </div>
 
 <div class="mobileversion_view txt_heading">
-<h3>showings</h3>
+<h3>showings & offers</h3>
 </div>
 
 <div class="links">
@@ -133,13 +133,16 @@
 <div class="content-wrapper content-wrapper--with-bg">
 <div class="container-fluid">
 <div class="row">
-<div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
+<div class="col-xl-4 col-lg-5 col-md-5 col-sm-12 col-12 show_tablfull">
 <div class="search showing_search mobile_showshowings">
 <div class="form-search mobileview_searchshowings">
 <div class="input-group mb-2">
 <input type="text" class="form-control" placeholder="Search">
 <div class="input-group-append">
-<button type="submit" data-toggle="modal" data-target="#filter_map"><i class="fa fa-search"></i></button>
+<button type="submit" class="btn searchbtn" data-toggle="modal" data-target="#filter_map">
+  <i class="fa fa-search"></i>
+</button>
+<a href="mapview_showings.html" class="btn btnmap">Map View <img src="images/showings/map_pin.svg"></a>
 </div>
 </div>
 </div>
@@ -161,7 +164,7 @@
 
 <div class="showingssec_infodiv pendingslider slider">
 <section class="showingssec">
-<div class="row">
+<div class="row align_item_center">
 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5 infopad imgpad">
 <div class="showimgpend">
 <img src="images/myinfo/showimg1.svg">
@@ -243,7 +246,7 @@
 </section>
 
 <section class="showingssec">
-<div class="row">
+<div class="row align_item_center">
 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5 infopad imgpad">
 <div class="showimgpend">
 <img src="images/myinfo/showimg1.svg">
@@ -325,7 +328,7 @@
 </section>
 
 <section class="showingssec">
-<div class="row">
+<div class="row align_item_center">
 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5 infopad imgpad">
 <div class="showimgpend">
 <img src="images/myinfo/showimg1.svg">
@@ -434,77 +437,9 @@
   </div>
   
 
-<div class="showingssec_infodiv scheduleslider slider">
+<div class="showingssec_infodiv scheduleslider slider mobileviewschedule_slider">
 <section class="showingssec" data-target="group-showingtwo">
-
-  <!-- showing confirm green -->
-  <div class="showing_confirmed confirmshow_divgreen">
-    <div class="confrm_div">
-      <span class="span_start">starts:</span>
-      <span>1hr 29min</span>
-    </div>
-    <div class="confrm_div">
-      <p>showing Confirmed </p>
-    </div>
-    <div class="confrm_div">
-      <img src="images/showings/confirm_icon.svg">
-    </div>
-  </div>
-  <!-- showing confirm green end -->
-
-<!-- reschedule yellow -->
-<div class="showing_confirmed reschedule_divyellow">
-<div class="button_myinfos sched_reschedule">
-  <div>
-  <button class="btn reschedulebtncard resch_clk" type="button" tabindex="0">
-  Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
-  </button>
-  </div>
-  </div>
-  <div class="resche_yellowcard">
-    <div class="row">
-    <div class="col-xl-12">
-      <form>
-      <div class="reschedule_divdropdown">
-          <div class="resch_time">
-            <div class="label_txtreschedule">
-              <label>showing time</label>
-            </div>
-            <div class="input_reschedule">
-              <input type="text" class="form-control" value="08:45 AM" tabindex="0">
-            </div>
-          </div>
-          <div class="resch_date">
-            <div class="label_txtreschedule">
-              <label>showing date</label>
-            </div>
-            <div class="input_reschedule">
-              <div class="form-group">
-                <div class="datepickershowing date input-group">
-                  <input type="text" value="10/02/2024" class="form-control" id="fecha1" tabindex="0">
-                  <div class="input-group-append">
-                    <span class="input-group-text">
-                      <img src="images/showings/date_icon.svg">
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="two_buttonsschedule">
-            <button class="btn canc_show" tabindex="0">cancel showing</button>
-            <button class="btn conf_resch" tabindex="0">Confirm Reschedule </button>
-          </div>
-      </div>
-    </form>
-    </div>
-    </div>
-    </div>
-    </div>
-    <!-- reschedule yellow end -->
-
-
-     <!-- showing confirm yellow -->
+ <!-- showing confirm yellow -->
   <div class="showing_confirmed confirmshow_divyellow">
     <div class="confrm_div">
       <span class="span_start">auto cancels:</span>
@@ -519,7 +454,7 @@
   </div>
   <!-- showing confirm yellow end -->
 
-<div class="row">
+<div class="row align_item_center">
 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5 infopad imgpad">
 <div class="showimgpend">
 <img src="images/myinfo/showimg1.svg">
@@ -554,23 +489,13 @@
     </button>
     </div>
   </div>
-
-  <!-- confirm green div -->
-  <div class="button_myinfos sched_reschedule">
-  <div>
-  <button class="btn reschedulebtn resch_clk" type="button">
-  Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
-  </button>
-  </div>
-  </div>
-   <!-- confirm green div end -->
-  </div>
+ </div>
 </div>
-<div class="popup_reschedule_btn">
+<div class="popup_reschedule_btn yelwshowconfirm">
 <div class="row">
 <div class="col-xl-12">
   <form>
-  <div class="reschedule_divdropdown">
+  <div class="reschedule_divdropdown btnresched">
       <div class="resch_time">
         <div class="label_txtreschedule">
           <label>showing time</label>
@@ -628,14 +553,24 @@
 </div>
 </div>
 </div>
-
-<div class="reschedule_divp">
-  <p>Reschedule showing </p>
-</div>
 </section>
 
 <section class="showingssec">
-  <div class="row">
+    <!-- showing confirm green -->
+    <div class="showing_confirmed confirmshow_divgreen">
+      <div class="confrm_div">
+        <span class="span_start">starts:</span>
+        <span>1hr 29min</span>
+      </div>
+      <div class="confrm_div">
+        <p>showing Confirmed </p>
+      </div>
+      <div class="confrm_div">
+        <img src="images/showings/confirm_icon.svg">
+      </div>
+    </div>
+    <!-- showing confirm green end -->
+  <div class="row align_item_center">
   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5 infopad imgpad">
   <div class="showimgpend">
   <img src="images/myinfo/showimg1.svg">
@@ -658,13 +593,6 @@
     </div>
     <div class="dateinfo">
     <span>10/02/2024</span>
-    </div>
-    </div>
-    <div class="button_myinfos sched_reschedule">
-    <div>
-    <button class="btn reschedulebtn" type="button">
-    Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
-    </button>
     </div>
     </div>
     </div>
@@ -693,10 +621,63 @@
   </div>
   </div>
   </div>
+  <div class="reschedule_divp">
+    <p>Reschedule showing </p>
+  </div>
   </section>
 
-  <section class="showingssec">
-    <div class="row">
+<section class="showingssec">
+<!-- reschedule yellow -->
+<div class="showing_confirmed reschedule_divyellow">
+  <div class="button_myinfos sched_reschedule">
+    <div>
+    <button class="btn reschedulebtncard resch_clk" type="button" tabindex="0">
+    Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
+    </button>
+    </div>
+    </div>
+    <div class="resche_yellowcard">
+      <div class="row align_item_center">
+      <div class="col-xl-12">
+        <form>
+        <div class="reschedule_divdropdown">
+            <div class="resch_time">
+              <div class="label_txtreschedule">
+                <label>showing time</label>
+              </div>
+              <div class="input_reschedule">
+                <input type="text" class="form-control" value="08:45 AM" tabindex="0">
+              </div>
+            </div>
+            <div class="resch_date">
+              <div class="label_txtreschedule">
+                <label>showing date</label>
+              </div>
+              <div class="input_reschedule">
+                <div class="form-group">
+                  <div class="datepickershowing date input-group">
+                    <input type="text" value="10/02/2024" class="form-control" id="fecha1" tabindex="0">
+                    <div class="input-group-append">
+                      <span class="input-group-text">
+                        <img src="images/showings/date_icon.svg">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="two_buttonsschedule">
+              <button class="btn canc_show" tabindex="0">cancel showing</button>
+              <button class="btn conf_resch" tabindex="0">Confirm Reschedule </button>
+            </div>
+        </div>
+      </form>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!-- reschedule yellow end -->
+    <div class="row align_item_center">
     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5 infopad imgpad">
     <div class="showimgpend">
     <img src="images/myinfo/showimg1.svg">
@@ -719,13 +700,6 @@
       </div>
       <div class="dateinfo">
       <span>10/02/2024</span>
-      </div>
-      </div>
-      <div class="button_myinfos sched_reschedule">
-      <div>
-      <button class="btn reschedulebtn" type="button">
-      Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
-      </button>
       </div>
       </div>
       </div>
@@ -757,14 +731,211 @@
     </section>
 </div>
   <!-- schedule showings end -->
+
+
+<!-- mobile view schedule slider -->
+ <div class="mobileviewblock_scheduleslider">
+
+  <section class="showingssec">
+    <!-- showing confirm green -->
+    <div class="showing_confirmed confirmshow_divgreen">
+      <div class="confrm_div">
+        <span class="span_start">starts:</span>
+        <span>1hr 29min</span>
+      </div>
+      <div class="confrm_div">
+        <p>showing Confirmed </p>
+      </div>
+      <div class="confrm_div">
+        <img src="images/showings/confirm_icon.svg">
+      </div>
+    </div>
+    <!-- showing confirm green end -->
+  <div class="row align_item_center">
+  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5 infopad imgpad">
+  <div class="showimgpend">
+  <img src="images/myinfo/showimg1.svg">
+  </div>
+  </div>
+  
+  <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-7 infopad">
+    <div class="showtime">
+    <div class="timelabel">
+    <span><img src="images/clock.svg">showing time</span>
+    </div>
+    <div class="timeinfo">
+    <span>08:42 am</span>
+    </div>
+    </div>
+    
+    <div class="showdate">
+    <div class="datelabel">
+    <span><img src="images/cal.svg">showing date</span>
+    </div>
+    <div class="dateinfo">
+    <span>10/02/2024</span>
+    </div>
+    </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="order_links">
+    <span><a href="javascript:void(0);"><img src="images/showings/getdir.svg">get direction</a></span>
+    <span><a href="javascript:void(0);"><img src="images/myinfo/uber.svg">Order Uber </a></span>
+    <span><a href="javascript:void(0);"><img src="images/myinfo/lyft.svg">Order Lyft</a></span>
+    </div>
+    </div>
+    </div>
+  <div class="bottomdiv_info showingsbottom">
+  <div class="row centerdivinfo">
+  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-6">
+  <div class="showing_details">
+  <p>111 Renfrew Trail Welland, Ontario L3C 0K2 </p>
+  </div>
+  </div>
+  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-6 infopad">
+  <div class="showing_viewdetails">
+  <button class="btn view_detail">View details <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="reschedule_divp">
+    <p>Reschedule showing </p>
+  </div>
+  </section>
+
+  <section class="showingssec" data-target="group-showingtwo">
+    <!-- showing confirm yellow -->
+     <div class="showing_confirmed confirmshow_divyellow">
+       <div class="confrm_div">
+         <span class="span_start">auto cancels:</span>
+         <span>2hr 29min</span>
+       </div>
+       <div class="confrm_div">
+         <p>Confirm showing </p>
+       </div>
+       <div class="confrm_div">
+         <img src="images/showings/confirm_yellow.svg">
+       </div>
+     </div>
+     <!-- showing confirm yellow end -->
+   
+   <div class="row align_item_center">
+   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5 infopad imgpad">
+   <div class="showimgpend">
+   <img src="images/myinfo/showimg1.svg">
+   </div>
+   </div>
+   
+   <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-7 infopad">
+     <div class="showtime">
+     <div class="timelabel">
+     <span><img src="images/clock.svg">showing time</span>
+     </div>
+     <div class="timeinfo">
+     <span>08:42 am</span>
+     </div>
+     </div>
+     
+     <div class="showdate">
+     <div class="datelabel">
+     <span><img src="images/cal.svg">showing date</span>
+     </div>
+     <div class="dateinfo">
+     <span>10/02/2024</span>
+     </div>
+     </div>
+   
+       <!-- confirm yellow div -->
+     <div class="button_myinfos yellowdivbtn">
+       <div>
+         <button class="btn confirmbtn">Confirm </button>
+       <button class="btn reschedulebtn resch_clk" type="button">
+       Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
+       </button>
+       </div>
+     </div>
+    </div>
+   </div>
+   <div class="popup_reschedule_btn yelwshowconfirm">
+   <div class="row">
+   <div class="col-xl-12">
+     <form>
+     <div class="reschedule_divdropdown btnresched">
+         <div class="resch_time">
+           <div class="label_txtreschedule">
+             <label>showing time</label>
+           </div>
+           <div class="input_reschedule">
+             <input type="text" class="form-control" value="08:45 AM">
+           </div>
+         </div>
+         <div class="resch_date">
+           <div class="label_txtreschedule">
+             <label>showing date</label>
+           </div>
+           <div class="input_reschedule">
+             <div class="form-group">
+               <div class="datepickershowing date input-group">
+                 <input type="text" value="10/02/2024" class="form-control" id="fecha1">
+                 <div class="input-group-append">
+                   <span class="input-group-text">
+                     <img src="images/showings/date_icon.svg">
+                   </span>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="two_buttonsschedule">
+           <button class="btn canc_show">cancel showing</button>
+           <button class="btn conf_resch">Confirm Reschedule </button>
+         </div>
+     </div>
+   </form>
+   </div>
+   </div>
+   </div>
+   <div class="row">
+     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+     <div class="order_links">
+     <span><a href="javascript:void(0);"><img src="images/showings/getdir.svg">get direction</a></span>
+     <span><a href="javascript:void(0);"><img src="images/myinfo/uber.svg">Order Uber </a></span>
+     <span><a href="javascript:void(0);"><img src="images/myinfo/lyft.svg">Order Lyft</a></span>
+     </div>
+     </div>
+     </div>
+   <div class="bottomdiv_info showingsbottom">
+   <div class="row centerdivinfo">
+   <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-6">
+   <div class="showing_details">
+   <p>111 Renfrew Trail Welland, Ontario L3C 0K2 </p>
+   </div>
+   </div>
+   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-6 infopad">
+   <div class="showing_viewdetails">
+   <button class="btn view_detail">View details <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+   </div>
+   </div>
+   </div>
+   </div>
+   </section>
+ </div>
+
+
+<!-- end of mobile view schedule slider -->
+
 </div>
 </div>
 
 
 
-<div class="col-xl-8 col-lg-4 col-md-7 col-sm-12 col-12">
+<div class="col-xl-8 col-lg-7 col-md-7 col-sm-12 col-12 show_tablfull">
 <div class="google-map showingsmap">
-  <div class="map" id="map wpsl-gmap" style="height: 800px">
+  <div class="map" id="map wpsl-gmap">
     <div class="marker" data-lat="25.1882843" data-lng="55.2716891"></div>
 </div> 
 <div id="map"></div>
@@ -774,24 +945,70 @@
 <input type="text" class="form-control" placeholder="Search">
 <div class="input-group-append">
 <button type="submit" class="btn_sub"><i class="fa fa-search"></i></button>
+<button type="submit" class="btn btnlist_view">List View <img src="images/showings/listview.svg"></button>
 </div>
 </div>
 
 <div class="button_map">
   <button class="btn pendoffers"><img src="images/showings/pend_offersround.svg"> Pending offers</button>
   <button class="btn schedshow"><img src="images/showings/scheduleoff_round.svg"> Scheduled Showings</button>
-  <button class="filterbtnshow"><img src="images/showings/filter_showings.svg"></button>
+  <button class="filterbtnshow mapshow"><img src="images/showings/filter_showings.svg"></button>
+
+  <div class="clickonfilterbtn clkfilmap">
+    <div class="bacgr_imagefiltershow">
+      <button type="button" class="btn btnallshow">All</button>
+      <button type="button" class="btn btnconfrshow">Calender View</button>
+    </div>
+  </div>
+  <img src="images/showings/cross_icon.svg" class="clcross_icon mapcross">
 </div>
 </div>
 <!-- search end -->
 </div>
-
 
 </div>
 </div>
 </div>
 </div>
 </main>
+
+
+<!-- mobileview menu -->
+ <div class="downarrow">
+  <a href="javascript:void(0);"><img src="images/new_arrow.svg"></a>
+ </div>
+
+<div class="container-fluid btmmenu">
+  <div class="flex_menubottom">
+  <div class="dash">
+  <a href="">
+  <img src="images/dashboard.svg">
+  <p>Dashboard</p>
+  </a> 
+  </div>
+  <div class="commu">
+  <a href="">
+  <img src="images/communication.svg">
+  <p>Communication</p>
+  </a>
+  </div>
+  <div class="maint">
+  <a href="">
+  <img src="images/maintenance.svg">
+  <p>Maintenance</p>
+  </a>
+  </div>
+  <div class="rent">
+  <a href="">
+  <img src="images/rentals.svg">
+  <p>Rentals</p>
+  </a>
+  </div>
+  </div>
+  </div>
+
+
+
 
 
 <div class="modal fade filtermap_modal" id="filter_map">

@@ -140,6 +140,19 @@ slidesToShow:1,
 
 
 // filter showings popup 
+$(".clickonfilterbtn.clkfilmap,.clcross_icon.mapcross").hide();
+$(document).ready(function() {
+$(".filterbtnshow").click(function(){
+$(".clickonfilterbtn.clkfilmap,.clcross_icon.mapcross").show();
+$(".filterbtnshow").css("visibility","hidden");
+}); 
+
+$(".clcross_icon.mapcross").click(function(){
+$(".clickonfilterbtn.clkfilmap,.clcross_icon.mapcross").hide();
+$(".filterbtnshow").css("visibility","visible");
+}); 
+});
+
 $(".clcross_icon,.clickonfilterbtn").hide();
 $(document).ready(function() {
 $(".filter_click").click(function(){
@@ -150,6 +163,8 @@ $(".clcross_icon").click(function(){
 $(".clickonfilterbtn,.clcross_icon").hide();
 }); 
 });
+
+
 
 
 // reschedule button click
@@ -176,7 +191,7 @@ arrows: true,
 dots: false,
 speed: 300,
 infinite: true,
-autoplaySpeed: 5000,
+autoplaySpeed: 500044444,
 autoplay: true,
 responsive: [
 {
@@ -197,7 +212,14 @@ settings: {
 slidesToScroll: 1,
 slidesToShow:1.5,
 }
-}
+},
+{
+  breakpoint:420,
+  settings: {
+  slidesToScroll: 1,
+  slidesToShow:1.2,
+  }
+  }
 ]
 });
 });
@@ -234,6 +256,14 @@ slidesToScroll: 1,
 slidesToShow:1.5,
 }
 }
+,
+{
+  breakpoint:420,
+  settings: {
+  slidesToScroll: 1,
+  slidesToShow:1.2,
+  }
+  }
 ]
 });
 });
