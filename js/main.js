@@ -164,6 +164,55 @@ $(".clickonfilterbtn,.clcross_icon").hide();
 }); 
 });
 
+$('.btninvite.minus').hide();
+$(".showinvite_content").css('display','none');
+
+$(document).ready(function() {
+$('.btninvite.plus').click(function() {
+  $(".showinvite_content").css('display','block');
+  $(".btninvite.plus").hide();
+  $('.btninvite.minus').show();
+  $(".invite_sliderslick .slick-list").slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		arrows: true,
+		infinite: false,
+		autoplay: true
+	});
+});
+$('.btninvite.minus').click(function() {
+  $(".showinvite_content").hide();
+  $(".btninvite.plus").show();
+  $('.btninvite.minus').hide();
+});
+});
+
+
+$(document).ready(function () {
+
+	$(".invite_sliderslick .prev-btn").click(function () {
+		$(".invite_sliderslick .slick-list").slick("slickPrev");
+	});
+
+	$(".invite_sliderslick .next-btn").click(function () {
+		$(".invite_sliderslick .slick-list").slick("slickNext");
+	});
+	$(".invite_sliderslick .prev-btn").addClass("slick-disabled");
+	$(".invite_sliderslick .slick-list").on("afterChange", function () {
+		if ($(".invite_sliderslick .slick-prev").hasClass("slick-disabled")) {
+			$(".invite_sliderslick .prev-btn").addClass("slick-disabled");
+		} else {
+			$(".invite_sliderslick .prev-btn").removeClass("slick-disabled");
+		}
+		if ($(".invite_sliderslick .slick-next").hasClass("slick-disabled")) {
+			$(".invite_sliderslick .next-btn").addClass("slick-disabled");
+		} else {
+			$(".invite_sliderslick .next-btn").removeClass("slick-disabled");
+		}
+	});
+});
+
+
 
 
 
@@ -356,14 +405,19 @@ $(this).addClass("active");
 $('.building_div,.utilitiesdiv').hide();
 $(document).ready(function(){
 $('.unit_propfeat').click(function(){
+  $('.my_info.myleaseunit .slick-slider').slick('refresh');
+  $('.prop_feature .slick-slider').slick('refresh');
 $('.unit_div').show();
 $('.building_div,.utilitiesdiv').hide();
 });
 $('.build_propfeat').click(function(){
+  $('.my_info.myleaseunit .slick-slider').slick('refresh');
+  $('.prop_feature .slick-slider').slick('refresh');
 $('.building_div').show();
 $('.unit_div,.utilitiesdiv').hide();
 });
 $('.util_propfeat').click(function(){
+  $('.prop_feature .slick-slider').slick('refresh');
 $('.utilitiesdiv').show();
 $('.unit_div,.building_div').hide();
 });
