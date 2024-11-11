@@ -153,6 +153,8 @@ $(".filterbtnshow").css("visibility","visible");
 }); 
 });
 
+
+
 $(".clcross_icon,.clickonfilterbtn").hide();
 $(document).ready(function() {
 $(".filter_click").click(function(){
@@ -363,14 +365,11 @@ $(document).ready(function(){
 $('.buttons_map .btn').click(function(){
 $('.btn').removeClass("active");
 $(this).addClass("active");
-});
-});
-
-$(document).ready(function () {
-$('.buttons_map .btn').on('click', function () {
 $('.slideronmap .slider').slick('refresh');
 });
 });
+
+
 
 // showimgs
 $('.shopping,.schools,.night').hide();
@@ -394,7 +393,35 @@ $('.groceries,.shopping,.schools').hide();
 });
 
 
+// showing lease offers
+$(document).ready(function(){
+$('.propfeat_tab.offertolease_tab ul li').click(function(){
+$('.propfeat_tab.offertolease_tab ul li').removeClass("active");
+$(this).addClass("active");
+});
+});
 
+$('.building_div.buildinglease').hide();
+$(document).ready(function(){
+$('.unit_propfeat.leaaeunit').click(function(){
+  $('.unitlease .slick-slider').slick('refresh');
+$('.unit_div.unitlease').show();
+$('.building_div.buildinglease').hide();
+});
+
+$('.build_propfeat.buildtab').click(function(){
+  $('.building_div.buildinglease .slick-slider').slick('refresh');
+$('.building_div.buildinglease').show();
+$('.unit_div.unitlease').hide();
+});
+});
+// showing lease offers end
+
+
+
+
+
+// schedule showings tbas
 $(document).ready(function(){
 $('.propfeat_tab ul li').click(function(){
 $('.propfeat_tab ul li').removeClass("active");
@@ -405,19 +432,19 @@ $(this).addClass("active");
 $('.building_div,.utilitiesdiv').hide();
 $(document).ready(function(){
 $('.unit_propfeat').click(function(){
-  $('.my_info.myleaseunit .slick-slider').slick('refresh');
   $('.prop_feature .slick-slider').slick('refresh');
 $('.unit_div').show();
 $('.building_div,.utilitiesdiv').hide();
 });
+
 $('.build_propfeat').click(function(){
-  $('.my_info.myleaseunit .slick-slider').slick('refresh');
-  $('.prop_feature .slick-slider').slick('refresh');
+ $('.prop_feature .slick-slider').slick('refresh');
 $('.building_div').show();
 $('.unit_div,.utilitiesdiv').hide();
 });
+
 $('.util_propfeat').click(function(){
-  $('.prop_feature .slick-slider').slick('refresh');
+ $('.prop_feature .slick-slider').slick('refresh');
 $('.utilitiesdiv').show();
 $('.unit_div,.building_div').hide();
 });

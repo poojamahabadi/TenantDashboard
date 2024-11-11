@@ -4035,6 +4035,7 @@ color: #315D80;
   color: #ffffff;
   padding: 3px 6px 3px 14px;
   font-size: 14px;
+  border:unset;
 }
 .btn.btninvite img{
   margin:0 0 0 3px;
@@ -4321,7 +4322,7 @@ color:#ffffff;
   content: url("../images/showings/slider/g6.svg");
 }
 .buttons_map .btn.nightbtn.active img{
-  content: url("../images/showings/slider/g8.svg");
+  /*content: url("../images/showings/slider/g8.svg");*/
 }
 .buttons_map .btn.active.grocery img{
   content: url("../images/showings/slider/groce.svg");
@@ -5273,4 +5274,7 @@ box-shadow:1.93557px 2.93557px 3.66947px rgba(0, 0, 0, 0.1), inset 2.93557px 2.9
 }
 .invite_sliderslick .bgtenant_div .status {
   right: 19px;
+}
+.downarrow{
+display: none;
 }

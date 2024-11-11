@@ -1,4 +1,23 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
+
+
+/*schedule showing*/
+.tablinks_propfeat.unit_div .slick-track,
+.tablinks_propfeat.building_div .slick-track,
+.tablinks_propfeat.utilitiesdiv .slick-track{
+  margin-left: -121px;
+  margin-right: 0;
+}
+.prop_feature .data-text .element .row.mrbtm .sche_pad_red{
+  max-width: 100%;
+}
+.slideronmap .slider .slick-track {
+    margin-left: 9px;
+}
+.l-main {
+    margin: 6em 0 0em 0;
+}
+/*end of schedule showing*/
 /* showings page */
 .scheduleslider .showingssec .showimgpend img,
 .pendingslider .showingssec .showimgpend img {
@@ -65,6 +84,16 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 1600px) {
+/*schedule showings*/
+.btn.btninvite {
+    padding: 4px 6px 3px 14px;
+}
+.tablinks_propfeat.unit_div .slick-track,
+.tablinks_propfeat.building_div .slick-track,
+.tablinks_propfeat.utilitiesdiv .slick-track{
+  margin-left: -96px;
+}
+/*end of schedule showings*/
 /* showings */
 .clickonfilterbtn.clkfilmap {
 height: 131px;
@@ -1240,8 +1269,10 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
+
 .downarrow{
 position: relative;
+display: block;
 }
 .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn, .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
 padding: 5px 34px;

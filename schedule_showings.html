@@ -3655,7 +3655,7 @@ Parking & locker
 </div>
 
 <div class="tablinks_propfeat utilitiesdiv mobhideproperties">
-        <h3>Building</h3>
+        <h3>Utilities</h3>
         <div class="category-lists-slider">
         <div class="swiper-container" id="catgory-slider">
         <div class="swiper-wrapper">
@@ -5749,6 +5749,27 @@ Map
 
 <div class="slideronmap">
 <section class="rentallist_slicktwo slider" data-target="group-1">
+<div class="leasedslider areaexplr">
+<a href="javascript:void(0);">
+<h3> Euro Deli Ltd</h3>
+<p>M9P 1B2 Ridgemount Road</p>
+<p><img src="images/showings/loc_icon.svg"> Distance (0.343Km)</p>
+</a>
+</div>
+<div class="leasedslider areaexplr">
+<a href="javascript:void(0);">
+<h3> Euro Deli Ltd</h3>
+<p>M9P 1B2 Ridgemount Road</p>
+<p><img src="images/showings/loc_icon.svg"> Distance (0.343Km)</p>
+</a>
+</div>
+<div class="leasedslider areaexplr">
+<a href="javascript:void(0);">
+<h3> Euro Deli Ltd</h3>
+<p>M9P 1B2 Ridgemount Road</p>
+<p><img src="images/showings/loc_icon.svg"> Distance (0.343Km)</p>
+</a>
+</div>
 <div class="leasedslider areaexplr">
 <a href="javascript:void(0);">
 <h3> Euro Deli Ltd</h3>
@@ -8879,14 +8900,36 @@ prevEl: '.slider-prev',
 });
 
 
-$(".category-button").click(function(){
-$('.prop_feature .slick-slider').slick('refresh');
-$(".category-button").removeClass("active");
+
+
+// schedule showings
+$(".unit_div .category-button").click(function(){
+$('.prop_feature .unit_div .slick-slider').slick('refresh');
+$(".unit_div .category-button").removeClass("active");
 $(this).addClass('active');
 var getid = $(this).data('id');
-$(".data-text").removeClass('active');
+$(".unit_div .data-text").removeClass('active');
 $("#"+getid).addClass("active");
 });
+
+$(".building_div .category-button").click(function(){
+$('.prop_feature .building_div .slick-slider').slick('refresh');
+$(".building_div .category-button").removeClass("active");
+$(this).addClass('active');
+var getid = $(this).data('id');
+$(".building_div .data-text").removeClass('active');
+$("#"+getid).addClass("active");
+});
+
+$(".utilitiesdiv .category-button").click(function(){
+$('.prop_feature .utilitiesdiv .slick-slider').slick('refresh');
+$(".utilitiesdiv .category-button").removeClass("active");
+$(this).addClass('active');
+var getid = $(this).data('id');
+$(".utilitiesdiv .data-text").removeClass('active');
+$("#"+getid).addClass("active");
+});
+// end of schedule showings
 
 </script>
 

@@ -617,15 +617,15 @@ Lease information
     <div class="myinfo_txt">
     <img src="images/lease/my_unit.svg"> <span>my unit</span>
     </div>
-    <div class="propfeat_tab">
+    <div class="propfeat_tab offertolease_tab">
         <ul>
-        <li class="active"><a href="javascript:void(0);" class="unit_propfeat">Unit</a></li>
-        <li><a href="javascript:void(0);" class="build_propfeat">Building </a></li>
+        <li class="active"><a href="javascript:void(0);" class="unit_propfeat leaaeunit">Unit</a></li>
+        <li><a href="javascript:void(0);" class="build_propfeat buildtab">Building </a></li>
         </ul>
         </div>
     </div>
     
-    <div class="tablinks_propfeat unit_div">
+    <div class="tablinks_propfeat unit_div unitlease">
         <div class="category-lists-slider">
             <div class="swiper-container" id="catgory-slider">
             <div class="swiper-wrapper">
@@ -1596,7 +1596,7 @@ Lease information
     </div>
 <!-- end of units -->
 
-    <div class="tablinks_propfeat building_div">
+    <div class="tablinks_propfeat building_div buildinglease">
         <div class="category-lists-slider">
             <div class="swiper-container" id="catgory-slider">
             <div class="swiper-wrapper">
@@ -2794,19 +2794,27 @@ if (sessionLang){
     });
     
     
-    $(".category-button").click(function(){
-    $('.my_info.myleaseunit .slick-slider').slick('refresh');
-    $(".category-button").removeClass("active");
+    $(".unitlease .category-button").click(function(){
+    $('.my_info.myleaseunit .unitlease .slick-slider').slick('refresh');
+    $(".unitlease .category-button").removeClass("active");
     $(this).addClass('active');
     var getid = $(this).data('id');
-    $(".data-text").removeClass('active');
+    $(".unitlease .data-text").removeClass('active');
     $("#"+getid).addClass("active");
-
     });
     
+
+    $(".buildinglease .category-button").click(function(){
+    $('.my_info.myleaseunit .buildinglease .slick-slider').slick('refresh');
+    $(".buildinglease .category-button").removeClass("active");
+    $(this).addClass('active');
+    var getid = $(this).data('id');
+    $(".buildinglease .data-text").removeClass('active');
+    $("#"+getid).addClass("active");
+    });
     </script>
     
-    
+
     <script>
     $('.my_info.myleaseunit .slick-slider').each(function(){
     $(this).slick({
