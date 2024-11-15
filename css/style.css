@@ -280,7 +280,7 @@ line-height: 22px;
 text-transform: capitalize;
 color: #fff;
 border: unset;
-height: 37px;
+height: 48px;
 }
 .c-search__input::-webkit-input-placeholder {
 /* Chrome/Opera/Safari */
@@ -361,7 +361,7 @@ display: block;
 transition: 0.3s;
 width: 86%;
 margin: 0 auto 8px auto;
-border-radius: 6px;
+border-radius: 8px;
 }
 .sidenav .menu_nav a.active {
 background: linear-gradient(281.64deg, #f8b195 -63.17%, #f2727f 63.95%);
@@ -4515,6 +4515,7 @@ padding:0;
   color: #F2727F;
   background: rgba(49, 93, 128, 0.08);
   border-radius: 42px;
+  border:unset;
 }
 .account_nolease .btn.gv_notice img{
   vertical-align: bottom;
@@ -4693,6 +4694,7 @@ text-transform: capitalize;
 color: #315D80;
 display: flex;
 flex-basis: 49%;
+align-items: center;
 }
 .meet_timediv input{
   padding: 0px 46px 0px 11px;
@@ -4805,9 +4807,10 @@ flex-basis: 49%;
 .lang-select{
   display: flex;
   flex-basis: 100%;
+  overflow: hidden;
 }
 .btn.btn_appoint.changeborderbtn{
-  border-radius: 21px 21px 0px 0px;
+  border-radius: 16px 16px 0px 0px;
 }
 .sched_meeting{
   background: #9BB997;
