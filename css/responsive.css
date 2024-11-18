@@ -433,6 +433,9 @@ height: 132px;
   top: 16px;
   right: 26px;
 }
+.sidenav .menu_nav a {
+  font-size: 13px;
+}
 .myleaseunit .category-lists-slider .slider-button.slider-prev {
   left: -13px;
 }
@@ -1998,6 +2001,9 @@ padding: 4px 22px 4px 12px;
 .l-header__inner {
   height: 65px;
 }
+.download_trans .btn.btn_download {
+  font-size: 17px;
+}
 .table_myleasetrans .table tbody tr td,.table_myleasetrans .table tbody tr td p.green_clr {
   font-size: 14px;
 }
@@ -2036,7 +2042,7 @@ padding: 4px 22px 4px 12px;
 .my_lease_balance .card.balancecard .card-header{
   border-radius: 20px 20px 0px 0px;
 }
-.unitlease .propfet_infoimg img {
+.unitlease .propfet_infoimg img,.buildinglease .propfet_infoimg img {
   height: 21px;
 }
 .myleaseunit .info_conddetails p:first-child {
@@ -2541,7 +2547,7 @@ padding: 14px 20px;
   right: -11px;
 }
 .myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
-  margin-left: -89px;
+  margin-left: -40px;
 }
 /* end of offer to lease */
 /* showings */
@@ -3076,8 +3082,56 @@ right: 13px;
 .str_loc_txt p, .acc_no p {
   font-size: 14px;
 }
+.card.balancecard .card-header h3 {
+  font-size: 17px;
+}
+.agremts_progress .progress-bar h3, .percent_progress span, .progress.agremts_progress .progress-bar.green .percent_greenclr span {
+  font-size: 15px;
+}
+.mylease_agreements .start_signbtn .start_btn_signin {
+  font-size: 12px;
+}
+.offer_lease .send_reminder_tooltip p {
+  font-size: 13px;
+}
+.send_reminder_tooltip {
+  top: 33px;
+  right: -18px;
+  width: 51%;
+}
+.offer_lease p, .offer_agree p {
+  font-size: 14.5px;
+}
 .showings_offerlease .add_tenants.bgtenant_div .tenant_info {
-  margin: 3px 0 0 0;
+  margin: 12px 0 0 0;
+}
+.myleaseteam_flex .prof_name p:nth-child(2) {
+  font-size: 9px;
+}
+.myleaseunit .propfeat_tab.offertolease_tab ul li a {
+  font-size: 16px;
+}
+.propfeat_tab.offertolease_tab ul li a {
+  line-height: 21px;
+}
+.btn.btn_appoint {
+  padding: 12px 10px;
+}
+.offer_leasebtnbook .teamtxt h3 {
+  text-align: center;
+}
+.myleaseteam_flex .prof_name p:first-child {
+  font-size: 13px;
+}
+.account_nolease .btn.gv_notice {
+  padding: 6px 16px 7px 16px;
+}
+.showingstab_mylease .linediv:before {
+  height: 89%;
+}
+.showings_offerlease .acc_no p:nth-child(2) {
+  font-size: 16px;
+  margin: -3px 0 0 12px;
 }
 .showings_offerlease .add_tenants.bgtenant_div {
   right: 28px;
@@ -3085,9 +3139,9 @@ right: 13px;
 .download_trans .btn.btn_download {
   font-size: 16px;
 }
-.showings_offerlease .bgtenant_div img {
-  height: 65px;
-  width: 65px;
+.showings_offerlease .bgtenant_div .profimg_div > img {
+  height: 115px;
+  width: 115px;
 }
 .showings_offerlease .bgtenant_div .imgtenant_profile .status {
   right: 16px;
@@ -3533,12 +3587,27 @@ color: #F2727F;
 .mobileview_allunits .similar_unitsdiv .bottom_rightdetails {
   bottom: 7px;
 }
+.showings_offerlease .add_tenants.bgtenant_div img {
+  height: 55px;
+  width: 55px;
+}
+.showings_offerlease .tenant_imgs {
+  width: 91%;
+}
+.offer_leasebtnbook .tenant_imgs .slick-track {
+  margin-left: 3px;
+}
+.showings_offerlease .bgtenant_div img {
+  height: 69px;
+  width: 69px;
+}
 }
 @media only screen and (max-width: 640px) and (min-width:569px) {
 /* schedule showings */
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
   margin-left: -38px;
 }
+
 .similar_unitsdiv .descrip_details_list .price_rate p {
   font-size: 18px;
 }
@@ -3618,9 +3687,195 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
-/* schedule showings */
+/* showings offer to lease */
+.desktophide_unit{
+  display: inline-block;
+}
+.bookappnt_divabs {
+  border-radius: 27px 0px 14px 25px;
+}
+.bookappnt_divabs {
+  margin: -5px 0 0 auto;
+}
+#select_listrepres li span, .btn-select li span {
+  font-size: 12px;
+}
+.showings_offerlease .add_tenants.bgtenant_div .tenant_info{
+  margin:0;
+  display: none;
+}
+.my_teamdiv.myleaseteam_flex{
+box-shadow: 2.56499px 2.56499px 3.20624px rgba(58, 56, 80, 0.1), inset 2.56499px 2.56499px 6.41248px 0.641248px #7F7C97;
+}
+.str_loc_txt p, .acc_no p {
+  text-align: center;
+}
+.showings_offerlease .tenant_imgs {
+  width: 84%;
+  margin: -44px 0 0 -41px;
+}
+.showingstab_mylease .linediv:before {
+  height: 85%;
+}
+.progress.agremts_progress .progress-bar.green {
+width: 25%;
+}
+.progress.agremts_progress .progress-bar.yellow{
+  width: 100%;
+}
+.mobwidth_offerleasse{
+  display: none;
+}
+.mobhide_unit{
+  display: none;
+}
+.btn.btn_appoint {
+  border-radius: 50px;
+  font-weight: 700;
+  padding: 12px 16px;
+  line-height: 17px;
+  font-size: 14px;
+}
+.my_teamdiv.myleaseteam_flex {
+  padding: 13px 20px 13px 14px;
+}
+.myteam_mobileview .team_memname .prof_img img{
+  border: 4px solid #635B76;
+  box-shadow: inset 4px 5px 5px rgba(57, 124, 238, 0.06);
+}
+.myleaseteam_flex .prof_img img {
+  height: 48px;
+  width: 48px;
+}
+.sched_meeting {
+  top: 223px;
+  padding: 6px 7px 6px 7px;
+}
+.bookappnt_divabs, .sched_meeting {
+  right: 13px;
+}
+.bookappnt_divabs .label, .meet_timediv .label_meet, .meet_datediv .label_meet {
+  font-size: 13px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:first-child {
+  font-size: 17px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:nth-child(2) {
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0;
+}
+.acc_no.desktop_hideaccno{
+  display: flex;
+}
+.showings_offerlease .bgtenant_div .tenant_info.leftprofpic p:first-child,
+ .showings_offerlease .bgtenant_div .tenant_info.leftprofpic p:nth-child(2) {
+  display: block;
+  text-align: left;
+}
+.showings_offerlease .acc_no.mobilhideacc_no{
+  display: none;
+
+}
+.showings_offerlease .acc_no {
+  align-items: flex-end;
+  margin: 0 15px 0 0;
+  flex-direction: column;
+}
+.showings_offerlease .acc_no p:first-child{
+  order: 2;
+}
+.showings_offerlease .acc_no p:nth-child(2) {
+  margin: 0;
+}
+.showings_offerlease .tenant_info.leftprofpic {
+  margin: 4px 0 0 21px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:first-child,.showings_offerlease .acc_no p:nth-child(2) {
+  font-size: 13px;
+}
+.showings_offerlease .profimg_div .status {
+  right: 13px;
+}
+.showings_offerlease .bgtenant_div .imgtenant_profile .status {
+  right: 27px;
+}
+.showings_offerlease .add_tenants.bgtenant_div {
+  right: 23px;
+  top: -29px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:first-child,.showings_offerlease .bgtenant_div .tenant_info p:nth-child(2){
+  display: none;
+}
+.showings_offerlease .bgtenant_div img {
+  height: 75px;
+  width: 75px;
+}
+.showings_offerlease .profimg_div {
+  margin: -83px 0 0 14px;
+}
+.showings_offerlease .tenant_imgs button.next-btn i:before {
+  font-size: 31px;
+  font-weight: bold;
+}
+.offer_leasebtnbook .tenant_imgs .slick-track {
+  margin-left: 15px;
+}
+.offer_leasebtnbook .teamtxt h3 {
+  margin: 0;
+}
+.my_info.myleaseunit {
+  margin: 0 0 1.5em 0;
+}
+.myleaseteam_flex .prof_name p:nth-child(2) {
+  font-size: 11px;
+}
+.my_info.myleaseunit .category-lists-slider .slider-button.slider-prev {
+  left: -12px;
+}
+.myleaseunit .category-lists-slider .swiper-container {
+  margin: 0 0 0.9em 0;
+}
+.my_info.myleaseunit .category-lists-slider {
+  width: 97%;
+  margin: 11px auto 0 auto;
+}
+.leasflx_team{
+align-items: center;
+}
+.myleaseteam_flex .prof_name p:first-child {
+  display: none;
+}
+.myleaseteam_flex .team_memname {
+  display: block;
+  text-align: center;
+}
+.showingstab_mylease .basicdatatxt {
+  flex-basis: 44%;
+}
+.showingstab_mylease .basicdata {
+  flex-basis: 51%;
+}
+.send_reminder_tooltip p {
+  padding: 0 0 0 10px;
+}
+.send_reminder_tooltip {
+  top: 24px;
+  right: -17px;
+  width: 52%;
+  padding: 26px 18px 10px 18px;
+}
+.agreement_mobileview,.myteam_mobileview{
+  display:block;
+}
+/* showings offer to lease end */
+
+  /* schedule showings */
 .menu_scanicon{
   margin: -7px 0 0 0;
+}
+.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
+  margin-left: -90px;
 }
 .l-main {
   margin: 8.7em 0 8em 0;
@@ -4209,7 +4464,155 @@ padding: 5px 17px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
-/* schedule showings */
+/* offer to lease */
+.showings_offerlease .bgtenant_div img {
+  height: 81px;
+  width: 81px;
+}
+.myleaseteam_flex .prof_name p:nth-child(2) {
+  font-size: 9px;
+}
+.my_lease_balance .card.balancecard .card-body {
+  padding: 19px 15px;
+}
+.send_reminder_tooltip {
+  top: 29px;
+  right: -18px;
+  width: 69%;
+}
+.showings_offerlease .acc_no {
+  margin: 5px 15px 0 0;
+}
+.profilename, .account_no {
+  font-size: 18px;
+}
+.profile_infotxt {
+  margin: 3px 0 0 0;
+}
+.send_reminder_tooltip {
+  top: 23px;
+  right: -17px;
+  width: 65%;
+}
+.showingstab_mylease input.form-control.edit-input, .showingstab_mylease select.form-control.edit-input, .showingstab_mylease .flexdiv .basicdata p {
+  font-size: 14px;
+}
+.offer_lease p, .offer_agree p {
+  font-size: 13px;
+}
+.bookappnt_divabs, .sched_meeting {
+  width: 92%;
+}
+.bookappnt_divabs, .sched_meeting {
+  right: 8px;
+}
+.send_reminder_tooltip {
+  top: 19px;
+  right: -13px;
+  width: 60%;
+}
+.bookappnt_divabs {
+  margin: -6px 0 0 auto;
+}
+.btn.btn_appoint.changeborderbtn {
+  border-radius: 25px 25px 0px 0px;
+}
+.mylease_showings .myinfo_txt span {
+  font-size: 18px;
+}
+.account_nolease .btn.gv_notice img {
+  height: 20px;
+}
+.my_lease_balance .btn.pay_amt, .my_lease_balance .btn.makepay_amt {
+  padding: 6px 20px;
+}
+.my_lease_balance .price_ptxt {
+  font-size: 14px;
+  margin: 0 0 7px 0;
+}
+.my_lease_balance .pricetxt {
+  font-size: 15px;
+  margin: 0 0 7px 0;
+}
+.my_lease_balance .pricediv {
+  text-align: center;
+}
+.card.balancecard .card-header h3 {
+  font-size: 16px;
+}
+.descrip_divwid img {
+  vertical-align: text-bottom;
+}
+.descrip_divwid img {
+  height: 20px;
+}
+.table_myleasetrans .table thead tr th {
+  font-size: 15px;
+}
+.showingstab_mylease .flexdiv div label, .table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  font-size: 14px;
+}
+.data-text .element .row.mrbtm .sche_pad_red {
+  max-width: 86%;
+}
+.mylease_showings .divinfo {
+  margin: 0 0 13px 0;
+}
+.myleaseunit .tablinks_propfeat.unit_div .slick-track, 
+.myleaseunit .tablinks_propfeat.building_div .slick-track {
+  margin-left: -63px;
+}
+.myleaseteam_flex .prof_name p:nth-child(2) {
+  font-size: 10px;
+}
+.btn.btn_appoint {
+  padding: 10px 11px;
+  line-height: 16px;
+  font-size: 13px;
+}
+.offr_lea_p {
+  padding: 2px 0 14px 0;
+}
+.offr_leasehr {
+  margin: 10px auto;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:nth-child(2) {
+  font-size: 14px;
+  line-height: 19px;
+}
+.showings_offerlease .acc_no p:nth-child(2),.showings_offerlease .bgtenant_div .tenant_info p:first-child {
+  line-height: 22px;
+}
+.offer_leasebtnbook .teamtxt h3 {
+  font-size: 17px;
+}
+.showings_offerlease .acc_no p:first-child{
+  font-size: 14px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:first-child,.showings_offerlease .acc_no p:nth-child(2) {
+  font-size: 19px;
+}
+.showings_offerlease .tenant_info.leftprofpic {
+  margin: 7px 0 0 14px;
+}
+.showings_offerlease .tenant_imgs {
+  width: 84%;
+  margin: -51px 0 0 -30px;
+}
+.agremts_progress .progress-bar h3, .percent_progress span, .progress.agremts_progress .progress-bar.green .percent_greenclr span {
+  font-size: 14px;
+}
+.showings_offerlease .bgtenant_div .imgtenant_profile .status {
+  right: 33px;
+}
+.account_nolease .btn.gv_notice {
+  font-size: 14px;
+}
+.showingstab_mylease .tenantaccord .card .card-header h2 button.btn-link {
+  font-size: 15px;
+}
+/* end of offer to lease */
+  /* schedule showings */
 .bottom_details span {
   font-size: 14px;
 }
@@ -4578,6 +4981,31 @@ width: 56%;
 
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
+/* showing offer to lease */
+.showings_offerlease .bgtenant_div .profimg_div > img {
+  height: 90px;
+  width: 90px;
+}
+.showings_offerlease .profimg_div .status {
+  right: 10px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:nth-child(2) {
+  font-size: 13px;
+  line-height: 21px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:first-child {
+  font-size: 14px;
+}
+.showings_offerlease .profimg_div {
+  margin: -69px 0 0 14px;
+}
+.showings_offerlease .profimg_div .status {
+  right: 8px;
+}
+.l-header__inner {
+  height: 80px;
+}
+/* end of showings offer lease */
 /* showings */
 .google-map {
 margin: 40px 0 0 0;
@@ -4589,7 +5017,7 @@ padding: 5px 17px;
 bottom: 67px;
 }
 .l-main {
-margin: 5.5em 0 8em 0;
+  margin: 7.5em 0 8em 0;
 }
 .logo__txt a img {
 height: 36px;
@@ -4627,9 +5055,6 @@ height: 16px;
 }
 .showingssec_infodiv .showingssec .showtime, .showingssec_infodiv .showingssec .showdate {
 padding: 2px 20px 4px 2px;
-}
-.l-header__inner {
-height: 59px;
 }
 .mobileviewblock_scheduleslider .col-5,.showingssec_infodiv .showingssec .col-5{
 max-width: 33.33%;
@@ -4916,7 +5341,199 @@ height: 138px;
 
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
-/* schedule showings */
+/* showings offer to lease */
+.showings_offerlease .bgtenant_div .profimg_div > img {
+  height: 93px;
+  width: 93px;
+}
+.btn.pay_amt {
+  margin: 0 0 10px 0;
+}
+.twobuttons_div {
+  display: flex;
+  flex-direction: column;
+  width: 74%;
+  margin: 9px auto 0 auto;
+}
+.mylease_showings .tabsdiv .nav.nav-tabs li a {
+  font-size: 13px;
+}
+.offer_leasebtnbook .teamtxt h3 {
+  font-size: 17px;
+  line-height: 22px;
+}
+.my_lease_balance .pricetxt,.my_lease_balance .price_ptxt{
+text-align: center;
+}
+.my_lease_balance .card.balancecard .card-header h3 {
+  font-size: 15px;
+}
+.download_trans .btn.btn_download {
+  font-size: 15px;
+  vertical-align: bottom;
+}
+.showingstab_mylease .flexdiv .basicdata p {
+  line-height: 17px;
+}
+.offr_lea_p {
+  padding: 0 0 15px 0;
+}
+.myleaseunit .info_conddetails p:first-child {
+  font-size: 12px;
+}
+.myleaseunit .info_conddetails p:nth-child(2) {
+  font-size: 11px;
+}
+.unitlease .propfet_infoimg img,.buildinglease .propfet_infoimg img {
+  height: 18px;
+}
+.send_reminder_tooltip {
+  top: 24px;
+  right: -14px;
+  width: 76%;
+  padding: 21px 10px 10px 15px;
+}
+.agremts_progress .progress-bar h3, .percent_progress span, .progress.agremts_progress .progress-bar.green .percent_greenclr span {
+  font-size: 14px;
+}
+.offer_lease p, .offer_agree p {
+  font-size: 14px;
+}
+.showingstab_mylease input.form-control.edit-input, .showingstab_mylease select.form-control.edit-input, .showingstab_mylease .flexdiv .basicdata p {
+  font-size: 14px;
+}
+.showingstab_mylease .basicdatatxt {
+  flex-basis: 46%;
+}
+.descrip_divwid img {
+  vertical-align: sub;
+  height: 20px;
+}
+.showingstab_mylease .flexdiv div label, .table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  font-size: 14px;
+  vertical-align: middle;
+}
+ .table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  padding: 5px 9px 8px 0px;
+  vertical-align: middle;
+}
+.showingstab_mylease .tenantaccord .card-header .btn-link.btn-block:after {
+  top: 10px;
+  right: 6px;
+}
+.account_nolease .btn.gv_notice {
+  font-size: 14px;
+  padding: 6px 16px 6px 16px;
+}
+.showingstab_mylease .tenantaccord .card .card-header {
+  padding: 8px 16px 8px 13px;
+}
+.mylease_showings .tabsdiv .nav.nav-tabs li a {
+  padding: 9px 10px;
+  font-size: 15px;
+}
+.agreemt_confrm.mylease_agreements {
+  margin: 0 0 1em 0;
+}
+.showingstab_mylease .tenantaccord .card .card-header h2 button.btn-link {
+  font-size: 14px;
+}
+.offer_lease p, .offer_agree p {
+  line-height: 15px;
+}
+.account_nolease .btn.gv_notice img {
+  height: 19px;
+}
+.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
+  margin-left: -56px;
+}
+.myleaseunit .unitlease .data-text .element .row.mrbtm .sche_pad_red {
+  max-width: 85%;
+}
+.myleaseunit .info_conddetails p:first-child {
+  font-size: 13px;
+}
+.myleaseunit .info_conddetails p:nth-child(2) {
+  font-size: 12px;
+}
+.showings_offerlease .profimg_div .status {
+  right: 8px;
+}
+.showings_offerlease .bgtenant_div .imgtenant_profile .status {
+  right: 22px;
+  bottom: 9px;
+  width: 9px;
+  height: 9px;
+}
+.btn.btn_appoint.changeborderbtn {
+  border-radius: 31px 31px 0px 0px;
+}
+.bookappnt_divabs, .sched_meeting {
+  right: 7px;
+  margin: -7px 0 0 auto;
+  width: 90%;
+}
+.showings_offerlease .tenant_info.leftprofpic {
+  margin: 4px 0 0 13px;
+}
+.showings_offerlease .acc_no {
+  margin: 15px 15px 0 0;
+}
+.myleaseteam_flex .team_memname {
+  margin: 0 0 0 -25px;
+}
+.btnappoint {
+  margin: 0 0 0 -19px;
+}
+.btn.btn_appoint {
+  padding: 10px 10px;
+  line-height: 17px;
+  font-size: 13px;
+}
+.showings_offerlease .tenant_imgs .btn-wrap {
+  right: 2px;
+  top: 16px;
+}
+.showings_offerlease .add_tenants.bgtenant_div .tenant_info {
+  margin: 0;
+  display: none;
+}
+.showings_offerlease .tenant_imgs button.next-btn {
+  font-size: 20px;
+}
+.showings_offerlease .tenant_imgs button.next-btn i:before {
+  font-size: 21px;
+}
+.offr_leasehr {
+  margin: 13px auto;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:nth-child(2),.showings_offerlease .acc_no p:first-child {
+  font-size: 13px;
+  line-height: 22px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:first-child,.showings_offerlease .acc_no p:nth-child(2) {
+  font-size: 14px;
+  line-height: 14px;
+}
+.showings_offerlease .profimg_div {
+  margin: -59px 0 0 12px;
+}
+.my_teamdiv.myleaseteam_flex {
+  padding: 13px 14px 13px 19px;
+}
+.offer_leasebtnbook .teamtxt h3 {
+  text-align: left;
+}
+.showings_offerlease .tenant_imgs {
+  width: 71%;
+  margin: -44px 0 0 -20px;
+}
+.showings_offerlease .bgtenant_div img {
+  height: 65px;
+  width: 65px;
+}
+/* end of showings offer to lease */
+  /* schedule showings */
 .buttons_map {
   width: 100%;
 }
@@ -5555,6 +6172,9 @@ margin-right: 2px;
 .myinfo_txt span {
 font-size: 17px;
 }
+.mylease_showings .myinfo_txt span{
+  font-size: 17px;  
+}
 .profilename, .account_no {
 font-size: 15px;
 line-height: 26px;
@@ -5601,8 +6221,213 @@ left: -18px;
 }
 }
 
+@media only screen and (max-width: 390px) {
+  .bookappnt_divabs, .sched_meeting {
+    right: 1px;
+}
+.myleaseteam_flex .prof_name p:nth-child(2) {
+  font-size: 10px;
+}
+.btnappoint {
+  margin: 0 0 0 -24px;
+}
+.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
+  margin-left: -43px;
+}
+.showingstab_mylease .tabsdiv .nav.nav-tabs {
+  margin: 0 0 0.7em 0;
+}
+.icon_edit {
+  padding-right: 5px;
+}
+.offer_lease p, .offer_agree p {
+  font-size: 13px;
+}
+.twobuttons_div {
+  display: flex;
+  flex-direction: column;
+  width: 74%;
+  margin: 9px auto 0 auto;
+}
+.btn.pay_amt {
+  margin: 0 0 10px 0;
+}
+.download_trans .btn.btn_download {
+  font-size: 15px;
+}
+}
+
 @media only screen and (max-width: 385px) and (min-width:376px) {
-.butn_green .btn.btn_greenverif {
+/* showings offer lease */
+.showings_offerlease .bgtenant_div .profimg_div > img {
+  height: 83px;
+  width: 83px;
+}
+.my_lease_balance .pricetxt {
+  font-size: 14px;
+}
+.my_lease_balance .price_ptxt {
+  font-size: 13px;
+}
+.my_lease_balance .btn.pay_amt, .my_lease_balance .btn.makepay_amt {
+  font-size: 12px;
+}
+.showingstab_mylease .linediv:before {
+  height: 80%;
+  width: 10px;
+}
+.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
+  margin-left: -44px;
+}
+.card.balancecard .card-body {
+  padding: 18px 15px;
+}
+.my_lease_balance .card.balancecard .card-header {
+  padding: 10px 20px 19px 20px;
+}
+.table_myleasetrans .table thead tr th {
+  font-size: 15px;
+}
+.account_nolease .btn.gv_notice {
+  font-size: 14px;
+}
+.btn.btn_appoint.changeborderbtn {
+  border-radius: 30px 30px 0px 0px;
+}
+.bookappnt_divabs, .sched_meeting {
+  right: 7px;
+  width: 98%;
+  margin: -6px 0 0 auto;
+}
+.showingstab_mylease .flexdiv div label, .table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  font-size: 14px;
+  padding: 5px 9px 8px 0px;
+  vertical-align: middle;
+}
+.my_lease_balance .price_ptxt,
+.my_lease_balance .pricetxt {
+  text-align: center;
+}
+.descrip_divwid img {
+  height: 19px;
+}
+.agreemt_confrm.mylease_agreements {
+  margin: 0 0 1em 0;
+}
+.send_reminder_tooltip {
+  top: 27px;
+  right: -19px;
+  width: 84%;
+  padding: 19px 14px 9px 14px;
+}
+.agremts_progress .progress-bar h3, .percent_progress span, .progress.agremts_progress .progress-bar.green .percent_greenclr span {
+  font-size: 13px;
+}
+.mylease_agreements .start_signbtn .start_btn_signin {
+  font-size: 11px;
+}
+.offer_lease p, .offer_agree p {
+  font-size: 12px;
+}
+.showingstab_mylease input.form-control.edit-input, .showingstab_mylease select.form-control.edit-input, .showingstab_mylease .flexdiv .basicdata p {
+  font-size: 13px;
+}
+.showingstab_mylease .flexdiv div label, .table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  font-size: 13px;
+}
+.showingstab_mylease .tenantaccord .card .card-header {
+  padding: 9px 20px 8px 9px;
+}
+.showingstab_mylease .tenantaccord .card-header .btn-link.btn-block:after {
+  top: 11px;
+}
+.showingstab_mylease .tenantaccord .card .card-header h2 button.btn-link {
+  font-size: 13px;
+}
+.mylease_showings .tabsdiv .nav.nav-tabs li a {
+  font-size: 14px;
+}
+.myleaseunit .category-button {
+  font-size: 13px;
+}
+.mylease_showings .myinfo_txt span,.myleaseunit .myinfo_txt span {
+  font-size: 16px;
+}
+.myleaseunit .myinfo_txt img {
+  height: 19px;
+  width: 19px;
+}
+.my_teamdiv.myleaseteam_flex {
+  padding: 13px 20px 13px 18px;
+}
+.offer_leasebtnbook .teamtxt h3 {
+  text-align: left;
+  line-height: 24px;
+}
+.myleaseteam_flex .team_memname {
+  margin: 0 0 0 -21px;
+}
+.myleaseunit .propfeat_tab.offertolease_tab ul li a {
+  font-size: 14px;
+}
+.myleaseunit .info_conddetails p:first-child {
+  font-size: 13px;
+}
+.myleaseunit .info_conddetails p:nth-child(2) {
+  font-size: 12px;
+}
+.btn.btn_appoint {
+  padding: 12px 14px;
+  line-height: 14px;
+  font-size: 12px;
+}
+.myleaseteam_flex .prof_name p:nth-child(2) {
+  font-size: 9px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:nth-child(2),.showings_offerlease .acc_no p:first-child {
+  font-size: 13px;
+  line-height: 19px;
+}
+.showings_offerlease .add_tenants.bgtenant_div {
+  right: 19px;
+  top: -27px;
+}
+.showings_offerlease .tenant_imgs {
+  width: 82%;
+  margin: -44px 0 0 -27px;
+}
+.showings_offerlease .acc_no p:nth-child(2){
+line-height: 14px;
+}
+.showings_offerlease .tenant_imgs .btn-wrap {
+  right: 5px;
+  top: 16px;
+}
+.showings_offerlease .bgtenant_div img {
+  height: 65px;
+  width: 65px;
+}
+.showings_offerlease .add_tenants.bgtenant_div img {
+  height: 46px;
+  width: 46px;
+}
+.showings_offerlease .tenant_imgs button.next-btn i:before {
+  font-size: 19px;
+}
+.showings_offerlease .bgtenant_div .imgtenant_profile .status {
+  width: 9px;
+  height: 9px;
+  right: 25px;
+}
+.showings_offerlease .profimg_div .status {
+  right: 6px;
+}
+.showings_offerlease .profimg_div {
+  margin: -63px 0 0 9px;
+}
+/* end of offer to lease */
+
+  .butn_green .btn.btn_greenverif {
   font-size: 13px;
 }
 .mobileviewblock_scheduleslider .showimgpend img {
@@ -6018,6 +6843,142 @@ left: -22px;
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
+ /* showimgs offer to lease */
+ .showings_offerlease .bgtenant_div .profimg_div > img {
+  height: 83px;
+  width: 83px;
+}
+.showings_offerlease .tenant_imgs .btn-wrap {
+  top: 17px;
+}
+.showings_offerlease .tenant_imgs button.next-btn i:before {
+  font-size: 20px;
+}
+.sched_meeting {
+  top: 216px;
+}
+.descrip_divwid img {
+  height: 19px;
+  margin: 0 3px 0 0px;
+  vertical-align: text-bottom;
+}
+.table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  padding: 5px 9px 8px 0px;
+  vertical-align: middle;
+}
+.agremts_progress .progress-bar h3, .percent_progress span, .progress.agremts_progress .progress-bar.green .percent_greenclr span {
+  font-size: 13px;
+}
+.send_reminder_tooltip {
+  width: 89%;
+}
+.mylease_agreements .start_signbtn .start_btn_signin {
+  font-size: 11px;
+  width: 98%;
+}
+.offer_lease p, .offer_agree p {
+  font-size: 12px;
+}
+.showingstab_mylease .flexdiv div label, .table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  font-size: 13px;
+  vertical-align: middle;
+}
+.showingstab_mylease input.form-control.edit-input, .showingstab_mylease select.form-control.edit-input, .showingstab_mylease .flexdiv .basicdata p {
+  font-size: 13px;
+}
+.showingstab_mylease .tenantaccord .card .card-header h2 button.btn-link {
+  font-size: 13px;
+}
+.showingstab_mylease .linediv:before {
+  margin: 0px 7px 0 0;
+}
+.showingstab_mylease .tenantaccord .card-header .btn-link.btn-block:after {
+  top: 12px;
+  right: 6px;
+}
+.showingstab_mylease .tenantaccord .card .card-header{
+  padding: 11px 15px 11px 8px;
+}
+.showings_offerlease .bgtenant_div img {
+  height: 65px;
+  width: 65px;
+}
+.account_nolease .btn.gv_notice {
+  padding: 6px 16px 6px 16px;
+}
+.my_lease_balance .pricetxt,.my_lease_balance .price_ptxt {
+  text-align: center;
+}
+.account_nolease .btn.gv_notice {
+  font-size: 14px;
+}
+.mylease_showings .tabsdiv .nav.nav-tabs li a {
+  padding: 7px 9px;
+  font-size: 14px;
+}
+.showings_offerlease .acc_no p:first-child {
+  line-height: 18px;
+}
+.offr_leasehr {
+  margin: 13px auto;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:nth-child(2) {
+  font-size: 14px;
+  line-height: 24px;
+}
+.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
+  margin-left: -41px;
+}
+.bookappnt_divabs, .sched_meeting {
+  right: 4px;
+  width: 92%;
+}
+.bookappnt_divabs {
+  margin: -7px 0 0 auto;
+}
+.btn.btn_appoint.changeborderbtn {
+  border-radius: 30px 30px 0px 0px;
+}
+.myleaseunit .propfeat_tab.offertolease_tab ul li a {
+  font-size: 14px;
+}
+.btn.btn_appoint {
+  padding: 9px 12px;
+  line-height: 16px;
+  font-size: 13px;
+}
+.myleaseteam_flex .team_memname {
+  margin: 0 0 0 -22px;
+}
+.myleaseteam_flex .prof_name p:nth-child(2) {
+  font-size: 9px;
+}
+.str_loc_txt p, .acc_no p {
+  font-size: 13px;
+}
+.table_myleasetrans .table thead tr th {
+  font-size: 14px;
+}
+.offer_leasebtnbook .teamtxt h3 {
+  line-height: 23px;
+  text-align: left;
+  font-size: 16px;
+}
+.myleaseteam_flex .team_memname {
+  margin: 0 0 0 -30px;
+}
+.showings_offerlease .profimg_div .status {
+  right: 7px;
+}
+.showings_offerlease .bgtenant_div .imgtenant_profile .status {
+  right: 19px;
+}
+.showings_offerlease .tenant_imgs {
+  width: 75%;
+  margin: -44px 0 0 -24px;
+}
+/* end of showings offer to lease */
+ 
   /* schedule showings page */
 .detshow_div .showingssec .showtime {
     align-items: flex-start;
@@ -6471,6 +7432,9 @@ font-size: 14px;
 .tabcontent_tenant p {
 font-size: 13px;
 }
+.mylease_showings .myinfo_txt span,.myleaseunit .myinfo_txt span{
+font-size: 17px;
+}
 .myinfo_txt span {
 font-size: 16px;
 }
@@ -6494,7 +7458,207 @@ width: 37%;
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
-/* schedule showings */
+/* showings offer to lease */
+.showings_offerlease .bgtenant_div .profimg_div > img {
+  height: 83px;
+  width: 83px;
+}
+.sched_meeting {
+  top: 216px;
+}
+.myleaseunit .data-text .element .row.mrbtm .sche_pad_red {
+  max-width: 82%;
+}
+.my_info.myleaseunit .category-lists-slider .slider-button.slider-prev {
+  left: -10px;
+}
+.my_info.myleaseunit .category-lists-slider .slider-button.slider-next {
+  right: -6px;
+}
+
+.myleaseunit .category-button {
+  font-size: 13px;
+}
+.myleaseunit .propfeat_tab.offertolease_tab ul li a {
+  font-size: 14px;
+}
+.download_trans .btn.btn_download {
+  font-size: 14px;
+}
+.download_trans .btn.btn_download img{
+  height: 20px;
+}
+.showingstab_mylease .flexdiv div label, .table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  font-size: 13px;
+  vertical-align: middle;
+}
+ .table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  padding: 5px 5px 8px 0px;
+
+}
+.showings_offerlease .profimg_div {
+  margin: -65px 0 0 14px;
+}
+.table_myleasetrans .table thead tr th {
+  padding: 5px 5px 10px 5px;
+  font-size: 14px;
+}
+.send_reminder_tooltip h3 {
+  font-size: 13px;
+}
+.descrip_divwid img {
+  height: 18px;
+}
+.offer_lease .send_reminder_tooltip p {
+  font-size: 12px;
+}
+.send_reminder_tooltip {
+  top: 30px;
+  right: -13px;
+  width: 80%;
+  padding: 22px 13px 10px 15px;
+}
+.card.balancecard .card-header h3 {
+  font-size: 15px;
+}
+.my_lease_balance .btn.pay_amt, .my_lease_balance .btn.makepay_amt {
+  font-size: 13px;
+}
+.my_lease_balance .pricetxt,.my_lease_balance .price_ptxt {
+  text-align: center;
+}
+.mylease_agreements .start_signbtn .start_btn_signin, .btn.btnreminder {
+  width: 100%;
+}
+.offer_lease p, .offer_agree p {
+  font-size: 12px;
+}
+.agremts_progress .progress-bar h3, .percent_progress span, .progress.agremts_progress .progress-bar.green .percent_greenclr span {
+  font-size: 13px;
+}
+.showingstab_mylease .flexdiv {
+  padding: 10px 7px;
+}
+.showingstab_mylease input.form-control.edit-input, .showingstab_mylease select.form-control.edit-input, .showingstab_mylease .flexdiv .basicdata p {
+  font-size: 14px;
+}
+.showingstab_mylease .tenantaccord .card-header .btn-link.btn-block:after {
+  top: 11px;
+}
+.showingstab_mylease .tenantaccord .card .card-header h2 button.btn-link {
+  font-size: 13px;
+}
+.showingstab_mylease .linediv:before {
+  margin: 2px 6px 0 0;
+  width: 10px;
+  height: 81%;
+}
+.mylease_showings .tabsdiv .nav.nav-tabs li a {
+  padding: 9px 9px;
+  font-size: 14px;
+}
+.mylease_showings .myinfo_txt span,.myleaseunit .myinfo_txt span {
+  font-size: 15px;
+}
+.account_nolease .btn.gv_notice {
+  padding: 6px 14px 6px 13px;
+  font-size: 14px;
+}
+.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
+  margin-left: -40px;
+}
+.bookappnt_divabs {
+  margin: -7px 0 0 auto;
+}
+.sched_meeting .btn {
+  font-size: 15px;
+}
+.myleaseunit .propfeat_tab.offertolease_tab ul li a {
+  font-size: 14px;
+}
+.unitlease .propfet_infoimg img,.buildinglease .propfet_infoimg img {
+  height: 18px;
+}
+.bookappnt_divabs, .sched_meeting {
+  right: 10px;
+  width: 92.9%;
+}
+.btn.btn_appoint.changeborderbtn {
+  border-radius: 30px 30px 0px 0px;
+}
+.myleaseteam_flex .prof_name p:nth-child(2) {
+  font-size: 8px;
+}
+.btn.btn_appoint {
+  padding: 10px 11px;
+  line-height: 14px;
+  font-size: 12px;
+}
+.offer_leasebtnbook .teamtxt h3 {
+  text-align: left;
+  line-height: 21px;
+  font-size: 15px;
+}
+.myleaseteam_flex .team_memname {
+  margin: 0 0 0 -30px;
+}
+.showings_offerlease .profimg_div .status {
+  right: 6px;
+}
+.showings_offerlease .acc_no p:first-child {
+  line-height: 17px;
+}
+.offr_leasehr {
+  margin: 12px auto;
+}
+.offr_lea_p {
+  padding: 0 0 10px 0;
+}
+.showings_offerlease .bgtenant_div .imgtenant_profile .status {
+  right: 20px;
+  width: 9px;
+  height: 9px;
+}
+.showings_offerlease .tenant_imgs .btn-wrap {
+  right: 3px;
+  top: 16px;
+}
+.showings_offerlease .tenant_imgs button.next-btn i:before {
+  font-size: 19px;
+}
+.showings_offerlease .bgtenant_div img {
+  height: 65px;
+  width: 65px;
+}
+.showings_offerlease .add_tenants.bgtenant_div img {
+  height: 47px;
+  width: 47px;
+}
+.str_loc_txt p, .acc_no p {
+  font-size: 13px;
+}
+.descrip_divwid img {
+  height: 19px;
+  margin: 0 3px 0 0px;
+  vertical-align: text-bottom;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:nth-child(2) {
+  font-size: 13px;
+  line-height: 23px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:first-child, .showings_offerlease .acc_no p:nth-child(2) {
+  font-size: 12px;
+}
+.showings_offerlease .tenant_imgs {
+  width: 78%;
+  margin: -44px 0 0 -22px;
+}
+.showings_offerlease .tenant_info.leftprofpic {
+  margin: 4px 0 0 12px;
+}
+/* end of showings offer to lease */
+
+  /* schedule showings */
 .bannerimg {
   height: 158px;
 }
@@ -7032,7 +8196,204 @@ line-height: 13px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+/* offer to lease */
+.showings_offerlease .bgtenant_div .profimg_div > img {
+  height: 83px;
+  width: 83px;
+}
+.send_reminder_tooltip {
+  top: 26px;
+  right: -17px;
+  width: 89%;
+}
+.showings_offerlease .bgtenant_div .imgtenant_profile .status {
+  right: 19px;
+}
+.card.balancecard .card-header h3 {
+  font-size: 15px;
+}
+.my_lease_balance .card.balancecard .card-body {
+  padding: 14px 15px;
+}
+.my_lease_balance .pricetxt {
+  font-size: 14px;
+  text-align: center;
+}
+.my_lease_balance .btn.pay_amt, .my_lease_balance .btn.makepay_amt {
+  font-size: 13px;
+}
+.download_trans .btn.btn_download {
+  font-size: 14px;
+}
+.download_trans .btn.btn_download img{
+  height: 19px;
+}
+.my_lease_balance .price_ptxt {
+  font-size: 13px;
+  text-align: center;
+}
+.showingstab_mylease .flexdiv div label, .table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  font-size: 12px;
+  vertical-align: middle;
+}
+.table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  padding: 5px 5px 8px 0px;
+}
+.table_myleasetrans .table thead tr th {
+  font-size: 14px;
+}
+.descrip_divwid img {
+  height: 19px;
+  margin: 0 3px 0 0px;
+}
+.myleaseunit .data-text .element .row.mrbtm .sche_pad_red {
+  max-width: 83%;
+}
+.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
+  margin-left: -37px;
+}
+.myleaseunit .info_conddetails p:first-child {
+  font-size: 12px;
+}
+.mylease_showings .myinfo_txt span,.myleaseunit .myinfo_txt span {
+  font-size: 15px;
+}
+.myleaseunit .info_conddetails p:nth-child(2) {
+  font-size: 11px;
+}
+.my_info.myleaseunit .category-lists-slider .slider-button.slider-prev {
+  left: -10px;
+}
+.tenantaccord .card .card-header {
+  padding: 8px 15px 8px 8px;
+}
+.account_nolease .btn.gv_notice {
+  padding: 6px 16px 5px 16px;
+}
+.showingstab_mylease .tenantaccord .card-header .btn-link.btn-block:after {
+  top: 10px;
+}
+.mylease_showings .tabsdiv .nav.nav-tabs li a {
+  padding: 9px 5px;
+  font-size: 14px;
+}
+.send_reminder_tooltip {
+  top: 26px;
+  right: -22px;
+  width: 92%;
+}
+.mylease_agreements .start_signbtn .start_btn_signin {
+  font-size: 11px;
+  width: 98%;
+}
+.offer_lease p, .offer_agree p {
+  font-size: 12px;
+}
+.agremts_progress .progress-bar h3, .percent_progress span, .progress.agremts_progress .progress-bar.green .percent_greenclr span {
+  font-size: 13px;
+}
+.lesasetab_pad {
+  padding: 0 15px;
+}
+.my_info.myleaseunit .category-lists-slider .slider-button.slider-next {
+  right: -7px;
+}
 
+.showingstab_mylease input.form-control.edit-input, .showingstab_mylease select.form-control.edit-input, .showingstab_mylease .flexdiv .basicdata p {
+  font-size: 13px;
+}
+.account_nolease .btn.gv_notice {
+  font-size: 14px;
+}
+.showingstab_mylease .tenantaccord .card .card-header h2 button.btn-link {
+  font-size: 13px;
+}
+.btn.btn_appoint.changeborderbtn {
+  border-radius: 30px 30px 0px 0px;
+}
+.myleaseteam_flex .prof_name p:nth-child(2) {
+  font-size: 9px;
+}
+.bookappnt_divabs {
+  margin: -6px 0 0 auto;
+}
+.bookappnt_divabs, .sched_meeting {
+  right: 5px;
+  width: 92%;
+}
+.myleaseunit .propfeat_tab.offertolease_tab ul li a {
+  font-size: 14px;
+}
+.sched_meeting {
+  top: 215px;
+}
+.btn.btn_appoint {
+  padding: 12px 9px;
+  line-height: 14px;
+  font-size: 13px;
+}
+.showings_offerlease .tenant_imgs .btn-wrap {
+  right: 3px;
+  top: 18px;
+}
+.myleaseteam_flex .team_memname {
+  margin: 0 0 0 -26px;
+}
+.showings_offerlease .acc_no p:nth-child(2) {
+  line-height: 16px;
+}
+.showings_offerlease .bgtenant_div .imgtenant_profile .status {
+  right: 23px;
+  width: 9px;
+  height: 9px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:nth-child(2),.showings_offerlease .acc_no p:first-child {
+  font-size: 13px;
+  line-height: 21px;
+}
+.showings_offerlease .tenant_info.leftprofpic {
+  margin: 4px 0 0 8px;
+}
+.str_loc_txt p, .acc_no p {
+  font-size: 12px;
+}
+.offer_leasebtnbook .teamtxt h3 {
+  text-align: left;
+  line-height: 20px;
+  font-size: 13px;
+}
+.offr_lea_p {
+  padding: 0 0 13px 0;
+}
+.showings_offerlease .acc_no {
+  margin: 5px 9px 0 0;
+}
+.offr_leasehr {
+  margin: 12px auto;
+}
+.showings_offerlease .add_tenants.bgtenant_div {
+  right: 17px;
+  top: -25px;
+}
+.showings_offerlease .add_tenants.bgtenant_div img {
+  height: 47px;
+  width: 47px;
+}
+.showings_offerlease .tenant_imgs button.next-btn i:before {
+  font-size: 20px;
+}
+.showings_offerlease .tenant_imgs {
+  width: 88%;
+  margin: -37px 0 0 -27px;
+}
+.showings_offerlease .bgtenant_div img {
+  height: 64px;
+  width: 64px;
+}
+.showings_offerlease .profimg_div {
+  margin: -54px 0 0 7px;
+}
+/* end of offer to lease showings */
 /* schedule showings */
 .similar_unitsdiv .leasedslider {
   padding: 10px;
@@ -7500,7 +8861,7 @@ height: 18px;
 margin: 0 0.6em 0 1.7em;
 }
 .l-header__inner {
-  height: 99px;
+  height: 101px;
 }
 .profilename, .account_no {
 line-height: 29px;
@@ -7694,6 +9055,72 @@ font-size: 12px;
 }
 
 @media only screen and (max-width:320px){
+/* showings offer to lease */
+.showings_offerlease .tenant_imgs {
+  width: 84%;
+  margin: -37px 0 0 -29px;
+}
+.my_lease_balance .btn.pay_amt, .my_lease_balance .btn.makepay_amt {
+  font-size: 12px;
+}
+.table_myleasetrans .table tbody tr td, .table_myleasetrans .table tbody tr td p.green_clr {
+  padding: 5px 5px 8px 5px;
+}
+.my_info.mylease_showings {
+  padding: 14px 10px;
+}
+.myleaseunit .category-button {
+  font-size: 13px;
+  line-height: 16px;
+}
+.showings_offerlease .acc_no {
+  margin: 2px 9px 0 0;
+}
+.showings_offerlease .tenant_imgs .btn-wrap {
+  top: 13px;
+}
+.bookappnt_divabs, .sched_meeting {
+  right: 7px;
+  width: 90%;
+}
+.bookappnt_divabs {
+  padding: 17px 11px;
+}
+.sched_meeting .btn {
+  font-size: 14px;
+}
+.bookappnt_divabs {
+  margin: -9px 0 0 auto;
+}
+.btn.btn_appoint {
+  padding: 9px 8px;
+  line-height: 14px;
+  font-size: 12px;
+}
+.showings_offerlease .profimg_div {
+  margin: -47px 0 0 7px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:first-child, .showings_offerlease .acc_no p:nth-child(2) {
+  font-size: 11px;
+}
+.showings_offerlease .bgtenant_div .tenant_info p:nth-child(2), .showings_offerlease .acc_no p:first-child {
+  font-size: 12px;
+  line-height: 18px;
+}
+.showings_offerlease .bgtenant_div img {
+  height: 60px;
+  width: 60px;
+}
+.showings_offerlease .profimg_div .status {
+  right: 7px;
+  bottom: 13px;
+}
+.showings_offerlease .bgtenant_div .profimg_div > img {
+  height: 70px;
+  width: 70px;
+}
+/* end of showings offer to lease */
+
 /* schedule showings */
 .details_slider .bed_details img {
   height: 14px;

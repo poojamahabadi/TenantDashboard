@@ -243,7 +243,7 @@ background-color: #ffb6a3;
 .c-search {
 position: relative;
 margin-left: 19em;
-width: 25%;
+width: 30%;
 }
 .count_phone, .count_notify, .count_comment, .count_email {
 position: absolute;
@@ -3626,6 +3626,7 @@ border-radius: 25px;
 }
 .bannerimg{
   width: 100%;
+  border-radius: 24px 24px 0 0;
 }
 .pricedet_showings h3{
 font-family: 'Helvetica';
@@ -4652,7 +4653,7 @@ margin:0;
 }
 .descrip_divwid img{
   height: 23px;
-  vertical-align: middle;
+  vertical-align: bottom;
   margin: 0 6px 0 0px;
 }
 .table_myleasetrans .table tbody tr:first-child td{
@@ -4817,7 +4818,7 @@ align-items: center;
   box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.15), -2px -3px 10px rgba(64, 136, 255, 0.15);
   border-radius: 0 0 14px 14px;
   position: absolute;
-  z-index: 1;
+  z-index: 10;
   width: 85%;
   top: 212px;
   margin: 0px 0px 0px auto;
@@ -5264,4 +5265,16 @@ display: none;
 }
 .mobviewdata_expr_area,.mobviewcate_div_expr_area{
   display: none;
+}
+.myleaseunit .category-button{
+  font-weight: 700;
+}
+.agreement_mobileview,.myteam_mobileview,.desktop_hideaccno,.desktophide_unit{
+  display: none;
+}
+.progress.agremts_progress .progress-bar.green {
+  width:70%
+}
+.progress.agremts_progress .progress-bar.yellow{
+  width:30%
 }
