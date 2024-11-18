@@ -4,6 +4,13 @@
 .showings_offerlease .bgtenant_div .imgtenant_profile .status {
   right: 25px;
 }
+.bannerimg {
+  height: 247px;
+  object-fit: cover;
+}
+.invite_sliderslick .bgtenant_div .status {
+  right: 36px;
+}
 .links ul li img {
   height: 26px;
 }
@@ -173,7 +180,7 @@ padding: 5px 37px;
 padding: 0 15px;
 }
 .showimgpend img {
-height: 151px;
+  height: 110px;
 }
 .showingssec .order_links span a {
 font-size: 14px;
@@ -201,6 +208,12 @@ font-size: 15px;
 /* end of offer to lease */
 
 /*schedule showings*/
+.bannerimg {
+  height: 208px;
+}
+.invite_sliderslick .bgtenant_div .status {
+  right: 27px;
+}
 .btn.btninvite {
     padding: 4px 6px 3px 14px;
 }
@@ -291,6 +304,9 @@ padding: 5px 19px;
 /* end of offer to lease showings */
 
 /* schedule showings */
+.invite_sliderslick .bgtenant_div .status {
+  right: 23px;
+}
 .slideronmap .leasedslider.areaexplr p {
   font-size: 11px;
 }
@@ -358,6 +374,9 @@ left: -25px;
 .prop_feature .data-text .element .row.mrbtm .sche_pad_red {
   max-width: 95%;
 }
+.invite_sliderslick .bgtenant_div .status {
+  right: 20px;
+}
 .tablinks_propfeat.unit_div .slick-track, 
 .tablinks_propfeat.building_div .slick-track, 
 .tablinks_propfeat.utilitiesdiv .slick-track {
@@ -367,10 +386,10 @@ left: -25px;
   height: 150px;
 }
 .slideronmap {
-  margin: -137px 0 0 0;
+  margin: -119px 0 0 0;
 }
 .slideronmap .slider .slick-track {
-  margin-left: 95px;
+  margin-left: 54px;
 }
 /* end of schedule showings */
 /* showings */
@@ -420,9 +439,6 @@ right: 6px;
 }
 .avatar-upload .avatar-edit input + label:after {
 left: -3px;
-}
-.showimgpend img {
-height: 132px;
 }
 }
 
@@ -3687,6 +3703,10 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
+  .invite_sliderslick .bgtenant_div .status {
+    right: 12px;
+}
+
 /* showings offer to lease */
 .desktophide_unit{
   display: inline-block;
@@ -3727,7 +3747,7 @@ width: 25%;
   display: none;
 }
 .mobhide_unit{
-  display: none;
+  display: inline-block;
 }
 .btn.btn_appoint {
   border-radius: 50px;
@@ -3752,7 +3772,7 @@ width: 25%;
   padding: 6px 7px 6px 7px;
 }
 .bookappnt_divabs, .sched_meeting {
-  right: 13px;
+  right: 15px;
 }
 .bookappnt_divabs .label, .meet_timediv .label_meet, .meet_datediv .label_meet {
   font-size: 13px;
@@ -4679,8 +4699,8 @@ padding: 5px 17px;
   padding: 4px 9px 6px 9px;
 }
 .invite_sliderslick .bgtenant_div .status {
-  right: 21px;
-  bottom: 8px;
+  right: 28px;
+  bottom: 11px;
   height: 9px;
   width: 9px;
 }
@@ -6848,6 +6868,9 @@ left: -22px;
   height: 83px;
   width: 83px;
 }
+.showings_offerlease .profimg_div {
+  margin: -66px 0 0 14px;
+}
 .showings_offerlease .tenant_imgs .btn-wrap {
   top: 17px;
 }
@@ -7580,7 +7603,7 @@ width: 37%;
   height: 18px;
 }
 .bookappnt_divabs, .sched_meeting {
-  right: 10px;
+  right: 11px;
   width: 92.9%;
 }
 .btn.btn_appoint.changeborderbtn {
@@ -9059,6 +9082,12 @@ font-size: 12px;
 .showings_offerlease .tenant_imgs {
   width: 84%;
   margin: -37px 0 0 -29px;
+}
+.sched_meeting {
+  top: 209px;
+}
+.showings_offerlease .bgtenant_div .imgtenant_profile .status {
+  right: 19px;
 }
 .my_lease_balance .btn.pay_amt, .my_lease_balance .btn.makepay_amt {
   font-size: 12px;

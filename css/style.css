@@ -3264,12 +3264,7 @@ text-align: left;
 .input_reschedule .form-group{
   margin-bottom: 5px;
 }
-.showimgpend img {
-  width: 100%;
-  object-fit: cover;
-  height: 84px;
-  border-radius: 16px;
-}
+
 .showingssec .timeinfo,.showingssec .dateinfo{
   justify-content: end;
 }
