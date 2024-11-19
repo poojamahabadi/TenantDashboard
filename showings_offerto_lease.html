@@ -366,7 +366,7 @@
 <div class="lang-select">
 <button class="btn-select" value=""></button>
 <div class="selectdiv_representative">
-<ul id="select_listrepres"></ul>
+<ul id="select_listrepresmobile"></ul>
 </div>
 </div>
 </div>
@@ -4955,13 +4955,13 @@ langArray.push(item);
 })
 
 $('#select_listrepres').html(langArray);
-
+$('#select_listrepresmobile').html(langArray);
 //Set the button value to the first el of the array
 $('.btn-select').html(langArray[0]);
 $('.btn-select').attr('value', 'en');
 
 //change button stuff on click
-$('#select_listrepres li').click(function(){
+$('#select_listrepres li,#select_listrepresmobile li').click(function(){
 var img = $(this).find('img').attr("src");
 var value = $(this).find('img').attr('value');
 var text = this.innerText;

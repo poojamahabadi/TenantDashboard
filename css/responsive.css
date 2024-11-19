@@ -3086,6 +3086,7 @@ right: 13px;
 .showings_offerlease .profimg_div {
   margin: -83px 0 0 29px;
 }
+
 .twobuttons_div {
   text-align: center;
 }
@@ -3710,6 +3711,16 @@ top: -28px;
 /* showings offer to lease */
 .desktophide_unit{
   display: inline-block;
+}
+#select_listrepres li, #select_listrepresmobile li {
+  padding: 3px 4px 3px 4px;
+}
+.bookappnt_divabs .inputselect_div {
+  width: 100%;
+}
+.bookappnt_divabs .btn-select {
+  width: 81%;
+  margin: 0 0 0 auto;
 }
 .bookappnt_divabs {
   border-radius: 27px 0px 14px 25px;
@@ -4488,6 +4499,9 @@ padding: 5px 17px;
 .showings_offerlease .bgtenant_div img {
   height: 81px;
   width: 81px;
+}
+#select_listrepres li, #select_listrepresmobile li {
+  padding: 3px 4px 3px 4px;
 }
 .myleaseteam_flex .prof_name p:nth-child(2) {
   font-size: 9px;
@@ -6868,6 +6882,9 @@ left: -22px;
   height: 83px;
   width: 83px;
 }
+.bookappnt_divabs .btn-select {
+  width: 86%;
+}
 .showings_offerlease .profimg_div {
   margin: -66px 0 0 14px;
 }
@@ -7485,6 +7502,9 @@ width: 37%;
 .showings_offerlease .bgtenant_div .profimg_div > img {
   height: 83px;
   width: 83px;
+}
+.bookappnt_divabs .btn-select {
+  width: 86%;
 }
 .sched_meeting {
   top: 216px;
@@ -8223,6 +8243,9 @@ line-height: 13px;
 .showings_offerlease .bgtenant_div .profimg_div > img {
   height: 83px;
   width: 83px;
+}
+.bookappnt_divabs .btn-select {
+  width: 90%;
 }
 .send_reminder_tooltip {
   top: 26px;
