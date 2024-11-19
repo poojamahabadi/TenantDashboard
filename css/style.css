@@ -314,7 +314,7 @@ line-height: 22px;
 text-transform: capitalize;
 color: #fff;
 border: unset;
-height: 48px;
+height: 46px;
 }
 .c-search__input::-webkit-input-placeholder {
 /* Chrome/Opera/Safari */
@@ -3524,6 +3524,7 @@ font-weight: 700;
 font-size: 18px;
 text-transform: capitalize;
 color: #315D80;
+margin:0;
 }
 .prop_headingfeat h3 .clr_featr{
   color: #F2727F;
@@ -3531,7 +3532,8 @@ color: #315D80;
 .top_propsection{
   display: flex;
   justify-content: space-between;
-  margin: 0 0 1em 0;
+  margin: 0 0 0.8em 0;
+  align-items: center;
 }
 .propfeat_tab ul{
   display: flex;
@@ -3629,7 +3631,7 @@ border-radius: 25px;
 .bottomdetails_descrip{
   background: #EDF2FA;
   border-radius: 0 0 17px 17px;
-  padding: 25px 20px 15px 20px;
+  padding: 25px 20px 20px 20px;
 }
 .galdiv_clr span,.videodiv_clr span{
   font-family: 'Helvetica';
@@ -3663,6 +3665,7 @@ font-weight: 700;
 font-size: 24px;
 text-transform: capitalize;
 color: #F2727F;
+margin:0;
 }
 .butn_green .btn.btn_greenverif {
   background: #9BB997;
@@ -3694,7 +3697,7 @@ margin:0;
   margin: 0 8px 0 0px;
 }
 .map_streetdetails{
-  margin:12px 0 0 0;
+  margin: 30px 0 0 0;
 }
 .addr_streetshowings h3{
 font-family: 'Helvetica';
@@ -3707,6 +3710,7 @@ margin:0;
 .map_streetshowings img{
   height: 22px;
   margin: 0 4px 0 0px;
+  vertical-align: text-bottom;
 }
 .addr_streetshowings img{
   height: 18px;
@@ -3741,7 +3745,7 @@ margin:0;
   font-family: 'Helvetica';
 }
 .ratingdiv_star p.startot {
-  margin: -5px 0 -10px 0;
+  margin: 0px 0 -11px 0;
   font-family: 'Helvetica Rounded';
 }
 .butn_green img {
@@ -4114,7 +4118,7 @@ color: #315D80;
 }
 .leasedslider img {
   width: 100%;
-  border-radius: 10px 10px 0 0;
+  border-radius: 15px 15px 0 0;
   object-fit: cover;
   height: 193px;
 }
@@ -4370,6 +4374,7 @@ font-weight: 700;
 font-size: 21px;
 text-transform: capitalize;
 color: #315D80;
+margin:0;
 }
 .flex_headtabshows{
   display: flex;
@@ -4382,10 +4387,6 @@ color: #315D80;
   border-radius: 17px;
   margin: 20px 0 0 0;
   padding: 20px 20px 25px 20px;
-}
-.slideronmap .slick-initialized .slick-slide {
-  display: flex;
-  flex: 1;
 }
 .slideronmap div.leasedslider.areaexplr {
 padding:0;
@@ -4804,7 +4805,7 @@ align-items: center;
  background-color: #F4F3F3;
 }
 .open{
-  display: show !important;
+  display: block !important;
 }
 .inputselect_div{
   position: relative;
@@ -4915,12 +4916,12 @@ border-radius: 40px;
 .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link{
   font-family: 'Helvetica';
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: capitalize;
   color: #315D80;
   width: 100%;
   text-align: center;
-  padding: 11px 10px;
+  padding: 7px 10px;
 }
 .upcoming_eventsdiv .nav.upcom_events li{
   width: 50%;
@@ -4967,18 +4968,18 @@ background: #C9D7E5;
   color: #315D80;
   height: 31px;
 }
-.select-box.open .label::after,.select-box1.open .label::after {
-  content: "\f106";
-  font-family: 'FontAwesome';
-}
+
 .select-box .label::after,.select-box1 .label::after {
-  content: "\f107";
+  content: url(../images/showings/showing_lease_offer/arrow_offerlease.svg);
   font-family: 'FontAwesome';
   font-size: 12px;
   position: absolute;
   right: 0;
   top: 0;
   padding: 6px 15px;
+}
+.select-box.open .label::after,.select-box1.open .label::after {
+transform: rotate(180deg);
 }
 .date_heading h3{
 font-family: 'Helvetica';
@@ -5064,6 +5065,70 @@ margin: 0 0 5px 0;
   padding: 6px 0px;
   color:#ffffff;
 }
+.timeeventtxt p{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 10px;
+line-height: 16px;
+text-align: right;
+text-transform: capitalize;
+color: #7997B1;
+margin:0;
+}
+.line_horizon hr,.linewith_eventinfo hr{
+  margin-top: 9px;
+}
+.timeeventtxt.event_num p{
+  color:#315D80;
+}
+.cale_num{
+  font-size: 15px;
+}
+.eventtxtdiv{
+  position: relative;
+}
+.eventtxtdiv .eventinfotxtdivp p{
+  font-family: 'Helvetica';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: capitalize;
+  color: #315D80;
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+.eventinfotxtdivp a{
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #315D80;
+}
+.eventtxtdiv .eventinfotxtdivp{
+  position: absolute;
+  top: -26px;
+  left: 25px;
+}
+.timeeventtxt{
+  margin: 0 0 30px 0;
+}
+.eventtxtdiv .eventinfotxtdivp{
+  background: #C9D7E5;
+  border-radius: 12px;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+.linewith_eventinfo{
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: capitalize;
+  color: #315D80;
+  }
 .linecaldiv{
   text-align: center;
   margin:6px 0 0 0;
@@ -5308,4 +5373,35 @@ display: none;
 }
 .progress.agremts_progress .progress-bar.yellow{
   width:30%
+}
+button.btn-select{
+  position: relative;
+}
+button.btn-select:after {
+  content: url(../images/showings/showing_lease_offer/arrow_offerlease.svg);
+  position: absolute;
+  right: 12px;
+  top: 2px;
+}
+.divreserve_btn button.reservenowbtn{
+background: #9BB997;
+border-radius: 26px;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 16px;
+line-height: 29px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+border:unset;
+padding:7px 10px;
+width:100%;
+}
+.divreserve_btn{
+  margin: 2em 0 0 0;
+}
+.btn.reservenowbtn img{
+  height: 17px;
+  vertical-align: text-top;
+  margin: 0 0 0 11px;
 }

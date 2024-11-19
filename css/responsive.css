@@ -1,8 +1,17 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
+/* header */
+.c-search {
+  margin-left: 17em;
+  width: 21.19%;
+}
+/* end of header */
 
 /* offer to lease showing */
 .showings_offerlease .bgtenant_div .imgtenant_profile .status {
   right: 25px;
+}
+.prop_feature .tablinks_propfeat .data-text .slick-slider{
+  margin-bottom: 0px;
 }
 .bannerimg {
   height: 247px;
@@ -100,7 +109,18 @@
 /* end of offer to lease showing */
 
 /*schedule showing*/
-
+.invite_sliderslick .slick-next {
+  right: 35px;
+}
+.invite_sliderslick .slick-prev {
+  left: 37px;
+}
+.showingssec .showtime {
+  padding: 6px 14px 4px 0px;
+}
+.showingssec .order_links span {
+  margin: 3px 1px 0px 0;
+}
 .tablinks_propfeat.unit_div .slick-track,
 .tablinks_propfeat.building_div .slick-track,
 .tablinks_propfeat.utilitiesdiv .slick-track{
@@ -195,7 +215,12 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 1600px) {
-/* offer to lease */
+/* header */
+.c-search {
+  width: 25.4%;
+}
+/* end of header */
+  /* offer to lease */
 .showings_offerlease .profimg_div .status {
   right: 36px;
 }
@@ -228,8 +253,8 @@ font-size: 15px;
 .tablinks_propfeat.utilitiesdiv .slick-track{
   margin-left: -96px;
 }
-.slideronmap .slider .slick-track{
-  margin-left: 88px;
+.slideronmap .slider .slick-track {
+  margin-left: 32px;
 }
 /*end of schedule showings*/
 /* showings */
@@ -317,7 +342,7 @@ padding: 5px 19px;
   font-size: 13px;
 }
 .slideronmap .slider .slick-track {
-  margin-left: 85px;
+  margin-left: 31px;
 }
 .slideronmap {
   margin: -122px 0 0 0;
@@ -389,7 +414,7 @@ left: -25px;
   margin: -119px 0 0 0;
 }
 .slideronmap .slider .slick-track {
-  margin-left: 54px;
+  margin-left: 47px;
 }
 /* end of schedule showings */
 /* showings */
@@ -514,6 +539,34 @@ left: -3px;
 .slideronmap {
   margin: -108px 0 0 0;
 }
+.invite_sliderslick .bgtenant_div .status {
+  right: 18px;
+}
+.showingssec .showimgpend {
+  padding: 9px 0px 4px 5px;
+}
+.mapdiv_showings {
+  padding: 20px 15px 25px 15px;
+}
+.invite_sliderslick .slick-next {
+  right: 16px;
+}
+.invite_sliderslick .slick-prev {
+  left: 17px;
+}
+.showingssec .showtime {
+  padding: 8px 14px 4px 0px;
+}
+.butn_green .btn.btn_greenverif {
+  font-size: 14px;
+  padding: 5px 12px 5px 13px;
+}
+.butn_green img {
+  height: 17px;
+}
+.addr_streetshowings img {
+  height: 15px;
+}
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
   margin-left: -76px;
 }
@@ -590,7 +643,7 @@ padding: 7px 10px;
 font-size: 13px;
 }
 .showimgpend img {
-height: 115px;
+  height: 95px;
 }
 .showingssec .order_links span a {
 margin: 0;
@@ -694,7 +747,13 @@ font-size: 11px;
 /* end of showings offer to lease  */
 /* schedule showings */
 .slideronmap .slider .slick-track {
-  margin-left: 85px;
+  margin-left: -9px;
+}
+.similar_unitsdiv .leasedslider .imageover_details > img {
+  height: 151px;
+}
+.map_streetshowings img {
+  height: 18px;
 }
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
   margin-left: -73px;
@@ -830,8 +889,11 @@ height: 171px;
 .pricedet_showings h3 {
 font-size: 22px;
 }
+.bottomdetails_descrip {
+  padding: 18px 20px 20px 20px;
+}
 .butn_green img {
-height: 18px;
+  height: 17px;
 }
 .showimgpend img {
 height: 110px;
@@ -840,12 +902,10 @@ height: 110px;
 font-size: 10px;
 line-height: 14px;
 }
-.leasedslider.areaexplr h3 {
-font-size: 13px;
-}
-.showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
+.slideronmap .leasedslider.areaexplr h3 {
 font-size: 12px;
 }
+
 .showingssec .order_links span a {
 font-size: 13px;
 }
@@ -971,20 +1031,22 @@ margin-left: 80px;
 /* end of showing offer to lease */
 /* schedule showings */
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
-  margin-left: -67px;
+  margin-left: 8px;
+}
+.invite_sliderslick{
+  width: 67%;
+}
+.info_conddetails p:first-child {
+  font-size: 12px;
 }
 .invite_sliderslick .bgtenant_div .status {
   right: 14px;
 }
-.prop_feature .data-text .element .row.mrbtm .sche_pad_red {
-  max-width: 88%;
-}
-
-.similar_unitsdiv .leasedslider .imageover_details > img {
-  height: 168px;
+.info_conddetails p:nth-child(2) {
+  font-size: 11px;
 }
 .invite_sliderslick .slick-next {
-  right: 6px;
+  right: 12px;
   top: 34px;
 }
 /* end of schedule showings */
@@ -1047,7 +1109,7 @@ margin-left: 71px;
 bottom: 9px;
 }
 .slideronmap .slider .slick-track {
-margin-left: 81px;
+  margin-left: 33px;
 }
 .tablinks_propfeat ul.nav li a {
 padding: 5px 7px;
@@ -1062,7 +1124,7 @@ font-size: 13px;
 padding: 4px 9px 4px 13px;
 }
 .map_streetshowings h3 {
-font-size: 15px;
+  font-size: 14px;
 }
 .edit_button.save_new {
 width: 62%;
@@ -1216,14 +1278,14 @@ font-size: 15px;
 /* end of showings offer to lease */
 
 /* schedule showings */
-.tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
-  margin-left: -61px;
+.map_streetdetails {
+  margin: 28px 0 0 0;
 }
 .similar_unitsdiv .leasedslider .imageover_details > img {
-  height: 155px;
+  height: 140px;
 }
 .slideronmap .slider .slick-track {
-  margin-left: 78px;
+  margin-left: 33px;
 }
 .mapdiv_showings {
   padding: 15px 10px 11px 10px;
@@ -1231,11 +1293,11 @@ font-size: 15px;
 .head_explr {
   font-size: 16px;
 }
-.prop_feature .data-text .element .row.mrbtm .sche_pad_red {
-  max-width: 86%;
-}
 .buttons_map button {
   padding: 6px 8px;
+}
+.similar_unitsdiv .leasedslider {
+  margin: 11px 0px 0 14px;
 }
 /* end of schedule showings */
 /* showings */
@@ -1439,27 +1501,46 @@ font-size: 11px;
   height: 66px;
   width: 66px;
 }
+.invite_sliderslick .bgtenant_div .status {
+  right: 17px;
+}
+.invite_sliderslick .slick-prev {
+  left: 11px;
+}
+.invite_sliderslick .slick-next {
+  right: 9px;
+}
+.divreserve_btn button.reservenowbtn {
+  padding: 6px 10px 7px 10px;
+  font-size: 15px;
+}
 .addr_streetshowings img {
   height: 15px;
 }
-.tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
-  margin-left: -59px;
-}
 .invite_sliderslick .bgtenant_div .status {
-  right: 12px;
+  right: 16px;
   bottom:10px;
+}
+.showimgpend img {
+  height: 105px;
 }
 .slideronmap .leasedslider.areaexplr h3 {
   margin-bottom: 6px;
+}
+.divreserve_btn {
+  margin: 1.6em 0 0 0;
 }
 .top_propsection {
   align-items: baseline;
 }
 .map_streetshowings h3 {
-  font-size: 14px;
+  font-size: 13px;
 }
 .prop_headingfeat h3,.head_explr {
   margin: 0;
+}
+.invite_sliderslick {
+  width: 74%;
 }
 .slideronmap {
   margin: -114px 0 0 0;
@@ -1467,14 +1548,11 @@ font-size: 11px;
 .map_streetshowings img {
   height: 17px;
 }
-.invite_sliderslick .bgtenant_div .status {
-  right: 9px;
-}
 .invite_sliderslick .slick-prev {
-  left: 6px;
+  left: 14px;
 }
 .invite_sliderslick .slick-next {
-  right: 1px;
+  right: 12px;
 }
 /* end of schedule showings */
 /* showings */
@@ -1497,14 +1575,13 @@ font-size: 10px;
 .basicdata {
 flex-basis: 54%;
 }
-.slideronmap .slider .slick-track {
-margin-left: 76px;
+.propfeat_tab ul li a {
+  padding: 7px 23px;
 }
 .similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
 margin-left: 65px;
 }
 .buttons_map button {
-margin: 0 0 5px 0;
 font-size: 10px;
 }
 .propfeat_tab ul {
@@ -1604,6 +1681,16 @@ right: -15px;
 }
 /* end of showings offer to lease */
 /* schedule showings */
+.divreserve_btn button.reservenowbtn {
+  font-size: 14px;
+}
+.divreserve_btn {
+  margin: 1.8em 0 0 0;
+}
+.btn.reservenowbtn img {
+  height: 16px;
+  margin: 0 0 0 9px;
+}
 .category-lists-slider .slider-button {
   top: 7px;
 }
@@ -1617,7 +1704,7 @@ right: -15px;
   padding: 5px 6px;
 }
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
-  margin-left: -56px;
+  margin-left: 9px;
 }
 /* end of schedule showings */
 
@@ -1646,7 +1733,7 @@ margin-left: 55px;
   margin: -117px 0 0 0;
 }
 .slideronmap .slider .slick-track {
-  margin-left: 72px;
+  margin-left: 30px;
 }
 .tablinks_propfeat ul.nav li a {
 font-size: 11px;
@@ -1741,6 +1828,22 @@ margin: 10px 0 0 0;
 .invite_sliderslick .slick-prev,.invite_sliderslick .slick-next {
   top: 31px;
 }
+.invite_sliderslick {
+  width: 80%;
+}
+.propfeat_tab ul li a {
+  padding: 7px 22px;
+}
+.btn.reservenowbtn img {
+  height: 15px;
+  margin: 0 0 0 8px;
+}
+.invite_sliderslick .bgtenant_div .status {
+  right: 21px;
+}
+.butn_green img {
+  height: 16px;
+}
 .invite_sliderslick .bgtenant_div img {
   height: 61px;
   width: 61px;
@@ -1756,11 +1859,14 @@ right: -4px;
 .info_conddetails p:nth-child(2) {
   font-size: 9px;
 }
-.tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
-  margin-left: -54px;
+.category-lists-slider .slider-button.slider-prev {
+  left: -9px;
 }
-.slideronmap .slider .slick-track {
-  margin-left: 69px;
+.category-lists-slider .slider-button.slider-next {
+  right: -10px;
+}
+.tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
+  margin-left: 7px;
 }
 .slideronmap {
   margin: -108px 0 0 0;
@@ -1800,7 +1906,24 @@ font-size: 10px;
 }
 @media only screen and (max-width: 991px) and (min-width: 320px){
 .propfeat_tab ul li a {
-padding: 7px 39px;
+  padding: 7px 51px;
+  font-size: 18px;
+}
+.invite_sliderslick {
+  width: 42%;
+}
+.showingssec .showtime {
+  padding: 11px 14px 4px 0px;
+}
+.category-lists-slider .slider-button {
+  top: 9px;
+}
+.prop_feature .tablinks_propfeat .data-text .slick-slider{
+  margin-bottom: 0px;
+}
+.prop_feature .category-button {
+  padding: 7px 3px;
+  font-size: 14px;
 }
 .l-header__inner {
   height: 78px;
@@ -1879,7 +2002,7 @@ margin: 10px 0 0 0;
 font-size: 14px;
 }
 .slideronmap .slider .slick-track {
-margin-left: 136px;
+  margin-left: 49px;
 }
 .slideronmap div.leasedslider.areaexplr {
 display: block;
@@ -1954,9 +2077,7 @@ font-size: 15px;
 .prop_headingfeat h3 {
 font-size: 25px;
 }
-.propfeat_tab ul li a {
-font-size: 19px;
-}
+
 .prop_feature {
 padding: 20px 19px 10px 19px;
 }
@@ -2220,6 +2341,9 @@ display: unset;
 }
 /* showings offer to lease end */
 /* schedule showings */
+.invite_sliderslick {
+  width: 63%;
+}
 .mobviewbgcolrpending,.movviewbgcolrscheduleoffr{
   background: #EDF2FA;
   padding: 27px 10px;
@@ -2270,7 +2394,14 @@ border-radius: 0;
   padding: 7px 0px 7px 0;
 }
 .similar_unitsdiv .leasedslider .imageover_details > img {
-  height: 225px;
+  height: 176px;
+}
+.map_streetshowings h3 {
+  font-size: 17px;
+}
+.butn_green img {
+  height: 15px;
+  vertical-align: inherit;
 }
 .category-lists-slider .slider-button {
   top: 10px;
@@ -2478,7 +2609,7 @@ width: 52%;
 height: 218px;
 }
 .slideronmap .slider .slick-track {
-margin-left: 115px;
+  margin-left: 44px;
 }
 .similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
 margin-left: 103px;
@@ -2567,6 +2698,9 @@ padding: 14px 20px;
 }
 /* end of offer to lease */
 /* showings */
+.tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
+  margin-left: -41px;
+}
 .map {
 height: 571px;
 }
@@ -2582,6 +2716,12 @@ height: 571px;
 }
 .propfeat_tab ul {
   padding: 6px 0px 6px 0;
+}
+.showimgpend img {
+  height: 110px;
+}
+.showingssec .showtime {
+  padding: 3px 14px 4px 0px;
 }
 .showingssec .showtime {
   margin: 8px 0 4px 0;
@@ -2602,9 +2742,7 @@ height: 571px;
 .mapdiv_showings {
   padding: 15px 10px 27px 10px;
 }
-.slideronmap .slider .slick-track {
-  margin-left: 107px;
-}
+
 .scheshow_flex .clcross_icon {
 right: -2px;
 }
@@ -3086,7 +3224,13 @@ right: 13px;
 .showings_offerlease .profimg_div {
   margin: -83px 0 0 29px;
 }
-
+.divreserve_btn {
+  margin: 1em 0 0 0;
+}
+.divreserve_btn button.reservenowbtn {
+  padding: 3px 10px 3px 10px;
+line-height: 23px;
+}
 .twobuttons_div {
   text-align: center;
 }
@@ -3186,6 +3330,8 @@ right: 13px;
 }
 .prop_feature .category-button {
 font-weight: 700;
+  padding: 5px 6px;
+  font-size: 13px;
 }
 .mapdiv_showings .category-button {
  padding: 8px 10px;
@@ -3283,12 +3429,13 @@ padding: 4px 4px 4px 10px;
 }
 .butn_green img {
 height: 16px;
+vertical-align: sub;
 }
 .pricedet_showings h3 {
 font-size: 19px;
 }
 .bottomdetails_descrip {
-padding: 9px 14px 19px 12px;
+  padding: 0px 14px 19px 12px;
 }
 .map_streetshowings img {
 height: 19px;
@@ -3377,7 +3524,7 @@ font-size: 13px;
 line-height: 19px;
 }
 .view_alldiv {
-margin: 21px 0 4px 0px;
+  margin: 13px 0 4px 0px;
 }
 .showing_detailsdiv h3 img {
 height: 19px;
@@ -3550,6 +3697,9 @@ color:#315D80;
 margin: 0 0 10px 0;
 }
 .map_streetdetails {
+  margin: 14px 0 0 0;
+}
+.map_streetdetails {
 flex-direction: column;
 align-items: flex-start;
 }
@@ -3559,8 +3709,8 @@ background-color: #EDF2FA;
 border-radius: 20px 20px 0 0;
 }
 .bannerimg {
-height: 179px;
-border-radius: 20px;
+  height: 210px;
+  border-radius: 20px;
 }
 .galdiv_clr {
 padding: 6px 33px 2px 15px;
@@ -3639,7 +3789,7 @@ color: #F2727F;
   font-size: 20px;
 }
 .similar_unitsdiv .leasedslider .imageover_details > img {
-  height: 181px;
+  height: 160px;
 }
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
   margin-left: -37px;
@@ -4316,7 +4466,7 @@ height: 115px;
   margin: 0;
 }
 .similar_unitsdiv .leasedslider .imageover_details > img {
-  height: 180px;
+  height: 159px;
 }
 .similar_unitsdiv .descrip_details_list .price_rate p {
   font-size: 20px;
@@ -4349,19 +4499,19 @@ height: 115px;
   margin: 0 3px 0 0px;
 }
 .invite_sliderslick {
-  width: 67%;
+  width: 72%;
 }
 .invite_sliderslick .slick-prev {
-  left: 10px;
+  left: 18px;
 }
 .invite_sliderslick .slick-next {
-  right: 6px;
+  right: 13px;
 }
 .invite_sliderslick .slick-prev, .invite_sliderslick .slick-next {
   top: 35px;
 }
 .invite_sliderslick .bgtenant_div .status {
-  right: 12px;
+  right: 20px;
 }
 .invite_sliderslick .bgtenant_div img {
   height: 69px;
@@ -4410,6 +4560,9 @@ height: 115px;
 }
 .category-lists-slider .slider-button {
   top: 11px;
+}
+.addr_streetshowings img {
+  height: 17px;
 }
 /* schedule showings end */
 .slidelocation_div .txt_loc {
@@ -4748,9 +4901,6 @@ padding: 5px 17px;
 }
 .prop_feature .slick-slider{
   margin-bottom: 0px;
-}
-.tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
-  margin-left: -65px;
 }
 .category-lists-slider .slider-button.slider-next {
   right: -13px;
@@ -5380,6 +5530,12 @@ height: 138px;
   height: 93px;
   width: 93px;
 }
+.divreserve_btn button.reservenowbtn {
+  font-size: 13px;
+}
+.map_streetdetails {
+  margin: 11px 0 0 0;
+}
 .btn.pay_amt {
   margin: 0 0 10px 0;
 }
@@ -5579,7 +5735,7 @@ text-align: center;
   font-size: 13px;
 }
 .about_descrip ul li {
-  margin: 0 0 10px 0;
+  margin: 0 0 6px 0;
 }
 .buttons_map button {
   padding: 4px 9px 6px 9px;
@@ -6092,7 +6248,7 @@ font-size: 12px;
 padding: 7px 9px;
 }
 .prop_feature {
-padding: 20px 9px 10px 9px;
+  padding: 11px 9px 10px 9px;
 }
 .top_propsection {
 align-items: center;
@@ -6257,7 +6413,26 @@ left: -18px;
 
 @media only screen and (max-width: 390px) {
   .bookappnt_divabs, .sched_meeting {
-    right: 1px;
+    right: 6px;
+}
+.similar_unitsdiv .leasedslider .imageover_details > img {
+  height: 128px;
+}
+
+.mapdiv_showings .category-lists-slider .slider-button.slider-prev {
+  left: -7px;
+}
+.mapdiv_showings .category-lists-slider .slider-button.slider-next {
+  right: -8px;
+}
+.mapdetails_div .category-button img {
+  vertical-align: middle;
+}
+.mob_pad{
+  padding: 0 10px;
+}
+.tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
+  margin-left: -46px;
 }
 .myleaseteam_flex .prof_name p:nth-child(2) {
   font-size: 10px;
@@ -6882,6 +7057,12 @@ left: -22px;
   height: 83px;
   width: 83px;
 }
+.info_conddetails p:nth-child(2) {
+  font-size: 11px;
+}
+.info_conddetails p:first-child {
+  font-size: 12px;
+}
 .bookappnt_divabs .btn-select {
   width: 86%;
 }
@@ -7064,10 +7245,13 @@ left: -22px;
   height: 17px;
 }
 .invite_sliderslick .slick-next {
-  right: 10px;
+  right: 17px;
+}
+.invite_sliderslick .slick-prev, .invite_sliderslick .slick-next {
+  top: 37px;
 }
 .invite_sliderslick .slick-prev {
-  left: 11px;
+  left: 18px;
 }
   /* schedule showings page end */
 
@@ -7091,14 +7275,24 @@ left: -22px;
   margin: 0 7px 0 0px;
 }
 .bannerimg {
-  height: 140px;
+  height: 170px;
   border-radius: 15px;
+}
+.butn_green .btn.btn_greenverif {
+  font-size: 13px;
+  padding: 3px 4px 2px 10px;
+}
+.tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
+  margin-left: -42px;
+}
+.addr_streetshowings img {
+  margin: 1px 6px 0 0px;
+}
+.divreserve_btn button.reservenowbtn {
+  font-size: 13px;
 }
 .mob_pad{
   padding: 0 10px;
-}
-.similar_unitsdiv .leasedslider .imageover_details > img {
-  height: 151px;
 }
 .similar_unitsdiv .lochouse_details .house span, .similar_unitsdiv .lochouse_details .clock span {
   font-size: 13px;
@@ -7144,8 +7338,8 @@ left: -22px;
   width: 87%;
 }
 .invite_sliderslick .bgtenant_div img {
-  height: 88px;
-  width: 88px;
+  height: 73px;
+  width: 73px;
 }
 .detshow_div .showingssec .timelabel span, .detshow_div .showingssec .timeinfo span,
  .detshow_div .showingssec .datelabel span, .detshow_div .showingssec .dateinfo span {
@@ -8522,9 +8716,6 @@ line-height: 13px;
 .mapdiv_showings .category-lists-slider .slider-button.slider-prev {
   left: -8px;
 }
-.similar_unitsdiv .leasedslider .imageover_details > img {
-  height: 151px;
-}
 .mobileview_allunits .similar_unitsdiv .galdiv_clr img {
   height: 14px;
 }
@@ -8565,7 +8756,7 @@ line-height: 13px;
   height: 18px;
 }
 .similarunits .leaseddetails_slider p, .similar_unitsdiv .leaseddetails_slider p {
-  font-size: 13px;
+  font-size: 11px;
 }
 .similar_unitsdiv .leaseddetails_slider .car_details img {
   height: 19px;
@@ -9177,6 +9368,24 @@ font-size: 12px;
 .details_slider .bed_details img {
   height: 14px;
 }
+.info_conddetails p:first-child {
+  font-size: 12px;
+}
+.info_conddetails p:nth-child(2) {
+  font-size: 11px;
+}
+.map_streetshowings h3, .addr_streetshowings h3 {
+  font-size: 12px;
+}
+.divreserve_btn button.reservenowbtn {
+  font-size: 12px;
+}
+.map_streetshowings img {
+  height: 17px;
+}
+.addr_streetshowings img {
+  height: 13px;
+}
 .logo__txt a img {
   height: 43px;
 }
@@ -9200,6 +9409,16 @@ font-size: 12px;
 .detshow_div .showingssec .order_links span a img {
   margin-right: 3px;
 }
+.invite_sliderslick .bgtenant_div img {
+  height: 70px;
+  width: 70px;
+}
+.invite_sliderslick {
+  width: 86%;
+}
+.invite_sliderslick .bgtenant_div .status {
+  right: 26px;
+}
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
   margin-left: -34px;
 }
@@ -9207,7 +9426,8 @@ font-size: 12px;
   height: 84px;
 }
 .btn.btninvite, .btn.btninvite.minus {
-  padding: 5px 14px 5px 18px;
+  padding: 4px 14px 4px 18px;
+  font-size: 13px;
 }
 .btn.btninvite img {
   height: 15px;
