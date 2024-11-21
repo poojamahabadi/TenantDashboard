@@ -169,6 +169,7 @@
 <img src="images/showings/slider/video_slider.svg"> <span>1</span>
 </span>
 </div>
+
 </div>
 <div class="bottomdetails_descrip">
 <div class="detailsdiv_showing">
@@ -201,6 +202,10 @@
 <div class="addr_streetshowings">
 <h3> <img src="images/showings/slider/streetimg.svg">Union Avenue & West Street </h3>
 </div>
+</div>
+
+<div class="divreserve_btn">
+    <button class="btn reservenowbtn">Reserve now - send offer to lease <img src="images/showings/thumbpic.svg"></button>
 </div>
 </div>
 
@@ -6282,6 +6287,7 @@ Map
 <img src="images/showings/slider/lease_slider/redheart.svg">
 </div>
 </div>
+
 <div class="leaseddetails_slider">
 <div class="car_details">
 <img src="images/showings/slider/park.svg">
@@ -6296,6 +6302,7 @@ Map
 <p>03</p>
 </div>
 </div>
+
 <div class="bottom_rightdetails">
 <span class="galdiv_clr">
 <img src="images/showings/slider/gallery.svg"> <span>14</span>
@@ -7458,6 +7465,11 @@ Map
 <div class="heartdiv blueheart">
 <img src="images/showings/slider/lease_slider/blueheart.svg">
 </div>
+</div>
+<div class="bottom_rightdetails bottomsimilar">
+    <span class="galdiv_clr">
+    <img src="images/showings/slider/gallery.svg"> <span>14</span>
+    </span>
 </div>
 <div class="leaseddetails_slider">
 <div class="car_details">
@@ -8983,13 +8995,20 @@ responsive: [
 {
 breakpoint: 1920,
 settings: {
-slidesToShow: 4.5,
+slidesToShow: 3.1,
 }
 },
 {
-breakpoint:1530,
+breakpoint:1537,
 settings: {
-slidesToShow: 3.2,
+slidesToShow: 2.3,
+}
+},
+{
+breakpoint: 1201,
+settings: {
+slidesToScroll: 1,
+slidesToShow:2.1,
 }
 },
 {
@@ -9175,9 +9194,6 @@ $(window).on('load', function(){
     });
 });
 
-
-
-
 $(".mobviewcate_div_expr_area .category-button").click(function(){
 $(".mobviewcate_div_expr_area .category-button").removeClass("active");
 $(this).addClass('active');
@@ -9187,16 +9203,8 @@ $("#"+getid).addClass("active");
 $('.google-map-section').show();
 $('.google-map-section.mobhide_mapdetdiv').hide();
 });
-
-
-
-
-
-
-
 // area explore slider mobile view end
 </script>
-
 
 <script>
 // ----------swiper-slider---------
@@ -9367,12 +9375,10 @@ $(".utilitiesdiv .data-text").removeClass('active');
 $("#"+getid).addClass("active");
 });
 // end of schedule showings
-
 </script>
 
 
 <script>
-
 $('.prop_feature .slick-slider').each(function(){
 $(this).slick({
 infinite: true,
@@ -9382,10 +9388,17 @@ autoplaySpeed: 200000,
 autoplay: true,
 responsive: [
 {
+breakpoint:1201,
+settings: {
+centerMode: false,
+slidesToShow: 3,
+}
+},
+{
 breakpoint:992,
 settings: {
-centerMode: true,
-slidesToShow: 2.7,
+centerMode: false,
+slidesToShow: 3,
 }
 },
 {

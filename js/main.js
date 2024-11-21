@@ -275,42 +275,70 @@ arrows: true,
 dots: false,
 speed: 300,
 infinite: true,
-autoplaySpeed: 500044444,
+autoplaySpeed: 5000,
 autoplay: true,
 responsive: [
 {
 breakpoint: 1920,
 settings: {
-slidesToShow: 1.5,
+slidesToShow: 1.6,
 }
 },
 {
 breakpoint:1400,
 settings: {
-slidesToShow: 1.2,
+slidesToShow: 1.5,
 }
 },
 {
-breakpoint: 450,
+    breakpoint: 1367,
+    settings: {
+    slidesToScroll: 1,
+    slidesToShow:1.7,
+    }
+    },
+    {
+        breakpoint: 1025,
+        settings: {
+        slidesToScroll: 1,
+        slidesToShow:1.5,
+        }
+        },
+{
+breakpoint: 993,
 settings: {
 slidesToScroll: 1,
-slidesToShow:1.5,
+slidesToShow:1.4,
+}
+},
+{
+    breakpoint:769,
+    settings: {
+    slidesToScroll: 1,
+    slidesToShow:1.7,
+    }
+    },
+{
+breakpoint:641,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1.4,
 }
 },
 {
 breakpoint:420,
 settings: {
 slidesToScroll: 1,
-slidesToShow:1.10,
+slidesToShow:1.07,
 }
 },
 {
-breakpoint:345,
-settings: {
-slidesToScroll: 1,
-slidesToShow:1.05,
-}
-}
+    breakpoint:350,
+    settings: {
+    slidesToScroll: 1,
+    slidesToShow:1,
+    }
+    }
 ]
 });
 };

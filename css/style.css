@@ -46,20 +46,25 @@ border-radius: 20px;
 	background-color: #DEE7F2;
 }
 
+.selectdiv_representative::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.selectdiv_representative::-webkit-scrollbar
+{
+	width: 7px;
+  height: 5px;
+	background-color: #F5F5F5;
+}
+.selectdiv_representative::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #DEE7F2;
+}
 
 .nav.nav-tabs::-webkit-scrollbar-track,.buttons_map::-webkit-scrollbar-track
 {
@@ -542,9 +547,9 @@ width: 89%;
 margin: -47px auto 0 auto;
 }
 .bgtenant_div img {
-height: 70px;
+height: 66px;
 object-fit: contain;
-width: 70px;
+width: 66px;
 border-radius: 50%;
 background: #315d80;
 padding: 4px;
@@ -590,8 +595,8 @@ width: 96%;
 position: absolute;
 bottom: 11px;
 right: 6px;
-width: 11px;
-height: 11px;
+width: 9px;
+height: 9px;
 border-radius: 50%;
 border: 2px solid #edf2fa;
 box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.1), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
@@ -3366,6 +3371,7 @@ background: #EDF2FA;
   transform: translate(-50%);
   left: 50%;
   width: 48%;
+  z-index: 100;
 }
 .btn.schedshow{
 color: #315D80;
@@ -3391,16 +3397,17 @@ color: #315D80;
   background: #FFFFFF;
   letter-spacing: 0.7px;
   padding: 4px 10px;
+
 }
 .form-search.showmapgoogle .input-group input.form-control {
   padding: 10px 186px 10px 21px;
   border: unset;
-  background: #ffffff;
-  border-radius: 24px !important;
+  border-radius: 24px;
   font-family: 'Helvetica';
   font-size: 0.9em;
-  height: 49px;
-  outline: none;
+  height: 45px;
+  outline: none;;
+background: #F8FAFF;
 }
 .form-search.showmapgoogle .input-group-append {
   margin-left: 0px;
@@ -3631,7 +3638,7 @@ border-radius: 25px;
 .bottomdetails_descrip{
   background: #EDF2FA;
   border-radius: 0 0 17px 17px;
-  padding: 25px 20px 20px 20px;
+  padding: 18px 20px 20px 20px;
 }
 .galdiv_clr span,.videodiv_clr span{
   font-family: 'Helvetica';
@@ -3651,6 +3658,11 @@ border-radius: 25px;
   margin: 0 0px 0 -20px;
 }
 .bottom_rightdetails{
+  position: absolute;
+  bottom: 10px;
+  right: 18px;
+}
+.btmleft_details{
   position: absolute;
   bottom: 10px;
   right: 18px;
@@ -4386,7 +4398,7 @@ margin:0;
   background: #EDF2FA;
   border-radius: 17px;
   margin: 20px 0 0 0;
-  padding: 20px 20px 25px 20px;
+  padding: 20px 15px 25px 15px;
 }
 .slideronmap div.leasedslider.areaexplr {
 padding:0;
@@ -4399,13 +4411,13 @@ background: #EDF2FA;
 box-shadow: inset 2.66246px 2.66246px 9.31861px rgba(57, 124, 238, 0.12);
 border-radius: 8px;
 display: block;
-padding: 10px;
+padding: 10px 10px 7px 10px;
 }
 .leasedslider.areaexplr h3 {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'Helvetica';
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #315D80;
   text-align: left;
 }
@@ -4439,11 +4451,8 @@ padding: 10px;
 .mapsche{
   border-radius: 16px;
 }
-.google-map{
-  position: relative;
-}
-.slideronmap{
-  margin: -118px 0 0 0;
+.slideronmap {
+  margin: -98px 0 0 0;
 }
 .slideronmap .slider{
   margin:0;
@@ -4456,10 +4465,10 @@ padding: 10px;
 /* showing offer to lease */
 .showings_offerlease .tenant_imgs {
   display: flex;
-  justify-content: space-around;
-  width: 80%;
-  margin: -43px 0 0 0;
-  position: relative;
+      justify-content: space-around;
+      width: 81%;
+      margin: -71px 0 0 21px;
+      position: relative;
 }
 .showings_offerlease .profimg_div {
   margin: -74px 0 0 27px;
@@ -4481,11 +4490,11 @@ padding: 10px;
   border: unset;
   font-size: 25px;
 }
+.showings_offerlease .tenant_imgs button.next-btn i::before{
+  font-weight: 600;
+}
 .showings_offerlease .tenant_imgs button.slick-prev{
 display: none;
-}
-.showings_offerlease .tenant_imgs .slick-list{
-  margin-left: -9px;
 }
 .showings_offerlease  .bgtenant_div .tenant_info p:first-child {
   font-family: 'Helvetica';
@@ -4498,11 +4507,12 @@ display: none;
 }
 .showings_offerlease .bgtenant_div{
   position: relative;
+  transition: all 0.9s;
 }
-.showings_offerlease .add_tenants.bgtenant_div{
+.showings_offerlease .add_tenants.bgtenant_div {
   position: absolute;
   right: 36px;
-  top: -33px;
+  top: -27px;
 }
 .showings_offerlease .add_tenants.bgtenant_div .tenant_info {
   margin: 15px 0 0 0;
@@ -4886,23 +4896,24 @@ align-items: center;
   margin: 0;
   height: 39px;
 }
-.headingcalen h3{
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 21px;
-text-transform: capitalize;
-color: #315D80;
-margin:0;
+.headingcalen h3 {
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #315D80;
+  margin: 0;
 }
-.headingcalen h3 img{
-  height: 28px;
+.headingcalen h3 img {
+  height: 22px;
   vertical-align: bottom;
+  margin: 0 4px 0 0px;
 }
 .calendercard_show{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 0 1em 0;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 0 0.5em 0;
 }
 .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link.active{
 background: #315D80;
@@ -4910,8 +4921,10 @@ border-radius: 25.6499px;
 color:#ffffff;
 }
 .upcoming_eventsdiv .nav.upcom_events{
-background: #DEE7F2;
-border-radius: 40px;
+  background: #DEE7F2;
+  border-radius: 40px;
+  width: 92%;
+  margin: 0 0 0 auto;
 }
 .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link{
   font-family: 'Helvetica';
@@ -4921,16 +4934,16 @@ border-radius: 40px;
   color: #315D80;
   width: 100%;
   text-align: center;
-  padding: 7px 10px;
+  padding: 8px 10px;
 }
 .upcoming_eventsdiv .nav.upcom_events li{
   width: 50%;
 }
 .headingcalen{
-  width: 63%;
+  width: 49%;
 }
-.upcoming_eventsdiv{
-  width: 35%;
+.upcoming_eventsdiv {
+  width: 49%;
 }
 .crossic_cal{
   margin: 0 10px 0 11px;
@@ -4939,18 +4952,17 @@ border-radius: 40px;
 /* month select box */
 .select-box,.select-box1 {
   cursor: pointer;
-  position : relative;
-  width: 29%;
+  position: relative;
+  width: 32%;
 }
 .select-box .select,.select-box1 .select {
   width: 100%;
-background: #C9D7E5;
+  background: #C9D7E5;
   position: absolute;
   top: 0;
   opacity: 0;
-  background: none transparent;
   border: 0 none;
-  height: 31px;
+  height: 28px;
 }
 .select-box .label,.select-box1 .label {
   position: relative;
@@ -4982,29 +4994,34 @@ background: #C9D7E5;
 transform: rotate(180deg);
 }
 .date_heading h3{
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 16px;
-line-height: 16px;
-text-align: center;
-text-transform: capitalize;
-color: #315D80;
-margin:0;
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #315D80;
+  margin: 0;
 }
 .seldatebox{
   justify-content: space-between;
 }
 .seldatebox,.datearrow{
   display: flex;
-  flex-basis: 49%;
   align-items: center;
+}
+.seldatebox{
+  flex-basis: 59%;
+}
+.datearrow{
+  flex-basis: 39%;
 }
 .datesel_show{
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin: 0 0 2.5em 0;
+  margin: 0 0 1.7em 0;
 }
 .datearrow{
   justify-content: flex-end;
@@ -5016,7 +5033,7 @@ margin:0;
 .datedetailsshow p{
 font-family: 'Helvetica';
 font-weight: 700;
-font-size: 14px;
+font-size: 13px;
 text-align: right;
 text-transform: capitalize;
 color: #315D80;
@@ -5026,49 +5043,62 @@ margin:0;
   margin-left:10px;
 }
 .calview_show{
-background: #DEE7F2;
-border-radius: 14px;
-padding:20px;
+  background: #DEE7F2;
+  border-radius: 14px;
+  padding: 12px 15px;
 }
 .calenderview_div{
-  margin:1em 0 0 0;
-background: #EDF2FA;
-border-radius: 17px;
-padding:20px;
+  margin: 1em 0;
+  background: #EDF2FA;
+  border-radius: 17px;
+  padding: 10px 15px 15px 15px;
+  position: absolute;
+  width: 67.4%;
+    /* width: 80.4%; */
+    top: 140px;
+    left: 14%;
+}
+.google-map.showingsmap{
+  margin:0 0 2em 0;
 }
 .weekdaysname{
   display: flex;
   justify-content: space-between;
 }
 .wename{
-font-family: 'Helvetica';
-font-weight: 400;
-font-size: 14px;
-text-align: center;
-text-transform: capitalize;
-color: #92A3B4;
-margin: 0 0 5px 0;
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #92A3B4;
+  margin: 0px 0 3px 0;
 }
 .wekdate{
   background: #C9D7E5;
   border-radius: 42px;
   margin: 0;
   text-align: center;
-  padding: 9px 0px;
-  height: 40px;
-  width: 40px;
-  font-size: 14px;
+  padding: 4px 0px;
+  margin: 7px 0 0 0;
+  height: 26px;
+  width: 26px;
+  font-size: 12px;
 }
 .weknamediv.active .wekdate{
   background: #376990;
   border: 4px solid #C9D7E5;
-  padding: 6px 0px;
-  color:#ffffff;
+  padding: 3px 0px;
+  color: #ffffff;
+  height: 34px;
+  width: 34px;
+  margin: 0;
+  font-size: 13px;
 }
 .timeeventtxt p{
 font-family: 'Helvetica';
 font-weight: 400;
-font-size: 10px;
+font-size: 9px;
 line-height: 16px;
 text-align: right;
 text-transform: capitalize;
@@ -5076,13 +5106,13 @@ color: #7997B1;
 margin:0;
 }
 .line_horizon hr,.linewith_eventinfo hr{
-  margin-top: 9px;
+  margin: 9px 0;
 }
 .timeeventtxt.event_num p{
   color:#315D80;
 }
 .cale_num{
-  font-size: 15px;
+  font-size: 13px;
 }
 .eventtxtdiv{
   position: relative;
@@ -5090,21 +5120,24 @@ margin:0;
 .eventtxtdiv .eventinfotxtdivp p{
   font-family: 'Helvetica';
   font-weight: 500;
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 10px;
+  line-height: 9px;
   text-transform: capitalize;
   color: #315D80;
-  margin: 0 0 6px 0;
+  margin: 0 0 4px 0;
   text-align: center;
 }
 .eventinfotxtdivp a{
   font-family: 'Helvetica';
   font-weight: 700;
-  font-size: 10px;
+  font-size: 9px;
   line-height: 15px;
   text-align: center;
   text-transform: capitalize;
   color: #315D80;
+}
+.timecalenderpad{
+  padding:0 0 0 5px;
 }
 .eventtxtdiv .eventinfotxtdivp{
   position: absolute;
@@ -5112,7 +5145,7 @@ margin:0;
   left: 25px;
 }
 .timeeventtxt{
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
 }
 .eventtxtdiv .eventinfotxtdivp{
   background: #C9D7E5;
@@ -5133,8 +5166,8 @@ margin:0;
   text-align: center;
   margin:6px 0 0 0;
 }
-.linecaldiv img{
-  height: 30px;
+.linecaldiv img {
+  height: 20px;
 }
 .showing_confirmed.reschedule_divyellow{
   display: block;
@@ -5149,8 +5182,6 @@ margin:0;
   color: #ffffff;
   border: unset;
 }
-
-
 button.swal2-confirm.swal2-styled.swal2-default-outline {
   border-radius: 40px;
   width: 175px;
@@ -5404,4 +5435,115 @@ width:100%;
   height: 17px;
   vertical-align: text-top;
   margin: 0 0 0 11px;
+}
+.time_eventcalender{
+  max-height: 249px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.imgleft_listtab img{
+  height: 59px;
+  object-fit: cover;
+  border-radius: 40px 0 0 40px;
+}
+.padimgzeroleft{
+  padding:0 7px 0 15px;
+}
+.listview{
+background: #C9D7E5;
+border-radius: 40px;
+}
+.listview_show.container{
+  padding:0px;
+}
+.descriplist_tabdiv p{
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+  color: #315D80;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  margin: 0 0 1px 0;
+}
+.descrip_pad{
+  padding:0 7px;
+}
+.descriplist_tabdiv a{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 11px;
+line-height: 9px;
+text-align: center;
+text-transform: capitalize;
+color: #315D80;
+}
+.timings_datalist{
+  display: flex;
+  align-items: baseline;
+}
+.listtab_time p{
+  background: #9B9BB1;
+  border-radius: 42px;
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 3px 10px;
+}
+.listtab_txt p{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+display: flex;
+margin:0 5px;
+text-transform: capitalize;
+color: #315D80;
+}
+.listrow{
+  align-items: center;
+}
+.tenant_imgs .bgtenant_div.slick-active {
+  margin: 29px 0 0 0;
+}
+.tenant_imgs .bgtenant_div.slick-current.slick-active{
+  margin:0;
+}
+.tenant_imgs .bgtenant_div.slick-current.slick-active img {
+  height: 95px;
+  width: 95px;
+  margin: 0px auto 0 auto;
+}
+.tenant_imgs.less_team_div .bgtenant_div.active_person img{
+  height: 95px;
+  width: 95px;
+  margin: 0px auto 0 auto;
+}
+.showings_offerlease .tenant_imgs.less_team_div {
+  align-items: end;
+}
+.bottom_rightdetails.bottomsimilar{
+  position: absolute;
+    bottom: 8px;
+    left: 9px;
+    right:unset
+}
+.bottom_rightdetails.bottomsimilar .galdiv_clr img{
+  height: 11px;
+  width: auto;
+  border-radius:unset;
+  object-fit: unset;
+  margin: 0 2px 0 0px;
+}
+.bottom_rightdetails.bottomsimilar .galdiv_clr{
+  background: #6D6077;
+  border-radius: 20px;
+  padding: 2px 15px 3px 11px;
+  display: flex;
+  align-items: center;
 }
