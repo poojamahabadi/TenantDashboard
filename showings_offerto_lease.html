@@ -150,22 +150,22 @@
 
 <div class="belowpart_tenant showings_offerlease">
 <div class="row">
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-4 bgtenant_div">
-<div class="profimg_div">
-<img src="images/client.svg">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
+<!-- if team less then 4 -->
+<div class="tenant_imgs less_team_div" style="display: none;">
+<div class="bgtenant_div active_person">
+<div class="imgtenant_profile">
+<img src="images/tenant_prof/t1img.svg">
 <div class="status status_green">
 <span></span>
 </div>
 </div>
-<div class="tenant_info leftprofpic">
+<div class="tenant_info">
 <p class="tenant_name">merry smith</p>
 <p class="tenant_no">tenant 1</p>
 </div>
 </div>
-<div class="col-xl-9 col-lg-9 col-md-9 col-sm-8 col-8">
-<div class="tenant_imgs">
-<div class="slick-list">
-<div>
 <div class="bgtenant_div">
 <div class="imgtenant_profile">
 <img src="images/tenant_prof/t1img.svg">
@@ -178,8 +178,53 @@
 <p class="tenant_no">tenant 1</p>
 </div>
 </div>
+
+<div class="bgtenant_div">
+<div class="imgtenant_profile">
+<img src="images/tenant_prof/t1img.svg">
+<div class="status status_green">
+<span></span>
 </div>
-<div>
+</div>
+<div class="tenant_info">
+<p class="tenant_name">merry smith</p>
+<p class="tenant_no">tenant 1</p>
+</div>
+</div>
+
+<div class="bgtenant_div">
+<div class="imgtenant_profile">
+<img src="images/tenant_prof/t1img.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+<div class="tenant_info">
+<p class="tenant_name">merry smith</p>
+<p class="tenant_no">tenant 1</p>
+</div>
+</div>
+</div> 
+<!-- if team less then 4 -->
+
+
+
+<!-- if team more then 4 -->
+<div class="tenant_imgs moreteam_images">
+<div class="slick-list">
+<div class="bgtenant_div">
+<div class="imgtenant_profile">
+<img src="images/tenant_prof/t1img.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+<div class="tenant_info">
+<p class="tenant_name">merry smith</p>
+<p class="tenant_no">tenant 1</p>
+</div>
+</div>
+
 <div class="bgtenant_div">
 <div class="imgtenant_profile">
 <img src="images/tenant_prof/t2img.svg">
@@ -192,8 +237,7 @@
 <p class="tenant_no">tenant 2</p>
 </div>
 </div>
-</div>
-<div>
+
 <div class="bgtenant_div">
 <div class="imgtenant_profile">
 <img src="images/tenant_prof/t3img.svg">
@@ -206,8 +250,7 @@
 <p class="tenant_no">tenant 3</p>
 </div>
 </div>
-</div>
-<div>
+
 <div class="bgtenant_div">
 <div class="imgtenant_profile">
 <img src="images/tenant_prof/t4img.svg">
@@ -219,9 +262,8 @@
 <p class="tenant_name">henry smith</p>
 <p class="tenant_no">tenant 4</p>
 </div>
-</div>
-</div>
-<div>
+</div> 
+
 <div class="bgtenant_div">
 <div class="imgtenant_profile">
 <img src="images/tenant_prof/t5img.svg">
@@ -233,9 +275,8 @@
 <p class="tenant_name">lora smith</p>
 <p class="tenant_no">tenant 5</p>
 </div>
-</div>
-</div>
-<div>
+</div> 
+
 <div class="bgtenant_div">
 <div class="imgtenant_profile">
 <img src="images/tenant_prof/t5img.svg">
@@ -247,9 +288,8 @@
 <p class="tenant_name">lora smith</p>
 <p class="tenant_no">tenant 6</p>
 </div>
-</div>
-</div>
-<div>
+</div> 
+
 <div class="bgtenant_div">
 <div class="imgtenant_profile">
 <img src="images/tenant_prof/t5img.svg">
@@ -261,14 +301,13 @@
 <p class="tenant_name">lora smith</p>
 <p class="tenant_no">tenant 7</p>
 </div>
-</div>
-</div>
+</div> 
 </div>
 <div class="btn-wrap">
 <button class="next-btn"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
 </div>
-</div>
-
+</div> 
+<!-- end of team more then 4 -->
 <div class="add_tenants bgtenant_div">
 <img src="images/showings/showing_lease_offer/add_tenants.svg">
 <div class="tenant_info">
@@ -410,10 +449,25 @@
 <span class="mobhide_unit">my unit</span>
 </div>
 <div class="propfeat_tab offertolease_tab">
-<ul>
+<ul class="mobilesection_hidetabs">
 <li class="active"><a href="javascript:void(0);" class="unit_propfeat leaaeunitmobilr">Unit</a></li>
 <li><a href="javascript:void(0);" class="build_propfeat buildtabmobile">Building </a></li>
 </ul>
+
+<!-- dropdown view mobile -->
+<div class="dropdw_mobileview">
+<div class="dropdown">
+<button class="btn drop_optionlist dropdown-toggle" type="button"  data-toggle="dropdown">
+Unit
+</button>
+<div class="dropdown-menu">
+<a class="dropdown-item unit_propfeat leaaeunitmobilr" href="javascript:void(0);">Unit</a>
+<a class="dropdown-item build_propfeat buildtabmobile" href="javascript:void(0);">Building</a>
+</div>
+</div>
+</div>
+<!-- dropdown view mobile end-->
+
 </div>
 </div>
 
@@ -2373,6 +2427,7 @@ he
 <div class="myinfo_txt">
 <img src="images/showings/showing_lease_offer/mylease.svg"> 
 <span class="desktophide_unit">offer to lease</span>
+<span class="mobilehide_unit">My lease</span>
 </div>
 <div class="account_nolease">
 <button class="btn gv_notice">Give Notice <img src="images/showings/showing_lease_offer/gv_notice.svg"></button>
@@ -4874,14 +4929,14 @@ $(".tenant_imgs .slick-list").slick({
 slidesToShow: 5,
 slidesToScroll: 1,
 arrows: true,
-infinite: false,
+infinite: true,
 autoplay: false,
 responsive: [
 {
 breakpoint: 1500,
 settings: {
 slidesToScroll: 1,
-slidesToShow:4,
+slidesToShow:5,
 }
 },
 {
@@ -4895,14 +4950,21 @@ slidesToScroll: 1,
 breakpoint: 1170,
 settings: {
 slidesToScroll: 1,
+slidesToShow:4,
+}
+},
+{
+breakpoint: 1081,
+settings: {
+slidesToScroll: 1,
 slidesToShow:3,
 }
 },
 {
-breakpoint:820,
+breakpoint:768,
 settings: {
 slidesToScroll: 1,
-slidesToShow:2.7,
+slidesToShow:3,
 }
 },
 {
@@ -4923,7 +4985,35 @@ slidesToShow:3,
 breakpoint:481,
 settings: {
 slidesToScroll: 1,
-slidesToShow:2,
+slidesToShow:3,
+}
+},
+{
+breakpoint:391,
+settings: {
+slidesToScroll: 1,
+slidesToShow:3,
+}
+},
+{
+breakpoint:386,
+settings: {
+slidesToScroll: 1,
+slidesToShow:2.5,
+}
+},
+{
+breakpoint:361,
+settings: {
+slidesToScroll: 1,
+slidesToShow:2.6,
+}
+},
+{
+breakpoint:341,
+settings: {
+slidesToScroll: 1,
+slidesToShow:2.5,
 }
 }
 ]

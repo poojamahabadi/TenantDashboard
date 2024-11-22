@@ -291,19 +291,19 @@ slidesToShow: 1.5,
 }
 },
 {
-    breakpoint: 1367,
-    settings: {
-    slidesToScroll: 1,
-    slidesToShow:1.7,
-    }
-    },
-    {
-        breakpoint: 1025,
-        settings: {
-        slidesToScroll: 1,
-        slidesToShow:1.5,
-        }
-        },
+breakpoint: 1367,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1.7,
+}
+},
+{
+breakpoint: 1025,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1.5,
+}
+},
 {
 breakpoint: 993,
 settings: {
@@ -312,12 +312,12 @@ slidesToShow:1.4,
 }
 },
 {
-    breakpoint:769,
-    settings: {
-    slidesToScroll: 1,
-    slidesToShow:1.7,
-    }
-    },
+breakpoint:769,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1.7,
+}
+},
 {
 breakpoint:641,
 settings: {
@@ -333,12 +333,12 @@ slidesToShow:1.07,
 }
 },
 {
-    breakpoint:350,
-    settings: {
-    slidesToScroll: 1,
-    slidesToShow:1,
-    }
-    }
+breakpoint:350,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1,
+}
+}
 ]
 });
 };
@@ -427,8 +427,10 @@ $(".buildinglease.mobilebuilding .slick-slider").slick('refresh');
 // showing lease offers end
 
 
-
-
+// dropdown
+$(".dropdw_mobileview .drop_optionlist.dropdown-toggle").next(".dropdown-menu").children().on("click", function() {
+$(this).closest(".dropdown-menu").prev(".dropdown-toggle").text($(this).text());
+});
 
 // schedule showings tabs
 $(document).ready(function(){
