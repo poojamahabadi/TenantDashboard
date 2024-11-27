@@ -428,7 +428,7 @@ $(".buildinglease.mobilebuilding .slick-slider").slick('refresh');
 
 
 // dropdown
-$(".dropdw_mobileview .drop_optionlist.dropdown-toggle").next(".dropdown-menu").children().on("click", function() {
+$(".dropdw_mobileview .drop_optionlist.dropdown-toggle[changeable=true]").next(".dropdown-menu").children().on("click", function() {
 $(this).closest(".dropdown-menu").prev(".dropdown-toggle").text($(this).text());
 });
 
@@ -490,4 +490,16 @@ val = $( ".select-box.month select option:selected,.select-box1.year select opti
 
 
 
-
+$('.relv_divevents').hide();
+// showings page pop up effect
+$(document).ready(function() {
+    $('.calview_click').click(function() {
+            $('.relv_divevents').show("500");
+            $(".filterbtnshow").css("visibility","visible");
+            $('.clickonfilterbtn.clkfilmap,.clcross_icon.mapcross').hide("500");
+    });
+    $('.relv_divevents .crossic_cal').click(function() {
+        $('.relv_divevents,.clickonfilterbtn.clkfilmap').hide("500");
+});
+    
+});

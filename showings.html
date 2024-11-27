@@ -964,7 +964,7 @@
   <div class="clickonfilterbtn clkfilmap">
     <div class="bacgr_imagefiltershow">
       <button type="button" class="btn btnallshow">All</button>
-      <button type="button" class="btn btnconfrshow">Calender View</button>
+      <button type="button" class="btn btnconfrshow calview_click">Calender View</button>
     </div>
   </div>
   <img src="images/showings/cross_icon.svg" class="clcross_icon mapcross">
@@ -982,10 +982,10 @@
         <div class="upcoming_eventsdiv">
           <ul class="nav nav-tabs upcom_events">
             <li class="nav-item">
-              <a class="nav-link active" data-toggle="tab" href="#calender_detailview">Calendar View</a>
+              <a class="nav-link calvw" data-toggle="tab" href="#calender_detailview">Calendar View</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#listview_calender">List View</a>
+              <a class="nav-link active listvw" data-toggle="tab" href="#listview_calender">List View </a>
             </li>
           </ul>
         </div>
@@ -997,10 +997,10 @@
 
 <div class="tab-content">
   <div class="filtercalen">
-    <a href="javascript:void(0);">Filter <img src="images/showings/filter_listview.png"></a>
+    <a href="javascript:void(0);">Filter <img src="images/showings/filter_listview.svg"></a>
       </div>
   <!-- calender -->
-<div class="calview_show tab-pane container active" id="calender_detailview">
+<div class="calview_show tab-pane container fade" id="calender_detailview">
   <form>
 <div class="datesel_show">
       <div class="seldatebox">
@@ -1175,12 +1175,12 @@
 <div class="time_eventcalender">
 <div class="timingsnoevents">
 <div class="row">
-  <div class="col-xl-1 timecalenderpad">
+  <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 timecalenderpad">
     <div class="timeeventtxt">
       <p>9:30</p>
     </div>
   </div>
-  <div class="col-xl-11">
+  <div class="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11">
     <div class="line_horizon">
       <hr>
     </div>
@@ -1190,12 +1190,12 @@
 
   <div class="timingsand_events">
     <div class="row">
-      <div class="col-xl-1 timecalenderpad">
+      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 timecalenderpad">
         <div class="timeeventtxt event_num">
           <p><span class="cale_num">10</span> <sub>AM</sub></p>
         </div>
       </div>
-      <div class="col-xl-11">
+      <div class="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11">
         <div class="eventtxtdiv">
           <div class="linewith_eventinfo">
             <hr>
@@ -1211,12 +1211,12 @@
 
 <div class="timingsnoevents">
   <div class="row">
-    <div class="col-xl-1 timecalenderpad">
+    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 timecalenderpad">
       <div class="timeeventtxt">
         <p>10:30</p>
       </div>
     </div>
-    <div class="col-xl-11">
+    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11">
       <div class="line_horizon">
         <hr>
       </div>
@@ -1226,12 +1226,12 @@
   
   <div class="timingsand_events">
     <div class="row">
-      <div class="col-xl-1 timecalenderpad">
+      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 timecalenderpad">
         <div class="timeeventtxt event_num">
           <p><span class="cale_num">11</span> AM</p>
         </div>
       </div>
-      <div class="col-xl-11">
+      <div class="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11">
         <div class="line_horizon">
           <hr>
         </div>
@@ -1241,12 +1241,12 @@
 
 <div class="timingsand_events">
   <div class="row">
-    <div class="col-xl-1 timecalenderpad">
+    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 timecalenderpad">
       <div class="timeeventtxt">
         <p>11:30</p>
       </div>
     </div>
-    <div class="col-xl-11">
+    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11">
       <div class="eventtxtdiv">
         <div class="linewith_eventinfo">
           <hr>
@@ -1262,12 +1262,12 @@
 
 <div class="timingsnoevents">
   <div class="row">
-    <div class="col-xl-1 timecalenderpad">
+    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 timecalenderpad">
       <div class="timeeventtxt">
         <p>12:30</p>
       </div>
     </div>
-    <div class="col-xl-11">
+    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11">
       <div class="line_horizon">
         <hr>
       </div>
@@ -1277,21 +1277,21 @@
 </div>
 </div>
 <!-- end of calender -->
-<div class="listview_show tab-pane container fade" id="listview_calender">
+<div class="listview_show tab-pane container active " id="listview_calender">
   <div class="listview">
     <div class="row listrow">
-      <div class="col-xl-2 padimgzeroleft">
+      <div class="col-xl-2 col-lg-2 padimgzeroleft">
         <div class="imgleft_listtab">
           <img src="images/myinfo/showimg1.svg">
         </div>
       </div>
-      <div class="col-xl-4 descrip_pad">
+      <div class="col-xl-4 col-lg-4 descrip_pad">
         <div class="descriplist_tabdiv">
           <p>1241-123 Main Street Niagara falls, Ontario L3C 0K2</p>
           <a href="">View details</a>
         </div>
       </div>
-      <div class="col-xl-4 descrip_pad">
+      <div class="col-xl-4 col-lg-4 descrip_pad">
         <div class="timings_datalist">
           <div class="listtab_time">
                 <p>10 <sub>AM</sub></p>
@@ -1304,7 +1304,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-2 descrip_pad">
+      <div class="col-xl-2 col-lg-2 descrip_pad">
         <div class="listdate_show">
           <p>
             <img src="images/cal.svg"> <span>14/06/2024</span>
@@ -1316,18 +1316,18 @@
 
   <div class="listview">
     <div class="row listrow">
-      <div class="col-xl-2 padimgzeroleft">
+      <div class="col-xl-2 col-lg-2 padimgzeroleft">
         <div class="imgleft_listtab">
           <img src="images/myinfo/showimg1.svg">
         </div>
       </div>
-      <div class="col-xl-4 descrip_pad">
+      <div class="col-xl-4 col-lg-4 descrip_pad">
         <div class="descriplist_tabdiv">
           <p>1241-123 Main Street Niagara falls, Ontario L3C 0K2</p>
           <a href="">View details</a>
         </div>
       </div>
-      <div class="col-xl-4 descrip_pad">
+      <div class="col-xl-4 col-lg-4 descrip_pad">
         <div class="timings_datalist">
           <div class="listtab_time">
                 <p>10:45 <sub>AM</sub></p>
@@ -1340,7 +1340,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-2 descrip_pad">
+      <div class="col-xl-2 col-lg-2 descrip_pad">
         <div class="listdate_show">
           <p>
             <img src="images/cal.svg"> <span>14/06/2024</span>
@@ -1364,6 +1364,7 @@
 
 
 
+</div>
 </div>
 </div>
 </div>

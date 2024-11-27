@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Showing Scan</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+    <!-- datepicker styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="l-header">
+    <div class="l-header__inner clearfix">
+    <div class="c-header-icon desktopversion_search">
+    <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    <div class="logo">
+    <div class="logo__txt">
+    <a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+    <div class="mobileversion_view">
+    <a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+    </div>
+    </div>
+    </div>
+    
+    <div class="c-search desktopversion_search">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    
+    <div class="mobileversion_view txt_heading">
+    <h3>Offer to lease </h3>
+    </div>
+    
+    <div class="links">
+    <ul>
+    <li class="phone desktopversion_search"> <a href="">
+    <img src="images/phone.svg"></a>
+    <div class="count_phone">
+    <span>4</span>
+    </div>
+    </li>
+    <li class="comment desktopversion_search"> <a href="">
+    <img src="images/comment.svg"></a>
+    <div class="count_comment">
+    <span>5</span>
+    </div>
+    </li>
+    <li class="email desktopversion_search"> <a href="">
+    <img src="images/email.svg"></a>
+    <div class="count_email">
+    <span>6</span>
+    </div>
+    </li>
+    <li class="notify"> <a href="">
+    <img src="images/notify.svg"></a>
+    <div class="count_notify">
+    <span>30</span>
+    </div>
+    </li>
+    </ul>
+    </div>
+    
+    <div class="c-header-icon mobileversion_view">
+    <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </header>
+    
+    
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="topsec_menu">
+    <div class="profilepic">
+    <img src="images/menu/profilemenu.svg">
+    <div class="status status_green">
+    <span></span>
+    </div>
+    </div>
+    <div class="profiledetails">
+    <p>Mae Coleman <small>Tenant</small></p>
+    <a href="">View Profile</a>
+    </div>
+    <div class="menu_scanicon">
+    <img src="images/menu/menu_scan.svg">
+    </div>
+    </div>
+    <div class="c-search menusearch">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    <div class="menu_nav">
+    <a href="myinformation.html">  <img src="images/menu/my_info.svg"> My Information</a>
+    <a href="#">  <img src="images/menu/communication.svg"> Communications</a>
+    <a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+    <a href="showings.html" class="active">  <img src="images/menu/showings.svg"> showings & offers</a>
+    <a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+    <a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+    <a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+    <a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+    <a href="#">  <img src="images/menu/scanqr.svg"> Scan QR Code</a>
+    <div class="logoutsec">
+    <div>
+    <a href="javascript:void(0);">Logout</a>
+    </div>
+    <div>
+    <button class="btn upgrade_btn">Upgrade</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    
+<main class="l-main">
+<div class="content-wrapper content-wrapper--with-bg">
+<div class="container-fluid">
+    <div class="step_sharebg">
+        <div class="leftarrow_stepshow">
+           <button type="button" class="btn"><img src="images/showings/showing_lease_offer/step/left_arrowstep.svg"></button> 
+        </div>
+        <div class="upperdiv_details">
+        <div class="img_step">
+            <img src="images/showings/showing_lease_offer/step/stepbg.svg">
+            <div class="toprightstep_heart">
+                <img src="images/showings/showing_lease_offer/step/heart_grey.svg">
+            </div>
+            <div class="details_slider detailbedshower_div">
+                <div class="bed_details bed_details_step">
+                <img src="images/showings/slider/bed.svg">
+                <p>03</p>
+                </div>
+                <div class="shower_details shower_details_step">
+                <img src="images/showings/slider/shower.svg">
+                <p>02</p>
+                </div>
+            </div>
+            <div class="bottom_rightdetails bottomrght_gallery">
+                <a href="#">
+                    <span class="galdiv_clr">
+                        <img src="images/showings/slider/gallery.svg"> <span>17</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="padd_divstep">
+            <div class="ratediv_aprtmt">
+                <div class="rateaprt_txt">
+                    <h3>$1,500/mo </h3>
+                </div>
+                <div class="offimg_step">
+                    <p><img src="images/showings/showing_lease_offer/step/apartment.svg">Apartment</p>
+                </div>
+            </div>
+            <hr/>
+            <div class="descrip_txt_step">
+                <p>95 West Street, Toronto, Ontario M3C 1T5 </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="leave_request_offer scanning_div">
+        <div class="option_share">
+            <div class="reqoffer_bg">
+                <h3>Mae Colman would like to add you to an Offer to Lease: </h3>
+            </div>
+            <div class="req_bodydiv">
+  
+                <div class="flx_cssstep">
+                            <div class="address_div">
+                                <div class="label_addrtxt">
+                                    <p>Rent Amount</p>
+                                </div>
+                                <div class="details_contenttxt">
+                                    <p>$1,500.00 per month</p>
+                                </div>
+                            </div>
+                            <div class="rent_amtdiv">
+                                <div class="label_addrtxt">
+                                    <p>Move-in Date</p>
+                                </div>
+                                <div class="details_contenttxt">
+                                    <p>November 1, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="mv_date scanaddr_div">
+                            <div class="datedescrip">
+                                <div class="label_addrtxt">
+                                    <p>Address</p>
+                                </div>
+                                <div class="details_contenttxt">
+                                    <p>123 Main Street, Toronto, Ontario M3C 1T5</p>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="btm_descrip_txt">
+                                <p><span class="redclr_clckblw">Please click Below</span> to accept the invitation, and it will be added to your profile.</p>
+                            </div>
+
+                            <div class="decl_confirm_div">
+                                <button class="btn btn_Decline">Decline <img src="images/showings/showing_lease_offer/step/decline_img.svg"></button>
+                                <button class="btn btn_Confirm">Confirm <img src="images/showings/showing_lease_offer/step/confirm_img.svg"></button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</main>
+
+
+   <!-- mobileview menu -->
+   <div class="downarrow">
+    <a href="javascript:void(0);"><img src="images/new_arrow.svg"></a>
+   </div>
+  
+  <div class="container-fluid btmmenu">
+    <div class="flex_menubottom">
+    <div class="dash">
+    <a href="">
+    <img src="images/dashboard.svg">
+    <p>Dashboard</p>
+    </a> 
+    </div>
+    <div class="commu">
+    <a href="">
+    <img src="images/communication.svg">
+    <p>Communication</p>
+    </a>
+    </div>
+    <div class="maint">
+    <a href="">
+    <img src="images/maintenance.svg">
+    <p>Maintenance</p>
+    </a>
+    </div>
+    <div class="rent">
+    <a href="">
+    <img src="images/rentals.svg">
+    <p>Rentals</p>
+    </a>
+    </div>
+    </div>
+    </div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--  slick js -->
+  <script src="js/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+  </html>
