@@ -347,96 +347,209 @@
 </div>
 </div>
 
-<div class="row">
-<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
 
 
 <!-- mobile view -->
 <div class="myteam_mobileview">
 <div class="my_teamdiv myleaseteam_flex">
-<div class="row leasflx_team">
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 leaseflex">
-<div class="teamtxt">
-<h3>my team</h3>
-</div>
-</div>
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 leaseflex">
-<div class="team_memname">
-<div class="prof_img">
-<img src="images/lease/t1.svg">
-</div>  
-<div class="prof_name">
-<p>jack smith</p>
-<p>property manager</p>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 leaseflex">
-<div class="team_memname">
-<div class="prof_img">
-<img src="images/lease/t2.svg">
-</div>  
-<div class="prof_name">
-<p>mark dega</p>
-<p>leasing agent</p>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 leaseflex">
-<div class="btnappoint">
-<button class="btn btn_appoint mobilebook">book appointment</button>
-</div>
-</div>
-</div>
 
 
-<div class="bkappontbtn" id="bk_aptmobile">
-<div class="bookappnt_divabs">
-<div class="repres_div">
-<div class="label">Representative </div>
-<div class="inputselect_div">
-<select class="selectrespres">
-<option class="test" data-thumbnail="images/profilemenu.png">Leasing Agent - Mark Dega</option>
-<option class="test" data-thumbnail="images/profilemenu.png">Leasing Agent </option>
-<option class="test" data-thumbnail="images/profilemenu.png">Leasing Agent - Mark Dega</option>
-<option class="test" data-thumbnail="images/profilemenu.png">Leasing Agent - Mark Dega</option>      
-</select>
+    <!-- purple color header-->
+    <div class="purple_appoint">
+        <div class="appt_headtxt">
+            <h3>my appointment</h3>
+        </div>
+        <div class="confrm_div purpl_btn">
+          <span class="span_start">auto cancels:</span>
+          <span>2hr 29min</span>
+        </div>
+    </div>
+    <div class="bgclr_mobappt">
+        <div class="row align_appointdivflex">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                <div class="appt_divflex">
+                    <div class="myappoint_img">
+                        <div class="imgtenant_profile">
+                            <img src="images/tenant_prof/t1img.svg">
+                            <div class="status status_green">
+                            <span></span>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="tenant_name">mark</p>
+                        </div>
+                    </div>
+                    <div class="myappoint_img">
+                        <div class="imgtenant_profile myappoint_imgprof offlstat">
+                            <img src="images/tenant_prof/t1img.svg">
+                            <div class="status status_grey">
+                            <span></span>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="tenant_name">Mae </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+                <div class="offr_lease_appmt">
+                    <div class="showtime">
+                        <div class="timelabel">
+                        <span><img src="images/showings/showing_lease_offer/appointment_clock.svg">time</span>
+                        </div>
+                        <div class="timeinfo">
+                        <span>08:45 AM</span>
+                        </div>
+                    </div>
+    
+                    <div class="showdate">
+                        <div class="datelabel">
+                        <span><img src="images/showings/showing_lease_offer/appointment_date.svg">date</span>
+                        </div>
+                        <div class="dateinfo">
+                        <span>10/02/2024</span>
+                        </div>
+                        </div>
+                </div>
+                <div class="confr_reschbtns">
+                    <button class="btn appt_confirm">Confirm </button>
+                    <button class="btn resche_btnappt rescappt_clickbtn" type="button">
+                        Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
+                   </button>
+                </div>
+            </div>
+        </div>
 
-<div class="lang-select">
-<button class="btn-select" value=""></button>
-<div class="selectdiv_representative">
-<ul id="select_listrepresmobile"></ul>
-</div>
-</div>
-</div>
-</div>
-<div class="meet_timediv">
-<div class="label_meet">Meeting time</div>
-<div class="meet_inputtime show-input input-group">
-<input type="text" name="time"> 
-<div class="input-group-append">
-<button class="btn"><img src="images/showings/showing_lease_offer/clock_time.svg"></button>
-</div>
-</div>
-</div>
-<div class="meet_datediv">
-<div class="label_meet">Meeting date</div>
-<div class="meet_inputdate date input-group">
-<input type="text" value="10/02/2024" class="form-control" id="meet_date">
-<div class="input-group-append">
-<span class="input-group-text">
-<img src="images/showings/date_icon.svg">
-</span>
-</div>
-</div>
-</div>
+        <div class="popup_reschedule_btnofferlease">
+            <div class="row">
+            <div class="col-xl-12">
+              <form>
+              <div class="reschedule_divdropdown btnresched rescapptm_div">
+                  <div class="resch_time">
+                    <div class="label_txtreschedule">
+                      <label>showing time</label>
+                    </div>
+                    <div class="input_reschedule">
+                      <input type="text" class="form-control" value="08:45 AM" tabindex="0">
+                    </div>
+                  </div>
+                  <div class="resch_date">
+                    <div class="label_txtreschedule">
+                      <label>showing date</label>
+                    </div>
+                    <div class="input_reschedule">
+                      <div class="form-group">
+                        <div class="datepickershowing date input-group">
+                          <input type="text" value="10/02/2024" class="form-control" id="fecha1" tabindex="0">
+                          <div class="input-group-append">
+                            <span class="input-group-text">
+                              <img src="images/showings/date_icon.svg">
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="two_buttonsscheduleaptm">
+                    <button class="btn canc_aptm" tabindex="0">cancel appointment</button>
+                    <button class="btn confaptm_resch" tabindex="0">Confirm Reschedule  </button>
+                  </div>
+              </div>
+            </form>
+            </div>
+            </div>
+            </div>
+    </div>
+    <!-- purple color header end -->
 
-</div>
-<div class="sched_meeting">
-<button class="btn">Schedule Meeting</button>
-</div>
-</div>
+    <!-- green color confirmed header-->
+    <div class="purple_appoint greenappoint">
+        <div class="appt_headtxt">
+            <h3>appointment Confirmed</h3>
+        </div>
+        <div class="confrm_div purpl_btn">
+          <span class="span_start">starts:</span>
+          <span>1hr 29min</span>
+        </div>
+    </div>
+    <div class="bgclr_mobappt confrmbacgclr">
+        <div class="row align_appointdivflex">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                <div class="appt_divflex">
+                    <div class="myappoint_img">
+                        <div class="imgtenant_profile">
+                            <img src="images/tenant_prof/t1img.svg">
+                            <div class="status status_green">
+                            <span></span>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="tenant_name">mark</p>
+                        </div>
+                    </div>
+                    <div class="myappoint_img">
+                        <div class="imgtenant_profile myappoint_imgprof offlstat">
+                            <img src="images/tenant_prof/t1img.svg">
+                            <div class="status status_grey">
+                            <span></span>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="tenant_name">Mae </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+                <div class="offr_lease_appmt">
+                    <div class="showtime">
+                        <div class="timelabel">
+                        <span><img src="images/showings/showing_lease_offer/appointment_clock.svg">time</span>
+                        </div>
+                        <div class="timeinfo">
+                        <span>08:45 AM</span>
+                        </div>
+                    </div>
+    
+                    <div class="showdate">
+                        <div class="datelabel">
+                        <span><img src="images/showings/showing_lease_offer/appointment_date.svg">date</span>
+                        </div>
+                        <div class="dateinfo">
+                        <span>10/02/2024</span>
+                        </div>
+                        </div>
+                </div>
+    
+    <!-- confirmed appointment -->
+    <div class="appt_confirm_join">
+    <div class="join_div">
+        <p>Join Via</p>
+    </div>
+    <div class="divider_appoint"></div>
+    <div class="phone_apt">
+       <a href="javascript:void(0);"><img src="images/showings/showing_lease_offer/phone_appoint.svg"></a> 
+    </div>
+    <div class="divider_appoint"></div>
+    <div class="video_apt">
+        <a href="javascript:void(0);"><img src="images/showings/showing_lease_offer/video_appoint.svg"></a> 
+    </div>
+    </div>
+    <!-- confirmed appointment end-->
+            </div>
+        </div>
+    </div>
+    <!-- green color confirmed header end -->
 
+
+
+<!-- reschedule appointment text -->
+<div class="resch_txtdiv">
+    <p>Reschedule appointment</p>
+</div>
+<!-- reschedule appointment end -->
 </div>
 
 <!-- my unit -->
@@ -2860,8 +2973,7 @@ send reminder</span>
 </div>
 <!-- end of mobile view -->
 
-</div>
-</div>
+
 
 
 
@@ -2872,89 +2984,210 @@ send reminder</span>
 
 
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 padlease_width mobwidth_offerleasse">
-<div class="my_teamdiv myleaseteam_flex">
-<div class="row">
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 leaseflex">
-<div class="teamtxt">
-<h3>my team</h3>
+<div class="desktop_versappointment">
+    <div class="my_teamdiv myleaseteam_flex">
+        <!-- purple color header-->
+        <div class="purple_appoint">
+            <div class="appt_headtxt">
+                <h3>my appointment</h3>
+            </div>
+            <div class="confrm_div purpl_btn">
+              <span class="span_start">auto cancels:</span>
+              <span>2hr 29min</span>
+            </div>
+        </div>
+        <div class="bgclr_mobappt">
+            <div class="row align_appointdivflex">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="appt_divflex">
+                        <div class="myappoint_img">
+                            <div class="imgtenant_profile">
+                                <img src="images/tenant_prof/t1img.svg">
+                                <div class="status status_green">
+                                <span></span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="tenant_name">mark</p>
+                            </div>
+                        </div>
+                        <div class="myappoint_img">
+                            <div class="imgtenant_profile myappoint_imgprof offlstat">
+                                <img src="images/tenant_prof/t1img.svg">
+                                <div class="status status_grey">
+                                <span></span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="tenant_name">Mae </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="offr_lease_appmt">
+                        <div class="showtime">
+                            <div class="timelabel">
+                            <span><img src="images/showings/showing_lease_offer/appointment_clock.svg">time</span>
+                            </div>
+                            <div class="timeinfo">
+                            <span>08:45 AM</span>
+                            </div>
+                        </div>
+        
+                        <div class="showdate">
+                            <div class="datelabel">
+                            <span><img src="images/showings/showing_lease_offer/appointment_date.svg">date</span>
+                            </div>
+                            <div class="dateinfo">
+                            <span>10/02/2024</span>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="confr_reschbtns">
+                        <button class="btn appt_confirm">Confirm </button>
+                        <button class="btn resche_btnappt rescappt_clickbtn" type="button">
+                            Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
+                       </button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="popup_reschedule_btnofferlease">
+                <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <form>
+                  <div class="reschedule_divdropdown btnresched rescapptm_div">
+                      <div class="resch_time">
+                        <div class="label_txtreschedule">
+                          <label>showing time</label>
+                        </div>
+                        <div class="input_reschedule">
+                          <input type="text" class="form-control" value="08:45 AM" tabindex="0">
+                        </div>
+                      </div>
+                      <div class="resch_date">
+                        <div class="label_txtreschedule">
+                          <label>showing date</label>
+                        </div>
+                        <div class="input_reschedule">
+                          <div class="form-group">
+                            <div class="datepickershowing date input-group">
+                              <input type="text" value="10/02/2024" class="form-control" id="fecha1" tabindex="0">
+                              <div class="input-group-append">
+                                <span class="input-group-text">
+                                  <img src="images/showings/date_icon.svg">
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="two_buttonsscheduleaptm">
+                        <button class="btn canc_aptm" tabindex="0">cancel appointment</button>
+                        <button class="btn confaptm_resch" tabindex="0">Confirm Reschedule  </button>
+                      </div>
+                  </div>
+                </form>
+                </div>
+                </div>
+                </div>
+        </div>
+        <!-- purple color header end -->
+    
+        <!-- green color confirmed header-->
+        <div class="purple_appoint greenappoint">
+            <div class="appt_headtxt">
+                <h3>appointment Confirmed</h3>
+            </div>
+            <div class="confrm_div purpl_btn">
+              <span class="span_start">starts:</span>
+              <span>1hr 29min</span>
+            </div>
+        </div>
+        <div class="bgclr_mobappt confrmbacgclr">
+            <div class="row align_appointdivflex">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="appt_divflex">
+                        <div class="myappoint_img">
+                            <div class="imgtenant_profile">
+                                <img src="images/tenant_prof/t1img.svg">
+                                <div class="status status_green">
+                                <span></span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="tenant_name">mark</p>
+                            </div>
+                        </div>
+                        <div class="myappoint_img">
+                            <div class="imgtenant_profile myappoint_imgprof offlstat">
+                                <img src="images/tenant_prof/t1img.svg">
+                                <div class="status status_grey">
+                                <span></span>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="tenant_name">Mae </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="offr_lease_appmt">
+                        <div class="showtime">
+                            <div class="timelabel">
+                            <span><img src="images/showings/showing_lease_offer/appointment_clock.svg">time</span>
+                            </div>
+                            <div class="timeinfo">
+                            <span>08:45 AM</span>
+                            </div>
+                        </div>
+        
+                        <div class="showdate">
+                            <div class="datelabel">
+                            <span><img src="images/showings/showing_lease_offer/appointment_date.svg">date</span>
+                            </div>
+                            <div class="dateinfo">
+                            <span>10/02/2024</span>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+        <!-- confirmed appointment -->
+        <div class="appt_confirm_join">
+            <div class="join_div">
+                <p>Join Via</p>
+            </div>
+            <div class="divider_appoint"></div>
+            <div class="phone_apt">
+               <a href="javascript:void(0);"><img src="images/showings/showing_lease_offer/phone_appoint.svg"></a> 
+            </div>
+            <div class="divider_appoint"></div>
+            <div class="video_apt">
+                <a href="javascript:void(0);"><img src="images/showings/showing_lease_offer/video_appoint.svg"></a> 
+            </div>
+            </div>
+            <!-- confirmed appointment end-->
 </div>
-</div>
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 leaseflex">
-<div class="team_memname">
-<div class="prof_img">
-<img src="images/lease/t1.svg">
-</div>  
-<div class="prof_name">
-<p>jack smith</p>
-<p>property manager</p>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 leaseflex">
-<div class="team_memname">
-<div class="prof_img">
-<img src="images/lease/t2.svg">
-</div>  
-<div class="prof_name">
-<p>mark dega</p>
-<p>leasing agent</p>
-</div>
-</div>
-</div>
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 leaseflex">
-<div class="btnappoint">
-<button class="btn btn_appoint desktopbook">book appointment</button>
-</div>
-</div>
-</div>
+            </div>
+        </div>
+        <!-- green color confirmed header end -->
+    
+    
+    
+    <!-- reschedule appointment text -->
+    <div class="resch_txtdiv">
+        <p>Reschedule appointment</p>
+    </div>
+    <!-- reschedule appointment end -->
+    </div>
 
 
-<div class="bkappontbtn" id="bk_apt">
-<div class="bookappnt_divabs">
-<div class="repres_div">
-<div class="label">Representative </div>
-<div class="inputselect_div">
-<select class="selectrespres">
-<option class="test" data-thumbnail="images/profilemenu.png">Leasing Agent - Mark Dega</option>
-<option class="test" data-thumbnail="images/profilemenu.png">Leasing Agent </option>
-<option class="test" data-thumbnail="images/profilemenu.png">Leasing Agent - Mark Dega</option>
-<option class="test" data-thumbnail="images/profilemenu.png">Leasing Agent - Mark Dega</option>      
-</select>
-
-<div class="lang-select">
-<button class="btn-select" value=""></button>
-<div class="selectdiv_representative">
-<ul id="select_listrepres"></ul>
-</div>
-</div>
-</div>
-</div>
-<div class="meet_timediv">
-<div class="label_meet">Meeting time</div>
-<div class="meet_inputtime show-input input-group">
-<input type="text" name="time"> 
-<div class="input-group-append">
-<button class="btn"><img src="images/showings/showing_lease_offer/clock_time.svg"></button>
-</div>
-</div>
-</div>
-<div class="meet_datediv">
-<div class="label_meet">Meeting date</div>
-<div class="meet_inputdate date input-group">
-<input type="text" value="10/02/2024" class="form-control" id="meet_date">
-<div class="input-group-append">
-<span class="input-group-text">
-<img src="images/showings/date_icon.svg">
-</span>
-</div>
-</div>
-</div>
-
-</div>
-<div class="sched_meeting">
-<button class="btn">Schedule Meeting</button>
-</div>
-</div>
 
 </div>
 
@@ -5025,7 +5258,7 @@ send reminder</span>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 <script src="js/jquery-clockpicker.min.js"></script>

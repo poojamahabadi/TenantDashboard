@@ -166,14 +166,14 @@ $(".filterbtnshow").css("visibility","visible");
 
 
 
-$(".clcross_icon,.clickonfilterbtn").hide();
+$(".scheshow_flex .clcross_icon,.scheshow_flex .clickonfilterbtn").hide();
 $(document).ready(function() {
 $(".filter_click").click(function(){
-$(".clickonfilterbtn,.clcross_icon").show();
+$(".scheshow_flex .clickonfilterbtn,.scheshow_flex .clcross_icon").show();
 }); 
 
-$(".clcross_icon").click(function(){
-$(".clickonfilterbtn,.clcross_icon").hide();
+$(".scheshow_flex .clcross_icon").click(function(){
+$(".scheshow_flex .clickonfilterbtn,.scheshow_flex .clcross_icon").hide();
 }); 
 });
 
@@ -255,6 +255,24 @@ $(".resch_clk").click(function(){
 $(".popup_reschedule_btn").slideToggle();
 }); 
 });
+
+// reschedule button click my appointment offer to lease
+$(".popup_reschedule_btnofferlease").hide();
+$(document).ready(function() {
+$(".rescappt_clickbtn").click(function(){
+$(".popup_reschedule_btnofferlease").slideToggle();
+$(this).toggleClass("padchange_btn");
+}); 
+});
+
+
+
+
+
+
+
+
+
 
 $(".resche_yellowcard").hide();
 $(document).ready(function() {

@@ -4378,7 +4378,8 @@ content: url("../images/showings/slider/g4.svg");
 content: url("../images/showings/slider/g6.svg");
 }
 .buttons_map .btn.nightbtn.active img{
-/*content: url("../images/showings/slider/g8.svg");*/
+content: url("../images/showings/slider/g8.svg");
+height: 10px;
 }
 .buttons_map .btn.active.grocery img{
 content: url("../images/showings/slider/groce.svg");
@@ -6110,3 +6111,227 @@ flex-basis: 74%;
     text-transform: capitalize;
     border:unset;
 }
+
+/* offer to lease showing my appointment */
+
+.bgclr_mobappt{
+    background-color: #7F7E92;
+    padding: 21px 13px;
+    border-radius: 0 0 30px 30px;
+    position: relative;
+}
+.greenappoint .purpl_btn .span_start {
+    color: #9BB997;
+    font-size: 13px;
+}
+.greenappoint .confrm_div.purpl_btn span:nth-child(2){
+    color:#ffffff;
+}
+.purple_appoint.greenappoint {
+    background: #9BB997;
+    margin: 1em 0 0 0;
+}
+.myteam_mobileview .my_teamdiv.myleaseteam_flex,.desktop_versappointment .my_teamdiv.myleaseteam_flex{
+    padding:0px;
+    background-color: unset;
+}
+.purple_appoint {
+    background: #54526B;
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.appt_headtxt h3{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0;
+}
+.appt_divflex .status {
+    bottom: 15px;
+    right: 8px;
+}
+.purpl_btn .span_start{
+color:#F2727F;
+font-size: 13px;
+}
+.confrm_div.purpl_btn span:nth-child(2) {
+color:#F2727F;
+font-size: 14px;
+margin: 0 0 0 4px;
+}
+.myappoint_img .imgtenant_profile img {
+    height: 74px;
+    width: 74px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: #635B76;
+    box-shadow: inset 4px 5px 5px rgba(57, 124, 238, 0.06);
+    padding: 5px;
+}
+.bgclr_mobappt .align_appointdivflex{
+    align-items: center;
+}
+.bgclr_mobappt.confrmbacgclr{
+    border-radius: 0px;
+}
+.myappoint_img{
+    margin: 0 -10px 0 0px;
+}
+.appt_divflex{
+    display: flex;
+     margin: -10px 0 0 0;
+}
+.appt_divflex p.tenant_name {
+    color: #ffffff;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: capitalize;
+    margin: 6px 0 0 0;
+    text-align: center;
+}
+.offr_lease_appmt .timelabel,.offr_lease_appmt .timeinfo,
+.offr_lease_appmt .datelabel,.offr_lease_appmt .dateinfo {
+    justify-content: flex-start;
+}
+.offr_lease_appmt .timelabel span img,.offr_lease_appmt .datelabel span img {
+    height: 15px;
+    margin-right: 9px;
+}
+.offr_lease_appmt .timelabel span,.offr_lease_appmt .timeinfo span,
+.offr_lease_appmt .datelabel span,.offr_lease_appmt .dateinfo span {
+    color: #ffffff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.offr_lease_appmt .showtime {
+    margin: 0px 0 14px 0;
+}
+.btn.appt_confirm{
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+background: #9BB997;
+}
+.btn.appt_confirm,.btn.resche_btnappt{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-radius: 40px;
+    padding: 5px 11px;
+    border: unset;
+}
+.btn.resche_btnappt{
+background: #F2727F;
+}
+
+.confr_reschbtns{
+    text-align: right;
+    margin: -17px 10px 0 0px;
+}
+.appt_confirm_join{
+    display: flex;
+    justify-content: end;
+    margin: -13px 11px 0 0;
+}
+.join_div p{
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+.join_div, .phone_apt, .video_apt {
+    margin: 0 10px;
+}
+.video_apt{
+    margin-right: 0;
+}
+.video_apt img{
+    height: 13px;
+}
+.phone_apt img {
+    height: 16px;
+}
+.divider_appoint:before {
+    content: '';
+    display: flex;
+    width: 4px;
+    height: 30px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    margin: 0px 9px 0 0;
+    background: #74738C;
+}
+.resch_txtdiv p{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #7F7E92;
+    margin: 0;
+}
+.resch_txtdiv{
+    background: #54526B;
+    border-radius: 0px 0px 25px 25px;
+    padding: 8px 20px;
+    text-align: center;
+}
+.popup_reschedule_btnofferlease .reschedule_divdropdown {
+    background: #EDF2FA;
+    outline: 5px solid #F2727F;
+}
+.two_buttonsscheduleaptm{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.btn.canc_aptm {
+    background: #F2727F;
+}
+.btn.confaptm_resch {
+    background: #9BB997;
+}
+.btn.confaptm_resch, .btn.canc_aptm {
+    font-family: 'Helvetica';
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-radius: 40px;
+    letter-spacing: 0.7px;
+    padding: 3px 12px;
+}
+.popup_reschedule_btnofferlease{
+    position: relative;
+}
+.desktop_versappointment .reschedule_divdropdown.btnresched.rescapptm_div {
+    top: -31px;
+    left: unset;
+    right: 20px;
+    width: 90%;
+    border-radius: 14px 0px 14px 14px;
+    padding: 8px 16px;
+}
+.btn.resche_btnappt.padchange_btn{
+    border-radius: 40px 40px 0px 40px;
+}
+.myappoint_img .imgtenant_profile.offlstat img{
+    background: #3E6B8E;
+    }
+/* offer to lease showing my appointment end*/

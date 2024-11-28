@@ -99,9 +99,6 @@ font-size: 13px;
 .myleaseteam_flex .btnappoint{
 text-align: right;
 }
-.my_teamdiv.myleaseteam_flex {
-padding: 12px 18px 12px 18px;
-}
 .teamtxt {
 text-align: left;
 }
@@ -159,22 +156,22 @@ margin: 9em 0 0em 0;
 /*end of schedule showing*/
 /* showings page */
 .clickonfilterbtn.calenderview_filter .bacgr_imagefiltershow {
-    margin: 49px auto 0 8px;
+margin: 49px auto 0 8px;
 }
 .clickonfilterbtn.calenderview_filter {
-    right: -188px;
+right: -188px;
 }
 .calenderview_div {
-    max-height: 499px;
+max-height: 499px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 40%;
+width: 40%;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 54px auto 0 15px;
+margin: 54px auto 0 15px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 21%;
+width: 21%;
 }
 .calenderview_div {
 width: 71.4%;
@@ -315,11 +312,11 @@ margin-left: 32px;
 /*end of schedule showings*/
 /* showings */
 .clickonfilterbtn.calenderview_filter {
-    right: -138px;
+right: -138px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 27%;
-    right: -8px;
+width: 27%;
+right: -8px;
 }
 .clickonfilterbtn.clkfilmap {
 height: 131px;
@@ -408,11 +405,11 @@ margin: -88px 0 0 0;
 /* end of schedule showings */
 /* showings */
 .clickonfilterbtn.calenderview_filter {
-    right: -156px;
+right: -156px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 28%;
-    right: -7px;
+width: 28%;
+right: -7px;
 }
 /* end of showings */
 
@@ -509,15 +506,15 @@ margin-left: 86px;
 /* end of schedule showings */
 /* showings */
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 30%;
-    right: -3px;
+width: 30%;
+right: -3px;
 }
 .clickonfilterbtn.calenderview_filter {
-    right: -147px;
+right: -147px;
 }
 .calenderview_div {
-    width: 85.4%;
-    left: 7%;
+width: 85.4%;
+left: 7%;
 }
 .clickonfilterbtn {
 right: -10px;
@@ -573,9 +570,9 @@ left: -3px;
 
 
 @media only screen and (max-width: 1366px){
-    .calenderview_div {
-        max-height: 499px;
-    }
+.calenderview_div {
+max-height: 499px;
+}
 /* offer to lease */
 .showings_offerlease .tenant_imgs .btn-wrap {
 top: 32%;
@@ -694,14 +691,14 @@ max-width: 90%;
 /* end of schedule showings */
 /* showings */
 .clickonfilterbtn.calenderview_filter {
-    right: -141px;
+right: -141px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 31%;
-    right: -2px;
+width: 31%;
+right: -2px;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 44px auto 0 18px;
+margin: 44px auto 0 18px;
 }
 .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn,
 .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn{
@@ -778,8 +775,8 @@ padding: 0 8px;
 @media only screen and (max-width: 1280px){
 /* showings step and scan design */
 .step_sharebg {
-    width: 48%;
-    margin: 10em auto 3em auto;
+width: 48%;
+margin: 10em auto 3em auto;
 }
 /* end of showing step and scan design */
 /* showing offer to lease */
@@ -890,14 +887,14 @@ margin: -95px 0 0 0;
 
 /* showings */
 .clickonfilterbtn.calenderview_filter {
-    right: -127px;
+right: -127px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 35%;
-    right: -2px;
+width: 35%;
+right: -2px;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 47px auto 0 18px;
+margin: 47px auto 0 18px;
 }
 .listdate_show p img{
 vertical-align: baseline;
@@ -1193,27 +1190,27 @@ top: 34px;
 /* end of schedule showings */
 /* showing page */
 .clickonfilterbtn.calenderview_filter {
-    right: -115px;
+right: -115px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 39%;
-    right: -10px;
+width: 39%;
+right: -10px;
 }
 .movviewbgcolrscheduleoffr .confrm_div > img {
-    display: block;
-    height: 20px;
+display: block;
+height: 20px;
 }
 .showingssec_infodiv .confirmshow_divyellow .span_start {
-    font-size: 10px;
+font-size: 10px;
 }
 .confrm_div span:nth-child(2) {
-    font-size: 11px;
+font-size: 11px;
 }
 .showingssec_infodiv .confrm_div p {
-    font-size: 11px;
+font-size: 11px;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 48px auto 0 15px;
+margin: 48px auto 0 15px;
 }
 .filter_click img{
 height: 22px;
@@ -1316,10 +1313,10 @@ font-size: 15px;
 font-size: 12px;
 }
 .calenderview_div {
-    top: 127px;
+top: 127px;
 }
 .logo__txt a img {
-    height: 60px;
+height: 60px;
 }
 /* showings offer to lease */
 .showings_offerlease .bgtenant_div .imgtenant_profile .status {
@@ -1526,16 +1523,16 @@ margin: 11px 0px 0 14px;
 /* end of schedule showings */
 /* showings */
 .clickonfilterbtn.calenderview_filter {
-    right: -71px;
+right: -71px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 36%;
+width: 36%;
 }
 .span_start {
-    font-size: 11px;
+font-size: 11px;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 57px auto 0 15px;
+margin: 57px auto 0 15px;
 }
 .time_eventcalender{
 overflow-x: auto;
@@ -1828,14 +1825,14 @@ font-size: 15px;
 /* end of schedule showings */
 /* showings */
 .map {
-    height: 663px;
+height: 663px;
 }
 .clickonfilterbtn.calenderview_filter {
-    right: -64px;
+right: -64px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 38%;
-    right: -9px;
+width: 38%;
+right: -9px;
 }
 .upcoming_eventsdiv .nav.upcom_events {
 width: 100%;
@@ -1915,7 +1912,7 @@ font-size: 11px;
 padding: 0px 14px 4px 0px;
 }
 .showingssec_infodiv.scheduleslider .showingssec .showdate {
-    padding: 0px 8px 4px 0px;
+padding: 0px 8px 4px 0px;
 }
 /* showings offer to lease */
 .bookappnt_divabs {
@@ -2066,7 +2063,7 @@ margin-left: 9px;
 
 /* showings */
 .clickonfilterbtn.calenderview_filter {
-    right: -53px;
+right: -53px;
 }
 .upcoming_eventsdiv {
 width: 51%;
@@ -2221,7 +2218,7 @@ right: 30px;
 flex-basis: 57%;
 }
 .logo__txt a img {
-    height: 51px;
+height: 51px;
 }
 .l-header__inner {
 height: 82px;
@@ -2283,7 +2280,7 @@ width: 61px;
 /* end of schedule showings */
 /* showings */
 .clickonfilterbtn.calenderview_filter {
-    right: -48px;
+right: -48px;
 }
 .clickonfilterbtn {
 right: -4px;
@@ -2927,20 +2924,20 @@ vertical-align: sub;
 /* end of schedule showings */
 /* showings */
 .google-map.showingsmap {
-    margin: 0;
+margin: 0;
 }
 .calenderview_div {
-    max-height: 397px;
+max-height: 397px;
 }
 .clickonfilterbtn.calenderview_filter {
-    right: -130px;
+right: -130px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 18%;
-    right: -13px;
+width: 18%;
+right: -13px;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 47px auto 0 10px;
+margin: 47px auto 0 10px;
 }
 .form-search.showmapgoogle {
 top: 6em;
@@ -3036,7 +3033,7 @@ display: block;
 margin: 0 0 1em 0;
 }
 .showingssec_infodiv .showingssec .showtime{
-    padding: 2px 20px 0px 6px;
+padding: 2px 20px 0px 6px;
 } .showingssec_infodiv .showingssec .showdate {
 padding: 2px 20px 4px 6px;
 }
@@ -3189,7 +3186,7 @@ padding: 14px 20px;
 margin-left: -132px;
 }
 .scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img {
-    height: 89px;
+height: 89px;
 }
 .select-box .label, .select-box1 .label {
 font-size: 13px;
@@ -3234,7 +3231,7 @@ margin-left: -40px;
 margin-left: -41px;
 }
 .clickonfilterbtn.calenderview_filter {
-    right: -121px;
+right: -121px;
 }
 .map {
 height: 571px;
@@ -3332,45 +3329,45 @@ width: 57%;
 @media only screen and (max-width: 767px) and (min-width:320px) {
 /* showings calender view */
 .calenderview_div .tab-content {
-    background: #DEE7F2;
-    border-radius: 16px;
-    padding: 4px 12px 2px 12px;
+background: #DEE7F2;
+border-radius: 16px;
+padding: 4px 12px 2px 12px;
 }
 .descriplist_tabdiv p {
-    font-size: 11px;
+font-size: 11px;
 }
 .listtab_time p {
-    font-size: 11px;
+font-size: 11px;
 }
 .filtercalen {
-    margin: 0 auto 4px auto;
+margin: 0 auto 4px auto;
 }
 .listview {
-    border-radius: 14px;
+border-radius: 14px;
 }
 .imgleft_listtab img {
-    border-radius: 14px 0 0 14px;
+border-radius: 14px 0 0 14px;
 }
 .select-box, .select-box1 {
-    margin: 0 7px 0 0;
+margin: 0 7px 0 0;
 }
 .calview_show {
-    padding: 0px;
+padding: 0px;
 }
 .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
-    padding: 9px 4px;
+padding: 9px 4px;
 }
 .calview_show .seldatebox {
-    justify-content: flex-start;
+justify-content: flex-start;
 }
 .date_heading{
-    display: none;
+display: none;
 }
 .showingsmap.mobileviewshow .clcross_icon.mapcross {
-    right: 59px;
+right: 59px;
 }
 .listview_show.container,.calview_show {
-    max-width: 100%;
+max-width: 100%;
 }
 /* showings calender view end */
 .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link.active img {
@@ -3596,13 +3593,13 @@ vertical-align: top;
 }
 /* end of schedule showings */
 .mobileviewblock_scheduleslider .showingssec .timelabel span, .mobileviewblock_scheduleslider .showingssec .timeinfo span, .mobileviewblock_scheduleslider .showingssec .datelabel span, .mobileviewblock_scheduleslider .showingssec .dateinfo span {
-    align-items: baseline;
+align-items: baseline;
 }
 .clickonfilterbtn.calenderview_filter {
-    right: -113px;
+right: -113px;
 }
 .clcross_icon.calcross_icon {
-    right: -21px;
+right: -21px;
 }
 .downarrow{
 position: relative;
@@ -3645,10 +3642,10 @@ font-size: 0.8em;
 padding: 27px 17px 10px 17px;
 }
 .scheshow_flex .clcross_icon {
-    right: 0px;
+right: 0px;
 }
 .reschedule_divdropdown.btnresched {
-    top: -2px;
+top: -2px;
 }
 .popup_reschedule_btn.yelwshowconfirm {
 width: 93%;
@@ -3902,8 +3899,8 @@ right: 13px;
 top: 4.4em;
 }
 .calenderview_div {
-    max-height: 305px;
-    overflow-y: auto;
+max-height: 305px;
+overflow-y: auto;
 }
 .datesel_show {
 margin: 0 0 1em 0;
@@ -4004,9 +4001,6 @@ font-size: 14.5px;
 .showings_offerlease .add_tenants.bgtenant_div .tenant_info {
 margin: 16px 0 0 0;
 }
-.myleaseteam_flex .prof_name p:nth-child(2) {
-font-size: 9px;
-}
 .myleaseunit .propfeat_tab.offertolease_tab ul li a {
 font-size: 16px;
 }
@@ -4018,15 +4012,6 @@ margin-left: -38px;
 }
 .propfeat_tab.offertolease_tab ul li a {
 line-height: 21px;
-}
-.btn.btn_appoint {
-padding: 12px 10px;
-}
-.offer_leasebtnbook .teamtxt h3 {
-text-align: center;
-}
-.myleaseteam_flex .prof_name p:first-child {
-font-size: 13px;
 }
 .account_nolease .btn.gv_notice {
 padding: 6px 16px 7px 16px;
@@ -4104,28 +4089,28 @@ display: none;
 }
 /* showings */
 .calenderview_filter .bacgr_imagefiltershow .btn {
-    margin: 0px auto 6px -2px;
+margin: 0px auto 6px -2px;
 }
 .filtercalen {
-    width: 99%;
+width: 99%;
 }
 .filtercalen img {
-    margin: 0 0 0 13px;
+margin: 0 0 0 13px;
 }
 .clcross_icon.calcross_icon {
-    right: -14px;
+right: -14px;
 }
 .clickonfilterbtn.calenderview_filter .bacgr_imagefiltershow {
-    margin: 49px auto 0 11px;
+margin: 49px auto 0 11px;
 }
 .clickonfilterbtn.calenderview_filter {
-    right: -94px;
+right: -94px;
 }
 .scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img {
-    height: 83px;
+height: 83px;
 }
 .showingssec .showing_details p {
-    line-height: 17px;
+line-height: 17px;
 }
 .leasedslider.areaexplr .area_distance p{
 text-align: right;
@@ -4602,14 +4587,14 @@ top: 17px;
 /* end of schedule showings */
 /* showings */
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 23%;
-    right: -14px;
+width: 23%;
+right: -14px;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 47px auto 0 0px;
+margin: 47px auto 0 0px;
 }
 .scheshow_flex .clcross_icon {
-    right: -1px;
+right: -1px;
 }
 /* end of showings */
 .order_links {
@@ -4645,82 +4630,305 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
-/* showings */
-.clickonfilterbtn.calenderview_filter {
-    right: -68px;
+
+/*mobileview offer to lease showing my appointment */
+.bgclr_mobappt{
+    background-color: #7F7E92;
+    padding: 21px 25px;
+    border-radius: 0 0 30px 30px;
+    position: relative;
 }
-.movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 25%;
-    right: -9px;
-}
-.timewid_cal{
-    flex-direction: column;
-}
-.imgcolwid,.widdescrip,.timewid_cal{
-    display: flex;
-}
-.form-search.showmapgoogle {
-    top: 9.4em;
-}
-.listdate_show {
-    margin: 9px 0 0 0;
-}
-.eventtxtdiv .eventinfotxtdivp p {
-    line-height: 14px;
-}
-.deskhide_datemap{
-    display: block;
-}
-.upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
+.greenappoint .purpl_btn .span_start {
+    color: #9BB997;
     font-size: 13px;
 }
-.form-search.showmapgoogle {
-    top: 7.4em;
+.greenappoint .confrm_div.purpl_btn span:nth-child(2){
+    color:#ffffff;
 }
-.imgleft_listtab img {
-    height: auto;
+.purple_appoint.greenappoint {
+    background: #9BB997;
+    margin: 1em 0 0 0;
 }
-.listdate_show p img {
-    vertical-align: text-top;
-    height: 14px;
+.myteam_mobileview .my_teamdiv.myleaseteam_flex {
+    padding:0px;
+    background-color: unset;
 }
-.descriplist_tabdiv {
-    padding: 7px 0;
+.purple_appoint {
+    background: #54526B;
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
 }
-.timings_datalist {
-    justify-content: flex-start;
-    margin: 9px 0 7px 0;
+.appt_headtxt h3{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+text-transform: capitalize;
+color: #FFFFFF;
+margin: 0;
 }
-.listrow {
+.appt_divflex .status {
+    bottom: 15px;
+    right: 8px;
+}
+.purpl_btn .span_start{
+color:#F2727F;
+font-size: 13px;
+}
+.confrm_div.purpl_btn span:nth-child(2) {
+color:#F2727F;
+font-size: 14px;
+margin: 0 0 0 4px;
+}
+.myappoint_img .imgtenant_profile img {
+height: 86px;
+width: 86px;
+object-fit: contain;
+border-radius: 50%;
+background: #635B76;
+box-shadow: inset 4px 5px 5px rgba(57, 124, 238, 0.06);
+padding: 5px;
+}
+.bgclr_mobappt .align_appointdivflex{
     align-items: flex-start;
 }
-.listdate_show p {
+.bgclr_mobappt.confrmbacgclr{
+    border-radius: 0px;
+}
+.myappoint_img{
+    margin: 0 -10px 0 0px;
+}
+.appt_divflex{
+    display: flex;
+     margin: -10px 0 0 0;
+}
+.appt_divflex p.tenant_name {
+    color: #ffffff;
+    font-family: 'Helvetica';
+    font-weight: 400;
     font-size: 13px;
+    line-height: 14px;
+    text-transform: capitalize;
+    margin: 6px 0 0 0;
+    text-align: center;
 }
-.listtab_time p {
-    padding: 1px 7px 3px 7px;
+.offr_lease_appmt .timelabel,.offr_lease_appmt .timeinfo,
+.offr_lease_appmt .datelabel,.offr_lease_appmt .dateinfo {
+    justify-content: end;
 }
-.calenderview_div {
-    max-height: 286px;
-    top: 201px;
+.offr_lease_appmt .timelabel span img,.offr_lease_appmt .datelabel span img {
+    height: 15px;
+    margin-right: 9px;
 }
-.select-box .label, .select-box1 .label{
-    padding: 6px 10px;
+.offr_lease_appmt .timelabel span,.offr_lease_appmt .timeinfo span,
+.offr_lease_appmt .datelabel span,.offr_lease_appmt .dateinfo span {
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
 }
-.mobilehidedate_view{
-    display: none;
+.offr_lease_appmt .showtime {
+    margin: 0px 0 14px 0;
 }
-.padimgzeroleft {
-    padding: 0 0px 0 15px;
+.btn.appt_confirm{
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+background: #9BB997;
 }
-.showingsmap.mobileviewshow .clcross_icon.mapcross {
-    right: 38px;
+.btn.appt_confirm,.btn.resche_btnappt{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-radius: 40px;
+    padding: 5px 27px;
+    border:unset;
 }
-.bacgr_imagefiltershow {
-    margin: 57px 7px 0 7px;
+.btn.resche_btnappt{
+background: #F2727F;
+}
+.confr_reschbtns{
+    text-align: right;
+    margin: 19px 0 0 0;
+}
+.appt_confirm_join{
+    display: flex;
+    justify-content: end;
+    margin: 18px 0 0 0;
+}
+.join_div p{
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+.join_div,.phone_apt,.video_apt{
+    margin:0 15px;
+}
+.video_apt{
+    margin-right: 0;
+}
+.video_apt img{
+    height: 15px;
+}
+.phone_apt img{
+height: 21px;
+}
+.divider_appoint:before {
+    content: '';
+    display: flex;
+    width: 4px;
+    height: 30px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    margin: 0px 9px 0 0;
+    background: #74738C;
+}
+.resch_txtdiv p{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #7F7E92;
+    margin: 0;
+}
+.resch_txtdiv{
+    background: #54526B;
+    border-radius: 0px 0px 25px 25px;
+    padding: 8px 20px;
+    text-align: center;
+}
+.popup_reschedule_btnofferlease .reschedule_divdropdown {
+    background: #EDF2FA;
+    outline: 5px solid #F2727F;
+}
+.two_buttonsscheduleaptm{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.btn.canc_aptm {
+    background: #F2727F;
+}
+.btn.confaptm_resch {
+    background: #9BB997;
+}
+.btn.confaptm_resch, .btn.canc_aptm {
+    font-family: 'Helvetica';
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-radius: 40px;
+    letter-spacing: 0.7px;
+    padding: 3px 12px;
+}
+.popup_reschedule_btnofferlease{
+    position: relative;
+}
+.reschedule_divdropdown.btnresched.rescapptm_div {
+    top: 4px;
+    left: unset;
+    right: 10px;
+    width: 90%;
+    border-radius: 14px 0px 14px 14px;
+    padding: 8px 16px;
+}
+.btn.resche_btnappt.padchange_btn{
+    border-radius: 40px 40px 0px 40px;
+}
+/*mobileview offer to lease showing my appointment end*/
+
+/* showings */
+.showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn, .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
+padding: 5px 29px;
+}
+.clickonfilterbtn.calenderview_filter {
+right: -68px;
+}
+.movviewbgcolrscheduleoffr .clickonfilterbtn {
+width: 25%;
+right: -9px;
+}
+.timewid_cal{
+flex-direction: column;
+}
+.imgcolwid,.widdescrip,.timewid_cal{
+display: flex;
 }
 .form-search.showmapgoogle {
-    width: 82%;
+top: 9.4em;
+}
+.listdate_show {
+margin: 9px 0 0 0;
+}
+.eventtxtdiv .eventinfotxtdivp p {
+line-height: 14px;
+}
+.deskhide_datemap{
+display: block;
+}
+.upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
+font-size: 13px;
+}
+.form-search.showmapgoogle {
+top: 7.4em;
+}
+.imgleft_listtab img {
+height: auto;
+}
+.listdate_show p img {
+vertical-align: text-top;
+height: 14px;
+}
+.descriplist_tabdiv {
+padding: 7px 0;
+}
+.timings_datalist {
+justify-content: flex-start;
+margin: 9px 0 7px 0;
+}
+.listrow {
+align-items: flex-start;
+}
+.listdate_show p {
+font-size: 13px;
+}
+.listtab_time p {
+padding: 1px 7px 3px 7px;
+}
+.calenderview_div {
+max-height: 286px;
+top: 201px;
+}
+.select-box .label, .select-box1 .label{
+padding: 6px 10px;
+}
+.mobilehidedate_view{
+display: none;
+}
+.padimgzeroleft {
+padding: 0 0px 0 15px;
+}
+.showingsmap.mobileviewshow .clcross_icon.mapcross {
+right: 38px;
+}
+.bacgr_imagefiltershow {
+margin: 57px 7px 0 7px;
+}
+.form-search.showmapgoogle {
+width: 82%;
 }
 /* end of showings */
 
@@ -4798,9 +5006,6 @@ font-size: 12px;
 margin:0;
 display: none;
 }
-.my_teamdiv.myleaseteam_flex{
-box-shadow: 2.56499px 2.56499px 3.20624px rgba(58, 56, 80, 0.1), inset 2.56499px 2.56499px 6.41248px 0.641248px #7F7C97;
-}
 .str_loc_txt p, .acc_no p {
 text-align: center;
 }
@@ -4826,24 +5031,8 @@ display: none;
 .mobhide_unit{
 display: inline-block;
 }
-.btn.btn_appoint {
-border-radius: 50px;
-font-weight: 700;
-padding: 12px 16px;
-line-height: 17px;
-font-size: 14px;
-}
-.my_teamdiv.myleaseteam_flex {
-padding: 13px 20px 13px 14px;
-}
-.myteam_mobileview .team_memname .prof_img img{
-border: 4px solid #635B76;
-box-shadow: inset 4px 5px 5px rgba(57, 124, 238, 0.06);
-}
-.myleaseteam_flex .prof_img img {
-height: 48px;
-width: 48px;
-}
+
+
 .sched_meeting {
 top: 223px;
 padding: 6px 7px 6px 7px;
@@ -4921,14 +5110,8 @@ font-weight: bold;
 .offer_leasebtnbook .tenant_imgs .slick-track {
 margin-left: 15px;
 }
-.offer_leasebtnbook .teamtxt h3 {
-margin: 0;
-}
 .my_info.myleaseunit {
 margin: 0 0 1.5em 0;
-}
-.myleaseteam_flex .prof_name p:nth-child(2) {
-font-size: 11px;
 }
 .my_info.myleaseunit .category-lists-slider .slider-button.slider-prev {
 left: -12px;
@@ -4939,16 +5122,6 @@ margin: 0 0 0.9em 0;
 .my_info.myleaseunit .category-lists-slider {
 width: 97%;
 margin: 11px auto 0 auto;
-}
-.leasflx_team{
-align-items: center;
-}
-.myleaseteam_flex .prof_name p:first-child {
-display: none;
-}
-.myleaseteam_flex .team_memname {
-display: block;
-text-align: center;
 }
 .showingstab_mylease .basicdatatxt {
 flex-basis: 44%;
@@ -5381,7 +5554,7 @@ top: 214px;
 max-height: 323px;
 }
 .clickonfilterbtn.calenderview_filter {
-    right: -66px;
+right: -66px;
 }
 /* end of showings calender view */
 /* schedule showings */
@@ -5506,11 +5679,11 @@ height: 17px;
 
 /* showings */
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 26%;
-    right: -12px;
+width: 26%;
+right: -12px;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 47px auto 0 0px;
+margin: 47px auto 0 0px;
 }
 /* end of showings */
 .slidelocation_div .txt_loc {
@@ -5613,31 +5786,31 @@ top: 11px;
 top: 208px;
 }
 .clcross_icon.calcross_icon {
-    right: -9px;
+right: -9px;
 }
 .filtercalen a {
-    font-size: 15px;
+font-size: 15px;
 }
 .filtercalen img {
-    height: 16px;
+height: 16px;
 }
 .listtab_time p {
-    padding: 1px 5px 3px 5px;
-    font-size: 10px;
+padding: 1px 5px 3px 5px;
+font-size: 10px;
 }
 .select-box, .select-box1 {
-    width: 37%;
+width: 37%;
 }
 .listdate_show p img {
-    height: 13px;
+height: 13px;
 }
 .calenderview_div {
-    width: 96%;
-    left: 2%;
-    padding: 10px 8px 15px 8px;
+width: 96%;
+left: 2%;
+padding: 10px 8px 15px 8px;
 }
 .calenderview_div {
-    max-height: 355px;
+max-height: 355px;
 }
 /* end of calender view */
 
@@ -5677,9 +5850,6 @@ width: 95px;
 }
 #select_listrepres li, #select_listrepresmobile li {
 padding: 3px 4px 3px 4px;
-}
-.myleaseteam_flex .prof_name p:nth-child(2) {
-font-size: 9px;
 }
 .my_lease_balance .card.balancecard .card-body {
 padding: 19px 15px;
@@ -5775,14 +5945,6 @@ margin: 0 0 13px 0;
 .myleaseunit .tablinks_propfeat.building_div .slick-track {
 margin-left: -63px;
 }
-.myleaseteam_flex .prof_name p:nth-child(2) {
-font-size: 10px;
-}
-.btn.btn_appoint {
-padding: 10px 11px;
-line-height: 16px;
-font-size: 13px;
-}
 .offr_lea_p {
 padding: 2px 0 14px 0;
 }
@@ -5795,9 +5957,6 @@ line-height: 19px;
 }
 .showings_offerlease .acc_no p:nth-child(2),.showings_offerlease .bgtenant_div .tenant_info p:first-child {
 line-height: 22px;
-}
-.offer_leasebtnbook .teamtxt h3 {
-font-size: 17px;
 }
 .showings_offerlease .acc_no p:first-child{
 font-size: 14px;
@@ -5967,20 +6126,20 @@ font-size: 13px;
 /* end of schedule showings */
 /* showings */
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 31%;
-    right: -11px;
+width: 31%;
+right: -11px;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 47px auto 0 0px;
+margin: 47px auto 0 0px;
 }
 .confrm_div p {
-    font-size: 14px;
+font-size: 14px;
 }
 .span_start, .confirmshow_divyellow .span_start {
-    font-size: 12px;
+font-size: 12px;
 }
 .confrm_div span:nth-child(2) {
-    font-size: 14px;
+font-size: 14px;
 }
 .clcross_icon.mapcross {
 right: 31px;
@@ -6564,81 +6723,81 @@ margin-left: 66px;
 
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
-    .showingsmap.mobileviewshow .clcross_icon.mapcross {
-        right: 9px;
-        top: 8px;
-    }
-    .clcross_icon.calcross_icon {
-        right: -10px;
-    }
-    .filtercalen img {
-        height: 16px;
-    }
-    .clickonfilterbtn.calenderview_filter {
-        right: -27px;
-    }
-    .calenderview_div {
-        width: 98.4%;
-        left: 1%;
-    }
-    .listrow {
-        margin: 0 0 12px -7px;
-    }
-    .widdescrip, .timewid_cal {
-        flex: 0 0 37%;
-        max-width: 37%;
-    }
-    .descriplist_tabdiv {
-        padding: 3px 0 1px 0px;
-    }
-    .listdate_show p {
-        font-size: 11px;
-    }
-    .listdate_show p img {
-        height: 13px;
-        margin: -1px 0 0 0;
-    }
-    .button_map .filterbtnshow img {
-        margin: 3px 0 0 0;
-        height: 34px;
-    }
-    .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
-        padding: 8px 4px;
-    }
-    .calenderview_div {
-        max-height: 351px;
-    }
-    .padimgzeroleft {
-        padding: 0 0px 0 9px;
-    }
-    .listdate_show {
-        margin: 7px 0 0 0;
-    }
-    .form-search.showmapgoogle .input-group input.form-control {
-        padding: 10px 159px 10px 21px;
-    }
-    .calenderview_div {
-        padding: 10px 9px 15px 9px;
-    }
-    .descriplist_tabdiv p {
-        font-size: 9px;
-    }
-    .listdate_show p {
-        font-size: 11px;
-    }
-    .listtab_txt p {
-        font-size: 10px;
-    }
-    .listtab_time p {
-        padding: 1px 7px 3px 7px;
-        font-size: 9px;
-    }
-    .bacgr_imagefiltershow {
-        margin: 60px 7px 0 7px;
-    }
-    .calenderview_div {
-        top: 210px;
-    }
+.showingsmap.mobileviewshow .clcross_icon.mapcross {
+right: 9px;
+top: 8px;
+}
+.clcross_icon.calcross_icon {
+right: -10px;
+}
+.filtercalen img {
+height: 16px;
+}
+.clickonfilterbtn.calenderview_filter {
+right: -27px;
+}
+.calenderview_div {
+width: 98.4%;
+left: 1%;
+}
+.listrow {
+margin: 0 0 12px -7px;
+}
+.widdescrip, .timewid_cal {
+flex: 0 0 37%;
+max-width: 37%;
+}
+.descriplist_tabdiv {
+padding: 3px 0 1px 0px;
+}
+.listdate_show p {
+font-size: 11px;
+}
+.listdate_show p img {
+height: 13px;
+margin: -1px 0 0 0;
+}
+.button_map .filterbtnshow img {
+margin: 3px 0 0 0;
+height: 34px;
+}
+.upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
+padding: 8px 4px;
+}
+.calenderview_div {
+max-height: 351px;
+}
+.padimgzeroleft {
+padding: 0 0px 0 9px;
+}
+.listdate_show {
+margin: 7px 0 0 0;
+}
+.form-search.showmapgoogle .input-group input.form-control {
+padding: 10px 159px 10px 21px;
+}
+.calenderview_div {
+padding: 10px 9px 15px 9px;
+}
+.descriplist_tabdiv p {
+font-size: 9px;
+}
+.listdate_show p {
+font-size: 11px;
+}
+.listtab_txt p {
+font-size: 10px;
+}
+.listtab_time p {
+padding: 1px 7px 3px 7px;
+font-size: 9px;
+}
+.bacgr_imagefiltershow {
+margin: 60px 7px 0 7px;
+}
+.calenderview_div {
+top: 210px;
+}
 /* showings offer to lease */
 .showingssec .showtime {
 padding: 14px 0px 4px 0px;
@@ -6692,10 +6851,6 @@ margin: 9px auto 0 auto;
 }
 .mylease_showings .tabsdiv .nav.nav-tabs li a {
 font-size: 13px;
-}
-.offer_leasebtnbook .teamtxt h3 {
-font-size: 17px;
-line-height: 22px;
 }
 .my_lease_balance .pricetxt,.my_lease_balance .price_ptxt{
 text-align: center;
@@ -6814,19 +6969,6 @@ margin: -37px 15px 0 0;
 .bgtenant_div .tenant_info {
 margin: 9px 0 0 0;
 }
-
-
-.myleaseteam_flex .team_memname {
-margin: 0 0 0 -25px;
-}
-.btnappoint {
-margin: 0 0 0 -19px;
-}
-.btn.btn_appoint {
-padding: 10px 10px;
-line-height: 17px;
-font-size: 13px;
-}
 .showings_offerlease .tenant_imgs .btn-wrap {
 right: 11px;
 top: 48px;
@@ -6852,12 +6994,6 @@ line-height: 22px;
 .showings_offerlease .acc_no p:nth-child(2) {
 font-size: 14px;
 line-height: 14px;
-}
-.my_teamdiv.myleaseteam_flex {
-padding: 6px 14px 9px 19px;
-}
-.offer_leasebtnbook .teamtxt h3 {
-text-align: left;
 }
 .showings_offerlease .tenant_imgs {
 width: 82%;
@@ -7104,11 +7240,11 @@ right: 27px;
 /* end of schedule showings */
 /* showings */
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 37%;
-    right: -10px;
+width: 37%;
+right: -10px;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 47px auto 0 0px;
+margin: 47px auto 0 0px;
 }
 .clickonfilterbtn.clkfilmap {
 top: 0;
@@ -7125,8 +7261,8 @@ font-size: 12px;
 padding: 5px 12px;
 }
 .form-search.showmapgoogle {
-    top: 8em;
-    width: 90%;
+top: 8em;
+width: 90%;
 }
 .button_map button img {
 height: 14px;
@@ -7168,7 +7304,7 @@ font-size: 11px;
 line-height: 16px;
 }
 .mobviewbgcolrpending .showingssec_infodiv .showingssec .showtime,.mobviewbgcolrpending .showingssec_infodiv .showingssec .showdate {
-    padding: 2px 13px 4px 0px;
+padding: 2px 13px 4px 0px;
 }
 .mobileviewblock_scheduleslider .col-5,.showingssec_infodiv .showingssec .col-5{
 max-width: 33.33%;
@@ -7580,26 +7716,26 @@ left: -18px;
 @media only screen and (max-width: 390px) {
 /* showings */
 .filtercalen img {
-    height: 16px;
+height: 16px;
 }
 .calenderview_div {
-    max-height: 502px;
+max-height: 502px;
 }
 .select-box, .select-box1 {
-    width: 45%;
+width: 45%;
 }
 .clickonfilterbtn.calenderview_filter {
-    right: -20px;
+right: -20px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 40%;
-    right: -10px;
+width: 40%;
+right: -10px;
 }
 .showimgpend img {
-    height: 82px;
+height: 82px;
 }
 .span_start, .confirmshow_divyellow .span_start {
-    font-size: 10px;
+font-size: 10px;
 }
 /* end of showings */
 .tenant_imgs .bgtenant_div.slick-current.slick-active img {
@@ -7639,11 +7775,7 @@ width: 88px;
 }
 .showings_offerlease .tenant_imgs {
 margin: -69px 0 0 -12px;
-width: 81%;
-}
-.btn.btn_appoint {
-line-height: 15px;
-font-size: 12px;
+width: 83%;
 }
 .sched_meeting {
 top: 216px;
@@ -7703,12 +7835,6 @@ padding: 0 10px;
 }
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
 margin-left: -46px;
-}
-.myleaseteam_flex .prof_name p:nth-child(2) {
-font-size: 10px;
-}
-.btnappoint {
-margin: 0 0 0 -24px;
 }
 .myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
 margin-left: -43px;
@@ -8325,21 +8451,21 @@ left: -22px;
 
 /* showings */
 .showingsmap.mobileviewshow .clcross_icon.mapcross {
-    right: 11px;
-    top: 8px;
+right: 11px;
+top: 8px;
 }
 .bacgr_imagefiltershow {
-    margin: 58px 7px 0 7px;
+margin: 58px 7px 0 7px;
 }
 .clickonfilterbtn.calenderview_filter {
-    width: 45%;
-    right: -22px;
+width: 45%;
+right: -22px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 39%;
+width: 39%;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 47px auto 0 0px;
+margin: 47px auto 0 0px;
 }
 /* end of showings */
 .detshow_div .showingssec .timeinfo span, .detshow_div .showingssec .dateinfo span {
@@ -8510,14 +8636,6 @@ border-radius: 30px 30px 0px 0px;
 .myleaseunit .propfeat_tab.offertolease_tab ul li a {
 font-size: 14px;
 }
-.btn.btn_appoint {
-padding: 9px 12px;
-line-height: 16px;
-font-size: 13px;
-}
-.myleaseteam_flex .team_memname {
-margin: 0 0 0 -22px;
-}
 .myleaseteam_flex .prof_name p:nth-child(2) {
 font-size: 9px;
 }
@@ -8526,14 +8644,6 @@ font-size: 13px;
 }
 .table_myleasetrans .table thead tr th {
 font-size: 14px;
-}
-.offer_leasebtnbook .teamtxt h3 {
-line-height: 23px;
-text-align: left;
-font-size: 16px;
-}
-.myleaseteam_flex .team_memname {
-margin: 0 0 0 -30px;
 }
 .tenant_imgs .bgtenant_div.slick-slide {
 margin: 28px 0 0 0;
@@ -8799,8 +8909,8 @@ font-size: 11px;
 right: 11px;
 }
 .form-search.showmapgoogle {
-    top: 7.5em;
-    width: 97%;
+top: 7.5em;
+width: 97%;
 }
 .google-map {
 margin: 48px 0 0 0;
@@ -9046,8 +9156,8 @@ width: 37%;
 flex-basis: 49%;
 }
 .clickonfilterbtn.calenderview_filter {
-    width: 48%;
-    right: -25px;
+width: 48%;
+right: -25px;
 }
 .showingssec .timeinfo, .showingssec .dateinfo {
 flex-basis: 49%;
@@ -9059,8 +9169,8 @@ align-items: flex-start;
 text-align: right;
 }
 .showingsmap.mobileviewshow .clcross_icon.mapcross {
-    right: 8px;
-    top: 6px;
+right: 8px;
+top: 6px;
 }
 /* showings offer to lease */
 .tenant_imgs .bgtenant_div.slick-current.slick-active img {
@@ -9213,22 +9323,6 @@ width: 92.9%;
 }
 .btn.btn_appoint.changeborderbtn {
 border-radius: 30px 30px 0px 0px;
-}
-.myleaseteam_flex .prof_name p:nth-child(2) {
-font-size: 8px;
-}
-.btn.btn_appoint {
-padding: 10px 11px;
-line-height: 14px;
-font-size: 12px;
-}
-.offer_leasebtnbook .teamtxt h3 {
-text-align: left;
-line-height: 21px;
-font-size: 15px;
-}
-.myleaseteam_flex .team_memname {
-margin: 0 0 0 -30px;
 }
 .showings_offerlease .tenant_imgs.less_team_div .bgtenant_div .imgtenant_profile .status {
 right: 8px;
@@ -9508,7 +9602,7 @@ font-size: 13px;
 /* end of schedule showings */
 /* showings page */
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 47px auto 0 0px;
+margin: 47px auto 0 0px;
 }
 .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn, .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
 padding: 4px 13px;
@@ -9517,7 +9611,7 @@ padding: 4px 13px;
 margin: -11px 0 0 0;
 }
 .bacgr_imagefiltershow {
-    margin: 53px 7px 0 7px;
+margin: 53px 7px 0 7px;
 }
 .form-search.showmapgoogle .input-group-append {
 right: 2.9px;
@@ -9540,8 +9634,8 @@ font-size: 11px;
 right: 8px;
 }
 .form-search.showmapgoogle {
-    top: 7.5em;
-    width: 97%;
+top: 7.5em;
+width: 97%;
 }
 .google-map {
 margin: 48px 0 0 0;
@@ -9862,21 +9956,21 @@ line-height: 13px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
-    .form-search.showmapgoogle {
-        top: 7.5em;
-        width: 97%;
-    }
-    .clcross_icon.calcross_icon {
-        right: -11px;
-    }
-    .showingsmap.mobileviewshow .clcross_icon.mapcross {
-        right: 8px;
-        top: 9px;
-    }
-    .clickonfilterbtn.calenderview_filter {
-        width: 50%;
-    }
-    /* offer to lease */
+.form-search.showmapgoogle {
+top: 7.5em;
+width: 97%;
+}
+.clcross_icon.calcross_icon {
+right: -11px;
+}
+.showingsmap.mobileviewshow .clcross_icon.mapcross {
+right: 8px;
+top: 9px;
+}
+.clickonfilterbtn.calenderview_filter {
+width: 50%;
+}
+/* offer to lease */
 .showingssec .datelabel, .showingssec .timelabel {
 flex-basis: 47%;
 }
@@ -9884,22 +9978,22 @@ flex-basis: 47%;
 padding: 9px 15px 8px 0px;
 }
 .scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img, .mobileviewblock_scheduleslider .showimgpend img {
-    height: 80px;
+height: 80px;
 }
 .button_myinfos {
-    margin: 0.2em 0 0 0;
+margin: 0.2em 0 0 0;
 }
 .showingssec_infodiv.pendingslider .showingssec .showtime {
-    padding: 1px 15px 0px 0px;
+padding: 1px 15px 0px 0px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 44%;
-    right: -12px;
+width: 44%;
+right: -12px;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
-    margin: 47px auto 0 0px;
+margin: 47px auto 0 0px;
 }
- .showingssec_infodiv.pendingslider .showingssec .showdate {
+.showingssec_infodiv.pendingslider .showingssec .showdate {
 padding: 1px 15px 2px 0px;
 }
 .showings_offerlease .tenant_imgs.moreteam_images + .add_tenants.bgtenant_div + .acc_no.desktop_hideaccno {
@@ -10040,9 +10134,6 @@ font-size: 13px;
 .btn.btn_appoint.changeborderbtn {
 border-radius: 30px 30px 0px 0px;
 }
-.myleaseteam_flex .prof_name p:nth-child(2) {
-font-size: 9px;
-}
 .bookappnt_divabs {
 margin: -6px 0 0 auto;
 }
@@ -10056,17 +10147,9 @@ font-size: 14px;
 .sched_meeting {
 top: 215px;
 }
-.btn.btn_appoint {
-padding: 12px 9px;
-line-height: 14px;
-font-size: 13px;
-}
 .showings_offerlease .tenant_imgs .btn-wrap {
 right: 16px;
 top: 50px;
-}
-.myleaseteam_flex .team_memname {
-margin: 0 0 0 -26px;
 }
 .showings_offerlease .acc_no p:nth-child(2) {
 line-height: 16px;
@@ -10085,11 +10168,6 @@ margin: 4px 0 0 8px;
 }
 .str_loc_txt p, .acc_no p {
 font-size: 12px;
-}
-.offer_leasebtnbook .teamtxt h3 {
-text-align: left;
-line-height: 20px;
-font-size: 13px;
 }
 .offr_lea_p {
 padding: 0 0 13px 0;
@@ -10547,8 +10625,8 @@ padding: 27px 11px 10px 11px;
 padding: 0px 9px 0 9px;
 }
 .reschedule_divdropdown.btnresched {
-    top: -2px;
-    left: 8px;
+top: -2px;
+left: 8px;
 }
 .mobileviewblock_scheduleslider .showingssec .order_links span a {
 font-size: 11px;
@@ -10787,24 +10865,24 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
-    .bacgr_imagefiltershow {
-        margin: 53px 7px 0 7px;
-    }
-    .clickonfilterbtn.calenderview_filter {
-        width: 55%;
-    }
+.bacgr_imagefiltershow {
+margin: 53px 7px 0 7px;
+}
+.clickonfilterbtn.calenderview_filter {
+width: 55%;
+}
 .detshow_div .showingssec .timelabel span, .detshow_div .showingssec .timeinfo span, .detshow_div .showingssec .datelabel span, .detshow_div .showingssec .dateinfo span {
 font-size: 10px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    width: 47%;
-    right: -11px;
+width: 47%;
+right: -11px;
 }
 .showingssec_infodiv .showingssec .button_myinfos.pendingshowsbtn .btn.reschedulebtn, .showingssec_infodiv .showingssec .button_myinfos.pendingshowsbtn .btn.confirmbtn {
 padding: 5px 14px;
 }
 .scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img, .mobileviewblock_scheduleslider .showimgpend img {
-    height: 75px;
+height: 75px;
 }
 /* showings offer to lease */
 .showings_offerlease .tenant_imgs {
@@ -10866,11 +10944,6 @@ font-size: 14px;
 }
 .bookappnt_divabs {
 margin: -9px 0 0 auto;
-}
-.btn.btn_appoint {
-padding: 9px 8px;
-line-height: 14px;
-font-size: 12px;
 }
 .showings_offerlease .bgtenant_div .tenant_info p:first-child, .showings_offerlease .acc_no p:nth-child(2) {
 font-size: 11px;
