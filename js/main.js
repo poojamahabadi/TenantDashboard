@@ -503,3 +503,16 @@ $(document).ready(function() {
 });
     
 });
+
+
+// calender filter
+$(".clcross_icon.calcross_icon,.clickonfilterbtn.calenderview_filter").hide();
+$(document).ready(function() {
+$(".btnfilter_calender").click(function(){
+$(".clickonfilterbtn.calenderview_filter,.clcross_icon.calcross_icon").show();
+}); 
+
+$(".clcross_icon.calcross_icon").click(function(){
+$(".clickonfilterbtn.calenderview_filter,.clcross_icon.calcross_icon").hide();
+}); 
+});

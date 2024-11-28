@@ -158,6 +158,15 @@ margin: 9em 0 0em 0;
 }
 /*end of schedule showing*/
 /* showings page */
+.clickonfilterbtn.calenderview_filter .bacgr_imagefiltershow {
+    margin: 49px auto 0 8px;
+}
+.clickonfilterbtn.calenderview_filter {
+    right: -188px;
+}
+.calenderview_div {
+    max-height: 499px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 40%;
 }
@@ -305,6 +314,9 @@ margin-left: 32px;
 }
 /*end of schedule showings*/
 /* showings */
+.clickonfilterbtn.calenderview_filter {
+    right: -138px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 27%;
     right: -8px;
@@ -395,6 +407,9 @@ margin: -88px 0 0 0;
 }
 /* end of schedule showings */
 /* showings */
+.clickonfilterbtn.calenderview_filter {
+    right: -156px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 28%;
     right: -7px;
@@ -496,6 +511,13 @@ margin-left: 86px;
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 30%;
     right: -3px;
+}
+.clickonfilterbtn.calenderview_filter {
+    right: -147px;
+}
+.calenderview_div {
+    width: 85.4%;
+    left: 7%;
 }
 .clickonfilterbtn {
 right: -10px;
@@ -671,6 +693,9 @@ max-width: 90%;
 }
 /* end of schedule showings */
 /* showings */
+.clickonfilterbtn.calenderview_filter {
+    right: -141px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 31%;
     right: -2px;
@@ -864,6 +889,9 @@ margin: -95px 0 0 0;
 /* end of schedule showings */
 
 /* showings */
+.clickonfilterbtn.calenderview_filter {
+    right: -127px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 35%;
     right: -2px;
@@ -1164,6 +1192,9 @@ top: 34px;
 }
 /* end of schedule showings */
 /* showing page */
+.clickonfilterbtn.calenderview_filter {
+    right: -115px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 39%;
     right: -10px;
@@ -1494,6 +1525,9 @@ margin: 11px 0px 0 14px;
 }
 /* end of schedule showings */
 /* showings */
+.clickonfilterbtn.calenderview_filter {
+    right: -71px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 36%;
 }
@@ -1793,6 +1827,12 @@ font-size: 15px;
 }
 /* end of schedule showings */
 /* showings */
+.map {
+    height: 663px;
+}
+.clickonfilterbtn.calenderview_filter {
+    right: -64px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 38%;
     right: -9px;
@@ -2025,6 +2065,9 @@ margin-left: 9px;
 /* end of schedule showings */
 
 /* showings */
+.clickonfilterbtn.calenderview_filter {
+    right: -53px;
+}
 .upcoming_eventsdiv {
 width: 51%;
 margin: 0 8px 0 0px;
@@ -2239,6 +2282,9 @@ width: 61px;
 }
 /* end of schedule showings */
 /* showings */
+.clickonfilterbtn.calenderview_filter {
+    right: -48px;
+}
 .clickonfilterbtn {
 right: -4px;
 }
@@ -2880,6 +2926,15 @@ vertical-align: sub;
 }
 /* end of schedule showings */
 /* showings */
+.google-map.showingsmap {
+    margin: 0;
+}
+.calenderview_div {
+    max-height: 397px;
+}
+.clickonfilterbtn.calenderview_filter {
+    right: -130px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 18%;
     right: -13px;
@@ -3177,6 +3232,9 @@ margin-left: -40px;
 /* showings */
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
 margin-left: -41px;
+}
+.clickonfilterbtn.calenderview_filter {
+    right: -121px;
 }
 .map {
 height: 571px;
@@ -3540,6 +3598,12 @@ vertical-align: top;
 .mobileviewblock_scheduleslider .showingssec .timelabel span, .mobileviewblock_scheduleslider .showingssec .timeinfo span, .mobileviewblock_scheduleslider .showingssec .datelabel span, .mobileviewblock_scheduleslider .showingssec .dateinfo span {
     align-items: baseline;
 }
+.clickonfilterbtn.calenderview_filter {
+    right: -113px;
+}
+.clcross_icon.calcross_icon {
+    right: -21px;
+}
 .downarrow{
 position: relative;
 display: block;
@@ -3838,8 +3902,8 @@ right: 13px;
 top: 4.4em;
 }
 .calenderview_div {
-max-height: 400px;
-overflow-y: auto;
+    max-height: 305px;
+    overflow-y: auto;
 }
 .datesel_show {
 margin: 0 0 1em 0;
@@ -4039,6 +4103,24 @@ display: block;
 display: none;
 }
 /* showings */
+.calenderview_filter .bacgr_imagefiltershow .btn {
+    margin: 0px auto 6px -2px;
+}
+.filtercalen {
+    width: 99%;
+}
+.filtercalen img {
+    margin: 0 0 0 13px;
+}
+.clcross_icon.calcross_icon {
+    right: -14px;
+}
+.clickonfilterbtn.calenderview_filter .bacgr_imagefiltershow {
+    margin: 49px auto 0 11px;
+}
+.clickonfilterbtn.calenderview_filter {
+    right: -94px;
+}
 .scheduleslider .showingssec .showimgpend img, .pendingslider .showingssec .showimgpend img {
     height: 83px;
 }
@@ -4564,6 +4646,9 @@ top: -28px;
 }
 @media only screen and (max-width:575px) {
 /* showings */
+.clickonfilterbtn.calenderview_filter {
+    right: -68px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 25%;
     right: -9px;
@@ -5295,6 +5380,9 @@ top: 214px;
 .calenderview_div {
 max-height: 323px;
 }
+.clickonfilterbtn.calenderview_filter {
+    right: -66px;
+}
 /* end of showings calender view */
 /* schedule showings */
 .top_section1, .top_section2 {
@@ -5523,6 +5611,15 @@ top: 11px;
 /* showings calender view */
 .calenderview_div {
 top: 208px;
+}
+.clcross_icon.calcross_icon {
+    right: -9px;
+}
+.filtercalen a {
+    font-size: 15px;
+}
+.filtercalen img {
+    height: 16px;
 }
 .listtab_time p {
     padding: 1px 5px 3px 5px;
@@ -6470,6 +6567,15 @@ margin-left: 66px;
     .showingsmap.mobileviewshow .clcross_icon.mapcross {
         right: 9px;
         top: 8px;
+    }
+    .clcross_icon.calcross_icon {
+        right: -10px;
+    }
+    .filtercalen img {
+        height: 16px;
+    }
+    .clickonfilterbtn.calenderview_filter {
+        right: -27px;
     }
     .calenderview_div {
         width: 98.4%;
@@ -7473,6 +7579,18 @@ left: -18px;
 
 @media only screen and (max-width: 390px) {
 /* showings */
+.filtercalen img {
+    height: 16px;
+}
+.calenderview_div {
+    max-height: 502px;
+}
+.select-box, .select-box1 {
+    width: 45%;
+}
+.clickonfilterbtn.calenderview_filter {
+    right: -20px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 40%;
     right: -10px;
@@ -8206,6 +8324,17 @@ left: -22px;
 @media only screen and (max-width: 375px) and (min-width:361px) {
 
 /* showings */
+.showingsmap.mobileviewshow .clcross_icon.mapcross {
+    right: 11px;
+    top: 8px;
+}
+.bacgr_imagefiltershow {
+    margin: 58px 7px 0 7px;
+}
+.clickonfilterbtn.calenderview_filter {
+    width: 45%;
+    right: -22px;
+}
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
     width: 39%;
 }
@@ -8640,9 +8769,6 @@ padding: 3px 6px;
 .downarrow a {
 bottom: 62px;
 }
-.bacgr_imagefiltershow {
-margin: 45px 7px 0 7px;
-}
 .showingssec .button_myinfos.yellowdivbtn .btn.confirmbtn, .showingssec .button_myinfos.yellowdivbtn .btn.reschedulebtn {
 padding: 5px 10px;
 }
@@ -8673,8 +8799,8 @@ font-size: 11px;
 right: 11px;
 }
 .form-search.showmapgoogle {
-top: 3.5em;
-width: 97%;
+    top: 7.5em;
+    width: 97%;
 }
 .google-map {
 margin: 48px 0 0 0;
@@ -8919,6 +9045,10 @@ width: 37%;
 .showingssec .datelabel, .showingssec .timelabel {
 flex-basis: 49%;
 }
+.clickonfilterbtn.calenderview_filter {
+    width: 48%;
+    right: -25px;
+}
 .showingssec .timeinfo, .showingssec .dateinfo {
 flex-basis: 49%;
 }
@@ -8927,6 +9057,10 @@ align-items: flex-start;
 }
 .detshow_div .showingssec .timeinfo span, .detshow_div .showingssec .dateinfo span {
 text-align: right;
+}
+.showingsmap.mobileviewshow .clcross_icon.mapcross {
+    right: 8px;
+    top: 6px;
 }
 /* showings offer to lease */
 .tenant_imgs .bgtenant_div.slick-current.slick-active img {
@@ -9383,7 +9517,7 @@ padding: 4px 13px;
 margin: -11px 0 0 0;
 }
 .bacgr_imagefiltershow {
-margin: 45px 7px 0 7px;
+    margin: 53px 7px 0 7px;
 }
 .form-search.showmapgoogle .input-group-append {
 right: 2.9px;
@@ -9406,8 +9540,8 @@ font-size: 11px;
 right: 8px;
 }
 .form-search.showmapgoogle {
-top: 3.5em;
-width: 97%;
+    top: 7.5em;
+    width: 97%;
 }
 .google-map {
 margin: 48px 0 0 0;
@@ -9728,7 +9862,21 @@ line-height: 13px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
-/* offer to lease */
+    .form-search.showmapgoogle {
+        top: 7.5em;
+        width: 97%;
+    }
+    .clcross_icon.calcross_icon {
+        right: -11px;
+    }
+    .showingsmap.mobileviewshow .clcross_icon.mapcross {
+        right: 8px;
+        top: 9px;
+    }
+    .clickonfilterbtn.calenderview_filter {
+        width: 50%;
+    }
+    /* offer to lease */
 .showingssec .datelabel, .showingssec .timelabel {
 flex-basis: 47%;
 }
@@ -10283,10 +10431,6 @@ font-size: 11px;
 .clcross_icon.mapcross {
 right: 5px;
 }
-.form-search.showmapgoogle {
-top: 3.5em;
-width: 97%;
-}
 .google-map {
 margin: 48px 0 0 0;
 }
@@ -10643,6 +10787,12 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+    .bacgr_imagefiltershow {
+        margin: 53px 7px 0 7px;
+    }
+    .clickonfilterbtn.calenderview_filter {
+        width: 55%;
+    }
 .detshow_div .showingssec .timelabel span, .detshow_div .showingssec .timeinfo span, .detshow_div .showingssec .datelabel span, .detshow_div .showingssec .dateinfo span {
 font-size: 10px;
 }

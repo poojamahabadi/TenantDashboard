@@ -2336,11 +2336,7 @@ display: flex;
 text-decoration: none;
 outline: none;
 }
-.accordion.tenantaccord .card {
-background-color: unset;
-border: unset;
-margin: 0 0 1em 0;
-}
+
 .tenantaccord .card-header .btn-link.btn-block.collapsed:after {
 content: "\f107";
 font-family: 'FontAwesome';
@@ -3275,6 +3271,7 @@ font-size: 13px;
 padding: 3px 5px;
 font-weight: 600;
 display: block;
+border:unset;
 margin: 0px 0 6px 0;
 }
 .bacgr_imagefiltershow{
@@ -5599,6 +5596,10 @@ padding: 3px 0;
 text-align: right;
 width: 93%;
 margin: 0 auto 8px auto;
+position: relative;
+}
+.filtercalen img{
+    margin: 0 0 0 7px;
 }
 .filtercalen a{
 font-family: 'Helvetica';
@@ -6084,4 +6085,28 @@ flex-basis: 25%;
 }
 .scanaddr_div .details_contenttxt{
 flex-basis: 74%;
+}
+
+.clickonfilterbtn.calenderview_filter {
+    width: 38%;
+    right: -126px;
+    top: -9px;
+    height: 121px;
+}
+.clcross_icon.calcross_icon {
+    position: absolute;
+    right: -18px;
+    top: -2px;
+    z-index: 10;
+    cursor: pointer;
+    height: 26px;
+}
+.clickonfilterbtn.calenderview_filter .bacgr_imagefiltershow  {
+    margin: 49px auto 0 11px;
+}
+.clickonfilterbtn.calenderview_filter .bacgr_imagefiltershow .btn {
+    width: auto;
+    padding: 3px 24px;
+    text-transform: capitalize;
+    border:unset;
 }
