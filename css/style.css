@@ -5929,6 +5929,10 @@ color: #315D80;
 margin:0;
 text-align: center;
 }
+.share_btndiv .btn.btnshare img{
+    margin: 0 0 0 4px;
+}
+
 .upperdiv_details{
     background-color: #EDF2FA;
     border-radius: 17px;
@@ -5963,7 +5967,7 @@ text-align: center;
 .reqoffer_bg{
     background-color: #D9DFE9;
     border-radius: 18px 18px 0 0;
-    padding: 10px 74px 24px 74px;
+    padding: 15px 74px 28px 74px;
 }
 .req_bodydiv .container-fluid{
     width: 100%;
@@ -6316,6 +6320,7 @@ background: #F2727F;
     border-radius: 40px;
     letter-spacing: 0.7px;
     padding: 3px 12px;
+    border: unset;
 }
 .popup_reschedule_btnofferlease{
     position: relative;

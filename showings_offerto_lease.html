@@ -431,8 +431,8 @@
                     <div class="label_txtreschedule">
                       <label>showing time</label>
                     </div>
-                    <div class="input_reschedule">
-                      <input type="text" class="form-control" value="08:45 AM" tabindex="0">
+                    <div class="input_reschedule offrtoleasemob">
+                      <input type="text" class="form-control" name="time" value="08:45 AM" tabindex="0">
                     </div>
                   </div>
                   <div class="resch_date">
@@ -3064,8 +3064,8 @@ send reminder</span>
                         <div class="label_txtreschedule">
                           <label>showing time</label>
                         </div>
-                        <div class="input_reschedule">
-                          <input type="text" class="form-control" value="08:45 AM" tabindex="0">
+                        <div class="input_reschedule offrtoleasemobtwo">
+                          <input type="text" class="form-control" name="time1" value="08:45 AM" tabindex="0">
                         </div>
                       </div>
                       <div class="resch_date">
@@ -5268,7 +5268,7 @@ send reminder</span>
 <script>
 // datepicker
 $(document).ready(function(){
-$('.meet_inputdate').datepicker({
+$('.datepickershowing input').datepicker({
 language: "es",
 autoclose: true,
 format: "dd/mm/yyyy"
@@ -5276,7 +5276,7 @@ format: "dd/mm/yyyy"
 });
 </script>
 <script>
-$(".meet_timediv input[name=time]").clockpicker({       
+$(".input_reschedule.offrtoleasemob input[name=time],.input_reschedule.offrtoleasemobtwo input[name=time1]").clockpicker({       
 placement: 'bottom',
 align: 'left',
 autoclose: true,
