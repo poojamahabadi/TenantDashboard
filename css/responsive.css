@@ -4979,6 +4979,9 @@ top: -28px;
 .descrip_txt_step p{
     line-height: 15px;
 }
+.listview .descriplist_tabdiv {
+    padding: 7px 0 3px 0;
+}
 .upperdiv_details .details_slider.detailbedshower_div {
     right: 36px;
 }
@@ -5016,6 +5019,9 @@ top: -28px;
 /*mobileview offer to lease showing my appointment */
 .bgclr_mobappt{
     padding: 21px 25px;
+}
+.date_timediv{
+    display: flex;
 }
 .greenappoint .purpl_btn .span_start {
     color: #9BB997;
@@ -5181,14 +5187,12 @@ right: -9px;
 .timewid_cal{
 flex-direction: column;
 }
-.imgcolwid,.widdescrip,.timewid_cal{
-display: flex;
-}
+
 .form-search.showmapgoogle {
 top: 9.4em;
 }
 .listdate_show {
-margin: 9px 0 0 0;
+    margin: 6px 0 0 0;
 }
 .eventtxtdiv .eventinfotxtdivp p {
 line-height: 14px;
@@ -5203,7 +5207,7 @@ font-size: 13px;
 top: 7.4em;
 }
 .imgleft_listtab img {
-height: auto;
+    height: 88px;
 }
 .listdate_show p img {
 vertical-align: text-top;
@@ -5213,11 +5217,19 @@ height: 14px;
 padding: 7px 0;
 }
 .timings_datalist {
-justify-content: flex-start;
-margin: 9px 0 7px 0;
+    justify-content: flex-start;
+    margin: 6px 12px 1px 0px;
 }
-.listrow {
-align-items: flex-start;
+
+.listview .listrow {
+    background: #C9D7E5;
+    border-radius: 14px;
+    margin: 0 0 1em 0;
+    align-items: unset;
+}
+.listview {
+    background: unset;
+    border-radius:0px;
 }
 .listdate_show p {
 font-size: 13px;
@@ -5235,8 +5247,13 @@ padding: 6px 10px;
 .mobilehidedate_view{
 display: none;
 }
-.padimgzeroleft {
-padding: 0 0px 0 15px;
+.padimgzeroleft{
+    padding: 0 7px 0 0px;
+    display: flex;
+}
+.widdescrip  {
+    padding: 0 7px 0 0;
+    display: flex;
 }
 .showingsmap.mobileviewshow .clcross_icon.mapcross {
 right: 38px;
@@ -6123,6 +6140,15 @@ top: 11px;
 /* showings calender view */
 .calenderview_div {
 top: 208px;
+}
+.listdate_show p img {
+    height: 11px;
+}
+.listdate_show p {
+    font-size: 12px;
+}
+.descriplist_tabdiv p {
+    line-height: 12px;
 }
 .clcross_icon.calcross_icon {
 right: -9px;
@@ -7120,8 +7146,17 @@ margin-left: 66px;
 right: 9px;
 top: 8px;
 }
+.timings_datalist {
+    margin: 2px 12px 0px 0px;
+}
+.listtab_time p {
+    padding: 2px 7px 2px 7px;
+}
+.listdate_show {
+    margin: 3px 0 0 0;
+}
 .clcross_icon.calcross_icon {
-right: -10px;
+    right: -14px;
 }
 .filtercalen img {
 height: 16px;
@@ -7136,10 +7171,6 @@ left: 1%;
 .listrow {
 margin: 0 0 12px -7px;
 }
-.widdescrip, .timewid_cal {
-flex: 0 0 37%;
-max-width: 37%;
-}
 .descriplist_tabdiv {
 padding: 3px 0 1px 0px;
 }
@@ -7147,8 +7178,8 @@ padding: 3px 0 1px 0px;
 font-size: 11px;
 }
 .listdate_show p img {
-height: 13px;
-margin: -1px 0 0 0;
+    height: 12px;
+    margin: -1px 0 0 0;
 }
 .button_map .filterbtnshow img {
 margin: 3px 0 0 0;
@@ -7158,10 +7189,7 @@ height: 34px;
 padding: 8px 4px;
 }
 .calenderview_div {
-max-height: 351px;
-}
-.padimgzeroleft {
-padding: 0 0px 0 9px;
+    max-height: 408px;
 }
 .listdate_show {
 margin: 7px 0 0 0;
@@ -7182,14 +7210,14 @@ font-size: 11px;
 font-size: 10px;
 }
 .listtab_time p {
-padding: 1px 7px 3px 7px;
-font-size: 9px;
+    padding: 2px 7px 2px 7px;
+    font-size: 9px;
 }
 .bacgr_imagefiltershow {
 margin: 60px 7px 0 7px;
 }
 .calenderview_div {
-top: 210px;
+    top: 224px;
 }
 /* showings offer to lease */
 .appt_headtxt h3 {
@@ -7691,8 +7719,8 @@ font-size: 12px;
 padding: 5px 12px;
 }
 .form-search.showmapgoogle {
-top: 8em;
-width: 90%;
+    top: 9em;
+    width: 90%;
 }
 .button_map button img {
 height: 14px;
@@ -8917,6 +8945,28 @@ left: -22px;
 .step_sharebg {
     width: 100%;
 }
+.descriplist_tabdiv p {
+    font-size: 10px;
+    line-height: 13px;
+}
+.imgleft_listtab img {
+    height: 94px;
+}
+.listview .descriplist_tabdiv {
+    padding: 5px 0 3px 0;
+}
+.listtab_time p {
+    font-size: 10px;
+}
+.listdate_show p img {
+    height: 12px;
+}
+.listdate_show p {
+    font-size: 12px;
+}
+.clcross_icon.calcross_icon {
+    right: -6px;
+}
 .leave_request_offer {
     margin: 1em 0 8em 0;
 }
@@ -8967,15 +9017,30 @@ margin: 58px 7px 0 7px;
 .phone_apt img {
     height: 14px;
 }
+.clcross_icon.calcross_icon {
+    right: -17px;
+    top: -2px;
+}
 .clickonfilterbtn.calenderview_filter {
-width: 45%;
-right: -22px;
+    width: 45%;
+    right: -30px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
 width: 39%;
 }
 .movviewbgcolrscheduleoffr .bacgr_imagefiltershow {
 margin: 47px auto 0 0px;
+}
+.calenderview_div .tab-content {
+    padding: 4px 9px 2px 9px;
+}
+.calenderview_div {
+    width: 96.4%;
+    left: 2%;
+    max-height: 335px;
+}
+.descriplist_tabdiv a {
+    font-size: 10px;
 }
 /* end of showings */
 .appt_headtxt h3 {
@@ -9684,6 +9749,43 @@ width: 37%;
 /* showing step 1 */
 .step_sharebg {
     width: 100%;
+}
+.calenderview_div {
+    max-height: 348px;
+}
+.listdate_show {
+    margin: 2px 0 0 0;
+}
+.descriplist_tabdiv p {
+    font-size: 10px;
+    line-height: 13px;
+}
+.listtab_time p {
+    padding: 1px 7px 2px 7px;
+    font-size: 12px;
+}
+.listdate_show p img {
+    height: 12px;
+}
+.timings_datalist {
+    margin: 3px 12px 1px 0px;
+}
+.listtab_time p {
+    font-size: 10px;
+}
+.calenderview_div .tab-content {
+    padding: 4px 6px 2px 6px;
+}
+.imgleft_listtab img {
+    height: 102px;
+}
+.clcross_icon.calcross_icon {
+    right: 2px;
+}
+.calenderview_div {
+    padding: 10px 10px 15px 10px;
+    width: 97.4%;
+    left: 1%;
 }
 .btm_descrip_txt p {
     font-size: 11px;
@@ -10572,6 +10674,39 @@ line-height: 13px;
 .step_sharebg {
     width: 100%;
 }
+.calenderview_div .tab-content {
+    padding: 4px 8px 2px 8px;
+}
+.listtab_time p {
+    padding: 1px 8px 3px 8px;
+    font-size: 10px;
+}
+.imgleft_listtab img {
+    height: 112px;
+}
+.clickonfilterbtn.calenderview_filter {
+    right: -23px;
+}
+.calenderview_div {
+    max-height: 344px;
+}
+.listdate_show {
+    margin: 7px 0 0 0;
+}
+.listdate_show p img {
+    height: 11px;
+}
+.listdate_show p {
+    font-size: 11px;
+}
+.descriplist_tabdiv p {
+    font-size: 10px;
+}
+.calenderview_div {
+    width: 97.4%;
+    left: 1%;
+    padding: 10px 8px 15px 8px;
+}
 .bottom_rightdetails.bottomrght_gallery{
     bottom: 9px;
 }
@@ -10608,7 +10743,7 @@ top: 7.5em;
 width: 97%;
 }
 .clcross_icon.calcross_icon {
-right: -11px;
+    right: -1px;
 }
 .showingsmap.mobileviewshow .clcross_icon.mapcross {
 right: 8px;
@@ -11563,6 +11698,15 @@ left: 14px;
 /* showings step1 */
 .reqoffer_bg {
     padding: 16px 14px 29px 14px;
+}
+.clickonfilterbtn.calenderview_filter {
+    right: -27px;
+}
+.upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
+    padding: 7px 2px;
+}
+.calenderview_div {
+    max-height: 274px;
 }
 .btm_descrip_txt p {
     line-height: 16px;

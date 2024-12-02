@@ -534,3 +534,5 @@ $(".clcross_icon.calcross_icon").click(function(){
 $(".clickonfilterbtn.calenderview_filter,.clcross_icon.calcross_icon").hide();
 }); 
 });
+
+
