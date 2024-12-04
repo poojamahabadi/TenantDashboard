@@ -4630,8 +4630,67 @@ padding: 20px 20px;
 width: 83%;
 margin: 0 0 0 auto;
 position: absolute;
-z-index: 10;
+z-index: 100;
 right: 14px;
+}
+.flexlook_yearmonth{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.dateyear_div{
+    flex-basis: 64%;
+}
+.datearrow {
+    justify-content: flex-end;
+}
+.datearrow {
+    flex-basis: 32%;
+}
+.flexlook_yearmonth .select-box,.flexlook_yearmonth .select-box1 {
+    cursor: pointer;
+    position: relative;
+}
+.flexlook_yearmonth .select-box1{
+    width: 36%;  
+}
+.flexlook_yearmonth .select-box .label::after,.flexlook_yearmonth .select-box1 .label::after {
+    padding: 6px 6px;
+}
+.dateyear_div, .datearrow {
+    display: flex;
+    align-items: center;
+}
+.weekdates_txt .weknamediv.active .wekdate{
+    font-size: 12px;
+    border: 4px solid #EDF2FA;
+    padding: 4px 0;
+}
+.weekdates_txt .weknamediv .wekdate{
+    background-color: #EDF2FA;
+}
+.showingoffer_leasecal_design{
+    margin: 20px 0 0 0;  
+}
+.weekdates_txt .weknamediv.nextmonthdate{
+opacity: 0.5;
+}
+.date_apptdesign{
+background: #C9D7E5;
+border-radius: 0px 0px 20px 20px;
+right: 0px;
+padding: 1em;
+top: 136px;
+position: absolute;
+width: 100%;
+}
+.flexlook_yearmonth .select-box{
+    margin:0 10px 0 0;
+    width: 44%;
+}
+.flexlook_yearmonth .select-box .label,.flexlook_yearmonth .select-box1 .label{
+background: #EDF2FA;
 }
 .bkappontbtn{
 display: none;
@@ -4761,8 +4820,13 @@ display: flex;
 flex-basis: 49%;
 align-items: center;
 }
+.timeiconimg{
+    position: absolute;
+    right: 11px;
+    top: 4px;
+}
 .meet_timediv input{
-padding: 0px 46px 0px 11px;
+padding: 0px 30px 0px 11px;
 }
 .meet_datediv input{
 padding: 0px 11px 0px 11px;
@@ -5101,7 +5165,6 @@ margin: 0px 0 3px 0;
 .wekdate{
 background: #C9D7E5;
 border-radius: 42px;
-margin: 0;
 text-align: center;
 padding: 4px 0px;
 margin: 7px 0 0 0;
@@ -6566,4 +6629,149 @@ text-align: center;
 }
 .shr_ic,.cp_ic{
     margin:0 0 60px 0;
+}
+
+
+.timepicker-panel {
+    padding: 50px;
+    border: 1px solid #ccc;
+    margin: 50px auto;
+    max-width: 350px;
+}
+
+body .nj-timepick {
+    --nj-timepick-primary: #cecece;
+}
+
+.timepicker-panel .form-item:not(:last-child){
+    margin: 0 0 30px;
+}
+
+.timepicker-panel .help-block{
+    color: #4d4d4d;
+    font-size: 12px;
+    margin: 6px 0;
+}
+.timepicker-panel .control-label {
+    margin-right: 10px;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+.nj-timepick-input {
+    outline: 0 !important;
+}
+.nj-timepick__panel {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: #C9D7E5;
+    border-radius: 0px 0px 20px 20px;
+}
+.nj-timepick.nj-timepick--active {
+    right: 80px;
+    display: flex;
+}
+.meet_timediv input.nj-timepick-input--active{
+    border-radius: 20px 20px 0 0;
+}
+.nj-timepick {
+    width: auto;
+    transition: right 0.7s ease;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 280px;
+    z-index: 10;
+    right: -100%;
+}
+.nj-timepick__boxes-column {
+    width:69.6px;
+    overflow: hidden;
+}
+.datepickershowing .input-group-text,.datepickershowingone .input-group-text  {
+    border: unset;
+    background-color: #c9d7e5;
+    padding: 0 10px 0 7px;
+    border-radius: 0px 20px 20px 0px;
+}
+.nj-timepick__boxes {
+    height: 128px;
+    overflow: auto;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0) 14.91%, rgba(237, 242, 250, 0.5) 53.97%, rgba(255, 255, 255, 0) 88.79%);
+    border-radius: 10px;
+    margin: 0 5px;
+    padding: 4px 8px;
+}
+.nj-timepick__boxes::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.nj-timepick__boxes {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+.nj-timepick__box {
+    cursor: pointer;
+    margin: 0 auto 10px auto;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #EDF2FA;
+border-radius: 10px;
+color:#A3BCD0;
+}
+.nj-timepick__meridians{
+    margin: 0 5px;
+    padding: 4px 3px;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0) 14.91%, rgba(237, 242, 250, 0.5) 53.97%, rgba(255, 255, 255, 0) 88.79%);
+}
+.nj-timepick__box--active {
+    font-weight: 700;
+    background: #EDF2FA;
+    border-radius: 10px;
+    width: 46px;
+    height: 46px;
+    border: unset;
+    font-size: 17px;
+    color:#315D80;
+}
+.nj-timepick-input--active {
+    border: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.date_apptdesign{
+    display: none;
 }

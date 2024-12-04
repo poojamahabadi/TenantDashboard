@@ -148,8 +148,6 @@ slidesToShow:1,
 });
 
 
-
-
 // filter showings popup 
 $(".clickonfilterbtn.clkfilmap,.clcross_icon.mapcross").hide();
 $(document).ready(function() {
@@ -264,14 +262,6 @@ $(".popup_reschedule_btnofferlease").slideToggle();
 $(this).toggleClass("padchange_btn");
 }); 
 });
-
-
-
-
-
-
-
-
 
 
 $(".resche_yellowcard").hide();
@@ -403,6 +393,16 @@ $('.groceries,.shopping,.schools').hide();
 
 
 // showing lease offers
+
+$('.date_apptdesign').hide();
+$(document).ready(function() {
+$(".meet_inputdate").click(function(){
+$(".date_apptdesign").slideToggle();
+}); 
+});
+
+
+
 $(document).ready(function(){
 $('.propfeat_tab.offertolease_tab ul li').click(function(){
 $('.propfeat_tab.offertolease_tab ul li').removeClass("active");
@@ -480,12 +480,11 @@ $('.unit_div,.building_div').hide();
 });
 
 
-
+// month and year select box (showing offer to lease and showings page)
 
 $("#select-box,#select-box1").on("click" , function() {
 $(this).parent(".select-box.month,.select-box1.year").toggleClass("open");
 });
-
 
 $(document).mouseup(function (e){
 var container = $(".select-box.month,.select-box1.year");
@@ -493,15 +492,12 @@ if (container.has(e.target).length === 0){
 container.removeClass("open");
 }
 });
-
 $(".select-box.month select,.select-box1.year select").on("change" , function() {
 var selection = $(this).find("option:selected").text(),
 labelFor = $(this).attr("id"),
 label = $("[for='" + labelFor + "']");
-
 label.find(".label-desc").html(selection);
 });
-
 $(".select-box.month select,.select-box1.year select").on("change" , function() {
 val = $( ".select-box.month select option:selected,.select-box1.year select option:selected" ).val(); 
 });
@@ -534,5 +530,4 @@ $(".clcross_icon.calcross_icon").click(function(){
 $(".clickonfilterbtn.calenderview_filter,.clcross_icon.calcross_icon").hide();
 }); 
 });
-
 
