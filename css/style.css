@@ -29,40 +29,40 @@ border-radius: 20px;
     width: 7px;
     height: 7px;
 }
-.selectdiv_representative::-webkit-scrollbar-track
+.respre_dropdown::-webkit-scrollbar-track
 {
 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 border-radius: 10px;
 background-color: #F5F5F5;
 }
 
-.selectdiv_representative::-webkit-scrollbar
+.respre_dropdown::-webkit-scrollbar
 {
 width: 7px;
 height: 5px;
 background-color: #F5F5F5;
 }
-.selectdiv_representative::-webkit-scrollbar-thumb
+.respre_dropdown::-webkit-scrollbar-thumb
 {
 border-radius: 10px;
 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 background-color: #DEE7F2;
 }
 
-.selectdiv_representative::-webkit-scrollbar-track
+.respre_dropdown::-webkit-scrollbar-track
 {
 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 border-radius: 10px;
 background-color: #F5F5F5;
 }
 
-.selectdiv_representative::-webkit-scrollbar
+.respre_dropdown::-webkit-scrollbar
 {
 width: 7px;
 height: 5px;
 background-color: #F5F5F5;
 }
-.selectdiv_representative::-webkit-scrollbar-thumb
+.respre_dropdown::-webkit-scrollbar-thumb
 {
 border-radius: 10px;
 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
@@ -665,7 +665,7 @@ display: flex;
 justify-content: space-between;
 border-bottom: 1px solid #c9d7e5;
 align-items: center;
-padding: 6px 3px;
+padding: 8px 3px;
 }
 .flexdiv div label {
 margin: 0;
@@ -1786,7 +1786,7 @@ color: #fff;
 background: #ea4b61;
 box-shadow: inset 2px 2px 4px rgba(255, 154, 169, 0.6), inset -2px -2px 5px -1px rgba(215, 47, 71, 0.59);
 border-radius: 42px;
-padding: 6px 10px;
+padding: 6px 6px 7px 15px;
 }
 .start_signbtn .start_btn_signin .starttxt {
 margin: 0 5px 0 0;
@@ -1805,7 +1805,6 @@ color: rgba(49, 93, 128, 0.5);
 }
 .verify_btn .btn {
 background: #9bb997;
-box-shadow: inset 2px 2px 4px #abcba7, inset -2px -2px 5px -1px #6a9365;
 border-radius: 40px;
 font-family: 'Helvetica';
 font-weight: 500;
@@ -1842,11 +1841,12 @@ color: #315d80;
 font-family: 'Helvetica';
 font-style: normal;
 font-weight: 500;
-padding: 8px 13px;
+padding: 8px 5px 8px 11px;
 font-size: 12px;
 line-height: 16px;
 text-transform: capitalize;
 color: #fff;
+background: #F2727F;
 text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 .txt_span {
@@ -1878,7 +1878,6 @@ margin-left: 10px;
 }
 .btn.preapprove {
 font-family: 'Helvetica';
-font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 12px;
@@ -1887,21 +1886,25 @@ text-transform: capitalize;
 color: #fff;
 text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 background: #9bb997;
-box-shadow: inset 2px 2px 4px #abcba7, inset -2px -2px 5px -1px #6a9365;
 border-radius: 40px;
-padding: 11px 5px 12px 13px;
+padding: 12px 5px 13px 13px;
 border: unset;
 }
 .btn.preapprove span {
-background: #769672;
-border-radius: 18px 40px 40px 18px;
-padding: 6px;
+    background: #769672;
+    border-radius: 18px 40px 40px 18px;
+    padding: 8px 6px;
+    margin-left: 4px;
 }
 .preapprov_btn .btn.upload {
-text-transform: capitalize;
-color: #fff;
-font-size: 12px;
-padding: 8px 13px 8px 13px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 12px;
+    background: #F2727F;
+    padding: 8px 5px 8px 11px;
+}
+.preapprov_btn .btn.upload img,.pending_divbtn .btn.upload img{
+    margin: 0 0 0 4px;
 }
 .due_datetxt {
 padding: 4px 0 0 0;
@@ -1944,12 +1947,25 @@ padding-right: 7px;
 .padlef {
 padding-left: 7px;
 }
+.start_signbtn .start_btn_signin{
+    width: 51%;
+}
+.activelease_agreemts .btn.commn.pendingverif{
+    width: 91px;
+    padding: 3px 8px 3px 4px;
+text-align: right;
+}
+.activelease_agreemts .btn.commn.pendingverif img {
+    margin-left: 2px;
+}
 .start_signbtn .start_btn_signin, .verify_btn .btn, .btn.commn.pendingverif {
 font-size: 11px;
 border: unset;
-width: 51%;
 margin: 0 0 0 auto;
-height: 37px;
+height: 34px;
+}
+.verify_btn .btn{
+    width: 91px;
 }
 .start_signbtn .start_btn_signin {
 display: flex;
@@ -1960,9 +1976,9 @@ align-items: center;
 padding: 3px 4px;
 }
 .verify_btn .btn img {
-height: 11px;
-vertical-align: text-bottom;
-margin-left: 0px;
+    height: 13px;
+    vertical-align: text-bottom;
+    margin-left: 2px;
 }
 .btn.commn.pendingverif img {
 height: 13px;
@@ -1971,7 +1987,6 @@ margin-left: 0px;
 }
 .progress.movein_progress .progress-bar {
 background: #9bb997;
-box-shadow: inset 2px 2px 4px #abcba7, inset -2px -2px 5px -1px #6a9365;
 border-radius: 40px;
 }
 .progress.movein_progress .progress-bar h3 {
@@ -1996,6 +2011,7 @@ justify-content: right;
 }
 .progress.movein_progress .percent_progress span {
 margin: -10px 13px 0 0;
+color:#ffffff;
 }
 .movein_complete .verify_btn {
 text-align: right;
@@ -2004,17 +2020,20 @@ text-align: right;
 margin: 0 4px 0 0;
 }
 .amt_payment .btn.full_amt, .amt_payment .btn.make_pay {
-font-family: 'Helvetica Rounded';
-font-weight: 700;
-font-size: 13px;
-text-transform: capitalize;
-border-radius: 40px;
-padding: 8px 21px;
+    font-family: 'Helvetica Rounded';
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: capitalize;
+    border-radius: 40px;
+    padding: 3px 6px;
+    line-height: 20px;
+    width: 122px;
+    border: unset;
 }
 .amt_payment .btn.full_amt {
-background: #9bb997;
-color: #fff;
-box-shadow: inset 2px 2px 4px #abcba7, inset -2px -2px 5px -1px #6a9365;
+    background: #9bb997;
+    color: #fff;
+    margin: 0 6px 0 0px;
 }
 .flexcentr_div {
 align-items: center;
@@ -2025,7 +2044,6 @@ text-align: right;
 .amt_payment .btn.make_pay {
 color: #315d80;
 background: #f1d15b;
-box-shadow: inset 2px 2px 4px rgba(255, 235, 166, 0.6), inset -2px -2px 5px -1px #c5a530;
 }
 .amount_trans h3 {
 font-family: 'Helvetica Rounded';
@@ -2063,23 +2081,23 @@ color: #315d80;
 margin: 0;
 }
 .bgcolr_depos {
-background: #edf2fa;
-box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.3), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
-border-radius: 17px;
 padding: 13px;
+background: #EDF2FA;
+box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08);
+border-radius: 17px;
 }
 .trans_details {
-background: #c9d7e5;
-box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
-border-radius: 10px;
-font-family: 'Helvetica';
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-text-transform: capitalize;
-color: #315d80;
-padding: 30px 10px;
+    background: #c9d7e5;
+    box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #315d80;
+    padding: 30px 13px;
 }
 .trans_details p {
 margin: 0;
@@ -2092,7 +2110,6 @@ align-items: center;
 }
 .infolease_trans {
 background: #edf2fa;
-box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.3), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
 border-radius: 17px;
 padding: 17px 12px;
 margin: 0 0 17px 0;
@@ -2100,23 +2117,21 @@ margin: 0 0 17px 0;
 .btn.credit_today {
 font-family: 'Helvetica Rounded';
 background: #9bb997;
-box-shadow: inset 2px 2px 4px #abcba7, inset -2px -2px 5px -1px #6a9365;
 border-radius: 40px;
 }
 .btn.credit_today, .btn.view_trans {
-font-family: 'Helvetica Rounded';
-font-weight: 500;
-font-size: 14px;
-color: #fff;
-line-height: 19px;
-text-transform: capitalize;
-border: unset;
-padding: 10px 20px;
-width: 100%;
+    font-family: 'Helvetica Rounded';
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    text-transform: capitalize;
+    border: unset;
+    padding: 10px 20px;
+    width: 100%;
 }
 .btn.view_trans {
 background: #315d80;
-box-shadow: 2.56499px 2.56499px 3.20624px rgba(0, 0, 0, 0.1), inset 2.56499px 2.56499px 6.41248px 0.641248px #468dc4;
 border-radius: 25.6499px;
 }
 .button_groupbtn {
@@ -4868,48 +4883,69 @@ border:unset;
 .repres_div, .meet_timediv{
 margin:0 0 10px 0;
 }
-.bookappnt_divabs .btn-select{
-background: #C9D7E5;
-border-radius: 20px;
-height: 33px;
-width: 100%;
-border: unset;
-padding: 2px 12px 2px 4px;
+
+.respre_dropdown .dropdown-item.active,.respre_dropdown .dropdown-item:active {
+    background: #C9D7E5;
 }
-#select_listrepres li span, .btn-select li span,#select_listrepresmobile li span{
-text-transform: capitalize;
+.respre_dropdown .btn img,.respre_dropdown .dropdown-menu .dropdown-item img {
+    width: auto;
+    height: 25px;
+    border-radius: 50%;
+}
+.respre_dropdown .btn {
+    height: 33px;
+    width: 100%;
+    background: rgb(201, 215, 229);
+    border-radius: 20px;
+    border: unset;
+    padding: 2px 20px 2px 5px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.respre_dropdown button.btn:after {
+    content: url(../images/showings/showing_lease_offer/arrow_offerlease.svg);
+    border: unset;
+    margin: 0px;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+.respre_dropdown .btn span {
+    text-transform: capitalize;
+    color: rgb(49, 93, 128);
+    font-weight: 400;
+    font-family: Helvetica;
+    font-size: 12px;
+    margin-left: 6px;
+}
+.respre_dropdown .dropdown-menu {
+    width: 100%;
+    position: absolute;
+    max-width: 350px;
+    border-radius: 0px;
+    z-index: 100;
+    padding: 5px;
+    background: #C9D7E5;
+    overflow-y: scroll;
+    height: 116px;
+border:unset;
+}
+.respre_dropdown .dropdown-menu .dropdown-item {
+    padding: 3px 4px;
+    margin: 0;
+}
+.respre_dropdown .dropdown-menu .dropdown-item span{
+    text-transform: capitalize;
 color: #315D80;
 font-weight: 400;
 font-family: 'Helvetica';
 font-size: 13px;
-margin-left: 10px;
-}
-.selectrespres{
-display: none; 
-}
-#select_listrepres,#select_listrepresmobile{
-padding-left: 0px;
-margin:0;
-}
-#select_listrepres img, .btn-select img,#select_listrepresmobile img{
-width: 28px;
-border-radius: 50%;
-}
-#select_listrepres li,#select_listrepresmobile li{
-list-style: none;
-padding: 3px 12px 3px 4px;
-}
-#select_listrepres li:hover,#select_listrepresmobile li:hover{
-background-color: #F4F3F3;
-}
-.open{
-display: block !important;
+margin-left: 5px;
 }
 .inputselect_div{
 position: relative;
-justify-content: end;
 width: 49%;
-display: flex;
 }
 .meet_inputdate{
 justify-content: end;
@@ -4953,7 +4989,7 @@ width: 85%;
 top: 212px;
 margin: 0px 0px 0px auto;
 right: 0;
-padding: 7px;
+padding: 12px 7px 4px 7px;
 }
 .sched_meeting .btn{
 color: #ffffff;
@@ -5748,6 +5784,9 @@ color: #315D80;
 }
 .prof_name{
     margin: 5px 0;
+}
+.myleaseteam_flex .prof_name {
+    margin: 0px 0;
 }
 .status_chat {
     position: absolute;
@@ -6684,7 +6723,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     align-items: center;
     position: absolute;
     top: 280px;
-    z-index: 10;
+    z-index: 100;
     right: -100%;
 }
 .nj-timepick__boxes-column {
@@ -6747,31 +6786,25 @@ color:#A3BCD0;
 .nj-timepick-input--active {
     border: 1px solid #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .date_apptdesign{
     display: none;
 }
+
+/* active lease page */
+.agreemt_confrm.mylease_agreements.activelease_agreemts{
+    height: auto;
+}
+.activelease_agreemts .start_signbtn .start_btn_signin{
+background: #F2727F;
+box-shadow: unset;
+}
+.desktop_viewinsurce_hide{
+    display: none;
+}
+.tabsdiv.tabs_activeleasepage .nav.nav-tabs{
+box-shadow: unset;
+}
+
+
+
+

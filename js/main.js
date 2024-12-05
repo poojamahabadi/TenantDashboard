@@ -531,3 +531,10 @@ $(".clickonfilterbtn.calenderview_filter,.clcross_icon.calcross_icon").hide();
 }); 
 });
 
+// bookappointment representative dropdown
+$(".inputselect_div .dropdown-menu .dropdown-item").click(function(){
+        var selText = $(this).text();
+        var imgSource = $(this).find('img').attr('src');
+        var img = '<img src="' + imgSource + '"/>'; 
+        $(this).parents('.dropdown').find('#dropdownMenuButton').html(img + '<span> ' +selText+'</span>');
+      });
