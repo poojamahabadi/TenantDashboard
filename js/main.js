@@ -178,52 +178,55 @@ $(".scheshow_flex .clickonfilterbtn,.scheshow_flex .clcross_icon").hide();
 
 
 // invite
-$('.btninvite.minus').hide();
-$(".showinvite_content").css('display','none');
-$(document).ready(function() {
-$('.btninvite.plus').click(function() {
-$(".showinvite_content").css('display','block');
-$(".btninvite.plus").hide();
-$('.btninvite.minus').show();
-$(".invite_sliderslick .slick-list").slick({
-slidesToShow: 4,
-slidesToScroll: 1,
-arrows: true,
-infinite: true,
-autoplay: true,
-responsive: [
-{
-breakpoint: 640,
-settings: {
-slidesToShow: 4,
-slidesToScroll: 1,
-}
-},
-{
-breakpoint: 568,
-settings: {
-slidesToScroll: 1,
-slidesToShow:3,
-}
-},
-{
-breakpoint:378,
-settings: {
-slidesToScroll: 1,
-slidesToShow:2.5,
-}
-}
-]
-});
-});
+// $('.btninvite.minus').hide();
+// $(".showinvite_content").css('display','none');
+// $(document).ready(function() {
+// $('.btninvite.plus').click(function() {
+// $(".showinvite_content").css('display','block');
+// $(".btninvite.plus").hide();
+// $('.btninvite.minus').show();
+// $(".invite_sliderslick .slick-list").slick({
+// slidesToShow: 4,
+// slidesToScroll: 1,
+// arrows: true,
+// infinite: true,
+// autoplay: true,
+// responsive: [
+// {
+// breakpoint: 640,
+// settings: {
+// slidesToShow: 4,
+// slidesToScroll: 1,
+// }
+// },
+// {
+// breakpoint: 568,
+// settings: {
+// slidesToScroll: 1,
+// slidesToShow:3,
+// }
+// },
+// {
+// breakpoint:378,
+// settings: {
+// slidesToScroll: 1,
+// slidesToShow:2.5,
+// }
+// }
+// ]
+// });
+// });
 
-// invite
-$('.btninvite.minus').click(function() {
-$(".showinvite_content").hide();
-$(".btninvite.plus").show();
-$('.btninvite.minus').hide();
-});
-});
+// // invite
+// $('.btninvite.minus').click(function() {
+// $(".showinvite_content").hide();
+// $(".btninvite.plus").show();
+// $('.btninvite.minus').hide();
+// });
+// });
+
+
+
 $(document).ready(function () {
 $(".invite_sliderslick .prev-btn").click(function () {
 $(".invite_sliderslick .slick-list").slick("slickPrev");
@@ -371,25 +374,25 @@ $('.slideronmap .slider').slick('refresh');
 });
 
 // showimgs
-$('.shopping,.schools,.night').hide();
-$(document).ready(function(){
-$('.grocery').click(function(){
-$('.groceries').show();
-$('.shopping,.schools,.night').hide();
-});
-$('.shopbtn').click(function(){
-$('.shopping').show();
-$('.groceries,.schools,.night').hide();
-});
-$('.schoolbtn').click(function(){
-$('.schools').show();
-$('.groceries,.shopping,.night').hide();
-});
-$('.nightbtn').click(function(){
-$('.night').show();
-$('.groceries,.shopping,.schools').hide();
-});
-});
+// $('.shopping,.schools,.night').hide();
+// $(document).ready(function(){
+// $('.grocery').click(function(){
+// $('.groceries').show();
+// $('.shopping,.schools,.night').hide();
+// });
+// $('.shopbtn').click(function(){
+// $('.shopping').show();
+// $('.groceries,.schools,.night').hide();
+// });
+// $('.schoolbtn').click(function(){
+// $('.schools').show();
+// $('.groceries,.shopping,.night').hide();
+// });
+// $('.nightbtn').click(function(){
+// $('.night').show();
+// $('.groceries,.shopping,.schools').hide();
+// });
+// });
 
 
 // showing lease offers
