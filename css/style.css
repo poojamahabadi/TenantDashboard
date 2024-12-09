@@ -519,7 +519,7 @@ color: #315d80;
 font-family: 'Helvetica';
 font-weight: bold;
 text-transform: capitalize;
-font-size: 21px;
+font-size: 20px;
 }
 .editoption {
 display: flex;
@@ -768,8 +768,8 @@ width: 49.88%;
 }
 .myinfo_txt img {
 margin-right: 4px;
-height: 21px;
-width: 21px;
+height: 30px;
+width: 30px;
 vertical-align: sub;
 }
 .tabsdiv .tab-content .container {
@@ -1028,6 +1028,7 @@ background: #315d80;
 border-radius: 19px;
 padding: 4px 10px;
 font-size: 14px;
+border: unset;
 }
 .content_right .btn.btn-create img {
 margin: 0 5px 0 0px;
@@ -1120,10 +1121,10 @@ text-transform: capitalize;
 border-radius: 14px;
 color: #fff;
 padding: 7px 5px;
-font-family: 'Helvetica Rounded';
-font-weight: 400;
-text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.51);
+font-family: 'Helvetica';
+font-weight: 700;
 font-size: 11px;
+border:unset;
 width: 104px;
 }
 .flexdiv_myinfo .addr {
@@ -1139,17 +1140,15 @@ margin: 0;
 vertical-align: text-top;
 }
 .myinfotabs .btn.commn img {
-height: 11px;
-margin-left: 0px;
-margin-right: 2px;
-float: left;
+    height: 11px;
+    float: left;
+    margin: 2px 0px 0 3px;
 }
 .alignbtn_right {
 text-align: right;
 }
 .high {
 background: #ea4b62;
-box-shadow: inset 2px 2px 4px rgba(255, 154, 169, 0.6), inset -2px -2px 5px -1px rgba(215, 47, 71, 0.59);
 }
 .name_addr p {
 line-height: 13px;
@@ -1159,7 +1158,7 @@ margin: 3px 0 0 0;
 margin: 4em 0 0 0;
 }
 .stat_div {
-font-family: 'Helvetica Rounded';
+font-family: 'Helvetica';
 font-weight: 700;
 font-size: 12px;
 text-align: center;
@@ -1172,22 +1171,18 @@ padding: 0;
 }
 .btn.high {
 background: #ea4b62;
-box-shadow: inset 2px 2px 4px rgba(255, 154, 169, 0.6), inset -2px -2px 5px -1px rgba(215, 47, 71, 0.59);
 }
 .btn.high, .btn.normal {
 border-radius: 14px;
 }
 .btn.normal {
 background: #f1d15b;
-box-shadow: inset 2px 2px 4px rgba(255, 235, 166, 0.6), inset -2px -2px 5px -1px #c5a530;
 }
 .btn.reoccur {
 background: #9bb997;
-box-shadow: inset 2px 2px 4px #abcba7, inset -2px -2px 5px -1px #6a9365;
 }
 .mainte_tabs .nav-tabs .nav-item .nav-link.active {
 background: #376990;
-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05), inset 2px 4px 10px 1px #468dc4;
 border-radius: 40px;
 color: #fff;
 }
@@ -1404,78 +1399,94 @@ color: #9bb997;
 font-weight: bold;
 }
 .transactions_table thead tr th {
-font-weight: bold;
-color: #315d80;
-font-size: 16px;
-border: unset;
+    font-weight: bold;
+    color: #315d80;
+    font-size: 16px;
+    border: unset;
+    padding: 14px 5px;
+    text-transform: capitalize;
 }
 .bld_txt {
 font-weight: bold;
 }
 .transactions_table tbody tr td {
-color: #315d80;
-font-size: 14px;
-text-transform: capitalize;
-padding: 8px;
+    color: #315d80;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding: 8px;
+    border: unset;
+}
+.transactions_table tbody tr  {
+    border-bottom: 1px solid #C9D7E5;
+}
+.transac_balpage .table.transactions_table{
+    margin: 0 0 3px 0;
+}
+.transactions_table tbody tr:last-child {
+    border-bottom: none;
 }
 .transactions_table tbody tr td img {
-margin-right: 10px;
+    margin-right: 10px;
+    height: 21px;
+    width: 23px;
+    vertical-align: bottom;
 }
 .card.balancecard {
 border: unset;
 background: unset;
 }
 .card.balancecard .card-header {
+border-radius: 25px 25px 0px 0px;
 display: flex;
 justify-content: space-between;
 background: #c9d7e5;
-box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
-border-radius: 25px 25px 0px 0px;
 border: unset;
 padding: 12px 20px 20px 20px;
 }
 .card.balancecard .card-header h3 {
-text-transform: uppercase;
-font-weight: bold;
-color: #315d80;
-margin: 0;
-font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #315d80;
+    margin: 0;
+    font-size: 16px;
 }
 .pricetxt {
-color: #ea4b61;
-font-weight: bold;
-font-family: 'Helvetica Rounded';
-font-size: 25px;
-margin: 0 0 5px 0;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 22px;
+line-height: 25px;
+text-transform: capitalize;
+color: #F2727F;
+margin: 0 0 7px 0;
 }
 .price_ptxt {
-font-family: 'Helvetica';
-color: #315d80;
-font-size: 15px;
-margin: 0;
+    font-family: 'Helvetica';
+    color: #315d80;
+    font-size: 12px;
+    margin: 0;
 }
 .btn.pay_amt, .btn.makepay_amt {
-border-radius: 40px;
-color: #fff;
-font-size: 12px;
-text-transform: capitalize;
-font-weight: bold;
-font-family: 'Helvetica Rounded';
+    border-radius: 40px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Helvetica Rounded';
+    border: unset;
+    padding: 3px 13px;
 }
 .btn.pay_amt {
 background: #9bb997;
-box-shadow: inset 2px 2px 4px #abcba7, inset -2px -2px 5px -1px #6a9365;
 }
 .btn.makepay_amt {
 background: #f1d15b;
-box-shadow: inset 2px 2px 4px rgba(255, 235, 166, 0.6), inset -2px -2px 5px -1px #c5a530;
 }
 .card.balancecard .card-body {
-padding: 10px 15px;
-background: #edf2fa;
-box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.3), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
-border-radius: 17px;
-margin: -11px 0 0 0;
+    padding: 16px 15px 13px 15px;
+    margin: -11px 0 0 0;
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08);
+    border-radius: 17px;
 }
 .twobuttons_div {
 margin: 12px 0 0 0;
@@ -1519,11 +1530,24 @@ line-height: 17px;
 margin: 1em 0 0 0;
 }
 .dropdown.dropinfo .btn.dropdown-toggle {
-background: #7fa67a;
-box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.1), inset 4px 5px 5px rgba(81, 93, 112, 0.1);
-border-radius: 40px;
-color: #fff;
-font-size: 12px;
+    background: #7fa67a;
+    box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.1), inset 4px 5px 5px rgba(81, 93, 112, 0.1);
+    border-radius: 40px;
+    color: #fff;
+    font-size: 15px;
+    padding: 1px 24px;
+    border:unset;
+}
+.dropdown.dropinfo .btn.dropdown-toggle::after{
+    content: "\f107";
+    font-family: 'FontAwesome';
+    border: unset;
+    padding: 0;
+    vertical-align: baseline;
+}
+.dropdown.dropinfo.show .btn.dropdown-toggle::after{
+    content: "\f106";
+    font-family: 'FontAwesome';
 }
 .monthcustom {
 display: flex;
@@ -1533,12 +1557,11 @@ border-radius: 40px;
 align-items: center;
 }
 .blu_colr {
-background: #315d80;
-box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.1), inset 4px 5px 5px rgba(81, 93, 112, 0.1);
-border-radius: 40px;
-display: flex;
-padding: 4px 8px 4px 14px;
-align-items: center;
+    background: #315D80;
+    border-radius: 40px;
+    display: flex;
+    padding: 5px 8px 5px 16px;
+    align-items: center;
 }
 .dropdown.dropinfo .dropdown-item {
 display: block;
@@ -1559,7 +1582,7 @@ padding: 0px 0 7px 0;
 }
 .txtmonth {
 color: #fff;
-font-size: 13px;
+font-size: 16px;
 margin-right: 9px;
 }
 .set_custom {
@@ -1568,9 +1591,10 @@ color: #fff;
 font-size: 12px;
 }
 .set_custom img {
-height: 19px;
-vertical-align: sub;
-margin-right: 4px;
+    height: 20px;
+    width: 20px;
+    vertical-align: bottom;
+    margin-right: 4px;
 }
 /* my lease */
 .account_nolease {
@@ -6870,6 +6894,69 @@ border: unset;
 .flexalgn_div{
     display: flex;
 }
+/* active lease page */
 
-
+/* transaction page */
+.rightside_sepsec{
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 17px 15px 17px 15px;
+}
+.aply_creditbg{
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 14px 22px;
+    margin: 1.3em 0 2em 0;
+}
+.btn.preapprovtrans {
+    font-family: 'Helvetica';
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    background: #9bb997;
+    border-radius: 40px;
+    padding: 12px 5px 13px 13px;
+    border: unset;
+}
+.btn.preapprovtrans span {
+    background: #769672;
+    border-radius: 18px 40px 40px 18px;
+    padding: 8px 6px;
+    margin-left: 4px;
+}
+.aply_creditbg .flex_centercss{
+    padding: 0px 10px;
+}
+.aply_creditbg .bgcolr_depos{
+    width: 100%;
+    padding: 25px 13px;
+    margin: 1.3em 0 0 0;
+}
+.aply_creditbg .trans_txt h3 {
+    margin: 0 0 7px 0;
+}
+.addi_amtapply .btn.adapply_btn{
+    background: #315D80;
+    border-radius: 25.6499px;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border: unset;
+    padding: 14px 20px;
+    width: 100%;
+}
+.addi_amtapply{
+    margin: 1em 0 0 0;
+}
+.transac_balpage .download_trans {
+    margin: 1em 0 0.2em 0;
+}
 

@@ -485,7 +485,7 @@ $('.unit_div,.building_div').hide();
 
 // month and year select box (showing offer to lease and showings page)
 
-$("#select-box,#select-box1").on("click" , function() {
+$("#select-box,#select-box1,#select-boxtrans,#select-boxyear").on("click" , function() {
 $(this).parent(".select-box.month,.select-box1.year").toggleClass("open");
 });
 
