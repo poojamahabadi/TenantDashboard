@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Find A Property</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<!-- swiper slider -->
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<!-- timepicker styles -->
+<link rel="stylesheet" href="css/jquery-clockpicker.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="l-header">
+<div class="l-header__inner clearfix">
+<div class="c-header-icon desktopversion_search">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+<div class="logo">
+<div class="logo__txt">
+<a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+<div class="mobileversion_view">
+<a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+</div>
+</div>
+</div>
+
+<div class="c-search desktopversion_search">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+
+<div class="mobileversion_view txt_heading">
+<h3>showings</h3>
+</div>
+
+<div class="links">
+<ul>
+<li class="phone desktopversion_search"> <a href="">
+<img src="images/phone.svg"></a>
+<div class="count_phone">
+<span>4</span>
+</div>
+</li>
+<li class="comment desktopversion_search"> <a href="">
+<img src="images/comment.svg"></a>
+<div class="count_comment">
+<span>5</span>
+</div>
+</li>
+<li class="email desktopversion_search"> <a href="">
+<img src="images/email.svg"></a>
+<div class="count_email">
+<span>6</span>
+</div>
+</li>
+<li class="notify"> <a href="">
+<img src="images/notify.svg"></a>
+<div class="count_notify">
+<span>30</span>
+</div>
+</li>
+</ul>
+</div>
+
+<div class="c-header-icon mobileversion_view">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+</div>
+</header>
+
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="topsec_menu">
+<div class="profilepic">
+<img src="images/menu/profilemenu.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+<div class="profiledetails">
+<p>Mae Coleman <small>Tenant</small></p>
+<a href="">View Profile</a>
+</div>
+<div class="menu_scanicon">
+<img src="images/menu/menu_scan.svg">
+</div>
+</div>
+<div class="c-search menusearch">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+<div class="menu_nav">
+<a href="myinformation.html">  <img src="images/menu/my_info.svg"> My Information</a>
+<a href="#">  <img src="images/menu/communication.svg"> Communications</a>
+<a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+<a href="#" class="active">  <img src="images/menu/showings.svg"> showings & offers</a>
+<a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+<a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+<a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+<a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+<a href="#">  <img src="images/menu/scanqr.svg"> Scan QR Code</a>
+<div class="logoutsec">
+<div>
+<a href="javascript:void(0);">Logout</a>
+</div>
+<div>
+<button class="btn upgrade_btn">Upgrade</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<main class="l-main">
+<div class="content-wrapper content-wrapper--with-bg">
+<div class="container-fluid">
+<div class="row prop_rowalign">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="divinfo findpropinfo">
+    <div class="myinfo_txt">
+    <img src="images/find_property/show_prop.svg"> 
+    <span>Showing 27,622 properties </span>
+    </div>
+    </div>
+</div>
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="search_ip_prop">
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <button type="submit" class="btn submt_btnprop">
+                <i class="fa fa-search"></i>
+                </button>
+            </div>
+        <input type="text" class="form-control" placeholder="Search City">
+        <div class="input-group-append">
+                <a href="#setup_prop" data-toggle="modal" class="btn btnmapprop">Map View <img src="images/find_property/map_pin_prop.svg"></a>
+        </div>
+        </div>
+        
+</div>
+</div>
+</div>
+
+
+<div class="listimges_prop">
+<div class="row">
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p1.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p2.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p3.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p4.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p5.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p6.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p7.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p8.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p4.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p10.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p11.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 mar_propbtm">
+<div class="prop_find_details">
+<img src="images/find_property/p12.svg">
+<div class="txt_details_prop">
+<div class="prop_addres">
+<h4>toronto, on</h4>
+</div>
+<div class="prop_numbs">
+<p><span class="num_proptxt">3,654</span> property's</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+
+
+
+
+<!-- setup properties  -->
+
+<div class="modal setup_modalprop" id="setup_prop">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+
+<!-- Modal Header -->
+<div class="modal-header">
+<h4 class="modal-title">setup your preferred properties</h4>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+
+<!-- Modal body -->
+<div class="modal-body">
+<div class="container-fluid">
+<form>
+<div class="row">
+<div class="col-xl-4 popupcss_pad">
+<div class="bed_bath_pets">
+    <div class="">
+    <div class="form-group">
+        <label for="Beds">Beds:</label>
+        <div class="bedbg_colr">
+            <div class="category-lists-slider bednav">
+                <div class="labeltxt_bed">
+                    <p>Studio+</p>
+                </div>
+                <div class="swiper-container bedslider" id="catgory-sliderbed">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="category-button active" data-id="data11">
+                                1+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-button" data-id="data12">
+                                2+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-button" data-id="data13">
+                                3+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-button" data-id="data14">
+                                4+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-button" data-id="data15">
+                                5+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-button" data-id="data16">
+                                6+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-button slider-prev"><i class="fa fa-chevron-left"></i></div>
+                <div class="slider-button slider-next"><i class="fa fa-chevron-right"></i></div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="">
+        <div class="form-group">
+            <label for="Baths">Baths:</label>
+            <div class="bedbg_colr">
+                    <div class="category-lists-slider bathnav">
+                        <div class="labeltxt_bed">
+                            <p>Any+</p>
+                        </div>
+                    <div class="swiper-container bathslider" id="catgory-sliderbath">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide active">
+                                <div class="category-button active" data-id="data1">
+                                    1+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="category-button" data-id="data2">
+                                    2+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="category-button" data-id="data3">
+                                    3+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="category-button" data-id="data4">
+                                    4+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="category-button" data-id="data5">
+                                    5+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="category-button" data-id="data6">
+                                    6+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-button slider-prev"><i class="fa fa-chevron-left"></i></div>
+                    <div class="slider-button slider-next"><i class="fa fa-chevron-right"></i></div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="">
+                <div class="form-group">
+                    <label for="Pets">Pets:</label>
+                    <div class="bedbg_colr">
+                            <div class="category-lists-slider petnav">
+                            <div class="swiper-container petslider" id="catgory-sliderpet">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="category-button active" data-id="data31">
+                                           None
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="category-button" data-id="data32">
+                                           Cat
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="category-button" data-id="data33">
+                                           Dog
+                                        </div>
+                                    </div>
+                                    <!-- <div class="swiper-slide">
+                                        <div class="category-button" data-id="data34">
+                                           Dog
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="slider-button slider-prev"><i class="fa fa-chevron-left"></i></div>
+                            <div class="slider-button slider-next"><i class="fa fa-chevron-right"></i></div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+</div>
+</div>
+<div class="col-xl-4 popupcss_pad">
+<div class="bed_bath_pets moving_datesdiv">
+    <div class="flexmovedate">
+    <div class="form-group flexgrp_css">
+        <div class="label_datetxt">
+            <label for="movingdate">moving date</label>
+        </div>
+        <div class="movedate_value input-group">
+                <input type="text" value="dec 1 , 2024" class="form-control" id="mov_datetxt">
+                <div class="input-group-append dateiconimg">
+                    <span class="input-group-text">
+                    <img src="images/find_property/dateic.svg">
+                    </span>
+                </div>
+        </div>
+    </div>
+</div>
+
+        <div class="proptype_p">
+    <div class="form-group flexgrp_css">
+        <div class="label_datetxt">
+            <label for="propertytype">property type</label>
+        </div>
+        <div class="selc_proptype">
+            <div class="dropdown dropinfo">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">family</button>
+                <div class="dropdown-menu" style="">
+                <a class="dropdown-item" href="#">multi family</a>
+                <a class="dropdown-item" href="#">family</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+        <div class="priceprop_p">
+    <div class="form-group parkdiv">
+        <div class="label_datetxt">
+            <label for="parking">parking</label>
+        </div>
+        <div class="parking_proptype">
+            <div class="dropdown dropinfo">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">yes</button>
+                <div class="dropdown-menu" style="">
+                <a class="dropdown-item" href="#">yes</a>
+                <a class="dropdown-item" href="#">no</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group furnish_div">
+        <div class="label_datetxt">
+            <label for="Furnished">Furnished</label>
+        </div>
+        <div class="furnis_proptype">
+            <div class="dropdown dropinfo">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">yes</button>
+                <div class="dropdown-menu" style="">
+                <a class="dropdown-item" href="#">yes</a>
+                <a class="dropdown-item" href="#">no</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+<div class="col-xl-4 popupcss_pad">
+<div class="bed_bath_pets amenities_div">
+    <div class="proptype_p">
+        <div class="form-group flexgrp_css">
+            <div class="label_datetxt">
+                <label for="UnitAmenities">Unit Amenities </label>
+            </div>
+            <div class="selc_proptype">
+                <div class="dropdown dropinfo">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">family</button>
+                    <div class="dropdown-menu" style="">
+                    <a class="dropdown-item" href="#">multi family</a>
+                    <a class="dropdown-item" href="#">family</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="proptype_p">
+        <div class="form-group flexgrp_css">
+            <div class="label_datetxt">
+                <label for="BuildingAmenities">Building Amenities</label>
+            </div>
+            <div class="selc_proptype">
+                <div class="dropdown dropinfo">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">family</button>
+                    <div class="dropdown-menu" style="">
+                    <a class="dropdown-item" href="#">multi family</a>
+                    <a class="dropdown-item" href="#">family</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+
+<!-- Modal footer -->
+<div class="modal-footer">
+<button data-target="#notifymodal" data-toggle="modal" data-dismiss="modal" type="button" class="btn btn-danger svsearch">save search</button>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- end of setup properties -->
+
+
+
+
+
+<!-- notify me  -->
+
+<div class="modal setup_modalprop notif_div" id="notifymodal">
+    <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    
+    <!-- Modal Header -->
+    <div class="modal-header">
+    <h4 class="modal-title">notify me</h4>
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <!-- Modal body -->
+    <div class="modal-body">
+    <div class="container-fluid">
+    <form>
+    <div class="row">
+    <div class="col-xl-6 popupcss_pad">
+    <div class="bed_bath_pets">
+        <div class="">
+        <div class="form-group">
+            <label for="Beds">Beds:</label>
+            <div class="bedbg_colr">
+                <div class="category-lists-slider bednav">
+                    <div class="labeltxt_bed">
+                        <p>Studio+</p>
+                    </div>
+                    <div class="swiper-container bedslider11" id="catgory-sliderbed11">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="category-button active" data-id="data41">
+                                    1+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="category-button" data-id="data42">
+                                    2+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="category-button" data-id="data43">
+                                    3+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="category-button" data-id="data44">
+                                    4+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="category-button" data-id="data45">
+                                    5+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="category-button" data-id="data46">
+                                    6+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-button slider-prev"><i class="fa fa-chevron-left"></i></div>
+                    <div class="slider-button slider-next"><i class="fa fa-chevron-right"></i></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    
+        <div class="">
+            <div class="form-group">
+                <label for="Baths">Baths:</label>
+                <div class="bedbg_colr">
+                        <div class="category-lists-slider bathnav">
+                            <div class="labeltxt_bed">
+                                <p>Any+</p>
+                            </div>
+                        <div class="swiper-container bathslider12" id="catgory-sliderbath12">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide active">
+                                    <div class="category-button active" data-id="data51">
+                                        1+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="category-button" data-id="data52">
+                                        2+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="category-button" data-id="data53">
+                                        3+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="category-button" data-id="data54">
+                                        4+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="category-button" data-id="data55">
+                                        5+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="category-button" data-id="data56">
+                                        6+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-button slider-prev"><i class="fa fa-chevron-left"></i></div>
+                        <div class="slider-button slider-next"><i class="fa fa-chevron-right"></i></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+            <div class="">
+                    <div class="form-group">
+                        <label for="Pets">Pets:</label>
+                        <div class="bedbg_colr">
+                                <div class="category-lists-slider petnav">
+                                <div class="swiper-container petslider13" id="catgory-sliderpet13">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="category-button active" data-id="data61">
+                                               None
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="category-button" data-id="data62">
+                                               Cat
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="category-button" data-id="data63">
+                                               Dog
+                                            </div>
+                                        </div>
+                                        <!-- <div class="swiper-slide">
+                                            <div class="category-button" data-id="data34">
+                                               Dog
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="slider-button slider-prev"><i class="fa fa-chevron-left"></i></div>
+                                <div class="slider-button slider-next"><i class="fa fa-chevron-right"></i></div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+    </div>
+    </div>
+    <div class="col-xl-6 popupcss_pad">
+    <div class="bed_bath_pets moving_datesdiv">
+        <div class="flexmovedate">
+        <div class="form-group flexgrp_css">
+            <div class="label_datetxt">
+                <label for="movingdate">moving date</label>
+            </div>
+            <div class="movedate_value input-group">
+                    <input type="text" value="dec 1 , 2024" class="form-control" id="mov_datetxt">
+                    <div class="input-group-append dateiconimg">
+                        <span class="input-group-text">
+                        <img src="images/find_property/dateic.svg">
+                        </span>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+            <div class="proptype_p">
+        <div class="form-group flexgrp_css">
+            <div class="label_datetxt">
+                <label for="propertytype">property type</label>
+            </div>
+            <div class="selc_proptype">
+                <div class="dropdown dropinfo">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">family</button>
+                    <div class="dropdown-menu" style="">
+                    <a class="dropdown-item" href="#">multi family</a>
+                    <a class="dropdown-item" href="#">family</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+            <div class="priceprop_p">
+        <div class="form-group parkdiv">
+            <div class="label_datetxt">
+                <label for="parking">parking</label>
+            </div>
+            <div class="parking_proptype">
+                <div class="dropdown dropinfo">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">yes</button>
+                    <div class="dropdown-menu" style="">
+                    <a class="dropdown-item" href="#">yes</a>
+                    <a class="dropdown-item" href="#">no</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="form-group furnish_div">
+            <div class="label_datetxt">
+                <label for="Furnished">Furnished</label>
+            </div>
+            <div class="furnis_proptype">
+                <div class="dropdown dropinfo">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">yes</button>
+                    <div class="dropdown-menu" style="">
+                    <a class="dropdown-item" href="#">yes</a>
+                    <a class="dropdown-item" href="#">no</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </form>
+    </div>
+    </div>
+    
+    <!-- Modal footer -->
+    <div class="modal-footer">
+        <button type="button" class="btn btn-danger svsearch" data-dismiss="modal">save Settings</button>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+    
+    <!-- end of notify me -->
+
+
+
+
+
+<!-- mobileview menu -->
+<div class="container-fluid btmmenu">
+<div class="flex_menubottom">
+<div class="dash">
+<a href="">
+<img src="images/dashboard.svg">
+<p>Dashboard</p>
+</a> 
+</div>
+<div class="commu">
+<a href="">
+<img src="images/communication.svg">
+<p>Communication</p>
+</a>
+</div>
+<div class="maint">
+<a href="">
+<img src="images/maintenance.svg">
+<p>Maintenance</p>
+</a>
+</div>
+<div class="rent">
+<a href="">
+<img src="images/rentals.svg">
+<p>Rentals</p>
+</a>
+</div>
+</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/jquery-clockpicker.min.js"></script>
+<!--  slick js -->
+<script src="js/slick.min.js"></script>
+<!-- new timepicker js -->
+<!-- <script src="js/time-picker.js"></script> -->
+<script src="js/main.js"></script>
+<script>
+    // ----------swiper-slider---------
+    var swiper = '';
+    $(window).on('load', function(){
+        swiper = new Swiper('#catgory-sliderbath',{
+            loop: true,
+    observer: true,
+    initialSlide: 1,
+    spaceBetween: 3,
+    observeParents: true,
+    slidesPerView: 3,
+    allowTouchMove: true,
+    mousewheel: true,
+    slideToClickedSlide: true,
+    centeredSlides: false,
+    navigation: {
+                nextEl: '#catgory-sliderbath .bathnav .slider-next',
+                prevEl: '#catgory-sliderbath .bathnav .slider-prev',
+            },
+    breakpoints: {
+    1280: {
+    slidesPerView:5.5,
+    },
+    1080: {
+    slidesPerView:4.5,
+    },
+    960: {
+    slidesPerView:3.5,
+    },
+    768: {
+    slidesPerView:5.5,
+    },
+    570: {
+    slidesPerView:4.5,
+    },
+    481: {
+    slidesPerView:4,
+    },
+    400: {
+    slidesPerView:3.1,
+    },
+    320: {
+    slidesPerView:2.1,
+    },
+    }
+        });
+    });
+</script>
+<script>
+    var swipernoti = '';
+    $(window).on('load', function(){
+        swipernoti = new Swiper('#catgory-sliderbath12', {
+            loop: true,
+    observer: true,
+    initialSlide: 0,
+    spaceBetween: 3,
+    observeParents: true,
+    slidesPerView: 3,
+    allowTouchMove: true,
+    mousewheel: true,
+    slideToClickedSlide: true,
+    centeredSlides: false,
+    navigation: {
+                nextEl: '#catgory-sliderbath12 .bathnav .slider-next',
+                prevEl: '#catgory-sliderbath12 .bathnav .slider-prev',
+            },
+    breakpoints: {
+    1280: {
+    slidesPerView:5.5,
+    },
+    1080: {
+    slidesPerView:4.5,
+    },
+    960: {
+    slidesPerView:3.5,
+    },
+    768: {
+    slidesPerView:5.5,
+    },
+    570: {
+    slidesPerView:4.5,
+    },
+    481: {
+    slidesPerView:4,
+    },
+    400: {
+    slidesPerView:3.1,
+    },
+    320: {
+    slidesPerView:2.1,
+    },
+    }
+        });
+    });
+</script>
+<script>
+    $(".bathslider .category-button").click(function(){
+        $(".bathslider .category-button").removeClass("active");
+        $(this).addClass('active');
+        swiper.unlockSwipeToNext();
+        var getid = $(this).data('id');
+        $(".bathslider .data-text").removeClass('active');
+        $("#"+getid).addClass("active");
+    });
+
+    $(".bathslider12 .category-button").click(function(){
+        $(".bathslider12 .category-button").removeClass("active");
+        $(this).addClass('active');
+        swiper.unlockSwipeToNext();
+        var getid = $(this).data('id');
+        $(".bathslider12 .data-text").removeClass('active');
+        $("#"+getid).addClass("active");
+    });
+  
+    </script>
+    <script>
+    var swiperbed = '';
+    $(window).on('load', function(){
+        swiperbed = new Swiper('#catgory-sliderbed',{
+            loop: true,
+    observer: true,
+    observeParents: true,
+    slidesPerView: 4,
+    initialSlide: 1,
+    spaceBetween: 3,
+    allowTouchMove: true,
+    mousewheel: true,
+    slideToClickedSlide: true,
+    centeredSlides: false,
+    navigation: {
+                nextEl: '#catgory-sliderbed .bednav .slider-next',
+                prevEl: '#catgory-sliderbed .bednav .slider-prev',
+            },
+    breakpoints: {
+    1280: {
+    slidesPerView:5.5,
+    },
+    1080: {
+    slidesPerView:4.5,
+    },
+    960: {
+    slidesPerView:3.5,
+    },
+    768: {
+    slidesPerView:5.5,
+    },
+    570: {
+    slidesPerView:4.5,
+    },
+    481: {
+    slidesPerView:4,
+    },
+    400: {
+    slidesPerView:3.1,
+    },
+    320: {
+    slidesPerView:2.1,
+    },
+    }
+    });
+    });
+    </script>
+    <script>
+    var swiperbednoti = '';
+    $(window).on('load', function(){
+        swiperbednoti = new Swiper('#catgory-sliderbed11', {
+            loop: true,
+    observer: true,
+    observeParents: true,
+    slidesPerView: 4,
+    initialSlide: 0,
+    spaceBetween: 3,
+    allowTouchMove: true,
+    mousewheel: true,
+    slideToClickedSlide: true,
+    centeredSlides: false,
+    navigation: {
+                nextEl: '#catgory-sliderbed11 .bednav .slider-next',
+                prevEl: '#catgory-sliderbed11 .bednav .slider-prev',
+            },
+    breakpoints: {
+    1280: {
+    slidesPerView:5.5,
+    },
+    1080: {
+    slidesPerView:4.5,
+    },
+    960: {
+    slidesPerView:3.5,
+    },
+    768: {
+    slidesPerView:5.5,
+    },
+    570: {
+    slidesPerView:4.5,
+    },
+    481: {
+    slidesPerView:4,
+    },
+    400: {
+    slidesPerView:3.1,
+    },
+    320: {
+    slidesPerView:2.1,
+    },
+    }
+    });
+    });
+  </script>
+
+
+
+        <script>
+    $(".bedslider .category-button").click(function(){
+        $(".bedslider .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".bedslider .data-text").removeClass('active');
+        $("#"+getid).addClass("active");
+    });
+    $(".bedslider11 .category-button").click(function(){
+        $(".bedslider11 .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".bedslider11 .data-text").removeClass('active');
+        $("#"+getid).addClass("active");
+    });
+    </script>
+
+
+
+<script>
+    // ----------swiper-slider---------
+    var swiperpet = '';
+    $(window).on('load', function(){
+        swiperpet = new Swiper('#catgory-sliderpet', {
+            loop: false,
+    observer: true,
+    initialSlide:1,
+    spaceBetween: 3,
+    observeParents: true,
+    slidesPerView: 3,
+    allowTouchMove: true,
+    mousewheel: true,
+    slideToClickedSlide: true,
+    centeredSlides: false,
+    navigation: {
+                nextEl: '#catgory-sliderpet .petnav .slider-next',
+                prevEl: '#catgory-sliderpet .petnav .slider-prev',
+            },
+    breakpoints: {
+    1280: {
+    slidesPerView:5.5,
+    },
+    1080: {
+    slidesPerView:4.5,
+    },
+    960: {
+    slidesPerView:3.5,
+    },
+    768: {
+    slidesPerView:5.5,
+    },
+    570: {
+    slidesPerView:4.5,
+    },
+    481: {
+    slidesPerView:4,
+    },
+    400: {
+    slidesPerView:3.1,
+    },
+    320: {
+    slidesPerView:2.1,
+    },
+    }
+        });
+    });
+    </script>
+<script>
+    var swiperpetnoti = '';
+    $(window).on('load', function(){
+        swiperpetnoti = new Swiper('#catgory-sliderpet13', {
+            loop: false,
+    observer: true,
+    initialSlide:0,
+    spaceBetween: 3,
+    observeParents: true,
+    slidesPerView: 3,
+    allowTouchMove: true,
+    mousewheel: true,
+    slideToClickedSlide: true,
+    centeredSlides: false,
+    navigation: {
+                nextEl: '#catgory-sliderpet13 .petnav .slider-next',
+                prevEl: '#catgory-sliderpet13 .petnav .slider-prev',
+            },
+    breakpoints: {
+    1280: {
+    slidesPerView:5.5,
+    },
+    1080: {
+    slidesPerView:4.5,
+    },
+    960: {
+    slidesPerView:3.5,
+    },
+    768: {
+    slidesPerView:5.5,
+    },
+    570: {
+    slidesPerView:4.5,
+    },
+    481: {
+    slidesPerView:4,
+    },
+    400: {
+    slidesPerView:3.1,
+    },
+    320: {
+    slidesPerView:2.1,
+    },
+    }
+        });
+    });
+</script>
+
+<script>
+    $(".petslider .category-button").click(function(){
+        $(".petslider .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".petslider .data-text").removeClass('active');
+        $("#"+getid).addClass("active");
+    }); 
+    $(".petslider13 .category-button").click(function(){
+        $(".petslider13 .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".petslider13 .data-text").removeClass('active');
+        $("#"+getid).addClass("active");
+    });
+    </script>
+
+<!-- dropdown property type -->
+<script>
+
+$(document).ready(function() {
+$('.selc_proptype .dropdown.dropinfo .dropdown-menu a').click(function(event) {
+var option = $(event.target).text();
+$(event.target).parents('.dropdown.dropinfo').find('.dropdown-toggle').html(option);
+});
+
+$('.parking_proptype .dropdown.dropinfo .dropdown-menu a').click(function(event) {
+var option = $(event.target).text();
+$(event.target).parents('.dropdown.dropinfo').find('.dropdown-toggle').html(option);
+});
+
+$('.furnis_proptype .dropdown.dropinfo .dropdown-menu a').click(function(event) {
+var option = $(event.target).text();
+$(event.target).parents('.dropdown.dropinfo').find('.dropdown-toggle').html(option);
+});
+});
+</script>
+<!-- dropdown property type end -->
+
+</body>
+</html>
