@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Price Range</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<!-- swiper slider -->
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<!-- timepicker styles -->
+<link rel="stylesheet" href="css/jquery-clockpicker.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="l-header">
+<div class="l-header__inner clearfix">
+<div class="c-header-icon desktopversion_search">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+<div class="logo">
+<div class="logo__txt">
+<a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+<div class="mobileversion_view">
+<a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+</div>
+</div>
+</div>
+
+<div class="c-search desktopversion_search">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+
+<div class="mobileversion_view txt_heading">
+<h3>showings</h3>
+</div>
+
+<div class="links">
+<ul>
+<li class="phone desktopversion_search"> <a href="">
+<img src="images/phone.svg"></a>
+<div class="count_phone">
+<span>4</span>
+</div>
+</li>
+<li class="comment desktopversion_search"> <a href="">
+<img src="images/comment.svg"></a>
+<div class="count_comment">
+<span>5</span>
+</div>
+</li>
+<li class="email desktopversion_search"> <a href="">
+<img src="images/email.svg"></a>
+<div class="count_email">
+<span>6</span>
+</div>
+</li>
+<li class="notify"> <a href="">
+<img src="images/notify.svg"></a>
+<div class="count_notify">
+<span>30</span>
+</div>
+</li>
+</ul>
+</div>
+
+<div class="c-header-icon mobileversion_view">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+</div>
+</header>
+
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="topsec_menu">
+<div class="profilepic">
+<img src="images/menu/profilemenu.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+<div class="profiledetails">
+<p>Mae Coleman <small>Tenant</small></p>
+<a href="">View Profile</a>
+</div>
+<div class="menu_scanicon">
+<img src="images/menu/menu_scan.svg">
+</div>
+</div>
+<div class="c-search menusearch">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+<div class="menu_nav">
+<a href="myinformation.html">  <img src="images/menu/my_info.svg"> My Information</a>
+<a href="#">  <img src="images/menu/communication.svg"> Communications</a>
+<a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+<a href="#" class="active">  <img src="images/menu/showings.svg"> showings & offers</a>
+<a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+<a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+<a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+<a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+<a href="#">  <img src="images/menu/scanqr.svg"> Scan QR Code</a>
+<div class="logoutsec">
+<div>
+<a href="javascript:void(0);">Logout</a>
+</div>
+<div>
+<button class="btn upgrade_btn">Upgrade</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<main class="l-main">
+<div class="content-wrapper content-wrapper--with-bg">
+  <!-- price range -->
+<div class="container-fluid pricerange_container">
+<div class="row">
+    <div class="col-xl-3"></div>
+    <div class="col-xl-6">
+        <div class="search pricerange_search">
+            <div class="form-search">
+            <div class="input-group mb-2">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-append">
+            <button type="submit" class="btn searchbtn">
+              <i class="fa fa-search"></i>
+            </button>
+            <a href="" class="btn btnmap">Map View <img src="images/showings/map_pin.svg"></a>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-3"></div>
+</div>
+
+
+<!-- price range  -->
+<div class="row">
+  <div class="col-xl-12">
+    <div class="flexprice_range">
+    <div class="pricelabel_range">
+        <p>price</p>
+    </div>
+    <div class="pricerange_div">
+      <div class="range-slider">
+        <input id="rs-range-line" class="rs-range one" type="range" value="1000" min="1000" max="2000">
+        <output id="rs-bullet" class="bubble">0</output>
+      </div>
+      <div class="box-minmax">
+        <span class="rate_min">$1000</span><span class="rate_max">$2000</span>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- price range end  -->
+
+<!-- sliders -->
+<div class="similar_unitsdiv">
+  <!-- first slider -->
+  <section class="pricerange_sliderone slider">
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l1.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2 price_sec">
+    <div class="downloadicon">
+      <img src="images/price_range/slider_download.svg">
+      </div>
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list verifitxt_divsec">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="verifi_divtxt">
+  <img src="images/price_range/verifiimg.svg" class="greenverifiimage">
+  </div>
+  </div>
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+  <span><img src="images/price_range/map.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l2.svg">
+  
+  <div class="top_section2">
+  <div class="heartdiv blueheart">
+  <img src="images/showings/slider/lease_slider/blueheart.svg">
+  </div>
+  </div>
+  <div class="bottom_rightdetails bottomsimilar">
+  <span class="galdiv_clr">
+  <img src="images/showings/slider/gallery.svg"> <span>14</span>
+  </span>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list redbarcolrchange">
+  <div class="price_rate">
+  <p class="redpricecolr">$1,435 | <del>$1,500</del>  </p>
+  </div>
+  <div class="unverifi_divtxt verifiedimgdiv">
+  <p><img src="images/showings/slider/lease_slider/leased_verified.svg"></p>
+  </div>
+  <div class="rat_tot_count verifiedcountdiv">
+  <p class="count_rst">
+  <span class="amtrate">4.6</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> condominium</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">2 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+    <span><img src="images/price_range/map.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l3.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+    <span><img src="images/price_range/map.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l4.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+    <span><img src="images/price_range/map.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l1.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+    <span><img src="images/price_range/map.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l2.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+    <span><img src="images/price_range/map.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l3.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+    <span><img src="images/price_range/map.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l4.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+    <span><img src="images/price_range/map.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  </section>
+
+<!-- end of first slider -->
+
+
+<!-- price range  -->
+<div class="row">
+  <div class="col-xl-12">
+    <div class="flexprice_range">
+    <div class="pricelabel_range">
+        <p>price</p>
+    </div>
+    <div class="pricerange_div">
+      <div class="range-slider">
+        <input id="rs-range-linetwo" class="rs-range two" type="range" value="1000" min="1000" max="2000">
+        <output id="rs-bullettwo" class="bubble">0</ouput>
+      </div>
+      <div class="box-minmax">
+        <span class="rate_min">$1000</span><span class="rate_max">$2000</span>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- price range end  -->
+
+
+
+<!-- second slider -->
+<section class="pricerangeslider_two slider">
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l1.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2 price_sec">
+    <div class="downloadicon">
+      <img src="images/price_range/slider_download.svg">
+      </div>
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list verifitxt_divsec">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt verifiedimgdiv">
+    <p><img src="images/price_range/verifiimg.svg"></p>
+    </div>
+  </div>
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+  <span><img src="images/showings/slider/mapshowings.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l2.svg">
+  
+  <div class="top_section2">
+  <div class="heartdiv blueheart">
+  <img src="images/showings/slider/lease_slider/blueheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list redbarcolrchange">
+  <div class="price_rate">
+  <p class="redpricecolr">$1,435 | <del>$1,500</del>  </p>
+  </div>
+  <div class="unverifi_divtxt verifiedimgdiv">
+  <p><img src="images/showings/slider/lease_slider/leased_verified.svg"></p>
+  </div>
+  <div class="rat_tot_count verifiedcountdiv">
+  <p class="count_rst">
+  <span class="amtrate">4.6</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> condominium</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">2 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+  <span><img src="images/showings/slider/mapshowings.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l3.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+  <span><img src="images/showings/slider/mapshowings.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l4.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+  <span><img src="images/showings/slider/mapshowings.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l1.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+  <span><img src="images/showings/slider/mapshowings.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l2.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+  <span><img src="images/showings/slider/mapshowings.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l3.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+  <span><img src="images/showings/slider/mapshowings.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  
+  <div class="leasedslider">
+  <div class="imageover_details">
+  <img src="images/showings/slider/lease_slider/l4.svg">
+  <div class="top_section1">
+  <div class="newdiv">
+  <img src="images/showings/slider/lease_slider/new.svg">
+  </div>
+  </div>
+  <div class="top_section2">
+  <div class="heartdiv redheart">
+  <img src="images/showings/slider/lease_slider/redheart.svg">
+  </div>
+  </div>
+  <div class="leaseddetails_slider">
+  <div class="car_details">
+  <img src="images/showings/slider/park.svg">
+  <p>01</p>
+  </div>
+  <div class="shower_details">
+  <img src="images/showings/slider/shower.svg">
+  <p>02</p>
+  </div>
+  <div class="bed_details">
+  <img src="images/showings/slider/bed.svg">
+  <p>03</p>
+  </div>
+  </div>
+  </div>
+  <div class="descrip_details_list">
+  <div class="price_rate">
+  <p>$1,200</p>
+  </div>
+  <div class="unverifi_divtxt">
+  <p><img src="images/showings/slider/lease_slider/unverified.svg" class="redcolrimage"></p>
+  </div>
+  <div class="rat_tot_count">
+  <p class="count_rst">
+  <span class="amtrate">3.7</span><span>/5</span>
+  </p>
+  <p class="ratingstar_count">
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star" aria-hidden="true"></i>
+  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+  </p>
+  </div>
+  </div>
+  
+  <div class="lochouse_details">
+  <div class="house">
+  <span><img src="images/showings/slider/house.svg"> House</span>
+  </div>
+  <div class="clock">
+  <span><img src="images/showings/slider/clock.svg">1 days on market</span>
+  </div>
+  </div>
+  <div class="slidelocation_div">
+  <span><img src="images/showings/slider/mapshowings.svg"></span>
+  <span class="txt_loc">Union & West | 95 West St, Walpole</span>
+  </div>
+  </div>
+  </section>
+
+
+<!-- end of second slider -->
+
+  </div>
+  <!-- end of sliders -->
+
+
+</div>
+</div>
+</main>
+
+
+
+
+
+
+<!--proce range bottom -->
+<div class="btmfilter_btns">
+  <div class="container-fluid">
+<div class="row">
+  <div class="col-xl-5">
+    <button class="btn saveprop">Saved Properties <img src="images/price_range/white_heart.svg"></button>
+  </div>
+  <div class="col-xl-7">
+    <button class="btn propnotify">Property Notification <img src="images/price_range/notify.svg"></button>
+    <button class="btn filterpricerg"><img src="images/price_range/filterimg.svg"></button>
+  </div>
+</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/jquery-clockpicker.min.js"></script>
+<!--  slick js -->
+<script src="js/slick.min.js"></script>
+<!-- new timepicker js -->
+<!-- <script src="js/time-picker.js"></script> -->
+<script src="js/main.js"></script>
+
+<script>
+  var rangeSlider = document.getElementById("rs-range-line");
+var rangeBullet = document.getElementById("rs-bullet");
+rangeSlider.addEventListener("input", showSliderValue, false);
+function showSliderValue() {
+  rangeBullet.innerHTML = rangeSlider.value;
+  const val = rangeSlider.value;
+  const min = rangeSlider.min ? rangeSlider.min : 1000;
+  const max = rangeSlider.max ? rangeSlider.max : 2000;
+  const newVal = Number(((val - min) * 100) / (max - min));
+  rangeBullet.innerHTML = val;
+
+  // Sorta magic numbers based on size of the native UI thumb
+  rangeBullet.style.left = `calc(${newVal}% + (${8 - newVal * 0.1}px))`;
+}
+
+var rangeSlidertwo = document.getElementById("rs-range-linetwo");
+var rangeBullettwo = document.getElementById("rs-bullettwo");
+rangeSlidertwo.addEventListener("input", showSliderValuetwo, false);
+function showSliderValuetwo() {
+  rangeBullettwo.innerHTML = rangeSlidertwo.value;
+  const val = rangeSlidertwo.value;
+  const min = rangeSlidertwo.min ? rangeSlidertwo.min : 1000;
+  const max = rangeSlidertwo.max ? rangeSlidertwo.max : 2000;
+  const newVal = Number(((val - min) * 100) / (max - min));
+  rangeBullettwo.innerHTML = val;
+
+  // Sorta magic numbers based on size of the native UI thumb
+  rangeBullettwo.style.left = `calc(${newVal}% + (${8 - newVal * 0.1}px))`;
+}
+</script>
+
+<!-- sliders -->
+<script>
+
+$(() => {
+var createSlickunitsprice = () => {
+let slider = $(".pricerange_sliderone,.pricerangeslider_two");
+slider.not(".slick-initialized").slick({
+slidesToShow: 3.5,
+slidesToScroll: 1,
+arrows: true,
+dots: false,
+speed: 300,
+infinite: true,
+autoplaySpeed: 5000,
+autoplay: true,
+responsive: [
+{
+breakpoint: 1920,
+settings: {
+slidesToShow: 3.5,
+}
+},
+{
+breakpoint:1400,
+settings: {
+slidesToShow: 3.5,
+}
+},
+{
+breakpoint: 1367,
+settings: {
+slidesToScroll: 1,
+slidesToShow:3.7,
+}
+},
+{
+breakpoint: 1025,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1.5,
+}
+},
+{
+breakpoint: 993,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1.4,
+}
+},
+{
+breakpoint:769,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1.7,
+}
+},
+{
+breakpoint:641,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1.4,
+}
+},
+{
+breakpoint:420,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1.07,
+}
+},
+{
+breakpoint:350,
+settings: {
+slidesToScroll: 1,
+slidesToShow:1,
+}
+}
+]
+});
+};
+createSlickunitsprice();
+$(window).on("resize orientationchange", createSlickunitsprice);
+});
+</script>
+<!-- end of sliders -->
+
+
+
+
+
+
+</body>
+</html>
