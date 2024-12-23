@@ -7026,8 +7026,10 @@ width: 85.3%;
 margin: 0 0 0 auto;
 }
 .prop_find_details img{
-width: 100%;
-border-radius: 10px 10px 0 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    height: 183px;
 }
 .txt_details_prop{
 display: flex;
@@ -7228,7 +7230,7 @@ border:unset;
 z-index: unset;
 }
 .setup_modalprop.show{
-background: rgba(255, 255, 255, 0.01);
+background:rgba(255, 255, 255,0.75);
 backdrop-filter: blur(7.5px);
 }
 .setup_modalprop .modal-footer{
@@ -7372,6 +7374,22 @@ padding: 0;
 .category-lists-slider.petnav .swiper-slide {
 width: 33% !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* end of find property */
 
 /* price range */
@@ -7547,16 +7565,16 @@ cursor: grabbing;
 border: 0;
 }
 .bubble {
-    color: #315D80;
-    font-size: 11px;
-    font-weight: 700;
-    position: absolute;
-    border-radius: 4px;
-    left: 17px;
-    bottom: -18px;
-    transform: translateX(-56%);
-    width: 48px;
-    text-align: center;
+color: #315D80;
+font-size: 11px;
+font-weight: 700;
+position: absolute;
+border-radius: 4px;
+left: 17px;
+bottom: -18px;
+transform: translateX(-56%);
+width: 48px;
+text-align: center;
 }
 .rate_min{
 font-family: 'Helvetica';
@@ -7607,71 +7625,604 @@ box-shadow: unset;
 margin:0em 0 8em 0;
 }
 .pricerange_sliderone.slider.slick-slider{
-    margin:0 0 1.3em 0;
+margin:0 0 1.3em 0;
 }
 .flexprice_range{
-    display: flex;
-    margin: 0 0 1em 0;
+display: flex;
+margin: 0 0 1em 0;
 }
 .pricelabel_range{
-    flex-basis: 30%;
-    justify-content: end;
-    display: flex;
-    align-items: center;
+flex-basis: 30%;
+justify-content: end;
+display: flex;
+align-items: center;
 }
 .pricelabel_range p {
-    margin: -11px 40px 0 0px;
-    font-family: 'Helvetica';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: capitalize;
-    color: #315D80;
+margin: -11px 40px 0 0px;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-transform: capitalize;
+color: #315D80;
 }
 .pricerange_div{
-    flex-basis: 44%;
+flex-basis: 44%;
 }
 .btmfilter_btns{
-    background: #315D80;
-    border-radius: 24px 24px 0px 0px;
-    width: 40%;
-    margin: 0 auto;
-    padding: 1.7em 1em 1.1em 1em;
-    position: fixed;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 0%);
+background: #315D80;
+border-radius: 24px 24px 0px 0px;
+width: 40%;
+margin: 0 auto;
+padding: 1.7em 1em 1.1em 1em;
+position: fixed;
+left: 50%;
+bottom: 0;
+transform: translate(-50%, 0%);
 }
 .btn.saveprop img{
 height: 12px;
 }
 .btn.propnotify img{
-    height: 14px;
+height: 14px;
 }
 .btn.saveprop img,.btn.propnotify img{
-    margin: -3px 0 0 4px;
+margin: -3px 0 0 4px;
 }
 .btn.saveprop,.btn.propnotify{
-    background: #274E6C;
-    border-radius: 40px;
-    font-family: 'Helvetica';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    width: 187px;
-    height: 40px;
-    border:unset;
+background: #274E6C;
+border-radius: 40px;
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-transform: capitalize;
+color: #FFFFFF;
+width: 187px;
+height: 40px;
+border:unset;
 }
 .btn.filterpricerg{
-    border:unset;
-    padding:0;
-    margin:0 0 0 21px;
+border:unset;
+padding:0;
+margin:0 0 0 21px;
 }
 .content-wrapper .container-fluid.pricerange_container{
-    width: 98%;
-    overflow-x: hidden;
-    margin: 0 0px 0 auto;
-    padding: 0 0 15px 0;
+width: 98%;
+overflow-x: hidden;
+margin: 0 0px 0 auto;
+padding: 0 0 15px 0;
+}
+/* end of price range */
+
+
+/* property schedule showimgs */
+.tabsprop_schedulediv .category-lists-slider .swiper-container .swiper-wrapper{
+justify-content: space-between;
+}
+.tablinks_propfeat.unit_div.tabsprop_schedulediv .slick-track,
+.tablinks_propfeat.building_div.tabsprop_schedulediv .slick-track,
+.tablinks_propfeat.utilitiesdiv.tabsprop_schedulediv .slick-track {
+margin-left:7px;
+}
+.midtxt_css{
+background: #DEE7F2;
+padding: 7px 10px;
+margin: 0 0 10px 0;
+}
+.midtxt_css h3{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-transform: capitalize;
+color: #315D80;
+margin: 0;
+}
+.marcss{
+margin:0;
+}
+.padcss{
+padding: 0;
+}
+.tablinks_propfeat.unit_div.tabsprop_schedulediv .midtxt_css h3{
+padding: 0;
+}
+.prop_feature.propertyfeat_sche_showdiv{
+padding: 20px 0px 0px 0px;
+}
+.propertyfeat_sche_showdiv .top_propsection{
+padding: 0px 12px 0px 12px;
+}
+.tablinks_propfeat.tabsprop_schedulediv h3,
+.tablinks_propfeat.tabsprop_schedulediv .element,.tablinks_propfeat.tabsprop_schedulediv .category-lists-slider{
+padding: 0px 12px 0px 12px;
+}
+#graph {
+width: 800px;
+height: 250px;
+margin: 20px auto 0 auto;
+}
+.accrd_red{
+color:#F2727F;
+}
+.median_lease .card-header{
+background: #DEE7F2;
+border-radius: 40px;
+box-shadow: unset;
+border: unset;
+padding: 4px 30px 4px 20px;
+}
+.median_lease .card-header a{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+text-transform: capitalize;
+color: #315D80;
+display: block;
+}
+.median_lease .card-header a.collapsed:after {
+font-family: 'FontAwesome';
+font-weight: 900;
+content: "\f106";
+}
+.median_lease .card-header a:after {
+content: "\f107";
+font-family: 'FontAwesome';
+font-weight: 900;
+position: absolute;
+right: 18px;
+font-size: 18px;
+top: 4px;
+}
+.median_lease .card{
+border: unset;
+background-color: unset;
+}
+.market_box{
+display: flex;
+width: 96%;
+margin: 20px auto 0 auto;
+}
+.boxone_mark,.boxtwo_mark{
+background: #EDF2FA;
+box-shadow: 3.18664px 3.82397px 3.18664px -0.637329px rgba(137, 174, 234, 0.04), inset 2.54932px 2.54932px 8.9226px rgba(57, 124, 238, 0.12);
+border-radius: 8px;
+text-align: center;
+padding: 11px 32px 15px 32px;
+margin: 0 4px;
+}
+.boxone_mark h3{
+color: #8BAC8C;
+}
+.boxtwo_mark h3{
+color: #6388A5;
+}
+.boxone_mark h3,.boxtwo_mark h3{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+text-transform: capitalize;
+
+margin: 0 0 13px 0;
+}
+.boxone_mark p,.boxtwo_mark p{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+text-align: center;
+text-transform: capitalize;
+color: #6388A5;
+margin:0;
+}
+.median_lease{
+background: #EDF2FA;
+border-radius: 17px;
+margin:0 0 2em 0;
+}
+.sch_tour{
+color:#F2727F;
+}
+.flexschedule {
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+.tour_typetxt {
+color: #315D80;
+font-family: 'Helvetica';
+font-weight: bold;
+font-size: 15px;
+text-transform: capitalize;
+}
+.sche_tour .switch-field {
+display: flex;
+background: #EDF2FA;
+border-radius: 40px;
+align-items: baseline;
+box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+}
+.sche_tour .switch-field input {
+position: absolute !important;
+clip: rect(0, 0, 0, 0);
+height: 1px;
+width: 1px;
+border: 0;
+}
+.sche_tour .switch-field label {
+margin:0;
+font-size: 13px;
+line-height: 1;
+text-align: center;
+font-family: 'Helvetica Rounded';
+color:#6388A5;
+padding: 7px 6px 7px 6px;
+transition: all 0.1s ease-in-out;
+width: 115px;
+text-transform: capitalize;
+height: 32px;
+}
+.sche_tour .switch-field label:hover {
+cursor: pointer;
+}
+.sche_tour .switch-field input:checked + label {
+background-color: #315D80;
+color:#ffffff;
+border-radius: 40px;
+}
+.sche_tour .switch-field input + label span.person img,.switch-field input + label span.video img{
+object-fit: cover;
+margin-right: 4px;
+}
+.sche_tour .switch-field input + label span.person img{
+height: 20px;
+}
+.sche_tour .switch-field input + label span.video img{
+height: 14px;
+vertical-align:bottom;
+}
+.sche_tour .switch-field input:checked + label span.person img{
+content: url('../images/find_property/person.svg');
+}
+.sche_tour .switch-field input:checked + label span.video img{
+content: url('../images/find_property/video2.svg');
+} 
+.day_monthtab ul.nav-tabs{
+background: rgba(55, 105, 144, 0.08);
+box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
+border-radius: 40px;
+}
+.day_monthtab .nav-item{
+width: 50%;
+}
+.day_monthtab .nav-item a{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+text-transform: capitalize;
+color:#315D80;
+}
+.day_monthtab .nav-item a.active{
+color: #FFFFFF;
+background: #315D80;
+border-radius: 25.6499px;
+}
+.sche_tour{
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 14px 19px;
+}
+.sche_tour h3{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 18px;
+line-height:29px;
+text-transform: capitalize;
+color: #315D80;
+}
+.seldateboxsche_prop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3px 0;
+}
+.seldateboxsche_prop .date_heading{
+    width: 50%;
+}
+.seldateboxsche_prop .date_heading h3 {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #315D80;
+    margin: 0;
+}
+.monthyear_div{
+    width: 49%;
+    display: flex;
+    justify-content: end;
+}
+.seldateboxsche_prop .select-box,.seldateboxsche_prop .select-box1 {
+    cursor: pointer;
+    position: relative;
+    width: 35%;
+}
+.seldateboxsche_prop .select-box {
+    width: 38%;
+}
+.seldateboxsche_prop .select-box1{
+    width: 27%;
+}
+.day_monthtab .tab-content .container.tab-pane{
+    padding:0;
+}
+.day_monthtab .tab-content{
+    margin:15px 0 0 0;
+}
+.seldateboxsche_prop .select-box .label,.seldateboxsche_prop .select-box1 .label {
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    display: block;
+    background:unset;
+    border-radius: 42px;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 13px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #315D80;
+    height: 31px;
+}
+.seldateboxsche_prop .select-box .label::after,.seldateboxsche_prop .select-box1 .label::after {
+    content: url(../images/showings/showing_lease_offer/arrow_offerlease.svg);
+    font-family: 'FontAwesome';
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 6px 15px;
+}
+.seldateboxsche_prop .select-box .select,.seldateboxsche_prop .select-box1 .select {
+    width: 100%;
+    background: #C9D7E5;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    border: 0 none;
+    height: 28px;
+}
+ .sliderforday_div .slick-slider .slick-disabled {
+    opacity : 0; 
+    pointer-events:none;
+  }
+  .date_dayslide{
+    background: #C9D7E5;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 10px 15px 10px;
+    margin: 0 25px 0 0;
+  }
+.date_dayslide p:first-child,.date_dayslide p:nth-child(2){
+font-family: 'Helvetica';
+color: #315D80;
+}
+.date_dayslide p:first-child{
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+}
+.date_dayslide p:nth-child(2){
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+margin: 0;
+}
+.date_dayslide.active{
+    background-color: #F2727F;
+}
+.date_dayslide.active p{
+    color:#ffffff;
+}
+.sched_tourdivbtn .btn.btnsched_tour{
+width: 100%;
+background: #315D80;
+border-radius: 25.6499px;
+border:unset;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-transform: capitalize;
+color: #FFFFFF;
+padding: 12px;
+}
+.sche_tour .flexschedule {
+    margin: 0 0 12px 0;
+}
+.prop_distri{
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 1.2em 1.4em;
+}
+.proptype_dis{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 14px;
+line-height:22px;
+text-transform: capitalize;
+color: #315D80;
+}
+.prop_ptxt{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-transform: capitalize;
+color: #6388A5;
+}
+.type_distr_btn .btn.greenclrbtn{
+    background: #9BB997;
+    box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+}
+.type_distr_btn .btn.blueclrbtn,.type_distr_btn .btn.greenclrbtn,.type_distr_btn .blueclrbtndrk{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    padding: 5px 23px;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-transform: capitalize;
+    border-radius: 100px;
+    margin: 0 6px 10px 0px;
+    border: unset;
+}
+.type_distr_btn .btn.greenclrbtn.bt_light{
+background: #B3D3AE;
+box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+}
+.type_distr_btn .btn.blueclrbtn.bt_medium{
+background: #7AA1BF;
+box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+}
+.type_distr_btn .btn.blueclrbtn{
+background: #A9C3D8;
+box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+}
+.type_distr_btn .blueclrbtndrk{
+background: #6388A5;
+box-shadow: 5px 6px 5px rgba(137, 174, 234, 0.04), inset 4px 4px 14px rgba(57, 124, 238, 0.12);
+}
+.condo_apt{
+    background: #EDF2FA;
+    box-shadow: 3.18664px 3.82397px 3.18664px -0.637329px rgba(137, 174, 234, 0.04), inset 2.54932px 2.54932px 8.9226px rgba(57, 124, 238, 0.12);
+    border-radius: 8px;
+    margin: 1em 0;
+    padding: 1em 4.5em;
+}
+.condo_apt h3{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-transform: capitalize;
+color: #8BAC8C;
+text-align: center;
+}
+.abtcondo_txt{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 14px;
+line-height:17px;
+text-align: center;
+text-transform: capitalize;
+color: #6388A5;
+margin:0;
+}
+.btmtxt_condo{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #B5BABD;
+    width: 68%;
+    margin: 0 auto;
+}
+.mobileview_tour{
+    display: none;
+}
+.mobilemedian_lease{
+    display: none;
+}
+.propertyfeat_sche_showdiv .category-lists-slider .slider-button.slider-next {
+    right: 3px;
+}
+.propertyfeat_sche_showdiv .category-lists-slider .slider-button.slider-prev {
+    left: 2px;
+}
+.desktopproperty_hide{
+    display: none;
+}
+.mobpad_prop{
+    padding: 0;
+}
+.titledesktop_hide{
+    display: none;
+}
+.mobileviewfindprop_btn{
+    display: none;
+}
+
+.bardiv_property{
+    background: linear-gradient(90deg, #9BB997 0%, #4D697E 100%);
+    border-radius: 11.4222px;
+    display: flex;
+    padding: 5px 5px 5px 10px;
+
+}
+.shadeper_propseven,.shadeper_propone,.shadeper_proptwo,.shadeper_propthree,.shadeper_propfour,.shadeper_propfive,.shadeper_propsix{
+    height: 90px;
+    margin: 0 0 0 -4px;
+    display: flex;
+    align-items: end;
+}
+.shadeper_propone{
+background: linear-gradient(270deg, #C0E0BC 0%, #9BB997 100%);
+width: 24%;
+border-radius: 7.61478px;
+}
+.shadeper_proptwo{
+background: linear-gradient(270deg, #B3D3AE 0%, #9BB997 100%);
+width: 26%;
+border-radius:0 7.61478px 7.61478px 0;
+}
+.shadeper_propthree{
+    background: #9BB997;
+width: 35%;
+border-radius:0 7.61478px 7.61478px 0;
+}
+.shadeper_propfour{
+    background: #A9C3D8;
+width: 50%;
+border-radius:0 7.61478px 7.61478px 0;
+}
+.shadeper_propfive{
+    background: #b6c6d3;
+width: 60%;
+border-radius:0 7.61478px 7.61478px 0;
+}
+.shadeper_propsix{
+    background: #7AA1BF;
+width: 70%;
+border-radius:0 7.61478px 7.61478px 0;
+}
+.shadeper_propseven{
+background:#6388A5;
+width: 100%;
+border-radius:0 7.61478px 7.61478px 0;
+}
+.bardiv_property p{
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 11px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0 0 8px 0;
+    width: 80%;
+    text-align: right;
+}
+.algntxt{
+    text-align:right;
 }
