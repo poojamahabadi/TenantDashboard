@@ -491,7 +491,7 @@
     <!-- confirm yellow div -->
   <div class="button_myinfos yellowdivbtn">
     <div>
-      <button class="btn confirmbtn">Confirm </button>
+      <button class="btn confirmbtn" data-toggle="modal" data-target="#confirm_showingpopup">Confirm </button>
     <button class="btn reschedulebtn resch_clk" type="button">
     Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
     </button>
@@ -1359,14 +1359,7 @@
       </div>
     </div>
   </div>
-
-
-
 </div>
-
-
-
-
 </div>
 </div>
 </div>
@@ -1417,6 +1410,62 @@
 
 
 
+<!-- confirm showings pop up -->
+  <div class="modal fade confirmpopupdiv" id="confirm_showingpopup">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title"><img src="images/showings/bell_confirmshow.svg"> Confirm Showing</h4>
+         <p>Please review and confirm the time and date of the showing before proceeding.</p>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="confirmtime_div">
+          <div class="container-fluid padcontf_css">
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                  <p class="alignp_confr"><img src="images/showings/confirmtime.svg"> 08:45 AM</p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                  <p class="alignp_confrl"><img src="images/showings/confirmdate.svg"> 10/02/2024</p>
+                </div>
+              </div>
+              <hr/>
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="flx_addrimg">
+                    <div class="lefimg_icon">
+                      <img src="images/showings/house_ic.svg">
+                    </div>
+                   <div class="addrstxt_div">
+                    <p> 1241-123 Main Street 
+                      Niagara falls, Ontario L3C 0K2 </p>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="okbtn_div">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <button type="button" class="btn btnok" data-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>       
+      </div>
+    </div>
+  </div>
+<!-- confirm showings pop up end -->
 
 
 <div class="modal fade filtermap_modal" id="filter_map">

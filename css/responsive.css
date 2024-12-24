@@ -5029,7 +5029,19 @@ right: 13px;
 }
 }
 @media only screen and (max-width: 640px){
-
+/* confirm showing pop up */
+.confirmtime_div p.alignp_confr img {
+    vertical-align: text-top;
+}
+.confirmpopupdiv .modal-header h4 {
+    font-size: 18px;
+}
+.modal.confirmpopupdiv {
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* confirm showing pop up end */
 /* price range */
 .btmfilter_btns {
 width: 90%;
@@ -8401,6 +8413,23 @@ margin: 0 0 0 10px;
 }
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
+/* confirm showing pop up */
+.confirmpopupdiv .modal-header p {
+    width: 81%;
+}
+.confirmpopupdiv .modal-body {
+    padding: 11px;
+}
+.confirmpopupdiv .modal-dialog .modal-content {
+    width: 91%;
+}
+.confirmtime_div p.alignp_confrl img,.confirmtime_div p.alignp_confr img {
+    vertical-align: top;
+}
+.flx_addrimg {
+    width: 75%;
+}
+/* end of confirm showing pop up */
 /* price range */
 .pricerange_search {
     width: 96%;
@@ -9590,6 +9619,16 @@ left: -18px;
 }
 
 @media only screen and (max-width: 390px) {
+
+/* confirm showings pop up */
+.confirmtime_div p {
+    font-size: 13px;
+    line-height: 16px;
+}
+.confirmpopupdiv .modal-body {
+    padding: 11px;
+}
+/* end of confirm showing popup */
 /* price range */
 .similar_unitsdiv .pricerange_sliderone .slick-track, .similar_unitsdiv .pricerangeslider_two .slick-track {
     margin-left: 28px;
@@ -9878,6 +9917,30 @@ height: 21px;
 }
 
 @media only screen and (max-width: 385px) and (min-width:376px) {
+/* confirm showing pop up */
+.confirmpopupdiv .modal-header p {
+    width: 88%;
+}
+.confirmpopupdiv .modal-body {
+    padding: 11px;
+}
+.confirmtime_div p img {
+    vertical-align: text-top;
+}
+.confirmpopupdiv .modal-header h4 {
+    margin: 0 0px 18px 0px;
+}
+.confirmpopupdiv .modal-dialog .modal-content {
+    width: 95%;
+}
+.flx_addrimg {
+    width: 68%;
+}
+.confirmpopupdiv .modal-header {
+    padding: 1.5em 0 2.8em 0;
+}
+/* end of confirm showing pop up */
+
 .setup_modalprop .modal-dialog {
 max-height: 560px;
 }
@@ -10479,6 +10542,28 @@ left: -22px;
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
+/* confirm showing pop up */
+.confirmpopupdiv .modal-header p {
+    width: 88%;
+}
+.confirmtime_div p img {
+    vertical-align: text-top;
+}
+.confirmpopupdiv .modal-header h4 {
+    margin: 0 0px 18px 0px;
+}
+.confirmpopupdiv .modal-dialog .modal-content {
+    width: 95%;
+}
+.flx_addrimg {
+    width: 75%;
+}
+.confirmpopupdiv .modal-header {
+    padding: 1.5em 0 2.8em 0;
+}
+/* end of confirm showing pop up */
+
+
 /* price range */
 .btmfilter_btns {
     width: 100%;
@@ -11340,6 +11425,29 @@ width: 37%;
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
+/* confirm showing pop up */
+.confirmpopupdiv .modal-header p {
+    width: 88%;
+}
+.confirmtime_div p img {
+    vertical-align: text-top;
+}
+.confirmpopupdiv .modal-header h4 {
+    margin: 0 0px 18px 0px;
+}
+.confirmpopupdiv .modal-dialog .modal-content {
+    width: 95%;
+}
+.flx_addrimg {
+    width: 81%;
+}
+.confirmpopupdiv .modal-header {
+    padding: 1.5em 0 2.8em 0;
+}
+/* end of confirm showing pop up */
+
+
+
 /* price range */
 .btmfilter_btns {
     width: 100%;
@@ -12340,6 +12448,35 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+/* confirm showing pop up */
+.confirmpopupdiv .modal-header p {
+    width: 88%;
+}
+.confirmtime_div p img {
+    vertical-align: top;
+}
+.confirmtime_div p {
+    font-size: 12px;
+}
+.okbtn_div {
+    margin: 1.3em 0 0.3em 0;
+}
+.confirmpopupdiv .modal-header h4 {
+    margin: 0 0px 18px 0px;
+}
+.confirmpopupdiv .modal-dialog .modal-content {
+    width: 95%;
+}
+.flx_addrimg {
+    width: 87%;
+    margin: 0 0 0 24px;
+}
+.confirmpopupdiv .modal-header {
+    padding: 1.5em 0 2.8em 0;
+}
+/* end of confirm showing pop up */
+
+
 /* price range */
 .similar_unitsdiv .pricerange_sliderone .slick-track, .similar_unitsdiv .pricerangeslider_two .slick-track {
     margin-left: 4px;
@@ -13513,6 +13650,12 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+/* confirm showing popup */
+.flx_addrimg {
+    width: 89%;
+    margin: 0 0 0 17px;
+}
+/* end of showing confirm pop up */
 /* find property */
 .findpropinfo .myinfo_txt span {
 font-size: 13px;

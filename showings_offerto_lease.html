@@ -332,12 +332,8 @@
 </div>
 </div>
 
-
-
-
 <!-- mobile view -->
 <div class="myteam_mobileview">
-
     <div class="my_teamdiv myleaseteam_flex desk">
       <div class="row leasflx_team">
         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-2 leaseflex">
@@ -6001,7 +5997,7 @@ he
 <img src="images/lease/lease_agree.svg">
 </div> -->
 <div class="start_signbtn">
-<button class="start_btn_signin"><span class="starttxt">start signing</span> 
+<button class="start_btn_signin" data-toggle="modal" data-target="#signin_startpopup"><span class="starttxt">start signing</span> 
 <span><img src="images/lease/start_sign.svg"></span></button>
 </div>
 <div class="remndbtn">
@@ -6061,6 +6057,396 @@ send reminder</span>
 </div>
 
 
+
+
+
+<!-- start sign in pop up -->
+<div class="modal fade signin_popup" id="signin_startpopup">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title"><span>start</span> Signing The Offer to lease</h4>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+       <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-10">
+            <div class="accordion startsignaccord tenantaccord" id="startaccord">
+              <div class="card">
+              <div class="card-header">
+              <h2 class="mb-0 editinfoic">
+              <div class="linediv cancel"></div>  
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#basicinfo" aria-expanded="true" aria-controls="basicinfo">
+                Lease information
+              </button>
+              <a href="" class="accord_edit"><img src="images/myinfo/editicon.svg"></a>  
+              </h2>
+              
+              </div>
+              
+              <div id="basicinfo" class="collapse show" aria-labelledby="headingOne" data-parent="#startaccord">
+              <div class="card-body">
+              <div class="container-fluid">
+              <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 border_atend">
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>monthly rent</label>
+              </div>
+              <div class="basicdata">
+              <p>CA $3,000.00</p>  
+              <div>
+                <input type="text" class="form-control edit-input" value="CA $3,000.00">
+                </div>
+              </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>Move-in date</label>
+              </div>
+              <div class="basicdata">
+              <p>15/05/2024</p> 
+              <div>
+                <input type="date" class="form-control edit-input" value="15/05/2024">
+                </div>
+              </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>occupants</label>
+              </div>
+              <div class="basicdata">
+                <p>3</p> 
+                <div>
+                  <input type="text" class="form-control edit-input" value="3">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>Monthly rent due</label>
+              </div>
+              <div class="basicdata">
+              <p>1st of the month </p> 
+              <div>
+                <input type="text" class="form-control edit-input" value="1st of the month">
+                </div>
+              </div>
+              </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>Additional Months Rent</label>
+              </div>
+              <div class="basicdata">
+              <p>2 Months</p>  
+              <div>
+                <input type="text" class="form-control edit-input" value="2 Months">
+                </div>
+              </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>expiry date </label>
+              </div>
+              <div class="basicdata">
+              <p>01/05/2025</p> 
+              <div>
+                <input type="date" class="form-control edit-input" value="01/05/2025">
+                </div>
+              </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>relationship</label>
+              </div>
+              <div class="basicdata">
+                <p>Partner & Child</p> 
+                <div>
+                  <input type="text" class="form-control edit-input" value="Partner & Child">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>Contingencies</label>
+              </div>
+              <div class="basicdata contitxt">
+              <p>Unit to be</p>
+              <p>professionally cleaned</p> 
+              <div>
+                <input type="text" class="form-control edit-input" value="professionally cleaned">
+                </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              <div class="card">
+              <div class="card-header">
+              <h2 class="mb-0 editinfoic">
+              <div class="linediv cancel emp"></div>
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#employment" aria-expanded="false" aria-controls="employment">
+                Parking, Storage & utilities
+              </button>
+              <a href="" class="accord_edit"><img src="images/myinfo/editicon.svg"></a> 
+              
+              </h2>
+              </div>
+              <div id="employment" class="collapse show" aria-labelledby="employment" data-parent="#startaccord">
+              <div class="card-body">
+              <div class="container-fluid">
+              <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 border_atend">
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>Parking</label>
+              </div>
+              <div class="basicdata">
+                <p>2 Included</p>
+                <div>
+                  <input type="text" class="form-control edit-input" value="2 Included">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>electricity</label>
+              </div>
+              <div class="basicdata">
+                <p>Toronto Hydro</p>
+                <div>
+                  <input type="text" class="form-control edit-input" value="Toronto Hydro">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>gas</label>
+              </div>
+              <div class="basicdata">
+              <p>Enbridge</p>
+              <div>
+                <input type="text" class="form-control edit-input" value="Enbridge">
+                </div>
+              </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>internet</label>
+              </div>
+              <div class="basicdata">
+              <p>not included </p> 
+              <div>
+                <input type="text" class="form-control edit-input" value="not included">
+                </div>
+              </div>
+              </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>Storage/Locker </label>
+              </div>
+              <div class="basicdata">
+              <p> 1 Included</p>  
+              <div>
+                <input type="text" class="form-control edit-input" value="1 Included">
+                </div>
+              </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>water</label>
+              </div>
+              <div class="basicdata">
+              <p>City of Toronto</p>
+              <div>
+                <input type="text" class="form-control edit-input" value="City of Toronto">
+                </div> 
+              </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>hot water tank</label>
+              </div>
+              <div class="basicdata">
+                <p>Enercare</p> 
+                <div>
+                  <input type="text" class="form-control edit-input" value="Enercare">
+                  </div> 
+                </div>
+              </div>
+              
+              <div class="flexdiv">
+              <div class="basicdatatxt">
+              <label>cable TV</label>
+              </div>
+              <div class="basicdata">
+              <p>included</p> 
+              <div>
+                <input type="text" class="form-control edit-input" value="included">
+                </div> 
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-xl-2">
+            <div class="verticalslitenant">
+              <h3>5 Tenant </h3>
+            
+            <div class="slider--vertical">
+              <div class="bgtenant_div">
+                <div class="imgtenant_profile">
+                <img src="images/tenant_prof/t1img.svg">
+                <div class="status status_green">
+                <span></span>
+                </div>
+                </div>
+                <div class="tenant_info">
+                <p class="tenant_name">merry smith</p>
+                <p class="tenant_no">tenant 1</p>
+                </div>
+                </div>
+                
+                <div class="bgtenant_div">
+                <div class="imgtenant_profile">
+                <img src="images/tenant_prof/t2img.svg">
+                <div class="status status_yellow">
+                <span></span>
+                </div>
+                </div>
+                <div class="tenant_info">
+                <p class="tenant_name">merry smith</p>
+                <p class="tenant_no">tenant 2</p>
+                </div>
+                </div>
+                
+                <div class="bgtenant_div">
+                <div class="imgtenant_profile">
+                <img src="images/tenant_prof/t3img.svg">
+                <div class="status status_grey">
+                <span></span>
+                </div>
+                </div>
+                <div class="tenant_info">
+                <p class="tenant_name">molan smith</p>
+                <p class="tenant_no">tenant 3</p>
+                </div>
+                </div>
+                
+                <div class="bgtenant_div">
+                <div class="imgtenant_profile">
+                <img src="images/tenant_prof/t4img.svg">
+                <div class="status status_grey">
+                <span></span>
+                </div>
+                </div>
+                <div class="tenant_info">
+                <p class="tenant_name">henry smith</p>
+                <p class="tenant_no">tenant 4</p>
+                </div>
+                </div> 
+
+                <div class="bgtenant_div">
+                  <div class="imgtenant_profile">
+                  <img src="images/tenant_prof/t4img.svg">
+                  <div class="status status_grey">
+                  <span></span>
+                  </div>
+                  </div>
+                  <div class="tenant_info">
+                  <p class="tenant_name">henry smith</p>
+                  <p class="tenant_no">tenant 4</p>
+                  </div>
+                  </div> 
+
+                  <div class="bgtenant_div">
+                    <div class="imgtenant_profile">
+                    <img src="images/tenant_prof/t4img.svg">
+                    <div class="status status_grey">
+                    <span></span>
+                    </div>
+                    </div>
+                    <div class="tenant_info">
+                    <p class="tenant_name">henry smith</p>
+                    <p class="tenant_no">tenant 4</p>
+                    </div>
+                    </div> 
+            </div>
+
+            <div class="verti_addtenants">
+            <a href="">
+                <div class="imgcont_add">
+                  <img src="images/showings/showing_lease_offer/addtenants_icon.svg">
+                  <h4>add </h4>
+                  <p>tenants</p>
+                </div>
+            </a> 
+            </div>
+
+
+
+          </div>
+          </div>
+        </div>
+
+<div class="row">
+  <div class="col-xl-12">
+    <div class="beforesignin">
+      <h5>Before Signing the Offer to Lease Agreement</h5>
+        <p>Double-check all information above before signing. Once signed, fields will be locked and cannot be changed.
+        The list of tenants who must sign is on the right side and the Offer to Lease page. If adding a financially responsible tenant, click "Add Tenant" now.</p>
+    </div>
+
+    <div class="twbtns_div">
+      <button class="btn declbtn">Decline <img src="images/showings/showing_lease_offer/decl_thumb.svg"></button>
+      <button class="btn confrbtntw">Confirm <img src="images/showings/showing_lease_offer/conf_thumb.svg"></button>
+    </div>
+</div>
+</div>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+<!-- end of start sign in pop up -->
+
+
+
+
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -6073,6 +6459,61 @@ send reminder</span>
 <!-- <script src="js/time-picker.js"></script> -->
 <script src="js/main.js"></script>
 <script>
+$(function(){
+  // Vertical slider
+  var verticalSlider = $('.slider--vertical');
+  verticalSlider.slick({
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    centerMode: false,
+    infinite: true,
+    slidesToShow: 3,
+    vertical: true,
+    verticalSwiping: true,
+  });
+
+  verticalSlider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+    var 
+      direction,
+      slideCountZeroBased = slick.slideCount - 1;
+
+    if (nextSlide == currentSlide) {
+      direction = "same";
+
+    } else if (Math.abs(nextSlide - currentSlide) == 1) { // 1 or -1
+      if (slideCountZeroBased === 1) { // If there's only two slides
+        direction = "duo";
+      } else { // More than two slides
+        direction = (nextSlide - currentSlide > 0) ? "right" : "left"; 
+      }
+    } else { // e.g., slide 0 to slide 6
+      direction = (nextSlide - currentSlide > 0) ? "left" : "right";
+    }
+
+    // Add a temp CSS class for the slide animation (.slick-current-clone-animate)
+    if (direction == 'duo') {  
+      $('.slick-cloned[data-slick-index="' + (nextSlide + slideCountZeroBased + 1) + '"]', sliders).addClass('slick-current-clone-animate');
+
+      $('.slick-cloned[data-slick-index="' + (nextSlide - slideCountZeroBased - 1) + '"]', sliders).addClass('slick-current-clone-animate');
+    }
+    
+    if (direction == 'right') {
+      $('.slick-cloned[data-slick-index="' + (nextSlide + slideCountZeroBased + 1) + '"]', verticalSlider).addClass('slick-current-clone-animate');
+    }
+
+    if (direction == 'left') {
+      $('.slick-cloned[data-slick-index="' + (nextSlide - slideCountZeroBased - 1) + '"]', verticalSlider).addClass('slick-current-clone-animate');
+    }
+  });
+
+  verticalSlider.on('afterChange', function (event, slick, currentSlide, nextSlide) {
+    $('.slick-current-clone-animate', verticalSlider).removeClass('slick-current-clone-animate');
+    $('.slick-current-clone-animate', verticalSlider).removeClass('slick-current-clone-animate');
+  });
+});
+
+
     // timepicker
 $(".meet_timediv input[name=time],.meet_timediv input[name=time1]").clockpicker({       
 placement: 'bottom',

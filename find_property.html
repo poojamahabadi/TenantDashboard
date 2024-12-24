@@ -139,7 +139,7 @@
 <div class="content-wrapper content-wrapper--with-bg">
 <div class="container-fluid">
 <div class="row prop_rowalign">
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mobilproperty_hide">
 <div class="divinfo findpropinfo">
     <div class="myinfo_txt">
     <img src="images/find_property/show_prop.svg"> 
@@ -147,7 +147,7 @@
     </div>
     </div>
 </div>
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mobpad_prop">
 <div class="search_ip_prop">
     <div class="input-group">
         <div class="input-group-prepend">
@@ -163,6 +163,19 @@
         
 </div>
 </div>
+
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 desktopproperty_hide mobpad_prop">
+    <div class="divinfo findpropinfo">
+        <div class="myinfo_txt">
+        <span>Showing 27,622 properties </span>
+        </div>
+        <div class="rght_iconfilter">
+            <img src="images/find_property/show_prop.svg"> 
+        </div>
+        </div>
+</div>
+
+
 </div>
 
 
@@ -344,22 +357,30 @@
 
 <!-- setup properties  -->
 
-<div class="modal setup_modalprop" id="setup_prop">
+<div class="modal setup_modalprop show" id="setup_prop" style="display: block;">
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
 
 <!-- Modal Header -->
 <div class="modal-header">
-<h4 class="modal-title">setup your preferred properties</h4>
+    <div class="mobileviewfindprop_btn">
+        <button data-target="#notifymodal" data-toggle="modal" data-dismiss="modal" type="button" class="btn btn-danger svsearch">save search</button>
+    </div>
+<h4 class="modal-title titlehide_mobile">setup your preferred properties</h4>
 <button type="button" class="close" data-dismiss="modal">&times;</button>
 </div>
 
 <!-- Modal body -->
 <div class="modal-body">
 <div class="container-fluid">
+    <div class="titledesktop_hide row">
+        <div class="col-xl-12">
+            <h4>setup your preferred properties</h4>
+        </div>
+    </div>
 <form>
 <div class="row">
-<div class="col-xl-4 popupcss_pad">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 popupcss_pad">
 <div class="bed_bath_pets">
     <div class="">
     <div class="form-group">
@@ -496,7 +517,7 @@
             </div>
 </div>
 </div>
-<div class="col-xl-4 popupcss_pad">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 popupcss_pad">
 <div class="bed_bath_pets moving_datesdiv">
     <div class="flexmovedate">
     <div class="form-group flexgrp_css">
@@ -565,7 +586,7 @@
 
 </div>
 </div>
-<div class="col-xl-4 popupcss_pad">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 popupcss_pad">
 <div class="bed_bath_pets amenities_div">
     <div class="proptype_p">
         <div class="form-group flexgrp_css">
@@ -608,9 +629,8 @@
 </div>
 
 <!-- Modal footer -->
-<div class="modal-footer">
+<div class="modal-footer mobhide_footerbtn">
 <button data-target="#notifymodal" data-toggle="modal" data-dismiss="modal" type="button" class="btn btn-danger svsearch">save search</button>
-
 </div>
 
 </div>
@@ -908,6 +928,22 @@
 <!-- <script src="js/time-picker.js"></script> -->
 <script src="js/main.js"></script>
 <script>
+    $(".bathslider .category-button").click(function(){
+        $(".bathslider .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $("#"+getid).addClass("active");
+    });
+
+    $(".bathslider12 .category-button").click(function(){
+        $(".bathslider12 .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $("#"+getid).addClass("active");
+    });
+  
+    </script>
+<script>
     // ----------swiper-slider---------
     var swiper = '';
     $(window).on('load', function(){
@@ -927,34 +963,122 @@
                 prevEl: '#catgory-sliderbath .bathnav .slider-prev',
             },
     breakpoints: {
-    1280: {
+        1280: {
     slidesPerView:5.5,
     },
-    1080: {
-    slidesPerView:4.5,
+        1200: {
+    slidesPerView:5.2,
     },
-    960: {
-    slidesPerView:3.5,
+    1136: {
+    slidesPerView:5.8,
     },
-    768: {
-    slidesPerView:5.5,
+   992: {
+    slidesPerView:5.4,
     },
-    570: {
-    slidesPerView:4.5,
+    800: {
+    slidesPerView:3.9,
     },
-    481: {
-    slidesPerView:4,
+    767: {
+    slidesPerView:6.3,
     },
-    400: {
-    slidesPerView:3.1,
+    640: {
+    slidesPerView:5.8,
+    },
+    480: {
+    slidesPerView:6,
+    },
+    414: {
+   slidesPerView:6.4,
+    },
+   390: {
+   slidesPerView:6,
+    },
+   375: {
+   slidesPerView:5.8,
+    },
+    360: {
+   slidesPerView:5.6,
+    },
+    340: {
+   slidesPerView:5.2,
     },
     320: {
-    slidesPerView:2.1,
+   slidesPerView:5,
     },
     }
         });
     });
 </script>
+<script>
+    var swiperbed = '';
+    $(window).on('load', function(){
+        swiperbed = new Swiper('#catgory-sliderbed',{
+            loop: true,
+    observer: true,
+    observeParents: true,
+    slidesPerView: 3,
+    initialSlide: 1,
+    spaceBetween: 3,
+    allowTouchMove: true,
+    mousewheel: true,
+    slideToClickedSlide: true,
+    centeredSlides: false,
+    navigation: {
+                nextEl: '#catgory-sliderbed .bednav .slider-next',
+                prevEl: '#catgory-sliderbed .bednav .slider-prev',
+            },
+    breakpoints: {
+        1280: {
+    slidesPerView:5.5,
+    },
+    1200: {
+    slidesPerView:5.2,
+    },
+    1136: {
+    slidesPerView:5.8,
+    },
+    992: {
+    slidesPerView:5.4,
+    },
+    800: {
+    slidesPerView:3.9,
+    },
+    767: {
+    slidesPerView:6.3,
+    },
+    640: {
+    slidesPerView:5.8,
+    },
+   414: {
+    slidesPerView:6,
+    },
+    480: {
+    slidesPerView:6,
+    },
+    414: {
+    slidesPerView:6.4,
+    },
+    390: {
+   slidesPerView:6,
+    },
+    375: {
+   slidesPerView:5.8,
+    },
+    360: {
+   slidesPerView:5.6,
+    },
+    340: {
+   slidesPerView:5.2,
+    },
+    320: {
+   slidesPerView:5,
+    },
+    }
+    
+    });
+
+    });
+    </script>
 <script>
     var swipernoti = '';
     $(window).on('load', function(){
@@ -974,8 +1098,8 @@
                 prevEl: '#catgory-sliderbath12 .bathnav .slider-prev',
             },
     breakpoints: {
-    1280: {
-    slidesPerView:5.5,
+        1200: {
+    slidesPerView:5.2,
     },
     1080: {
     slidesPerView:4.5,
@@ -1002,73 +1126,8 @@
         });
     });
 </script>
-<script>
-    $(".bathslider .category-button").click(function(){
-        $(".bathslider .category-button").removeClass("active");
-        $(this).addClass('active');
-        swiper.unlockSwipeToNext();
-        var getid = $(this).data('id');
-        $(".bathslider .data-text").removeClass('active');
-        $("#"+getid).addClass("active");
-    });
 
-    $(".bathslider12 .category-button").click(function(){
-        $(".bathslider12 .category-button").removeClass("active");
-        $(this).addClass('active');
-        swiper.unlockSwipeToNext();
-        var getid = $(this).data('id');
-        $(".bathslider12 .data-text").removeClass('active');
-        $("#"+getid).addClass("active");
-    });
-  
-    </script>
-    <script>
-    var swiperbed = '';
-    $(window).on('load', function(){
-        swiperbed = new Swiper('#catgory-sliderbed',{
-            loop: true,
-    observer: true,
-    observeParents: true,
-    slidesPerView: 4,
-    initialSlide: 1,
-    spaceBetween: 3,
-    allowTouchMove: true,
-    mousewheel: true,
-    slideToClickedSlide: true,
-    centeredSlides: false,
-    navigation: {
-                nextEl: '#catgory-sliderbed .bednav .slider-next',
-                prevEl: '#catgory-sliderbed .bednav .slider-prev',
-            },
-    breakpoints: {
-    1280: {
-    slidesPerView:5.5,
-    },
-    1080: {
-    slidesPerView:4.5,
-    },
-    960: {
-    slidesPerView:3.5,
-    },
-    768: {
-    slidesPerView:5.5,
-    },
-    570: {
-    slidesPerView:4.5,
-    },
-    481: {
-    slidesPerView:4,
-    },
-    400: {
-    slidesPerView:3.1,
-    },
-    320: {
-    slidesPerView:2.1,
-    },
-    }
-    });
-    });
-    </script>
+   
     <script>
     var swiperbednoti = '';
     $(window).on('load', function(){
@@ -1088,8 +1147,8 @@
                 prevEl: '#catgory-sliderbed11 .bednav .slider-prev',
             },
     breakpoints: {
-    1280: {
-    slidesPerView:5.5,
+    1200: {
+    slidesPerView:5.2,
     },
     1080: {
     slidesPerView:4.5,
@@ -1124,14 +1183,12 @@
         $(".bedslider .category-button").removeClass("active");
         $(this).addClass('active');
         var getid = $(this).data('id');
-        $(".bedslider .data-text").removeClass('active');
         $("#"+getid).addClass("active");
     });
     $(".bedslider11 .category-button").click(function(){
         $(".bedslider11 .category-button").removeClass("active");
         $(this).addClass('active');
         var getid = $(this).data('id');
-        $(".bedslider11 .data-text").removeClass('active');
         $("#"+getid).addClass("active");
     });
     </script>
@@ -1180,7 +1237,7 @@
     slidesPerView:3.1,
     },
     320: {
-    slidesPerView:2.1,
+    slidesPerView:3,
     },
     }
         });

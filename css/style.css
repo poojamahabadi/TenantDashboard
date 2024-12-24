@@ -12,6 +12,7 @@ url('../fonts/helvetica-rounded-bold-5871d05ead8de.otf');
 }
 body {
 font-family: 'Helvetica';
+position:relative;
 }
 ::-webkit-scrollbar {
 width: 10px;
@@ -8225,4 +8226,333 @@ border-radius:0 7.61478px 7.61478px 0;
 }
 .algntxt{
     text-align:right;
+}
+
+/* end of property schedule showings */
+
+/* confirm showings pop up */
+.confirmpopupdiv .modal-header{
+    border-radius: 21px 21px 0 0;
+    background-color: #315D80;
+    display: block;
+    padding: 2em 0 3em 0;
+}
+.padcontf_css{
+    padding:0;
+}
+
+.modal-backdrop.show{
+ filter: drop-shadow(-23px -23px 2px rgba(255, 255, 255, 0.6));
+/*background-image: linear-gradient(180deg, #FFFFFF 24.3%, rgba(255, 255, 255, 0) 76.98%), linear-gradient(360deg, #2E4264 -13.46%, rgba(216, 231, 255, 0) 100%);
+*/opacity: 0.8; 
+
+background: linear-gradient(360deg, #2E4264 -13.46%, rgba(216, 231, 255, 0) 100%);
+}
+.confirmpopupdiv .modal-header h4{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 16px;
+line-height:29px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+margin:0 0px 25px 0px;
+}
+.confirmtime_div hr{
+    border-top: 1px solid #DEE7F2;
+}
+.confirmpopupdiv .modal-dialog .modal-content{
+    border: unset;
+    border-radius: 17px;
+    background-color: unset;
+    width: 85%;
+    margin: 0 auto;
+}
+.confirmpopupdiv .modal-body{
+    background: #DEE7F2;
+    border-radius: 20px;
+    margin: -21px 0 0 0;
+}
+.confirmtime_div{
+    background: #92A3B4;
+    border-radius: 14px;
+    padding: 1.5em 0;
+}
+.lefimg_icon img{
+    height: 26px;
+}
+.confirmtime_div p {
+    font-family: 'Helvetica';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.confirmtime_div p img{
+    margin-right: 5px;
+}
+.confirmpopupdiv .modal-header h4 img {
+    height: 22px;
+    vertical-align: text-bottom;
+    margin-right: 3px;
+}
+.confirmpopupdiv .modal-header p{
+    width: 64%;
+    margin: 0 auto;
+    line-height: 19px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+.flx_addrimg {
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+}
+.lefimg_icon{
+    margin-right: 10px;
+}
+.alignp_confr{
+    text-align: right;
+}
+.alignp_confrl{
+    text-align: left;
+}
+.addrstxt_div p{
+    text-align: left;
+}
+.okbtn_div{
+    margin:1.5em 0 0.7em 0;
+}
+.okbtn_div .btn.btnok{
+background: #9BB997;
+border-radius: 40px;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-transform: capitalize;
+color: #FFFFFF;
+width: 100%;
+border: unset;
+height: 44px;
+}
+/* confirm showings pop up end */
+
+
+/* start signing offer to lease pop up */
+.basicdata.contitxt{
+    display: block;
+}
+.basicdata.contitxt p{
+    display: block;
+    line-height: 12px;
+}
+.signin_popup .modal-content{
+    background: rgba(237, 242, 250, 0.9);
+    border-radius: 17px;
+    width: 83%;
+    margin: 0 auto;
+    border:unset;
+}
+.signin_popup .modal-content .startsignaccord{
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 12px 12px 5px 12px;
+    width: 90%;
+    margin: 0 0 20px auto;
+}
+.signin_popup .modal-content .modal-body{
+    padding:0;
+}
+.slider--vertical{
+    padding: 0.5em 0;
+}
+.signin_popup .modal-title span{
+    color:#F2727F;
+}
+.verticalslitenant{
+    background: #C9D7E5;
+    border-radius: 20px;
+    margin: 0;
+    position: relative;
+}
+.verticalslitenant h3{
+background: #A7BBCE;
+box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
+border-radius: 20px 20px 0px 0px;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 14px;
+line-height:20px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+padding: 3px 4px;
+}
+.verticalslitenant .bgtenant_div{
+    margin:0 0 20px 0;
+}
+.verticalslitenant .bgtenant_div img{
+    height: 58px;
+    width: 58px;
+    margin: 0 auto;
+}
+.verticalslitenant .imgtenant_profile{
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;  
+}
+.verticalslitenant .bgtenant_div .tenant_info p:first-child{
+    color: #315d80;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.bgtenant_div .tenant_info p:nth-child(2){
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+text-transform: capitalize;
+color: #6B5E7B;
+margin: 0;
+}
+.verti_addtenants{
+    position: absolute;
+    bottom: 3px;
+    box-sizing: border-box;
+    background: #EDF2FA;
+    box-shadow: -2px -3px 10px rgba(49, 93, 128, 0.3);
+    border-radius: 17px;
+    width: 96%;
+    text-align: center;
+    left: 3px;
+    padding: 10px;
+}
+.imgcont_add img{
+    height: 32px;
+    width: 32px;
+}
+.imgcont_add h4{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #315D80;
+    margin: 4px 0 3px 0;
+}
+.imgcont_add p{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 12px;
+line-height:19px;
+text-align: center;
+text-transform: capitalize;
+color: #6B5E7B;
+margin: 0;
+}
+.beforesignin h5{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+color: #315D80;
+}
+.beforesignin p{
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #315D80;
+    width: 76%;
+    margin: 0 auto;  
+}
+.signin_popup .modal-header{
+    padding:10px 0;
+    width: 100%;
+    display: block;
+
+}
+.signin_popup .modal-header h4{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #315D80; 
+}
+.btn.declbtn,.btn.confrbtntw{
+border-radius: 40px;
+width: 236px;
+height: 32px;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 12px;
+line-height: 11px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+border:unset;
+}
+.twbtns_div{
+    text-align: center;
+    margin: 1.2em 0;
+}
+.startsignaccord .flexdiv {
+    align-items: baseline;
+}
+.btn.declbtn{
+background: #F2727F;
+}
+.btn.confrbtntw{
+background: #9BB997;
+}
+.my_info .tenantaccord span.income-index1{
+    display: none;
+}
+.my_info .tenantaccord .card-header .btn-link.btn-block.collapsed:after {
+display: none;
+}
+.my_info .tenantaccord .card-header.ademp_icome .delebtn_new {
+    display: flex;
+    margin: 0 5px 0 5px;
+}
+.my_info .tenantaccord .card-header.ademp_icome .deleteicon_myinfo, 
+.my_info .tenantaccord .card-header.ademp_icome .deletebtn_myinfo {
+    border-radius: 12px 13px 13px 12px;
+    font-family: 'Helvetica';
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    width: 100%;
+}
+.my_info .tenantaccord .card-header.ademp_icome .deletebtn_myinfo {
+    padding: 4px 9px;
+    background: #F2727F;
+    font-size: 12px;
+    margin: 0 0 0 -17px;
+}
+.my_info .tenantaccord .card-header.ademp_icome .btn-link.btn-block:after {
+    display: none;
+    }
+.my_info .tenantaccord .card-header.ademp_icome .deleteicon_myinfo {
+    background: #A7BBCE;
+    padding: 4px 22px 4px 13px;
+    font-size: 11px;
+}
+.my_info .tenantaccord .card-header.ademp_icome .btn-block{
+    margin: 0 0 0 16px;
 }
