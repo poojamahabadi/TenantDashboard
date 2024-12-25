@@ -2129,6 +2129,21 @@ margin: 0;
 font-size: 13px;
 line-height: 17px;
 }
+.rght_transtxt{
+    justify-content:right;
+}
+.txtcnter_th{
+    text-align: center;
+}
+.txtcrght_th{
+    text-align: right;
+}
+.twobuttons_div {
+    text-align: right;
+}
+.trans_depositdiv .bgcolr_depos .flex_centercss {
+    padding: 0px 15px 0 15px;
+}
 .flex_centercss {
 display: flex;
 align-items: center;

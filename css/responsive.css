@@ -398,7 +398,7 @@ padding: 5px 19px;
 .setup_modalprop .modal-dialog {
 max-width: 71%;
 }
-/* end of dinf property */
+/* end of find property */
 
 /* price range */
 .pricerange_sliderone .slick-track, .pricerangeslider_two .slick-track {
@@ -854,6 +854,21 @@ padding: 0 8px;
 }
 
 @media only screen and (max-width: 1280px){
+/* transactions */
+.twobuttons_div .btn.pay_amt,.twobuttons_div .btn.makepay_amt {
+    padding: 3px 9px;
+}
+.tabmyinfo.transac .pricetxt,.trans_txt h3 {
+    font-size: 20px;
+}
+.tabmyinfo.transac .price_ptxt {
+    font-size: 13px;
+}
+.aply_creditbg .btn.preapprovtrans {
+    padding: 10px 4px 11px 6px;
+}
+/* end of transactions */
+
 /* find property */
 .prop_find_details img {
 height: 110px;
@@ -1186,6 +1201,42 @@ margin-left: 212px;
 
 
 @media only screen and (max-width: 1200px){
+/* transactions */
+.tabmyinfo.transac .txtmonth {
+    font-size: 14px;
+}
+.transactions_table thead tr th {
+    font-size: 14px;
+    padding: 10px 5px;
+}
+.tabmyinfo.transac .card.balancecard .card-header h3 {
+    font-size: 14px;
+}
+.tabmyinfo.transac .card.balancecard .card-header {
+    padding: 10px 20px 19px 20px;
+}
+.tabmyinfo.transac  .dropdown.dropinfo .btn.dropdown-toggle {
+    font-size: 14px;
+    padding: 1px 15px;
+}
+.twobuttons_div .btn.pay_amt,.twobuttons_div .btn.makepay_amt {
+    font-size: 11px;
+}
+.tabmyinfo.transac .set_custom img {
+    height: 17px;
+    width: 17px;
+    vertical-align: sub;
+}
+.aply_creditbg .flex_centercss{
+    display: unset;
+    padding: 0px 5px 0 5px;
+}
+.aply_creditbg .myinfo_txt img {
+    margin-right: 9px;
+    vertical-align: bottom;
+}
+/* end of transactions */
+
 /* find property */
 .setup_modalprop .modal-dialog {
 max-width: 80%;
@@ -1488,6 +1539,22 @@ font-size: 15px;
 }
 
 @media only screen and (max-width:1136px){
+/* transactions */
+.aply_creditbg {
+    padding: 14px;
+}
+.aply_creditbg .btn.preapprovtrans {
+    padding: 10px 3px 11px 3px;
+}
+.transactions_table tbody tr td img {
+    height: 21px;
+    width: 21px;
+}
+.tabmyinfo.transac .twobuttons_div .btn.pay_amt,.tabmyinfo.transac .twobuttons_div .btn.makepay_amt {
+    font-size: 10px;
+    padding: 5px 9px;
+}
+/* end of transactions */
 /* find property */
 .prop_rowalign {
 margin: 7em 0 2em 0;
@@ -1875,6 +1942,53 @@ right: -5px;
 }
 
 @media only screen and (max-width:1080px){
+
+/* transactions */
+.widcss_transleft,.widcss_transright{
+    flex:100%;
+    max-width: 100%;
+}
+.tabmyinfo.transac .pricetxt, .trans_txt h3 {
+    font-size: 18px;
+}
+.tabmyinfo.transac .set_custom img {
+    vertical-align: text-bottom;
+}
+.aply_creditbg .trans_txt h3{
+    margin: 0 0 15px 0;
+    font-size: 18px;
+}
+.aply_creditbg .btn.preapprovtrans {
+    padding: 13px 5px 13px 17px;
+    font-size: 12px;
+}
+.btn.preapprovtrans span {
+    padding: 8px 10px;
+}
+.aply_creditbg .trans_txt p{
+    margin: 0 0 15px 0; 
+    font-size: 16px;
+}
+.tabmyinfo.transac .price_ptxt {
+    font-size: 12px;
+}
+.transac_balpage .transac .divinfo {
+    align-items: baseline;
+}
+.trans_depositdiv .trans_details {
+    padding: 22px 8px;
+}
+.trans_depositdiv .trans_details p {
+    font-size: 12px;
+    line-height: 19px;
+}
+.aply_creditbg .bgcolr_depos {
+    padding: 8px 13px;
+    margin: 1em 0 0 0;
+}
+.aply_creditbg .bgcolr_depos {
+    text-align: center;
+}
 /* showings step */
 .img_step > img {
 height: 140px;
@@ -2632,6 +2746,25 @@ margin: 10px 0 0 0;
 }
 
 @media only screen and (max-width:992px){
+/* transactions */
+.tabmyinfo.transac .txtmonth {
+    font-size: 12px;
+}
+.tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
+    font-size: 13px;
+    padding: 1px 13px;
+}
+.tabmyinfo.transac .pricetxt, .trans_txt h3 {
+    font-size: 16px;
+}
+.trans_depositdiv .bgcolr_depos .flex_centercss {
+    padding: 0px 9px 0 9px;
+}
+.tabmyinfo.transac .set_custom {
+    padding: 0 14px 0 11px;
+}
+/* end of transactions */
+
 /* find property */
 .prop_find_details img {
 height: 89px;
@@ -3122,6 +3255,61 @@ padding: 4px 22px 4px 12px;
 }
 }
 @media only screen and (max-width:800px){
+/* transactions */
+.tabmyinfo.transac .txtmonth {
+    font-size: 15px;
+}
+.transac_balpage .download_trans {
+    margin: 1.5em 0 0.4em 0;
+}
+.download_trans .btn.btn_download img{
+    vertical-align: sub;
+}
+.tabmyinfo.transac .twobuttons_div .btn.pay_amt,.tabmyinfo.transac .twobuttons_div .btn.makepay_amt {
+    font-size: 12px;
+    padding: 7px 21px;
+}
+.tabmyinfo.transac .pricetxt,.tabmyinfo.transac .trans_txt h3 {
+    font-size: 20px;
+}
+.tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
+    font-size: 15px;
+    padding: 2px 20px;
+    font-weight: 700;
+}
+.lefdiv_align{
+    justify-content: flex-start;
+}
+.trans_depositdiv .trans_details {
+    padding: 22px 20px;
+}
+.rightdiv_align{
+    justify-content: end;
+}
+.tabmyinfo.transac .myinfo_txt span {
+    font-size: 18px;
+}
+.trans_depositdiv .bgcolr_depos {
+    padding: 10px 15px;
+    width: 100%;
+}
+.aply_creditbg .bgcolr_depos {
+    padding: 13px;
+    margin: 10px 0 0 0;
+}
+.transactions_table tbody tr td {
+    font-size: 14px;
+}
+.transactions_table thead tr th {
+    font-size: 15px;
+}
+.tabmyinfo.transac .blu_colr {
+    padding: 7px 8px 7px 16px;
+}
+.trans_depositdiv .trans_details p {
+    font-size: 14px;
+}
+/* end of transactions */
 
 /* price range */
 .pricerange_sliderone .slick-track, .pricerangeslider_two .slick-track {
@@ -3947,6 +4135,11 @@ padding: 14px 20px;
 }
 
 @media only screen and (max-width:768px){
+/* transactions */
+.tabmyinfo.transac .blu_colr {
+    padding: 7px 9px 7px 20px;
+}
+/* end of transactions */
 /* find property */
 .popupcss_pad {
 max-width: 100%;
@@ -4206,8 +4399,37 @@ width: 57%;
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
 
+/* transactions */
+.transac_balpage .transac .divinfo {
+    display: block;
+}
+.trans_depositdiv .trans_details {
+    padding: 8px 13px;
+    width: 140px;
+}
+.transac_balpage .transac .myinfo_txt{
+    margin:0 0 1em 0;
+}
+.trans_depositdiv .trans_details p {
+    font-size: 13px;
+}
+.trans_depositdiv .trans_txt h3 {
+    font-size: 18px;
+    text-align: center;
+}
+.trans_depositdiv .trans_txt p {
+    font-size: 16px;
+}
+.transac_balpage .transac .myinfo_txt img {
+    vertical-align: middle;
+    height: 22px;
+    width: 22px;
+}
+.aply_creditbg .trans_txt h3,.aply_creditbg .trans_txt p {
+    margin: 0 0 12px 0;
+}
+/* end of transactions */
 /* price range  */
-
 .pricerange_search .form-search .input-group input.form-control::-webkit-input-placeholder{
 font-weight: 400;
 color: rgba(55, 105, 144, 0.5);
@@ -5029,6 +5251,22 @@ right: 13px;
 }
 }
 @media only screen and (max-width: 640px){
+/* transactions */
+.transac_balpage .transac .myinfo_txt img {
+    vertical-align: sub;
+}
+.tabmyinfo.transac .card.balancecard .card-header {
+    padding: 16px 20px 21px 20px;
+}
+.tabmyinfo.transac .card.balancecard .card-header h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.tabmyinfo.transac .twobuttons_div .btn.pay_amt,.tabmyinfo.transac .twobuttons_div .btn.makepay_amt {
+    padding: 7px 13px;
+}
+/* end of transactions */
+
 /* confirm showing pop up */
 .confirmtime_div p.alignp_confr img {
     vertical-align: text-top;
@@ -5885,6 +6123,58 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
+/* transactions */
+.tabmyinfo.transac .blu_colr {
+    width: 74%;
+}
+.paidmobile_hide{
+    display: none;
+}
+.my_info.tabmyinfo.transac {
+    margin: 0 0 1.3em 0;
+}
+.trans_depositdiv .trans_details {
+    width: 155px;
+}
+.trans_depositdiv .trans_details p {
+    line-height: 17px;
+}
+.trans_depositdiv .bgcolr_depos {
+    margin: 0;
+}
+.aply_creditbg .bgcolr_depos {
+    margin: 10px 0 0 0;
+}
+.trans_depositdiv .trans_txt p {
+    margin: 7px 0 10px 0;
+}
+.download_trans .btn.btn_download img {
+    vertical-align: middle;
+    height: 25px;
+    margin: -4px 0 0px 5px;
+}
+.tabmyinfo.transac .card.balancecard .card-body {
+    padding: 16px 15px 17px 15px;
+}
+.transac_balpage .download_trans {
+    margin: 1.1em 0 0.4em 0;
+}
+.tabmyinfo.transac .set_custom {
+    padding: 0 6px 0 17px;
+}
+.tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
+    padding: 2px 30px;
+}
+.tabmyinfo.transac .pricediv {
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+.tabmyinfo.transac .twobuttons_div .btn.pay_amt, .tabmyinfo.transac .twobuttons_div .btn.makepay_amt {
+    padding: 7px 30px;
+    font-size: 15px;
+}
+/* end of transactions */
+
 /* find property */
 .setup_modalprop .modal-dialog {
 max-width: 63%;
@@ -6935,6 +7225,15 @@ height: 110px;
 }
 /* end of find property */
 
+/* transactions */
+.tabmyinfo.transac .blu_colr {
+    width: 67%;
+}
+.tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
+    padding: 2px 40px;
+}
+/* end of transactions */
+
 /* price range */
 .pricerange_search {
     width: 90%;
@@ -7181,6 +7480,24 @@ top: 11px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
+
+/* transactions */
+.tabmyinfo.transac .blu_colr {
+    width: 53%;
+}
+.monthcustom {
+    justify-content: space-between;
+}
+.trans_depositdiv .trans_details {
+    width: 165px;
+}
+.transac_balpage .download_trans {
+    margin: 1.3em 0 0.3em 0;
+}
+.tabmyinfo.transac .set_custom {
+    padding: 0 21px 0 10px;
+}
+/* end of transactions */
 /* price range */
 .pricerange_search {
     width: 90%;
@@ -8413,6 +8730,40 @@ margin: 0 0 0 10px;
 }
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
+/* transactions */
+.rightside_sepsec.trans_depositdiv {
+        padding: 11px 7px 11px 7px;
+}
+.tabmyinfo.transac .pricetxt {
+    margin: 0 0 10px 0;
+}
+.tabmyinfo.transac .price_ptxt {
+    margin: 0 0 7px 0;
+}
+.tabmyinfo.transac .set_custom {
+    padding: 0 18px 0 6px;
+}
+.monthcustom {
+    justify-content: space-between;
+}
+.tabmyinfo.transac .blu_colr {
+    width: 62%;
+}
+.transactions_table tbody tr td {
+    font-size: 13px;
+}
+.aply_creditbg .flexalgn_div{
+    padding: 0 5px;
+}
+.aply_creditbg .btn.preapprovtrans {
+    padding: 13px 4px 13px 12px;
+    font-size: 11px;
+}
+.aply_creditbg .bgcolr_depos {
+    padding: 10px 8px;
+}
+/* end of transactions */
+
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p {
     width: 81%;
@@ -9620,6 +9971,21 @@ left: -18px;
 
 @media only screen and (max-width: 390px) {
 
+/* transactions */
+.tabmyinfo.transac .blu_colr {
+    width: 63%;
+    justify-content: space-between;
+}
+.trans_depositdiv .trans_txt h3 {
+    margin: 0 0 7px 0;
+}
+.trans_depositdiv .trans_txt p {
+    margin: 9px 0 12px 0;
+}
+.tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
+    padding: 2px 20px;
+}
+/* end of transactions */
 /* confirm showings pop up */
 .confirmtime_div p {
     font-size: 13px;
@@ -10542,6 +10908,22 @@ left: -22px;
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
+
+/* transactions */
+.tabmyinfo.transac .set_custom {
+    padding: 0 6px 0 12px;
+}
+.aply_creditbg .flexalgn_div{
+    padding: 0 5px;
+}
+.aply_creditbg .bgcolr_depos .flex_centercss {
+    padding: 0px 8px;
+}
+.aply_creditbg .btn.preapprovtrans {
+    padding: 13px 5px 13px 9px;
+    font-size: 11px;
+}
+/* end of transactions */
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p {
     width: 88%;
@@ -11425,6 +11807,105 @@ width: 37%;
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
+/* transactions */
+.tabmyinfo.transac .blu_colr {
+    width: 62%;
+    padding: 7px 9px 7px 15px;
+}
+.aply_creditbg .flexalgn_div {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    flex: 100%;
+    margin:0 0 15px 0;
+}
+.lefdiv_align {
+    padding: 0 5px;
+}
+.aply_creditbg .trans_txt h3 {
+    font-size: 16px;
+}
+.aply_creditbg .btn.preapprovtrans {
+    padding: 13px 4px 14px 20px;
+    font-size: 14px;
+}
+.aply_creditbg .trans_txt h3{
+    margin: 0px 0 7px 0;
+}
+.addi_amtapply .btn.adapply_btn {
+    font-size: 14px;
+}
+.aply_creditbg .bgcolr_depos {
+    padding: 13px 10px;
+}
+.aply_creditbg .flexalgn_div {
+    padding: 0 12px;
+}
+.aply_creditbg .trans_txt p, .aply_creditbg .trans_txt h3 {
+    font-size: 17px;
+}
+.aply_creditbg .btn.preapprovtrans span {
+    padding: 8px 6px;
+    margin-left: 2px;
+}
+.aply_creditbg .bgcolr_depos .flex_centercss {
+    padding: 0px 10px;
+}
+.aply_creditbg .bgcolr_depos {
+    padding: 9px;
+}
+.trans_depositdiv .trans_details p {
+    font-size: 11px;
+    line-height: 15px;
+}
+.trans_depositdiv .bgcolr_depos .flex_centercss {
+    padding: 0px 7px;
+}
+.trans_depositdiv .trans_details p {
+    font-size: 12px;
+}
+.rightside_sepsec {
+    padding: 13px 11px 14px 11px;
+}
+.trans_depositdiv .trans_txt p {
+    font-size: 14px;
+}
+.transactions_table thead tr th {
+    font-size: 14px;
+}
+.tabmyinfo.transac .twobuttons_div .btn.pay_amt, .tabmyinfo.transac .twobuttons_div .btn.makepay_amt {
+    padding: 7px 15px;
+    font-size: 14px;
+}
+.transactions_table tbody tr td img {
+    margin-right: 8px;
+}
+.tabmyinfo.transac .pricetxt, .tabmyinfo.transac .trans_txt h3 {
+    margin: 0 0 11px 0;
+}
+.tabmyinfo.transac .twobuttons_div {
+    width: 91%;
+}
+.tabmyinfo.transac .price_ptxt {
+    margin: 0 0 8px 0;
+}
+.tabmyinfo.transac .card.balancecard .card-header h3 {
+    font-size: 16px;
+}
+.transactions_table tbody tr td {
+    font-size: 13px;
+    padding: 7px 5px;
+}
+.tabmyinfo.transac .txtmonth {
+    font-size: 14px;
+}
+.tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
+    padding: 2px 15px;
+}
+.tabmyinfo.transac .set_custom {
+    padding: 0 6px 0 8px;
+}
+/* end of transactions */
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p {
     width: 88%;
@@ -12448,6 +12929,73 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+/* transactions */
+.tabmyinfo.transac .txtmonth {
+    font-size: 13px;
+}
+.aply_creditbg .btn.preapprovtrans {
+    padding: 13px 5px 13px 20px;
+    font-size: 13px;
+}
+.aply_creditbg .flexalgn_div {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    flex: 100%;
+    margin:0 0 15px 0;
+}
+.tabmyinfo.transac .blu_colr {
+    padding: 7px 6px 7px 10px;
+    width: 61%;
+}
+.transactions_table tbody tr td img {
+    height: 19px;
+    width: 18px;
+}
+.trans_depositdiv .bgcolr_depos .flex_centercss {
+    padding: 0px 6px 0 6px;
+}
+.rightside_sepsec.trans_depositdiv {
+    padding: 14px 8px 9px 8px;
+}
+.trans_depositdiv .trans_details p {
+    font-size: 12px;
+}
+.trans_depositdiv .trans_txt p {
+    font-size: 15px;
+}
+.trans_depositdiv .trans_details {
+    width: auto;
+    padding: 8px 5px;
+}
+.tabmyinfo.transac .twobuttons_div {
+    width: 94%;
+}
+.tabmyinfo.transac .pricetxt {
+    font-size: 19px;
+}
+.tabmyinfo.transac .card.balancecard .card-header h3 {
+    font-size: 16px;
+}
+.tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
+    padding: 3px 15px;
+    font-size: 14px;
+}
+.transactions_table tbody tr td img {
+    margin-right: 6px;
+}
+.transactions_table tbody tr td {
+    font-size: 13px;
+    padding: 8px 5px;
+}
+.tabmyinfo.transac .set_custom img {
+    height: 16px;
+    width: 14px;
+}
+.tabmyinfo.transac .set_custom {
+    padding: 0 3px 0 7px;
+}
+/* end of transactions */
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p {
     width: 88%;
@@ -13650,6 +14198,44 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+
+/* transactions */
+.tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
+    padding: 3px 17px;
+    font-size: 12px;
+}
+.trans_depositdiv .trans_details {
+    width: auto;
+    padding: 10px 21px;
+}
+.lefdiv_align{
+    margin:0 0 20px 0;
+}
+.lefdiv_align,.rightdiv_align {
+    justify-content: flex-start;
+    max-width: 100%;
+    flex: 100%;
+}
+.tabmyinfo.transac .set_custom img {
+    height: 15px;
+    width: 14px;
+}
+.tabmyinfo.transac .card.balancecard .card-header h3 {
+    font-size: 14px;
+}
+.tabmyinfo.transac .card.balancecard .card-header {
+    padding: 12px 20px 21px 20px;
+}
+.transactions_table tbody tr td {
+    font-size: 12px;
+}
+.transactions_table thead tr th {
+    font-size: 14px;
+}
+.set_custom {
+    font-size: 11px;
+}
+/* end of transactions */
 /* confirm showing popup */
 .flx_addrimg {
     width: 89%;
