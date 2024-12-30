@@ -854,6 +854,11 @@ padding: 0 8px;
 }
 
 @media only screen and (max-width: 1280px){
+/* give notice */
+.givenoticepopup .flxcenter_div {
+    margin: 0 0 2em 0;
+}
+/* end of give notice */
 /* transactions */
 .twobuttons_div .btn.pay_amt,.twobuttons_div .btn.makepay_amt {
     padding: 3px 9px;
@@ -1539,6 +1544,40 @@ font-size: 15px;
 }
 
 @media only screen and (max-width:1136px){
+    /*give notice  */
+    .givenoticepopup .modal-dialog .modal-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .modal.givenoticepopup .modal-dialog {
+        max-width: 80%;
+    }
+    .paymt_center{
+        align-items: center;
+    }
+    .givenoticepopup .trans_heading {
+        margin: 0 0 1.2em 0;
+    }
+    .amt_payment.gvnoticbtns .btn.full_amt, .amt_payment.gvnoticbtns .btn.make_pay {
+        width: 220px;
+        height: 40px;
+    }
+    .btn.vacatebtn_notice p:first-child {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .padgvnot_left{
+        padding-left: 0;
+        padding-right: 5px;
+    }
+    .not_datetxt p:first-child {
+        margin: 0 7px 0 0;
+    }
+    .not_datetxt p:nth-child(2), .not_datetxt p:first-child {
+        font-size: 11px;
+        text-align: left;
+    }
+    /* end of give notice  */
 /* transactions */
 .aply_creditbg {
     padding: 14px;
@@ -1943,6 +1982,15 @@ right: -5px;
 
 @media only screen and (max-width:1080px){
 
+/* give notice */
+.not_datetxt p:nth-child(2), .not_datetxt p:first-child {
+    font-size: 12px;
+}
+.btn.vacatebtn_notice p:first-child {
+    font-size: 15px;
+    line-height: 19px;
+}
+/* end of give notice */
 /* transactions */
 .widcss_transleft,.widcss_transright{
     flex:100%;
@@ -2376,6 +2424,11 @@ right: -15px;
 
 
 @media only screen and (max-width:1024px){
+/* give notice */
+.modal.givenoticepopup .modal-dialog {
+    max-width: 86.4%;
+}
+/* end of give notice */
 /* find property */
 .setup_modalprop .modal-dialog {
 max-width: 96%;
@@ -3255,7 +3308,21 @@ padding: 4px 22px 4px 12px;
 }
 }
 @media only screen and (max-width:800px){
-/* transactions */
+/* give notice */
+.modal.givenoticepopup .modal-dialog {
+    max-width: 96.4%;
+}
+.amt_payment.gvnoticbtns .btn.full_amt, .amt_payment.gvnoticbtns .btn.make_pay {
+    width: 199px;
+}
+.contflu_padcss {
+    padding: 0;
+}
+.btn.vacatebtn_notice{
+    width: auto;
+}
+/* end of give notice */
+    /* transactions */
 .tabmyinfo.transac .txtmonth {
     font-size: 15px;
 }
@@ -4135,6 +4202,11 @@ padding: 14px 20px;
 }
 
 @media only screen and (max-width:768px){
+/* give notice */
+.amt_payment.gvnoticbtns .btn.full_amt, .amt_payment.gvnoticbtns .btn.make_pay {
+    font-size: 15px;
+}
+/* end of give notice */
 /* transactions */
 .tabmyinfo.transac .blu_colr {
     padding: 7px 9px 7px 20px;
@@ -4398,6 +4470,91 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
+
+/* give notice mobile view */
+.vacbtn_div{
+    text-align: center;
+}
+.btn.vacatebtn_notice p:first-child {
+    font-size: 18px;
+    line-height: 24px;
+}
+.btn.vacatebtn_notice {
+    width: 93%;
+    margin: 1em auto;
+}
+.mobsecmain_notice{
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 1em 2em;
+}
+.outs_balc .amt_payment.gvnoticbtns .btn.full_amt,.outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
+    width: 275px;
+    height: 44px;
+    font-size: 18px;
+}
+.gvnoticetxtleft p{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+text-transform: capitalize;
+color: #315D80;
+margin:0;
+}
+.gvnoticedateright{
+    text-align: right;
+}
+.gvnoticedateright p{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+text-transform: capitalize;
+color: #315D80;
+margin:0;
+}
+.btn.btnreqgvnotice{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 14px;
+line-height:11px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+background: #F2727F;
+border-radius: 40px;
+}
+.mobsecmain_notice .bordm_btm{
+    border-top: 1px solid #C9D7E5;
+    display: block;
+    margin: 10px 0;
+}
+.outs_balc{
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08);
+    border-radius: 17px;
+    padding: 1em;
+}
+.outs_balc .amt_payment .btn.full_amt {
+    margin: 0 6px 11px 0px;
+}
+.gvnotid_depos_div .bgcolr_depos {
+    text-align: center;
+}
+.gvnotid_depos_div .bgcolr_depos .flex_centercss {
+    padding: 0;
+}
+.btmr_gvnotice_transac{
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 1.3em 2em;
+}
+.trans_heading{
+    text-align: left;
+}
+/* give notice mobile view end */
 
 /* transactions */
 .transac_balpage .transac .divinfo {
@@ -7219,6 +7376,20 @@ flex-basis: 55%;
 }
 }
 @media only screen and (max-width: 568px) and (min-width:481px) {
+
+/* give notice */
+.mobsecmain_notice .bordm_btm {
+    margin: 15px 0;
+}
+.btmr_gvnotice_transac {
+    padding: 1.3em 1em;
+}
+.gvnotid_depos_div .trans_details {
+    padding: 10px 10px;
+    width: 68%;
+}
+/* end of give notice  */
+
 /* find property */
 .prop_find_details img {
 height: 110px;
@@ -7481,6 +7652,42 @@ top: 11px;
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
 
+    /* give notice */
+.mobsecmain_notice .bordm_btm {
+    margin: 15px 0;
+}
+.gvnotid_depos_div .trans_txt h3 {
+    font-size: 18px;
+}
+.btmr_gvnotice_transac .trans_heading {
+    margin: 0 0 1em 0;
+}
+.outs_balc .amount_trans p {
+    font-size: 13px;
+}
+.outs_balc .amount_trans h3 {
+    margin: 0 0 7px 0;
+}
+.gvnotid_depos_div .trans_txt p {
+    margin: 10px 0 8px 0;
+}
+.outs_balc .amt_payment {
+    margin: 17px 0 0 0;
+}
+.gvnotid_depos_div .trans_txt p {
+    font-size: 16px;
+}
+.mobsecmain_notice {
+    padding: 1em;
+}
+.btmr_gvnotice_transac {
+    padding: 1.3em 1em;
+}
+.gvnotid_depos_div .trans_details {
+    padding: 10px 10px;
+    width: 68%;
+}
+/* end of give notice  */
 /* transactions */
 .tabmyinfo.transac .blu_colr {
     width: 53%;
@@ -8730,7 +8937,69 @@ margin: 0 0 0 10px;
 }
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
-/* transactions */
+    /* give notice */
+    .mobsecmain_notice .bordm_btm {
+        margin: 15px 0;
+    }
+    .termi_css{
+        flex: 70%;
+        max-width: 70%;
+    }
+    .tercssflx{
+        align-items: center;
+    }
+    .btn.vacatebtn_notice p:first-child {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .dateflx_css{
+        flex: 28%;
+        max-width: 28%;
+    }
+    .gvnoticetxtleft p {
+        font-size: 13px;
+    }
+    .mobsecmain_notice {
+        padding: 0.7em 0.5em;
+    }
+    .btn.btnreqgvnotice {
+        font-size: 13px;
+        line-height: 12px;
+        padding: 6px 14px;
+    }
+    .gvnotid_depos_div .trans_txt h3 {
+        font-size: 18px;
+    }
+    .btmr_gvnotice_transac .trans_heading {
+        margin: 0 0 1em 0;
+    }
+    .outs_balc .amount_trans p {
+        font-size: 13px;
+    }
+    .outs_balc .amount_trans h3 {
+        margin: 0 0 12px 0;
+    }
+    .outs_balc .amt_payment {
+        margin: 17px 0 0 0;
+    }
+    .gvnotid_depos_div .trans_txt p {
+        font-size: 15px;
+        margin: 10px 0 6px 0;
+    }
+    .mobsecmain_notice {
+        padding: 1em;
+    }
+    .btmr_gvnotice_transac {
+        padding: 1.3em 1em;
+    }
+    .gvnotid_depos_div .trans_details {
+        padding: 7px 10px;
+        width: 80%;
+    }
+    /* end of give notice  */
+
+
+    /* transactions */
 .rightside_sepsec.trans_depositdiv {
         padding: 11px 7px 11px 7px;
 }
@@ -9971,6 +10240,15 @@ left: -18px;
 
 @media only screen and (max-width: 390px) {
 
+/* give notice mobile view */
+.gvnotid_depos_div .trans_txt p {
+    font-size: 14px;
+    margin: 10px 0 5px 0;
+}
+.outs_balc .amt_payment .btn.full_amt {
+    margin: 0 0px 11px 0px;
+}
+/* end of give notice mobile view */
 /* transactions */
 .tabmyinfo.transac .blu_colr {
     width: 63%;
@@ -10908,7 +11186,75 @@ left: -22px;
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
-
+   /* give notice */
+   .mobsecmain_notice .bordm_btm {
+    margin: 15px 0;
+}
+.outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
+    font-size: 16px;
+}
+.gvnotid_depos_div .bgcolr_depos {
+    padding: 15px 5px 10px 5px;
+}
+.termi_css{
+    flex: 70%;
+    max-width: 70%;
+}
+.gvnotid_depos_div .trans_txt h3 {
+    font-size: 16px;
+}
+.trans_details p {
+    font-size: 11px;
+    line-height: 16px;
+}
+.tercssflx{
+    align-items: center;
+}
+.btn.vacatebtn_notice p:first-child {
+    font-size: 16px;
+    line-height: 16px;
+}
+.dateflx_css{
+    flex: 28%;
+    max-width: 28%;
+}
+.gvnoticetxtleft p {
+    font-size: 13px;
+}
+.mobsecmain_notice {
+    padding: 0.7em 0.5em;
+}
+.btn.btnreqgvnotice {
+    font-size: 13px;
+    line-height: 12px;
+    padding: 6px 14px;
+}
+.outs_balc .amount_trans p {
+    font-size: 13px;
+}
+.outs_balc .amount_trans h3 {
+    margin: 0 0 12px 0;
+}
+.trans_heading {
+    margin: 0 0 1em 0;
+}
+.outs_balc .amt_payment {
+    margin: 17px 0 0 0;
+}
+.gvnotid_depos_div .trans_txt p {
+    margin: 5px 0 6px 0;
+}
+.mobsecmain_notice {
+    padding: 1em;
+}
+.btmr_gvnotice_transac {
+    padding: 1.3em 1em;
+}
+.gvnotid_depos_div .trans_details {
+    padding: 7px 10px;
+    width: 80%;
+}
+/* end of give notice  */
 /* transactions */
 .tabmyinfo.transac .set_custom {
     padding: 0 6px 0 12px;
@@ -11807,7 +12153,82 @@ width: 37%;
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
-/* transactions */
+   /* give notice */
+   .mobsecmain_notice .bordm_btm {
+    margin: 15px 0;
+}
+.outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
+    font-size: 16px;
+    width: 94%;
+}
+.gvnotid_depos_div .bgcolr_depos {
+    padding: 15px 5px 10px 5px;
+}
+.termi_css{
+    flex: 70%;
+    max-width: 70%;
+}
+.gvnotid_depos_div .trans_txt h3 {
+    font-size: 16px;
+}
+.trans_details p {
+    font-size: 11px;
+    line-height: 16px;
+}
+.tercssflx{
+    align-items: center;
+}
+.btn.vacatebtn_notice p:first-child {
+    font-size: 16px;
+    line-height: 16px;
+}
+.dateflx_css{
+    flex: 28%;
+    max-width: 28%;
+}
+.gvnoticetxtleft p {
+    font-size: 13px;
+}
+.mobsecmain_notice {
+    padding: 0.7em 0.5em;
+}
+.btn.btnreqgvnotice {
+    font-size: 12px;
+    line-height: 12px;
+    padding: 6px 14px;
+}
+.outs_balc .amount_trans p {
+    font-size: 13px;
+}
+.gvnotid_depos_div .flexalgn_div {
+    padding: 0 10px;
+}
+.outs_balc .amount_trans h3 {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+}
+.trans_heading {
+    margin: 0 0 1em 0;
+}
+.outs_balc .amt_payment {
+    margin: 17px 0 0 0;
+}
+.gvnotid_depos_div .trans_txt p {
+    margin: 5px 0 6px 0;
+}
+.mobsecmain_notice {
+    padding: 1em;
+}
+.btmr_gvnotice_transac {
+    padding: 1.3em 1em;
+}
+.gvnotid_depos_div .trans_details {
+    padding: 7px 10px;
+    width: 80%;
+}
+/* end of give notice  */
+
+    /* transactions */
 .tabmyinfo.transac .blu_colr {
     width: 62%;
     padding: 7px 9px 7px 15px;
@@ -12929,6 +13350,107 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+   /* give notice */
+   .mobsecmain_notice .bordm_btm {
+    margin: 15px 0;
+}
+.mobsecmain_notice .bordm_btm {
+    margin: 12px 0;
+}
+.termi_css {
+    flex: 67%;
+    max-width: 67%;
+    padding-right: 0;
+}
+.btn.vacatebtn_notice p:first-child {
+    font-size: 15px;
+}
+.btmr_gvnotice_transac .trans_heading {
+    margin: 0 0 0.8em 0;
+}
+.dateflx_css {
+    flex: 31%;
+    max-width: 31%;
+    padding: 0 10px 0 0;
+}
+.gvnotid_depos_div .trans_details p {
+    line-height: 15px;
+}
+.outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
+    font-size: 16px;
+    width: 94%;
+    height: 40px;
+}
+.gvnotid_depos_div .bgcolr_depos {
+    padding: 15px 5px 10px 5px;
+}
+.termi_css{
+    flex: 70%;
+    max-width: 70%;
+}
+.gvnotid_depos_div .trans_txt h3 {
+    font-size: 16px;
+}
+.trans_details p {
+    font-size: 11px;
+    line-height: 16px;
+}
+.tercssflx{
+    align-items: center;
+}
+.btn.vacatebtn_notice p:first-child {
+    font-size: 16px;
+    line-height: 16px;
+}
+.dateflx_css{
+    flex: 28%;
+    max-width: 28%;
+}
+.gvnoticetxtleft p,.gvnoticedateright p {
+    font-size: 13px;
+}
+.mobsecmain_notice {
+    padding: 0.7em 0.5em;
+}
+.btn.btnreqgvnotice {
+    font-size: 12px;
+    line-height: 12px;
+    padding: 6px 14px;
+}
+.outs_balc .amount_trans p {
+    font-size: 13px;
+}
+.gvnotid_depos_div .flexalgn_div {
+    padding: 0 10px;
+}
+.outs_balc .amount_trans h3 {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+}
+.trans_heading {
+    margin: 0 0 1em 0;
+}
+.outs_balc .amt_payment {
+    margin: 17px 0 0 0;
+}
+.gvnotid_depos_div .trans_txt p {
+    margin: 5px 0 6px 0;
+}
+.mobsecmain_notice {
+    padding: 1em;
+}
+.btmr_gvnotice_transac {
+    padding: 1em;
+}
+.gvnotid_depos_div .trans_details {
+    padding: 7px 10px;
+    width: 80%;
+}
+.outs_balc .amt_payment .btn.full_amt {
+    margin: 0 0px 11px 0px;
+}
+/* end of give notice  */
+
 /* transactions */
 .tabmyinfo.transac .txtmonth {
     font-size: 13px;
@@ -14198,6 +14720,37 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+/* give notice */
+.gvnoticetxtleft p, .gvnoticedateright p {
+    font-size: 12px;
+}
+.outs_balc {
+    padding: 0.6em 1em 1em 1em;
+}
+.gvnotid_depos_div .trans_txt p {
+    font-size: 13px;
+}
+.outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
+    height: 39px;
+}
+.gvnotid_depos_div .trans_details p {
+    font-size: 10px;
+}
+.gvnotid_depos_div .trans_txt h3 {
+    font-size: 15px;
+}
+.btn.vacatebtn_notice p:first-child {
+    font-size: 14px;
+    line-height: 16px;
+}
+.btmr_gvnotice_transac .trans_heading img {
+    vertical-align: text-top;
+}
+.btn.vacatebtn_notice p:nth-child(2) {
+    font-size: 9px;
+    line-height: 14px;
+}
+/* end of give notice */
 
 /* transactions */
 .tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {

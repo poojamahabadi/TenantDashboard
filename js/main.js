@@ -487,24 +487,24 @@ $('.unit_div,.building_div').hide();
 
 // month and year select box (showing offer to lease and showings page)
 
-$("#select-box,#select-box1,#select-boxtrans,#select-boxyear").on("click" , function() {
-$(this).parent(".select-box.month,.select-box1.year").toggleClass("open");
+$("#select-box,#select-box1,#select-boxtrans,#select-boxyear,#select-boxbed,#select-boxbath,#select-boxpark,#select-boxbudg,#select-boxmovein,#select-boxbudgappr,#select-boxbudgocc,#select-annuboxbudg").on("click" , function() {
+$(this).parent(".select-box.month,.select-box1.year,.bedrmbox,.bathrmbox,.parkrmbox,.maxbudgrmbox,.moveinrmbox,.maxbudgrmboxappr,.occuprmbox,.annubudgrmbox").toggleClass("open");
 });
 
 $(document).mouseup(function (e){
-var container = $(".select-box.month,.select-box1.year");
+var container = $(".select-box.month,.select-box1.year,.bedrmbox,.bathrmbox,.parkrmbox,.maxbudgrmbox,.moveinrmbox,.maxbudgrmboxappr,.occuprmbox,.annubudgrmbox");
 if (container.has(e.target).length === 0){
 container.removeClass("open");
 }
 });
-$(".select-box.month select,.select-box1.year select").on("change" , function() {
+$(".select-box.month select,.select-box1.year select,.bedrmbox select,.bathrmbox select,.parkrmbox select,.maxbudgrmbox select,.moveinrmbox select,.maxbudgrmboxappr select,.occuprmbox select,.annubudgrmbox select").on("change" , function() {
 var selection = $(this).find("option:selected").text(),
 labelFor = $(this).attr("id"),
 label = $("[for='" + labelFor + "']");
 label.find(".label-desc").html(selection);
 });
-$(".select-box.month select,.select-box1.year select").on("change" , function() {
-val = $( ".select-box.month select option:selected,.select-box1.year select option:selected" ).val(); 
+$(".select-box.month select,.select-box1.year select,.bedrmbox select,.bathrmbox select,.parkrmbox select,.maxbudgrmbox select,.moveinrmbox select,.maxbudgrmboxappr select,.occuprmbox select,.annubudgrmbox select").on("change" , function() {
+val = $( ".select-box.month select option:selected,.select-box1.year select option:selected,.bedrmbox select option:selected,.bathrmbox select option:selected,.parkrmbox select option:selected,.maxbudgrmbox select option:selected,.moveinrmbox select option:selected,.maxbudgrmboxappr select option:selected,.occuprmbox select option:selected,.annubudgrmbox select option:selected").val(); 
 });
 
 
@@ -544,40 +544,34 @@ $(".inputselect_div .dropdown-menu .dropdown-item").click(function(){
         $(this).parents('.dropdown').find('#dropdownMenuButton').html(img + '<span> ' +selText+'</span>');
 });
 
-
-
-
-
-
-
 // tour schedule
 $(".desktopview_tour .sliderforday_div .slick-slider").slick({
         slidesToShow: 6.3,
         infinite:false,
         slidesToScroll: 1,
         autoplay: false,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
        });
 
-
+       $(".schedtour_popup .slick-slider").slick({
+        slidesToShow: 6.3,
+        infinite:false,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+       });
        $(".mobileview_tour .sliderforday_div .slick-slider").slick({
         slidesToShow: 6.3,
         infinite:false,
         slidesToScroll: 1,
         autoplay: false,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
        });
 
-       // On direct tab click
-$('.fancyTabs .tab').on('click', function(e) {
-        $(this).siblings().removeClass('active');
-        $(this).addClass('active');
-      })
-      // On nexttab click
-      $('#fancyTabWidget .nexttab').on('click', function() {
-          $('#fancyTabWidget .tab.active').removeClass('active').next().tab('show');
-      })
-      // On prev tab click
-      $('#fancyTabWidget .prevtab').on('click', function() {
-          $('#fancyTabWidget .tab.active').removeClass('active').prev().tab('show');
-      })
+// property schedule tabs pop up
+$(document).ready(function () {
+        $('.schedtour_popup ul.nav.nav-tabs li a,.btnsched_tour').on('click', function () {
+                $('.flxboth_propschepop .sliderforday_div .slick-slider').slick("refresh"); 
+        });
+        });
+
