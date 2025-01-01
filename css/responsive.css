@@ -640,6 +640,9 @@ left: -3px;
 .prop_find_details img {
 height: 120px;
 }
+.lochouse_details .house span, .lochouse_details .clock span {
+    font-size: 11px;
+}
 .setup_modalprop .modal-dialog {
 max-width: 81%;
 }

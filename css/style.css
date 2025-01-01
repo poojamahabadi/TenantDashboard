@@ -7873,8 +7873,7 @@ border: 0;
 }
 .sche_tour .switch-field label {
 margin:0;
-font-size: 13px;
-line-height: 1;
+font-size: 14px;
 text-align: center;
 font-family: 'Helvetica Rounded';
 color:#6388A5;
@@ -7896,8 +7895,8 @@ border-radius: 40px;
 object-fit: cover;
 margin-right: 4px;
 }
-.sche_tour .switch-field input + label span.person img{
-height: 20px;
+.sche_tour .switch-field input + label span.person img {
+    height: 21px;
 }
 .sche_tour .switch-field input + label span.video img{
 height: 14px;
@@ -8623,7 +8622,7 @@ display: none;
 }
 .schedtour_popup ul.nav-tabs li a {
     border: unset;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1.5em;
     color: #F2727F;
     padding: 10px;
@@ -8662,7 +8661,26 @@ border-radius: 17px;
     max-width: 70%;
 }
 .timetab_div.modaltime_div{
-    max-width: 30%; 
+    max-width: 30%;
+    position: relative;
+    width: 100%;
+}
+.txt_timeblk{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-transform: capitalize;
+color: #315D80;
+}
+.txt_minublk{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 8px;
+line-height: 9px;
+text-align: center;
+text-transform: capitalize;
+color: #315D80;
 }
 .sched_tourdivbtnnext,.sched_tourdivbtnschedule{
     margin:1em 0;
@@ -8752,7 +8770,7 @@ background: #9BB997;
     font-weight: 700;
 }
 .schedtour_popup .sche_tour .switch-field input + label span.video img {
-    height: 14px;
+    height: 17px;
     vertical-align: text-bottom;
 }
 .schedtour_popup .sche_tour .switch-field{
@@ -8879,3 +8897,174 @@ color: #6388A5;
 }
 
 /* end of give notice */
+
+
+/* schedule tour showing confirm page */
+.showing_sched_tour{
+background: #9BB997;
+border-radius: 20px 20px 0px 0px;
+}
+.midsche_toursec{
+    width: 80%;
+    margin: 140px auto 0 auto;
+}
+.midsectour_sche {
+    background: #EDF2FA;
+    border-radius: 0 0 0 0;
+    padding: 13px 20px;
+}
+.midsche_toursec .reschedule_divp{
+background: #E4ECF3;
+border-radius: 0px 0px 20px 20px;
+padding: 11px 0;
+}
+.midsche_toursec .reschedule_divp p{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 13px;
+line-height: 12px;
+text-align: center;
+text-transform: capitalize;
+color: #839FB7;
+}
+.schetour_img img{
+    height: 125px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 14px;
+}
+.bottomdiv_info.schetour_btm{
+    display: flex;
+}
+.schetour_btm .showing_details{
+flex-basis: 64%;
+}
+.schetour_btm .showing_viewdetails{
+flex-basis: 35%;
+}
+.midsche_toursec .showing_viewdetails .view_detail{
+    font-weight: 700;
+    font-size: 12px;
+    height: 34px;
+    padding: 3px 11px 5px 12px;
+}
+.midsectour_sche .showtime {
+    margin: 7px 0 4px 0;
+}
+.confr_appt h3{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    color: #F2727F;
+    margin: 0 0 1.8em 0;
+}
+.confr_appt p{
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #315D80;
+}
+.midsectour_sche .timeinfo span,.midsectour_sche .dateinfo span{
+font-weight: 400;
+font-size: 12px;
+line-height:20px;
+color: #315D80;
+}
+.confr_appt {
+    margin: 8px 0 0 0;
+}
+.showing_sched_tour h3{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+    padding: 9px 10px 8px 10px;
+}
+.showing_sched_tour h3 img{
+    height: 21px;
+    vertical-align: middle;
+    margin: 0 0px 0 4px;
+}
+.schetour_btm .showing_details p{
+    font-size: 12px;
+}
+.similar_unitsdiv .simisched_tour .leasedslider{
+box-shadow: unset;
+}
+.similar_unitsdiv .simisched_tour .slick-track {
+    margin-left: -111px;
+}
+.similar_unitsdiv .simisched_tour .leasedslider {
+    margin: 11px 0px 0 8px;
+}
+.toursche_slidiv{
+    margin:2.5em 0 0 0;
+}
+.simisched_tour .descrip_details_list.verifitxt_divsec{
+    justify-content: space-between;
+}
+.simisched_tour .unverifi_divtxt.verifiedimgdiv{
+    margin:0;
+}
+.simisched_tour .rat_tot_count p.count_rst span.amtrate{
+    font-size: 14px;
+}
+.simisched_tour .rat_tot_count p.count_rst span {
+    font-size: 12px;
+}
+.toursche_slidiv h3{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #315D80;
+    margin: 0 0 0 7px;
+}
+.btn.btnviewbtnall{
+    padding: 2px 0 0 0;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #315D80;
+    border: unset;
+    margin: 0px 43px 0 7px;
+}
+.propred_clr{
+    color:#F2727F;
+    margin: 0 25px 0 7px;
+}
+.content-wrapper .container-fluid.sm_propty {
+    width: 98%;
+    overflow-x: hidden;
+    margin: 0 0px 30px auto;
+    padding: 0 0 15px 0;
+}
+.timetab_div .time_selection {
+    opacity:1;
+    visibility: visible;
+    background-color: unset;
+}
+.timetab_div .select-styled,.timetab_div .select-styled:hover{
+background: #C9D7E5;
+}
+.timetab_div .time_selection .time_minute_block p.txt_timeblk {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+.timetab_div .time_selection .time_minute_block p.txt_minublk {
+    font-size: 10px;
+}
+.timetab_div .time_selection .time_minute_block {
+    height: auto;
+}

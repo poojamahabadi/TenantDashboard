@@ -573,5 +573,9 @@ $(document).ready(function () {
         $('.schedtour_popup ul.nav.nav-tabs li a,.btnsched_tour').on('click', function () {
                 $('.flxboth_propschepop .sliderforday_div .slick-slider').slick("refresh"); 
         });
+
+        $('.modal.schedtour_popup').on('shown.bs.modal', function (e) {
+                $('.sliderforday_div .slick-slider').slick('refresh');
+              })
         });
 
