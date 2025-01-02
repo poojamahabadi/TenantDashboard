@@ -7875,16 +7875,16 @@ width: 1px;
 border: 0;
 }
 .sche_tour .switch-field label {
-margin:0;
-font-size: 14px;
-text-align: center;
-font-family: 'Helvetica Rounded';
-color:#6388A5;
-padding: 7px 6px 7px 6px;
-transition: all 0.1s ease-in-out;
-width: 115px;
-text-transform: capitalize;
-height: 32px;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Helvetica Rounded';
+    color: #6388A5;
+    padding: 7px 6px 7px 6px;
+    transition: all 0.1s ease-in-out;
+    width: 127px;
+    text-transform: capitalize;
+    height: 32px;
 }
 .sche_tour .switch-field label:hover {
 cursor: pointer;
@@ -7899,11 +7899,12 @@ object-fit: cover;
 margin-right: 4px;
 }
 .sche_tour .switch-field input + label span.person img {
-    height: 21px;
+    height: 18px;
+    vertical-align: sub;
 }
 .sche_tour .switch-field input + label span.video img{
 height: 14px;
-vertical-align:bottom;
+vertical-align: text-top;
 }
 .sche_tour .switch-field input:checked + label span.person img{
 content: url('../images/find_property/person.svg');
@@ -7946,8 +7947,8 @@ border-radius: 25.6499px;
     line-height: 29px;
     text-transform: capitalize;
     color: #315D80;
-    text-align: center;
-    margin:20px 0;
+    text-align: left;
+    margin:0 0 15px 0;
 }
 .seldateboxsche_prop{
     display: flex;
@@ -9190,4 +9191,12 @@ button.closesche_tourprop{
     text-transform: capitalize;
     color: #6388A5;
     margin: 0 0 0 83px;
+}
+.schedtour_popup .sche_tour .switch-field input + label span.person img {
+    height: 21px;
+    vertical-align: middle;
+}
+.schedtour_popup .sche_tour h3 {
+    text-align: center;
+    margin: 20px 0;
 }
