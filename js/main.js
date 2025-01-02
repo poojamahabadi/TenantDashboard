@@ -548,6 +548,7 @@ $(".inputselect_div .dropdown-menu .dropdown-item").click(function(){
 $(".desktopview_tour .sliderforday_div .slick-slider").slick({
         slidesToShow: 6.3,
         infinite:false,
+        arrows: false,
         slidesToScroll: 1,
         autoplay: false,
         autoplaySpeed: 2000,
@@ -558,6 +559,7 @@ $(".desktopview_tour .sliderforday_div .slick-slider").slick({
         infinite:false,
         slidesToScroll: 1,
         autoplay: false,
+        arrows: false,
         autoplaySpeed: 2000,
        });
        $(".mobileview_tour .sliderforday_div .slick-slider").slick({
@@ -565,6 +567,7 @@ $(".desktopview_tour .sliderforday_div .slick-slider").slick({
         infinite:false,
         slidesToScroll: 1,
         autoplay: false,
+        arrows: false,
         autoplaySpeed: 2000,
        });
 
@@ -576,6 +579,20 @@ $(document).ready(function () {
 
         $('.modal.schedtour_popup').on('shown.bs.modal', function (e) {
                 $('.sliderforday_div .slick-slider').slick('refresh');
-              })
+        })
+
+// signin pop up modal slick slider
+$('.modal.signin_popup').on('shown.bs.modal', function (e) {
+        $('.verticalslitenant .slick-slider').slick('refresh');
+})
+
+        $('.schedtour_popup ul.nav.nav-tabs li.steptwo').on('click', function () {
+                $(this).addClass("changeborderline");
         });
+        $('.schedtour_popup ul.nav.nav-tabs li.stepone').on('click', function () {
+                $('.schedtour_popup ul.nav.nav-tabs li.steptwo').removeClass("changeborderline");
+        });
+});
+
+
 
