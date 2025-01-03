@@ -654,7 +654,7 @@ height: 120px;
     font-size: 11px;
 }
 .setup_modalprop .modal-dialog {
-max-width: 81%;
+    max-width: 54%;
 }
 /* end of find property */
 
@@ -4548,6 +4548,12 @@ width: 57%;
 .slider_headingstartsignin{
 background: rgba(237, 242, 250, 0.9);
 border-radius: 17px;
+}
+.verti_addtenants{
+    position: unset;
+}
+.flexdesign_slidersign{
+    display:flex;
 }
 .mobvw_headtitle_signin h4 {
     font-family: 'Helvetica';

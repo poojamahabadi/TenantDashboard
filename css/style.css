@@ -7127,15 +7127,17 @@ border-radius: 17px;
 padding: 10px;
 width:100%;
 }
-.setup_modalprop .modal-dialog{
-max-width: 81%;
+.setup_modalprop .modal-dialog {
+    max-width: 56%;
 }
 .popupcss_pad{
 padding: 0 5px;
 display: flex;
 }
 .setup_modalprop .modal-body{
-padding: 10px 5px;
+padding: 10px 9px;
+background: #EDF2FA;
+border-radius: 0 0 17px 17px;
 }
 
 .moving_datesdiv .movedate_value input.form-control {
@@ -7167,27 +7169,29 @@ top: 10px;
 display: flex;
 width: 100%;
 }
-.flexgrp_css{
-display: flex;
-width: 100%;
-align-items: center;
-margin: 0 0 2.2em 0;
+.flexgrp_css {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 0 2.5em 0;
 }
 .label_datetxt{
 width: 35%;
 }
+.parkdiv{
+    justify-content: flex-start;
+}
 .parkdiv,.furnish_div{
 display: flex;
 width: 100%;
-justify-content: flex-start;
 align-items: center;
+}
+.setup_modalprop.notif_div .furnish_div{
+    justify-content: end;
 }
 .priceprop_p{
 display: flex;
 justify-content: space-between;
-}
-.parking_proptype,.furnis_proptype{
-width: 49%;
 }
 .movedate_value{
 width: 49.6%;
@@ -7196,27 +7200,11 @@ margin: 0 0 0 auto;
 .selc_proptype{
 width: 65%; 
 }
-.parkdiv .label_datetxt,.furnish_div .label_datetxt{
-width: auto;
-margin: 0 9px 0 0px;
-}
-.selc_proptype .dropdown.dropinfo .btn.dropdown-toggle::after,
-.parking_proptype .dropdown.dropinfo .btn.dropdown-toggle::after,
-.furnis_proptype .dropdown.dropinfo .btn.dropdown-toggle::after {
+.selc_proptype .dropdown.dropinfo .btn.dropdown-toggle::after {
 position: absolute;
 right: 21px;
 }
-.parking_proptype .dropdown.dropinfo .btn.dropdown-toggle,
-.furnis_proptype .dropdown.dropinfo .btn.dropdown-toggle{
-text-align: left;
-}
-.parking_proptype .dropdown.dropinfo .btn.dropdown-toggle,
-.furnis_proptype .dropdown.dropinfo .btn.dropdown-toggle{
-width: 87%;
-}
-.selc_proptype .dropdown.dropinfo .btn.dropdown-toggle,
-.parking_proptype .dropdown.dropinfo .btn.dropdown-toggle,
-.furnis_proptype .dropdown.dropinfo .btn.dropdown-toggle {
+.selc_proptype .dropdown.dropinfo .btn.dropdown-toggle {
 background: #245073;
 border-radius: 42px;
 box-shadow: unset;
@@ -7230,19 +7218,36 @@ color: #FFFFFF;
 text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
 }
 .setup_modalprop.notif_div .modal-content{
-width: 80%;
+width: 100%;
 margin: 0 auto;
 }
+.selc_proptype .dropdown.dropinfo .btn.dropdown-toggle,
+.setup_modalprop.notif_div .parking_proptype .dropdown.dropinfo .btn.dropdown-toggle,
+.setup_modalprop.notif_div .furnis_proptype .dropdown.dropinfo .btn.dropdown-toggle {
+    background: #245073;
+    border-radius: 42px;
+    box-shadow: unset;
+    height: 40px;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
 .setup_modalprop .modal-content{
-background: #EDF2FA;
-border-radius: 17px;
 border:unset;
+border-radius: 17px 17px 0 0;
+background-color: rgba(255, 255, 255,0);
 }
 .setup_modalprop .modal-header {
 justify-content: center;
 text-align: center;
 position: relative;
 border:unset;
+background: #EDF2FA;
+border-radius: 17px 17px 0 0;
 }
 .movedate_value.input-group>.form-control:focus {
 z-index: unset;
@@ -7314,10 +7319,10 @@ flex-basis: 20%;
 position: relative;
 display: flex;
 }
-#catgory-sliderbath .swiper-slide,#catgory-sliderbed .swiper-slide {
-margin: 0 auto 0 0 !important;
-width: 55px !important;
-height: 40px;
+#catgory-sliderbath .swiper-slide, #catgory-sliderbed .swiper-slide {
+    margin: 0 auto 0 0 !important;
+    width: 57px !important;
+    height: 40px;
 }
 
 .bed_bath_pets .category-button {
@@ -7353,6 +7358,9 @@ font-weight: 700;
 font-size: 16px;
 font-weight: 600;
 margin-bottom: 0;
+}
+.bed_bath_pets.moving_datesdiv{
+    padding: 32px 10px 10px 10px;
 }
 .bed_bath_pets .slider-button{
 width: auto;
