@@ -9092,11 +9092,8 @@ box-shadow: unset;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
-.timingprop_txt{
-    margin: 6px 0 0 0;
-}
 .timingprop_txt p{
-    text-align: center;
+margin:0;
 font-family: 'Helvetica';
 font-weight: 700;
 font-size: 12px;
@@ -9142,11 +9139,11 @@ color: #6388A5;
 .timetab_div li:hover,.timetab_div li.is-selected {
     color: #315D80;
 }
-.flxtime_design{
+.flxtime_design {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 19px 0 0 0;
+    margin: 53px 0 0 0;
 }
 button.closesche_tourprop:hover,button.closesche_tourprop:active,button.closesche_tourprop:focus{
     background-color: #3E6B8E;  
@@ -9199,4 +9196,128 @@ button.closesche_tourprop{
 .schedtour_popup .sche_tour h3 {
     text-align: center;
     margin: 20px 0;
+}
+/* end of schedule tour page design */
+
+
+
+/* showing confirm block   */
+.shw_divbody img {
+    width: 100%;
+    object-fit: cover;
+    height: 87px;
+    border-radius: 16px;
+}
+.addrdescrp_show p{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 12px;
+line-height:17px;
+text-transform: capitalize;
+color: #315D80;
+margin:0;
+}
+.showingconfr_heading {
+    text-align: center;
+    margin: 2em 0 0.6em 0;
+}
+.showingconfr_heading img{
+    height: 40px;
+    width: 40px;
+    margin:0 auto 15px auto;
+}
+.showingconfr_heading p{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 16px;
+line-height: 14px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+.showingssec.showingconfirm_div{
+background: #9BB997;
+border-radius: 20px;
+padding: 1em 0 0 0;
+position: relative;
+}
+.showingconfr_bodydesign{
+    background: #8FAB8B;
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.colrtwo_showing{
+    background: #C9D7E5;
+    border-radius: 16px;
+    margin: 0;
+    align-items: center;
+}
+.showingssec_infodiv .showingssec .showingconfr_bodydesign .showtime{
+    margin: 0 0 4px 0;
+    padding: 0;
+}
+.firstimgblk_clr{
+    padding: 0 15px 0 0;
+}
+
+/* end of showing confirm block */
+
+
+/* send offer to lease popup */
+.signin_popupreservenow .modal-content{
+    background: rgba(237, 242, 250, 0.9);
+    border-radius: 17px;
+    width: 74%;
+    margin: 0 auto;
+    border: unset;
+}
+.signin_popupreservenow .modal-content .modal-body {
+    padding: 0;
+}
+.signin_popupreservenow .modal-title span {
+    color: #F2727F;
+}
+.signin_popupreservenow .modal-header {
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+}
+.signin_popupreservenow .modal-header h4 {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #315D80;
+}
+.signin_popupreservenow .modal-content .sendoffraccord {
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 12px 12px 5px 12px;
+    width: 90%;
+    margin: 0 auto 20px auto;
+}
+.leftwidless_sche .flexdiv{
+    margin:0 0 0 20px;
+}
+.rightwidless_sche .flexdiv{
+    margin:0 20px 0 0px; 
+}
+.accordion.sendoffraccord.tenantaccord .card{
+    margin:0;
+}
+.sendoffraccord .flexdiv .basicdata p {
+    font-size: 12px;
+}
+.sendoffraccord .flexdiv .basicdata input{
+    color:#315D80;
+    font-size: 12px;
+}
+.mobilestartsign_topsec{
+    display: none;
 }

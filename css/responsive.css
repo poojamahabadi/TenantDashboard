@@ -1,5 +1,10 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
-/* find property */
+/* showing confirmed */
+.shw_divbody img {
+    height: 94px;
+}
+/* end of showing confirmed */
+ /* find property */
 .prop_rowalign {
 margin: 9em 0 3em 0;
 }
@@ -482,6 +487,11 @@ left: -25px;
 }
 
 @media only screen and (max-width: 1400px){
+/* showing confirm block */
+.shw_divbody img {
+    height: 87px;
+}
+/* end of showing confirm block */
 /* price range */
 .pricerange_sliderone .slick-track, .pricerangeslider_two .slick-track {
 margin-left: 181px;
@@ -857,6 +867,11 @@ padding: 0 8px;
 }
 
 @media only screen and (max-width: 1280px){
+/* showing confirmed block */
+.shw_divbody img {
+    height: 84px;
+}
+/* end of showing confirmed block */
 /* give notice */
 .givenoticepopup .flxcenter_div {
     margin: 0 0 2em 0;
@@ -1209,6 +1224,15 @@ margin-left: 212px;
 
 
 @media only screen and (max-width: 1200px){
+/* showing confirmed block */
+.firstimgblk_clr {
+    padding: 0 9px 0 0px;
+}
+.shw_divbody img {
+    height: 80px;
+}
+/* end of showing confirmed block */
+
 /* transactions */
 .tabmyinfo.transac .txtmonth {
     font-size: 14px;
@@ -1547,6 +1571,18 @@ font-size: 15px;
 }
 
 @media only screen and (max-width:1136px){
+/* confirmed showing block */
+.shw_divbody img {
+    height: 85px;
+}
+.firstimgblk_clr {
+    padding: 0 12px 0 0px;
+}
+.showingssec_infodiv.scheduleslider .showingssec .showingconfr_bodydesign .showtime {
+    padding: 0;
+}
+/* end of confirmed showing block */
+
     /*give notice  */
     .givenoticepopup .modal-dialog .modal-content {
         width: 100%;
@@ -2427,6 +2463,12 @@ right: -15px;
 
 
 @media only screen and (max-width:1024px){
+/* showing confirmed block */
+.addrdescrp_show p {
+    font-size: 11px;
+    line-height: 14px;
+}
+/* end of showing confirmed block */
 /* give notice */
 .modal.givenoticepopup .modal-dialog {
     max-width: 86.4%;
@@ -2456,6 +2498,9 @@ height: 159px;
 /* active lease */
 .myleaseteam_flex .prof_name {
 margin: 1px 0;
+}
+.clcross_icon.mapcross {
+    right: 15px;
 }
 .content-wrapper .container-fluid {
 width: 99%;
@@ -2802,6 +2847,16 @@ margin: 10px 0 0 0;
 }
 
 @media only screen and (max-width:992px){
+/* showing confirmed block */
+.shw_divbody img {
+    height: 80px;
+}
+/* end of showing confirmed block */
+/* showings */
+.clcross_icon.mapcross {
+    right: 10px;
+}
+/* end of showings */
 /* transactions */
 .tabmyinfo.transac .txtmonth {
     font-size: 12px;
@@ -3311,6 +3366,18 @@ padding: 4px 22px 4px 12px;
 }
 }
 @media only screen and (max-width:800px){
+/* showing confirm block */
+.shw_divbody img {
+    height: 105px;
+}
+.showingssec_infodiv .showingssec.showingconfirm_div .timelabel span,
+.showingssec_infodiv .showingssec.showingconfirm_div .datelabel span{
+    align-items: baseline;
+}
+.addrdescrp_show p {
+    font-size: 13px;
+}
+/* end of showing confirm block */
 /* give notice */
 .modal.givenoticepopup .modal-dialog {
     max-width: 96.4%;
@@ -3818,13 +3885,16 @@ margin-left: 13px;
 .invite_sliderslick {
 width: 63%;
 }
-.mobviewbgcolrpending,.movviewbgcolrscheduleoffr{
-background: #EDF2FA;
-padding: 27px 10px;
-border-radius: 17px;
+.mobviewbgcolrpending, .movviewbgcolrscheduleoffr {
+    background: #EDF2FA;
+    padding: 27px 10px 5px 10px;
+    border-radius: 17px;
 }
 .mobviewbgcolrpending{
 margin: 0 0 1em 0;
+}
+.pendingslider {
+    margin: 0;
 }
 .backg_colr_showings {
 border-radius: 0;
@@ -4473,6 +4543,84 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
+
+/* start signin popup */
+.slider_headingstartsignin{
+background: rgba(237, 242, 250, 0.9);
+border-radius: 17px;
+}
+.mobvw_headtitle_signin h4 {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #315D80;
+}
+.mobvw_headtitle_signin span{
+    color: #F2727F;
+}
+.mobilestartsign_topsec{
+    display:block;
+}
+.signin_popup .modal-header.mobileview_startsignhide{
+    display: none;
+}
+.signin_popup .modal-dialog{
+max-width: 95%;
+}
+.signin_popup .modal-content{
+    background: unset;
+}
+.modal-backdrop.show{
+background: linear-gradient(360deg, #2E4264 -13.46%, rgba(216, 231, 255, 0) 138.14%);
+}
+.mobileview_startsignhide{
+    display: none;
+}
+.modal.signin_popup{
+    position: absolute;
+}
+.signin_popup .modal-header{
+    border:unset;
+}
+.signin_popup .modal-content,.signin_popup .modal-content .startsignaccord {
+    width: 100%;
+}
+/* end of start signin popup */
+/* showing confirmed block */
+.shw_divbody img {
+    height: 100px;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span,
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span,
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span,
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
+    align-items: center;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img,
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img,
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
+    height: 14px;
+}
+.movviewbgcolrscheduleoffr .clickonfilterbtn {
+    right: -10px;
+}
+.confirmshow_divgreen .confrm_div p,.confirmshow_divyellow .confrm_div p{
+    font-size: 15px;
+}
+.showingconfr_bodydesign {
+position: unset;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div{
+    background: #9BB997;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+    padding: 0px;
+    margin:0 0 4px 0;
+}
+/* showing confirmed pop up */
 
 /* give notice mobile view */
 .vacbtn_div{
@@ -5411,6 +5559,12 @@ right: 13px;
 }
 }
 @media only screen and (max-width: 640px){
+/* showing confirmed block */
+.shw_divbody img {
+    height: 94px;
+}
+/* end of showing confirmed block */
+
 /* transactions */
 .transac_balpage .transac .myinfo_txt img {
     vertical-align: sub;
@@ -6283,6 +6437,33 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
+
+/* showing confirmed block */
+.addrdescrp_show p {
+    font-size: 13px;
+    line-height: 17px;
+    margin: 7px 0 0 0;
+}
+.showingconfr_heading {
+    margin: 0.7em 0 2em 0;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+    margin: 0 7px 6px 7px;
+}
+.addrdescrp_show p{
+    margin:4px 7px 0 7px;
+}
+.firstimgblk_clr {
+    padding: 0 5px 0 0px;
+}
+.shw_divbody img {
+    height: 103px;
+}
+.showingconfr_bodydesign .timelabel span,.showingconfr_bodydesign .datelabel span{
+    font-weight: 700;
+}
+/* end of showing confirmed pop up */
+
 /* transactions */
 .tabmyinfo.transac .blu_colr {
     width: 74%;
@@ -7014,6 +7195,9 @@ font-size: 13px;
 .confrm_div p {
 font-size: 15px;
 }
+.confirmshow_divgreen .confrm_div p, .confirmshow_divyellow .confrm_div p {
+    font-size: 15px;
+}
 .confrm_div span:nth-child(2) {
 font-size: 15px;
 }
@@ -7654,7 +7838,11 @@ top: 11px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
-
+/* showing confirmed */
+.shw_divbody img {
+    height: 100px;
+}
+/* end of showing confirmed */
     /* give notice */
 .mobsecmain_notice .bordm_btm {
     margin: 15px 0;
@@ -8455,6 +8643,22 @@ width: 56%;
 
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
+/* showing confirmed */
+.shw_divbody img {
+    height: 87px;
+}
+.addrdescrp_show p {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0px 7px 0 
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+    margin: 0 7px 4px 7px;
+}
+.showingconfr_bodydesign .timelabel span,.showingconfr_bodydesign .datelabel span {
+    font-size: 12px;
+}
+/* end of showing confirmed */
 /* find property */
 .txt_details_prop {
 padding: 14px 7px 11px 7px;
@@ -8652,6 +8856,9 @@ font-size: 12px;
 }
 .confrm_div span:nth-child(2) {
 font-size: 13px;
+}
+.confirmshow_divgreen .confrm_div p, .confirmshow_divyellow .confrm_div p {
+    font-size: 14px;
 }
 .confrm_div p {
 font-size: 14px;
@@ -8940,6 +9147,22 @@ margin: 0 0 0 10px;
 }
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
+   /* showing confirmed */
+.shw_divbody img {
+    height: 87px;
+}
+.showingconfr_heading p {
+    margin: 0;
+}
+.showingconfr_bodydesign .timelabel span,.showingconfr_bodydesign .datelabel span {
+    font-size: 12px;
+}
+.addrdescrp_show p {
+    font-size: 12px;
+    line-height: 15px;
+}
+/* end of showing confirmed */
+   
     /* give notice */
     .mobsecmain_notice .bordm_btm {
         margin: 15px 0;
@@ -9872,6 +10095,9 @@ font-size: 12px;
 .confrm_div p {
 font-size: 13px;
 }
+.confirmshow_divgreen .confrm_div p, .confirmshow_divyellow .confrm_div p {
+    font-size: 13px;
+}
 .showimgpend img {
 height: 86px;
 }
@@ -10242,7 +10468,20 @@ left: -18px;
 }
 
 @media only screen and (max-width: 390px) {
-
+   /* showing confirmed */
+.scheshow_flex .clcross_icon {
+    right: 4px;
+}
+.confirmshow_divgreen .confrm_div p, .confirmshow_divyellow .confrm_div p {
+    font-size: 12px;
+}
+.shw_divbody img {
+    height: 87px;
+}
+.showingconfr_heading {
+    margin: 0.3em 0 1.7em 0;
+}
+/* end of showing confirmed */
 /* give notice mobile view */
 .gvnotid_depos_div .trans_txt p {
     font-size: 14px;
@@ -11189,7 +11428,22 @@ left: -22px;
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
-   /* give notice */
+    /* showing confirmed */
+    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+        margin: 0 7px 5px 3px;
+    }
+    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
+        height: 13px;
+    }
+    .addrdescrp_show p {
+        margin: 0px 0px 0 3px;
+        font-size: 11px;
+    }
+    .firstimgblk_clr {
+        padding: 0 9px 0 0px;
+    }
+    /* showing confirmed end */
+    /* give notice */
    .mobsecmain_notice .bordm_btm {
     margin: 15px 0;
 }
@@ -12156,7 +12410,34 @@ width: 37%;
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
-   /* give notice */
+      /* showing confirmed */
+      .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+        margin: 0 7px 5px 3px;
+    }
+    .showingconfr_heading img {
+        height: 34px;
+        width: 34px;
+        margin: 0 auto 10px auto;
+    }
+    .showingconfr_heading p {
+        font-size: 14px;
+    }
+    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
+        height: 13px;
+    }
+    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
+       font-size: 12px;
+    }
+    .addrdescrp_show p {
+        margin: 0px 0px 0 3px;
+        font-size: 11px;
+    }
+    .firstimgblk_clr {
+        padding: 0 9px 0 0px;
+    }
+    /* showing confirmed end */
+  
+    /* give notice */
    .mobsecmain_notice .bordm_btm {
     margin: 15px 0;
 }
@@ -13126,8 +13407,8 @@ left: 8px;
 font-size: 12px;
 }
 .mobileviewblock_scheduleslider .showingssec .showing_details p, .showingssec_infodiv .showingssec .showing_details p {
-font-size: 12px;
-line-height: 15px;
+    font-size: 11px;
+    line-height: 14px;
 }
 .mobileviewblock_scheduleslider .showingssec .order_links span a {
 font-size: 12px;
@@ -13145,7 +13426,7 @@ font-size: 10px;
 font-size: 11px;
 }
 .showing_viewdetails .btn.view_detail {
-font-size: 13px;
+    font-size: 12px;
 }
 .showing_imgdiv span {
 font-size: 16px;
@@ -13353,7 +13634,48 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
-   /* give notice */
+   /* showing confirmed */
+      .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+        margin: 0 7px 5px 3px;
+    }
+    .shw_divbody img {
+        height: 80px;
+    }
+    .showingconfr_heading {
+        margin: 0.3em 0 1.4em 0;
+    }
+    .showingconfr_heading img {
+        height: 34px;
+        width: 34px;
+        margin: 0 auto 10px auto;
+    }
+    .showingconfr_heading p {
+        font-size: 14px;
+    }
+    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
+        height: 13px;
+    }
+    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
+       font-size: 12px;
+    }
+    .addrdescrp_show p {
+        margin: 0px 0px 0 3px;
+        font-size: 11px;
+    }
+    .firstimgblk_clr {
+        padding: 0 9px 0 0px;
+    }
+    /* showing confirmed end */
+
+
+
+
+
+
+
+
+
+    /* give notice */
    .mobsecmain_notice .bordm_btm {
     margin: 15px 0;
 }
@@ -14723,6 +15045,24 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+/* confirmed showing */
+    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
+        font-size: 11px;
+    }
+    .showingconfr_bodydesign .showtime {
+        margin: 0 0 4px 2px;
+    }
+    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+        margin: 0 2px 5px 0px;
+    }
+    .addrdescrp_show p {
+        margin: 0px 0px 0 2px;
+    }
+    .addrdescrp_show p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+/* confirmed showing end */
 /* give notice */
 .gvnoticetxtleft p, .gvnoticedateright p {
     font-size: 12px;
