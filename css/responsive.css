@@ -4544,57 +4544,7 @@ width: 57%;
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
 
-/* start signin popup */
-.slider_headingstartsignin{
-background: rgba(237, 242, 250, 0.9);
-border-radius: 17px;
-}
-.verti_addtenants{
-    position: unset;
-}
-.flexdesign_slidersign{
-    display:flex;
-}
-.mobvw_headtitle_signin h4 {
-    font-family: 'Helvetica';
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #315D80;
-}
-.mobvw_headtitle_signin span{
-    color: #F2727F;
-}
-.mobilestartsign_topsec{
-    display:block;
-}
-.signin_popup .modal-header.mobileview_startsignhide{
-    display: none;
-}
-.signin_popup .modal-dialog{
-max-width: 95%;
-}
-.signin_popup .modal-content{
-    background: unset;
-}
-.modal-backdrop.show{
-background: linear-gradient(360deg, #2E4264 -13.46%, rgba(216, 231, 255, 0) 138.14%);
-}
-.mobileview_startsignhide{
-    display: none;
-}
-.modal.signin_popup{
-    position: absolute;
-}
-.signin_popup .modal-header{
-    border:unset;
-}
-.signin_popup .modal-content,.signin_popup .modal-content .startsignaccord {
-    width: 100%;
-}
-/* end of start signin popup */
+
 /* showing confirmed block */
 .shw_divbody img {
     height: 100px;

@@ -9329,3 +9329,64 @@ position: relative;
 .mobilestartsign_topsec{
     display: none;
 }
+.replacedocu .modal-content{
+    background: rgba(201, 215, 229, 0.9);
+    border-radius: 17px;
+    border:unset;
+}
+
+/* pdf design */
+.modal_docpopup .modal-content{
+    background: rgba(201, 215, 229, 0.9);
+    border-radius: 17px;
+    border:unset;
+    }
+.modal_docpopup .modal-content .modal-header h5{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+color: #315D80;
+}
+.modal_docpopup .upload_file {
+    margin: 0 ;
+}
+.modal_docpopup .modal-content .modal-header{
+    border-bottom: unset;
+    align-items: center;
+    padding: 14px 20px 0px 20px;
+}
+.uploadbuttons.replace_css button{
+background: #6B5E7A;
+border-radius: 42px;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+color: #FFFFFF;
+padding: 10px;
+border:unset;
+width: 188px;
+}
+.uploadbuttons.replace_css {
+    top: 13px;
+    right: 70px;
+}
+.uploadbuttons.replace_css button img {
+    height: 14px;
+    margin-right: 9px;
+    vertical-align: bottom;
+}
+.modal_docpopup .modal-header .close{
+    padding: 9px 10px 12px 10px;
+    margin: -5px 0 0 0;
+    background: rgba(55, 105, 144, 0.2);
+    border-radius: 42px;
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 400;
+}

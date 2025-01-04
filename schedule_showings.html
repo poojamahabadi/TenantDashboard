@@ -143,9 +143,9 @@
 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 <div class="showings_sche_div">
    
-   <a  href="#popup1">
-    <img src="images/showings/slider/showimg.svg" class="bannerimg">
-    </a>
+<a  href="#popup1">
+<img src="images/showings/slider/showimg.svg" class="bannerimg">
+</a>
   
 
 <!-- pop up -->
@@ -5537,7 +5537,7 @@ Parking & locker
                         <p>Please select one of the following options:</p>
             </div>
             <div class="twobtn_showings">
-                <button class="btn sendlease">Reserve now - send offer to lease</button>
+                <button class="btn sendlease" data-toggle="modal" data-target="#reservenow_offer">Reserve now - send offer to lease</button>
                 <button class="btn not_inters">not interested <img src="images/showings/showing_lease_offer/not_inters.svg"></button>
             </div>
         </div>
@@ -9087,18 +9087,281 @@ Map
 
 </div>
 <!-- end of tabs -->
-
 </div>
 <!-- end of col-6 -->
-
 </div>
-
-
 </div>
-
 </div>
 </div>
 </main>
+
+
+
+<!-- reserve now offer to lease pop up -->
+<div class="modal fade signin_popupreservenow" id="reservenow_offer"  aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title"><span>send</span>  offer to lease</h4>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+              <div class="accordion sendoffraccord tenantaccord" id="reserveaccord">
+                <div class="card">
+                <div class="card-header">
+                <h2 class="mb-0 editinfoic">
+                <div class="linediv cancel"></div>  
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#basicinfosche" aria-expanded="true" aria-controls="basicinfosche">
+                    basic information
+                </button>
+                <a href="" class="accord_edit"><img src="images/myinfo/editicon.svg"></a>  
+                </h2>
+                
+                </div>
+                
+                <div id="basicinfosche" class="collapse show" aria-labelledby="leaseinfo" data-parent="#reserveaccord">
+                <div class="card-body">
+                <div class="container-fluid">
+                <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 border_atend leftwidless_sche">
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>First Name (Legal)*</label>
+                </div>
+                <div class="basicdata">
+                <p>Michael</p>  
+                <div>
+                  <input type="text" class="form-control edit-input" value="Michael">
+                  </div>
+                </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>phone no *</label>
+                </div>
+                <div class="basicdata">
+                <p>+1 (416) 123-4567</p> 
+                <div>
+                  <input type="date" class="form-control edit-input" value="+1 (416) 123-4567">
+                  </div>
+                </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>gender</label>
+                </div>
+                <div class="basicdata">
+                  <p>Male</p> 
+                  <div>
+                    <input type="text" class="form-control edit-input" value="Male">
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>government iD</label>
+                </div>
+                <div class="basicdata">
+                <p>K4321 1234 5678  </p> 
+                <div>
+                  <input type="text" class="form-control edit-input" value="K4321 1234 5678 ">
+                  </div>
+                </div>
+                </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 rightwidless_sche">
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>last name *</label>
+                </div>
+                <div class="basicdata">
+                <p>coleman</p>  
+                <div>
+                  <input type="text" class="form-control edit-input" value="coleman">
+                  </div>
+                </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>email * </label>
+                </div>
+                <div class="basicdata">
+                <p>micle@gmail.com</p> 
+                <div>
+                  <input type="date" class="form-control edit-input" value="micle@gmail.com">
+                  </div>
+                </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>credit score *</label>
+                </div>
+                <div class="basicdata">
+                  <p>700 - 725</p> 
+                  <div>
+                    <input type="text" class="form-control edit-input" value="700 - 725">
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="card">
+                <div class="card-header">
+                <h2 class="mb-0 editinfoic">
+                <div class="linediv cancel emp"></div>
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#employmentsche" aria-expanded="false" aria-controls="employmentsche">
+                    employment
+                </button>
+                <a href="" class="accord_edit"><img src="images/myinfo/editicon.svg"></a> 
+                
+                </h2>
+                </div>
+                <div id="employmentsche" class="collapse show" aria-labelledby="employment" data-parent="#reserveaccord">
+                <div class="card-body">
+                <div class="container-fluid">
+                <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 border_atend leftwidless_sche">
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>occupation *</label>
+                </div>
+                <div class="basicdata">
+                  <p>finance</p>
+                  <div>
+                    <input type="text" class="form-control edit-input" value="finance">
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>position</label>
+                </div>
+                <div class="basicdata">
+                  <p>teller</p>
+                  <div>
+                    <input type="text" class="form-control edit-input" value="teller">
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>annual income *</label>
+                </div>
+                <div class="basicdata">
+                <p>$10,000 - $12,500</p>
+                <div>
+                  <input type="text" class="form-control edit-input" value="$10,000 - $12,500">
+                  </div>
+                </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>manager’s pH no</label>
+                </div>
+                <div class="basicdata">
+                <p>+1 (416) 123-4567</p> 
+                <div>
+                  <input type="text" class="form-control edit-input" value="+1 (416) 123-4567">
+                  </div>
+                </div>
+                </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 rightwidless_sche">
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>employer  </label>
+                </div>
+                <div class="basicdata">
+                <p> TD bank</p>  
+                <div>
+                  <input type="text" class="form-control edit-input" value="TD bank">
+                  </div>
+                </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>start date</label>
+                </div>
+                <div class="basicdata">
+                <p>15/05/2024</p>
+                <div>
+                  <input type="text" class="form-control edit-input" value="15/05/2024">
+                  </div> 
+                </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>manager’s name</label>
+                </div>
+                <div class="basicdata">
+                  <p>henry smith</p> 
+                  <div>
+                    <input type="text" class="form-control edit-input" value="henry smith">
+                    </div> 
+                  </div>
+                </div>
+                
+                <div class="flexdiv">
+                <div class="basicdatatxt">
+                <label>manager’s email</label>
+                </div>
+                <div class="basicdata">
+                <p>henry@gmail.com</p> 
+                <div>
+                  <input type="text" class="form-control edit-input" value="henry@gmail.com">
+                  </div> 
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+          </div>
+  
+  <div class="row">
+    <div class="col-xl-12">
+      <div class="beforesignin">
+        <p>By clicking Save, an Offer to Lease will be placed on this unit.</p>
+          <p> You will then be prompted to sign the Offer to Lease Agreement, which can be completed directly within the RYPM App or by logging into your account on our website.</p>
+      </div>
+  
+      <div class="twbtns_div">
+        <button class="btn declbtn">Decline <img src="images/showings/showing_lease_offer/decl_thumb.svg"></button>
+        <button class="btn confrbtntw">Confirm <img src="images/showings/showing_lease_offer/conf_thumb.svg"></button>
+      </div>
+  </div>
+  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- end of reserve now offer to lease pop up -->
 
 
 <!-- mobileview menu -->
