@@ -596,3 +596,17 @@ $('.modal.signin_popup').on('shown.bs.modal', function (e) {
 
 
 
+// give notice request date
+        $(".reqdate_btnclick.deskbtnclk").hide();
+        $(".btnreqstbtn.desktreqbtn").click(function(){
+        $(".reqdate_btnclick.deskbtnclk").toggle();
+        if($('#req_btndate:visible').length> 0)
+        {
+        $(".btnreqstbtn.desktreqbtn").addClass("changeborderbtn");
+        $(".reqdate_btnclick.deskbtnclk").addClass("margcss");
+        }
+        else{
+        $(".btnreqstbtn.desktreqbtn").removeClass("changeborderbtn");
+        $(".reqdate_btnclick.deskbtnclk").removeClass("margcss");
+        }
+        });
