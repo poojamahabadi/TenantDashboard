@@ -6,7 +6,7 @@
 /* end of showing confirmed */
  /* find property */
 .prop_rowalign {
-margin: 9em 0 3em 0;
+margin: 0em 0 3em 0;
 }
 .setup_modalprop .modal-dialog {
 max-width: 56%;
@@ -738,6 +738,10 @@ font-size: 14px;
 }
 /* end of offer to lease */
 /* schedule showings */
+.showing_comple_details .showingssec .showimgpend,
+.detshow_div .showing_detailsdiv + .showingssec .showimgpend{
+    padding: 9px 0px 4px 5px;  
+} 
 .slideronmap {
 margin: -86px 0 0 0;
 }
@@ -1866,6 +1870,19 @@ margin: -1px 0 0 20px;
 /* end of showings offer to lease */
 
 /* schedule showings */
+.showing_comple_details .showimgpend img {
+    height: 86px;
+}
+.twobtn_showings .btn.sendlease {
+    padding: 4px 8px;
+    margin: 0 5px 0 0px;
+}
+.signin_popupreservenow .modal-content .sendoffraccord {
+    width: 95%;
+}
+.signin_popupreservenow .modal-content {
+    width: 100%;
+}
 .map_streetdetails {
 margin: 28px 0 0 0;
 }
@@ -2330,6 +2347,12 @@ font-size: 15px;
 }
 /* end of offer to lease */
 /* schedule showings */
+.twobtn_showings .btn.sendlease {
+    padding: 4px 5px;
+    margin: 0 5px 0 0px;
+    font-size: 11px;
+}
+
 .invite_sliderslick .bgtenant_div img {
 height: 66px;
 width: 66px;
@@ -2714,6 +2737,10 @@ margin: 9px 0 0 -34px;
 }
 /* end of showings offer to lease */
 /* schedule showings */
+.showingcompl_detailsdiv h3 {
+    font-size: 14px;
+    line-height: 16px;
+}
 .divreserve_btn button.reservenowbtn {
 font-size: 14px;
 }
@@ -3085,6 +3112,9 @@ top: 183px;
 /* end of offer to lease */
 
 /* schedule showings */
+.showing_complete .mob_pad{
+    padding: 0 10px;
+}
 .step_sharebg {
 margin: 7em auto 3em auto;
 }
@@ -3967,6 +3997,30 @@ margin-left: 13px;
 }
 /* showings offer to lease end */
 /* schedule showings */
+.showing_complete .mob_pad {
+    padding: 0 15px;
+}
+.showing_comple_details .showimgpend img {
+    height: 100px;
+}
+.signin_popupreservenow .modal-content .sendoffraccord {
+    width: 100%;
+}
+.signin_popupreservenow .modal-content .basicdatatxt {
+    flex-basis: 42%;
+}
+.twobtn_showings .btn.sendlease {
+    padding: 5px 28px;
+    margin: 0 49px 0 0px;
+    font-size: 12px;
+}
+.signin_popupreservenow .modal-dialog{
+    max-width: 84%;
+    margin:0 auto;
+}
+.twobtn_showings{
+    text-align: center;
+}
 .invite_sliderslick {
 width: 63%;
 }
@@ -4641,7 +4695,9 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
-
+    .signin_popupreservenow .rightwidless_sche .flexdiv {
+        margin: 0 0px 0 20px;
+    }
 
 /* showing confirmed block */
 .shw_divbody img {
@@ -5658,12 +5714,21 @@ right: 13px;
 }
 }
 @media only screen and (max-width: 640px){
-
+    .twobtn_showings .btn.sendlease {
+        padding: 5px 22px;
+        margin: 0 5px 0 0;
+    }
+    .btn.declbtn, .btn.confrbtntw {
+        margin: 0 0 7px 0;
+    }
 /* give notice */
 .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
     width: 95%;
     left: 11px;
     top: 10px;
+}
+.twbtns_div {
+    margin: 1em 0 10px 0;
 }
 /* end of give notice */
 /* showing confirmed block */

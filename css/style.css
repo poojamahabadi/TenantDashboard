@@ -8040,7 +8040,7 @@ border-radius: 25.6499px;
     opacity : 0; 
     pointer-events:none;
   }
-  .date_dayslide{
+  .sliderforday_div .slick-slide .date_dayslide{
     background: #C9D7E5;
     border-radius: 10px;
     text-align: center;
@@ -8062,7 +8062,7 @@ font-size: 14px;
 line-height: 16px;
 margin: 0;
 }
-.date_dayslide.active{
+.sliderforday_div .slick-slide.slick-current.slick-active .date_dayslide{
     background-color: #F2727F;
 }
 .date_dayslide.active p{
@@ -9518,4 +9518,10 @@ width: 188px;
     font-size: 19px;
     color: #ffffff;
     font-weight: 400;
+}
+.basicdata > div{
+    display: none;
+}
+.beforesignin p:first-child{
+    margin:0 auto 7px auto;
 }

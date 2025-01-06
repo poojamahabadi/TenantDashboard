@@ -547,18 +547,18 @@ $(".inputselect_div .dropdown-menu .dropdown-item").click(function(){
 // tour schedule
 $(".desktopview_tour .sliderforday_div .slick-slider").slick({
         slidesToShow: 6.3,
-        infinite:false,
+        infinite:true,
         arrows: false,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
        });
 
-       $(".schedtour_popup .slick-slider").slick({
+       $(".schedtour_popup .sliderforday_div .slick-slider").slick({
         slidesToShow: 6.3,
-        infinite:false,
+        infinite:true,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         arrows: false,
         autoplaySpeed: 2000,
        });
