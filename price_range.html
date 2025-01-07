@@ -1240,15 +1240,21 @@
 	  values: [ 1200, 1500 ],
 	  slide: function( event, ui ) {
 		var minval=$( "#amountone" ).val( "$" + ui.values[ 0 ]);
-    $(this).find('span').first().attr('class','newClassName');
-    $('.range-bar span.newClassName').html(minval);
+    $(this).find('span').first().attr('class','firstspanmaxprice');
+    $('.range-bar span.firstspanmaxprice').html(minval);
 		var maxval=$( "#amounttwo").val( "$" + ui.values[ 1 ]);
-    $('.range-bar span.newClassName + span ').html(maxval);
+    $('.range-bar span.firstspanmaxprice + span ').html(maxval);
 	  }
 	});
 });
 
+$(document).ready(function(){
+  var minvaladd = $(".range-bar span:nth-child(2)");
+  minvaladd.append('<input type="text" class="ipone" id="amountone" readonly="" value="1200">');
 
+  var maxvalueadd = $(".range-bar span:nth-child(3)");
+  maxvalueadd.append('<input type="text" class="ipone" id="amounttwo" readonly="" value="1500">');
+});
 
 
 

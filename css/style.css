@@ -9590,13 +9590,14 @@ width: 188px;
     background: #315D80;
     height: 4px;
 }
-.newClassName.ui-state-hover:hover,.newClassName.ui-state-hover:active,.newClassName.ui-state-hover:focus{
+.firstspanmaxprice.ui-state-hover:hover,.firstspanmaxprice.ui-state-hover:active,
+.firstspanmaxprice.ui-state-hover:focus,.firstspanmaxprice:active,.firstspanmaxprice:focus,.firstspanmaxprice:hover{
     border:unset;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), inset 2px 2px 10px 1px #468DC4;
     border: 3px solid #dddddd;
     background: #315D80;
 }
-.price-range-slider .range-bar .ui-slider-handle,.newClassName {
+.price-range-slider .range-bar .ui-slider-handle,.firstspanmaxprice {
     height: 17px;
     width: 17px;
     top: -0.52em;
