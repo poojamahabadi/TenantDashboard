@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="css/swiper-bundle.min.css">
 <!-- timepicker styles -->
 <link rel="stylesheet" href="css/jquery-clockpicker.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -167,11 +168,12 @@
     <div class="pricelabel_range">
         <p>price</p>
     </div>
-    <div class="pricerange_div">
-      <div class="range-slider">
-        <input id="rs-range-line" class="rs-range one" type="range" value="1000" min="1000" max="2000">
-        <output id="rs-bullet" class="bubble">0</output>
-      </div>
+    <div class="price-range-slider">
+      <div id="slider-range" class="range-bar"></div>
+      <p class="range-value">
+        <input type="text" class="ipone" id="amountone" readonly>
+        <input type="text" class=" optwo" id="amounttwo" readonly>
+      </p>
       <div class="box-minmax">
         <span class="rate_min">$1000</span><span class="rate_max">$2000</span>
       </div>
@@ -686,26 +688,7 @@
 <!-- end of first slider -->
 
 
-<!-- price range  -->
-<div class="row">
-  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-    <div class="flexprice_range">
-    <div class="pricelabel_range">
-        <p>price</p>
-    </div>
-    <div class="pricerange_div">
-      <div class="range-slider">
-        <input id="rs-range-linetwo" class="rs-range two" type="range" value="1000" min="1000" max="2000">
-        <output id="rs-bullettwo" class="bubble">0</ouput>
-      </div>
-      <div class="box-minmax">
-        <span class="rate_min">$1000</span><span class="rate_max">$2000</span>
-      </div>
-    </div>
-  </div>
-  </div>
-</div>
-<!-- price range end  -->
+
 
 
 
@@ -1237,43 +1220,42 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
 <script src="js/jquery-clockpicker.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
 <!--  slick js -->
 <script src="js/slick.min.js"></script>
 <!-- new timepicker js -->
 <!-- <script src="js/time-picker.js"></script> -->
 <script src="js/main.js"></script>
 
+
 <script>
-  var rangeSlider = document.getElementById("rs-range-line");
-var rangeBullet = document.getElementById("rs-bullet");
-rangeSlider.addEventListener("input", showSliderValue, false);
-function showSliderValue() {
-  rangeBullet.innerHTML = rangeSlider.value;
-  const val = rangeSlider.value;
-  const min = rangeSlider.min ? rangeSlider.min : 1000;
-  const max = rangeSlider.max ? rangeSlider.max : 2000;
-  const newVal = Number(((val - min) * 100) / (max - min));
-  rangeBullet.innerHTML = val;
 
-  // Sorta magic numbers based on size of the native UI thumb
-  rangeBullet.style.left = `calc(${newVal}% + (${8 - newVal * 0.1}px))`;
-}
 
-var rangeSlidertwo = document.getElementById("rs-range-linetwo");
-var rangeBullettwo = document.getElementById("rs-bullettwo");
-rangeSlidertwo.addEventListener("input", showSliderValuetwo, false);
-function showSliderValuetwo() {
-  rangeBullettwo.innerHTML = rangeSlidertwo.value;
-  const val = rangeSlidertwo.value;
-  const min = rangeSlidertwo.min ? rangeSlidertwo.min : 1000;
-  const max = rangeSlidertwo.max ? rangeSlidertwo.max : 2000;
-  const newVal = Number(((val - min) * 100) / (max - min));
-  rangeBullettwo.innerHTML = val;
 
-  // Sorta magic numbers based on size of the native UI thumb
-  rangeBullettwo.style.left = `calc(${newVal}% + (${8 - newVal * 0.1}px))`;
-}
+  $(function() {
+	$( "#slider-range" ).slider({
+	  range: true,
+	  min: 1000,
+	  max: 2000,
+	  values: [ 1200, 1500 ],
+	  slide: function( event, ui ) {
+		var minval=$( "#amountone" ).val( "$" + ui.values[ 0 ]);
+    $(this).find('span').first().attr('class','newClassName');
+    $('.range-bar span.newClassName').html(minval);
+		var maxval=$( "#amounttwo").val( "$" + ui.values[ 1 ]);
+    $('.range-bar span.newClassName + span ').html(maxval);
+	  }
+	});
+});
+
+
+
+
+
+
 </script>
+
+
 
 <!-- sliders -->
 <script>
@@ -1360,11 +1342,5 @@ $(window).on("resize orientationchange", createSlickunitsprice);
 });
 </script>
 <!-- end of sliders -->
-
-
-
-
-
-
 </body>
 </html>

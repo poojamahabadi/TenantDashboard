@@ -561,14 +561,56 @@ $(".desktopview_tour .sliderforday_div .slick-slider").slick({
         autoplay: true,
         arrows: false,
         autoplaySpeed: 2000,
+        responsive: [
+                {
+                breakpoint:960,
+                settings: {
+
+                slidesToShow: 6.3,
+                }
+                },
+                {
+                breakpoint: 641,
+                settings: {
+                slidesToShow: 2.1,
+                }
+                },
+                {
+                breakpoint: 410,
+                settings: {
+                slidesToShow: 1.7,
+                }
+                },
+                ]
        });
        $(".mobileview_tour .sliderforday_div .slick-slider").slick({
         slidesToShow: 6.3,
-        infinite:false,
+        infinite:true,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         arrows: false,
         autoplaySpeed: 2000,
+        responsive: [
+                {
+                breakpoint:960,
+                settings: {
+
+                slidesToShow: 6.3,
+                }
+                },
+                {
+                breakpoint: 641,
+                settings: {
+                slidesToShow: 2.1,
+                }
+                },
+                {
+                breakpoint: 410,
+                settings: {
+                slidesToShow: 1.7,
+                }
+                },
+                ]
        });
 
 // property schedule tabs pop up

@@ -7503,6 +7503,8 @@ display: flex;
 justify-content: space-between;
 font-size: 20px;
 color: #000000;
+width: 71%;
+margin: 27px 0 0 0;
 }
 .rs-range {
 margin-top: 29px;
@@ -7602,6 +7604,18 @@ transform: translateX(-56%);
 width: 48px;
 text-align: center;
 }
+.bubbletwo {
+    color: #315D80;
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    border-radius: 4px;
+    right: 17px;
+    bottom: -18px;
+    transform: translateX(-56%);
+    width: 48px;
+    text-align: center;
+    }
 .rate_min{
 font-family: 'Helvetica';
 font-weight: 700;
@@ -7618,7 +7632,7 @@ line-height: 11px;
 text-transform: capitalize;
 color: #F2727F;
 }
-.bubble::before {
+.bubble::before ,.bubbletwo::before {
 content: "$";
 margin-right: 1px;
 }
@@ -7664,7 +7678,7 @@ display: flex;
 align-items: center;
 }
 .pricelabel_range p {
-margin: -11px 40px 0 0px;
+margin: -20px 40px 0 0px;
 font-family: 'Helvetica';
 font-weight: 700;
 font-size: 16px;
@@ -8065,8 +8079,11 @@ margin: 0;
 .sliderforday_div .slick-slide.slick-current.slick-active .date_dayslide{
     background-color: #F2727F;
 }
-.date_dayslide.active p{
+.sliderforday_div .slick-slide.slick-current.slick-active .date_dayslide p{
     color:#ffffff;
+}
+.seldateboxsche_prop .select-box .select, .seldateboxsche_prop .select-box1 .select{
+  color:#315D80;  
 }
 .sched_tourdivbtn .btn.btnsched_tour{
 width: 100%;
@@ -9522,4 +9539,76 @@ width: 188px;
 
 .beforesignin p:first-child{
     margin:0 auto 7px auto;
+}
+
+/* range slider */
+.price-range-slider {
+    width: 100%;
+    float: left;
+    padding: 10px 20px;
+}
+.price-range-slider .range-value {
+    margin: 0;
+    display:none;
+}
+.price-range-slider .range-value input.ipone,
+.price-range-slider .range-value input.optwo{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: capitalize;
+    color: #315D80;
+    width: auto;
+    border:unset;
+}
+.range-bar span input.ipone,
+.range-bar span input.optwo{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: capitalize;
+    color: #315D80;
+    width: auto;
+    border:unset;
+    outline: none;
+    background-color: unset;
+    display:block;
+    width: 85px;
+    margin: 18px auto 0 -14px;
+}
+.price-range-slider .range-bar {
+    border: none;
+    background: -webkit-linear-gradient(left, #D9E5D7 40%, #E87A81 60%, #FACACF 100%);
+    background: linear-gradient(to right, #D9E5D7 40%, #E87A81 60%, #FACACF 100%);
+    height: 3px;
+    width: 70%;
+    margin-left: 8px;
+}
+.price-range-slider .range-bar .ui-slider-range {
+    background: #315D80;
+    height: 4px;
+}
+.newClassName.ui-state-hover:hover,.newClassName.ui-state-hover:active,.newClassName.ui-state-hover:focus{
+    border:unset;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), inset 2px 2px 10px 1px #468DC4;
+    border: 3px solid #dddddd;
+    background: #315D80;
+}
+.price-range-slider .range-bar .ui-slider-handle,.newClassName {
+    height: 17px;
+    width: 17px;
+    top: -0.52em;
+    position: absolute;
+    cursor: pointer;
+border: 3px solid #dddddd;
+border-radius: 50%;
+background: #315D80;
+z-index: 2;
+outline: none;
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), inset 2px 2px 10px 1px #468DC4;
+}
+.price-range-slider .range-bar .ui-slider-handle + span {
+    background: #315D80;
 }

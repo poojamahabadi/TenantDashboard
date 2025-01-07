@@ -4698,7 +4698,88 @@ width: 57%;
     .signin_popupreservenow .rightwidless_sche .flexdiv {
         margin: 0 0px 0 20px;
     }
-
+    .signin_popupreservenow .accordion.sendoffraccord.tenantaccord .card {
+        margin: 0 0 12px 0;
+    }
+    .signin_popupreservenow .tenantaccord .card .card-header h2 button {
+        font-size: 14px;
+    }
+    .signin_popupreservenow .flexdiv {
+        padding: 6px 3px;
+    }
+    .signin_popupreservenow .flexdiv div label {
+        font-size: 12px;
+    }
+    .signin_popupreservenow .flexdiv:last-child {
+        border-bottom: 1px solid #c9d7e5;
+    }
+    .signin_popupreservenow .border_atend {
+        border-bottom: unset;
+    }
+    .signin_popupreservenow .flexdiv.soc_borderbtmunset{
+        border-bottom: unset;
+    }
+    
+    /* schedule tour pop up */
+    .schedtour_popup .modal-content,.schedtour_popup .modal-content .tab-content .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    .sched_tourdivbtnnext .btn.btnsched_tournext, .sched_tourdivbtnschedule .btn.btnsched_tourschedule{
+        width: 100%;
+    }
+    .schedtour_popup .sche_tour .switch-field {
+        margin: 0 auto;
+    }
+    .tour_typetxt {
+display:block;
+text-align: center;
+    }
+    .schedtour_popup  .flexschedule {
+        flex-direction: column;
+    }
+    .schedtour_popup ul.nav-tabs {
+        padding: 0px;
+        width: 76%;
+        margin: 10px auto;
+    }
+    .schedtour_popup .modal-dialog{
+        max-width: 90%;
+        margin:0 auto;
+    }
+    .schedtour_popup .seldateboxsche_prop .select-box {
+        width: 60%;
+    }
+    
+    .schedtour_popup .seldateboxsche_prop .date_heading h3 {
+        text-align: left;
+        font-size: 16px;
+    }
+    .schedtour_popup .flxtime_design {
+        margin: 20px 0 0 0;
+    }
+    .schedtour_popup .stepsmodal_body .seldateboxsche_prop {
+        justify-content: space-between;
+    }
+    .schedtour_popup .seldateboxsche_prop .select-box1 {
+        width: 40%;
+    }
+    .schedtour_popup .sliderbtm_txtpopup p {
+        margin:0;
+        text-align: center;
+    }
+    .schedtour_popup .flxboth_propschepop {
+        display: flex;
+        flex-direction: column;
+    }
+    .schedtour_popup .timetab_div.modaltime_div {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .schedtour_popup .day_monthtab.day_modaldiv {
+        max-width: 100%;
+    }
+     /* schedule tour pop up end */
 /* showing confirmed block */
 .shw_divbody img {
     height: 100px;
@@ -12653,6 +12734,19 @@ width: 37%;
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
+    .schedtour_popup .seldateboxsche_prop .date_heading h3 {
+        font-size: 11px;
+    }
+    .schedtour_popup .stepsmodal_body .seldateboxsche_prop {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .schedtour_popup .modal-content, .schedtour_popup .modal-content .tab-content .container {
+        padding: 0;
+    }
+    .sche_tour .switch-field label {
+        font-size: 11px;
+    }
       /* showing confirmed */
       .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
         margin: 0 7px 5px 3px;
@@ -13889,7 +13983,24 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
-   /* showing confirmed */
+ 
+ /* schedule tour */
+    .schedtour_popup .sche_tour .switch-field label {
+        width: 109px;
+        height: 40px;
+    }
+    .sche_tour .switch-field label {
+        font-size: 11px;
+    }
+    .schedtour_popup .sche_tour .switch-field input + label span.video img {
+        height: 14px;
+    }
+    .schedtour_popup .sche_tour .switch-field input + label span.person img {
+        height: 17px;
+    }
+  /* schedule tour */
+ 
+    /* showing confirmed */
       .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
         margin: 0 7px 5px 3px;
     }
