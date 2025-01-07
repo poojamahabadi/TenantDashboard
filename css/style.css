@@ -9519,9 +9519,7 @@ width: 188px;
     color: #ffffff;
     font-weight: 400;
 }
-.basicdata > div{
-    display: none;
-}
+
 .beforesignin p:first-child{
     margin:0 auto 7px auto;
 }
