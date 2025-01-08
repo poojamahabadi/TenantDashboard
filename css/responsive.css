@@ -4814,8 +4814,16 @@ max-width: 100%;
 }
 /* schedule tour pop up end */
 /* showing confirmed block */
+.showingconfirm_div .progressbar {
+    height: 28px;
+    margin: 0px auto -15px auto;
+    position: relative;
+}
 .shw_divbody img {
 height: 100px;
+}
+.showingconfirm_div .showingconfr_heading {
+    margin: 1em 0 0.6em 0;
 }
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span,
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span,
@@ -4835,7 +4843,9 @@ right: -10px;
 font-size: 15px;
 }
 .showingconfr_bodydesign {
-position: unset;
+    position: relative;
+    bottom: unset;
+    z-index: 10;
 }
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div{
 background: #9BB997;
@@ -6779,6 +6789,9 @@ font-size: 12px;
 }
 /* end of give notice */
 /* showing confirmed block */
+.showingconfirm_div .showingconfr_heading {
+    margin: 0.6em 0;
+}
 .addrdescrp_show p {
 font-size: 13px;
 line-height: 17px;
@@ -9576,6 +9589,9 @@ margin: 0 0 0 10px;
 
 
     /* showing confirmed */
+    .showingconfirm_div .showingconfr_heading {
+        margin: 0.6em 0 1em 0;
+    }
 .shw_divbody img {
 height: 87px;
 }
