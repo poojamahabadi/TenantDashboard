@@ -1708,6 +1708,18 @@ font-size: 15px;
 }
 
 @media only screen and (max-width:1136px){
+/* schedule tour */
+.midsche_toursec {
+    width: 87.6%;
+}
+.schetour_img img {
+    height: 127px;
+}
+
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 204px;
+}
+/* end of schedule tour */
 /* confirmed showing block */
 .shw_divbody img {
 height: 85px;
@@ -2169,7 +2181,14 @@ right: -5px;
 }
 
 @media only screen and (max-width:1080px){
-
+/* schedule tour */
+.midsche_toursec {
+    width: 92.2%;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 197px;
+}
+/* end of schedule tour */
 /* give notice */
 .reqdate_btnclick.deskbtnclk .not_datetxt p:nth-child(2),
 .reqdate_btnclick.deskbtnclk .not_datetxt p:first-child {
@@ -2633,6 +2652,11 @@ right: -15px;
 
 
 @media only screen and (max-width:1024px){
+/* schedule tour */
+.midsche_toursec {
+    width: 95.4%;
+}
+/* end of schedule tour */
 /* showing confirmed block */
 .addrdescrp_show p {
 font-size: 11px;
@@ -3047,7 +3071,20 @@ margin: 10px 0 0 0;
 }
 
 @media only screen and (max-width:992px){
-
+/* schedule tour */
+.confr_appt p {
+    line-height: 16px;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 187px;
+}
+.schetour_img img {
+    height: 126px;
+}
+.confr_appt h3 {
+    margin: 0 0 2.6em 0;
+}
+/* end of schedule tour */
 /* give notice */
 .reqdate_btnclick.deskbtnclk.margcss {
 margin: 0 0 0 -19px;
@@ -3581,7 +3618,50 @@ padding: 4px 22px 4px 12px;
 }
 }
 @media only screen and (max-width:800px){
-/* showing confirm block */
+/* schedule tour */
+.midsche_toursec {
+    width: 100%;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 151px;
+}
+.toursche_slidiv h3 {
+    font-size: 19px;
+}
+.propred_clr {
+    margin: 0 25px 0 2px;
+}
+.schetour_img img {
+    height: 118px;
+}
+.confr_appt h3 {
+    margin: 0 0 2.9em 0;
+}
+.confr_appt p {
+    font-size: 12px;
+}
+.confr_appt h3 {
+    font-size: 13px;
+    line-height: 16px;
+}
+.rightsche_tourcss{
+    padding: 0px 8px;
+}
+.midsche_toursec .showing_viewdetails .view_detail {
+    padding: 6px 8px 7px 10px;
+    font-size: 11px;
+}
+.schetour_btm .showing_details p {
+    line-height: 15px;
+}
+.midsche_toursec .timelabel span, .midsche_toursec .datelabel span {
+    font-size: 12px;
+}
+.midsectour_sche .timelabel span img, .midsectour_sche .datelabel span img {
+    height: 12px;
+}
+/* end of schedule tour */
+    /* showing confirm block */
 .shw_divbody img {
 height: 105px;
 }
@@ -4547,6 +4627,51 @@ padding: 14px 20px;
 }
 
 @media only screen and (max-width:768px){
+
+/* schedule tour */
+.midsectour_sche .datelabel,.midsectour_sche .timelabel{
+    width: 76%;
+}
+.schetour_img img {
+    height: 105px;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 60px;
+}
+.bottomdiv_info.schetour_btm {
+    padding: 7px 7px;
+}
+.toursche_slidiv {
+    margin: 1.7em 0 0 0;
+}
+.midsche_toursec .showing_viewdetails .view_detail {
+    padding: 3px 7px 5px 9px;
+    font-size: 11px;
+}
+.confr_appt h3 {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 0 2.3em 0;
+}
+.toursche_slidiv .slidelocation_div .txt_loc {
+    font-size: 14px;
+}
+.schetour_btm .showing_details {
+    flex-basis: 67%;
+}
+.schetour_btm .showing_viewdetails {
+    flex-basis: 33%;
+}
+.midsectour_sche .showdate {
+    margin: 0 0 9px 0;
+}
+.midsectour_sche .bottomdiv_info {
+    margin: 0.1em 0 0em 0;
+}
+.confr_appt h3 {
+    margin: 0 0 2.4em 0;
+}
+/* schedule tour */
 /* give notice */
 .amt_payment.gvnoticbtns .btn.full_amt, .amt_payment.gvnoticbtns .btn.make_pay {
 font-size: 15px;
@@ -4828,6 +4953,47 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
+
+/* schedule tour */
+.bottomdiv_info.schetour_btm.desktpschedutour_view{
+    display:none;
+}
+.confr_appt h3 {
+    margin: 0 0 6px 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 15px;
+}
+.rightsche_tourcss {
+    padding: 0px 15px 0 30px;
+}
+.midsectour_sche {
+    padding: 13px 0 0 0;
+    background-color: #DEE7F2;
+}
+.leftsche_tourcss {
+    padding-left: 0;
+}
+.confr_appt p {
+    text-align: center;
+}
+.confr_appt{
+    width: 72%;
+    margin: 15px auto;
+}
+.bottomdiv_info.schetour_btm.mobileschedutour_view {
+    display: flex;
+    align-items: center;
+    box-shadow: unset;
+}
+.midsectour_sche .timeinfo span, .midsectour_sche .dateinfo span{
+    color:rgba(49, 93, 128, 0.52);
+    font-weight: 700;
+}
+.leftsche_tourcss {
+    padding-left: 15px;
+}
+/* schedule tour end */
 .signin_popupreservenow .modal-content .mbcolrbg_div .sendoffraccord{
 background:unset;
 margin: 0px auto 0px auto;
@@ -5971,6 +6137,45 @@ right: 13px;
 }
 }
 @media only screen and (max-width: 640px){
+
+/* schedule tour */
+.confr_appt {
+    width: 90%;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 172px;
+}
+.similar_unitsdiv.toursche_slidiv .rat_tot_count p.count_rst span:nth-child(2) {
+    font-size: 0.7em;
+}
+.simisched_tour .rat_tot_count p.count_rst span.amtrate {
+    font-size: 16px;
+}
+.similar_unitsdiv.toursche_slidiv .ratingstar_count i {
+    font-size: 13px;
+}
+.similar_unitsdiv.toursche_slidiv .lochouse_details .house span,
+.similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
+    font-size: 13px;
+}
+.similar_unitsdiv.toursche_slidiv.clock span img {
+    height: 14px;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .unverifi_divtxt img {
+    height: 23px;
+    margin: 1px 0 0 0;
+}
+.showing_viewdetails .btn.view_detail i {
+    font-size: 16px;
+}
+.midsche_toursec .showing_viewdetails .view_detail {
+    padding: 3px 14px 5px 23px;
+    font-size: 12px;
+}
+.midsche_toursec .reschedule_divp {
+    padding: 10px 0 11px 0;
+}
+/* end of schedule tour */
 .twobtn_showings .btn.sendlease {
 padding: 5px 22px;
 margin: 0 5px 0 0;
@@ -6774,6 +6979,31 @@ width: 85px;
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
 margin-left: -38px;
 }
+.midsche_toursec {
+    margin: 75px auto 0 auto;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
+    height: 168px;
+}
+.similar_unitsdiv.toursche_slidiv .leaseddetails_slider .bed_details img {
+    margin: 6px 0 3px 0;
+    height: 16px;
+}
+.similar_unitsdiv.toursche_slidiv .slidelocation_div{
+    align-items: flex-start;
+}
+.similar_unitsdiv.toursche_slidiv .btn.btnviewbtnall{
+    margin: 0px 5px 0 0px;
+}
+.similar_unitsdiv.toursche_slidiv .propred_clr {
+    margin: 0 25px 0 0px;
+}
+.similar_unitsdiv.toursche_slidiv .slidelocation_div .txt_loc {
+    font-size: 14px;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .slidelocation_div span img {
+    height: 17px;
+}
 
 .similar_unitsdiv .descrip_details_list .price_rate p {
 font-size: 18px;
@@ -6867,6 +7097,23 @@ top: -28px;
 }
 @media only screen and (max-width:575px) {
 
+/* schedule tour */
+.schetour_img img {
+    height: 79px;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
+    height: 150px;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 155px;
+}
+.toursche_slidiv h3 {
+    margin: 0 0 0 9px;
+}
+.midsche_toursec .reschedule_divp {
+    padding: 11px 0 12px 0;
+}
+/* end of schedule tour */
 /* reserve now  */
 .signin_popupreservenow .modal-header {
 width: 93.6%;
@@ -8319,6 +8566,18 @@ top: 11px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
+/* schedule tour */
+.confr_appt {
+    width: 95%;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .unverifi_divtxt img {
+    height: 23px;
+    margin: -2px 0 0 0;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 72px;
+}
+/* end of schedule tour */
 /* reserve now */
 .signin_popupreservenow .modal-dialog {
     max-width: 100%;
@@ -9137,6 +9396,20 @@ width: 56%;
 
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
+/* schedule tour */
+.schetour_btm .showing_details {
+    flex-basis: 60%;
+}
+.schetour_btm .showing_viewdetails {
+    flex-basis: 40%;
+}
+.bottomdiv_info.schetour_btm {
+    padding: 12px 7px;
+}
+.midsche_toursec .showing_viewdetails .view_detail {
+    padding: 4px 10px 4px 13px;
+}
+/* end of schedule tour */
 /* reserve now */
  .signin_popupreservenow .modal-content .modal-header {
     padding: 14px 0 10px 0;
@@ -9676,6 +9949,29 @@ margin: 0 0 0 10px;
 }
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
+/* schedule tour */
+.rightsche_tourcss {
+    padding: 0px 0px 0 30px;
+}
+.midsche_toursec .showing_viewdetails .view_detail {
+    padding: 4px 13px 5px 17px;
+}
+.midsectour_sche .bottomdiv_info.schetour_btm {
+    padding: 12px 7px;
+}
+.confr_appt h3 {
+    margin: 0 0 10px 0;
+}
+.midsectour_sche .showdate {
+    align-items: flex-start;
+}
+.midsectour_sche .timeinfo span, .midsectour_sche .dateinfo span {
+    line-height: 15px;
+}
+.midsectour_sche .showtime {
+    margin: 7px 0;
+}
+/* end of schedule tour */
 /* reserve now */
 .signin_popupreservenow .modal-content .modal-header {
     padding: 14px 0;
@@ -10681,9 +10977,6 @@ font-size: 13px;
 .showimgpend img {
 height: 86px;
 }
-.showing_viewdetails .btn.view_detail {
-font-size: 13px;
-}
 .mobileviewblock_scheduleslider .showingssec .order_links span a {
 font-size: 12px;
 }
@@ -11048,6 +11341,31 @@ left: -18px;
 }
 
 @media only screen and (max-width: 390px) {
+/* schedule tour */
+.rightsche_tourcss {
+    padding: 0px 0px 0 25px;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 27px;
+}
+.similar_unitsdiv.toursche_slidiv .propred_clr {
+    margin: 0 146px 0 2px;
+}
+.similar_unitsdiv.toursche_slidiv .btn.btnviewbtnall {
+
+    margin: 0px 3px 0 7px;
+}
+.midsche_toursec .showing_viewdetails .view_detail {
+    padding: 4px 12px 5px 13px;
+}
+.midsectour_sche .datelabel, .midsectour_sche .timelabel {
+    width: 83%;
+}
+.confr_appt h3 {
+    font-size: 13px;
+    line-height: 15px;
+}
+/* end of schedule tour */
 /* showing completed */
 .showingcompl_detailsdiv h3 {
     font-size: 12px;

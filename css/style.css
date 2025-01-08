@@ -9179,8 +9179,14 @@ box-shadow: unset;
 .similar_unitsdiv .simisched_tour .slick-track {
     margin-left: -111px;
 }
+.bottomdiv_info.schetour_btm.mobileschedutour_view{
+    display: none;
+}
 .similar_unitsdiv .simisched_tour .leasedslider {
     margin: 11px 0px 0 8px;
+}
+.midschetour_cssalign{
+    align-items: center;
 }
 .toursche_slidiv{
     margin:2.5em 0 0 0;
