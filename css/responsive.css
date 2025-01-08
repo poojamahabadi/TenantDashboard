@@ -1,10 +1,10 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
 /* showing confirmed */
 .shw_divbody img {
-    height: 94px;
+height: 94px;
 }
 /* end of showing confirmed */
- /* find property */
+/* find property */
 .prop_rowalign {
 margin: 0em 0 3em 0;
 }
@@ -489,7 +489,7 @@ left: -25px;
 @media only screen and (max-width: 1400px){
 /* showing confirm block */
 .shw_divbody img {
-    height: 87px;
+height: 87px;
 }
 /* end of showing confirm block */
 /* price range */
@@ -651,10 +651,10 @@ left: -3px;
 height: 120px;
 }
 .lochouse_details .house span, .lochouse_details .clock span {
-    font-size: 11px;
+font-size: 11px;
 }
 .setup_modalprop .modal-dialog {
-    max-width: 54%;
+max-width: 54%;
 }
 /* end of find property */
 
@@ -740,7 +740,7 @@ font-size: 14px;
 /* schedule showings */
 .showing_comple_details .showingssec .showimgpend,
 .detshow_div .showing_detailsdiv + .showingssec .showimgpend{
-    padding: 9px 0px 4px 5px;  
+padding: 9px 0px 4px 5px;  
 } 
 .slideronmap {
 margin: -86px 0 0 0;
@@ -873,26 +873,26 @@ padding: 0 8px;
 @media only screen and (max-width: 1280px){
 /* showing confirmed block */
 .shw_divbody img {
-    height: 84px;
+height: 84px;
 }
 /* end of showing confirmed block */
 /* give notice */
 .givenoticepopup .flxcenter_div {
-    margin: 0 0 2em 0;
+margin: 0 0 2em 0;
 }
 /* end of give notice */
 /* transactions */
 .twobuttons_div .btn.pay_amt,.twobuttons_div .btn.makepay_amt {
-    padding: 3px 9px;
+padding: 3px 9px;
 }
 .tabmyinfo.transac .pricetxt,.trans_txt h3 {
-    font-size: 20px;
+font-size: 20px;
 }
 .tabmyinfo.transac .price_ptxt {
-    font-size: 13px;
+font-size: 13px;
 }
 .aply_creditbg .btn.preapprovtrans {
-    padding: 10px 4px 11px 6px;
+padding: 10px 4px 11px 6px;
 }
 /* end of transactions */
 
@@ -1230,46 +1230,46 @@ margin-left: 212px;
 @media only screen and (max-width: 1200px){
 /* showing confirmed block */
 .firstimgblk_clr {
-    padding: 0 9px 0 0px;
+padding: 0 9px 0 0px;
 }
 .shw_divbody img {
-    height: 80px;
+height: 80px;
 }
 /* end of showing confirmed block */
 
 /* transactions */
 .tabmyinfo.transac .txtmonth {
-    font-size: 14px;
+font-size: 14px;
 }
 .transactions_table thead tr th {
-    font-size: 14px;
-    padding: 10px 5px;
+font-size: 14px;
+padding: 10px 5px;
 }
 .tabmyinfo.transac .card.balancecard .card-header h3 {
-    font-size: 14px;
+font-size: 14px;
 }
 .tabmyinfo.transac .card.balancecard .card-header {
-    padding: 10px 20px 19px 20px;
+padding: 10px 20px 19px 20px;
 }
 .tabmyinfo.transac  .dropdown.dropinfo .btn.dropdown-toggle {
-    font-size: 14px;
-    padding: 1px 15px;
+font-size: 14px;
+padding: 1px 15px;
 }
 .twobuttons_div .btn.pay_amt,.twobuttons_div .btn.makepay_amt {
-    font-size: 11px;
+font-size: 11px;
 }
 .tabmyinfo.transac .set_custom img {
-    height: 17px;
-    width: 17px;
-    vertical-align: sub;
+height: 17px;
+width: 17px;
+vertical-align: sub;
 }
 .aply_creditbg .flex_centercss{
-    display: unset;
-    padding: 0px 5px 0 5px;
+display: unset;
+padding: 0px 5px 0 5px;
 }
 .aply_creditbg .myinfo_txt img {
-    margin-right: 9px;
-    vertical-align: bottom;
+margin-right: 9px;
+vertical-align: bottom;
 }
 /* end of transactions */
 
@@ -1577,63 +1577,63 @@ font-size: 15px;
 @media only screen and (max-width:1136px){
 /* confirmed showing block */
 .shw_divbody img {
-    height: 85px;
+height: 85px;
 }
 .firstimgblk_clr {
-    padding: 0 12px 0 0px;
+padding: 0 12px 0 0px;
 }
 .showingssec_infodiv.scheduleslider .showingssec .showingconfr_bodydesign .showtime {
-    padding: 0;
+padding: 0;
 }
 /* end of confirmed showing block */
 
-    /*give notice  */
-    .givenoticepopup .modal-dialog .modal-content {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .modal.givenoticepopup .modal-dialog {
-        max-width: 80%;
-    }
-    .paymt_center{
-        align-items: center;
-    }
-    .givenoticepopup .trans_heading {
-        margin: 0 0 1.2em 0;
-    }
-    .amt_payment.gvnoticbtns .btn.full_amt, .amt_payment.gvnoticbtns .btn.make_pay {
-        width: 220px;
-        height: 40px;
-    }
-    .btn.vacatebtn_notice p:first-child {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .padgvnot_left{
-        padding-left: 0;
-    }
-    .reqdate_btnclick .not_datetxt p:first-child {
-        margin: 0 7px 0 0;
-    }
-    .reqdate_btnclick  .not_datetxt p:nth-child(2),.reqdate_btnclick .not_datetxt p:first-child {
-        font-size: 11px;
-        text-align: left;
-    }
-    /* end of give notice  */
+/*give notice  */
+.givenoticepopup .modal-dialog .modal-content {
+width: 100%;
+margin: 0 auto;
+}
+.modal.givenoticepopup .modal-dialog {
+max-width: 80%;
+}
+.paymt_center{
+align-items: center;
+}
+.givenoticepopup .trans_heading {
+margin: 0 0 1.2em 0;
+}
+.amt_payment.gvnoticbtns .btn.full_amt, .amt_payment.gvnoticbtns .btn.make_pay {
+width: 220px;
+height: 40px;
+}
+.btn.vacatebtn_notice p:first-child {
+font-size: 16px;
+line-height: 24px;
+}
+.padgvnot_left{
+padding-left: 0;
+}
+.reqdate_btnclick .not_datetxt p:first-child {
+margin: 0 7px 0 0;
+}
+.reqdate_btnclick  .not_datetxt p:nth-child(2),.reqdate_btnclick .not_datetxt p:first-child {
+font-size: 11px;
+text-align: left;
+}
+/* end of give notice  */
 /* transactions */
 .aply_creditbg {
-    padding: 14px;
+padding: 14px;
 }
 .aply_creditbg .btn.preapprovtrans {
-    padding: 10px 3px 11px 3px;
+padding: 10px 3px 11px 3px;
 }
 .transactions_table tbody tr td img {
-    height: 21px;
-    width: 21px;
+height: 21px;
+width: 21px;
 }
 .tabmyinfo.transac .twobuttons_div .btn.pay_amt,.tabmyinfo.transac .twobuttons_div .btn.makepay_amt {
-    font-size: 10px;
-    padding: 5px 9px;
+font-size: 10px;
+padding: 5px 9px;
 }
 /* end of transactions */
 /* find property */
@@ -1871,17 +1871,17 @@ margin: -1px 0 0 20px;
 
 /* schedule showings */
 .showing_comple_details .showimgpend img {
-    height: 86px;
+height: 86px;
 }
 .twobtn_showings .btn.sendlease {
-    padding: 4px 8px;
-    margin: 0 5px 0 0px;
+padding: 4px 8px;
+margin: 0 5px 0 0px;
 }
 .signin_popupreservenow .modal-content .sendoffraccord {
-    width: 95%;
+width: 95%;
 }
 .signin_popupreservenow .modal-content {
-    width: 100%;
+width: 100%;
 }
 .map_streetdetails {
 margin: 28px 0 0 0;
@@ -2040,72 +2040,72 @@ right: -5px;
 /* give notice */
 .reqdate_btnclick.deskbtnclk .not_datetxt p:nth-child(2),
 .reqdate_btnclick.deskbtnclk .not_datetxt p:first-child {
-    font-size: 12px;
+font-size: 12px;
 }
 .reqdate_btnclick.deskbtnclk.margcss {
-    margin: 0 0 0 -22px;
+margin: 0 0 0 -22px;
 }
 .reqdate_btnclick.deskbtnclk .dateyear_div {
-    flex-basis: 70%;
+flex-basis: 70%;
 }
 .reqdate_btnclick.deskbtnclk .datearrow {
-    flex-basis: 30%;
+flex-basis: 30%;
 }
 .reqdate_btnclick.deskbtnclk .btn.vacatebtn_notice p:first-child {
-    font-size: 15px;
-    line-height: 19px;
+font-size: 15px;
+line-height: 19px;
 }
 .reqdate_btnclick.deskbtnclk  .bookappnt_divabs {
-    top: 41px;
-    width: 69%;
-    left: -146px;
+top: 41px;
+width: 69%;
+left: -146px;
 }
 /* end of give notice */
 /* transactions */
 .widcss_transleft,.widcss_transright{
-    flex:100%;
-    max-width: 100%;
+flex:100%;
+max-width: 100%;
 }
 .tabmyinfo.transac .pricetxt, .trans_txt h3 {
-    font-size: 18px;
+font-size: 18px;
 }
 .tabmyinfo.transac .set_custom img {
-    vertical-align: text-bottom;
+vertical-align: text-bottom;
 }
 .aply_creditbg .trans_txt h3{
-    margin: 0 0 15px 0;
-    font-size: 18px;
+margin: 0 0 15px 0;
+font-size: 18px;
 }
 .aply_creditbg .btn.preapprovtrans {
-    padding: 13px 5px 13px 17px;
-    font-size: 12px;
+padding: 13px 5px 13px 17px;
+font-size: 12px;
 }
 .btn.preapprovtrans span {
-    padding: 8px 10px;
+padding: 8px 10px;
 }
 .aply_creditbg .trans_txt p{
-    margin: 0 0 15px 0; 
-    font-size: 16px;
+margin: 0 0 15px 0; 
+font-size: 16px;
 }
 .tabmyinfo.transac .price_ptxt {
-    font-size: 12px;
+font-size: 12px;
 }
 .transac_balpage .transac .divinfo {
-    align-items: baseline;
+align-items: baseline;
 }
 .trans_depositdiv .trans_details {
-    padding: 22px 8px;
+padding: 22px 8px;
 }
 .trans_depositdiv .trans_details p {
-    font-size: 12px;
-    line-height: 19px;
+font-size: 12px;
+line-height: 19px;
 }
 .aply_creditbg .bgcolr_depos {
-    padding: 8px 13px;
-    margin: 1em 0 0 0;
+padding: 8px 13px;
+margin: 1em 0 0 0;
 }
 .aply_creditbg .bgcolr_depos {
-    text-align: center;
+text-align: center;
 }
 /* showings step */
 .img_step > img {
@@ -2348,9 +2348,9 @@ font-size: 15px;
 /* end of offer to lease */
 /* schedule showings */
 .twobtn_showings .btn.sendlease {
-    padding: 4px 5px;
-    margin: 0 5px 0 0px;
-    font-size: 11px;
+padding: 4px 5px;
+margin: 0 5px 0 0px;
+font-size: 11px;
 }
 
 .invite_sliderslick .bgtenant_div img {
@@ -2502,39 +2502,39 @@ right: -15px;
 @media only screen and (max-width:1024px){
 /* showing confirmed block */
 .addrdescrp_show p {
-    font-size: 11px;
-    line-height: 14px;
+font-size: 11px;
+line-height: 14px;
 }
 /* end of showing confirmed block */
 /* give notice */
 .modal.givenoticepopup .modal-dialog {
-    max-width: 86.4%;
+max-width: 86.4%;
 }
 .reqdate_btnclick.deskbtnclk .select-box .label::after,.reqdate_btnclick.deskbtnclk .select-box1 .label::after {
-    top: 0px;
+top: 0px;
 }
 .wename {
-    font-size: 11px;
+font-size: 11px;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-    top: 41px;
-    width: 55%;
-    left: -75px;
+top: 41px;
+width: 55%;
+left: -75px;
 }
 .reqdate_btnclick.deskbtnclk .dateyear_div {
-    flex-basis: 63%;
+flex-basis: 63%;
 }
 .reqdate_btnclick.deskbtnclk .datearrow {
-    flex-basis: 37%;
+flex-basis: 37%;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs .meet_inputdate.input-group{
-    flex-basis: 50%;
+flex-basis: 50%;
 }
 .reqdate_btnclick.deskbtnclk .meet_datediv .label_meet {
-    flex-basis: 50%;
+flex-basis: 50%;
 }
 .reqdate_btnclick.deskbtnclk.margcss {
-    margin: 0 0 0 -29px;
+margin: 0 0 0 -29px;
 }
 /* end of give notice */
 /* find property */
@@ -2563,7 +2563,7 @@ height: 159px;
 margin: 1px 0;
 }
 .clcross_icon.mapcross {
-    right: 15px;
+right: 15px;
 }
 .content-wrapper .container-fluid {
 width: 99%;
@@ -2738,8 +2738,8 @@ margin: 9px 0 0 -34px;
 /* end of showings offer to lease */
 /* schedule showings */
 .showingcompl_detailsdiv h3 {
-    font-size: 14px;
-    line-height: 16px;
+font-size: 14px;
+line-height: 16px;
 }
 .divreserve_btn button.reservenowbtn {
 font-size: 14px;
@@ -2917,41 +2917,41 @@ margin: 10px 0 0 0;
 
 /* give notice */
 .reqdate_btnclick.deskbtnclk.margcss {
-    margin: 0 0 0 -19px;
+margin: 0 0 0 -19px;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-    left: -74px;
+left: -74px;
 }
 .reqdate_btnclick.deskbtnclk .meet_datediv input.form-control {
-    font-size: 12px;
+font-size: 12px;
 }
 /* end of give notice */
 /* showing confirmed block */
 .shw_divbody img {
-    height: 80px;
+height: 80px;
 }
 /* end of showing confirmed block */
 /* showings */
 .clcross_icon.mapcross {
-    right: 10px;
+right: 10px;
 }
 /* end of showings */
 /* transactions */
 .tabmyinfo.transac .txtmonth {
-    font-size: 12px;
+font-size: 12px;
 }
 .tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
-    font-size: 13px;
-    padding: 1px 13px;
+font-size: 13px;
+padding: 1px 13px;
 }
 .tabmyinfo.transac .pricetxt, .trans_txt h3 {
-    font-size: 16px;
+font-size: 16px;
 }
 .trans_depositdiv .bgcolr_depos .flex_centercss {
-    padding: 0px 9px 0 9px;
+padding: 0px 9px 0 9px;
 }
 .tabmyinfo.transac .set_custom {
-    padding: 0 14px 0 11px;
+padding: 0 14px 0 11px;
 }
 /* end of transactions */
 
@@ -3113,7 +3113,7 @@ top: 183px;
 
 /* schedule showings */
 .showing_complete .mob_pad{
-    padding: 0 10px;
+padding: 0 10px;
 }
 .step_sharebg {
 margin: 7em auto 3em auto;
@@ -3450,116 +3450,116 @@ padding: 4px 22px 4px 12px;
 @media only screen and (max-width:800px){
 /* showing confirm block */
 .shw_divbody img {
-    height: 105px;
+height: 105px;
 }
 .showingssec_infodiv .showingssec.showingconfirm_div .timelabel span,
 .showingssec_infodiv .showingssec.showingconfirm_div .datelabel span{
-    align-items: baseline;
+align-items: baseline;
 }
 .addrdescrp_show p {
-    font-size: 13px;
+font-size: 13px;
 }
 /* end of showing confirm block */
 /* give notice */
 .givenoticepopup .not_datetxt p:first-child {
-    margin: 0 4px 0 0;
+margin: 0 4px 0 0;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-    left: -46px;
+left: -46px;
 }
 .reqdate_btnclick.deskbtnclk .datedetailsshow p {
-    font-size: 11px;
+font-size: 11px;
 }
 .reqdate_btnclick.deskbtnclk .datearrow {
-    flex-basis: 32%;
+flex-basis: 32%;
 }
 .reqdate_btnclick.deskbtnclk .dateyear_div {
-    flex-basis: 68%;
+flex-basis: 68%;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs .meet_inputdate.input-group {
-    flex-basis: 55%;
+flex-basis: 55%;
 }
 .reqdate_btnclick.deskbtnclk .meet_datediv .label_meet {
-    flex-basis: 44%;
+flex-basis: 44%;
 }
 .reqdate_btnclick.deskbtnclk.margcss {
-    margin: 0 0 0 -36px;
+margin: 0 0 0 -36px;
 }
 .early_termn p {
-    font-size: 11px;
+font-size: 11px;
 }
 .reqbtn_div .btn.btnreqstbtn {
-    font-size: 11px;
+font-size: 11px;
 }
 .givenoticepopup  .not_datetxt p:nth-child(2),.givenoticepopup .not_datetxt p:first-child {
-    font-size: 11px;
+font-size: 11px;
 }
 .modal.givenoticepopup .modal-dialog {
-    max-width: 96.4%;
+max-width: 96.4%;
 }
 .amt_payment.gvnoticbtns .btn.full_amt, .amt_payment.gvnoticbtns .btn.make_pay {
-    width: 199px;
+width: 199px;
 }
 .contflu_padcss {
-    padding: 0;
+padding: 0;
 }
 .btn.vacatebtn_notice{
-    width: auto;
+width: auto;
 }
 /* end of give notice */
-    /* transactions */
+/* transactions */
 .tabmyinfo.transac .txtmonth {
-    font-size: 15px;
+font-size: 15px;
 }
 .transac_balpage .download_trans {
-    margin: 1.5em 0 0.4em 0;
+margin: 1.5em 0 0.4em 0;
 }
 .download_trans .btn.btn_download img{
-    vertical-align: sub;
+vertical-align: sub;
 }
 .tabmyinfo.transac .twobuttons_div .btn.pay_amt,.tabmyinfo.transac .twobuttons_div .btn.makepay_amt {
-    font-size: 12px;
-    padding: 7px 21px;
+font-size: 12px;
+padding: 7px 21px;
 }
 .tabmyinfo.transac .pricetxt,.tabmyinfo.transac .trans_txt h3 {
-    font-size: 20px;
+font-size: 20px;
 }
 .tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
-    font-size: 15px;
-    padding: 2px 20px;
-    font-weight: 700;
+font-size: 15px;
+padding: 2px 20px;
+font-weight: 700;
 }
 .lefdiv_align{
-    justify-content: flex-start;
+justify-content: flex-start;
 }
 .trans_depositdiv .trans_details {
-    padding: 22px 20px;
+padding: 22px 20px;
 }
 .rightdiv_align{
-    justify-content: end;
+justify-content: end;
 }
 .tabmyinfo.transac .myinfo_txt span {
-    font-size: 18px;
+font-size: 18px;
 }
 .trans_depositdiv .bgcolr_depos {
-    padding: 10px 15px;
-    width: 100%;
+padding: 10px 15px;
+width: 100%;
 }
 .aply_creditbg .bgcolr_depos {
-    padding: 13px;
-    margin: 10px 0 0 0;
+padding: 13px;
+margin: 10px 0 0 0;
 }
 .transactions_table tbody tr td {
-    font-size: 14px;
+font-size: 14px;
 }
 .transactions_table thead tr th {
-    font-size: 15px;
+font-size: 15px;
 }
 .tabmyinfo.transac .blu_colr {
-    padding: 7px 8px 7px 16px;
+padding: 7px 8px 7px 16px;
 }
 .trans_depositdiv .trans_details p {
-    font-size: 14px;
+font-size: 14px;
 }
 /* end of transactions */
 
@@ -3998,42 +3998,42 @@ margin-left: 13px;
 /* showings offer to lease end */
 /* schedule showings */
 .showing_complete .mob_pad {
-    padding: 0 15px;
+padding: 0 15px;
 }
 .showing_comple_details .showimgpend img {
-    height: 100px;
+height: 100px;
 }
 .signin_popupreservenow .modal-content .sendoffraccord {
-    width: 100%;
+width: 100%;
 }
 .signin_popupreservenow .modal-content .basicdatatxt {
-    flex-basis: 42%;
+flex-basis: 42%;
 }
 .twobtn_showings .btn.sendlease {
-    padding: 5px 28px;
-    margin: 0 49px 0 0px;
-    font-size: 12px;
+padding: 5px 28px;
+margin: 0 49px 0 0px;
+font-size: 12px;
 }
 .signin_popupreservenow .modal-dialog{
-    max-width: 84%;
-    margin:0 auto;
+max-width: 84%;
+margin:0 auto;
 }
 .twobtn_showings{
-    text-align: center;
+text-align: center;
 }
 .invite_sliderslick {
 width: 63%;
 }
 .mobviewbgcolrpending, .movviewbgcolrscheduleoffr {
-    background: #EDF2FA;
-    padding: 27px 10px 5px 10px;
-    border-radius: 17px;
+background: #EDF2FA;
+padding: 27px 10px 5px 10px;
+border-radius: 17px;
 }
 .mobviewbgcolrpending{
 margin: 0 0 1em 0;
 }
 .pendingslider {
-    margin: 0;
+margin: 0;
 }
 .backg_colr_showings {
 border-radius: 0;
@@ -4416,25 +4416,25 @@ padding: 14px 20px;
 @media only screen and (max-width:768px){
 /* give notice */
 .amt_payment.gvnoticbtns .btn.full_amt, .amt_payment.gvnoticbtns .btn.make_pay {
-    font-size: 15px;
+font-size: 15px;
 }
 .reqdate_btnclick.deskbtnclk.margcss {
-    margin: 0 0 0 -25px;
+margin: 0 0 0 -25px;
 }
 .givenoticepopup .flxcenter_div {
-    margin: 0 0 1em 0;
+margin: 0 0 1em 0;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-    left: -45px;
+left: -45px;
 }
 .btn.vacatebtn_notice p:first-child {
-    font-size: 14px;
-    line-height: 20px;
+font-size: 14px;
+line-height: 20px;
 }
 /* end of give notice */
 /* transactions */
 .tabmyinfo.transac .blu_colr {
-    padding: 7px 9px 7px 20px;
+padding: 7px 9px 7px 20px;
 }
 /* end of transactions */
 /* find property */
@@ -4695,183 +4695,216 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
-    .signin_popupreservenow .rightwidless_sche .flexdiv {
-        margin: 0 0px 0 20px;
-    }
-    .signin_popupreservenow .accordion.sendoffraccord.tenantaccord .card {
-        margin: 0 0 12px 0;
-    }
-    .signin_popupreservenow .tenantaccord .card .card-header h2 button {
-        font-size: 14px;
-    }
-    .signin_popupreservenow .flexdiv {
-        padding: 6px 3px;
-    }
-    .signin_popupreservenow .flexdiv div label {
-        font-size: 12px;
-    }
-    .signin_popupreservenow .flexdiv:last-child {
-        border-bottom: 1px solid #c9d7e5;
-    }
-    .signin_popupreservenow .border_atend {
-        border-bottom: unset;
-    }
-    .signin_popupreservenow .flexdiv.soc_borderbtmunset{
-        border-bottom: unset;
-    }
-    
-    /* schedule tour pop up */
-    .schedtour_popup .modal-content,.schedtour_popup .modal-content .tab-content .container {
-        width: 100%;
-        max-width: 100%;
-    }
-    .sched_tourdivbtnnext .btn.btnsched_tournext, .sched_tourdivbtnschedule .btn.btnsched_tourschedule{
-        width: 100%;
-    }
-    .schedtour_popup .sche_tour .switch-field {
-        margin: 0 auto;
-    }
-    .tour_typetxt {
+.signin_popupreservenow .modal-content .mbcolrbg_div .sendoffraccord{
+background:unset;
+margin: 0px auto 0px auto;
+}
+.modal.signin_popupreservenow{
+    padding-right: 0 !important;
+}
+.signin_popupreservenow .btn.declbtn img,.signin_popupreservenow .btn.confrbtntw img{
+height: 15px;
+}
+.btn.declbtn, .btn.confrbtntw {
+height:46px;
+width: 154px;
+font-size: 16px;
+}
+.signin_popupreservenow .modal-content .modal-body .mbcolrbg_div,.signin_popupreservenow .modal-content .modal-header {
+    background: #EDF2FA;
+    padding: 14px 0 9px 0;
+}
+.signin_popupreservenow .modal-content .modal-body .mbcolrbg_div{
+border-radius: 0 0 17px 17px;
+padding: 0 0 20px 0;
+}
+.signin_popupreservenow .modal-header {
+width: 95%;
+margin: 0 auto;
+border-radius: 17px 17px 0 0;
+}
+.signin_popupreservenow .rightwidless_sche .flexdiv {
+margin: 0 0px 0 20px;
+background-color:unset;
+}
+.signin_popupreservenow .modal-content {
+margin: 20px auto;
+background: unset;
+}
+.signin_popupreservenow .accordion.sendoffraccord.tenantaccord .card {
+margin: 0 0 12px 0;
+}
+.signin_popupreservenow .tenantaccord .card .card-header h2 button {
+font-size: 14px;
+}
+.signin_popupreservenow .flexdiv {
+padding: 8px 3px;
+}
+.signin_popupreservenow .flexdiv div label {
+font-size: 12px;
+}
+.signin_popupreservenow .flexdiv:last-child {
+border-bottom: 1px solid #c9d7e5;
+}
+.signin_popupreservenow .border_atend {
+border-bottom: unset;
+}
+.signin_popupreservenow .flexdiv.soc_borderbtmunset{
+border-bottom: unset;
+}
+
+/* schedule tour pop up */
+.schedtour_popup .modal-content,.schedtour_popup .modal-content .tab-content .container {
+width: 100%;
+max-width: 100%;
+}
+.sched_tourdivbtnnext .btn.btnsched_tournext, .sched_tourdivbtnschedule .btn.btnsched_tourschedule{
+width: 100%;
+}
+.schedtour_popup .sche_tour .switch-field {
+margin: 0 auto;
+}
+.tour_typetxt {
 display:block;
 text-align: center;
-    }
-    .schedtour_popup  .flexschedule {
-        flex-direction: column;
-    }
-    .schedtour_popup ul.nav-tabs {
-        padding: 0px;
-        width: 76%;
-        margin: 10px auto;
-    }
-    .schedtour_popup .modal-dialog{
-        max-width: 90%;
-        margin:0 auto;
-    }
-    .schedtour_popup .seldateboxsche_prop .select-box {
-        width: 60%;
-    }
-    
-    .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-        text-align: left;
-        font-size: 16px;
-    }
-    .schedtour_popup .flxtime_design {
-        margin: 20px 0 0 0;
-    }
-    .schedtour_popup .stepsmodal_body .seldateboxsche_prop {
-        justify-content: space-between;
-    }
-    .schedtour_popup .seldateboxsche_prop .select-box1 {
-        width: 40%;
-    }
-    .schedtour_popup .sliderbtm_txtpopup p {
-        margin:0;
-        text-align: center;
-    }
-    .schedtour_popup .flxboth_propschepop {
-        display: flex;
-        flex-direction: column;
-    }
-    .schedtour_popup .timetab_div.modaltime_div {
-        max-width: 80%;
-        margin: 0 auto;
-    }
-    .schedtour_popup .day_monthtab.day_modaldiv {
-        max-width: 100%;
-    }
-     /* schedule tour pop up end */
+}
+.schedtour_popup  .flexschedule {
+flex-direction: column;
+}
+.schedtour_popup ul.nav-tabs {
+padding: 0px;
+width: 76%;
+margin: 10px auto;
+}
+.schedtour_popup .modal-dialog{
+max-width: 90%;
+margin:0 auto;
+}
+.schedtour_popup .seldateboxsche_prop .select-box {
+width: 60%;
+}
+
+.schedtour_popup .seldateboxsche_prop .date_heading h3 {
+text-align: left;
+font-size: 16px;
+}
+.schedtour_popup .flxtime_design {
+margin: 20px 0 0 0;
+}
+.schedtour_popup .stepsmodal_body .seldateboxsche_prop {
+justify-content: space-between;
+}
+.schedtour_popup .seldateboxsche_prop .select-box1 {
+width: 40%;
+}
+.schedtour_popup .sliderbtm_txtpopup p {
+margin:0;
+text-align: center;
+}
+.schedtour_popup .flxboth_propschepop {
+display: flex;
+flex-direction: column;
+}
+.schedtour_popup .timetab_div.modaltime_div {
+max-width: 80%;
+margin: 0 auto;
+}
+.schedtour_popup .day_monthtab.day_modaldiv {
+max-width: 100%;
+}
+/* schedule tour pop up end */
 /* showing confirmed block */
 .shw_divbody img {
-    height: 100px;
+height: 100px;
 }
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span,
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span,
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span,
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
-    align-items: center;
+align-items: center;
 }
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img,
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img,
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
-    height: 14px;
+height: 14px;
 }
 .movviewbgcolrscheduleoffr .clickonfilterbtn {
-    right: -10px;
+right: -10px;
 }
 .confirmshow_divgreen .confrm_div p,.confirmshow_divyellow .confrm_div p{
-    font-size: 15px;
+font-size: 15px;
 }
 .showingconfr_bodydesign {
 position: unset;
 }
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div{
-    background: #9BB997;
+background: #9BB997;
 }
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
-    padding: 0px;
-    margin:0 0 4px 0;
+padding: 0px;
+margin:0 0 4px 0;
 }
 /* showing confirmed pop up */
 
 /* give notice mobile view */
 .vacbtn_div{
-    text-align: center;
+text-align: center;
 }
 .reqdate_btnclick.mobilereqbtnclk .date_apptdesign {
-    top: 40px;
-    padding: 10px;
+top: 40px;
+padding: 10px;
 }
 .reqdate_btnclick.mobilereqbtnclk .meet_datediv .label_meet {
-    flex-basis: 50%;
+flex-basis: 50%;
 }
 .reqdate_btnclick.mobilereqbtnclk .weekdates_txt .weknamediv.active .wekdate {
-    padding: 3px 0 2px 0;
-    margin: 4px 0 0 0;
+padding: 3px 0 2px 0;
+margin: 4px 0 0 0;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 9px 13px;
+padding: 9px 13px;
 }
 .reqdate_btnclick.mobilereqbtnclk .weknamediv.active .wekdate {
-    height: 30px;
-    width: 30px;
+height: 30px;
+width: 30px;
 }
 .reqdate_btnclick.mobilereqbtnclk .flexlook_yearmonth .select-box {
-    width: 55%;
+width: 55%;
 }
 .reqdate_btnclick.mobilereqbtnclk .flexlook_yearmonth .select-box1 {
-    width: 45%;
+width: 45%;
 }
 .reqdate_btnclick.mobilereqbtnclk .dateyear_div {
-    flex-basis: 70%;
+flex-basis: 70%;
 }
 .reqdate_btnclick.mobilereqbtnclk .datearrow {
-    flex-basis: 30%;
+flex-basis: 30%;
 }
 .reqdate_btnclick.mobilereqbtnclk .meet_inputdate.input-group {
-    flex-basis: 50%;
+flex-basis: 50%;
 }
 .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
-    width: 96%;
-    left: 10px;
-    top: 11px;
+width: 96%;
+left: 10px;
+top: 11px;
 }
 .btn.vacatebtn_notice p:first-child {
-    font-size: 18px;
-    line-height: 24px;
+font-size: 18px;
+line-height: 24px;
 }
 .btn.vacatebtn_notice {
-    width: 93%;
-    margin: 1em auto;
+width: 93%;
+margin: 1em auto;
 }
 .mobsecmain_notice{
-    background: #EDF2FA;
-    border-radius: 17px;
-    padding: 1em 2em;
+background: #EDF2FA;
+border-radius: 17px;
+padding: 1em 2em;
 }
 .outs_balc .amt_payment.gvnoticbtns .btn.full_amt,.outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
-    width: 275px;
-    height: 44px;
-    font-size: 18px;
+width: 275px;
+height: 44px;
+font-size: 18px;
 }
 .gvnoticetxtleft p{
 font-family: 'Helvetica';
@@ -4883,12 +4916,12 @@ color: #315D80;
 margin:0;
 }
 .gvnoticedateright{
-    text-align: right;
-    position: relative;
+text-align: right;
+position: relative;
 }
 .gvnoticedateright .btn i {
-    font-size: 17px;
-    vertical-align: middle;
+font-size: 17px;
+vertical-align: middle;
 }
 .gvnoticedateright p{
 font-family: 'Helvetica';
@@ -4900,77 +4933,77 @@ color: #315D80;
 margin:0;
 }
 .btn.btnreqgvnotice{
-    font-family: 'Helvetica';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 23px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
-    background: #F2727F;
-    border-radius: 40px;
-    padding: 4px 12px 5px 12px;
-    border:unset;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 14px;
+line-height: 23px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+background: #F2727F;
+border-radius: 40px;
+padding: 4px 12px 5px 12px;
+border:unset;
 }
 .mobsecmain_notice .bordm_btm{
-    border-top: 1px solid #C9D7E5;
-    display: block;
-    margin: 10px 0;
+border-top: 1px solid #C9D7E5;
+display: block;
+margin: 10px 0;
 }
 .outs_balc{
-    background: #EDF2FA;
-    box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08);
-    border-radius: 17px;
-    padding: 1em;
+background: #EDF2FA;
+box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08);
+border-radius: 17px;
+padding: 1em;
 }
 .outs_balc .amt_payment .btn.full_amt {
-    margin: 0 6px 11px 0px;
+margin: 0 6px 11px 0px;
 }
 .gvnotid_depos_div .bgcolr_depos {
-    text-align: center;
+text-align: center;
 }
 .gvnotid_depos_div .bgcolr_depos .flex_centercss {
-    padding: 0;
+padding: 0;
 }
 .btmr_gvnotice_transac{
-    background: #EDF2FA;
-    border-radius: 17px;
-    padding: 1.3em 2em;
+background: #EDF2FA;
+border-radius: 17px;
+padding: 1.3em 2em;
 }
 .trans_heading{
-    text-align: left;
+text-align: left;
 }
 /* give notice mobile view end */
 
 /* transactions */
 .transac_balpage .transac .divinfo {
-    display: block;
+display: block;
 }
 .trans_depositdiv .trans_details {
-    padding: 8px 13px;
-    width: 140px;
+padding: 8px 13px;
+width: 140px;
 }
 .transac_balpage .transac .myinfo_txt{
-    margin:0 0 1em 0;
+margin:0 0 1em 0;
 }
 .trans_depositdiv .trans_details p {
-    font-size: 13px;
+font-size: 13px;
 }
 .trans_depositdiv .trans_txt h3 {
-    font-size: 18px;
-    text-align: center;
+font-size: 18px;
+text-align: center;
 }
 .trans_depositdiv .trans_txt p {
-    font-size: 16px;
+font-size: 16px;
 }
 .transac_balpage .transac .myinfo_txt img {
-    vertical-align: middle;
-    height: 22px;
-    width: 22px;
+vertical-align: middle;
+height: 22px;
+width: 22px;
 }
 .aply_creditbg .trans_txt h3,.aply_creditbg .trans_txt p {
-    margin: 0 0 12px 0;
+margin: 0 0 12px 0;
 }
 /* end of transactions */
 /* price range  */
@@ -5795,56 +5828,61 @@ right: 13px;
 }
 }
 @media only screen and (max-width: 640px){
-    .twobtn_showings .btn.sendlease {
-        padding: 5px 22px;
-        margin: 0 5px 0 0;
-    }
-    .btn.declbtn, .btn.confrbtntw {
-        margin: 0 0 7px 0;
-    }
+.twobtn_showings .btn.sendlease {
+padding: 5px 22px;
+margin: 0 5px 0 0;
+}
+.btn.declbtn, .btn.confrbtntw {
+margin: 0 0 7px 0;
+}
+/* reserve now */
+.signin_popupreservenow .modal-header {
+width: 94%;
+}
+/* end of reserve now */
 /* give notice */
 .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
-    width: 95%;
-    left: 11px;
-    top: 10px;
+width: 95%;
+left: 11px;
+top: 10px;
 }
 .twbtns_div {
-    margin: 1em 0 10px 0;
+margin: 1em 0 10px 0;
 }
 /* end of give notice */
 /* showing confirmed block */
 .shw_divbody img {
-    height: 94px;
+height: 94px;
 }
 /* end of showing confirmed block */
 
 /* transactions */
 .transac_balpage .transac .myinfo_txt img {
-    vertical-align: sub;
+vertical-align: sub;
 }
 .tabmyinfo.transac .card.balancecard .card-header {
-    padding: 16px 20px 21px 20px;
+padding: 16px 20px 21px 20px;
 }
 .tabmyinfo.transac .card.balancecard .card-header h3 {
-    font-size: 18px;
-    text-transform: capitalize;
+font-size: 18px;
+text-transform: capitalize;
 }
 .tabmyinfo.transac .twobuttons_div .btn.pay_amt,.tabmyinfo.transac .twobuttons_div .btn.makepay_amt {
-    padding: 7px 13px;
+padding: 7px 13px;
 }
 /* end of transactions */
 
 /* confirm showing pop up */
 .confirmtime_div p.alignp_confr img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .confirmpopupdiv .modal-header h4 {
-    font-size: 18px;
+font-size: 18px;
 }
 .modal.confirmpopupdiv {
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+top: 65%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 /* confirm showing pop up end */
 /* price range */
@@ -6691,122 +6729,130 @@ top: -28px;
 }
 @media only screen and (max-width:575px) {
 
+/* reserve now  */
+.signin_popupreservenow .modal-header {
+width: 93.6%;
+}
+.beforesignin p {
+width: 83%;
+}
+/* end of reserve now */
 /* give notice */
 .reqdate_btnclick.mobilereqbtnclk .meet_datediv .meet_inputdate .input-group-text img{
-    margin: -3px 0 0 0;
+margin: -3px 0 0 0;
 }
 .mobsecmain_notice{
-    position: relative;
+position: relative;
 }
 .gvnotid_depos_div .trans_details p {
-    font-size: 12px;
-    line-height: 15px;
+font-size: 12px;
+line-height: 15px;
 }
 .gvnoticedateright {
-    position: unset;
+position: unset;
 }
 .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
-    left: 7px;
-    top: 21px;
+left: 7px;
+top: 21px;
 }
 .reqdate_btnclick.mobilereqbtnclk .meet_datediv input.form-control {
-    font-size: 12px;
+font-size: 12px;
 }
 .reqdate_btnclick.mobilereqbtnclk .meet_inputdate.input-group {
-    flex-basis: 57%;
+flex-basis: 57%;
 }
 .gvnoticedateright .btn i {
-    vertical-align: text-bottom;
+vertical-align: text-bottom;
 }
 .reqdate_btnclick.mobilereqbtnclk .meet_datediv .label_meet {
-    flex-basis: 43%;
+flex-basis: 43%;
 }
 .btnreqgvnotice.mobilereq_date.changeborderbtn i {
-    vertical-align: middle;
+vertical-align: middle;
 }
 .reqdate_btnclick.mobilereqbtnclk .select-box .label,.reqdate_btnclick.mobilereqbtnclk .select-box1 .label {
-    padding: 7px 10px 5px 10px;
+padding: 7px 10px 5px 10px;
 }
 .btn.btnreqgvnotice{
-    font-weight: 500;
-    font-size: 12px;
+font-weight: 500;
+font-size: 12px;
 }
 /* end of give notice */
 /* showing confirmed block */
 .addrdescrp_show p {
-    font-size: 13px;
-    line-height: 17px;
-    margin: 7px 0 0 0;
+font-size: 13px;
+line-height: 17px;
+margin: 7px 0 0 0;
 }
 .showingconfr_heading {
-    margin: 0.7em 0 2em 0;
+margin: 0.7em 0 2em 0;
 }
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
-    margin: 0 7px 6px 7px;
+margin: 0 7px 6px 7px;
 }
 .addrdescrp_show p{
-    margin:4px 7px 0 7px;
+margin:4px 7px 0 7px;
 }
 .firstimgblk_clr {
-    padding: 0 5px 0 0px;
+padding: 0 5px 0 0px;
 }
 .shw_divbody img {
-    height: 103px;
+height: 103px;
 }
 .showingconfr_bodydesign .timelabel span,.showingconfr_bodydesign .datelabel span{
-    font-weight: 700;
+font-weight: 700;
 }
 /* end of showing confirmed pop up */
 
 /* transactions */
 .tabmyinfo.transac .blu_colr {
-    width: 74%;
+width: 74%;
 }
 .paidmobile_hide{
-    display: none;
+display: none;
 }
 .my_info.tabmyinfo.transac {
-    margin: 0 0 1.3em 0;
+margin: 0 0 1.3em 0;
 }
 .trans_depositdiv .trans_details {
-    width: 155px;
+width: 155px;
 }
 .trans_depositdiv .trans_details p {
-    line-height: 17px;
+line-height: 17px;
 }
 .trans_depositdiv .bgcolr_depos {
-    margin: 0;
+margin: 0;
 }
 .aply_creditbg .bgcolr_depos {
-    margin: 10px 0 0 0;
+margin: 10px 0 0 0;
 }
 .trans_depositdiv .trans_txt p {
-    margin: 7px 0 10px 0;
+margin: 7px 0 10px 0;
 }
 .download_trans .btn.btn_download img {
-    vertical-align: middle;
-    height: 25px;
-    margin: -4px 0 0px 5px;
+vertical-align: middle;
+height: 25px;
+margin: -4px 0 0px 5px;
 }
 .tabmyinfo.transac .card.balancecard .card-body {
-    padding: 16px 15px 17px 15px;
+padding: 16px 15px 17px 15px;
 }
 .transac_balpage .download_trans {
-    margin: 1.1em 0 0.4em 0;
+margin: 1.1em 0 0.4em 0;
 }
 .tabmyinfo.transac .set_custom {
-    padding: 0 6px 0 17px;
+padding: 0 6px 0 17px;
 }
 .tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
-    padding: 2px 30px;
+padding: 2px 30px;
 }
 .tabmyinfo.transac .pricediv {
-    margin: 0 0 5px 0;
-    text-align: center;
+margin: 0 0 5px 0;
+text-align: center;
 }
 .tabmyinfo.transac .twobuttons_div .btn.pay_amt, .tabmyinfo.transac .twobuttons_div .btn.makepay_amt {
-    padding: 7px 30px;
-    font-size: 15px;
+padding: 7px 30px;
+font-size: 15px;
 }
 /* end of transactions */
 
@@ -7490,7 +7536,7 @@ font-size: 13px;
 font-size: 15px;
 }
 .confirmshow_divgreen .confrm_div p, .confirmshow_divyellow .confrm_div p {
-    font-size: 15px;
+font-size: 15px;
 }
 .confrm_div span:nth-child(2) {
 font-size: 15px;
@@ -7860,14 +7906,14 @@ flex-basis: 55%;
 
 /* give notice */
 .mobsecmain_notice .bordm_btm {
-    margin: 15px 0;
+margin: 15px 0;
 }
 .btmr_gvnotice_transac {
-    padding: 1.3em 1em;
+padding: 1.3em 1em;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 10px 10px;
-    width: 68%;
+padding: 10px 10px;
+width: 68%;
 }
 /* end of give notice  */
 
@@ -7879,23 +7925,23 @@ height: 110px;
 
 /* transactions */
 .tabmyinfo.transac .blu_colr {
-    width: 67%;
+width: 67%;
 }
 .tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
-    padding: 2px 40px;
+padding: 2px 40px;
 }
 /* end of transactions */
 
 /* price range */
 .pricerange_search {
-    width: 90%;
-    margin: 0 auto 1em auto;
+width: 90%;
+margin: 0 auto 1em auto;
 }
 .btmfilter_btns {
-    width: 100%;
+width: 100%;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img, .similar_unitsdiv .pricerangeslider_two .leasedslider .imageover_details > img {
-    height: 149px;
+height: 149px;
 }
 /* end of price range */
 /* showings calender view */
@@ -8132,93 +8178,101 @@ top: 11px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
-/* showing confirmed */
+/* reserve now */
+.signin_popupreservenow .modal-dialog {
+    max-width: 100%;
+}
+.signin_popupreservenow .modal-content .modal-header {
+    padding: 14px 0 4px 0;
+}
+/* end of reserve now */
+    /* showing confirmed */
 .shw_divbody img {
-    height: 100px;
+height: 100px;
 }
 /* end of showing confirmed */
-    /* give notice */
-    .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
-        left: 13px;
-        top: 16px;
-        width: 93%;
-    }
+/* give notice */
+.reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
+left: 13px;
+top: 16px;
+width: 93%;
+}
 .mobsecmain_notice .bordm_btm {
-    margin: 15px 0;
+margin: 15px 0;
 }
 .gvnotid_depos_div .trans_txt h3 {
-    font-size: 18px;
+font-size: 18px;
 }
 .btmr_gvnotice_transac .trans_heading {
-    margin: 0 0 1em 0;
+margin: 0 0 1em 0;
 }
 .outs_balc .amount_trans p {
-    font-size: 13px;
+font-size: 13px;
 }
 .outs_balc .amount_trans h3 {
-    margin: 0 0 7px 0;
+margin: 0 0 7px 0;
 }
 .gvnotid_depos_div .trans_txt p {
-    margin: 10px 0 8px 0;
+margin: 10px 0 8px 0;
 }
 .outs_balc .amt_payment {
-    margin: 17px 0 0 0;
+margin: 17px 0 0 0;
 }
 .gvnotid_depos_div .trans_txt p {
-    font-size: 16px;
+font-size: 16px;
 }
 .mobsecmain_notice {
-    padding: 1em;
+padding: 1em;
 }
 .btmr_gvnotice_transac {
-    padding: 1.3em 1em;
+padding: 1.3em 1em;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 6px 10px;
-    width: 68%;
+padding: 6px 10px;
+width: 68%;
 }
 /* end of give notice  */
 /* transactions */
 .tabmyinfo.transac .blu_colr {
-    width: 53%;
+width: 53%;
 }
 .monthcustom {
-    justify-content: space-between;
+justify-content: space-between;
 }
 .trans_depositdiv .trans_details {
-    width: 165px;
+width: 165px;
 }
 .transac_balpage .download_trans {
-    margin: 1.3em 0 0.3em 0;
+margin: 1.3em 0 0.3em 0;
 }
 .tabmyinfo.transac .set_custom {
-    padding: 0 21px 0 10px;
+padding: 0 21px 0 10px;
 }
 /* end of transactions */
 /* price range */
 .pricerange_search {
-    width: 90%;
-    margin: 0 auto 1em auto;
+width: 90%;
+margin: 0 auto 1em auto;
 }
 .similar_unitsdiv .pricerange_sliderone .slick-track, .similar_unitsdiv .pricerangeslider_two .slick-track {
-    margin-left: 135px;
+margin-left: 135px;
 }
 .similar_unitsdiv .leasedslider .slidelocation_div span img {
-    height: 16px;
+height: 16px;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img, .similar_unitsdiv .pricerangeslider_two .leasedslider .imageover_details > img {
-    height: 132px;
+height: 132px;
 }
 .btmfilter_btns {
-    width: 100%;
+width: 100%;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img, .similar_unitsdiv .pricerangeslider_two .leasedslider .imageover_details > img {
-    height: 149px;
+height: 149px;
 }
 /* end of price range */
 
 
-    /* find property */
+/* find property */
 .prop_find_details img {
 height: 89px;
 }
@@ -8942,20 +8996,55 @@ width: 56%;
 
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
+/* reserve now */
+ .signin_popupreservenow .modal-content .modal-header {
+    padding: 14px 0 10px 0;
+}
+.beforesignin p {
+    width: 91%;
+}
+/* end of reserve now */
+/* showing completed */
+.showingcompl_detailsdiv {
+    margin: 14px 0 0 0;
+}
+.signin_popupreservenow .modal-dialog {
+    max-width: 100%;
+}
+.signin_popupreservenow .modal-header {
+    width: 93.3%;
+}
+.showing_complete .mob_pad {
+    padding: 0 7px;
+}
+.showing_complete .twobtn_showings .btn.sendlease {
+    padding: 4px 10px;
+    margin: 0 5px 0 0;
+}
+.showingcompl_detailsdiv p {
+    font-size: 11px;
+    margin: 0 0 10px 0;
+}
+.showingcompl_detailsdiv h3 {
+    font-size: 13px;
+    line-height: 12px;
+}
+/* end of showing completed */
+
 /* showing confirmed */
 .shw_divbody img {
-    height: 87px;
+height: 87px;
 }
 .addrdescrp_show p {
-    font-size: 12px;
-    line-height: 15px;
-    margin: 0px 7px 0 
+font-size: 12px;
+line-height: 15px;
+margin: 0px 7px 0 
 }
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
-    margin: 0 7px 4px 7px;
+margin: 0 7px 4px 7px;
 }
 .showingconfr_bodydesign .timelabel span,.showingconfr_bodydesign .datelabel span {
-    font-size: 12px;
+font-size: 12px;
 }
 /* end of showing confirmed */
 /* find property */
@@ -9157,7 +9246,7 @@ font-size: 12px;
 font-size: 13px;
 }
 .confirmshow_divgreen .confrm_div p, .confirmshow_divyellow .confrm_div p {
-    font-size: 14px;
+font-size: 14px;
 }
 .confrm_div p {
 font-size: 14px;
@@ -9446,182 +9535,222 @@ margin: 0 0 0 10px;
 }
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
-   /* showing confirmed */
-.shw_divbody img {
-    height: 87px;
+/* reserve now */
+.signin_popupreservenow .modal-content .modal-header {
+    padding: 14px 0;
+    margin: 0 auto -1px auto;
 }
-.showingconfr_heading p {
-    margin: 0;
+.signin_popupreservenow .modal-content .sendoffraccord {
+    padding: 0px 12px 5px 12px;
 }
-.showingconfr_bodydesign .timelabel span,.showingconfr_bodydesign .datelabel span {
-    font-size: 12px;
+.beforesignin p {
+    width: 91%;
 }
-.addrdescrp_show p {
-    font-size: 12px;
-    line-height: 15px;
+.signin_popupreservenow .modal-header {
+    width: 92.8%;
 }
-/* end of showing confirmed */
-   
-    /* give notice */
-    .mobsecmain_notice .bordm_btm {
-        margin: 15px 0 10px 0;
-    }
-    .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
-        left: 12px;
-        top: 15px;
-        width:92%;
-    }
-    .algncenter_notice{
-        align-items: center;
-    }
-    .termi_css{
-        flex: 70%;
-        max-width: 70%;
-    }
-    .tercssflx{
-        align-items: center;
-    }
-    .btn.vacatebtn_notice p:first-child {
-        font-size: 16px;
-        line-height: 16px;
-    }
-    .dateflx_css{
-        flex: 28%;
-        max-width: 28%;
-    }
-    .gvnoticetxtleft p {
-        font-size: 13px;
-    }
-    .mobsecmain_notice {
-        padding: 0.7em 0.5em;
-    }
-    .btn.btnreqgvnotice {
-        font-size: 13px;
-        line-height: 12px;
-        padding: 6px 14px;
-    }
-    .gvnotid_depos_div .trans_txt h3 {
-        font-size: 18px;
-    }
-    .btmr_gvnotice_transac .trans_heading {
-        margin: 0 0 1em 0;
-    }
-    .outs_balc .amount_trans p {
-        font-size: 13px;
-    }
-    .outs_balc .amount_trans h3 {
-        margin: 0 0 12px 0;
-    }
-    .outs_balc .amt_payment {
-        margin: 17px 0 0 0;
-    }
-    .gvnotid_depos_div .trans_txt p {
-        font-size: 15px;
-        margin: 10px 0 6px 0;
-    }
-    .mobsecmain_notice {
-        padding: 1em;
-    }
-    .btmr_gvnotice_transac {
-        padding: 1.3em 1em;
-    }
-    .gvnotid_depos_div .trans_details {
-        padding: 7px 10px;
-        width: 80%;
-    }
-    /* end of give notice  */
-
-
-    /* transactions */
-.rightside_sepsec.trans_depositdiv {
-        padding: 11px 7px 11px 7px;
+/* end of reserve now */
+/* showing completed */
+.showingcompl_detailsdiv {
+    margin: 14px 0 0 0;
 }
-.tabmyinfo.transac .pricetxt {
+.signin_popupreservenow .modal-dialog {
+    max-width: 100%;
+}
+.showing_complete .mob_pad {
+    padding: 0 7px;
+}
+.showing_complete .twobtn_showings .btn.sendlease {
+    padding: 4px 10px;
+    margin: 0 5px 0 0;
+}
+.showingcompl_detailsdiv p {
+    font-size: 11px;
     margin: 0 0 10px 0;
 }
+.showingcompl_detailsdiv h3 {
+    font-size: 13px;
+    line-height: 12px;
+}
+/* end of showing completed */
+
+
+    /* showing confirmed */
+.shw_divbody img {
+height: 87px;
+}
+.showingconfr_heading p {
+margin: 0;
+}
+.showingconfr_bodydesign .timelabel span,.showingconfr_bodydesign .datelabel span {
+font-size: 12px;
+}
+.addrdescrp_show p {
+font-size: 12px;
+line-height: 15px;
+}
+/* end of showing confirmed */
+
+/* give notice */
+.mobsecmain_notice .bordm_btm {
+margin: 15px 0 10px 0;
+}
+.reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
+left: 12px;
+top: 15px;
+width:92%;
+}
+.algncenter_notice{
+align-items: center;
+}
+.termi_css{
+flex: 70%;
+max-width: 70%;
+}
+.tercssflx{
+align-items: center;
+}
+.btn.vacatebtn_notice p:first-child {
+font-size: 16px;
+line-height: 16px;
+}
+.dateflx_css{
+flex: 28%;
+max-width: 28%;
+}
+.gvnoticetxtleft p {
+font-size: 13px;
+}
+.mobsecmain_notice {
+padding: 0.7em 0.5em;
+}
+.btn.btnreqgvnotice {
+font-size: 13px;
+line-height: 12px;
+padding: 6px 14px;
+}
+.gvnotid_depos_div .trans_txt h3 {
+font-size: 18px;
+}
+.btmr_gvnotice_transac .trans_heading {
+margin: 0 0 1em 0;
+}
+.outs_balc .amount_trans p {
+font-size: 13px;
+}
+.outs_balc .amount_trans h3 {
+margin: 0 0 12px 0;
+}
+.outs_balc .amt_payment {
+margin: 17px 0 0 0;
+}
+.gvnotid_depos_div .trans_txt p {
+font-size: 15px;
+margin: 10px 0 6px 0;
+}
+.mobsecmain_notice {
+padding: 1em;
+}
+.btmr_gvnotice_transac {
+padding: 1.3em 1em;
+}
+.gvnotid_depos_div .trans_details {
+padding: 7px 10px;
+width: 80%;
+}
+/* end of give notice  */
+
+
+/* transactions */
+.rightside_sepsec.trans_depositdiv {
+padding: 11px 7px 11px 7px;
+}
+.tabmyinfo.transac .pricetxt {
+margin: 0 0 10px 0;
+}
 .tabmyinfo.transac .price_ptxt {
-    margin: 0 0 7px 0;
+margin: 0 0 7px 0;
 }
 .tabmyinfo.transac .set_custom {
-    padding: 0 18px 0 6px;
+padding: 0 18px 0 6px;
 }
 .monthcustom {
-    justify-content: space-between;
+justify-content: space-between;
 }
 .tabmyinfo.transac .blu_colr {
-    width: 62%;
+width: 62%;
 }
 .transactions_table tbody tr td {
-    font-size: 13px;
+font-size: 13px;
 }
 .aply_creditbg .flexalgn_div{
-    padding: 0 5px;
+padding: 0 5px;
 }
 .aply_creditbg .btn.preapprovtrans {
-    padding: 13px 4px 13px 12px;
-    font-size: 11px;
+padding: 13px 4px 13px 12px;
+font-size: 11px;
 }
 .aply_creditbg .bgcolr_depos {
-    padding: 10px 8px;
+padding: 10px 8px;
 }
 /* end of transactions */
 
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p {
-    width: 81%;
+width: 81%;
 }
 .confirmpopupdiv .modal-body {
-    padding: 11px;
+padding: 11px;
 }
 .confirmpopupdiv .modal-dialog .modal-content {
-    width: 91%;
+width: 91%;
 }
 .confirmtime_div p.alignp_confrl img,.confirmtime_div p.alignp_confr img {
-    vertical-align: top;
+vertical-align: top;
 }
 .flx_addrimg {
-    width: 75%;
+width: 75%;
 }
 /* end of confirm showing pop up */
 /* price range */
 .pricerange_search {
-    width: 96%;
-    margin: 0 auto 1em auto;
+width: 96%;
+margin: 0 auto 1em auto;
 }
 .btmfilter_btns {
-    width: 100%;
+width: 100%;
 }
 .padcss_div{
-    padding:0;
+padding:0;
 }
 .btn.propnotify{
-    margin: 0px 0px 0 -32px;
+margin: 0px 0px 0 -32px;
 }
 .btn.saveprop, .btn.propnotify {
-    font-size: 13px;
+font-size: 13px;
 }
 .pricerange_search .input-group-append .btn.btnmap {
-    font-size: 0.8em;
-    padding: 9px 11px 9px 15px;
+font-size: 0.8em;
+padding: 9px 11px 9px 15px;
 }
 .pricerange_search .input-group-append .btn.btnmap img{
-    height: 16px;
-    vertical-align: sub;
+height: 16px;
+vertical-align: sub;
 }
 .btn.filterpricerg {
-    margin: -4px 0 0 12px;
+margin: -4px 0 0 12px;
 }
 .btn.saveprop, .btn.propnotify {
-    width: auto;
+width: auto;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img, .similar_unitsdiv .pricerangeslider_two .leasedslider .imageover_details > img {
-    height: 152px;
+height: 152px;
 }
 .similar_unitsdiv .pricerange_sliderone .slick-track, .similar_unitsdiv .pricerangeslider_two .slick-track {
-    margin-left: 27px;
+margin-left: 27px;
 }
 .similar_unitsdiv .leasedslider .slidelocation_div span img {
-    height: 16px;
+height: 16px;
 }
 /* end of price range */
 
@@ -10403,7 +10532,7 @@ font-size: 12px;
 font-size: 13px;
 }
 .confirmshow_divgreen .confrm_div p, .confirmshow_divyellow .confrm_div p {
-    font-size: 13px;
+font-size: 13px;
 }
 .showimgpend img {
 height: 86px;
@@ -10775,74 +10904,97 @@ left: -18px;
 }
 
 @media only screen and (max-width: 390px) {
-   /* showing confirmed */
+/* showing completed */
+.showingcompl_detailsdiv h3 {
+    font-size: 12px;
+    margin: 0 0 5px 0;
+}
+.signin_popupreservenow .modal-header {
+    width: 92%;
+}
+.showing_complete .detshow_div .showing_detailsdiv {
+    margin: 0 0 10px 0;
+}
+.showing_complete .twobtn_showings .btn.sendlease {
+    padding: 4px 7px;
+    margin:0;
+}
+.showingcompl_detailsdiv {
+    margin: 15px 0 0 0;
+}
+.showingcompl_detailsdiv p {
+    font-size: 10px;
+    margin: 0 0 8px 0;
+}
+/* end of showing completed */
+/* showing confirmed */
 .scheshow_flex .clcross_icon {
-    right: 4px;
+right: 4px;
 }
 .algncenter_notice{
-    align-items: center;
+align-items: center;
 }
 .confirmshow_divgreen .confrm_div p, .confirmshow_divyellow .confrm_div p {
-    font-size: 12px;
+font-size: 12px;
 }
 .shw_divbody img {
-    height: 87px;
+height: 87px;
 }
 .showingconfr_heading {
-    margin: 0.3em 0 1.7em 0;
+margin: 0.3em 0 1.7em 0;
 }
 /* end of showing confirmed */
 /* give notice mobile view */
 .gvnotid_depos_div .trans_txt p {
-    font-size: 14px;
-    margin: 10px 0 5px 0;
+font-size: 14px;
+margin: 10px 0 5px 0;
 }
 .btmr_gvnotice_transac .trans_heading {
-    margin: 0 0 0.5em 0;
+margin: 0 0 0.5em 0;
 }
 .btn.btnreqgvnotice {
-    font-size: 13px;
-    padding: 6px 14px 9px 14px;
+font-size: 13px;
+padding: 6px 14px 9px 14px;
 }
 .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
-    left: 14px;
-    top: 17px;
-    width: 91%;
+left: 14px;
+top: 17px;
+width: 91%;
 }
 .outs_balc .amt_payment .btn.full_amt {
-    margin: 0 0px 11px 0px;
+margin: 0 0px 11px 0px;
 }
 /* end of give notice mobile view */
 /* transactions */
 .tabmyinfo.transac .blu_colr {
-    width: 63%;
-    justify-content: space-between;
+width: 63%;
+justify-content: space-between;
 }
 .trans_depositdiv .trans_txt h3 {
-    margin: 0 0 7px 0;
+margin: 0 0 7px 0;
 }
 .trans_depositdiv .trans_txt p {
-    margin: 9px 0 12px 0;
+margin: 9px 0 12px 0;
 }
 .tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
-    padding: 2px 20px;
+padding: 2px 20px;
 }
 /* end of transactions */
 /* confirm showings pop up */
 .confirmtime_div p {
-    font-size: 13px;
-    line-height: 16px;
+font-size: 13px;
+line-height: 16px;
 }
 .confirmpopupdiv .modal-body {
-    padding: 11px;
+padding: 11px;
 }
 /* end of confirm showing popup */
 /* price range */
 .similar_unitsdiv .pricerange_sliderone .slick-track, .similar_unitsdiv .pricerangeslider_two .slick-track {
-    margin-left: 28px;
+margin-left: 28px;
 }
 .pricelabel_range p {
-    margin: -11px 19px 0 0px;
+margin: -11px 19px 0 0px;
 }
 
 /* endof price range */
@@ -11127,25 +11279,25 @@ height: 21px;
 @media only screen and (max-width: 385px) and (min-width:376px) {
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p {
-    width: 88%;
+width: 88%;
 }
 .confirmpopupdiv .modal-body {
-    padding: 11px;
+padding: 11px;
 }
 .confirmtime_div p img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .confirmpopupdiv .modal-header h4 {
-    margin: 0 0px 18px 0px;
+margin: 0 0px 18px 0px;
 }
 .confirmpopupdiv .modal-dialog .modal-content {
-    width: 95%;
+width: 95%;
 }
 .flx_addrimg {
-    width: 68%;
+width: 68%;
 }
 .confirmpopupdiv .modal-header {
-    padding: 1.5em 0 2.8em 0;
+padding: 1.5em 0 2.8em 0;
 }
 /* end of confirm showing pop up */
 
@@ -11154,25 +11306,25 @@ max-height: 560px;
 }
 /* price range */
 .btmfilter_btns {
-    width: 100%;
+width: 100%;
 }
 .padcss_div {
-    padding: 0;
+padding: 0;
 }
 .btn.saveprop, .btn.propnotify {
-    width: auto;
+width: auto;
 }
 .btmfilter_btns {
-    padding: 1.7em 0.4em 1.1em 0.4em;
+padding: 1.7em 0.4em 1.1em 0.4em;
 }
 .btn.filterpricerg {
-    margin: 0 -22px 0 5px;
+margin: 0 -22px 0 5px;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img, .similar_unitsdiv .pricerangeslider_two .leasedslider .imageover_details > img {
-    height: 145px;
+height: 145px;
 }
 .algntxt {
-    margin: 0 0 0 -39px;
+margin: 0 0 0 -39px;
 }
 /* end of price range */
 /* showings offer lease */
@@ -11750,151 +11902,186 @@ left: -22px;
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
+/* showing completed */
+.showing_complete .mob_pad {
+    padding: 0 6px;
+}
+.showingcompl_detailsdiv h3 {
+    font-size: 11px;
+    margin: 0px 0 1px 0;
+}
+.showing_complete .twobtn_showings .btn.sendlease {
+    font-size: 10px;
+    padding: 4px 11px;
+}
+.showing_complete .detshow_div .showimgpend img {
+    height: 92px;
+}
+/* end of showing completed */
+/* reserve now */
+.signin_popupreservenow .modal-dialog {
+    max-width: 100%;
+}
+.signin_popupreservenow .modal-content .modal-header {
+    padding: 14px 0 0px 0;
+    margin: 0 auto -1px auto;
+}
+.signin_popupreservenow .btn.declbtn,.signin_popupreservenow .btn.confrbtntw {
+    margin: 0;
+}
+.beforesignin p {
+    width: 95%;
+}
+.signin_popupreservenow .modal-header h4 {
+    font-size: 17px;
+    line-height: 28px;
+}
+/* end of reserve now */
     /* showing confirmed */
-    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
-        margin: 0 7px 5px 3px;
-    }
-    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
-        height: 13px;
-    }
-    .addrdescrp_show p {
-        margin: 0px 0px 0 3px;
-        font-size: 11px;
-    }
-    .firstimgblk_clr {
-        padding: 0 9px 0 0px;
-    }
-    /* showing confirmed end */
-    /* give notice */
-   .mobsecmain_notice .bordm_btm {
-    margin: 15px 0;
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+margin: 0 7px 5px 3px;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
+height: 13px;
+}
+.addrdescrp_show p {
+margin: 0px 0px 0 3px;
+font-size: 11px;
+}
+.firstimgblk_clr {
+padding: 0 9px 0 0px;
+}
+/* showing confirmed end */
+/* give notice */
+.mobsecmain_notice .bordm_btm {
+margin: 15px 0;
 }
 .btn.btnreqgvnotice {
-    padding: 3px 14px 3px 14px;
+padding: 3px 14px 3px 14px;
 }
 .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
-    left: 12px;
-    top: 12px;
+left: 12px;
+top: 12px;
 }
 .outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
-    font-size: 16px;
+font-size: 16px;
 }
 .gvnotid_depos_div .bgcolr_depos {
-    padding: 15px 5px 10px 5px;
+padding: 15px 5px 10px 5px;
 }
 .termi_css{
-    flex: 70%;
-    max-width: 70%;
+flex: 70%;
+max-width: 70%;
 }
 .gvnotid_depos_div .trans_txt h3 {
-    font-size: 16px;
+font-size: 16px;
 }
 .trans_details p {
-    font-size: 11px;
-    line-height: 16px;
+font-size: 11px;
+line-height: 16px;
 }
 .tercssflx{
-    align-items: center;
+align-items: center;
 }
 .btn.vacatebtn_notice p:first-child {
-    font-size: 16px;
-    line-height: 16px;
+font-size: 16px;
+line-height: 16px;
 }
 .dateflx_css{
-    flex: 28%;
-    max-width: 28%;
+flex: 28%;
+max-width: 28%;
 }
 .gvnoticetxtleft p {
-    font-size: 13px;
+font-size: 13px;
 }
 .mobsecmain_notice {
-    padding: 0.7em 0.5em;
+padding: 0.7em 0.5em;
 }
 .outs_balc .amount_trans p {
-    font-size: 13px;
+font-size: 13px;
 }
 .outs_balc .amount_trans h3 {
-    margin: 0 0 12px 0;
+margin: 0 0 12px 0;
 }
 .trans_heading {
-    margin: 0 0 1em 0;
+margin: 0 0 1em 0;
 }
 .outs_balc .amt_payment {
-    margin: 17px 0 0 0;
+margin: 17px 0 0 0;
 }
 .gvnotid_depos_div .trans_txt p {
-    margin: 5px 0 6px 0;
+margin: 5px 0 6px 0;
 }
 .mobsecmain_notice {
-    padding: 1em;
+padding: 1em;
 }
 .btmr_gvnotice_transac {
-    padding: 1.3em 1em;
+padding: 1.3em 1em;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 7px 10px;
-    width: 80%;
+padding: 7px 10px;
+width: 80%;
 }
 /* end of give notice  */
 /* transactions */
 .tabmyinfo.transac .set_custom {
-    padding: 0 6px 0 12px;
+padding: 0 6px 0 12px;
 }
 .aply_creditbg .flexalgn_div{
-    padding: 0 5px;
+padding: 0 5px;
 }
 .aply_creditbg .bgcolr_depos .flex_centercss {
-    padding: 0px 8px;
+padding: 0px 8px;
 }
 .aply_creditbg .btn.preapprovtrans {
-    padding: 13px 5px 13px 9px;
-    font-size: 11px;
+padding: 13px 5px 13px 9px;
+font-size: 11px;
 }
 /* end of transactions */
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p {
-    width: 88%;
+width: 88%;
 }
 .confirmtime_div p img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .confirmpopupdiv .modal-header h4 {
-    margin: 0 0px 18px 0px;
+margin: 0 0px 18px 0px;
 }
 .confirmpopupdiv .modal-dialog .modal-content {
-    width: 95%;
+width: 95%;
 }
 .flx_addrimg {
-    width: 75%;
+width: 75%;
 }
 .confirmpopupdiv .modal-header {
-    padding: 1.5em 0 2.8em 0;
+padding: 1.5em 0 2.8em 0;
 }
 /* end of confirm showing pop up */
 
 
 /* price range */
 .btmfilter_btns {
-    width: 100%;
+width: 100%;
 }
 .btn.saveprop, .btn.propnotify {
-    font-size: 12px;
-    width: auto;
+font-size: 12px;
+width: auto;
 }
 .padcss_div {
-    padding: 0;
+padding: 0;
 }
 .btmfilter_btns {
-    padding: 1.7em 0.4em 1.1em 0.4em;
+padding: 1.7em 0.4em 1.1em 0.4em;
 }
 .btn.filterpricerg {
-    margin: 0 -35px 0 10px;
+margin: 0 -35px 0 10px;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img, .similar_unitsdiv .pricerangeslider_two .leasedslider .imageover_details > img {
-    height: 145px;
+height: 145px;
 }
 .algntxt {
-    margin: 0 0 0 -51px;
+margin: 0 0 0 -51px;
 }
 /* end of price range */
 /* find property */
@@ -12734,250 +12921,295 @@ width: 37%;
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
-    .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-        font-size: 11px;
-    }
-    .schedtour_popup .stepsmodal_body .seldateboxsche_prop {
-        justify-content: center;
-        flex-direction: column;
-    }
-    .schedtour_popup .modal-content, .schedtour_popup .modal-content .tab-content .container {
-        padding: 0;
-    }
-    .sche_tour .switch-field label {
-        font-size: 11px;
-    }
-      /* showing confirmed */
-      .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
-        margin: 0 7px 5px 3px;
-    }
-    .showingconfr_heading img {
-        height: 34px;
-        width: 34px;
-        margin: 0 auto 10px auto;
-    }
-    .showingconfr_heading p {
-        font-size: 14px;
-    }
-    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
-        height: 13px;
-    }
-    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
-       font-size: 12px;
-    }
-    .addrdescrp_show p {
-        margin: 0px 0px 0 3px;
-        font-size: 11px;
-    }
-    .firstimgblk_clr {
-        padding: 0 9px 0 0px;
-    }
-    /* showing confirmed end */
-  
-    /* give notice */
-    .reqdate_btnclick.mobilereqbtnclk .date_apptdesign {
-        padding: 10px 7px;
-    }
-   .mobsecmain_notice .bordm_btm {
-    margin: 15px 0;
+/* showing completed */
+.showing_complete .mob_pad {
+    padding: 0 6px;
+}
+.showingcompl_detailsdiv h3 {
+    font-size: 11px;
+    margin: 0px 0 1px 0;
+}
+.showing_complete .twobtn_showings .btn.sendlease {
+    font-size: 10px;
+    padding: 4px 11px;
+}
+.showing_complete .detshow_div .showimgpend img {
+    height: 92px;
+}
+/* end of showing completed */
+/* reserve now */
+.signin_popupreservenow .modal-dialog {
+    max-width: 100%;
+}
+.signin_popupreservenow .modal-content .modal-header {
+    padding: 14px 0 0px 0;
+    margin: 0 auto -1px auto;
+}
+.signin_popupreservenow .btn.declbtn,.signin_popupreservenow .btn.confrbtntw {
+    margin: 0;
+}
+.beforesignin p {
+    width: 95%;
+}
+.signin_popupreservenow .modal-header {
+    width: 91.4%;
+}
+.signin_popupreservenow .modal-header h4 {
+    font-size: 17px;
+    line-height: 28px;
+}
+.signin_popupreservenow .leftwidless_sche .flexdiv,
+.signin_popupreservenow .rightwidless_sche .flexdiv {
+    margin: 0 0 0 11px;
+}
+/* end of reserve now */
+
+/* schedule tour */
+.schedtour_popup .seldateboxsche_prop .date_heading h3 {
+font-size: 11px;
+}
+.schedtour_popup .stepsmodal_body .seldateboxsche_prop {
+justify-content: center;
+flex-direction: column;
+}
+.schedtour_popup .modal-content, .schedtour_popup .modal-content .tab-content .container {
+padding: 0;
+}
+.sche_tour .switch-field label {
+font-size: 11px;
+}
+/* schedule tour end */
+/* showing confirmed */
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+margin: 0 7px 5px 3px;
+}
+.showingconfr_heading img {
+height: 34px;
+width: 34px;
+margin: 0 auto 10px auto;
+}
+.showingconfr_heading p {
+font-size: 14px;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
+height: 13px;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
+font-size: 12px;
+}
+.addrdescrp_show p {
+margin: 0px 0px 0 3px;
+font-size: 11px;
+}
+.firstimgblk_clr {
+padding: 0 9px 0 0px;
+}
+/* showing confirmed end */
+
+/* give notice */
+.reqdate_btnclick.mobilereqbtnclk .date_apptdesign {
+padding: 10px 7px;
+}
+.mobsecmain_notice .bordm_btm {
+margin: 15px 0;
 }
 .gvnotid_depos_div .trans_details p {
-    font-size: 11px;
-    line-height: 14px;
+font-size: 11px;
+line-height: 14px;
 }
 .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
-    left: 12px;
-    top: 13px;
-    width: 91%;
+left: 12px;
+top: 13px;
+width: 91%;
 }
 .outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
-    font-size: 16px;
-    width: 94%;
+font-size: 16px;
+width: 94%;
 }
 .gvnotid_depos_div .bgcolr_depos {
-    padding: 15px 5px 10px 5px;
+padding: 15px 5px 10px 5px;
 }
 .termi_css{
-    flex: 70%;
-    max-width: 70%;
+flex: 70%;
+max-width: 70%;
 }
 .gvnotid_depos_div .trans_txt h3 {
-    font-size: 16px;
+font-size: 16px;
 }
 .trans_details p {
-    font-size: 11px;
-    line-height: 16px;
+font-size: 11px;
+line-height: 16px;
 }
 .tercssflx{
-    align-items: center;
+align-items: center;
 }
 .btn.vacatebtn_notice p:first-child {
-    font-size: 16px;
-    line-height: 16px;
+font-size: 16px;
+line-height: 16px;
 }
 .dateflx_css{
-    flex: 28%;
-    max-width: 28%;
+flex: 28%;
+max-width: 28%;
 }
 .gvnoticetxtleft p {
-    font-size: 13px;
+font-size: 13px;
 }
 .mobsecmain_notice {
-    padding: 0.7em 0.5em;
+padding: 0.7em 0.5em;
 }
 .btn.btnreqgvnotice {
-    font-size: 12px;
-    line-height: 12px;
-    padding: 5px 14px 7px 14px;
+font-size: 12px;
+line-height: 12px;
+padding: 5px 14px 7px 14px;
 }
 .outs_balc .amount_trans p {
-    font-size: 13px;
+font-size: 13px;
 }
 .gvnotid_depos_div .flexalgn_div {
-    padding: 0 10px;
+padding: 0 10px;
 }
 .outs_balc .amount_trans h3 {
-    margin: 0 0 12px 0;
-    font-size: 20px;
+margin: 0 0 12px 0;
+font-size: 20px;
 }
 .trans_heading {
-    margin: 0 0 1em 0;
+margin: 0 0 1em 0;
 }
 .outs_balc .amt_payment {
-    margin: 17px 0 0 0;
+margin: 17px 0 0 0;
 }
 .gvnotid_depos_div .trans_txt p {
-    margin: 5px 0 6px 0;
+margin: 5px 0 6px 0;
 }
 .mobsecmain_notice {
-    padding: 1em;
+padding: 1em;
 }
 .btmr_gvnotice_transac {
-    padding: 1.3em 1em;
+padding: 1.3em 1em;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 7px 10px;
-    width: 80%;
+padding: 7px 10px;
+width: 80%;
 }
 /* end of give notice  */
 
-    /* transactions */
+/* transactions */
 .tabmyinfo.transac .blu_colr {
-    width: 62%;
-    padding: 7px 9px 7px 15px;
+width: 62%;
+padding: 7px 9px 7px 15px;
 }
 .aply_creditbg .flexalgn_div {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    flex: 100%;
-    margin:0 0 15px 0;
+display: block;
+width: 100%;
+max-width: 100%;
+flex: 100%;
+margin:0 0 15px 0;
 }
 .lefdiv_align {
-    padding: 0 5px;
+padding: 0 5px;
 }
 .aply_creditbg .trans_txt h3 {
-    font-size: 16px;
+font-size: 16px;
 }
 .aply_creditbg .btn.preapprovtrans {
-    padding: 13px 4px 14px 20px;
-    font-size: 14px;
+padding: 13px 4px 14px 20px;
+font-size: 14px;
 }
 .aply_creditbg .trans_txt h3{
-    margin: 0px 0 7px 0;
+margin: 0px 0 7px 0;
 }
 .addi_amtapply .btn.adapply_btn {
-    font-size: 14px;
+font-size: 14px;
 }
 .aply_creditbg .bgcolr_depos {
-    padding: 13px 10px;
+padding: 13px 10px;
 }
 .aply_creditbg .flexalgn_div {
-    padding: 0 12px;
+padding: 0 12px;
 }
 .aply_creditbg .trans_txt p, .aply_creditbg .trans_txt h3 {
-    font-size: 17px;
+font-size: 17px;
 }
 .aply_creditbg .btn.preapprovtrans span {
-    padding: 8px 6px;
-    margin-left: 2px;
+padding: 8px 6px;
+margin-left: 2px;
 }
 .aply_creditbg .bgcolr_depos .flex_centercss {
-    padding: 0px 10px;
+padding: 0px 10px;
 }
 .aply_creditbg .bgcolr_depos {
-    padding: 9px;
+padding: 9px;
 }
 .trans_depositdiv .trans_details p {
-    font-size: 11px;
-    line-height: 15px;
+font-size: 11px;
+line-height: 15px;
 }
 .trans_depositdiv .bgcolr_depos .flex_centercss {
-    padding: 0px 7px;
+padding: 0px 7px;
 }
 .trans_depositdiv .trans_details p {
-    font-size: 12px;
+font-size: 12px;
 }
 .rightside_sepsec {
-    padding: 13px 11px 14px 11px;
+padding: 13px 11px 14px 11px;
 }
 .trans_depositdiv .trans_txt p {
-    font-size: 14px;
+font-size: 14px;
 }
 .transactions_table thead tr th {
-    font-size: 14px;
+font-size: 14px;
 }
 .tabmyinfo.transac .twobuttons_div .btn.pay_amt, .tabmyinfo.transac .twobuttons_div .btn.makepay_amt {
-    padding: 7px 15px;
-    font-size: 14px;
+padding: 7px 15px;
+font-size: 14px;
 }
 .transactions_table tbody tr td img {
-    margin-right: 8px;
+margin-right: 8px;
 }
 .tabmyinfo.transac .pricetxt, .tabmyinfo.transac .trans_txt h3 {
-    margin: 0 0 11px 0;
+margin: 0 0 11px 0;
 }
 .tabmyinfo.transac .twobuttons_div {
-    width: 91%;
+width: 91%;
 }
 .tabmyinfo.transac .price_ptxt {
-    margin: 0 0 8px 0;
+margin: 0 0 8px 0;
 }
 .tabmyinfo.transac .card.balancecard .card-header h3 {
-    font-size: 16px;
+font-size: 16px;
 }
 .transactions_table tbody tr td {
-    font-size: 13px;
-    padding: 7px 5px;
+font-size: 13px;
+padding: 7px 5px;
 }
 .tabmyinfo.transac .txtmonth {
-    font-size: 14px;
+font-size: 14px;
 }
 .tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
-    padding: 2px 15px;
+padding: 2px 15px;
 }
 .tabmyinfo.transac .set_custom {
-    padding: 0 6px 0 8px;
+padding: 0 6px 0 8px;
 }
 /* end of transactions */
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p {
-    width: 88%;
+width: 88%;
 }
 .confirmtime_div p img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .confirmpopupdiv .modal-header h4 {
-    margin: 0 0px 18px 0px;
+margin: 0 0px 18px 0px;
 }
 .confirmpopupdiv .modal-dialog .modal-content {
-    width: 95%;
+width: 95%;
 }
 .flx_addrimg {
-    width: 81%;
+width: 81%;
 }
 .confirmpopupdiv .modal-header {
-    padding: 1.5em 0 2.8em 0;
+padding: 1.5em 0 2.8em 0;
 }
 /* end of confirm showing pop up */
 
@@ -12985,43 +13217,43 @@ width: 37%;
 
 /* price range */
 .btmfilter_btns {
-    width: 100%;
+width: 100%;
 }
 .btn.saveprop, .btn.propnotify {
-    font-size: 12px;
-    width: auto;
+font-size: 12px;
+width: auto;
 }
 .padcss_div {
-    padding: 0;
+padding: 0;
 }
 .btmfilter_btns {
-    padding: 1.7em 0.4em 1.1em 0.4em;
+padding: 1.7em 0.4em 1.1em 0.4em;
 }
 .btn.filterpricerg img {
-    height: 19px;
+height: 19px;
 }
 .pricerange_search .input-group-append .btn.btnmap {
-    font-size: 0.75em;
+font-size: 0.75em;
 }
 .pricerange_search .form-search .input-group input.form-control {
-    font-size: 14px;
+font-size: 14px;
 }
 .pricelabel_range p {
-    font-size: 14px;
+font-size: 14px;
 }
 .btn.filterpricerg {
-    margin: 0 -35px 0 10px;
+margin: 0 -35px 0 10px;
 }
 .similar_unitsdiv .pricerangeslider_two .leasedslider,
 .similar_unitsdiv .pricerange_sliderone .leasedslider {
 
-    padding: 11px;
+padding: 11px;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img, .similar_unitsdiv .pricerangeslider_two .leasedslider .imageover_details > img {
-    height: 122px;
+height: 122px;
 }
 .algntxt {
-    margin: 0 0 0 -51px;
+margin: 0 0 0 -51px;
 }
 /* end of price range */
 
@@ -13756,8 +13988,8 @@ left: 8px;
 font-size: 12px;
 }
 .mobileviewblock_scheduleslider .showingssec .showing_details p, .showingssec_infodiv .showingssec .showing_details p {
-    font-size: 11px;
-    line-height: 14px;
+font-size: 11px;
+line-height: 14px;
 }
 .mobileviewblock_scheduleslider .showingssec .order_links span a {
 font-size: 12px;
@@ -13775,7 +14007,7 @@ font-size: 10px;
 font-size: 11px;
 }
 .showing_viewdetails .btn.view_detail {
-    font-size: 12px;
+font-size: 12px;
 }
 .showing_imgdiv span {
 font-size: 16px;
@@ -13983,309 +14215,364 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
- 
- /* schedule tour */
-    .schedtour_popup .sche_tour .switch-field label {
-        width: 109px;
-        height: 40px;
-    }
-    .sche_tour .switch-field label {
-        font-size: 11px;
-    }
-    .schedtour_popup .sche_tour .switch-field input + label span.video img {
-        height: 14px;
-    }
-    .schedtour_popup .sche_tour .switch-field input + label span.person img {
-        height: 17px;
-    }
-  /* schedule tour */
- 
-    /* showing confirmed */
-      .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
-        margin: 0 7px 5px 3px;
-    }
-    .shw_divbody img {
-        height: 80px;
-    }
-    .showingconfr_heading {
-        margin: 0.3em 0 1.4em 0;
-    }
-    .showingconfr_heading img {
-        height: 34px;
-        width: 34px;
-        margin: 0 auto 10px auto;
-    }
-    .showingconfr_heading p {
-        font-size: 14px;
-    }
-    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
-        height: 13px;
-    }
-    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
-       font-size: 12px;
-    }
-    .addrdescrp_show p {
-        margin: 0px 0px 0 3px;
-        font-size: 11px;
-    }
-    .firstimgblk_clr {
-        padding: 0 9px 0 0px;
-    }
-    /* showing confirmed end */
-    /* give notice */
-    .reqdate_btnclick.mobilereqbtnclk .date_apptdesign {
-        padding: 10px 7px;
-    }
-    .btn.btnreqgvnotice {
-        padding: 6px 11px 9px 11px;
-    }
-    .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs .label {
-        font-size: 11px;
-    }
-   .mobsecmain_notice .bordm_btm {
-    margin: 15px 0;
+/* showing completed */
+.showing_complete .mob_pad {
+    padding: 0 6px;
 }
-.mobsecmain_notice .bordm_btm {
-    margin: 12px 0;
+.showingcompl_detailsdiv h3 {
+    font-size: 11px;
+    margin: 0px 0 1px 0;
 }
-.termi_css {
-    flex: 67%;
-    max-width: 67%;
-    padding-right: 0;
+.showing_complete .twobtn_showings .btn.sendlease {
+    font-size: 10px;
+    padding: 4px 11px;
 }
-.btn.vacatebtn_notice p:first-child {
+.showingcompl_detailsdiv p {
+    font-size: 9px;
+}
+.signin_popupreservenow .btn.declbtn,.signin_popupreservenow .btn.confrbtntw {
+    height: 41px;
+    width: 142px;
     font-size: 15px;
 }
-.btmr_gvnotice_transac .trans_heading {
-    margin: 0 0 0.8em 0;
+.showing_complete .detshow_div .showimgpend img {
+    height: 92px;
 }
-.dateflx_css {
-    flex: 31%;
-    max-width: 31%;
-    padding: 0 10px 0 0;
+/* end of showing completed */
+/* reserve now */
+.signin_popupreservenow .modal-dialog {
+    max-width: 100%;
 }
-.gvnotid_depos_div .trans_details p {
-    line-height: 15px;
-}
-.outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
-    font-size: 16px;
-    width: 94%;
-    height: 40px;
-}
-.gvnotid_depos_div .bgcolr_depos {
-    padding: 15px 5px 10px 5px;
-}
-.termi_css{
-    flex: 70%;
-    max-width: 70%;
-}
-.gvnotid_depos_div .trans_txt h3 {
-    font-size: 16px;
-}
-.trans_details p {
+.signin_popupreservenow .twobtn_showings .btn.not_inters {
     font-size: 11px;
-    line-height: 16px;
 }
-.tercssflx{
-    align-items: center;
+.signin_popupreservenow .modal-header {
+    width: 91%;
 }
-.btn.vacatebtn_notice p:first-child {
-    font-size: 16px;
-    line-height: 16px;
+.signin_popupreservenow .modal-content .modal-header {
+    padding: 14px 0 0px 0;
+    margin: 0 auto -1px auto;
 }
-.dateflx_css{
-    flex: 28%;
-    max-width: 28%;
+.signin_popupreservenow .btn.declbtn,.signin_popupreservenow .btn.confrbtntw {
+    margin: 0;
 }
-.gvnoticetxtleft p,.gvnoticedateright p {
-    font-size: 13px;
+.beforesignin p {
+    width: 95%;
 }
-.mobsecmain_notice {
-    padding: 0.7em 0.5em;
+.signin_popupreservenow .modal-header {
+    width: 91.4%;
+}
+.signin_popupreservenow .modal-header h4 {
+    font-size: 17px;
+    line-height: 28px;
+}
+.signin_popupreservenow .leftwidless_sche .flexdiv,
+.signin_popupreservenow .rightwidless_sche .flexdiv {
+    margin: 0 0 0 11px;
+}
+/* end of reserve now */
+/* schedule tour */
+.schedtour_popup .sche_tour .switch-field label {
+width: 109px;
+height: 40px;
+}
+.sche_tour .switch-field label {
+font-size: 11px;
+}
+.schedtour_popup .sche_tour .switch-field input + label span.video img {
+height: 14px;
+}
+.schedtour_popup .sche_tour .switch-field input + label span.person img {
+height: 17px;
+}
+/* schedule tour */
+
+/* showing confirmed */
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+margin: 0 7px 5px 3px;
+}
+.shw_divbody img {
+height: 80px;
+}
+.showingconfr_heading {
+margin: 0.3em 0 1.4em 0;
+}
+.showingconfr_heading img {
+height: 34px;
+width: 34px;
+margin: 0 auto 10px auto;
+}
+.showingconfr_heading p {
+font-size: 14px;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span img, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span img {
+height: 13px;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
+font-size: 12px;
+}
+.addrdescrp_show p {
+margin: 0px 0px 0 3px;
+font-size: 11px;
+}
+.firstimgblk_clr {
+padding: 0 9px 0 0px;
+}
+/* showing confirmed end */
+/* give notice */
+.reqdate_btnclick.mobilereqbtnclk .date_apptdesign {
+padding: 10px 7px;
 }
 .btn.btnreqgvnotice {
-    font-size: 12px;
-    line-height: 12px;
+padding: 6px 11px 9px 11px;
 }
-.reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
-    left: 13px;
-    top: 14px;
-    width: 90%;
+.reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs .label {
+font-size: 11px;
+}
+.mobsecmain_notice .bordm_btm {
+margin: 15px 0;
+}
+.mobsecmain_notice .bordm_btm {
+margin: 12px 0;
+}
+.termi_css {
+flex: 67%;
+max-width: 67%;
+padding-right: 0;
+}
+.btn.vacatebtn_notice p:first-child {
+font-size: 15px;
+}
+.btmr_gvnotice_transac .trans_heading {
+margin: 0 0 0.8em 0;
+}
+.dateflx_css {
+flex: 31%;
+max-width: 31%;
+padding: 0 10px 0 0;
 }
 .gvnotid_depos_div .trans_details p {
-    font-size: 11px;
+line-height: 15px;
 }
-.outs_balc .amount_trans p {
-    font-size: 13px;
+.outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
+font-size: 16px;
+width: 94%;
+height: 40px;
 }
-.gvnotid_depos_div .flexalgn_div {
-    padding: 0 10px;
+.gvnotid_depos_div .bgcolr_depos {
+padding: 15px 5px 10px 5px;
 }
-.outs_balc .amount_trans h3 {
-    margin: 0 0 12px 0;
-    font-size: 20px;
+.termi_css{
+flex: 70%;
+max-width: 70%;
 }
-.trans_heading {
-    margin: 0 0 1em 0;
+.gvnotid_depos_div .trans_txt h3 {
+font-size: 16px;
 }
-.outs_balc .amt_payment {
-    margin: 17px 0 0 0;
+.trans_details p {
+font-size: 11px;
+line-height: 16px;
 }
-.gvnotid_depos_div .trans_txt p {
-    margin: 5px 0 6px 0;
+.tercssflx{
+align-items: center;
+}
+.btn.vacatebtn_notice p:first-child {
+font-size: 16px;
+line-height: 16px;
+}
+.dateflx_css{
+flex: 28%;
+max-width: 28%;
+}
+.gvnoticetxtleft p,.gvnoticedateright p {
+font-size: 13px;
 }
 .mobsecmain_notice {
-    padding: 1em;
+padding: 0.7em 0.5em;
+}
+.btn.btnreqgvnotice {
+font-size: 12px;
+line-height: 12px;
+}
+.reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
+left: 13px;
+top: 14px;
+width: 90%;
+}
+.gvnotid_depos_div .trans_details p {
+font-size: 11px;
+}
+.outs_balc .amount_trans p {
+font-size: 13px;
+}
+.gvnotid_depos_div .flexalgn_div {
+padding: 0 10px;
+}
+.outs_balc .amount_trans h3 {
+margin: 0 0 12px 0;
+font-size: 20px;
+}
+.trans_heading {
+margin: 0 0 1em 0;
+}
+.outs_balc .amt_payment {
+margin: 17px 0 0 0;
+}
+.gvnotid_depos_div .trans_txt p {
+margin: 5px 0 6px 0;
+}
+.mobsecmain_notice {
+padding: 1em;
 }
 .btmr_gvnotice_transac {
-    padding: 1em;
+padding: 1em;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 7px 10px;
-    width: 80%;
+padding: 7px 10px;
+width: 80%;
 }
 .outs_balc .amt_payment .btn.full_amt {
-    margin: 0 0px 11px 0px;
+margin: 0 0px 11px 0px;
 }
 /* end of give notice  */
 
 /* transactions */
 .tabmyinfo.transac .txtmonth {
-    font-size: 13px;
+font-size: 13px;
 }
 .aply_creditbg .btn.preapprovtrans {
-    padding: 13px 5px 13px 20px;
-    font-size: 13px;
+padding: 13px 5px 13px 20px;
+font-size: 13px;
 }
 .aply_creditbg .flexalgn_div {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    flex: 100%;
-    margin:0 0 15px 0;
+display: block;
+width: 100%;
+max-width: 100%;
+flex: 100%;
+margin:0 0 15px 0;
 }
 .tabmyinfo.transac .blu_colr {
-    padding: 7px 6px 7px 10px;
-    width: 61%;
+padding: 7px 6px 7px 10px;
+width: 61%;
 }
 .transactions_table tbody tr td img {
-    height: 19px;
-    width: 18px;
+height: 19px;
+width: 18px;
 }
 .trans_depositdiv .bgcolr_depos .flex_centercss {
-    padding: 0px 6px 0 6px;
+padding: 0px 6px 0 6px;
 }
 .rightside_sepsec.trans_depositdiv {
-    padding: 14px 8px 9px 8px;
+padding: 14px 8px 9px 8px;
 }
 .trans_depositdiv .trans_details p {
-    font-size: 12px;
+font-size: 12px;
 }
 .trans_depositdiv .trans_txt p {
-    font-size: 15px;
+font-size: 15px;
 }
 .trans_depositdiv .trans_details {
-    width: auto;
-    padding: 8px 5px;
+width: auto;
+padding: 8px 5px;
 }
 .tabmyinfo.transac .twobuttons_div {
-    width: 94%;
+width: 94%;
 }
 .tabmyinfo.transac .pricetxt {
-    font-size: 19px;
+font-size: 19px;
 }
 .tabmyinfo.transac .card.balancecard .card-header h3 {
-    font-size: 16px;
+font-size: 16px;
 }
 .tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
-    padding: 3px 15px;
-    font-size: 14px;
+padding: 3px 15px;
+font-size: 14px;
 }
 .transactions_table tbody tr td img {
-    margin-right: 6px;
+margin-right: 6px;
 }
 .transactions_table tbody tr td {
-    font-size: 13px;
-    padding: 8px 5px;
+font-size: 13px;
+padding: 8px 5px;
 }
 .tabmyinfo.transac .set_custom img {
-    height: 16px;
-    width: 14px;
+height: 16px;
+width: 14px;
 }
 .tabmyinfo.transac .set_custom {
-    padding: 0 3px 0 7px;
+padding: 0 3px 0 7px;
 }
 /* end of transactions */
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p {
-    width: 88%;
+width: 88%;
 }
 .confirmtime_div p img {
-    vertical-align: top;
+vertical-align: top;
 }
 .confirmtime_div p {
-    font-size: 12px;
+font-size: 12px;
 }
 .okbtn_div {
-    margin: 1.3em 0 0.3em 0;
+margin: 1.3em 0 0.3em 0;
 }
 .confirmpopupdiv .modal-header h4 {
-    margin: 0 0px 18px 0px;
+margin: 0 0px 18px 0px;
 }
 .confirmpopupdiv .modal-dialog .modal-content {
-    width: 95%;
+width: 95%;
 }
 .flx_addrimg {
-    width: 87%;
-    margin: 0 0 0 24px;
+width: 87%;
+margin: 0 0 0 24px;
 }
 .confirmpopupdiv .modal-header {
-    padding: 1.5em 0 2.8em 0;
+padding: 1.5em 0 2.8em 0;
 }
 /* end of confirm showing pop up */
 
 
 /* price range */
 .similar_unitsdiv .pricerange_sliderone .slick-track, .similar_unitsdiv .pricerangeslider_two .slick-track {
-    margin-left: 4px;
+margin-left: 4px;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img, .similar_unitsdiv .pricerangeslider_two .leasedslider .imageover_details > img {
-    height: 134px;
+height: 134px;
 }
 .btmfilter_btns {
-    width: 100%;
+width: 100%;
 }
 .btn.saveprop, .btn.propnotify {
-    font-size: 12px;
-    width: auto;
+font-size: 12px;
+width: auto;
 }
 .padcss_div {
-    padding: 0;
+padding: 0;
 }
 .btmfilter_btns {
-    padding: 1.7em 0.4em 1.1em 0.4em;
+padding: 1.7em 0.4em 1.1em 0.4em;
 }
 .btn.filterpricerg img {
-    height: 19px;
+height: 19px;
 }
 .pricerange_search .input-group-append .btn.btnmap {
-    font-size: 0.75em;
+font-size: 0.75em;
 }
 .pricerange_search .form-search .input-group input.form-control {
-    font-size: 14px;
+font-size: 14px;
 }
 .pricelabel_range p {
-    font-size: 14px;
+font-size: 14px;
 }
 .btn.filterpricerg {
-    margin: 0 -29px 0 5px;
+margin: 0 -29px 0 5px;
 }
 .similar_unitsdiv .pricerangeslider_two .leasedslider,
 .similar_unitsdiv .pricerange_sliderone .leasedslider {
-    padding: 11px;
+padding: 11px;
 }
 .algntxt {
-    margin: 0 0 0 -35px;
+margin: 0 0 0 -35px;
 }
 /* endof price range */
 /* find property */
@@ -15418,97 +15705,132 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+/* showing confirmed */
+.showing_complete .twobtn_showings .btn.sendlease {
+    padding: 3px 7px;
+}
+.showing_complete .detshow_div .showimgpend img {
+    height: 84px;
+}
+.signin_popupreservenow .tenantaccord .card .card-header h2 button {
+    font-size: 13px;
+}
+.beforesignin p {
+    font-size: 10px;
+    line-height: 15px;
+    width: 91%;
+}
+.signin_popupreservenow .btn.declbtn, .signin_popupreservenow .btn.confrbtntw {
+    width: 126px;
+}
+.showingcompl_detailsdiv h3 {
+    font-size: 10px;
+}
+.signin_popupreservenow .flexdiv {
+    padding: 5px 3px;
+}
+.signin_popupreservenow .flexdiv div label {
+    font-size: 11px;
+}
+.signin_popupreservenow .sendoffraccord .flexdiv .basicdata p {
+    font-size: 11px;
+    padding: 2px 5px;
+}
+.signin_popupreservenow .modal-header {
+    width: 90.2%;
+}
+/* end of showing confirmed */
 /* confirmed showing */
-    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
-        font-size: 11px;
-    }
-    .showingconfr_bodydesign .showtime {
-        margin: 0 0 4px 2px;
-    }
-    .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
-        margin: 0 2px 5px 0px;
-    }
-    .addrdescrp_show p {
-        margin: 0px 0px 0 2px;
-    }
-    .addrdescrp_show p {
-        font-size: 10px;
-        line-height: 14px;
-    }
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .datelabel span, .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .dateinfo span {
+font-size: 11px;
+}
+.showingconfr_bodydesign .showtime {
+margin: 0 0 4px 2px;
+}
+.mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
+margin: 0 2px 5px 0px;
+}
+.addrdescrp_show p {
+margin: 0px 0px 0 2px;
+}
+.addrdescrp_show p {
+font-size: 10px;
+line-height: 14px;
+}
 /* confirmed showing end */
 /* give notice */
 .gvnoticetxtleft p, .gvnoticedateright p {
-    font-size: 12px;
+font-size: 12px;
 }
 .outs_balc {
-    padding: 0.6em 1em 1em 1em;
+padding: 0.6em 1em 1em 1em;
 }
 .gvnotid_depos_div .trans_txt p {
-    font-size: 13px;
+font-size: 13px;
 }
 .outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
-    height: 39px;
+height: 39px;
 }
 .gvnotid_depos_div .trans_details p {
-    font-size: 10px;
+font-size: 10px;
 }
 .gvnotid_depos_div .trans_txt h3 {
-    font-size: 15px;
+font-size: 15px;
 }
 .btn.vacatebtn_notice p:first-child {
-    font-size: 14px;
-    line-height: 16px;
+font-size: 14px;
+line-height: 16px;
 }
 .btmr_gvnotice_transac .trans_heading img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .btn.vacatebtn_notice p:nth-child(2) {
-    font-size: 9px;
-    line-height: 14px;
+font-size: 9px;
+line-height: 14px;
 }
 /* end of give notice */
 
 /* transactions */
 .tabmyinfo.transac .dropdown.dropinfo .btn.dropdown-toggle {
-    padding: 3px 17px;
-    font-size: 12px;
+padding: 3px 17px;
+font-size: 12px;
 }
 .trans_depositdiv .trans_details {
-    width: auto;
-    padding: 10px 21px;
+width: auto;
+padding: 10px 21px;
 }
 .lefdiv_align{
-    margin:0 0 20px 0;
+margin:0 0 20px 0;
 }
 .lefdiv_align,.rightdiv_align {
-    justify-content: flex-start;
-    max-width: 100%;
-    flex: 100%;
+justify-content: flex-start;
+max-width: 100%;
+flex: 100%;
 }
 .tabmyinfo.transac .set_custom img {
-    height: 15px;
-    width: 14px;
+height: 15px;
+width: 14px;
 }
 .tabmyinfo.transac .card.balancecard .card-header h3 {
-    font-size: 14px;
+font-size: 14px;
 }
 .tabmyinfo.transac .card.balancecard .card-header {
-    padding: 12px 20px 21px 20px;
+padding: 12px 20px 21px 20px;
 }
 .transactions_table tbody tr td {
-    font-size: 12px;
+font-size: 12px;
 }
 .transactions_table thead tr th {
-    font-size: 14px;
+font-size: 14px;
 }
 .set_custom {
-    font-size: 11px;
+font-size: 11px;
 }
 /* end of transactions */
 /* confirm showing popup */
 .flx_addrimg {
-    width: 89%;
-    margin: 0 0 0 17px;
+width: 89%;
+margin: 0 0 0 17px;
 }
 /* end of showing confirm pop up */
 /* find property */
@@ -15518,52 +15840,52 @@ font-size: 13px;
 /* end of find property */
 /* price range */
 .similar_unitsdiv .pricerange_sliderone .slick-track, .similar_unitsdiv .pricerangeslider_two .slick-track {
-    margin-left: 4px;
+margin-left: 4px;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img, .similar_unitsdiv .pricerangeslider_two .leasedslider .imageover_details > img {
-    height: 134px;
+height: 134px;
 }
 .btmfilter_btns {
-    width: 100%;
+width: 100%;
 }
 .btn.saveprop, .btn.propnotify {
-    font-size: 12px;
-    width: auto;
+font-size: 12px;
+width: auto;
 }
 .padcss_div {
-    padding: 0;
+padding: 0;
 }
 .btmfilter_btns {
-    padding: 1.7em 0.4em 1.1em 0.4em;
+padding: 1.7em 0.4em 1.1em 0.4em;
 }
 .btn.filterpricerg img {
-    height: 19px;
+height: 19px;
 }
 .pricerange_search .input-group-append .btn.btnmap {
-    font-size: 0.75em;
+font-size: 0.75em;
 }
 .pricerange_search .form-search .input-group input.form-control {
-    font-size: 14px;
+font-size: 14px;
 }
 .pricelabel_range p {
-    font-size: 14px;
+font-size: 14px;
 }
 .btn.filterpricerg {
-    margin: 0 -29px 0 5px;
+margin: 0 -29px 0 5px;
 }
 .similar_unitsdiv .pricerangeslider_two .leasedslider,
 .similar_unitsdiv .pricerange_sliderone .leasedslider {
-    padding: 11px;
+padding: 11px;
 }
 .algntxt {
-    margin: 0 0 0 -35px;
+margin: 0 0 0 -35px;
 }
 .btn.filterpricerg img {
-    height: 19px;
+height: 19px;
 }
 .btn.saveprop, .btn.propnotify {
-    height: 33px;
-    padding: 5px 7px;
+height: 33px;
+padding: 5px 7px;
 }
 /* endof price range */
 
