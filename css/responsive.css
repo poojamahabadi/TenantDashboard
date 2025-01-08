@@ -1,5 +1,40 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
-/* showing confirmed */
+/* schedule tour */
+.schetour_img img {
+    height: 147px;
+}
+.midsche_toursec .timelabel,.midsche_toursec .datelabel{
+    width: 60%;
+}
+.midsche_toursec .timelabel span,.midsche_toursec .datelabel span {
+    font-size: 14px;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 251px;
+}
+.toursche_slidiv .descrip_details_list .price_rate p {
+    font-size: 20px;
+}
+.toursche_slidiv .slidelocation_div .txt_loc {
+    font-size: 14px;
+}
+.toursche_slidiv .ratingstar_count i {
+    font-size: 12px;
+}
+.midsche_toursec {
+    width: 51.8%;
+}
+.confr_appt h3 {
+    margin: 0 0 2.2em 0;
+}
+.bottomdiv_info {
+    margin: 1.3em 0 0em 0;
+}
+.schetour_img img {
+    height: 130px;
+}
+/* end of schedule tour */
+    /* showing confirmed */
 .shw_divbody img {
 height: 94px;
 }
@@ -277,6 +312,14 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 1600px) {
+/* schedule tour */
+.midsche_toursec {
+    width: 62.3%;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 219px;
+}
+/* end of schedule tour */
 /* find property */
 .prop_find_details img {
 height: 147px;
@@ -399,6 +442,20 @@ padding: 5px 19px;
 }
 
 @media only screen and (max-width: 1536px){
+/* schedule tour */
+.midsche_toursec {
+    width: 65%;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 209px;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
+    height: 145px;
+}
+.schetour_img img {
+    height: 134px;
+}
+/* end of schedule tour */
 /* find property */
 .setup_modalprop .modal-dialog {
 max-width: 71%;
@@ -487,6 +544,17 @@ left: -25px;
 }
 
 @media only screen and (max-width: 1400px){
+/* schedule tour */
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 200px;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 189px;
+}
+.midsche_toursec {
+    width: 71.4%;
+}
+/* schedule tour */
 /* showing confirm block */
 .shw_divbody img {
 height: 87px;
@@ -646,6 +714,32 @@ left: -3px;
 
 
 @media only screen and (max-width: 1366px){
+/* schedule tour */
+    .midsche_toursec {
+        width: 73.25%;
+    }
+    .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
+        height: 128px;
+    }
+    .confr_appt h3 {
+        font-size: 16px;
+    }
+    .schetour_img img {
+        height: 130px;
+    }
+    .leftsche_tourcss{
+        padding-left:3px;
+    }
+    .bottomdiv_info.schetour_btm {
+        padding: 10px 15px;
+    }
+    .confr_appt h3 {
+        margin: 0 0 2.1em 0;
+    }
+    .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+        margin-left: 247px;
+    }
+/* schedule tour end */
 /* find property */
 .prop_find_details img {
 height: 120px;
@@ -871,6 +965,20 @@ padding: 0 8px;
 }
 
 @media only screen and (max-width: 1280px){
+/* schedule tour */
+.midsche_toursec {
+    width: 77.5%;
+}
+.toursche_slidiv .descrip_details_list .price_rate p {
+    font-size: 17px;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 234px;
+}
+.confr_appt h3 {
+    margin: 0 0 2.3em 0;
+}
+/* end of schedule tour */
 /* showing confirmed block */
 .shw_divbody img {
 height: 84px;
@@ -1228,6 +1336,31 @@ margin-left: 212px;
 
 
 @media only screen and (max-width: 1200px){
+
+/* schedule tour */
+.midsche_toursec {
+    width: 82.8%;
+}
+.confr_appt h3 {
+    font-size: 15px;
+    line-height: 18px;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 216px;
+}
+.confr_appt h3 {
+    margin: 0 0 2.75em 0;
+}
+.midsche_toursec .showing_viewdetails .view_detail {
+    padding: 6px 12px 7px 12px;
+}
+.midsectour_sche .timelabel span img, .midsectour_sche .datelabel span img {
+    height: 14px;
+}
+.midsche_toursec .timelabel span, .midsche_toursec .datelabel span {
+    font-size: 13px;
+}
+/* end of schedule tour */
 /* showing confirmed block */
 .firstimgblk_clr {
 padding: 0 9px 0 0px;
@@ -5888,11 +6021,6 @@ vertical-align: text-top;
 }
 .confirmpopupdiv .modal-header h4 {
 font-size: 18px;
-}
-.modal.confirmpopupdiv {
-top: 65%;
-left: 50%;
-transform: translate(-50%, -50%);
 }
 /* confirm showing pop up end */
 /* price range */
