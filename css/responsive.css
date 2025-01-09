@@ -11345,6 +11345,9 @@ left: -18px;
 .rightsche_tourcss {
     padding: 0px 0px 0 25px;
 }
+.simisched_tour .rat_tot_count p.count_rst span.amtrate {
+    font-size: 14px;
+}
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
     margin-left: 27px;
 }
@@ -12364,6 +12367,18 @@ left: -22px;
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
+/* schedule tour */
+.leftsche_tourcss {
+    padding-left: 22px;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .unverifi_divtxt img {
+    height: 22px;
+    margin: -1px 0 0 0;
+}
+.similar_unitsdiv.toursche_slidiv .propred_clr {
+    margin: 0 129px 0 2px;
+}
+/* end of schedule tour */
 /* showing completed */
 .showing_complete .mob_pad {
     padding: 0 6px;
@@ -13383,6 +13398,60 @@ width: 37%;
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
+/* schedule tour */
+.similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
+    height: 128px;
+}
+.showing_sched_tour h3 img {
+    height: 17px;
+}
+.showing_sched_tour h3 {
+    font-size: 14px;
+}
+.toursche_slidiv h3 {
+    font-size: 18px;
+}
+.similar_unitsdiv.toursche_slidiv .ratingstar_count i {
+    font-size: 12px;
+}
+.similar_unitsdiv.toursche_slidiv .clock span img {
+    vertical-align: text-top;
+}
+.similar_unitsdiv.toursche_slidiv .lochouse_details .house span,
+ .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
+    font-size: 12px;
+}
+.midsche_toursec .timelabel span, .midsche_toursec .datelabel span {
+    font-size: 11px;
+}
+.confr_appt h3 {
+    font-size: 12px;
+    line-height: 14px;
+}
+.midsche_toursec .reschedule_divp p {
+    font-size: 12px;
+}
+.similar_unitsdiv.toursche_slidiv .propred_clr {
+    margin: 0 114px 0 2px;
+}
+.midsche_toursec .showing_viewdetails .view_detail {
+    padding: 3px 12px 5px 13px;
+}
+.schetour_btm .showing_details p {
+    font-size: 11px;
+}
+.confr_appt p {
+    font-size: 11px;
+    line-height: 13px;
+}
+.leftsche_tourcss {
+    padding-left: 11px;
+}
+.midsectour_sche .timeinfo span, .midsectour_sche .dateinfo span {
+    font-size: 11px;
+    line-height: 17px;
+}
+/* end of schedule tour */
 /* showing completed */
 .showing_complete .mob_pad {
     padding: 0 6px;
@@ -14677,6 +14746,77 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+/* schedule tour */
+.leftsche_tourcss {
+    padding-left: 8px;
+}
+.confr_appt p {
+    line-height: 14px;
+}
+.showing_sched_tour h3 img {
+    height: 17px;
+}
+.similar_unitsdiv.toursche_slidiv .ratingstar_count i {
+    font-size: 10px;
+}
+.showing_sched_tour h3 {
+    font-size: 14px;
+}
+.midsche_toursec .timelabel span, .midsche_toursec .datelabel span {
+    font-size: 11px;
+}
+.similar_unitsdiv.toursche_slidiv .lochouse_details .house span, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
+    font-size: 12px;
+}
+.similar_unitsdiv.toursche_slidiv .clock span img {
+    vertical-align: text-top;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .unverifi_divtxt img {
+    height: 21px;
+    margin: -2px 0 0 0;
+}
+.toursche_slidiv .slidelocation_div {
+    align-items: flex-start;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
+    height: 128px;
+}
+.confr_appt p {
+    font-size: 11px;
+}
+.similar_unitsdiv.toursche_slidiv .propred_clr {
+    margin: 0 96px 0 2px;
+}
+.midsectour_sche .showing_viewdetails .btn.view_detail {
+    font-size: 10px;
+    padding: 1px 12px 5px 13px;
+}
+.midsectour_sche .showing_viewdetails .btn.view_detail i {
+    font-size: 14px;
+    vertical-align: bottom;
+}
+.schetour_btm .showing_details p {
+    font-size: 11px;
+}
+.midsche_toursec .reschedule_divp p {
+    font-size: 11px;
+}
+.confr_appt h3 {
+    font-size: 12px;
+    line-height: 14px;
+}
+.confr_appt h3 {
+    margin: 0 0 12px 0;
+}
+.midsectour_sche .timelabel span img, .midsectour_sche .datelabel span img {
+    height: 11px;
+    margin-right: 3px;
+}
+.midsectour_sche .timeinfo span, .midsectour_sche .dateinfo span {
+    font-size: 11px;
+    line-height: 19px;
+}
+/* end of schedule tour */
 /* showing completed */
 .showing_complete .mob_pad {
     padding: 0 6px;
@@ -16167,6 +16307,32 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+/* schedule tour */
+.midsectour_sche .datelabel, .midsectour_sche .timelabel {
+    width: 91%;
+}
+.midsectour_sche .showing_viewdetails .btn.view_detail {
+    padding: 1px 12px 3px 13px;
+}
+.midsectour_sche .showing_viewdetails .btn.view_detail i {
+    vertical-align: top;
+}
+.showing_sched_tour h3 img {
+    height: 17px;
+}
+.showing_sched_tour h3 {
+    font-size: 14px;
+}
+.toursche_slidiv h3 {
+    font-size: 17px;
+}
+.similar_unitsdiv.toursche_slidiv .propred_clr {
+    margin: 0 74px 0 2px;
+}
+.schetour_img img {
+    height: 73px;
+}
+/* end of schedule tour */
 /* showing confirmed */
 .showing_complete .twobtn_showings .btn.sendlease {
     padding: 3px 7px;
