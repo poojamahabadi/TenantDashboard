@@ -1,5 +1,10 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
-/* schedule tour */
+/* give notice */
+.reqdate_btnclick .bookappnt_divabs {
+    right: 104px;
+}
+/* end of give notice */
+    /* schedule tour */
 .schetour_img img {
     height: 147px;
 }
@@ -950,6 +955,11 @@ padding: 0 8px;
 }
 
 @media only screen and (max-width: 1280px){
+/* give notice pop up */
+.secdiv_dpheld .trans_txt h3{
+font-size: 22px;
+}
+/* end of give notice pop up */
 /* price range */
 .similar_unitsdiv .pricerange_sliderone .leasedslider .slidelocation_div span img {
     vertical-align: text-top;
@@ -974,11 +984,7 @@ padding: 0 8px;
 height: 84px;
 }
 /* end of showing confirmed block */
-/* give notice */
-.givenoticepopup .flxcenter_div {
-margin: 0 0 2em 0;
-}
-/* end of give notice */
+
 /* transactions */
 .twobuttons_div .btn.pay_amt,.twobuttons_div .btn.makepay_amt {
 padding: 3px 9px;
@@ -1713,9 +1719,12 @@ padding: 0;
 /* end of confirmed showing block */
 
 /*give notice  */
+.reqdate_btnclick .bookappnt_divabs {
+    right: 105px;
+}
 .givenoticepopup .modal-dialog .modal-content {
-width: 100%;
-margin: 0 auto;
+    width: 77.4%;
+    margin: 0 auto;
 }
 .modal.givenoticepopup .modal-dialog {
 max-width: 80%;
@@ -2177,6 +2186,9 @@ right: -5px;
 .reqdate_btnclick.deskbtnclk .not_datetxt p:first-child {
 font-size: 12px;
 }
+.givenoticepopup .modal-dialog .modal-content {
+    width: 81.4%;
+}
 .reqdate_btnclick.deskbtnclk.margcss {
 margin: 0 0 0 -22px;
 }
@@ -2190,10 +2202,8 @@ flex-basis: 30%;
 font-size: 15px;
 line-height: 19px;
 }
-.reqdate_btnclick.deskbtnclk  .bookappnt_divabs {
-top: 41px;
-width: 69%;
-left: -146px;
+.reqdate_btnclick.deskbtnclk .bookappnt_divabs {
+    width: 73%;
 }
 /* end of give notice */
 /* transactions */
@@ -2638,6 +2648,9 @@ line-height: 14px;
 }
 /* end of showing confirmed block */
 /* give notice */
+.givenoticepopup .modal-dialog .modal-content {
+    width: 79.4%;
+}
 .modal.givenoticepopup .modal-dialog {
 max-width: 86.4%;
 }
@@ -2648,9 +2661,7 @@ top: 0px;
 font-size: 11px;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-top: 41px;
-width: 55%;
-left: -75px;
+    width: 73%;
 }
 .reqdate_btnclick.deskbtnclk .dateyear_div {
 flex-basis: 63%;
@@ -3053,14 +3064,16 @@ margin: 10px 0 0 0;
 }
 /* end of schedule tour */
 /* give notice */
+
 .reqdate_btnclick.deskbtnclk.margcss {
 margin: 0 0 0 -19px;
 }
-.reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-left: -74px;
-}
 .reqdate_btnclick.deskbtnclk .meet_datediv input.form-control {
 font-size: 12px;
+}
+.reqdate_btnclick.deskbtnclk .bookappnt_divabs {
+    right: 93px;
+    width: 76%;
 }
 /* end of give notice */
 /* showing confirmed block */
@@ -3635,11 +3648,15 @@ font-size: 13px;
 }
 /* end of showing confirm block */
 /* give notice */
-.givenoticepopup .not_datetxt p:first-child {
-margin: 0 4px 0 0;
+.givenoticepopup .modal-dialog .modal-content {
+    width: 91.1%;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-left: -46px;
+    right: 118px;
+    width: 73%;
+}
+.givenoticepopup .not_datetxt p:first-child {
+margin: 0 4px 0 0;
 }
 .reqdate_btnclick.deskbtnclk .datedetailsshow p {
 font-size: 11px;
@@ -3676,9 +3693,6 @@ width: 199px;
 }
 .contflu_padcss {
 padding: 0;
-}
-.btn.vacatebtn_notice{
-width: auto;
 }
 /* end of give notice */
 /* transactions */
@@ -4644,15 +4658,18 @@ font-size: 15px;
 .reqdate_btnclick.deskbtnclk.margcss {
 margin: 0 0 0 -25px;
 }
+.reqdate_btnclick.deskbtnclk .bookappnt_divabs {
+    right: 119px;
+}
 .givenoticepopup .flxcenter_div {
 margin: 0 0 1em 0;
-}
-.reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-left: -45px;
 }
 .btn.vacatebtn_notice p:first-child {
 font-size: 14px;
 line-height: 20px;
+}
+.givenoticepopup .modal-dialog .modal-content {
+    width: 95%;
 }
 /* end of give notice */
 /* transactions */
@@ -4912,7 +4929,29 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
-
+/* showing confirmed and reschedule pop up */
+.lefimg_icon img {
+    height: 24px;
+}
+.btmr_gvnotice_transac .amount_trans h3 {
+    font-size: 22px;
+}
+.okbtn_div .btn.btnok{
+width: 255px;
+}
+.confirmtime_div p.alignp_confr,.confirmrechedtime_div p.alignp_confr,
+.confirmtime_div p.alignp_confrl,.confirmrechedtime_div p.alignp_confrl{
+    font-size: 14px;
+    line-height: 22px;
+}
+.confirmtime_div p, .confirmrechedtime_div p {
+    font-size: 12px;
+    line-height: 14px;
+}
+.confirmpopupdiv .modal-header p, .confirmreschedule .modal-header p {
+    width: 55%;
+}
+/* end of showing confirmed and reschedule pop up */
 /* schedule tour */
 .bottomdiv_info.schetour_btm.desktpschedutour_view{
     display:none;
@@ -5130,7 +5169,8 @@ padding: 3px 0 2px 0;
 margin: 4px 0 0 0;
 }
 .gvnotid_depos_div .trans_details {
-padding: 9px 13px;
+    padding: 5px 13px;
+    width: 128px;
 }
 .reqdate_btnclick.mobilereqbtnclk .weknamediv.active .wekdate {
 height: 30px;
@@ -5155,13 +5195,20 @@ flex-basis: 50%;
 width: 96%;
 left: 10px;
 top: 11px;
+right: unset;
+}
+.amount_trans.popup_balgvnotice {
+    flex-direction: column;
 }
 .btn.vacatebtn_notice p:first-child {
-font-size: 18px;
-line-height: 24px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.btn.vacatebtn_notice p{
+    display: block;
 }
 .btn.vacatebtn_notice {
-width: 93%;
+width: 319px;
 margin: 1em auto;
 }
 .mobsecmain_notice{
@@ -5169,10 +5216,11 @@ background: #EDF2FA;
 border-radius: 17px;
 padding: 1em 2em;
 }
-.outs_balc .amt_payment.gvnoticbtns .btn.full_amt,.outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
-width: 275px;
-height: 44px;
-font-size: 18px;
+.outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
+    width: 275px;
+    height: 44px;
+    font-size: 18px;
+    margin: 0 0 11px 0;
 }
 .gvnoticetxtleft p{
 font-family: 'Helvetica';
@@ -5241,6 +5289,13 @@ padding: 1.3em 2em;
 }
 .trans_heading{
 text-align: left;
+}
+.gvnotid_depos_div .trans_txt p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+.gvnotid_depos_div .trans_txt h3 {
+    font-size: 18px;
 }
 /* give notice mobile view end */
 
@@ -6230,10 +6285,10 @@ padding: 7px 13px;
 /* end of transactions */
 
 /* confirm showing pop up */
-.confirmtime_div p.alignp_confr img {
+.confirmtime_div p.alignp_confr img,.confirmrechedtime_div p.alignp_confr img {
 vertical-align: text-top;
 }
-.confirmpopupdiv .modal-header h4 {
+.confirmpopupdiv .modal-header h4,.confirmreschedule .modal-header h4 {
 font-size: 18px;
 }
 /* confirm showing pop up end */
@@ -7125,6 +7180,11 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
+/* confirm showing and reschedule showing pop up */
+.confirmpopupdiv .modal-header p, .confirmreschedule .modal-header p {
+    width: 49%;
+}
+/* end of confirm and reschedule showing pop up */
 /* price range */
 .price-range-slider {
     width: 78%;
@@ -8620,6 +8680,15 @@ top: 11px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
+ /* confirm showing and reschedule showing pop up */
+    .confirmpopupdiv .modal-header p, .confirmreschedule .modal-header p {
+        width: 59%;
+    }
+    .flx_addrimg {
+        width: 48%;
+        align-items: flex-start;
+    }
+/* confirm showing and reschedule showing pop up end */
 /* schedule tour */
 .confr_appt {
     width: 95%;
@@ -8654,9 +8723,6 @@ width: 93%;
 .mobsecmain_notice .bordm_btm {
 margin: 15px 0;
 }
-.gvnotid_depos_div .trans_txt h3 {
-font-size: 18px;
-}
 .btmr_gvnotice_transac .trans_heading {
 margin: 0 0 1em 0;
 }
@@ -8665,9 +8731,6 @@ font-size: 13px;
 }
 .outs_balc .amount_trans h3 {
 margin: 0 0 7px 0;
-}
-.gvnotid_depos_div .trans_txt p {
-margin: 10px 0 8px 0;
 }
 .outs_balc .amt_payment {
 margin: 17px 0 0 0;
@@ -8682,8 +8745,7 @@ padding: 1em;
 padding: 1.3em 1em;
 }
 .gvnotid_depos_div .trans_details {
-padding: 6px 10px;
-width: 68%;
+    padding: 8px 13px;
 }
 /* end of give notice  */
 /* transactions */
@@ -10138,14 +10200,16 @@ font-size: 13px;
 line-height: 12px;
 padding: 6px 14px;
 }
-.gvnotid_depos_div .trans_txt h3 {
-font-size: 18px;
-}
+
 .btmr_gvnotice_transac .trans_heading {
 margin: 0 0 1em 0;
 }
 .outs_balc .amount_trans p {
 font-size: 13px;
+}
+.gvnotid_depos_div .trans_details {
+    padding: 8px 10px;
+    width: 80%;
 }
 .outs_balc .amount_trans h3 {
 margin: 0 0 12px 0;
@@ -10153,19 +10217,12 @@ margin: 0 0 12px 0;
 .outs_balc .amt_payment {
 margin: 17px 0 0 0;
 }
-.gvnotid_depos_div .trans_txt p {
-font-size: 15px;
-margin: 10px 0 6px 0;
-}
+
 .mobsecmain_notice {
 padding: 1em;
 }
 .btmr_gvnotice_transac {
 padding: 1.3em 1em;
-}
-.gvnotid_depos_div .trans_details {
-padding: 7px 10px;
-width: 80%;
 }
 /* end of give notice  */
 
@@ -10205,22 +10262,33 @@ padding: 10px 8px;
 /* end of transactions */
 
 /* confirm showing pop up */
-.confirmpopupdiv .modal-header p {
+.confirmpopupdiv .modal-header p,.confirmreschedule .modal-header p {
 width: 81%;
 }
-.confirmpopupdiv .modal-body {
+.confirmpopupdiv .modal-body,.confirmreschedule .modal-body {
 padding: 11px;
 }
-.confirmpopupdiv .modal-dialog .modal-content {
+.confirmpopupdiv .modal-dialog .modal-content,.confirmreschedule .modal-dialog .modal-content {
 width: 91%;
 }
-.confirmtime_div p.alignp_confrl img,.confirmtime_div p.alignp_confr img {
+.confirmtime_div p, .confirmrechedtime_div p {
+    line-height: 15px;
+}
+.confirmtime_div p.alignp_confrl img {
 vertical-align: top;
 }
 .flx_addrimg {
-width: 75%;
+    align-items: flex-start;
+    width: 59%;
+}
+.confirmpopupdiv .modal-header h4, .confirmreschedule .modal-header h4 {
+    margin: 0 0px 21px 0px;
 }
 /* end of confirm showing pop up */
+
+
+
+
 /* price range */
 .pricerange_search {
     width: 94%;
@@ -11432,6 +11500,7 @@ left: -18px;
 }
 
 @media only screen and (max-width: 390px) {
+
 /* schedule tour */
 .rightsche_tourcss {
     padding: 0px 0px 0 25px;
@@ -11501,10 +11570,7 @@ margin: 0.3em 0 1.7em 0;
 }
 /* end of showing confirmed */
 /* give notice mobile view */
-.gvnotid_depos_div .trans_txt p {
-font-size: 14px;
-margin: 10px 0 5px 0;
-}
+
 .btmr_gvnotice_transac .trans_heading {
 margin: 0 0 0.5em 0;
 }
@@ -11537,12 +11603,11 @@ padding: 2px 20px;
 }
 /* end of transactions */
 /* confirm showings pop up */
-.confirmtime_div p {
-font-size: 13px;
-line-height: 16px;
-}
-.confirmpopupdiv .modal-body {
+.confirmpopupdiv .modal-body,.confirmreschedule .modal-body  {
 padding: 11px;
+}
+.flx_addrimg {
+    width: 62%;
 }
 /* end of confirm showing popup */
 /* price range */
@@ -11845,25 +11910,25 @@ height: 21px;
 
 @media only screen and (max-width: 385px) and (min-width:376px) {
 /* confirm showing pop up */
-.confirmpopupdiv .modal-header p {
+.confirmpopupdiv .modal-header p,.confirmreschedule .modal-header p {
 width: 88%;
 }
-.confirmpopupdiv .modal-body {
+.confirmpopupdiv .modal-body,.confirmreschedule .modal-body {
 padding: 11px;
 }
-.confirmtime_div p img {
+.confirmtime_div p img,.confirmrechedtime_div p img {
 vertical-align: text-top;
 }
-.confirmpopupdiv .modal-header h4 {
+.confirmpopupdiv .modal-header h4,.confirmreschedule .modal-header h4 {
 margin: 0 0px 18px 0px;
 }
-.confirmpopupdiv .modal-dialog .modal-content {
+.confirmpopupdiv .modal-dialog .modal-content,.confirmreschedule .modal-dialog .modal-content {
 width: 95%;
 }
 .flx_addrimg {
 width: 68%;
 }
-.confirmpopupdiv .modal-header {
+.confirmpopupdiv .modal-header,.confirmreschedule .modal-header {
 padding: 1.5em 0 2.8em 0;
 }
 /* end of confirm showing pop up */
@@ -12552,9 +12617,6 @@ padding: 15px 5px 10px 5px;
 flex: 70%;
 max-width: 70%;
 }
-.gvnotid_depos_div .trans_txt h3 {
-font-size: 16px;
-}
 .trans_details p {
 font-size: 11px;
 line-height: 16px;
@@ -12588,9 +12650,6 @@ margin: 0 0 1em 0;
 .outs_balc .amt_payment {
 margin: 17px 0 0 0;
 }
-.gvnotid_depos_div .trans_txt p {
-margin: 5px 0 6px 0;
-}
 .mobsecmain_notice {
 padding: 1em;
 }
@@ -12618,24 +12677,33 @@ font-size: 11px;
 }
 /* end of transactions */
 /* confirm showing pop up */
-.confirmpopupdiv .modal-header p {
+.confirmpopupdiv .modal-header p,.confirmreschedule .modal-header p {
 width: 88%;
 }
-.confirmtime_div p img {
+.confirmtime_div p img ,.confirmrechedtime_div p img{
 vertical-align: text-top;
 }
-.confirmpopupdiv .modal-header h4 {
+.confirmpopupdiv .modal-header h4,.confirmreschedule .modal-header h4 {
 margin: 0 0px 18px 0px;
 }
-.confirmpopupdiv .modal-dialog .modal-content {
+.confirmpopupdiv .modal-dialog .modal-content,.confirmreschedule .modal-dialog .modal-content {
 width: 95%;
 }
 .flx_addrimg {
-width: 75%;
+    width: 71%;
+    align-items: flex-start;
+    margin: 0 0 0 53px;
 }
-.confirmpopupdiv .modal-header {
+.confirmtime_div p, .confirmrechedtime_div p {
+    line-height: 15px;
+}
+.confirmpopupdiv .modal-header p, .confirmreschedule .modal-header p {
+    width: 82%;
+}
+.confirmpopupdiv .modal-header,.confirmreschedule .modal-header {
 padding: 1.5em 0 2.8em 0;
 }
+
 /* end of confirm showing pop up */
 
 
@@ -13673,6 +13741,9 @@ padding: 10px 7px;
 .mobsecmain_notice .bordm_btm {
 margin: 15px 0;
 }
+.btn.vacatebtn_notice {
+    width: 100%;
+}
 .gvnotid_depos_div .trans_details p {
 font-size: 11px;
 line-height: 14px;
@@ -13684,7 +13755,6 @@ width: 91%;
 }
 .outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
 font-size: 16px;
-width: 94%;
 }
 .gvnotid_depos_div .bgcolr_depos {
 padding: 15px 5px 10px 5px;
@@ -13740,6 +13810,7 @@ margin: 17px 0 0 0;
 }
 .gvnotid_depos_div .trans_txt p {
 margin: 5px 0 6px 0;
+font-size: 15px;
 }
 .mobsecmain_notice {
 padding: 1em;
@@ -13748,8 +13819,7 @@ padding: 1em;
 padding: 1.3em 1em;
 }
 .gvnotid_depos_div .trans_details {
-padding: 7px 10px;
-width: 80%;
+    padding: 9px 10px;
 }
 /* end of give notice  */
 
@@ -13853,22 +13923,24 @@ padding: 0 6px 0 8px;
 }
 /* end of transactions */
 /* confirm showing pop up */
-.confirmpopupdiv .modal-header p {
+.confirmpopupdiv .modal-header p,.confirmreschedule .modal-header p {
 width: 88%;
 }
-.confirmtime_div p img {
+.confirmtime_div p img,.confirmrechedtime_div p img {
 vertical-align: text-top;
 }
-.confirmpopupdiv .modal-header h4 {
+.confirmpopupdiv .modal-header h4,.confirmreschedule .modal-header h4 {
 margin: 0 0px 18px 0px;
 }
-.confirmpopupdiv .modal-dialog .modal-content {
+.confirmpopupdiv .modal-dialog .modal-content,.confirmreschedule .modal-dialog .modal-content {
 width: 95%;
 }
 .flx_addrimg {
-width: 81%;
+    width: 71%;
+    align-items: flex-start;
+    margin: 0 0 0 53px;
 }
-.confirmpopupdiv .modal-header {
+.confirmpopupdiv .modal-header,.confirmreschedule .modal-header {
 padding: 1.5em 0 2.8em 0;
 }
 /* end of confirm showing pop up */
@@ -15067,6 +15139,9 @@ padding: 10px 7px;
 .btn.btnreqgvnotice {
 padding: 6px 11px 9px 11px;
 }
+.btn.vacatebtn_notice {
+    width: 100%;
+}
 .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs .label {
 font-size: 11px;
 }
@@ -15097,8 +15172,6 @@ line-height: 15px;
 }
 .outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
 font-size: 16px;
-width: 94%;
-height: 40px;
 }
 .gvnotid_depos_div .bgcolr_depos {
 padding: 15px 5px 10px 5px;
@@ -15169,8 +15242,7 @@ padding: 1em;
 padding: 1em;
 }
 .gvnotid_depos_div .trans_details {
-padding: 7px 10px;
-width: 80%;
+    padding: 8px 10px;
 }
 .outs_balc .amt_payment .btn.full_amt {
 margin: 0 0px 11px 0px;
@@ -15245,29 +15317,30 @@ padding: 0 3px 0 7px;
 }
 /* end of transactions */
 /* confirm showing pop up */
-.confirmpopupdiv .modal-header p {
+.confirmpopupdiv .modal-header p,.confirmreschedule .modal-header p {
 width: 88%;
 }
-.confirmtime_div p img {
+.confirmtime_div p img,.confirmrechedtime_div p img {
 vertical-align: top;
 }
-.confirmtime_div p {
+.confirmtime_div p ,.confirmrechedtime_div p{
 font-size: 12px;
 }
 .okbtn_div {
 margin: 1.3em 0 0.3em 0;
 }
-.confirmpopupdiv .modal-header h4 {
+.confirmpopupdiv .modal-header h4,.confirmreschedule .modal-header h4 {
 margin: 0 0px 18px 0px;
 }
-.confirmpopupdiv .modal-dialog .modal-content {
+.confirmpopupdiv .modal-dialog .modal-content,.confirmreschedule .modal-dialog .modal-content {
 width: 95%;
 }
 .flx_addrimg {
-width: 87%;
-margin: 0 0 0 24px;
+    width: 73%;
+    margin: 0 0 0 44px;
+    align-items: flex-start;
 }
-.confirmpopupdiv .modal-header {
+.confirmpopupdiv .modal-header,.confirmreschedule .modal-header {
 padding: 1.5em 0 2.8em 0;
 }
 /* end of confirm showing pop up */
@@ -16551,20 +16624,17 @@ line-height: 14px;
 .gvnoticetxtleft p, .gvnoticedateright p {
 font-size: 12px;
 }
+.reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
+    left: 11px;
+}
 .outs_balc {
 padding: 0.6em 1em 1em 1em;
 }
 .gvnotid_depos_div .trans_txt p {
-font-size: 13px;
+font-size: 14px;
 }
 .outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
-height: 39px;
-}
-.gvnotid_depos_div .trans_details p {
-font-size: 10px;
-}
-.gvnotid_depos_div .trans_txt h3 {
-font-size: 15px;
+width: 230px;
 }
 .btn.vacatebtn_notice p:first-child {
 font-size: 14px;
@@ -16618,8 +16688,8 @@ font-size: 11px;
 /* end of transactions */
 /* confirm showing popup */
 .flx_addrimg {
-width: 89%;
-margin: 0 0 0 17px;
+    width: 80%;
+    margin: 0 0 0 33px;
 }
 /* end of showing confirm pop up */
 /* find property */
