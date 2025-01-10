@@ -7407,8 +7407,22 @@ width: 33% !important;
 /* price range */
 .pricerange_search {
 display: block;
-width: 97%;
+width: 99%;
 margin: 0 0 0 auto;
+}
+.similar_unitsdiv.pricerangedivs .leaseddetails_slider .car_details,
+.similar_unitsdiv.pricerangedivs .leaseddetails_slider .shower_details,
+.similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details {
+    padding: 3px 10px 2px 10px;
+}
+.similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count p {
+    line-height: 13px;
+}
+.similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count {
+    right: 10px;
+}
+.similar_unitsdiv.pricerangedivs .descrip_details_list {
+    padding: 0.5em 0.3em 0.5em 0;
 }
 .pricerangedivs .leasedslider .unverifi_divtxt img {
     margin: -2px 0 0 0;
@@ -7564,18 +7578,15 @@ display:flex;
 .downloadicon{
 margin: 0 5px 0 0px;
 }
-.pricerange_sliderone .leasedslider .verifi_divtxt img {
+.similar_unitsdiv.pricerangedivs .leasedslider .verifi_divtxt img {
 height: 23px;
 width: auto;
 }
-.pricerange_sliderone .descrip_details_list.verifitxt_divsec{
+.similar_unitsdiv.pricerangedivs .descrip_details_list.verifitxt_divsec{
 justify-content: space-between; 
 }
-.pricerange_sliderone .leasedslider,.pricerangeslider_two .leasedslider{
+.similar_unitsdiv.pricerangedivs .leasedslider{
 box-shadow: unset;
-}
-.pricerange_sliderone.slider.slick-slider{
-margin:0 0 10px 0;
 }
 .flexprice_range {
     display: flex;
@@ -7636,6 +7647,9 @@ border-radius: 40px;
 .similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p{
     font-size: 20px;
 }
+.similar_unitsdiv .pricerange_sliderone .leasedslider .slidelocation_div span img {
+    vertical-align: baseline;
+}
 .similar_unitsdiv .pricerange_sliderone .rat_tot_count p.count_rst,
 .similar_unitsdiv .pricerange_sliderone .ratingstar_count i{
     color:#FFB6A3;
@@ -7646,7 +7660,7 @@ padding:0;
 margin:0 0 0 21px;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider {
-    margin: 0px 0px 0 9px;
+    margin: 0;
 }
 .pricerangedivs .lochouse_details .house span,.pricerangedivs .lochouse_details .clock span {
     font-size: 12px;
