@@ -4061,7 +4061,7 @@ height: 20px;
 }
 .info_conddetails p:nth-child(2){
 color:#315D80;
-font-size: 11px;
+font-size: 10px;
 font-weight: 400;
 font-family: 'helvetica light';
 }
@@ -5447,7 +5447,7 @@ line-height: 14px;
 text-align: center;
 text-transform: capitalize;
 color: #315D80;
-padding: 5px 15px;
+padding: 5px 11px;
 }
 .category-button.active{
 color:#ffffff;
@@ -5471,7 +5471,7 @@ margin: 0 0 10px 0;
 .category-lists-slider .swiper-container {
 background: #DEE7F2;
 border-radius: 12px;
-margin: 0 0 1.5em 0;
+margin: 0 0 1em 0;
 }
 .category-lists-slider .slider-button{
 background-color: unset;
@@ -5498,7 +5498,7 @@ right: -11px;
 }
 .myleaseunit .tablinks_propfeat.unit_div .slick-track,
 .myleaseunit .tablinks_propfeat.building_div .slick-track{
-margin-left: -76px;
+margin-left: 7px;
 }
 .tablinks_propfeat.unit_div .slick-track,
 .tablinks_propfeat.building_div .slick-track,
@@ -7406,6 +7406,54 @@ width: 33% !important;
 /* end of find property */
 
 /* price range */
+.downarrw_scroll:hover,.downarrw_scroll:active,.downarrw_scroll:focus{
+    color: #FFFFFF;
+}
+.loadmore_arrowsdownmobile{
+    display: none;
+}
+.scrolldown_arrows{
+    width: 100%;
+}
+.downarrw_scroll {
+    background: #92A3B4;
+    border-radius: 24px;
+    width: 138px;
+    display: block;
+    height: 30px;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    margin:1em auto;
+}
+.scrollup_arrows a{
+    background: linear-gradient(180deg, #C9D7E5 44.3%, #C9D7E5 66.98%);
+    box-shadow: -3px -3px 10px rgba(255, 255, 255, 0.2);
+    border-radius: 49.5px;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #92A3B4;
+    width: 138px;
+    display: block;
+    height: 30px;
+    padding: 4px 10px;
+    margin: 5px auto 13px auto;
+}
+.scrollup_arrows a img{
+    vertical-align: inherit;
+    margin: 0 6px 0 0px;
+}
+.mobileloadmore_arrows{
+    display: none;
+}
 .pricerange_search {
 display: block;
 width: 99%;
@@ -7608,13 +7656,13 @@ align-items: center;
     text-transform: capitalize;
     color: #315D80;
 }
-.pricerange_div{
+pricerange_div{
 flex-basis: 44%;
 }
 .btmfilter_btns.pricerang_btnsprop{
 background: #EDF2FA;
 border-radius: 24px 24px 0px 0px;
-width: 40%;
+width: auto;
 margin: 0 auto;
 padding: 1.7em 1em 1.1em 1em;
 position: fixed;
@@ -9726,3 +9774,18 @@ color: #877226;
 color: #877226;
 }
 /* end of confirm showings pop up and reschedule confirm pop up */
+
+
+/* showings offer to lease */
+.my_info.myleaseunit.desktpslider{
+    padding:11px 0;
+}
+.my_info.myleaseunit.desktpslider .divinfo {
+    padding: 7px 12px 0 12px;
+}
+.my_info.myleaseunit.desktpslider .tablinks_propfeat h1,
+.my_info.myleaseunit.desktpslider .tablinks_propfeat .category-lists-slider,
+.my_info.myleaseunit.desktpslider .tablinks_propfeat .element  {
+    padding:0 12px;
+}
+/* end of offer to lease */

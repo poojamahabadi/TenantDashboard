@@ -131,9 +131,6 @@ font-size: 20px;
 .showingstab_mylease input.form-control.edit-input,.showingstab_mylease select.form-control.edit-input,.showingstab_mylease .flexdiv .basicdata p {
 font-size: 14px;
 }
-.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
-margin-left: -99px;
-}
 .agremts_progress .progress-bar h3, .percent_progress span {
 font-size: 17px;
 }
@@ -171,10 +168,6 @@ text-align: left;
 .propfeat_tab.offertolease_tab ul li a {
 padding: 8px 30px;
 font-size: 16px;
-}
-.myleaseunit .category-button {
-font-size: 14px;
-padding: 5px 22px;
 }
 .myleaseunit .swiper-wrapper {
 justify-content: space-between;
@@ -463,21 +456,14 @@ max-width: 71%;
 .bookappnt_divabs {
 margin: -2px 0 0 0;
 }
-.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
-margin-left: -93px;
-}
 .offer_lease, .offer_agree {
 height: 46px;
 }
-.myleaseunit .info_conddetails p:nth-child(2) {
-font-size: 13px;
-}
+
 .offer_lease p, .offer_agree p {
 font-size: 15px;
 }
-.myleaseunit .info_conddetails p:first-child {
-font-size: 14px;
-}
+
 .agremts_progress .progress-bar h3, .percent_progress span {
 font-size: 16px;
 }
@@ -597,9 +583,6 @@ width: 94%;
 }
 .myleaseunit .mrbtm {
 margin-bottom: 8px;
-}
-.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
-margin-left: -84px;
 }
 .bookappnt_divabs {
 margin: -1px 0 0 auto;
@@ -778,14 +761,12 @@ font-size: 13px;
 font-size: 13px;
 }
 .myleaseunit .category-lists-slider .slider-button.slider-prev {
-left: -13px;
+    left: 2px;
 }
 .myleaseunit .category-lists-slider .slider-button.slider-next {
-right: -13px;
+    right: 2px;
 }
-.myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
-margin-left: -76px;
-}
+
 .agremts_progress .progress-bar h3, .percent_progress span {
 font-size: 15px;
 }
@@ -795,9 +776,6 @@ line-height: 13px;
 }
 .offer_lease p, .offer_agree p {
 font-size: 14px;
-}
-.myleaseunit .category-button {
-font-size: 13px;
 }
 .propfeat_tab.offertolease_tab ul li a {
 font-size: 14px;
@@ -5330,6 +5308,24 @@ margin: 0 0 12px 0;
 }
 /* end of transactions */
 /* price range  */
+.loadmore_arrowsdownmobile a{
+    position: fixed;
+    bottom: 84px;
+    left: 45%;
+}
+.loadmore_arrowsdownmobile{
+    display: block;
+}
+.flexprice_range {
+    margin: 4.5em 0 1em 0;
+}
+.fixcontenttopmobile{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 10;
+    top:64px;
+}
 .rightalgn_buttonsprice{
     display: none;
 }
@@ -5339,7 +5335,9 @@ margin: 0 0 12px 0;
 .similar_unitsdiv.pricerangedivs .pl-1{
     padding-left: 15px !important;
 }
-
+.pricerange_search .form-search .input-group input.form-control {
+    padding: 10px 204px 10px 21px;
+}
 .similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p {
     font-size: 20px;
 }
@@ -5349,8 +5347,12 @@ margin: 0 0 12px 0;
 .price-range-slider .range-bar{
     width: 95%;
 }
+.pricerange_search .form-search .input-group-append {
+    right: 4px;
+}
 .pricerange_search {
-    margin: 0 17px 1em 6px;
+    margin: 11px auto 11px 0;
+    width: 95%;
 }
 .box-minmax{
     width: 96%;
@@ -5361,7 +5363,7 @@ color: rgba(55, 105, 144, 0.5);
 font-size: 16px;
 }
 .btmfilter_btns.pricerang_btnsprop {
-width: 76%;
+width: 100%;
 display: block;
 }
 .pricelabel_range {
@@ -5486,7 +5488,8 @@ margin: 15px 0 0 0;
 /* find property end */
 /* property schedule showings */
 .mobileview_tour{
-display: block;
+    display: block;
+    margin: 0 0 15px 0;
 }
 .market_box {
 flex-direction: column;
@@ -6303,9 +6306,6 @@ width: 90%;
     width: 155px;
     height: 40px;
 }
-.btmfilter_btns.pricerang_btnsprop {
-    width: 68%;
-}
 .pricerang_btnsprop .algntxt {
     display: flex;
     justify-content: end;
@@ -6318,7 +6318,6 @@ width: 90%;
     width: 143px;
     height: 40px;
 }
-
 /* end of price range  */
 /* find property */
 .prop_find_details img {
@@ -7186,6 +7185,13 @@ top: -28px;
 }
 /* end of confirm and reschedule showing pop up */
 /* price range */
+.fixcontenttopmobile {
+    top: 94px;
+}
+.pricerange_search {
+    margin: 33px auto 11px 0;
+    width: 95%;
+}
 .price-range-slider {
     width: 78%;
     float: none;
@@ -8766,6 +8772,10 @@ padding: 0 21px 0 10px;
 }
 /* end of transactions */
 /* price range */
+.pricerange_search {
+    margin: 29px auto 11px 0;
+    width: 95%;
+}
 .similar_unitsdiv.pricerangedivs .lochouse_details .house img,
 .similar_unitsdiv.pricerangedivs .lochouse_details .clock img {
  height: 13px;
@@ -8773,13 +8783,6 @@ padding: 0 21px 0 10px;
 }
 .pricerangedivs .unverifi_divtxt p {
     margin: 2px 0 0 0;
-}
-.pricerange_search {
-width: 90%;
-margin: 0 auto 1em auto;
-}
-.btmfilter_btns.pricerang_btnsprop {
-    width: 82%;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
 height: 16px;
@@ -10291,9 +10294,10 @@ vertical-align: top;
 
 /* price range */
 .pricerange_search {
-    width: 94%;
-    margin: 0 auto 1em auto;
+    margin: 29px auto 11px 0;
+    width: 95%;
 }
+
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count p {
     line-height: 10px;
 }
@@ -10315,7 +10319,6 @@ width: 100%;
 }
 .btmfilter_btns.pricerang_btnsprop {
     padding: 1.7em 1em 1.1em 1em;
-    width: 100%;
 }
 .padcss_div{
 padding:0;
@@ -11613,12 +11616,10 @@ padding: 11px;
 /* price range */
 .btmfilter_btns.pricerang_btnsprop {
     padding: 1.7em 1em 1.1em 1em;
-    width: 100%;
 }
-.flexprice_range {
-    margin: 0.8em 0;
+.pricerange_search {
+    width: 92%;
 }
-
 .similar_unitsdiv.pricerangedivs .lochouse_details .house img, .similar_unitsdiv.pricerangedivs .lochouse_details .clock img {
     height: 13px;
     vertical-align: text-top;
@@ -12709,7 +12710,10 @@ padding: 1.5em 0 2.8em 0;
 
 /* price range */
 .pricerange_search {
-    margin: 0 8px 1em 4px;
+    margin: 29px auto 11px 0;
+}
+.flexprice_range {
+    margin: 4em 0 1em 0;
 }
 .flx_btnsalign{
     justify-content: space-between;
@@ -13946,6 +13950,12 @@ padding: 1.5em 0 2.8em 0;
 /* end of confirm showing pop up */
 
 /* price range */
+.loadmore_arrowsdownmobile a {
+    left: 41%;
+}
+.flexprice_range {
+    margin: 4.4em 0 1em 0;
+}
 .pricelabel_range {
     flex-basis: 21%;
 }
@@ -15351,6 +15361,9 @@ padding: 1.5em 0 2.8em 0;
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count {
     top: 7px;
 }
+.loadmore_arrowsdownmobile a {
+    left: 41%;
+}
 .pricelabel_range {
     flex-basis: 21%;
 }
@@ -15368,7 +15381,6 @@ padding: 1.5em 0 2.8em 0;
 }
 .btmfilter_btns.pricerang_btnsprop {
     padding: 1.7em 0.4em 1.1em 0.4em;
-    width: 100%;
 }
 .pricerang_btnsprop .btn.filterpricerg {
     margin: 0 4px 0 7px;
@@ -15403,9 +15415,6 @@ padding: 11px;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list.verifitxt_divsec {
     padding: 5px 21px 5px 0;
-}
-.flexprice_range {
-    margin: 0.8em 0 0.6em 0;
 }
 .algntxt {
 margin: 0 0 0 -35px;
@@ -16698,6 +16707,10 @@ font-size: 13px;
 }
 /* end of find property */
 /* price range */
+.loadmore_arrowsdownmobile a {
+    left: 40%;
+    bottom: 77px;
+}
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img {
 height: 134px;
 }
