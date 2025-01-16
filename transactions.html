@@ -1068,7 +1068,7 @@ Set Custom
 </div>
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 <div class="twobuttons_div">
-<button class="btn pay_amt">Pay Full amount</button>
+<button class="btn pay_amt" data-toggle="modal" data-target="#billpayeepop">Pay Full amount</button>
 <button class="btn makepay_amt">Make A Payment</button>
 </div>
 </div>
@@ -1818,17 +1818,12 @@ Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
 </div>
 </div>
 </div>
-
-
 </div>
 </div>
 </div>
-
 <!-- end of apply for credit -->
 </div><!-- right col-6 -->
 </div>
-
-
 </div>
 </div>
 </main>
@@ -1863,6 +1858,48 @@ Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
     </div>
     </div>
 
+
+
+<!-- bill payee system -->
+  <div class="modal bill_payeemodal fade" id="billpayeepop">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="redclr">payment</span> options</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+         <div class="paymentoptions_modal">
+            <ul class="ul_listbank">
+                <li><a href="payment_billpayeesys.html"  class="bill active"><span><img src="images/transactions/bill_payee.svg"></span>Bill Payee System</a> </li>
+                <li><a href="payment_bankdeposit.html" class="bank"> <span><img src="images/transactions/bank_depo.svg"></span>Bank Deposit</a></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -1874,6 +1911,15 @@ Reschedule <i class="fa fa-angle-down" aria-hidden="true"></i>
 <!-- new timepicker js -->
 <script src="js/time-picker.js"></script>
 <script src="js/main.js"></script>
+
+
+<script>
+var anchors = $(".ul_listbank li a").click(function() {
+$(this).addClass("active")
+  anchors.not(this).removeClass("active")
+})
+</script>
+
 
 <!-- dropdown month -->
 <script>

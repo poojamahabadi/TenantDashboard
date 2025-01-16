@@ -4907,7 +4907,14 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
-/* showing confirmed and reschedule pop up */
+
+.paymentopt_billpayee{
+    width: 66.5%;
+    margin: 0 auto;
+}
+
+    /* showing confirmed and reschedule pop up */
+
 .lefimg_icon img {
     height: 24px;
 }
