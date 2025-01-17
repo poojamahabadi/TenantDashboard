@@ -12,8 +12,7 @@
 <link rel="stylesheet" href="css/slick.css">
 <!-- swiper slider -->
 <link rel="stylesheet" href="css/swiper-bundle.min.css">
-<!-- timepicker styles -->
-<link rel="stylesheet" href="css/jquery-clockpicker.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -521,7 +520,7 @@
             <label for="movingdate">moving date</label>
         </div>
         <div class="movedate_value input-group">
-                <input type="text" value="dec 1 , 2024" class="form-control" id="mov_datetxt">
+                <input type="text" value="dec 1 , 2024"  id="datepickerone" class="form-control" id="mov_datetxt">
                 <div class="input-group-append dateiconimg">
                     <span class="input-group-text">
                     <img src="images/find_property/dateic.svg">
@@ -748,7 +747,7 @@
                 <label for="movingdate">moving date</label>
             </div>
             <div class="movedate_value input-group">
-                    <input type="text" value="dec 1 , 2024" class="form-control" id="mov_datetxt">
+                    <input type="text" value="dec 1 , 2024" id="datepickertwo" class="form-control" id="mov_datetxt">
                     <div class="input-group-append dateiconimg">
                         <span class="input-group-text">
                         <img src="images/find_property/dateic.svg">
@@ -869,12 +868,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
-<script src="js/jquery-clockpicker.min.js"></script>
 <!--  slick js -->
 <script src="js/slick.min.js"></script>
-<!-- new timepicker js -->
-<!-- <script src="js/time-picker.js"></script> -->
+<script src="js/jquery-ui.min.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+    $(function() {
+      $("#datepickerone,#datepickertwo").datepicker();
+    });
+    </script>
+
 <script>
     $(".bathslider .category-button").click(function(){
         $(".bathslider .category-button").removeClass("active");
@@ -896,14 +900,14 @@
     var swiper = '';
     $(window).on('load', function(){
         swiper = new Swiper('#catgory-sliderbath',{
-            loop: true,
+            loop: false,
     observer: true,
     initialSlide: 1,
     spaceBetween: 3,
     observeParents: true,
     slidesPerView: 3,
+     draggable: true,
     allowTouchMove: true,
-    mousewheel: true,
     slideToClickedSlide: true,
     centeredSlides: false,
     navigation: {

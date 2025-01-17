@@ -4907,7 +4907,9 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
-
+    .setup_modalprop .modal-header,.setup_modalprop .modal-body{
+        background-color:unset;
+    }
 .paymentopt_billpayee{
     width: 66.5%;
     margin: 0 auto;
