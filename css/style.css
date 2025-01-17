@@ -518,9 +518,10 @@ width: 100%;
 .myinfo_txt span {
 color: #315d80;
 font-family: 'Helvetica';
-font-weight: bold;
+font-weight: 700;
 text-transform: capitalize;
-font-size: 20px;
+font-size: 18px;
+line-height: 28px;
 }
 .editoption {
 display: flex;
@@ -638,6 +639,11 @@ background-color: unset;
 border: unset;
 margin: 0 0 1em 0;
 }
+.mylease_showings  .tenantaccord .card-header .btn-link.btn-block:after {
+    right: 20px;
+    top: 5px;
+    font-size: 18px;
+}
 .tenantaccord .card .card-header h2 button {
 font-family: 'Helvetica';
 color: #315d80;
@@ -646,6 +652,7 @@ text-transform: capitalize;
 padding: 0;
 border: unset;
 font-size: 14px;
+line-height: 22px;
 }
 .tenantaccord .card .card-header h2 {
 display: flex;
@@ -673,6 +680,7 @@ margin: 0;
 color: #315d80;
 font-weight: bold;
 font-size: 12px;
+line-height: 19px;
 text-transform: capitalize;
 }
 .flexdiv div p {
@@ -749,11 +757,12 @@ margin: 0 0 1em 0;
 }
 .tabsdiv .nav.nav-tabs li a {
 font-size: 16px;
+line-height: 25px;
 font-weight: bold;
 font-family: 'Helvetica';
 border: unset;
 margin: 0;
-padding: 11px 52px;
+padding: 11px 15px;
 text-transform: capitalize;
 display: block;
 text-align: center;
@@ -769,8 +778,8 @@ width: 49.88%;
 }
 .myinfo_txt img {
 margin-right: 4px;
-height: 30px;
-width: 30px;
+height: 19px;
+width: 21px;
 vertical-align: sub;
 }
 .tabsdiv .tab-content .container {
@@ -977,7 +986,7 @@ color: #315d80;
 margin: 0;
 }
 .my_info{
-padding: 14px 22px;
+    padding: 22px 16px;
 }
 .req_document{
 padding:14px 20px 0 20px;
@@ -1601,6 +1610,12 @@ margin-right: 4px;
 .account_nolease {
 display: flex;
 }
+.mylease_showings .myinfo_txt img {
+height: 26px;
+width: 26px;
+margin-right: 8px;
+vertical-align: top;
+}
 .account_nolease p {
 font-size: 20px;
 line-height: 23px;
@@ -2091,7 +2106,7 @@ margin: 0;
 font-family: 'Helvetica Rounded';
 font-weight: 700;
 font-size: 22px;
-line-height: 26px;
+line-height: 25px;
 text-transform: capitalize;
 color: #315d80;
 margin: 0 0 4px 0;
@@ -2100,7 +2115,7 @@ margin: 0 0 4px 0;
 font-family: 'Helvetica';
 font-weight: 400;
 font-size: 12px;
-line-height: 14px;
+line-height: 13px;
 text-transform: capitalize;
 color: #315d80;
 margin: 0;
@@ -2122,12 +2137,15 @@ line-height: 20px;
 text-align: center;
 text-transform: capitalize;
 color: #315d80;
-padding: 30px 13px;
+padding: 13px 9px;
+}
+.activeleasepage_transc .bgcolr_depos {
+    padding: 13px 12px;
 }
 .trans_details p {
 margin: 0;
-font-size: 13px;
-line-height: 17px;
+font-size: 14px;
+line-height: 19px;
 }
 .rght_transtxt{
 justify-content:right;
@@ -2198,11 +2216,11 @@ margin-right: 10px;
 .flexdiv .basicdata p {
 margin: 0;
 color: #315d80;
-font-size: 11px;
+font-size: 12px;
 text-transform: capitalize;
 padding: 2px 10px 2px 5px;
 text-align: right;
-line-height: 20px;
+line-height: 19px;
 }
 .flexdiv .basicdata .form-group select.form-control {
 color: #315d80;
@@ -2224,11 +2242,6 @@ box-shadow: inset 4px 2px 5px rgba(55, 105, 144, 0.1);
 border-radius: 20px;
 text-align: right;
 */
-}
-.tenantaccord .card-header .btn-link.btn-block.collapsed:after {
-content: "\f107";
-font-family: 'FontAwesome';
-font-weight: 900;
 }
 .tenantaccord .card-header {
 position: relative;
@@ -2400,13 +2413,7 @@ font-weight: 900;
 .tenantaccord .card-header {
 position: relative;
 }
-.tenantaccord .card-header .btn-link.btn-block:after {
-content: "\f106";
-font-family: 'FontAwesome';
-font-weight: 900;
-position: absolute;
-right: 9px;
-}
+
 input.form-control.edit-input, select.form-control.edit-input {
 width: 100%;
 border-radius: 20px !important;
@@ -2648,7 +2655,7 @@ font-size: 11px;
 }
 .save_new {
 display: flex;
-margin: 0 5px 0 5px;
+margin: 0 19px 0 5px;
 }
 .tenantaccord .card .card-header h2 .cancel_btn_all,
 .tenantaccord .card .card-header h2 .save_btn_all{
@@ -3661,9 +3668,10 @@ margin: 1em 0;
 .propfeat_tab ul li a{
 color: #315D80;
 border-radius: 25.6499px;
-padding: 7px 30px;
+padding: 7px 46px;
 font-weight: bold;
 font-size: 14px;
+line-height: 16px;
 }
 .details_slider img {
 width: auto;
@@ -4547,11 +4555,11 @@ right: 6px;
 margin: 0 13px 0 13px;
 }
 .showings_offerlease .tenant_imgs {
-display: flex;
-justify-content: space-around;
-width: 81%;
-margin: -71px 0 0 21px;
-position: relative;
+    display: flex;
+        justify-content: space-around;
+        width: 81%;
+        margin: -58px 0 0 21px;
+        position: relative;
 }
 .showings_offerlease .profimg_div {
 margin: -74px 0 0 27px;
@@ -4597,18 +4605,33 @@ position: absolute;
 right: 36px;
 top: -27px;
 }
+.active_leasepage .offr_lea_p .row,.showings_offerlease .offr_lea_p .row {
+    align-items: baseline;
+    }
 .showings_offerlease .add_tenants.bgtenant_div .tenant_info {
-margin: 15px 0 0 0;
+margin: 14px 0 0 0;
 }
 .offr_leasehr{
-margin: 22px auto;
+    margin: 20px auto 18px auto;
+}
+.my_activeleasepage .midtxt_css {
+    margin: 0 0 2px 0;
+}
+.mobileversion_credit{
+    display:none;
+}
+.mobvisible_trans{
+    display: none;
 }
 .offr_lea_p{
 margin: 0 auto;
-padding: 0 0 25px 0;
+padding: 0 0 27px 0;
 }
 .offr_lea_p,.offr_leasehr{
-width: 91%;
+width: 94%;
+}
+.str_loc_txt{
+    margin: 0 0 0 18px;
 }
 .str_loc_txt p,.acc_no p{
 font-family: 'Helvetica';
@@ -4617,6 +4640,10 @@ font-size: 12px;
 text-transform: capitalize;
 color: #315D80;
 margin:0;
+line-height: 19px;
+}
+.offr_lea_p .acc_no p{
+color:#6B5E7B;
 }
 .belowpart_tenant.showings_offerlease {
 padding:0;
@@ -4629,20 +4656,26 @@ align-items: baseline;
 .acc_no p:nth-child(2){
 font-size: 16px;
 font-weight: bold;
-margin:0 0 0 20px
+margin:0 0 0 20px;
+color:#315D80;
+line-height: 25px;
 }
 .account_nolease .btn.gv_notice{
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 13px;
-text-transform: capitalize;
-color: #F2727F;
-background: rgba(49, 93, 128, 0.08);
-border-radius: 42px;
-border:unset;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    padding: 5px 13px 5px 14px;
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #F2727F;
+    background: rgba(49, 93, 128, 0.08);
+    border-radius: 42px;
+    border: unset;
+    line-height: 16px;
 }
 .account_nolease .btn.gv_notice img{
-vertical-align: bottom;
+height: 20px;
+width: 14px;
+margin: 0 0 0 4px;
 }
 .mylease_showings .tabsdiv .nav.nav-tabs li a{
 color:#6B5E7B;
@@ -4849,6 +4882,15 @@ text-transform: capitalize;
 }
 .my_lease_balance .pricetxt {
 font-size: 18px;
+}
+.activeleasepage_transc .download_trans .btn.btn_download img{
+    width: 16px;
+    height: 17px;
+    vertical-align: bottom;
+    margin-right: 3px;
+}
+.activeleasepage_transc .download_trans .btn.btn_download{
+color: #92A3B4;
 }
 .download_trans .btn.btn_download{
 font-family: 'Helvetica';
@@ -5466,12 +5508,12 @@ flex-direction: column;
 }
 .data-text .element .row.mrbtm .sche_pad_red{
 max-width:90%;
-margin: 0 0 10px 0;
+margin: 0 0 3px 0;
 }
 .category-lists-slider .swiper-container {
 background: #DEE7F2;
 border-radius: 12px;
-margin: 0 0 1em 0;
+margin: 0 0 0.2em 0;
 }
 .category-lists-slider .slider-button{
 background-color: unset;
@@ -5697,7 +5739,13 @@ align-items: center;
 margin: 0 0 12px -15px;
 }
 .tenant_imgs .bgtenant_div.slick-active {
-margin: 29px 0 0 0;
+    margin: 24px 0 0 0;
+}
+.tenant_imgs .bgtenant_div.slick-current.slick-active .tenant_info {
+    margin:6px 0 0 0;
+}
+.tenant_imgs .bgtenant_div.slick-active .tenant_info {
+    margin:10px 0 0 0;
 }
 .tenant_imgs .bgtenant_div.slick-current.slick-active{
 margin:0;
@@ -6836,7 +6884,11 @@ display: none;
 
 /* active lease page */
 .agreemt_confrm.mylease_agreements.activelease_agreemts{
-height: auto;
+    height: auto;
+    margin: 0 0 15px 0;
+}
+.aply_creditbg .btn.preapprovtrans{
+    text-transform: unset;
 }
 .activelease_agreemts .start_signbtn .start_btn_signin{
 background: #F2727F;
@@ -6886,8 +6938,9 @@ align-items: center;
 .my_teamdiv.myleaseteam_flex.desk .teamtxt h3 {
 margin: 0;
 }
-.activelease_secmy .divinfo {
-margin: 0 0 14px 0;
+
+.activelease_secmy .activeleasepage_transc .divinfo {
+    justify-content: center;
 }
 .closebtn_link .btn.btnclose_popup{
 font-family: 'Helvetica';
@@ -6923,10 +6976,9 @@ border-radius: 17px;
 padding: 17px 15px 17px 15px;
 }
 .aply_creditbg{
-background: #EDF2FA;
-border-radius: 17px;
-padding: 14px 22px;
-margin: 1.3em 0 2em 0;
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding:22px;
 }
 .btn.preapprovtrans {
 font-family: 'Helvetica';
@@ -6951,10 +7003,10 @@ margin-left: 4px;
 .aply_creditbg .flex_centercss{
 padding: 0px 10px;
 }
-.aply_creditbg .bgcolr_depos{
-width: 100%;
-padding: 25px 13px;
-margin: 1.3em 0 0 0;
+.aply_creditbg .bgcolr_depos {
+    width: 100%;
+    padding: 15px 13px;
+    margin: 0.6em 0 0 0;
 }
 .aply_creditbg .trans_txt h3 {
 margin: 0 0 7px 0;
@@ -6977,7 +7029,7 @@ width: 100%;
 margin: 1em 0 0 0;
 }
 .transac_balpage .download_trans {
-margin: 1em 0 0.2em 0;
+    margin: 1em 0 0.5em 0;
 }
 /* end of transaction page */
 
@@ -7333,19 +7385,6 @@ background-image: unset;
     border-left: 2px solid #fff;
     border-bottom: 2px solid #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .setup_modalprop .modal-header {
 justify-content: center;
 text-align: center;
@@ -7846,7 +7885,7 @@ margin-left:7px;
 }
 .midtxt_css{
 background: #DEE7F2;
-padding: 7px 10px;
+padding: 4px 10px;
 margin: 0 0 10px 0;
 }
 .midtxt_css h3{
@@ -8560,10 +8599,10 @@ background: #9BB997;
 .my_info .tenantaccord span.income-index1{
 display: none;
 }
-.my_info .tenantaccord .card-header .btn-link.btn-block.collapsed:after {
+.tenant-info .my_info .tenantaccord .card-header .btn-link.btn-block.collapsed:after {
 display: none;
 }
-.my_info .tenantaccord .card-header.ademp_icome .delebtn_new {
+.signin_popup .my_info .tenantaccord .card-header.ademp_icome .delebtn_new {
 display: flex;
 margin: 0 5px 0 5px;
 }
@@ -9880,8 +9919,11 @@ color: #877226;
 
 
 /* showings offer to lease */
+.myleaseunit .midtxt_css{
+    margin:0 0 2px 0;
+}
 .my_info.myleaseunit.desktpslider{
-padding:11px 0;
+    padding: 4px 0;
 }
 .my_info.myleaseunit.desktpslider .divinfo {
 padding: 7px 12px 0 12px;

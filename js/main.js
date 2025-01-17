@@ -360,9 +360,9 @@ $(window).on("resize orientationchange", createSlickunits);
 
 $(document).ready(function () {
 $('.unit_newlist_lease ul.nav.nav-tabs li a').on('click', function () {
-        $('.similar_unitsdiv .newly_listed.slider').slick("refresh"); 
-        $('.similar_unitsdiv .just_leased.slider').slick("refresh");
-        $('.similar_unitsdiv .similarunits.slider').slick("refresh");
+$('.similar_unitsdiv .newly_listed.slider').slick("refresh"); 
+$('.similar_unitsdiv .just_leased.slider').slick("refresh");
+$('.similar_unitsdiv .similarunits.slider').slick("refresh");
 });
 });
 
@@ -512,15 +512,15 @@ val = $( ".select-box.month select option:selected,.select-box1.year select opti
 $('.relv_divevents').hide();
 // showings page pop up effect
 $(document).ready(function() {
-    $('.calview_click').click(function() {
-            $('.relv_divevents').show("500");
-            $(".filterbtnshow").css("visibility","visible");
-            $('.clickonfilterbtn.clkfilmap,.clcross_icon.mapcross').hide("500");
-    });
-    $('.relv_divevents .crossic_cal').click(function() {
-        $('.relv_divevents,.clickonfilterbtn.clkfilmap').hide("500");
+$('.calview_click').click(function() {
+$('.relv_divevents').show("500");
+$(".filterbtnshow").css("visibility","visible");
+$('.clickonfilterbtn.clkfilmap,.clcross_icon.mapcross').hide("500");
 });
-    
+$('.relv_divevents .crossic_cal').click(function() {
+$('.relv_divevents,.clickonfilterbtn.clkfilmap').hide("500");
+});
+
 });
 
 
@@ -538,117 +538,131 @@ $(".clickonfilterbtn.calenderview_filter,.clcross_icon.calcross_icon").hide();
 
 // bookappointment representative dropdown
 $(".inputselect_div .dropdown-menu .dropdown-item").click(function(){
-        var selText = $(this).text();
-        var imgSource = $(this).find('img').attr('src');
-        var img = '<img src="' + imgSource + '"/>'; 
-        $(this).parents('.dropdown').find('#dropdownMenuButton').html(img + '<span> ' +selText+'</span>');
+var selText = $(this).text();
+var imgSource = $(this).find('img').attr('src');
+var img = '<img src="' + imgSource + '"/>'; 
+$(this).parents('.dropdown').find('#dropdownMenuButton').html(img + '<span> ' +selText+'</span>');
 });
 
 // tour schedule
 $(".desktopview_tour .sliderforday_div .slick-slider").slick({
-        slidesToShow: 6.3,
-        infinite:true,
-        arrows: false,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-       });
+slidesToShow: 6.3,
+infinite:true,
+arrows: false,
+slidesToScroll: 1,
+autoplay: true,
+autoplaySpeed: 2000,
+});
 
-       $(".schedtour_popup .sliderforday_div .slick-slider").slick({
-        slidesToShow: 6.3,
-        infinite:true,
-        slidesToScroll: 1,
-        autoplay: true,
-        arrows: false,
-        autoplaySpeed: 2000,
-        responsive: [
-                {
-                breakpoint:960,
-                settings: {
+$(".schedtour_popup .sliderforday_div .slick-slider").slick({
+slidesToShow: 6.3,
+infinite:true,
+slidesToScroll: 1,
+autoplay: true,
+arrows: false,
+autoplaySpeed: 2000,
+responsive: [
+{
+breakpoint:960,
+settings: {
 
-                slidesToShow: 6.3,
-                }
-                },
-                {
-                breakpoint: 641,
-                settings: {
-                slidesToShow: 2.1,
-                }
-                },
-                {
-                breakpoint: 410,
-                settings: {
-                slidesToShow: 1.7,
-                }
-                },
-                ]
-       });
-       $(".mobileview_tour .sliderforday_div .slick-slider").slick({
-        slidesToShow: 6.3,
-        infinite:true,
-        slidesToScroll: 1,
-        autoplay: true,
-        arrows: false,
-        autoplaySpeed: 2000,
-        responsive: [
-                {
-                breakpoint:960,
-                settings: {
+slidesToShow: 6.3,
+}
+},
+{
+breakpoint: 641,
+settings: {
+slidesToShow: 2.1,
+}
+},
+{
+breakpoint: 410,
+settings: {
+slidesToShow: 1.7,
+}
+},
+]
+});
+$(".mobileview_tour .sliderforday_div .slick-slider").slick({
+slidesToShow: 6.3,
+infinite:true,
+slidesToScroll: 1,
+autoplay: true,
+arrows: false,
+autoplaySpeed: 2000,
+responsive: [
+{
+breakpoint:960,
+settings: {
 
-                slidesToShow: 6.3,
-                }
-                },
-                {
-                breakpoint: 641,
-                settings: {
-                slidesToShow: 2.1,
-                }
-                },
-                {
-                breakpoint: 410,
-                settings: {
-                slidesToShow: 1.7,
-                }
-                },
-                ]
-       });
+slidesToShow: 6.3,
+}
+},
+{
+breakpoint: 641,
+settings: {
+slidesToShow: 2.1,
+}
+},
+{
+breakpoint: 410,
+settings: {
+slidesToShow: 1.7,
+}
+},
+]
+});
 
 // property schedule tabs pop up
 $(document).ready(function () {
-        $('.schedtour_popup ul.nav.nav-tabs li a,.btnsched_tour').on('click', function () {
-                $('.flxboth_propschepop .sliderforday_div .slick-slider').slick("refresh"); 
-        });
+$('.schedtour_popup ul.nav.nav-tabs li a,.btnsched_tour').on('click', function () {
+$('.flxboth_propschepop .sliderforday_div .slick-slider').slick("refresh"); 
+});
 
-        $('.modal.schedtour_popup').on('shown.bs.modal', function (e) {
-                $('.sliderforday_div .slick-slider').slick('refresh');
-        })
+$('.modal.schedtour_popup').on('shown.bs.modal', function (e) {
+$('.sliderforday_div .slick-slider').slick('refresh');
+})
 
 // signin pop up modal slick slider
 $('.modal.signin_popup').on('shown.bs.modal', function (e) {
-        $('.verticalslitenant .slick-slider').slick('refresh');
+$('.verticalslitenant .slick-slider').slick('refresh');
 })
 
-        $('.schedtour_popup ul.nav.nav-tabs li.steptwo').on('click', function () {
-                $(this).addClass("changeborderline");
-        });
-        $('.schedtour_popup ul.nav.nav-tabs li.stepone').on('click', function () {
-                $('.schedtour_popup ul.nav.nav-tabs li.steptwo').removeClass("changeborderline");
-        });
+$('.schedtour_popup ul.nav.nav-tabs li.steptwo').on('click', function () {
+$(this).addClass("changeborderline");
+});
+$('.schedtour_popup ul.nav.nav-tabs li.stepone').on('click', function () {
+$('.schedtour_popup ul.nav.nav-tabs li.steptwo').removeClass("changeborderline");
+});
 });
 
 
 
 // give notice request date
-        $(".reqdate_btnclick.deskbtnclk").hide();
-        $(".btnreqstbtn.desktreqbtn").click(function(){
-        $(".reqdate_btnclick.deskbtnclk").toggle();
-        if($('#req_btndate:visible').length> 0)
-        {
-        $(".btnreqstbtn.desktreqbtn").addClass("changeborderbtn");
-        $(".reqdate_btnclick.deskbtnclk").addClass("margcss");
-        }
-        else{
-        $(".btnreqstbtn.desktreqbtn").removeClass("changeborderbtn");
-        $(".reqdate_btnclick.deskbtnclk").removeClass("margcss");
-        }
-        });
+$(".reqdate_btnclick.deskbtnclk").hide();
+$(".btnreqstbtn.desktreqbtn").click(function(){
+$(".reqdate_btnclick.deskbtnclk").toggle();
+if($('#req_btndate:visible').length> 0)
+{
+$(".btnreqstbtn.desktreqbtn").addClass("changeborderbtn");
+$(".reqdate_btnclick.deskbtnclk").addClass("margcss");
+}
+else{
+$(".btnreqstbtn.desktreqbtn").removeClass("changeborderbtn");
+$(".reqdate_btnclick.deskbtnclk").removeClass("margcss");
+}
+});
+
+
+// active lease transaction tab
+$(".desktopversion_credit").hide();
+$(document).ready(function() {
+    $(".lease_transtabs").click(function(){
+    if ((screen.width>767)) {
+        $(".desktopversion_credit").show();
+    }
+    }); 
+    $(".lease_infor").click(function(){
+        $(".desktopversion_credit").hide();
+    }); 
+});
