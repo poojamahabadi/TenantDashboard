@@ -141,230 +141,408 @@
 
 
 <main class="l-main">
-    <div class="content-wrapper content-wrapper--with-bg">
-    <div class="container-fluid">
-    <div class="row">
-    <div class="col-xl-12">
-    
-        <div class="paymentopt_billpayee p-3">
-              <h4><span class="redclr">payment</span> options</h4>
-                <div id="accordionbillpayee" class="paymnt_optionsaccord">
-                    <div class="card">
-                      <div class="card-header">
-                        <a class="card-link" data-toggle="collapse" href="#billpayeeaccordone">
-                            Bill Payee System
-                        </a>
-                      </div>
-                      <div id="billpayeeaccordone" class="collapse" data-parent="#accordionbillpayee">
-                        <div class="card-body">
-                            <ul class="bilpay_sys_paymt p-0 mb-0">
-                                <li>
-                                    <a href="javascript:void(0)" class=""><span><img src="images/transactions/bill_payee.svg"></span>Bill Payee System</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)" class="bank"> <span><img src="images/transactions/bank_depo.svg"></span>Bank Deposit</a>
-                                </li>
-                            </ul>
-                        </div>
-                      </div>
-                    </div>
-    
-    
-                    <div class="card" style="display: none;">
-                      <div class="card-header">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#bankdepoaccordtwo">
-                            Bank Deposit
-                      </a>
-                      </div>
-                      <div id="bankdepoaccordtwo" class="collapse" data-parent="#accordionbillpayee">
-                        <div class="card-body">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+<div class="content-wrapper content-wrapper--with-bg">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xl-12">
+
+<div class="paymentopt_billpayee p-3">
+<h4><span class="redclr">payment</span> options</h4>
+<div id="accordionbillpayee" class="paymnt_optionsaccord">
+<div class="card">
+<div class="card-header">
+<a class="card-link" data-toggle="collapse" href="#billpayeeaccordone">
+Bill Payee System
+</a>
+</div>
+<div id="billpayeeaccordone" class="collapse" data-parent="#accordionbillpayee">
+<div class="card-body">
+<ul class="bilpay_sys_paymt p-0 mb-0">
+<li>
+<a href="javascript:void(0)" class=""><span><img src="images/transactions/bill_payee.svg"></span>Bill Payee System</a>
+</li>
+<li>
+<a href="javascript:void(0)" class="bank"> <span><img src="images/transactions/bank_depo.svg"></span>Bank Deposit</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="card" style="display: none;">
+<div class="card-header">
+<a class="collapsed card-link" data-toggle="collapse" href="#bankdepoaccordtwo">
+Bank Deposit
+</a>
+</div>
+<div id="bankdepoaccordtwo" class="collapse" data-parent="#accordionbillpayee">
+<div class="card-body">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</div>
+</div>
+</div>
+</div>
 
 
 <div class="selct_bankopt mt-3">
 <p>select your bank/credit union</p>
 
-<div class="serch_bardivname mb-3">
-    <input class="form-control" placeholder="Search Name" type="text">
-    <button type="submit" class="submtsrch_btn"><i class="fa fa-search"></i></button>
+<div class="searchfilter_trans">
+<div class="serch_bardivname ">
+<input class="form-control" placeholder="Search Name" type="text">
+<button type="submit" class="submtsrch_btn"><i class="fa fa-search"></i></button>
+</div>
+<div class="fil_transbillpay">
+<a href="javascript:void(0);"><img src="images/transactions/trans_filter.svg"></a>
+</div>
+<div class="name_or_list">
+<div class="contentnamelist_drop">
+<button type="button" class="btn btn_name">Name</button>
+<button type="button" class="btn btn_list">List</button>
+<img src="images/showings/cross_icon.svg" class="clcross_icontransbill">
+</div>
+
+</div>
+</div>
+
+
+<!-- list view -->
+<div class="bankname_img listview_paybill mt-3">
+<div class="firstblock_bankimg d-flex justify-content-between mb-2">
+<div class="imgcollec_bank">
+<img src="images/transactions/p1.svg">
+<div class="bankname_decrip">
+<p>Royal Bank of Canada</p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p2.svg">
+<div class="bankname_decrip">
+<p> Toronto-Dominion Bank</p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p3.svg">
+<div class="bankname_decrip">
+<p>Bank of Nova Scotia</p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p4.svg">
+<div class="bankname_decrip">
+<p> Bank of Montreal</p>
+</div>
+</div>
+</div>
+
+<div class="firstblock_bankimg d-flex justify-content-between mb-2">
+<div class="imgcollec_bank">
+<img src="images/transactions/p5.svg">
+<div class="bankname_decrip">
+<p> Canadian Imperial Bank of Commerce</p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p6.svg">
+<div class="bankname_decrip">
+<p> National Bank of Canada </p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p7.svg">
+<div class="bankname_decrip">
+<p> HSBC Bank Canada </p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p8.svg">
+<div class="bankname_decrip">
+<p>  Laurentian Bank of Canada </p>
+</div>
+</div>
+</div>
+
+<div class="firstblock_bankimg d-flex justify-content-between mb-2">
+<div class="imgcollec_bank">
+<img src="images/transactions/p9.svg">
+<div class="bankname_decrip">
+<p> Canadian Western Bank</p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p10.svg">
+<div class="bankname_decrip">
+<p> Equitable Bank</p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p11.svg">
+<div class="bankname_decrip">
+<p> Manulife Bank of Canada </p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p12.svg">
+<div class="bankname_decrip">
+<p>President’s Choice Financial </p>
+</div>
+</div>
+</div>
+
+<div class="firstblock_bankimg d-flex justify-content-between mb-2">
+<div class="imgcollec_bank">
+<img src="images/transactions/p13.svg">
+<div class="bankname_decrip">
+<p>  Tangerine Bank </p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p14.svg">
+<div class="bankname_decrip">
+<p>Simplii Financial </p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p15.svg">
+<div class="bankname_decrip">
+<p> Home Trust Company </p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p16.svg">
+<div class="bankname_decrip">
+<p> First Nations Bank of Canada </p>
+</div>
+</div>
 </div>
 
 
 
-<div class="bankname_img">
-    <div class="firstblock_bankimg d-flex justify-content-between mb-2">
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p1.svg">
-            <div class="bankname_decrip">
-                <p>Royal Bank of Canada</p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p2.svg">
-            <div class="bankname_decrip">
-                <p> Toronto-Dominion Bank</p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p3.svg">
-            <div class="bankname_decrip">
-                <p>Bank of Nova Scotia</p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p4.svg">
-            <div class="bankname_decrip">
-                <p> Bank of Montreal</p>
-            </div>
-        </div>
+<div class="firstblock_bankimg d-flex justify-content-between mb-2">
+<div class="imgcollec_bank">
+<img src="images/transactions/p17.svg">
+<div class="bankname_decrip">
+<p>  Bridgewater Bank </p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p18.svg">
+<div class="bankname_decrip">
+<p> Concentra Bank  </p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p19.svg">
+<div class="bankname_decrip">
+<p>  Haventree Bank  </p>
+</div>
+</div>
+<div class="imgcollec_bank">
+<img src="images/transactions/p20.svg">
+<div class="bankname_decrip">
+<p> Peoples Trust Company  </p>
+</div>
+</div>
+</div>
+</div>
+<!-- list view -->
+
+
+
+<!-- name view -->
+<div class="nameview_paybilldiv mt-3">
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p1.svg">
     </div>
-
-    <div class="firstblock_bankimg d-flex justify-content-between mb-2">
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p5.svg">
-            <div class="bankname_decrip">
-                <p> Canadian Imperial Bank of Commerce</p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p6.svg">
-            <div class="bankname_decrip">
-                <p> National Bank of Canada </p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p7.svg">
-            <div class="bankname_decrip">
-                <p> HSBC Bank Canada </p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p8.svg">
-            <div class="bankname_decrip">
-                <p>  Laurentian Bank of Canada </p>
-            </div>
-        </div>
+    <div class="bnkname_txt">
+        <p>Royal Bank of Canada (RBC)         </p>
     </div>
+</div>
 
-    <div class="firstblock_bankimg d-flex justify-content-between mb-2">
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p9.svg">
-            <div class="bankname_decrip">
-                <p> Canadian Western Bank</p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p10.svg">
-            <div class="bankname_decrip">
-                <p> Equitable Bank</p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p11.svg">
-            <div class="bankname_decrip">
-                <p> Manulife Bank of Canada </p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p12.svg">
-            <div class="bankname_decrip">
-                <p>President’s Choice Financial </p>
-            </div>
-        </div>
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p2.svg">
     </div>
-
-    <div class="firstblock_bankimg d-flex justify-content-between mb-2">
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p13.svg">
-            <div class="bankname_decrip">
-                <p>  Tangerine Bank </p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p14.svg">
-            <div class="bankname_decrip">
-                <p>Simplii Financial </p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p15.svg">
-            <div class="bankname_decrip">
-                <p> Home Trust Company </p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p16.svg">
-            <div class="bankname_decrip">
-                <p> First Nations Bank of Canada </p>
-            </div>
-        </div>
+    <div class="bnkname_txt">
+        <p>Toronto-Dominion Bank (TD Bank)  </p>
     </div>
+</div>
 
-
-
-    <div class="firstblock_bankimg d-flex justify-content-between mb-2">
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p17.svg">
-            <div class="bankname_decrip">
-                <p>  Bridgewater Bank </p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p18.svg">
-            <div class="bankname_decrip">
-                <p> Concentra Bank  </p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p19.svg">
-            <div class="bankname_decrip">
-                <p>  Haventree Bank  </p>
-            </div>
-        </div>
-        <div class="imgcollec_bank">
-            <img src="images/transactions/p20.svg">
-            <div class="bankname_decrip">
-                <p> Peoples Trust Company  </p>
-            </div>
-        </div>
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p3.svg">
     </div>
+    <div class="bnkname_txt">
+        <p>Bank of Nova Scotia (Scotiabank)  </p>
+    </div>
+</div>
 
-
-
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p4.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p>Bank of Montreal (BMO)   </p>
+    </div>
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p5.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p>Canadian Imperial Bank of Commerce (CIBC)         </p>
+    </div>
 </div>
 
-
-
-
-
-
-
-           
-          </div>
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p6.svg">
     </div>
+    <div class="bnkname_txt">
+        <p>National Bank of Canada  </p>
     </div>
+</div>
 
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p7.svg">
     </div>
+    <div class="bnkname_txt">
+        <p>HSBC Bank Canada </p>
     </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p8.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p>            Laurentian Bank of Canada  </p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p9.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p>
+            Canadian Western Bank</p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p10.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p> Equitable Bank</p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p11.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p> Manulife Bank of Canada        </p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p12.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p>President’s Choice Financial   </p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p13.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p>  Tangerine Bank       </p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p14.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p>Simplii Financial    </p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p15.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p> Home Trust Company       </p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p16.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p> First Nations Bank of Canada    </p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p17.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p>  Bridgewater Bank   </p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p18.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p> Concentra Bank      </p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p19.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p>  Haventree Bank        </p>
+    </div>
+</div>
+
+<div class="bankname_imgpay mb-1">
+    <div class="img_ofbankname">
+        <img src="images/transactions/p20.svg">
+    </div>
+    <div class="bnkname_txt">
+        <p> Peoples Trust Company     </p>
+    </div>
+</div>
+</div>
+
+<!-- end of name view -->
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </main>
 
 
@@ -373,39 +551,71 @@
 
 <!-- mobileview menu -->
 <div class="container-fluid btmmenu">
-    <div class="flex_menubottom">
-    <div class="dash">
-    <a href="">
-    <img src="images/dashboard.svg">
-    <p>Dashboard</p>
-    </a> 
-    </div>
-    <div class="commu">
-    <a href="">
-    <img src="images/communication.svg">
-    <p>Communication</p>
-    </a>
-    </div>
-    <div class="maint">
-    <a href="">
-    <img src="images/maintenance.svg">
-    <p>Maintenance</p>
-    </a>
-    </div>
-    <div class="rent">
-    <a href="">
-    <img src="images/rentals.svg">
-    <p>Rentals</p>
-    </a>
-    </div>
-    </div>
-    </div>
+<div class="flex_menubottom">
+<div class="dash">
+<a href="">
+<img src="images/dashboard.svg">
+<p>Dashboard</p>
+</a> 
+</div>
+<div class="commu">
+<a href="">
+<img src="images/communication.svg">
+<p>Communication</p>
+</a>
+</div>
+<div class="maint">
+<a href="">
+<img src="images/maintenance.svg">
+<p>Maintenance</p>
+</a>
+</div>
+<div class="rent">
+<a href="">
+<img src="images/rentals.svg">
+<p>Rentals</p>
+</a>
+</div>
+</div>
+</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
 
+// payment options filter name or list
+$(".name_or_list").hide();
+$(document).ready(function() {
+$(".fil_transbillpay a").click(function(){
+$(".name_or_list").show();
+}); 
+
+$(".clcross_icontransbill").click(function(){
+$(".name_or_list").hide();
+});
+
+// list view
+$(".nameview_paybilldiv").hide();
+$(".btn_list").click(function(){
+$(".listview_paybill").show();
+$(".nameview_paybilldiv").hide();
+$(".name_or_list").hide();
+});
+
+
+// name view
+$(".name_or_list").hide();
+$(".btn_name").click(function(){
+    $(".listview_paybill").hide();
+    $(".nameview_paybilldiv").show();
+$(".name_or_list").hide();
+});
+
+
+});
+</script>
 </body>
 </html>

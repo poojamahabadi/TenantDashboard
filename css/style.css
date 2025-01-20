@@ -640,9 +640,9 @@ border: unset;
 margin: 0 0 1em 0;
 }
 .mylease_showings  .tenantaccord .card-header .btn-link.btn-block:after {
-    right: 20px;
-    top: 5px;
-    font-size: 18px;
+right: 20px;
+top: 5px;
+font-size: 18px;
 }
 .tenantaccord .card .card-header h2 button {
 font-family: 'Helvetica';
@@ -986,7 +986,7 @@ color: #315d80;
 margin: 0;
 }
 .my_info{
-    padding: 22px 16px;
+padding: 22px 16px;
 }
 .req_document{
 padding:14px 20px 0 20px;
@@ -2140,7 +2140,7 @@ color: #315d80;
 padding: 13px 9px;
 }
 .activeleasepage_transc .bgcolr_depos {
-    padding: 13px 12px;
+padding: 13px 12px;
 }
 .trans_details p {
 margin: 0;
@@ -4555,11 +4555,11 @@ right: 6px;
 margin: 0 13px 0 13px;
 }
 .showings_offerlease .tenant_imgs {
-    display: flex;
-        justify-content: space-around;
-        width: 81%;
-        margin: -58px 0 0 21px;
-        position: relative;
+display: flex;
+justify-content: space-around;
+width: 81%;
+margin: -58px 0 0 21px;
+position: relative;
 }
 .showings_offerlease .profimg_div {
 margin: -74px 0 0 27px;
@@ -4606,22 +4606,22 @@ right: 36px;
 top: -27px;
 }
 .active_leasepage .offr_lea_p .row,.showings_offerlease .offr_lea_p .row {
-    align-items: baseline;
-    }
+align-items: baseline;
+}
 .showings_offerlease .add_tenants.bgtenant_div .tenant_info {
 margin: 14px 0 0 0;
 }
 .offr_leasehr{
-    margin: 20px auto 18px auto;
+margin: 20px auto 18px auto;
 }
 .my_activeleasepage .midtxt_css {
-    margin: 0 0 2px 0;
+margin: 0 0 2px 0;
 }
 .mobileversion_credit{
-    display:none;
+display:none;
 }
 .mobvisible_trans{
-    display: none;
+display: none;
 }
 .offr_lea_p{
 margin: 0 auto;
@@ -4631,7 +4631,7 @@ padding: 0 0 27px 0;
 width: 94%;
 }
 .str_loc_txt{
-    margin: 0 0 0 18px;
+margin: 0 0 0 18px;
 }
 .str_loc_txt p,.acc_no p{
 font-family: 'Helvetica';
@@ -4661,16 +4661,16 @@ color:#315D80;
 line-height: 25px;
 }
 .account_nolease .btn.gv_notice{
-    font-family: 'Helvetica';
-    font-weight: 700;
-    padding: 5px 13px 5px 14px;
-    font-size: 10px;
-    text-transform: capitalize;
-    color: #F2727F;
-    background: rgba(49, 93, 128, 0.08);
-    border-radius: 42px;
-    border: unset;
-    line-height: 16px;
+font-family: 'Helvetica';
+font-weight: 700;
+padding: 5px 13px 5px 14px;
+font-size: 10px;
+text-transform: capitalize;
+color: #F2727F;
+background: rgba(49, 93, 128, 0.08);
+border-radius: 42px;
+border: unset;
+line-height: 16px;
 }
 .account_nolease .btn.gv_notice img{
 height: 20px;
@@ -4884,10 +4884,10 @@ text-transform: capitalize;
 font-size: 18px;
 }
 .activeleasepage_transc .download_trans .btn.btn_download img{
-    width: 16px;
-    height: 17px;
-    vertical-align: bottom;
-    margin-right: 3px;
+width: 16px;
+height: 17px;
+vertical-align: bottom;
+margin-right: 3px;
 }
 .activeleasepage_transc .download_trans .btn.btn_download{
 color: #92A3B4;
@@ -5739,13 +5739,13 @@ align-items: center;
 margin: 0 0 12px -15px;
 }
 .tenant_imgs .bgtenant_div.slick-active {
-    margin: 24px 0 0 0;
+margin: 24px 0 0 0;
 }
 .tenant_imgs .bgtenant_div.slick-current.slick-active .tenant_info {
-    margin:6px 0 0 0;
+margin:6px 0 0 0;
 }
 .tenant_imgs .bgtenant_div.slick-active .tenant_info {
-    margin:10px 0 0 0;
+margin:10px 0 0 0;
 }
 .tenant_imgs .bgtenant_div.slick-current.slick-active{
 margin:0;
@@ -6884,11 +6884,11 @@ display: none;
 
 /* active lease page */
 .agreemt_confrm.mylease_agreements.activelease_agreemts{
-    height: auto;
-    margin: 0 0 15px 0;
+height: auto;
+margin: 0 0 15px 0;
 }
 .aply_creditbg .btn.preapprovtrans{
-    text-transform: unset;
+text-transform: unset;
 }
 .activelease_agreemts .start_signbtn .start_btn_signin{
 background: #F2727F;
@@ -6940,7 +6940,7 @@ margin: 0;
 }
 
 .activelease_secmy .activeleasepage_transc .divinfo {
-    justify-content: center;
+justify-content: center;
 }
 .closebtn_link .btn.btnclose_popup{
 font-family: 'Helvetica';
@@ -6976,9 +6976,9 @@ border-radius: 17px;
 padding: 17px 15px 17px 15px;
 }
 .aply_creditbg{
-    background: #EDF2FA;
-    border-radius: 17px;
-    padding:22px;
+background: #EDF2FA;
+border-radius: 17px;
+padding:22px;
 }
 .btn.preapprovtrans {
 font-family: 'Helvetica';
@@ -7004,9 +7004,9 @@ margin-left: 4px;
 padding: 0px 10px;
 }
 .aply_creditbg .bgcolr_depos {
-    width: 100%;
-    padding: 15px 13px;
-    margin: 0.6em 0 0 0;
+width: 100%;
+padding: 15px 13px;
+margin: 0.6em 0 0 0;
 }
 .aply_creditbg .trans_txt h3 {
 margin: 0 0 7px 0;
@@ -7029,7 +7029,7 @@ width: 100%;
 margin: 1em 0 0 0;
 }
 .transac_balpage .download_trans {
-    margin: 1em 0 0.5em 0;
+margin: 1em 0 0.5em 0;
 }
 /* end of transaction page */
 
@@ -7297,93 +7297,93 @@ background-color: rgba(255, 255, 255,0);
 }
 
 #ui-datepicker-div .ui-datepicker-header {
-    height: 100%;
-    line-height: 50px;
-    background: #315D80;
-    color: #fff;
-    border-radius: 14px 14px 0 0;
+height: 100%;
+line-height: 50px;
+background: #315D80;
+color: #fff;
+border-radius: 14px 14px 0 0;
 }
 #ui-datepicker-div .ui-state-hover,#ui-datepicker-div .ui-widget-content .ui-state-hover,#ui-datepicker-div .ui-widget-header .ui-state-hover,
 #ui-datepicker-div .ui-state-focus,#ui-datepicker-div .ui-widget-content .ui-state-focus,#ui-datepicker-div .ui-widget-header .ui-state-focus,#ui-datepicker-div .ui-button:hover,#ui-datepicker-div .ui-button:focus{
-    background: unset;
+background: unset;
 }
 #ui-datepicker-div table{
-    margin:0;
+margin:0;
 }
 #ui-datepicker-div .ui-state-active {
-    color: #68768A;
-    background-color: rgba(131, 146, 167, 0.12);
-    font-weight: 600;
+color: #68768A;
+background-color: rgba(131, 146, 167, 0.12);
+font-weight: 600;
 }
 #ui-datepicker-div .ui-datepicker-title{
-    font-family: 'Helvetica';
-    font-size: 14px;
+font-family: 'Helvetica';
+font-size: 14px;
 }
 #ui-datepicker-div .ui-state-highlight {
-    color: #68768A;
+color: #68768A;
 }
 #ui-datepicker-div{
-    border: unset;
-    padding: 2px 2px 5px 2px;
-    border-radius: 14px;
+border: unset;
+padding: 2px 2px 5px 2px;
+border-radius: 14px;
 }
 #ui-datepicker-div th {
-    padding: 3px 5px;
+padding: 3px 5px;
 }
 #ui-datepicker-div .ui-state-default {
-    display: block;
-    font-family: 'Helvetica';
-    text-decoration: none;
-    color: #b5b5b5;
-    line-height: 22px;
-    font-size: 12px;
-    border: unset;
-    background: unset;
+display: block;
+font-family: 'Helvetica';
+text-decoration: none;
+color: #b5b5b5;
+line-height: 22px;
+font-size: 12px;
+border: unset;
+background: unset;
 }
 #ui-datepicker-div .ui-datepicker-calendar thead tr th span {
-    display: block;
-    width: 100%;
-    font-family: 'Helvetica';
-    color: #8392A7;
-    margin-bottom: 5px;
-    font-size: 13px;
+display: block;
+width: 100%;
+font-family: 'Helvetica';
+color: #8392A7;
+margin-bottom: 5px;
+font-size: 13px;
 }
 #ui-datepicker-div .ui-datepicker-prev:after {
-    transform: rotate(45deg);
-    margin: 5px 0px 0px 6px;
+transform: rotate(45deg);
+margin: 5px 0px 0px 6px;
 }
 #ui-datepicker-div .ui-datepicker-next:after {
-    margin: 5px 0 0 5px;
-    transform: rotate(-136deg);
+margin: 5px 0 0 5px;
+transform: rotate(-136deg);
 }
 #ui-datepicker-div .ui-datepicker-prev{
-    left: 6px;
+left: 6px;
 }
 #ui-datepicker-div .ui-datepicker-next{
-    right: 6px;
+right: 6px;
 }
 #ui-datepicker-div .ui-datepicker-prev,#ui-datepicker-div .ui-datepicker-next {
-    width: 20px;
-    height: 20px;
-    text-indent: 9999px;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    cursor: pointer;
-    overflow: hidden;
-    margin-top: 12px;
-    top: -6px;
+width: 20px;
+height: 20px;
+text-indent: 9999px;
+border: 2px solid #fff;
+border-radius: 100%;
+cursor: pointer;
+overflow: hidden;
+margin-top: 12px;
+top: -6px;
 }
 #ui-datepicker-div .ui-icon{
 background-image: unset;
 }
 #ui-datepicker-div .ui-datepicker-prev:after,#ui-datepicker-div .ui-datepicker-next:after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 6px;
-    height: 6px;
-    border-left: 2px solid #fff;
-    border-bottom: 2px solid #fff;
+content: "";
+position: absolute;
+display: block;
+width: 6px;
+height: 6px;
+border-left: 2px solid #fff;
+border-bottom: 2px solid #fff;
 }
 .setup_modalprop .modal-header {
 justify-content: center;
@@ -9715,53 +9715,53 @@ animation:fadeoutprog 2s ease-in;
 opacity:0;
 }
 .showingconfirm_div .progressbar-inner{
-    width:100%;
-    height:100%;
-    background-size:18px 18px;
-    background-color: #7B9E76;    
+width:100%;
+height:100%;
+background-size:18px 18px;
+background-color: #7B9E76;    
 }
 .showingconfirm_div .progressbar .progressbar-inner,
 .showingconfirm_div .progressbar:hover .progressbar-inner{
-    -webkit-animation: width 2s ease-in;  
-    -moz-animation: width 2s ease-in; 
-    -o-animation: width 2s ease-in; 
-    animation: width 2s ease-in; 
+-webkit-animation: width 2s ease-in;  
+-moz-animation: width 2s ease-in; 
+-o-animation: width 2s ease-in; 
+animation: width 2s ease-in; 
 }
 @-webkit-keyframes width {
-    0% {width:0%;}
-    100% {width:100%;}
+0% {width:0%;}
+100% {width:100%;}
 }
 @-moz-keyframes width {
-    0% {width:0%;}
-    100% {width:100%;}
+0% {width:0%;}
+100% {width:100%;}
 }
 @-o-keyframes width {
-    0% {width:0%;}
-    100% {width:100%;}
+0% {width:0%;}
+100% {width:100%;}
 }
 @keyframes width {
-    0% {width:0%;}
-    100% {width:100%;}
+0% {width:0%;}
+100% {width:100%;}
 }
 @-webkit-keyframes fadeoutprog {
-    0% {opacity:1;}
-    98% {opacity:1;}
-    100% {opacity:0;}
+0% {opacity:1;}
+98% {opacity:1;}
+100% {opacity:0;}
 }
 @-moz-keyframes fadeoutprog {
-    0% {opacity:1;}
-    98% {opacity:1;}
-    100% {opacity:0;}
+0% {opacity:1;}
+98% {opacity:1;}
+100% {opacity:0;}
 }
 @-o-keyframes fadeoutprog {
-    0% {opacity:1;}
-    98% {opacity:1;}
-    100% {opacity:0;}
+0% {opacity:1;}
+98% {opacity:1;}
+100% {opacity:0;}
 }
 @keyframes fadeoutprog {
-    0% {opacity:1;}
-    98% {opacity:1;}
-    100% {opacity:0;}
+0% {opacity:1;}
+98% {opacity:1;}
+100% {opacity:0;}
 }
 
 /* showing confirmed card progress animation end */
@@ -9920,10 +9920,10 @@ color: #877226;
 
 /* showings offer to lease */
 .myleaseunit .midtxt_css{
-    margin:0 0 2px 0;
+margin:0 0 2px 0;
 }
 .my_info.myleaseunit.desktpslider{
-    padding: 4px 0;
+padding: 4px 0;
 }
 .my_info.myleaseunit.desktpslider .divinfo {
 padding: 7px 12px 0 12px;
@@ -10057,20 +10057,20 @@ font-size: 14px;
 .serch_bardivname{
 position: relative;
 width: 89%;
-margin: 0 auto;
+margin: 0 auto 0 0;
 }
 button.submtsrch_btn {
-    padding: 0 15px;
-    background: unset;
+padding: 0 15px;
+background: unset;
 color: rgba(55, 105, 144, 0.5);
-    font-size: 14px;
-    border: unset;
-    border-left: none;
-    cursor: pointer;
-    position: absolute;
-    right: 1px;
-    top: 0;
-    height: 100%;
+font-size: 14px;
+border: unset;
+border-left: none;
+cursor: pointer;
+position: absolute;
+right: 1px;
+top: 0;
+height: 100%;
 }
 .flexdiv:last-child {
 border-bottom:1px solid rgba(201, 215, 229, 1) ;
@@ -10103,10 +10103,9 @@ background-color: unset;
 border: unset;
 }
 .paymnt_optionsaccord .card .card-header a::before {
-right: 16px;
 font-size: 18px;
 display: inline-block;
-top: 7px;
+top: 10px;
 content: "\f107";
 font-family: 'FontAwesome';
 font-weight: 900;
@@ -10127,23 +10126,24 @@ padding: 10px 20px;
 display: block;
 }
 .bilpay_sys_paymt li a{
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 26px;
-    text-transform: capitalize;
-    color: #63829E;
-    display: block;
-    padding: 9px 20px 9px 12px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 26px;
+text-transform: capitalize;
+color: #63829E;
+display: block;
+padding: 9px 20px 9px 12px;
 }
 .bilpay_sys_paymt{
 list-style-type: none;
 }
-.bilpay_sys_paymt li a span img{
+.bilpay_sys_paymt li a span img {
 margin-right: 15px;
 height: 18px;
 width: 18px;
+vertical-align: sub;
 }
 .bilpay_sys_paymt li{
 border-bottom: 1px solid #BFCCD9;
@@ -10168,30 +10168,8 @@ line-height: 14px;
 color: #315D80;
 margin: 0;
 }
-.descrp_photoinfo p{
-font-family: 'Helvetica';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 12px;
-text-align: center;
-color: #315D80;
-}
 .paymentreceipt_img {
 position: relative;
-}
-.descrp_photoinfo .btn.btnsave_paymt{
-width: 302px;
-height: 28px;
-background: #9BB997;
-border-radius: 40px;
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 12px;
-line-height: 19px;
-text-transform: capitalize;
-padding: 0;
-color: #FFFFFF;
 }
 .depoheight{
 height: 100vh;
@@ -10200,10 +10178,11 @@ height: 100vh;
 position: absolute;
 right: 50%;
 z-index: 1;
-top: 19px;
+top: 38%;
 transform: translate(50%, 18%);
 text-align: center;
 }
+
 .paymentreceipt_img .imageaddreceipt input {
 display: none;
 }
@@ -10222,59 +10201,213 @@ content: url("../images/transactions/addimg.svg");
 }
 .paymentreceipt_img .avatar-preview {
 width: 100%;
-height:107px;
+height: 304px;
 position: relative;
 border-radius: 20px;
 }
 .paymentreceipt_img .avatar-preview > div {
 width: 100%;
 height: 100%;
-background-size: contain;
+background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 border-radius: 20px;
 }
 .imgcollec_bank{
-    position: relative;
+position: relative;
+border: 1px solid transparent;
+border-radius: 20px;
 }
-
+.borderadd{
+border: 1px solid #6388A5;
+}
 .imgcollec_bank .bankname_decrip{
-    background: #315D80;
-    border-radius: 0px 0px 20px 20px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 5px 2px 5px 2px;
-    opacity: 0;
-    transition: all .4s linear;
-    -webkit-transition: all .4s linear;
-    -moz-transition: all .4s linear;
-    -o-transition: all .4s linear;
+background: #315D80;
+border-radius: 0px 0px 20px 20px;
+position: absolute;
+bottom: 0;
+width: 100%;
+padding: 5px 2px 5px 2px;
+opacity: 0;
+transition: all .4s linear;
+-webkit-transition: all .4s linear;
+-moz-transition: all .4s linear;
+-o-transition: all .4s linear;
 }
 .bankname_decrip p{
-    font-family: 'Helvetica';
-    font-weight: 700;
-    font-size: 8px;
-    line-height: 11px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    margin: 0;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 8px;
+line-height: 11px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+margin: 0;
 }
 .imgcollec_bank:hover .bankname_decrip{
-    opacity: 1;
-    visibility: visible;
-    display: block;
+opacity: 1;
+visibility: visible;
+display: block;
+}
+.paymentopt_billpayee .content_amtdepo .flexdiv{
+padding: 10px 9px 10px 19px;
 }
 .paymentopt_billpayee input.form-control.edit-input {
-    width: 122px;
-    border-radius: 20px !important;
-    background-color: #c9d7e5;
-    height: 28px;
-    padding: 2px 10px 2px 5px;
-    font-size: 12px;
-    text-align: right;
+width: 122px;
+border-radius: 20px !important;
+background-color: #c9d7e5;
+height: 28px;
+padding: 2px 10px 2px 5px;
+font-size: 12px;
+text-align: right;
 }
 .paymentopt_billpayee .flexdiv div label,.paymentopt_billpayee .flexdiv .basicdata p,.paymentopt_billpayee .flexdiv .basicdata .form-group select.form-control {
-    font-size: 12px;
+font-size: 12px;
+}
+.searchfilter_trans {
+display: flex;
+align-items: baseline;
+position: relative;
+}
+.replc_confirmsbtnpaymt{
+display: flex;
+justify-content: space-between;
+}
+.bankname_imgpay{
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+.imgcollec_bank:hover{
+border: 1px solid #315D80;
+box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.2), -2px -3px 10px rgba(64, 136, 255, 0.2);
+}
+.bankname_imgpay img{
+    margin-right: 25px;
+}
+.fil_transbillpay{
+width: 16px;
+height:17px;
+}
+.bankname_imgpay:hover{
+background: #FFFFFF;
+border: 1px solid #315D80;
+box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.2), -2px -3px 10px rgba(64, 136, 255, 0.2);
+}
+.bnkname_txt p{
+margin:0;
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 14px;
+line-height:22px;
+text-transform: capitalize;
+color: #6388A5;
+text-align: left;
+}
+.name_or_list .btn {
+width: 90%;
+background: #FFFFFF;
+border-radius: 12px;
+color: #315D80;
+font-size: 13px;
+padding: 3px 5px;
+font-weight: 600;
+display: block;
+border: unset;
+margin: 0px 0 6px 0;
+}
+.contentnamelist_drop{
+margin: 48px auto 0 11px;
+}
+.img_ofbankname img{
+height:49px;
+width:49px;
+border-radius: 12px;
+}
+.name_or_list{
+background: url(../images/transactions/paymt_optionsbg.svg);
+background-size: contain;
+height: 122px;
+width: 28%;
+background-repeat: no-repeat;
+position: absolute;
+margin: 0 0 0 auto;
+right: -4px;
+z-index: 1;
+top: -4px;
+}
+.replc_confirmsbtnpaymt .btn.replc_btnpaymt img,.replc_confirmsbtnpaymt .btn.confrm_btnpaymt img{
+float: left;
+}
+.replc_confirmsbtnpaymt .btn.replc_btnpaymt,.replc_confirmsbtnpaymt .btn.confrm_btnpaymt{
+width: 156px;
+height: 30px;
+color:#FFFFFF;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 12px;
+line-height: 12px;
+text-align: center;
+text-transform: capitalize;
+border-radius: 42px;
+}
+.clcross_icontransbill{
+position: absolute;
+top: 8px;
+right: 8px;
+}
+.ful_screenlink a{
+color:#315D80;
+display:block;
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-transform: capitalize;
+}
+.replc_confirmsbtnpaymt .btn.replc_btnpaymt{
+background: #92A3B4;
+}
+.replc_confirmsbtnpaymt .btn.confrm_btnpaymt{
+background: #9BB997;
+}
+.opacity-animate3{
+animation:opt-animation3 1s ;
+-moz-animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+.preview_image img{
+width: 100%;
+}
+.fullimg .modal-content{
+border: unset;
+border-radius: 20px;
+}
+.fullimg .modal-header .close{
+position: absolute;
+right: 33px;
+padding: 0;
+opacity: 1;
+top: 26px;
+}
+.fullimg .modal-header{
+border: unset;
+}
+@-webkit-keyframes opt-animation3 {
+0%   { opacity: 0; transform: scale(0.75);}
+100% { opacity: 1; transform: scale(1);}
+}
+@-moz-keyframes opt-animation3 {
+0%   { opacity: 0; transform: scale(0.75);}
+100% { opacity: 1; transform: scale(1);}
+}
+@-o-keyframes opt-animation3{
+0%   { opacity: 0; transform: scale(0.75);}
+100% { opacity: 1; transform: scale(1);}
+}
+@keyframes opt-animation3 {
+0%   { opacity: 0; transform: scale(0.75);}
+100% { opacity: 1; transform: scale(1);}
 }

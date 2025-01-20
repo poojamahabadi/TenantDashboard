@@ -1,42 +1,42 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
 /* give notice */
 .reqdate_btnclick .bookappnt_divabs {
-    right: 104px;
+right: 104px;
 }
 /* end of give notice */
-    /* schedule tour */
+/* schedule tour */
 .schetour_img img {
-    height: 147px;
+height: 147px;
 }
 .midsche_toursec .timelabel,.midsche_toursec .datelabel{
-    width: 60%;
+width: 60%;
 }
 .midsche_toursec .timelabel span,.midsche_toursec .datelabel span {
-    font-size: 14px;
+font-size: 14px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 251px;
+margin-left: 251px;
 }
 .toursche_slidiv .descrip_details_list .price_rate p {
-    font-size: 20px;
+font-size: 20px;
 }
 .toursche_slidiv .slidelocation_div .txt_loc {
-    font-size: 14px;
+font-size: 14px;
 }
 .toursche_slidiv .ratingstar_count i {
-    font-size: 12px;
+font-size: 12px;
 }
 .midsche_toursec {
-    width: 51.8%;
+width: 51.8%;
 }
 .confr_appt h3 {
-    margin: 0 0 2.2em 0;
+margin: 0 0 2.2em 0;
 }
 .bottomdiv_info {
-    margin: 1.3em 0 0em 0;
+margin: 1.3em 0 0em 0;
 }
 .schetour_img img {
-    height: 130px;
+height: 130px;
 }
 /* end of schedule tour */
 /* showing confirmed */
@@ -270,14 +270,14 @@ font-size: 15px;
 @media only screen and (max-width: 1600px) {
 /* price range */
 .similar_unitsdiv.pricerangedivs .slick-track {
-    margin-left: -3px;
+margin-left: -3px;
 }
 /* schedule tour */
 .midsche_toursec {
-    width: 62.3%;
+width: 62.3%;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 219px;
+margin-left: 219px;
 }
 /* end of schedule tour */
 /* find property */
@@ -399,16 +399,16 @@ padding: 5px 19px;
 @media only screen and (max-width: 1536px){
 /* schedule tour */
 .midsche_toursec {
-    width: 65%;
+width: 65%;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 209px;
+margin-left: 209px;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
-    height: 145px;
+height: 145px;
 }
 .schetour_img img {
-    height: 134px;
+height: 134px;
 }
 /* end of schedule tour */
 /* find property */
@@ -478,18 +478,18 @@ left: -25px;
 @media only screen and (max-width: 1400px){
 /* price range */
 .flexprice_range {
-    margin: 1.9em 0 1em 0;
+margin: 1.9em 0 1em 0;
 }
 /* end of price range */
 /* schedule tour */
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 200px;
+margin-left: 200px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 189px;
+margin-left: 189px;
 }
 .midsche_toursec {
-    width: 71.4%;
+width: 71.4%;
 }
 /* schedule tour */
 /* showing confirm block */
@@ -644,30 +644,30 @@ left: -3px;
 @media only screen and (max-width: 1366px){
 
 /* schedule tour */
-    .midsche_toursec {
-        width: 73.25%;
-    }
-    .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
-        height: 128px;
-    }
-    .confr_appt h3 {
-        font-size: 16px;
-    }
-    .schetour_img img {
-        height: 130px;
-    }
-    .leftsche_tourcss{
-        padding-left:3px;
-    }
-    .bottomdiv_info.schetour_btm {
-        padding: 10px 15px;
-    }
-    .confr_appt h3 {
-        margin: 0 0 2.1em 0;
-    }
-    .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-        margin-left: 247px;
-    }
+.midsche_toursec {
+width: 73.25%;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
+height: 128px;
+}
+.confr_appt h3 {
+font-size: 16px;
+}
+.schetour_img img {
+height: 130px;
+}
+.leftsche_tourcss{
+padding-left:3px;
+}
+.bottomdiv_info.schetour_btm {
+padding: 10px 15px;
+}
+.confr_appt h3 {
+margin: 0 0 2.1em 0;
+}
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+margin-left: 247px;
+}
 /* schedule tour end */
 /* find property */
 .prop_find_details img {
@@ -688,8 +688,8 @@ max-height: 499px;
 }
 /* offer to lease */
 .showings_offerlease .tenant_imgs .btn-wrap {
-    top: 28%;
-    right: 26px;
+top: 28%;
+right: 26px;
 }
 .agreemt_confrm.mylease_agreements {
 height: 260px;
@@ -711,10 +711,10 @@ font-size: 13px;
 font-size: 13px;
 }
 .myleaseunit .category-lists-slider .slider-button.slider-prev {
-    left: 2px;
+left: 2px;
 }
 .myleaseunit .category-lists-slider .slider-button.slider-next {
-    right: 2px;
+right: 2px;
 }
 
 .agremts_progress .progress-bar h3, .percent_progress span {
@@ -866,21 +866,21 @@ font-size: 22px;
 /* end of give notice pop up */
 /* price range */
 .similar_unitsdiv .pricerange_sliderone .leasedslider .slidelocation_div span img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 /* end of price range */
 /* schedule tour */
 .midsche_toursec {
-    width: 77.5%;
+width: 77.5%;
 }
 .toursche_slidiv .descrip_details_list .price_rate p {
-    font-size: 17px;
+font-size: 17px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 234px;
+margin-left: 234px;
 }
 .confr_appt h3 {
-    margin: 0 0 2.3em 0;
+margin: 0 0 2.3em 0;
 }
 /* end of schedule tour */
 /* showing confirmed block */
@@ -1230,26 +1230,26 @@ margin-left: 212px;
 
 /* schedule tour */
 .midsche_toursec {
-    width: 82.8%;
+width: 82.8%;
 }
 .confr_appt h3 {
-    font-size: 15px;
-    line-height: 18px;
+font-size: 15px;
+line-height: 18px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 216px;
+margin-left: 216px;
 }
 .confr_appt h3 {
-    margin: 0 0 2.75em 0;
+margin: 0 0 2.75em 0;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
-    padding: 6px 12px 7px 12px;
+padding: 6px 12px 7px 12px;
 }
 .midsectour_sche .timelabel span img, .midsectour_sche .datelabel span img {
-    height: 14px;
+height: 14px;
 }
 .midsche_toursec .timelabel span, .midsche_toursec .datelabel span {
-    font-size: 13px;
+font-size: 13px;
 }
 /* end of schedule tour */
 /* showing confirmed block */
@@ -1601,13 +1601,13 @@ font-size: 15px;
 @media only screen and (max-width:1136px){
 /* schedule tour */
 .midsche_toursec {
-    width: 87.6%;
+width: 87.6%;
 }
 .schetour_img img {
-    height: 127px;
+height: 127px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 204px;
+margin-left: 204px;
 }
 /* end of schedule tour */
 /* confirmed showing block */
@@ -1624,11 +1624,11 @@ padding: 0;
 
 /*give notice  */
 .reqdate_btnclick .bookappnt_divabs {
-    right: 105px;
+right: 105px;
 }
 .givenoticepopup .modal-dialog .modal-content {
-    width: 77.4%;
-    margin: 0 auto;
+width: 77.4%;
+margin: 0 auto;
 }
 .modal.givenoticepopup .modal-dialog {
 max-width: 80%;
@@ -1688,13 +1688,13 @@ max-width: 92%;
 
 /* price range */
 .rightalgn_buttonsprice {
-    text-align: right;
+text-align: right;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .imageover_details > img {
-    height: 128px;
+height: 128px;
 }
 .btn.propnotifprice,.btn.savepropbtnprice {
-    width: auto;
+width: auto;
 }
 .pricelabel_range {
 flex-basis: 32%;
@@ -2079,10 +2079,10 @@ right: -5px;
 @media only screen and (max-width:1080px){
 /* schedule tour */
 .midsche_toursec {
-    width: 92.2%;
+width: 92.2%;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 197px;
+margin-left: 197px;
 }
 /* end of schedule tour */
 /* give notice */
@@ -2091,7 +2091,7 @@ right: -5px;
 font-size: 12px;
 }
 .givenoticepopup .modal-dialog .modal-content {
-    width: 81.4%;
+width: 81.4%;
 }
 .reqdate_btnclick.deskbtnclk.margcss {
 margin: 0 0 0 -22px;
@@ -2107,7 +2107,7 @@ font-size: 15px;
 line-height: 19px;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-    width: 73%;
+width: 73%;
 }
 /* end of give notice */
 /* transactions */
@@ -2173,10 +2173,10 @@ font-size: 20px;
 
 /* price range */
 .pricelabel_range p {
-    margin: -44px 26px 0 0px;
+margin: -44px 26px 0 0px;
 }
 .rightalgn_buttonsprice {
-    margin: 0 0 0 -20px;
+margin: 0 0 0 -20px;
 }
 .pricelabel_range {
 flex-basis: 30%;
@@ -2542,7 +2542,7 @@ right: -15px;
 @media only screen and (max-width:1024px){
 /* schedule tour */
 .midsche_toursec {
-    width: 95.4%;
+width: 95.4%;
 }
 /* end of schedule tour */
 /* showing confirmed block */
@@ -2553,7 +2553,7 @@ line-height: 14px;
 /* end of showing confirmed block */
 /* give notice */
 .givenoticepopup .modal-dialog .modal-content {
-    width: 79.4%;
+width: 79.4%;
 }
 .modal.givenoticepopup .modal-dialog {
 max-width: 86.4%;
@@ -2565,7 +2565,7 @@ top: 0px;
 font-size: 11px;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-    width: 73%;
+width: 73%;
 }
 .reqdate_btnclick.deskbtnclk .dateyear_div {
 flex-basis: 63%;
@@ -2955,16 +2955,16 @@ margin: 10px 0 0 0;
 @media only screen and (max-width:992px){
 /* schedule tour */
 .confr_appt p {
-    line-height: 16px;
+line-height: 16px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 187px;
+margin-left: 187px;
 }
 .schetour_img img {
-    height: 126px;
+height: 126px;
 }
 .confr_appt h3 {
-    margin: 0 0 2.6em 0;
+margin: 0 0 2.6em 0;
 }
 /* end of schedule tour */
 /* give notice */
@@ -2976,8 +2976,8 @@ margin: 0 0 0 -19px;
 font-size: 12px;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-    right: 93px;
-    width: 76%;
+right: 93px;
+width: 76%;
 }
 /* end of give notice */
 /* showing confirmed block */
@@ -3023,7 +3023,7 @@ padding: 6px 6px 8px 6px;
 
 /* price range */
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count p {
-    line-height: 11px;
+line-height: 11px;
 }
 /* end of price range */
 
@@ -3498,48 +3498,48 @@ padding: 4px 22px 4px 12px;
 @media only screen and (max-width:800px){
 /* schedule tour */
 .midsche_toursec {
-    width: 100%;
+width: 100%;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 151px;
+margin-left: 151px;
 }
 .toursche_slidiv h3 {
-    font-size: 19px;
+font-size: 19px;
 }
 .propred_clr {
-    margin: 0 25px 0 2px;
+margin: 0 25px 0 2px;
 }
 .schetour_img img {
-    height: 118px;
+height: 118px;
 }
 .confr_appt h3 {
-    margin: 0 0 2.9em 0;
+margin: 0 0 2.9em 0;
 }
 .confr_appt p {
-    font-size: 12px;
+font-size: 12px;
 }
 .confr_appt h3 {
-    font-size: 13px;
-    line-height: 16px;
+font-size: 13px;
+line-height: 16px;
 }
 .rightsche_tourcss{
-    padding: 0px 8px;
+padding: 0px 8px;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
-    padding: 6px 8px 7px 10px;
-    font-size: 11px;
+padding: 6px 8px 7px 10px;
+font-size: 11px;
 }
 .schetour_btm .showing_details p {
-    line-height: 15px;
+line-height: 15px;
 }
 .midsche_toursec .timelabel span, .midsche_toursec .datelabel span {
-    font-size: 12px;
+font-size: 12px;
 }
 .midsectour_sche .timelabel span img, .midsectour_sche .datelabel span img {
-    height: 12px;
+height: 12px;
 }
 /* end of schedule tour */
-    /* showing confirm block */
+/* showing confirm block */
 .shw_divbody img {
 height: 105px;
 }
@@ -3553,11 +3553,11 @@ font-size: 13px;
 /* end of showing confirm block */
 /* give notice */
 .givenoticepopup .modal-dialog .modal-content {
-    width: 91.1%;
+width: 91.1%;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-    right: 118px;
-    width: 73%;
+right: 118px;
+width: 73%;
 }
 .givenoticepopup .not_datetxt p:first-child {
 margin: 0 4px 0 0;
@@ -3657,12 +3657,12 @@ font-size: 14px;
 
 /* price range */
 .widrangefull{
-    max-width:100%;
-    flex:100%;
+max-width:100%;
+flex:100%;
 }
 .rightalgn_buttonsprice{
-    text-align: center;
-    margin: 10px 0;
+text-align: center;
+margin: 10px 0;
 }
 .pricelabel_range p {
 font-size: 15px;
@@ -3674,8 +3674,8 @@ flex-basis: 23%;
 font-size: 13px;
 }
 .similar_unitsdiv.pricerangedivs .slidelocation_div .txt_loc {
-    font-size: 14px;
-    line-height: 17px;
+font-size: 14px;
+line-height: 17px;
 }
 .bottom_rightdetails.bottomsimilar .galdiv_clr img {
 height: 12px;
@@ -3687,18 +3687,18 @@ font-size: 13px;
 height: 12px;
 }
 .similar_unitsdiv.pricerangedivs .clock {
-    margin:0;
+margin:0;
 }
 .similar_unitsdiv.pricerangedivs .ratingstar_count i {
-    font-size: 10px;
+font-size: 10px;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house,
 .similar_unitsdiv.pricerangedivs .lochouse_details .clock {
-    padding: 5px 7px 5px 5px;
+padding: 5px 7px 5px 5px;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .verifi_divtxt img {
-    height: 20px;
-    width: auto;
+height: 20px;
+width: auto;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house span,
 .similar_unitsdiv.pricerangedivs .lochouse_details .clock span {
@@ -4513,46 +4513,46 @@ padding: 14px 20px;
 
 /* schedule tour */
 .midsectour_sche .datelabel,.midsectour_sche .timelabel{
-    width: 76%;
+width: 76%;
 }
 .schetour_img img {
-    height: 105px;
+height: 105px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 60px;
+margin-left: 60px;
 }
 .bottomdiv_info.schetour_btm {
-    padding: 7px 7px;
+padding: 7px 7px;
 }
 .toursche_slidiv {
-    margin: 1.7em 0 0 0;
+margin: 1.7em 0 0 0;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
-    padding: 3px 7px 5px 9px;
-    font-size: 11px;
+padding: 3px 7px 5px 9px;
+font-size: 11px;
 }
 .confr_appt h3 {
-    font-size: 12px;
-    line-height: 15px;
-    margin: 0 0 2.3em 0;
+font-size: 12px;
+line-height: 15px;
+margin: 0 0 2.3em 0;
 }
 .toursche_slidiv .slidelocation_div .txt_loc {
-    font-size: 14px;
+font-size: 14px;
 }
 .schetour_btm .showing_details {
-    flex-basis: 67%;
+flex-basis: 67%;
 }
 .schetour_btm .showing_viewdetails {
-    flex-basis: 33%;
+flex-basis: 33%;
 }
 .midsectour_sche .showdate {
-    margin: 0 0 9px 0;
+margin: 0 0 9px 0;
 }
 .midsectour_sche .bottomdiv_info {
-    margin: 0.1em 0 0em 0;
+margin: 0.1em 0 0em 0;
 }
 .confr_appt h3 {
-    margin: 0 0 2.4em 0;
+margin: 0 0 2.4em 0;
 }
 /* schedule tour */
 /* give notice */
@@ -4563,7 +4563,7 @@ font-size: 15px;
 margin: 0 0 0 -25px;
 }
 .reqdate_btnclick.deskbtnclk .bookappnt_divabs {
-    right: 119px;
+right: 119px;
 }
 .givenoticepopup .flxcenter_div {
 margin: 0 0 1em 0;
@@ -4573,7 +4573,7 @@ font-size: 14px;
 line-height: 20px;
 }
 .givenoticepopup .modal-dialog .modal-content {
-    width: 95%;
+width: 95%;
 }
 /* end of give notice */
 /* transactions */
@@ -4616,7 +4616,7 @@ flex-basis: 79%;
 
 /* price range */
 .similar_unitsdiv.pricerangedivs .lochouse_details .house span, .similar_unitsdiv.pricerangedivs .lochouse_details .clock span {
-    font-size: 10px;
+font-size: 10px;
 }
 .pricerange_div {
 flex-basis: 56%;
@@ -4834,73 +4834,86 @@ width: 57%;
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
 .setup_modalprop .modal-header,.setup_modalprop .modal-body{
-        background-color:unset;
+background-color:unset;
 }
+
+/* payment deposit */
 .paymentopt_billpayee{
-    width: 66.5%;
-    margin: 0 auto;
+width: 66.5%;
+margin: 0 auto;
 }
+.name_or_list {
+    right: -16px;
+    top: 0;
+}
+.paymentopt_billpayee.depoheight{
+height: auto;
+}
+.bilpay_sys_paymt li a {
+font-size: 12px;
+}
+/* end of payment deposit */
 /* showing confirmed and reschedule pop up */
 .lefimg_icon img {
-    height: 24px;
+height: 24px;
 }
 .btmr_gvnotice_transac .amount_trans h3 {
-    font-size: 22px;
+font-size: 22px;
 }
 .okbtn_div .btn.btnok{
 width: 255px;
 }
 .confirmtime_div p.alignp_confr,.confirmrechedtime_div p.alignp_confr,
 .confirmtime_div p.alignp_confrl,.confirmrechedtime_div p.alignp_confrl{
-    font-size: 14px;
-    line-height: 22px;
+font-size: 14px;
+line-height: 22px;
 }
 .confirmtime_div p, .confirmrechedtime_div p {
-    font-size: 12px;
-    line-height: 14px;
+font-size: 12px;
+line-height: 14px;
 }
 .confirmpopupdiv .modal-header p, .confirmreschedule .modal-header p {
-    width: 55%;
+width: 55%;
 }
 /* end of showing confirmed and reschedule pop up */
 /* schedule tour */
 .bottomdiv_info.schetour_btm.desktpschedutour_view{
-    display:none;
+display:none;
 }
 .confr_appt h3 {
-    margin: 0 0 6px 0;
-    text-align: center;
-    font-size: 14px;
-    line-height: 15px;
+margin: 0 0 6px 0;
+text-align: center;
+font-size: 14px;
+line-height: 15px;
 }
 .rightsche_tourcss {
-    padding: 0px 15px 0 30px;
+padding: 0px 15px 0 30px;
 }
 .midsectour_sche {
-    padding: 13px 0 0 0;
-    background-color: #DEE7F2;
+padding: 13px 0 0 0;
+background-color: #DEE7F2;
 }
 .leftsche_tourcss {
-    padding-left: 0;
+padding-left: 0;
 }
 .confr_appt p {
-    text-align: center;
+text-align: center;
 }
 .confr_appt{
-    width: 72%;
-    margin: 15px auto;
+width: 72%;
+margin: 15px auto;
 }
 .bottomdiv_info.schetour_btm.mobileschedutour_view {
-    display: flex;
-    align-items: center;
-    box-shadow: unset;
+display: flex;
+align-items: center;
+box-shadow: unset;
 }
 .midsectour_sche .timeinfo span, .midsectour_sche .dateinfo span{
-    color:rgba(49, 93, 128, 0.52);
-    font-weight: 700;
+color:rgba(49, 93, 128, 0.52);
+font-weight: 700;
 }
 .leftsche_tourcss {
-    padding-left: 15px;
+padding-left: 15px;
 }
 /* schedule tour end */
 .signin_popupreservenow .modal-content .mbcolrbg_div .sendoffraccord{
@@ -4908,7 +4921,7 @@ background:unset;
 margin: 0px auto 0px auto;
 }
 .modal.signin_popupreservenow{
-    padding-right: 0 !important;
+padding-right: 0 !important;
 }
 .signin_popupreservenow .btn.declbtn img,.signin_popupreservenow .btn.confrbtntw img{
 height: 15px;
@@ -4919,8 +4932,8 @@ width: 154px;
 font-size: 16px;
 }
 .signin_popupreservenow .modal-content .modal-body .mbcolrbg_div,.signin_popupreservenow .modal-content .modal-header {
-    background: #EDF2FA;
-    padding: 14px 0 9px 0;
+background: #EDF2FA;
+padding: 14px 0 9px 0;
 }
 .signin_popupreservenow .modal-content .modal-body .mbcolrbg_div{
 border-radius: 0 0 17px 17px;
@@ -5023,15 +5036,15 @@ max-width: 100%;
 /* schedule tour pop up end */
 /* showing confirmed block */
 .showingconfirm_div .progressbar {
-    height: 28px;
-    margin: 0px auto -15px auto;
-    position: relative;
+height: 28px;
+margin: 0px auto -15px auto;
+position: relative;
 }
 .shw_divbody img {
 height: 100px;
 }
 .showingconfirm_div .showingconfr_heading {
-    margin: 1em 0 0.6em 0;
+margin: 1em 0 0.6em 0;
 }
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timelabel span,
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .timeinfo span,
@@ -5051,9 +5064,9 @@ right: -10px;
 font-size: 15px;
 }
 .showingconfr_bodydesign {
-    position: relative;
-    bottom: unset;
-    z-index: 10;
+position: relative;
+bottom: unset;
+z-index: 10;
 }
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div{
 background: #9BB997;
@@ -5080,8 +5093,8 @@ padding: 3px 0 2px 0;
 margin: 4px 0 0 0;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 5px 13px;
-    width: 128px;
+padding: 5px 13px;
+width: 128px;
 }
 .reqdate_btnclick.mobilereqbtnclk .weknamediv.active .wekdate {
 height: 30px;
@@ -5109,14 +5122,14 @@ top: 11px;
 right: unset;
 }
 .amount_trans.popup_balgvnotice {
-    flex-direction: column;
+flex-direction: column;
 }
 .btn.vacatebtn_notice p:first-child {
-    font-size: 16px;
-    line-height: 18px;
+font-size: 16px;
+line-height: 18px;
 }
 .btn.vacatebtn_notice p{
-    display: block;
+display: block;
 }
 .btn.vacatebtn_notice {
 width: 319px;
@@ -5128,10 +5141,10 @@ border-radius: 17px;
 padding: 1em 2em;
 }
 .outs_balc .amt_payment.gvnoticbtns .btn.full_amt, .outs_balc .amt_payment.gvnoticbtns .btn.make_pay {
-    width: 275px;
-    height: 44px;
-    font-size: 18px;
-    margin: 0 0 11px 0;
+width: 275px;
+height: 44px;
+font-size: 18px;
+margin: 0 0 11px 0;
 }
 .gvnoticetxtleft p{
 font-family: 'Helvetica';
@@ -5202,11 +5215,11 @@ padding: 1.3em 2em;
 text-align: left;
 }
 .gvnotid_depos_div .trans_txt p {
-    margin: 8px 0;
-    font-size: 16px;
+margin: 8px 0;
+font-size: 16px;
 }
 .gvnotid_depos_div .trans_txt h3 {
-    font-size: 18px;
+font-size: 18px;
 }
 /* give notice mobile view end */
 
@@ -5242,53 +5255,53 @@ margin: 0 0 12px 0;
 /* end of transactions */
 /* price range  */
 .loadmore_arrowsdownmobile a{
-    position: fixed;
-    bottom: 84px;
-    left: 45%;
+position: fixed;
+bottom: 84px;
+left: 45%;
 }
 .loadmore_arrowsdownmobile{
-    display: block;
+display: block;
 }
 .flexprice_range {
-    margin: 4.5em 0 1em 0;
+margin: 4.5em 0 1em 0;
 }
 .fixcontenttopmobile{
-    position: fixed;
-    width: 100%;
-    background-color: #ffffff;
-    z-index: 10;
-    top:64px;
+position: fixed;
+width: 100%;
+background-color: #ffffff;
+z-index: 10;
+top:64px;
 }
 .rightalgn_buttonsprice{
-    display: none;
+display: none;
 }
 .similar_unitsdiv.pricerangedivs .pr-2{
-    padding-right:15px !important;
+padding-right:15px !important;
 }
 .similar_unitsdiv.pricerangedivs .pl-1{
-    padding-left: 15px !important;
+padding-left: 15px !important;
 }
 .pricerange_search .form-search .input-group input.form-control {
-    padding: 10px 204px 10px 21px;
+padding: 10px 204px 10px 21px;
 }
 .similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p {
-    font-size: 20px;
+font-size: 20px;
 }
 .pricelabel_range p {
-    margin: -42px 26px 0 0px;
+margin: -42px 26px 0 0px;
 }
 .price-range-slider .range-bar{
-    width: 95%;
+width: 95%;
 }
 .pricerange_search .form-search .input-group-append {
-    right: 4px;
+right: 4px;
 }
 .pricerange_search {
-    margin: 11px auto 11px 0;
-    width: 95%;
+margin: 11px auto 11px 0;
+width: 95%;
 }
 .box-minmax{
-    width: 96%;
+width: 96%;
 }
 .pricerange_search .form-search .input-group input.form-control::-webkit-input-placeholder{
 font-weight: 400;
@@ -5306,11 +5319,11 @@ flex-basis: 18%;
 flex-basis: 72%;
 }
 .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details img {
-    margin: 5px 0 0px 0;
-    height: 17px;
+margin: 5px 0 0px 0;
+height: 17px;
 }
 .similar_unitsdiv.pricerangedivs .leaseddetails_slider p {
-    margin: 3px 0 0 0;
+margin: 3px 0 0 0;
 }
 
 .similar_unitsdiv.pricerangedivs .lochouse_details .house span,
@@ -5318,35 +5331,35 @@ flex-basis: 72%;
 font-size: 12px;
 }
 .pricerangedivs .unverifi_divtxt p {
-    margin: 8px 0 0px 0;
+margin: 8px 0 0px 0;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .unverifi_divtxt img {
-    height: 19px;
+height: 19px;
 }
 .similar_unitsdiv.pricerangedivs .slidelocation_div {
-    margin: 5px 0 0 0;
+margin: 5px 0 0 0;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count {
-    top: 10px;
+top: 10px;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider {
-    padding: 15px 15px 10px 15px;
+padding: 15px 15px 10px 15px;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house,
- .similar_unitsdiv.pricerangedivs .lochouse_details .clock {
-    padding: 2px 10px 2px 10px;
+.similar_unitsdiv.pricerangedivs .lochouse_details .clock {
+padding: 2px 10px 2px 10px;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list {
-    padding: 5px 10px 5px 0;
+padding: 5px 10px 5px 0;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .verifi_divtxt img {
-    height: 23px;
+height: 23px;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list.verifitxt_divsec {
-    padding: 5px 55px 5px 0;
+padding: 5px 55px 5px 0;
 }
 .pricelabel_range {
-    flex-basis: 16%;
+flex-basis: 16%;
 }
 /* end of price range */
 
@@ -5421,8 +5434,8 @@ margin: 15px 0 0 0;
 /* find property end */
 /* property schedule showings */
 .mobileview_tour{
-    display: block;
-    margin: 0 0 15px 0;
+display: block;
+margin: 0 0 15px 0;
 }
 .market_box {
 flex-direction: column;
@@ -5448,34 +5461,34 @@ display: block;
 text-align: center;
 }
 .mobileversion_credit .aply_creditbg .myinfo_txt img {
-    display: none;
+display: none;
 }
 .mobileversion_credit .aply_creditbg .divinfo{
-    justify-content: center;
+justify-content: center;
 }
 .addi_amtapply .btn.adapply_btn{
-    border-radius: 20px; 
+border-radius: 20px; 
 }
 .mobileversion_credit .aply_creditbg{
-    background: #C9D7E5;
-    padding: 13px 0px 0px 0px;
-    border-radius: 20px;
+background: #C9D7E5;
+padding: 13px 0px 0px 0px;
+border-radius: 20px;
 }
 .deskvisible_trans{
-    display:none
+display:none
 }
 .desktopversion_credit{
-    display: none;
+display: none;
 }
 .mobileversion_credit{
-    display:block;
+display:block;
 }
 .mobvisible_trans{
-    display:block;
+display:block;
 }
 .activeleasepage_transc .tabmyinfo.transac .twobuttons_div .btn.pay_amt{
-    width: 100%;
-    padding: 4px 30px;
+width: 100%;
+padding: 4px 30px;
 }
 .tenant_imgs .bgtenant_div.slick-current.slick-active {
 margin: 7px 0 0 0;
@@ -6168,42 +6181,53 @@ right: 13px;
 }
 @media only screen and (max-width: 640px){
 
+/* payment deposit */
+.descrp_photoinfo p {
+width: 74%;
+}
+.name_or_list{
+    width: 36%;
+}
+.contentnamelist_drop {
+    margin: 51px auto 0 11px;
+}
+/* payment deposit end */
 /* schedule tour */
 .confr_appt {
-    width: 90%;
+width: 90%;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 172px;
+margin-left: 172px;
 }
 .similar_unitsdiv.toursche_slidiv .rat_tot_count p.count_rst span:nth-child(2) {
-    font-size: 0.7em;
+font-size: 0.7em;
 }
 .simisched_tour .rat_tot_count p.count_rst span.amtrate {
-    font-size: 16px;
+font-size: 16px;
 }
 .similar_unitsdiv.toursche_slidiv .ratingstar_count i {
-    font-size: 13px;
+font-size: 13px;
 }
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house span,
 .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
-    font-size: 13px;
+font-size: 13px;
 }
 .similar_unitsdiv.toursche_slidiv.clock span img {
-    height: 14px;
+height: 14px;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .unverifi_divtxt img {
-    height: 23px;
-    margin: 1px 0 0 0;
+height: 23px;
+margin: 1px 0 0 0;
 }
 .showing_viewdetails .btn.view_detail i {
-    font-size: 16px;
+font-size: 16px;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
-    padding: 3px 14px 5px 23px;
-    font-size: 12px;
+padding: 3px 14px 5px 23px;
+font-size: 12px;
 }
 .midsche_toursec .reschedule_divp {
-    padding: 10px 0 11px 0;
+padding: 10px 0 11px 0;
 }
 /* end of schedule tour */
 .twobtn_showings .btn.sendlease {
@@ -6263,23 +6287,23 @@ font-size: 18px;
 width: 90%;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
-    height: 15px;
+height: 15px;
 }
 .btn.propnotify{
-    width: 155px;
-    height: 40px;
+width: 155px;
+height: 40px;
 }
 .pricerang_btnsprop .algntxt {
-    display: flex;
-    justify-content: end;
+display: flex;
+justify-content: end;
 }
 .btn.propnotify,.btn.saveprop {
-    font-size: 12px;
-    line-height: 22px;
+font-size: 12px;
+line-height: 22px;
 }
 .btn.saveprop {
-    width: 143px;
-    height: 40px;
+width: 143px;
+height: 40px;
 }
 /* end of price range  */
 /* find property */
@@ -7026,29 +7050,29 @@ width: 85px;
 margin-left: -38px;
 }
 .midsche_toursec {
-    margin: 75px auto 0 auto;
+margin: 75px auto 0 auto;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
-    height: 168px;
+height: 168px;
 }
 .similar_unitsdiv.toursche_slidiv .leaseddetails_slider .bed_details img {
-    margin: 6px 0 3px 0;
-    height: 16px;
+margin: 6px 0 3px 0;
+height: 16px;
 }
 .similar_unitsdiv.toursche_slidiv .slidelocation_div{
-    align-items: flex-start;
+align-items: flex-start;
 }
 .similar_unitsdiv.toursche_slidiv .btn.btnviewbtnall{
-    margin: 0px 5px 0 0px;
+margin: 0px 5px 0 0px;
 }
 .similar_unitsdiv.toursche_slidiv .propred_clr {
-    margin: 0 25px 0 0px;
+margin: 0 25px 0 0px;
 }
 .similar_unitsdiv.toursche_slidiv .slidelocation_div .txt_loc {
-    font-size: 14px;
+font-size: 14px;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .slidelocation_div span img {
-    height: 17px;
+height: 17px;
 }
 
 .similar_unitsdiv .descrip_details_list .price_rate p {
@@ -7142,59 +7166,67 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
+/* payment deposit */
+.descrp_photoinfo p {
+width: 89%;
+}
+.name_or_list {
+    width: 41%;
+}
+/* payment deposit */
 /* confirm showing and reschedule showing pop up */
 .confirmpopupdiv .modal-header p, .confirmreschedule .modal-header p {
-    width: 49%;
+width: 49%;
 }
 /* end of confirm and reschedule showing pop up */
 /* price range */
 .fixcontenttopmobile {
-    top: 94px;
+top: 94px;
 }
 .pricerange_search {
-    margin: 33px auto 11px 0;
-    width: 95%;
+margin: 33px auto 11px 0;
+width: 95%;
 }
 .price-range-slider {
-    width: 78%;
-    float: none;
-    padding: 10px 0px 10px 0;
-    margin: 0 auto 0 0;
+width: 78%;
+float: none;
+padding: 10px 0px 10px 0;
+margin: 0 auto 0 0;
 }
 .pricelabel_range {
-    flex-basis: 16%;
+flex-basis: 16%;
 }
 .btn.propnotify {
-    margin: 0 0 0 -23px;
+margin: 0 0 0 -23px;
 }
 .pricerang_btnsprop .btn.filterpricerg {
-    margin: 0 0 0 12px;
+margin: 0 0 0 12px;
 }
 .btmfilter_btns.pricerang_btnsprop{
-    padding: 1.7em 0.2em 1.1em 0.2em;
+padding: 1.7em 0.2em 1.1em 0.2em;
 }
 .btn.saveprop img, .btn.propnotify img {
-    margin: -3px 0 0 2px;
+margin: -3px 0 0 2px;
 }
 .pricerang_btnsprop .algntxt {
-    padding-left: 0;
+padding-left: 0;
 }
 /* end of price range */
 /* schedule tour */
 .schetour_img img {
-    height: 79px;
+height: 79px;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
-    height: 150px;
+height: 150px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 155px;
+margin-left: 155px;
 }
 .toursche_slidiv h3 {
-    margin: 0 0 0 9px;
+margin: 0 0 0 9px;
 }
 .midsche_toursec .reschedule_divp {
-    padding: 11px 0 12px 0;
+padding: 11px 0 12px 0;
 }
 /* end of schedule tour */
 /* reserve now  */
@@ -7248,7 +7280,7 @@ font-size: 12px;
 /* end of give notice */
 /* showing confirmed block */
 .showingconfirm_div .showingconfr_heading {
-    margin: 0.6em 0;
+margin: 0.6em 0;
 }
 .addrdescrp_show p {
 font-size: 13px;
@@ -7384,7 +7416,7 @@ border-radius: 21px;
 align-items: flex-start;
 }
 .mobapplycss_tenantinsu .due_datetxt {
-    padding: 5px 0 4px 0;
+padding: 5px 0 4px 0;
 }
 
 .btn.preapprove {
@@ -7429,7 +7461,7 @@ margin: 29px 0 0 0;
 margin: 0;
 }
 .bgcolor_blu.movein_complete .due_datetxt {
-    padding: 5px 0 4px 0;
+padding: 5px 0 4px 0;
 }
 .ten_insur p{
 text-align: left;
@@ -8650,36 +8682,47 @@ top: 11px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
- /* confirm showing and reschedule showing pop up */
-    .confirmpopupdiv .modal-header p, .confirmreschedule .modal-header p {
-        width: 59%;
-    }
-    .flx_addrimg {
-        width: 48%;
-        align-items: flex-start;
-    }
+/* payment desposit */
+.paymentopt_billpayee {
+width: 88.5%;
+}
+.clcross_icontransbill {
+    right: 11px;
+}
+.name_or_list {
+    width: 37%;
+}
+/* end of payment deposit */
+/* confirm showing and reschedule showing pop up */
+.confirmpopupdiv .modal-header p, .confirmreschedule .modal-header p {
+width: 59%;
+}
+.flx_addrimg {
+width: 48%;
+align-items: flex-start;
+}
 /* confirm showing and reschedule showing pop up end */
 /* schedule tour */
 .confr_appt {
-    width: 95%;
+width: 95%;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .unverifi_divtxt img {
-    height: 23px;
-    margin: -2px 0 0 0;
+height: 23px;
+margin: -2px 0 0 0;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 72px;
+margin-left: 72px;
 }
 /* end of schedule tour */
 /* reserve now */
 .signin_popupreservenow .modal-dialog {
-    max-width: 100%;
+max-width: 100%;
 }
 .signin_popupreservenow .modal-content .modal-header {
-    padding: 14px 0 4px 0;
+padding: 14px 0 4px 0;
 }
 /* end of reserve now */
-    /* showing confirmed */
+/* showing confirmed */
 .shw_divbody img {
 height: 100px;
 }
@@ -8715,7 +8758,7 @@ padding: 1em;
 padding: 1.3em 1em;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 8px 13px;
+padding: 8px 13px;
 }
 /* end of give notice  */
 /* transactions */
@@ -8737,34 +8780,34 @@ padding: 0 21px 0 10px;
 /* end of transactions */
 /* price range */
 .pricerange_search {
-    margin: 29px auto 11px 0;
-    width: 95%;
+margin: 29px auto 11px 0;
+width: 95%;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house img,
 .similar_unitsdiv.pricerangedivs .lochouse_details .clock img {
- height: 13px;
- margin: 0 3px 0 0px;
+height: 13px;
+margin: 0 3px 0 0px;
 }
 .pricerangedivs .unverifi_divtxt p {
-    margin: 2px 0 0 0;
+margin: 2px 0 0 0;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
 height: 16px;
 }
 .pricelabel_range {
-    flex-basis: 18%;
+flex-basis: 18%;
 }
 .price-range-slider {
-    width: 76%;
+width: 76%;
 }
 .pricerange_search {
-    width: 95%;
+width: 95%;
 }
 .btmfilter_btns {
 width: 100%;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .unverifi_divtxt img{
-    margin: 2px 0 0 0;
+margin: 2px 0 0 0;
 }
 
 /* end of price range */
@@ -9494,52 +9537,58 @@ width: 56%;
 
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
+/* payment desposit */
+.paymentopt_billpayee {
+width: 80.5%;
+}
+/* end of payment deposit */
+
 /* schedule tour */
 .schetour_btm .showing_details {
-    flex-basis: 60%;
+flex-basis: 60%;
 }
 .schetour_btm .showing_viewdetails {
-    flex-basis: 40%;
+flex-basis: 40%;
 }
 .bottomdiv_info.schetour_btm {
-    padding: 12px 7px;
+padding: 12px 7px;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
-    padding: 4px 10px 4px 13px;
+padding: 4px 10px 4px 13px;
 }
 /* end of schedule tour */
 /* reserve now */
- .signin_popupreservenow .modal-content .modal-header {
-    padding: 14px 0 10px 0;
+.signin_popupreservenow .modal-content .modal-header {
+padding: 14px 0 10px 0;
 }
 .beforesignin p {
-    width: 91%;
+width: 91%;
 }
 /* end of reserve now */
 /* showing completed */
 .showingcompl_detailsdiv {
-    margin: 14px 0 0 0;
+margin: 14px 0 0 0;
 }
 .signin_popupreservenow .modal-dialog {
-    max-width: 100%;
+max-width: 100%;
 }
 .signin_popupreservenow .modal-header {
-    width: 93.3%;
+width: 93.3%;
 }
 .showing_complete .mob_pad {
-    padding: 0 7px;
+padding: 0 7px;
 }
 .showing_complete .twobtn_showings .btn.sendlease {
-    padding: 4px 10px;
-    margin: 0 5px 0 0;
+padding: 4px 10px;
+margin: 0 5px 0 0;
 }
 .showingcompl_detailsdiv p {
-    font-size: 11px;
-    margin: 0 0 10px 0;
+font-size: 11px;
+margin: 0 0 10px 0;
 }
 .showingcompl_detailsdiv h3 {
-    font-size: 13px;
-    line-height: 12px;
+font-size: 13px;
+line-height: 12px;
 }
 /* end of showing completed */
 
@@ -10047,73 +10096,82 @@ margin: 0 0 0 10px;
 }
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
+/* payment desposit */
+.paymentopt_billpayee {
+width: 93%;
+}
+.name_or_list {
+    right: -14px;
+}
+/* end of payment deposit */
+
 /* schedule tour */
 .rightsche_tourcss {
-    padding: 0px 0px 0 30px;
+padding: 0px 0px 0 30px;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
-    padding: 4px 13px 5px 17px;
+padding: 4px 13px 5px 17px;
 }
 .midsectour_sche .bottomdiv_info.schetour_btm {
-    padding: 12px 7px;
+padding: 12px 7px;
 }
 .confr_appt h3 {
-    margin: 0 0 10px 0;
+margin: 0 0 10px 0;
 }
 .midsectour_sche .showdate {
-    align-items: flex-start;
+align-items: flex-start;
 }
 .midsectour_sche .timeinfo span, .midsectour_sche .dateinfo span {
-    line-height: 15px;
+line-height: 15px;
 }
 .midsectour_sche .showtime {
-    margin: 7px 0;
+margin: 7px 0;
 }
 /* end of schedule tour */
 /* reserve now */
 .signin_popupreservenow .modal-content .modal-header {
-    padding: 14px 0;
-    margin: 0 auto -1px auto;
+padding: 14px 0;
+margin: 0 auto -1px auto;
 }
 .signin_popupreservenow .modal-content .sendoffraccord {
-    padding: 0px 12px 5px 12px;
+padding: 0px 12px 5px 12px;
 }
 .beforesignin p {
-    width: 91%;
+width: 91%;
 }
 .signin_popupreservenow .modal-header {
-    width: 92.8%;
+width: 92.8%;
 }
 /* end of reserve now */
 /* showing completed */
 .showingcompl_detailsdiv {
-    margin: 14px 0 0 0;
+margin: 14px 0 0 0;
 }
 .signin_popupreservenow .modal-dialog {
-    max-width: 100%;
+max-width: 100%;
 }
 .showing_complete .mob_pad {
-    padding: 0 7px;
+padding: 0 7px;
 }
 .showing_complete .twobtn_showings .btn.sendlease {
-    padding: 4px 10px;
-    margin: 0 5px 0 0;
+padding: 4px 10px;
+margin: 0 5px 0 0;
 }
 .showingcompl_detailsdiv p {
-    font-size: 11px;
-    margin: 0 0 10px 0;
+font-size: 11px;
+margin: 0 0 10px 0;
 }
 .showingcompl_detailsdiv h3 {
-    font-size: 13px;
-    line-height: 12px;
+font-size: 13px;
+line-height: 12px;
 }
 /* end of showing completed */
 
 
-    /* showing confirmed */
-    .showingconfirm_div .showingconfr_heading {
-        margin: 0.6em 0 1em 0;
-    }
+/* showing confirmed */
+.showingconfirm_div .showingconfr_heading {
+margin: 0.6em 0 1em 0;
+}
 .shw_divbody img {
 height: 87px;
 }
@@ -10175,8 +10233,8 @@ margin: 0 0 1em 0;
 font-size: 13px;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 8px 10px;
-    width: 80%;
+padding: 8px 10px;
+width: 80%;
 }
 .outs_balc .amount_trans h3 {
 margin: 0 0 12px 0;
@@ -10239,17 +10297,17 @@ padding: 11px;
 width: 91%;
 }
 .confirmtime_div p, .confirmrechedtime_div p {
-    line-height: 15px;
+line-height: 15px;
 }
 .confirmtime_div p.alignp_confrl img {
 vertical-align: top;
 }
 .flx_addrimg {
-    align-items: flex-start;
-    width: 59%;
+align-items: flex-start;
+width: 59%;
 }
 .confirmpopupdiv .modal-header h4, .confirmreschedule .modal-header h4 {
-    margin: 0 0px 21px 0px;
+margin: 0 0px 21px 0px;
 }
 /* end of confirm showing pop up */
 
@@ -10258,31 +10316,31 @@ vertical-align: top;
 
 /* price range */
 .pricerange_search {
-    margin: 29px auto 11px 0;
-    width: 95%;
+margin: 29px auto 11px 0;
+width: 95%;
 }
 
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count p {
-    line-height: 10px;
+line-height: 10px;
 }
 .pricelabel_range {
-    flex-basis: 21%;
+flex-basis: 21%;
 }
 .price-range-slider {
-    width: 73%;
+width: 73%;
 }
 .box-minmax {
-    width: 97%;
-    margin: 27px auto 0 auto;
+width: 97%;
+margin: 27px auto 0 auto;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .unverifi_divtxt img{
-    margin: 4px 0 0 0;
+margin: 4px 0 0 0;
 }
 .btmfilter_btns {
 width: 100%;
 }
 .btmfilter_btns.pricerang_btnsprop {
-    padding: 1.7em 1em 1.1em 1em;
+padding: 1.7em 1em 1.1em 1em;
 }
 .padcss_div{
 padding:0;
@@ -10311,10 +10369,10 @@ width: auto;
 height: 16px;
 }
 .pricerangedivs .unverifi_divtxt p {
-    margin: 4px 0 0px 0;
+margin: 4px 0 0px 0;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .unverifi_divtxt img {
-    margin: 0;
+margin: 0;
 }
 
 
@@ -11467,56 +11525,63 @@ left: -18px;
 }
 
 @media only screen and (max-width: 390px) {
-
+/* payment desposit */
+.paymentopt_billpayee {
+width: 100%;
+}
+.descrp_photoinfo .btn.btnsave_paymt{
+width: 100%;
+}
+/* end of payment deposit */
 /* schedule tour */
 .rightsche_tourcss {
-    padding: 0px 0px 0 25px;
+padding: 0px 0px 0 25px;
 }
 .simisched_tour .rat_tot_count p.count_rst span.amtrate {
-    font-size: 14px;
+font-size: 14px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 27px;
+margin-left: 27px;
 }
 .similar_unitsdiv.toursche_slidiv .propred_clr {
-    margin: 0 146px 0 2px;
+margin: 0 146px 0 2px;
 }
 .similar_unitsdiv.toursche_slidiv .btn.btnviewbtnall {
 
-    margin: 0px 3px 0 7px;
+margin: 0px 3px 0 7px;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
-    padding: 4px 12px 5px 13px;
+padding: 4px 12px 5px 13px;
 }
 .midsectour_sche .datelabel, .midsectour_sche .timelabel {
-    width: 83%;
+width: 83%;
 }
 .confr_appt h3 {
-    font-size: 13px;
-    line-height: 15px;
+font-size: 13px;
+line-height: 15px;
 }
 /* end of schedule tour */
 /* showing completed */
 .showingcompl_detailsdiv h3 {
-    font-size: 12px;
-    margin: 0 0 5px 0;
+font-size: 12px;
+margin: 0 0 5px 0;
 }
 .signin_popupreservenow .modal-header {
-    width: 92%;
+width: 92%;
 }
 .showing_complete .detshow_div .showing_detailsdiv {
-    margin: 0 0 10px 0;
+margin: 0 0 10px 0;
 }
 .showing_complete .twobtn_showings .btn.sendlease {
-    padding: 4px 7px;
-    margin:0;
+padding: 4px 7px;
+margin:0;
 }
 .showingcompl_detailsdiv {
-    margin: 15px 0 0 0;
+margin: 15px 0 0 0;
 }
 .showingcompl_detailsdiv p {
-    font-size: 10px;
-    margin: 0 0 8px 0;
+font-size: 10px;
+margin: 0 0 8px 0;
 }
 /* end of showing completed */
 /* showing confirmed */
@@ -11574,25 +11639,25 @@ padding: 2px 20px;
 padding: 11px;
 }
 .flx_addrimg {
-    width: 62%;
+width: 62%;
 }
 /* end of confirm showing popup */
 /* price range */
 .btmfilter_btns.pricerang_btnsprop {
-    padding: 1.7em 1em 1.1em 1em;
+padding: 1.7em 1em 1.1em 1em;
 }
 .pricerange_search {
-    width: 92%;
+width: 92%;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house img, .similar_unitsdiv.pricerangedivs .lochouse_details .clock img {
-    height: 13px;
-    vertical-align: text-top;
+height: 13px;
+vertical-align: text-top;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list.verifitxt_divsec {
-    padding: 5px 31px 5px 0;
+padding: 5px 31px 5px 0;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .imageover_details > img {
-    height: 128px;
+height: 128px;
 }
 /* endof price range */
 /* find property */
@@ -11874,6 +11939,8 @@ height: 21px;
 }
 
 @media only screen and (max-width: 385px) and (min-width:376px) {
+
+
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p,.confirmreschedule .modal-header p {
 width: 88%;
@@ -12499,54 +12566,78 @@ left: -22px;
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
+/* payment deposit */
+.descrp_photoinfo p {
+margin: 4px auto 17px auto;
+}
+.name_or_list {
+    width: 43%;
+}
+.clcross_icontransbill {
+    right: 10px;
+}
+.bankname_imgpay img {
+    margin-right: 14px;
+}
+.bankname_decrip p {
+    font-size: 7px;
+    line-height: 9px;
+}
+.bnkname_txt p {
+    font-size: 13px;
+}
+.replc_confirmsbtnpaymt .btn.replc_btnpaymt, .replc_confirmsbtnpaymt .btn.confrm_btnpaymt {
+width: 50%;
+}
+/* payment deposit */
 /* schedule tour */
 .leftsche_tourcss {
-    padding-left: 22px;
+padding-left: 22px;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .unverifi_divtxt img {
-    height: 22px;
-    margin: -1px 0 0 0;
+height: 22px;
+margin: -1px 0 0 0;
 }
 .similar_unitsdiv.toursche_slidiv .propred_clr {
-    margin: 0 129px 0 2px;
+margin: 0 129px 0 2px;
 }
 /* end of schedule tour */
 /* showing completed */
 .showing_complete .mob_pad {
-    padding: 0 6px;
+padding: 0 6px;
 }
 .showingcompl_detailsdiv h3 {
-    font-size: 11px;
-    margin: 0px 0 1px 0;
+font-size: 11px;
+margin: 0px 0 1px 0;
 }
 .showing_complete .twobtn_showings .btn.sendlease {
-    font-size: 10px;
-    padding: 4px 11px;
+font-size: 10px;
+padding: 4px 11px;
 }
 .showing_complete .detshow_div .showimgpend img {
-    height: 92px;
+height: 92px;
 }
 /* end of showing completed */
 /* reserve now */
 .signin_popupreservenow .modal-dialog {
-    max-width: 100%;
+max-width: 100%;
 }
 .signin_popupreservenow .modal-content .modal-header {
-    padding: 14px 0 0px 0;
-    margin: 0 auto -1px auto;
+padding: 14px 0 0px 0;
+margin: 0 auto -1px auto;
 }
 .signin_popupreservenow .btn.declbtn,.signin_popupreservenow .btn.confrbtntw {
-    margin: 0;
+margin: 0;
 }
 .beforesignin p {
-    width: 95%;
+width: 95%;
 }
 .signin_popupreservenow .modal-header h4 {
-    font-size: 17px;
-    line-height: 28px;
+font-size: 17px;
+line-height: 28px;
 }
 /* end of reserve now */
-    /* showing confirmed */
+/* showing confirmed */
 .mobileviewblock_scheduleslider .showingssec.showingconfirm_div .showtime {
 margin: 0 7px 5px 3px;
 }
@@ -12655,15 +12746,15 @@ margin: 0 0px 18px 0px;
 width: 95%;
 }
 .flx_addrimg {
-    width: 71%;
-    align-items: flex-start;
-    margin: 0 0 0 53px;
+width: 71%;
+align-items: flex-start;
+margin: 0 0 0 53px;
 }
 .confirmtime_div p, .confirmrechedtime_div p {
-    line-height: 15px;
+line-height: 15px;
 }
 .confirmpopupdiv .modal-header p, .confirmreschedule .modal-header p {
-    width: 82%;
+width: 82%;
 }
 .confirmpopupdiv .modal-header,.confirmreschedule .modal-header {
 padding: 1.5em 0 2.8em 0;
@@ -12674,40 +12765,40 @@ padding: 1.5em 0 2.8em 0;
 
 /* price range */
 .pricerange_search {
-    margin: 29px auto 11px 0;
+margin: 29px auto 11px 0;
 }
 .flexprice_range {
-    margin: 4em 0 1em 0;
+margin: 4em 0 1em 0;
 }
 .flx_btnsalign{
-    justify-content: space-between;
+justify-content: space-between;
 }
 .btmfilter_btns.pricerang_btnsprop {
-    padding: 1.7em 0.4em 1.1em 0.4em;
+padding: 1.7em 0.4em 1.1em 0.4em;
 }
 .pricerang_btnsprop .algntxt {
-    justify-content: end;
+justify-content: end;
 }
 .btn.filterpricerg img {
-    margin: 0px;
+margin: 0px;
 }
 .pricerangedivs .unverifi_divtxt p {
-    margin: 7px 0 0px 0;
+margin: 7px 0 0px 0;
 }
 .btn.propnotify {
-    margin: 0px 0px 0 0px;
+margin: 0px 0px 0 0px;
 }
 .pricerang_btnsprop .btn.filterpricerg {
-    margin: 0 0 0 10px;
+margin: 0 0 0 10px;
 }
 .btmfilter_btns {
 width: 100%;
 }
 .pricelabel_range {
-    flex-basis: 21%;
+flex-basis: 21%;
 }
 .price-range-slider {
-    width: 74%;
+width: 74%;
 }
 .btn.saveprop, .btn.propnotify {
 font-size: 12px;
@@ -13563,100 +13654,126 @@ width: 37%;
 
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
+
+/* payment deposit */
+.depoheight {
+padding: 1rem 1rem 10rem 1rem !important;
+}
+.paymentopt_billpayee {
+    padding: 10px !important;
+}
+.descrp_photoinfo p {
+width: 94%;
+}
+.bankname_imgpay img {
+    margin-right: 14px;
+}
+.bankname_decrip p {
+    font-size: 7px;
+    line-height: 9px;
+}
+.bnkname_txt p {
+    font-size: 13px;
+}
+.name_or_list {
+    right: -9px;
+}
+/* end of payment deposit */
+
 /* schedule tour */
 .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
-    height: 128px;
+height: 128px;
 }
 .showing_sched_tour h3 img {
-    height: 17px;
+height: 17px;
 }
 .showing_sched_tour h3 {
-    font-size: 14px;
+font-size: 14px;
 }
 .toursche_slidiv h3 {
-    font-size: 18px;
+font-size: 18px;
 }
 .similar_unitsdiv.toursche_slidiv .ratingstar_count i {
-    font-size: 12px;
+font-size: 12px;
 }
 .similar_unitsdiv.toursche_slidiv .clock span img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house span,
- .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
-    font-size: 12px;
+.similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
+font-size: 12px;
 }
 .midsche_toursec .timelabel span, .midsche_toursec .datelabel span {
-    font-size: 11px;
+font-size: 11px;
 }
 .confr_appt h3 {
-    font-size: 12px;
-    line-height: 14px;
+font-size: 12px;
+line-height: 14px;
 }
 .midsche_toursec .reschedule_divp p {
-    font-size: 12px;
+font-size: 12px;
 }
 .similar_unitsdiv.toursche_slidiv .propred_clr {
-    margin: 0 114px 0 2px;
+margin: 0 114px 0 2px;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
-    padding: 3px 12px 5px 13px;
+padding: 3px 12px 5px 13px;
 }
 .schetour_btm .showing_details p {
-    font-size: 11px;
+font-size: 11px;
 }
 .confr_appt p {
-    font-size: 11px;
-    line-height: 13px;
+font-size: 11px;
+line-height: 13px;
 }
 .leftsche_tourcss {
-    padding-left: 11px;
+padding-left: 11px;
 }
 .midsectour_sche .timeinfo span, .midsectour_sche .dateinfo span {
-    font-size: 11px;
-    line-height: 17px;
+font-size: 11px;
+line-height: 17px;
 }
 /* end of schedule tour */
 /* showing completed */
 .showing_complete .mob_pad {
-    padding: 0 6px;
+padding: 0 6px;
 }
 .showingcompl_detailsdiv h3 {
-    font-size: 11px;
-    margin: 0px 0 1px 0;
+font-size: 11px;
+margin: 0px 0 1px 0;
 }
 .showing_complete .twobtn_showings .btn.sendlease {
-    font-size: 10px;
-    padding: 4px 11px;
+font-size: 10px;
+padding: 4px 11px;
 }
 .showing_complete .detshow_div .showimgpend img {
-    height: 92px;
+height: 92px;
 }
 /* end of showing completed */
 /* reserve now */
 .signin_popupreservenow .modal-dialog {
-    max-width: 100%;
+max-width: 100%;
 }
 .signin_popupreservenow .modal-content .modal-header {
-    padding: 14px 0 0px 0;
-    margin: 0 auto -1px auto;
+padding: 14px 0 0px 0;
+margin: 0 auto -1px auto;
 }
 .signin_popupreservenow .btn.declbtn,.signin_popupreservenow .btn.confrbtntw {
-    margin: 0;
+margin: 0;
 }
 .beforesignin p {
-    width: 95%;
+width: 95%;
 }
 .signin_popupreservenow .modal-header {
-    width: 91.4%;
+width: 91.4%;
 }
 .signin_popupreservenow .modal-header h4 {
-    font-size: 17px;
-    line-height: 28px;
+font-size: 17px;
+line-height: 28px;
 }
 .signin_popupreservenow .leftwidless_sche .flexdiv,
 .signin_popupreservenow .rightwidless_sche .flexdiv {
-    margin: 0 0 0 11px;
+margin: 0 0 0 11px;
 }
 /* end of reserve now */
 
@@ -13710,7 +13827,7 @@ padding: 10px 7px;
 margin: 15px 0;
 }
 .btn.vacatebtn_notice {
-    width: 100%;
+width: 100%;
 }
 .gvnotid_depos_div .trans_details p {
 font-size: 11px;
@@ -13787,7 +13904,7 @@ padding: 1em;
 padding: 1.3em 1em;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 9px 10px;
+padding: 9px 10px;
 }
 /* end of give notice  */
 
@@ -13904,9 +14021,9 @@ margin: 0 0px 18px 0px;
 width: 95%;
 }
 .flx_addrimg {
-    width: 71%;
-    align-items: flex-start;
-    margin: 0 0 0 53px;
+width: 71%;
+align-items: flex-start;
+margin: 0 0 0 53px;
 }
 .confirmpopupdiv .modal-header,.confirmreschedule .modal-header {
 padding: 1.5em 0 2.8em 0;
@@ -13915,32 +14032,32 @@ padding: 1.5em 0 2.8em 0;
 
 /* price range */
 .loadmore_arrowsdownmobile a {
-    left: 41%;
+left: 41%;
 }
 .flexprice_range {
-    margin: 4.4em 0 1em 0;
+margin: 4.4em 0 1em 0;
 }
 .pricelabel_range {
-    flex-basis: 21%;
+flex-basis: 21%;
 }
 .price-range-slider {
-    width: 74%;
+width: 74%;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
-    height: 17px;
+height: 17px;
 }
 .btmfilter_btns {
 width: 100%;
 padding: 1.7em 0.4em 1.1em 0.4em;
 }
 .flx_btnsalign{
-    justify-content: space-between;
+justify-content: space-between;
 }
 .pricerangedivs .leasedslider .unverifi_divtxt img {
-    margin: 0 0 0 0;
+margin: 0 0 0 0;
 }
 .pricerangedivs .unverifi_divtxt p {
-    margin: 4px 0 0px 0;
+margin: 4px 0 0px 0;
 }
 .btn.saveprop, .btn.propnotify {
 font-size: 12px;
@@ -14931,131 +15048,158 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+/* payment deposit */
+.descrp_photoinfo p {
+width: 100%;
+}
+.name_or_list {
+    right: -9px;
+    width: 46%;
+}
+.firstblock_bankimg img {
+    height: 67px;
+    width: 67px;
+}
+.paymentopt_billpayee {
+    padding: 10px !important;
+}
+.bankname_imgpay img {
+    margin-right: 14px;
+}
+.bankname_decrip p {
+    font-size: 7px;
+    line-height: 9px;
+}
+.bnkname_txt p {
+    font-size: 13px;
+}
+/* end of payment deposit */
+
 /* schedule tour */
 .leftsche_tourcss {
-    padding-left: 8px;
+padding-left: 8px;
 }
 .confr_appt p {
-    line-height: 14px;
+line-height: 14px;
 }
 .showing_sched_tour h3 img {
-    height: 17px;
+height: 17px;
 }
 .similar_unitsdiv.toursche_slidiv .ratingstar_count i {
-    font-size: 10px;
+font-size: 10px;
 }
 .showing_sched_tour h3 {
-    font-size: 14px;
+font-size: 14px;
 }
 .midsche_toursec .timelabel span, .midsche_toursec .datelabel span {
-    font-size: 11px;
+font-size: 11px;
 }
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house span, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
-    font-size: 12px;
+font-size: 12px;
 }
 .similar_unitsdiv.toursche_slidiv .clock span img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .unverifi_divtxt img {
-    height: 21px;
-    margin: -2px 0 0 0;
+height: 21px;
+margin: -2px 0 0 0;
 }
 .toursche_slidiv .slidelocation_div {
-    align-items: flex-start;
+align-items: flex-start;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
-    height: 128px;
+height: 128px;
 }
 .confr_appt p {
-    font-size: 11px;
+font-size: 11px;
 }
 .similar_unitsdiv.toursche_slidiv .propred_clr {
-    margin: 0 96px 0 2px;
+margin: 0 96px 0 2px;
 }
 .midsectour_sche .showing_viewdetails .btn.view_detail {
-    font-size: 10px;
-    padding: 1px 12px 5px 13px;
+font-size: 10px;
+padding: 1px 12px 5px 13px;
 }
 .midsectour_sche .showing_viewdetails .btn.view_detail i {
-    font-size: 14px;
-    vertical-align: bottom;
+font-size: 14px;
+vertical-align: bottom;
 }
 .schetour_btm .showing_details p {
-    font-size: 11px;
+font-size: 11px;
 }
 .midsche_toursec .reschedule_divp p {
-    font-size: 11px;
+font-size: 11px;
 }
 .confr_appt h3 {
-    font-size: 12px;
-    line-height: 14px;
+font-size: 12px;
+line-height: 14px;
 }
 .confr_appt h3 {
-    margin: 0 0 12px 0;
+margin: 0 0 12px 0;
 }
 .midsectour_sche .timelabel span img, .midsectour_sche .datelabel span img {
-    height: 11px;
-    margin-right: 3px;
+height: 11px;
+margin-right: 3px;
 }
 .midsectour_sche .timeinfo span, .midsectour_sche .dateinfo span {
-    font-size: 11px;
-    line-height: 19px;
+font-size: 11px;
+line-height: 19px;
 }
 /* end of schedule tour */
 /* showing completed */
 .showing_complete .mob_pad {
-    padding: 0 6px;
+padding: 0 6px;
 }
 .showingcompl_detailsdiv h3 {
-    font-size: 11px;
-    margin: 0px 0 1px 0;
+font-size: 11px;
+margin: 0px 0 1px 0;
 }
 .showing_complete .twobtn_showings .btn.sendlease {
-    font-size: 10px;
-    padding: 4px 11px;
+font-size: 10px;
+padding: 4px 11px;
 }
 .showingcompl_detailsdiv p {
-    font-size: 9px;
+font-size: 9px;
 }
 .signin_popupreservenow .btn.declbtn,.signin_popupreservenow .btn.confrbtntw {
-    height: 41px;
-    width: 142px;
-    font-size: 15px;
+height: 41px;
+width: 142px;
+font-size: 15px;
 }
 .showing_complete .detshow_div .showimgpend img {
-    height: 92px;
+height: 92px;
 }
 /* end of showing completed */
 /* reserve now */
 .signin_popupreservenow .modal-dialog {
-    max-width: 100%;
+max-width: 100%;
 }
 .signin_popupreservenow .twobtn_showings .btn.not_inters {
-    font-size: 11px;
+font-size: 11px;
 }
 .signin_popupreservenow .modal-header {
-    width: 91%;
+width: 91%;
 }
 .signin_popupreservenow .modal-content .modal-header {
-    padding: 14px 0 0px 0;
-    margin: 0 auto -1px auto;
+padding: 14px 0 0px 0;
+margin: 0 auto -1px auto;
 }
 .signin_popupreservenow .btn.declbtn,.signin_popupreservenow .btn.confrbtntw {
-    margin: 0;
+margin: 0;
 }
 .beforesignin p {
-    width: 95%;
+width: 95%;
 }
 .signin_popupreservenow .modal-header {
-    width: 91.4%;
+width: 91.4%;
 }
 .signin_popupreservenow .modal-header h4 {
-    font-size: 17px;
-    line-height: 28px;
+font-size: 17px;
+line-height: 28px;
 }
 .signin_popupreservenow .leftwidless_sche .flexdiv,
 .signin_popupreservenow .rightwidless_sche .flexdiv {
-    margin: 0 0 0 11px;
+margin: 0 0 0 11px;
 }
 /* end of reserve now */
 /* schedule tour */
@@ -15114,7 +15258,7 @@ padding: 10px 7px;
 padding: 6px 11px 9px 11px;
 }
 .btn.vacatebtn_notice {
-    width: 100%;
+width: 100%;
 }
 .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs .label {
 font-size: 11px;
@@ -15216,7 +15360,7 @@ padding: 1em;
 padding: 1em;
 }
 .gvnotid_depos_div .trans_details {
-    padding: 8px 10px;
+padding: 8px 10px;
 }
 .outs_balc .amt_payment .btn.full_amt {
 margin: 0 0px 11px 0px;
@@ -15310,9 +15454,9 @@ margin: 0 0px 18px 0px;
 width: 95%;
 }
 .flx_addrimg {
-    width: 73%;
-    margin: 0 0 0 44px;
-    align-items: flex-start;
+width: 73%;
+margin: 0 0 0 44px;
+align-items: flex-start;
 }
 .confirmpopupdiv .modal-header,.confirmreschedule .modal-header {
 padding: 1.5em 0 2.8em 0;
@@ -15323,31 +15467,31 @@ padding: 1.5em 0 2.8em 0;
 
 /* price range */
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count {
-    top: 7px;
+top: 7px;
 }
 .loadmore_arrowsdownmobile a {
-    left: 41%;
+left: 41%;
 }
 .pricelabel_range {
-    flex-basis: 21%;
+flex-basis: 21%;
 }
 .similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p {
-    font-size: 18px;
+font-size: 18px;
 }
 .price-range-slider {
-    width: 74%;
+width: 74%;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count p {
-    line-height: 9px;
+line-height: 9px;
 }
 .flx_btnsalign{
-    justify-content: space-between;
+justify-content: space-between;
 }
 .btmfilter_btns.pricerang_btnsprop {
-    padding: 1.7em 0.4em 1.1em 0.4em;
+padding: 1.7em 0.4em 1.1em 0.4em;
 }
 .pricerang_btnsprop .btn.filterpricerg {
-    margin: 0 4px 0 7px;
+margin: 0 4px 0 7px;
 }
 .btn.saveprop, .btn.propnotify {
 font-size: 12px;
@@ -15375,10 +15519,10 @@ margin: 0 -29px 0 5px;
 padding: 11px;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
-    margin-right: 4px;
+margin-right: 4px;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list.verifitxt_divsec {
-    padding: 5px 21px 5px 0;
+padding: 5px 21px 5px 0;
 }
 .algntxt {
 margin: 0 0 0 -35px;
@@ -16514,65 +16658,74 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+/*  payment deposit */
+.firstblock_bankimg img {
+    height: 64px;
+    width: 64px;
+}
+.name_or_list {
+    width: 49%;
+}
+/* end of payment deposit */
 /* schedule tour */
 .midsectour_sche .datelabel, .midsectour_sche .timelabel {
-    width: 91%;
+width: 91%;
 }
 .midsectour_sche .showing_viewdetails .btn.view_detail {
-    padding: 1px 12px 3px 13px;
+padding: 1px 12px 3px 13px;
 }
 .midsectour_sche .showing_viewdetails .btn.view_detail i {
-    vertical-align: top;
+vertical-align: top;
 }
 .showing_sched_tour h3 img {
-    height: 17px;
+height: 17px;
 }
 .showing_sched_tour h3 {
-    font-size: 14px;
+font-size: 14px;
 }
 .toursche_slidiv h3 {
-    font-size: 17px;
+font-size: 17px;
 }
 .similar_unitsdiv.toursche_slidiv .propred_clr {
-    margin: 0 74px 0 2px;
+margin: 0 74px 0 2px;
 }
 .schetour_img img {
-    height: 73px;
+height: 73px;
 }
 /* end of schedule tour */
 /* showing confirmed */
 .showing_complete .twobtn_showings .btn.sendlease {
-    padding: 3px 7px;
+padding: 3px 7px;
 }
 .showing_complete .detshow_div .showimgpend img {
-    height: 84px;
+height: 84px;
 }
 .signin_popupreservenow .tenantaccord .card .card-header h2 button {
-    font-size: 13px;
+font-size: 13px;
 }
 .beforesignin p {
-    font-size: 10px;
-    line-height: 15px;
-    width: 91%;
+font-size: 10px;
+line-height: 15px;
+width: 91%;
 }
 .signin_popupreservenow .btn.declbtn, .signin_popupreservenow .btn.confrbtntw {
-    width: 126px;
+width: 126px;
 }
 .showingcompl_detailsdiv h3 {
-    font-size: 10px;
+font-size: 10px;
 }
 .signin_popupreservenow .flexdiv {
-    padding: 5px 3px;
+padding: 5px 3px;
 }
 .signin_popupreservenow .flexdiv div label {
-    font-size: 11px;
+font-size: 11px;
 }
 .signin_popupreservenow .sendoffraccord .flexdiv .basicdata p {
-    font-size: 11px;
-    padding: 2px 5px;
+font-size: 11px;
+padding: 2px 5px;
 }
 .signin_popupreservenow .modal-header {
-    width: 90.2%;
+width: 90.2%;
 }
 /* end of showing confirmed */
 /* confirmed showing */
@@ -16598,7 +16751,7 @@ line-height: 14px;
 font-size: 12px;
 }
 .reqdate_btnclick.mobilereqbtnclk .bookappnt_divabs {
-    left: 11px;
+left: 11px;
 }
 .outs_balc {
 padding: 0.6em 1em 1em 1em;
@@ -16661,8 +16814,8 @@ font-size: 11px;
 /* end of transactions */
 /* confirm showing popup */
 .flx_addrimg {
-    width: 80%;
-    margin: 0 0 0 33px;
+width: 80%;
+margin: 0 0 0 33px;
 }
 /* end of showing confirm pop up */
 /* find property */
@@ -16672,8 +16825,8 @@ font-size: 13px;
 /* end of find property */
 /* price range */
 .loadmore_arrowsdownmobile a {
-    left: 40%;
-    bottom: 77px;
+left: 40%;
+bottom: 77px;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .imageover_details > img {
 height: 134px;

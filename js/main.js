@@ -666,3 +666,4 @@ $(document).ready(function() {
         $(".desktopversion_credit").hide();
     }); 
 });
+
