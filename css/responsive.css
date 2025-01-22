@@ -334,9 +334,6 @@ height: 11px;
 .invite_sliderslick .bgtenant_div .status {
 right: 27px;
 }
-.btn.btninvite {
-padding: 4px 6px 3px 14px;
-}
 .prop_feature .category-button {
 padding: 5px 9px;
 }
@@ -726,10 +723,7 @@ line-height: 13px;
 }
 /* end of offer to lease */
 /* schedule showings */
-.showing_comple_details .showingssec .showimgpend,
-.detshow_div .showing_detailsdiv + .showingssec .showimgpend{
-padding: 9px 0px 4px 5px;  
-} 
+
 .slideronmap {
 margin: -86px 0 0 0;
 }
@@ -4837,6 +4831,8 @@ width: 57%;
 background-color:unset;
 }
 
+
+
 /* payment deposit */
 .paymentopt_billpayee{
 width: 66.5%;
@@ -5637,6 +5633,28 @@ justify-content: space-between;
 padding: 3px 16px 4px 0px;
 }
 /* offer to lease showings */
+
+.showingstab_mylease .flexdiv:last-child {
+    border-bottom:unset;
+}
+.agreemt_confrm.mylease_agreements{
+    padding:20px 0 0 0;
+}
+.flexdiv:last-child {
+    border-bottom: 1px solid rgba(201, 215, 229, 1);
+}
+.imgprofname_agree p:first-child {
+    margin: 0 0 5px 0;
+}
+.offtoleaseagree_prof {
+        padding: 0.7em 0.8em;
+    }
+    .str_loc_txt {
+        margin: 0 0 0 5px;
+    }
+.verifdiv_show {
+    padding: 11px 14px;
+}
 .links ul li img {
 height: 16px;
 }
@@ -5741,6 +5759,121 @@ margin: 5.5em 0 8em 0;
 }
 /* end of offer to lease showings */
 /* schedule showings */
+.showing_comple_details .showingssec .showimgpend,
+.detshow_div .showing_detailsdiv + .showingssec .showimgpend{
+    padding: 3px 8px 4px 12px;
+} 
+.showing_complete .detshow_div.showing_comple_details .topsecshowdetls {
+    padding: 12px 10px 17px 23px;
+    border-radius: 17px 17px 0 0;
+}
+.profsec_div {
+    margin: 0 0 0px 0;
+}
+.schedshowbtmdets_new .butn_green img {
+    height: 26px;
+}
+.schedshowbtmdets_new .map_streetshowings h3,.schedshowbtmdets_new .map_streetdetails,.schedshowbtmdets_new .addr_streetshowings,.schedshowbtmdets_new .addr_streetshowings h3{
+display: block;
+text-align: center;
+}
+.show_detailstxt{
+    display:block;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height:29px;
+text-transform: capitalize;
+color: #315D80;
+}
+.detshow_div.schedshow_new .showingssec .order_links span a img {
+    height: 18px;
+    width:18px;
+    vertical-align: bottom;
+}
+.heading_show_compl h3{
+    line-height: 23px;
+}
+.wideqlright {
+    flex-basis: 42%;
+}
+.list-group.vertical-steps .list-group-item.schedule.completed::before {
+    content: url(../images/showings/showing_lease_offer/mobile_schedule.svg);
+}
+.list-group.vertical-steps {
+    flex-direction: column;
+}
+.vertical-steps .list-group-item .wideqlleft p:first-child {
+    font-size: 14px;
+}
+.audt_time{
+    color:#839FB7;
+    font-size: 10px;
+}
+.detshow_div.schedshow_new .btn.btninvite,.detshow_div.schedshow_new .btn.btninvite.minus {
+    padding: 3px 6px 4px 13px;
+    font-size: 12px;
+}
+.detshow_div.schedshow_new .showtopsec,.resche_link a{
+    background: #DEE7F2;
+}
+.list-group.vertical-steps .list-group-item {
+    padding: 0px 0px 25px 20px;
+}
+.profsec_div .offtoleaseagree_prof {
+    border-radius: 0px;
+    padding: 0.6em 1em;
+}
+.reschedulenew_div {
+    width: 98.5%;
+    left: -5px;
+}
+.resche_link a {
+    padding:11px 0;
+}
+.btnscentr_div {
+    margin: 12px 0 3px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.btn.conf_resch.confnew, .btn.canc_show.cancnew {
+    width: 160px;
+    padding: 3px 2px;
+}
+.label_txtreschedulenew label{
+    text-align: left;
+}
+.btnhidemobile,.mobilehiddensec{
+    display: none;
+}
+.detshow_div.schedshow_new .showingssec .showtime .timeinfo,
+.detshow_div.schedshow_new .showingssec .showdate .dateinfo{
+display: flex;
+justify-content: end;
+}
+.detshow_div.schedshow_new .showingssec .showtime,
+.detshow_div.schedshow_new .showingssec .showdate {
+align-items: center;
+padding: 0px 25px 9px 25px;
+}
+.detshow_div.schedshow_new .showingssec .timelabel span, .detshow_div.schedshow_new .showingssec .datelabel span {
+    font-size: 12px;
+}
+.detshow_div.schedshow_new .showingssec .timelabel span img, .detshow_div.schedshow_new .showingssec .datelabel span img {
+    height: 13px;
+    width: 13px;
+}
+.detshow_div.schedshow_new .showimgpend img{
+    height: 79px;
+}
+.detshow_div.schedshow_new .showing_detailsdiv h3{
+    text-align: left;
+    font-size: 16px;
+}
+.detshow_div.schedshow_new .btn.btninvite img {
+    vertical-align: sub;
+}
 .propfeat_tab .mobilesection_hidetabs{
 display: none;
 }
@@ -6439,6 +6572,12 @@ padding-right: 0;
 /* offer lease showings */
 .divreserve_btn {
 margin: 1em 0 0 0;
+}
+.my_info.myleaseunit .category-lists-slider .slider-button.slider-next {
+    right: 2px;
+}
+.my_info.myleaseunit .category-lists-slider .slider-button.slider-prev {
+    left: 3px;
 }
 .desktop_versappointment .reschedule_divdropdown.btnresched.rescapptm_div {
 right: 22px;
@@ -7783,6 +7922,13 @@ justify-content: end;
 display: none;
 }
 /* showings offer to lease */
+.offtoleaseagree_prof {
+    padding: 0.5em 0.8em;
+}
+.imgprof_agree img {
+    height: 53px;
+    width: 53px;
+}
 .showings_offerlease .tenant_imgs.less_team_div .bgtenant_div.active_person {
 margin: 12px 6px 0 17px;
 }

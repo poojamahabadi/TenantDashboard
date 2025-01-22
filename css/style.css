@@ -550,7 +550,6 @@ margin: 0 0 9px 0;
 .my_info {
 background: #edf2fa;
 border-radius: 17px;
-padding: 14px 20px;
 margin: 0 0 2em 0;
 }
 .tenant_imgs {
@@ -3029,7 +3028,7 @@ display: inline-block;
 margin: 0 1px 5px 0;
 }
 .showingssec .order_links span a img {
-height: 19px;
+height: 18px;
 display: inline-block;
 margin-right: 6px;
 }
@@ -3668,7 +3667,7 @@ margin: 1em 0;
 .propfeat_tab ul li a{
 color: #315D80;
 border-radius: 25.6499px;
-padding: 7px 46px;
+padding: 7px 26px;
 font-weight: bold;
 font-size: 14px;
 line-height: 16px;
@@ -3710,6 +3709,53 @@ left: 15px;
 background: #6D6077;
 border-radius: 20px;
 padding: 2px 25px 2px 10px;
+}
+.bottomdetails_descrip.schedshowbtmdets_new{
+    padding: 10px 0 0 0;
+}
+.schedshowbtmdets_new .pricedet_showings h3{
+    color:#315D80;
+}
+.schedshowbtmdets_new .map_streetshowings img {
+    height: 17px;
+    vertical-align: text-bottom;
+}
+.schedshowbtmdets_new .map_streetdetails {
+    margin:0;
+}
+.schedshowbtmdets_new .butn_green img {
+    height: 21px;
+}
+.schedshowbtmdets_new .ratingdiv_star p.startot {
+    text-align: center;
+}
+.schedshowbtmdets_new .ratingdiv_star p i {
+    font-size: 0.5em;
+}
+.schedshowbtmdets_new .ratingdiv_star p span.count{
+    font-size:16px;
+}
+.schedshowbtmdets_new .ratingdiv_star p span.total{
+    font-size:8px;
+}
+.schedshowbtmdets_new .detailsdiv_showing{
+    padding: 0px 20px 12px 20px;
+}
+.bgclr_divaddr_btn{
+    background: #DEE7F2;
+    border-radius: 18px;
+    padding: 20px 20px 18px 20px;
+}
+.bgclr_divaddr_btn .divreserve_btn{
+    width: 100%;
+margin:0 auto;
+}
+.bgclr_divaddr_btn .addr_streetshowings img {
+    height: 13px;
+    vertical-align: text-top;
+}
+.schedshowbtmdets_new .map_streetdetails{
+    padding:0 0 20px 0;
 }
 .bottomdetails_descrip{
 background: #EDF2FA;
@@ -4147,32 +4193,87 @@ line-height: 11px;
 .about_descrip ul li:last-child {
 border: none;
 }
-.detshow_div .showing_detailsdiv{
-display: flex;
-justify-content: space-between;
+.detshow_div.schedshow_new .showing_detailsdiv{
+background: #C9D7E5;
+border-radius: 17px 17px 0px 0px;
+position: relative;
+}
+.detshow_div.schedshow_new .btn.btninvite{
+position: absolute;
+right: 5px;
+top: 4px;
+}
+.detshow_div.schedshow_new .invite_sliderslick {
+right: 4px;
+top: 32px;
+}
+.detshow_div.schedshow_new .showtopsec {
+padding:12px 0px 0 0px;
+background: #EDF2FA;
+}
+
+.detshow_div.schedshow_new .showimgpend img {
+height: 66px;
+}
+.detshow_div.schedshow_new .showingssec .timelabel span,
+.detshow_div.schedshow_new .showingssec .datelabel span {
+font-size: 14px;
+}
+.detshow_div.schedshow_new .showingssec .showtime {
+padding: 0px 14px 9px 0px;
+}
+.detshow_div.schedshow_new .showingssec .showdate {
+    padding: 0px 14px 9px 0px;
+    }
+.detshow_div.schedshow_new .showingssec .timelabel span img,
+.detshow_div.schedshow_new .showingssec .datelabel span img {
+height: 16px;
+width: 16px;
+}
+.detshow_div.schedshow_new .showingssec .order_links span a {
+font-size: 10px;
+}
+.detshow_div.schedshow_new .showing_detailsdiv + .showingssec .showimgpend {
+padding: 0 0px 0 22px;
+}
+.detshow_div.schedshow_new .showingssec .order_links {
+margin: 6px 0 8px 0;
+padding: 0 20px;
+}
+.detshow_div.schedshow_new  .showingssec .order_links span {
+margin: 0;
+}
+.detshow_div.schedshow_new .showingssec .timeinfo span,
+.detshow_div.schedshow_new .showingssec .dateinfo span{
+font-size: 12px;
 }
 .btn.btninvite{
 background: #315D80;
 border-radius: 17px;
 color: #ffffff;
-padding: 3px 6px 3px 14px;
-font-size: 14px;
+padding: 5px 6px 4px 10px;
+font-size: 12px;
 border:unset;
 }
 .btn.btninvite img{
 margin:0 0 0 3px;
+height: 20px;
+width: 20px;
 }
 .detshow_div{
 background: #EDF2FA;
 border-radius: 17px;
-padding: 15px 15px;
+
 }
 .detshow_div .showing_detailsdiv h3{
 font-family: 'Helvetica';
 font-weight: 700;
-font-size: 18px;
+font-size: 16px;
 text-transform: capitalize;
 color: #315D80;
+text-align: center;
+padding: 12px;
+line-height: 14px;
 }
 .detshow_div .showingssec .timeinfo,.detshow_div .showingssec .dateinfo {
 justify-content: start;
@@ -4538,9 +4639,328 @@ margin:0;
 .google-map .gm-style .gm-style-iw-c {
 padding: 1px 22px !important;
 }
+.audt_time{
+text-align: center;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 12px;
+line-height: 19px;
+text-transform: capitalize;
+color: #315D80;
+margin: 5px 0 13px 0;
+}
+.detshow_div.schedshow_new {
+background-color: unset;
+}
+.detshow_div.schedshow_new .showing_detailsdiv h3{
+margin:0;
+}
+
+/*Vertical Steps*/
+.list-group.vertical-steps{
+flex-direction: row;
+justify-content: space-between;
+width: 91%;
+margin: 0 auto;
+}
+.wideqlleft{
+flex-basis: 55%;
+}
+.wideqlright{
+flex-basis: 32%;
+text-align: right;
+}
+.list-group.vertical-steps .list-group-item{
+border:none;
+border-left:1px solid #C9D6E3;
+box-sizing:border-box;
+border-radius:0;
+padding:0px 0px 20px 20px;
+background-color: unset;
+}
+.list-group.vertical-steps .list-group-item::before {
+display: inline-flex;
+float: left;
+height: 25px;
+width: 25px;
+margin: -6px 0 0 -35px;
+}
+.list-group.vertical-steps .list-group-item.active{
+background-color:transparent;
+color:inherit;
+}
+.detshow_div.schedshow_new .showingssec{
+    position: relative;
+}
+.reschedulenew_div input.form-control {
+    background: #C9D7E5;
+    border-radius: 20px;
+    height: 28px;
+    font-size: 12px;
+    text-align: right;
+    color: #315D80;
+}
+.btn.conf_resch.confnew, .btn.canc_show.cancnew{
+    font-weight: 700;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+    width: 134px;
+    padding: 5px 2px;
+}
+.txt_condosche{
+    flex-basis:24%;
+}
+.txt_condoschedetails{
+    flex-basis: 74%;
+}
+.zero_per p,.hundr_per p{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 8px;
+line-height:11px;
+text-transform: capitalize;
+color: #718D8A;
+}
+.per_main{
+    width: 95%;
+    margin: 4px auto;
+}
+.label_txtreschedulenew label{
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #315D80;
+    text-align: center;
+    display: block;
+    margin:0;
+}
+.detshow_div.schedshow_new .confirmshow_divgreen .btn.btninvite{
+    position: unset;
+}
+.detshow_div.schedshow_new .confirmshow_divgreen .btn.btninvite.greeninvitepl,
+.detshow_div.schedshow_new .confirmshow_divgreen .btn.btninvite.minus.greeninvitems{
+    background: #84A97F; 
+}
+.datepickershowingnew .input_reschedule .datepickershowing input.form-control {
+    border-right: unset;
+}
+.datepickershowingnew .input-group-text {
+    border: unset;
+    background-color: #c9d7e5;
+    padding: 0 10px 0 7px;
+    border-radius: 0px 20px 20px 0px;
+}
+.reschedulenew_div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #EDF2FA;
+    outline: 5px solid #F1D15B;
+    border-radius: 14px;
+    padding: 8px 11px;
+    margin: 0px 10px;
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    left: 23px;
+    bottom: 34px;
+}
+.resche_link a.yellowclr{
+    background-color: #F1D15B;
+    color:#C5A530;
+    padding: 23px 0 11px 0;
+}
+
+.profsec_div.remv_borderradius{
+    border-radius: 0;
+}
+.detshow_div.schedshow_new .confrm_div p {
+    font-size: 16px;
+    font-weight: 700;
+}
+.detshow_div.schedshow_new .confrm_div p img{
+    height: 20px;
+    width: 20px;
+    vertical-align: sub;
+}
+
+.detshow_div.schedshow_new .btn.btninvite.minus{
+background: #315D80;
+border-radius: 25.6499px;
+}
+.schedshow_new .confirmshow_divgreen{
+position: relative;
+}
+.resche_link a {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #839FB7;
+    display: block;
+    background-color: #EDF2FA;
+    padding: 23px 0 11px 0;
+    border-radius: 0 0 17px 17px;
+}
+.list-group.vertical-steps .list-group-item.schedule.completed::before {
+content: url('../images/showings/showing_lease_offer/schedule.svg');
+}
+
+.list-group.vertical-steps .list-group-item.confirmed.completed::before {
+content: url('../images/showings/showing_lease_offer/comp_confirm.svg');
+}
+.list-group.vertical-steps .list-group-item.arrived.completed::before {
+content: url('../images/showings/showing_lease_offer/arrivecomp.svg');
+}
+.list-group.vertical-steps .list-group-item.depart.completed::before {
+content: url('../images/showings/showing_lease_offer/departcomp.svg');
+}
+.list-group.vertical-steps .list-group-item.confirmed::before {
+content: url('../images/showings/showing_lease_offer/confirm.svg');
+}
+.list-group.vertical-steps .list-group-item.arrived::before {
+content: url('../images/showings/showing_lease_offer/arrive.svg');
+}
+.list-group.vertical-steps .list-group-item.depart::before {
+content: url('../images/showings/showing_lease_offer/depart.svg');
+}
+.list-group.vertical-steps .list-group-item.depart{
+border-left:1px solid transparent;
+}
+
+.vertical-steps .list-group-item .wideqlleft p:nth-child(2){
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+color: #8AA4BB;
+}
+.vertical-steps .list-group-item .wideqlleft p:first-child{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+color:#8AA4BB;
+}
+.vertical-steps .list-group-item .wideqlright p:first-child,
+.vertical-steps .list-group-item .wideqlright p:nth-child(2){
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+color: #8AA4BB;
+}
+.vertical-steps .list-group-item .wideqlright img {
+height: 11px;
+width: 11px;
+vertical-align: text-bottom;
+margin: 0 3px 0 0px;
+}
+.vertical-steps .list-group-item.completed .wideqlleft p:first-child{
+color: #315D80;
+}
+.vertical-steps .list-group-item.completed .wideqlleft p:nth-child(2){
+color: #315D80;
+}
+.vertical-steps .list-group-item.completed .wideqlright p:first-child{
+color: #315D80;
+}
+.vertical-steps .list-group-item.completed .wideqlright p:nth-child(2){
+color: #315D80;
+}
+
+
 /* schedule showings */
 
 /* showing offer to lease */
+.my_info.agreemt_confrm {
+padding: 20px 0;
+}
+.my_info.agreemt_confrm .divinfo {
+padding: 0px 16px 17px 16px;
+margin:0;
+}
+.agreemt_confrm  .bottomlease_agreeshowings{
+margin: 0px 16px 25px 16px;
+} 
+.my_info.agreemt_confrm .bg_colr_progress{
+margin: 0px 16px 10px 16px; 
+}
+.verifdiv_show {
+background-color: #EDF2FA;
+border-radius: 14px;
+padding: 1.17em;
+}
+.commt_lease img{
+width: 23px;
+height: 20px;
+}
+.phonelease img{
+width: 19px;
+height: 19px;  
+}
+.imgprofname_agree p{
+font-family: 'Helvetica';
+text-transform: capitalize;
+}
+.divider_line:before{
+border-right: 1px solid #839FB7;
+content: "";
+height: 27px;
+display: block;
+}
+.profsec_div{
+    background-color: #DEE7F2;
+    border-radius: 0px 0px 17px 17px;
+    margin: 0 0 -14px 0;
+    position: relative;
+    z-index: 1;
+}
+.imgprofname_agree p:first-child{
+font-weight: 700;
+font-size: 14px;
+line-height:14px;
+color: #315D80;
+margin:0 0 2px 0;
+}
+.verifytxt{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+text-transform: capitalize;
+color: #9BB997;
+}
+.profsec_div .offtoleaseagree_prof{
+border-radius: 0px;
+padding: 0.4em;
+}
+.profsec_div .imgprof_agree img{
+height: 49px;
+width: 49px;
+}
+.offtoleaseagree_prof{
+background: #C9D7E5;
+border-radius: 0px 0px 17px 17px;
+padding:0.7em;
+}
+.imgprofname_agree p:nth-child(2){
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+color: #92A3B4;
+margin:0;
+}
+.imgprof_agree img{
+height: 60px;
+width: 60px;
+border-radius: 40px;
+border:4px solid #315D80;
+box-shadow: inset 4px 5px 5px rgba(57, 124, 238, 0.06);
+}
 .showings_offerlease .tenant_imgs.less_team_div{
 justify-content: flex-start;
 width: 81%;
@@ -4803,6 +5223,7 @@ padding: 24px 27px;
 top: 32px;
 right: -33px;
 width: 58%;
+z-index: 1;
 }
 .send_reminder_tooltip p{
 font-family: 'Helvetica';
@@ -4848,6 +5269,7 @@ font-weight: 700;
 font-size: 12px;
 text-transform: capitalize;
 color: #315D80;
+padding: 9px;
 }
 .table_myleasetrans .table tbody tr td span.date_txt{
 font-weight: 400;
@@ -5583,8 +6005,8 @@ opacity: 0.1;
 background: #315D80;
 border-radius: 17px 17px 0px 0px;
 color: #ffffff;
-padding: 6px 6px 3px 14px;
-font-size: 14px;
+padding: 5px 6px 4px 10px;
+font-size: 12px;
 position: relative;
 z-index: 100;
 }
@@ -6643,9 +7065,10 @@ color: #FFFFFF;
 text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
 padding: 11px 10px 21px 10px;
 margin:0;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
 }
 .showing_complete{
-margin: 0 0 1em 0;
+margin: 0 0 2em 0;
 }
 .heading_show_compl h3 img{
 margin: 0 0 0 10px;
@@ -6701,6 +7124,9 @@ background: #C9D7E5;
 border-radius: 0px 0px 17px 17px;
 padding: 8px 20px;
 }
+.show_detailstxt{
+    display:none;
+}
 .view_timeline p{
 font-family: 'Helvetica';
 font-weight: 700;
@@ -6711,9 +7137,17 @@ text-transform: capitalize;
 color: #839FB7;
 margin: 0;
 }
+.showing_complete .detshow_div.showing_comple_details .showimgpend{
+padding:0;
+}
+.showing_complete .detshow_div.showing_comple_details .topsecshowdetls{
+    padding: 14px 10px 17px 23px;
+    background-color: #EDF2FA;
+}
 .detshow_div.showing_comple_details{
-border-radius: 17px 17px 0 0;
-margin: -13px 0 0 0;
+    border-radius: 17px 17px 0 0;
+    margin: -13px 0 0 0;
+    background-color: unset;
 }
 .showingcompl_detailsdiv{
 margin: 11px 0 0 0;
@@ -10274,17 +10708,17 @@ display: flex;
 justify-content: space-between;
 }
 .bankname_imgpay{
-    display: flex;
-    align-items: center;
-    border: 1px solid transparent;
-    border-radius: 15px;
+display: flex;
+align-items: center;
+border: 1px solid transparent;
+border-radius: 15px;
 }
 .imgcollec_bank:hover{
 border: 1px solid #315D80;
 box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.2), -2px -3px 10px rgba(64, 136, 255, 0.2);
 }
 .bankname_imgpay img{
-    margin-right: 25px;
+margin-right: 25px;
 }
 .fil_transbillpay{
 width: 16px;

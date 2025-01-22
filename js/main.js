@@ -667,3 +667,18 @@ $(document).ready(function() {
     }); 
 });
 
+
+// reschedule button
+$(".reschedulenew_div").hide();
+$(document).ready(function() {
+    $(".resche_link a").click(function(){
+        if($(this).hasClass('yellowclr')) {
+            $(this).removeClass('yellowclr');
+        } else {
+            $(this).addClass('yellowclr');
+        }
+        $(".reschedulenew_div").toggle();
+        $(".profsec_div").toggleClass("remv_borderradius");
+    }); 
+});
+ 
