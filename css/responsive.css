@@ -4834,6 +4834,30 @@ background-color:unset;
 
 
 /* payment deposit */
+.bankdetailsdescript_txt,.viewbankdetails_btn {
+    flex: 100%;
+}
+.btnsavebnk_receipt{
+    width: 100%;
+}
+.mobbankdepositview{
+    display:block;
+}
+.bankdesposit{
+    display: none;
+}
+.datepickerbankdivtwo{
+    width: 122px;
+}
+.datepickerbankdivtwo input.form-control {
+    width: 86px;
+}
+.paymentbillsys_desktop{
+    display: none;
+}
+.mobileview_billsystm{
+    display: block;
+  }
 .paymentopt_billpayee{
 width: 66.5%;
 margin: 0 auto;
@@ -5759,6 +5783,9 @@ margin: 5.5em 0 8em 0;
 }
 /* end of offer to lease showings */
 /* schedule showings */
+.desktphide{
+    display: block;
+}
 .showing_comple_details .showingssec .showimgpend,
 .detshow_div .showing_detailsdiv + .showingssec .showimgpend{
     padding: 3px 8px 4px 12px;

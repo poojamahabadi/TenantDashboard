@@ -4870,7 +4870,9 @@ color: #315D80;
 .vertical-steps .list-group-item.completed .wideqlright p:nth-child(2){
 color: #315D80;
 }
-
+.desktphide{
+    display: none;
+}
 
 /* schedule showings */
 
@@ -10439,10 +10441,10 @@ background: #EDF2FA;
 color: #315D80;
 }
 .ul_listbank li a.bill.active span img{
-content: url('../images/transactions/bill_payeeactive.svg');
+content: url('../images/transactions/payactv.svg');
 }
 .ul_listbank li a.bank.active span img{
-content: url('../images/transactions/bank_depoactive.svg');
+content: url('../images/transactions/bnkactv.svg');
 }
 .ul_listbank li a{
 font-family: 'Helvetica';
@@ -10461,6 +10463,182 @@ margin: 0 17px 0 0;
 
 
 /* payment option  */
+
+/* desktop css */
+.leftpay_options h4{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 18px;
+line-height:29px;
+text-transform: capitalize;
+color: #315d80;
+text-align:center;
+}
+.leftpay_options h4 span{
+    color: #F2727F;
+}
+.paylist_option {
+    list-style-type: none;
+}
+.paylist_option li.active a{
+background: #315D80;
+color: #FFFFFF;
+}
+ul.bankimgview_desklist li{
+    padding: 0 5px 12px 5px;
+}
+.desk_search .name_or_list {
+    width: 39%;
+    right: -15px;
+    top: 0px;
+}
+.desk_search .clcross_icontransbill {
+    right: 12px;
+}
+.desk_search .contentnamelist_drop {
+    margin: 51px auto 0 11px;
+}
+ul.bankimgview_desklist li a.nav-link{
+    padding: 0px;
+    margin: 0;
+    outline: 1px solid transparent;
+    border-radius: 20px;
+    border:unset;
+}
+ul.bankimgview_desklist li.nav-item a.nav-link:hover,
+ul.bankimgview_desklist li.nav-item a.nav-link:active,
+ul.bankimgview_desklist li.nav-item a.nav-link:focus,
+ul.bankimgview_desklist li.nav-item.show a.nav-link,
+ul.bankimgview_desklist li.nav-item a.nav-link.active{
+background-color: unset;
+padding: 0px;
+border: unset;
+outline: 1px solid #C9D7E5;
+box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.15), -2px -3px 10px rgba(64, 136, 255, 0.15);
+}
+.paylist_option li.active a.bilpay span img{
+    content: url('../images/transactions/bill_payeeactive.svg');
+}
+.paylist_option li.active a.bank span img{
+    content: url('../images/transactions/bank_depoactive.svg');
+}
+.paylist_option li a span img {
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+    vertical-align: text-top;
+}
+.leftpay_options{
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 20px 25px;
+    width:100%;
+}
+.widflx_payl{
+    flex:0 0 33.33%;
+}
+.widflx_payr{
+    flex:0 0 66.66%;
+}
+.bankname_pay img{
+    height: 45px;
+    width: 45px;
+}
+.bankname_pay p{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 18px;
+line-height:29px;
+text-transform: capitalize;
+color: #315D80;
+}
+.selbankimg_div img{
+    width:75px;
+    height:75px;
+    border-radius: 20px;
+}
+.paylist_option li a {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #63829E;
+    display: block;
+    padding: 15px 20px;
+}
+ .mobileview_billsystm{
+    display: none;
+}
+.bankdesposit h3{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 18px;
+line-height:29px;
+text-transform: capitalize;
+color: #315D80;
+}
+.bankdesposit .flexdiv {
+    flex-basis:44%;
+    padding:0;
+}
+.datepickerbankdiv input.form-control{
+  width: auto;
+}
+.datepickerbankdivtwo input.form-control{
+    width:103px;
+}
+.datepickerbankdiv input.form-control,.datepickerbankdivtwo input.form-control {
+    background: #C9D7E5;
+    border-radius: 20px;
+    height: 28px;
+    font-size: 12px;
+    text-align: right;
+    color: #315D80;
+}
+.datepickerbankdiv .input-group-text,.datepickerbankdivtwo .input-group-text {
+    border: unset;
+    background-color: #c9d7e5;
+    padding: 0 10px 0 7px;
+    border-radius: 0px 20px 20px 0px;
+}
+.bankdesposit .flexdiv input.form-control.edit-input{
+width: 122px;
+height: 28px;
+font-size: 12px;
+line-height: 19px;
+}
+.bankdesposit .flexdiv .basicdatatxt,.bankdesposit .flexdiv .basicdata{
+    display: unset;
+    flex-basis: unset;
+}
+.rightpayment_options{
+background: #EDF2FA;
+border-radius: 17px;
+padding: 30px 35px;
+height: auto;
+width:100%;
+}
+.searctxt_paymt{
+    flex-basis: 50%;
+}
+.searchfilter_trans.desk_search{
+    flex-basis: 45%;
+}
+.searctxt_paymt h2{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 18px;
+line-height:29px;
+text-transform: capitalize;
+color: #315D80;
+}
+.search_sectionpaymt{
+    display: flex;
+    justify-content:space-between;
+}
+/* end of desktop css */
 .serch_bardivname input.form-control{
 background: #F8FAFF;
 border-radius: 40px;
@@ -10594,7 +10772,7 @@ width: 75px;
 border-radius: 20px;
 }
 
-.imageaddreceipt p{
+.imageaddreceipt p,.imageaddreceipttwo p{
 font-family: 'Helvetica';
 font-weight: 700;
 font-size: 12px;
@@ -10608,19 +10786,52 @@ position: relative;
 .depoheight{
 height: 100vh;
 }
-.paymentreceipt_img .imageaddreceipt {
+.paymentreceipt_img .imageaddreceipt,.paymentreceipt_img .imageaddreceipttwo {
 position: absolute;
 right: 50%;
 z-index: 1;
-top: 38%;
 transform: translate(50%, 18%);
 text-align: center;
 }
-
-.paymentreceipt_img .imageaddreceipt input {
+.paymentreceipt_img .imageaddreceipt,.paymentreceipt_img .imageaddreceipttwo {
+    top: 19%;
+}
+.paymentreceipt_img .imageaddreceipt input,.paymentreceipt_img .imageaddreceipttwo input {
 display: none;
 }
-.paymentreceipt_img .imageaddreceipt input + label {
+.btnsavebnk_receipt{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #9BB997;
+    border-radius: 40px;
+    width: 302px;
+}
+.btn.btnsavebnk_receipt:hover,
+.btn.btnsavebnk_receipt:active,
+.btn.btnsavebnk_receipt:focus{
+    color:#ffffff;
+}
+.bankdesposit .replc_confirmsbtnpaymt .btn.replc_btnpaymt img,
+.bankdesposit .replc_confirmsbtnpaymt .btn.confrm_btnpaymt img {
+    float: none;
+}
+.bankdesposit .replc_confirmsbtnpaymt .btn.replc_btnpaymt,
+.bankdesposit .replc_confirmsbtnpaymt .btn.confrm_btnpaymt{
+    width: 302px;
+}
+.upld_photobankreceipt p{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 10px;
+line-height:12px;
+text-align: center;
+color: #315D80;
+}
+.paymentreceipt_img .imageaddreceipt input + label,.paymentreceipt_img .imageaddreceipttwo input + label {
 display: inline-block;
 width: 34px;
 height: 34px;
@@ -10630,14 +10841,57 @@ font-weight: normal;
 transition: all 0.2s ease-in-out;
 }
 
-.paymentreceipt_img .imageaddreceipt input + label:after {
+.paymentreceipt_img .imageaddreceipt input + label:after,.paymentreceipt_img .imageaddreceipttwo input + label:after {
 content: url("../images/transactions/addimg.svg");
 }
 .paymentreceipt_img .avatar-preview {
 width: 100%;
-height: 304px;
+height: 107px; 
 position: relative;
 border-radius: 20px;
+}
+.all_paymtdepoacc{
+    background: #FFFFFF;
+    border-radius: 17px;
+    padding: 9px 20px;
+}
+.bankdetailsdescript_txt h4{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 10px;
+line-height: 16px;
+color: #315D80;
+text-align: left;
+}
+.bankdetailsdescript_txt p{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 10px;
+line-height:16px;
+color: #315D80;
+margin:0 0 2px 0;
+}
+.paymentreceipt_img .avatar-preview.previewtwo.imgheight{
+    height:262px; 
+}
+.viewbankdetails_button{
+    width: 100%;
+background: #EDF2FA;
+border-radius: 42px;
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 10px;
+line-height: 16px;
+color: #92A3B4;
+}
+.btn.viewbankdetails_button:hover,.btn.viewbankdetails_button:active,.btn.viewbankdetails_button:focus{
+    color: #92A3B4;
+}
+.bankdetailsdescript_txt{
+    flex:45%;
+}
+.viewbankdetails_btn{
+    flex:45%;
 }
 .paymentreceipt_img .avatar-preview > div {
 width: 100%;
@@ -10705,7 +10959,10 @@ position: relative;
 }
 .replc_confirmsbtnpaymt{
 display: flex;
-justify-content: space-between;
+justify-content: center;
+}
+.mobbankdepositview{
+    display:none;
 }
 .bankname_imgpay{
 display: flex;
