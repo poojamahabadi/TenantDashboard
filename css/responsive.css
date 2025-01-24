@@ -5,6 +5,9 @@ right: 104px;
 }
 /* end of give notice */
 /* schedule tour */
+.schedtour_popup .sliderforday_div .slick-track {
+    margin: 0 0 0 -34px;
+}
 .schetour_img img {
 height: 147px;
 }
@@ -854,6 +857,12 @@ vertical-align: text-top;
 .midsche_toursec {
 width: 77.5%;
 }
+.seldateboxsche_prop .select-box1 .label::after {
+    right: -1px;
+}
+.seldateboxsche_prop .select-box .label::after {
+    right: 13px;
+}
 .toursche_slidiv .descrip_details_list .price_rate p {
 font-size: 17px;
 }
@@ -1212,6 +1221,15 @@ margin-left: 212px;
 /* schedule tour */
 .midsche_toursec {
 width: 82.8%;
+}
+.bgclr_divaddr_btn .map_streetshowings h3 {
+    font-size: 14px;
+}
+.seldateboxsche_prop .select-box {
+    width: 39%;
+}
+.seldateboxsche_prop .select-box1 {
+    width: 22%;
 }
 .confr_appt h3 {
 font-size: 15px;
@@ -1583,6 +1601,15 @@ font-size: 15px;
 /* schedule tour */
 .midsche_toursec {
 width: 87.6%;
+}
+.seldateboxsche_prop .select-box1 {
+    width: 23%;
+}
+.seldateboxsche_prop .select-box {
+    width: 41%;
+}
+.schedtour_popup .modal-content {
+    width: 100%;
 }
 .schetour_img img {
 height: 127px;
@@ -2062,6 +2089,15 @@ right: -5px;
 .midsche_toursec {
 width: 92.2%;
 }
+.bgclr_divaddr_btn .map_streetshowings h3 {
+    font-size: 13px;
+}
+.seldateboxsche_prop .select-box {
+    width: 44%;
+}
+.seldateboxsche_prop .select-box1 {
+    width: 25%;
+}
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
 margin-left: 197px;
 }
@@ -2524,6 +2560,9 @@ right: -15px;
 /* schedule tour */
 .midsche_toursec {
 width: 95.4%;
+}
+.seldateboxsche_prop .select-box {
+    width: 47%;
 }
 /* end of schedule tour */
 /* showing confirmed block */
