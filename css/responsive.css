@@ -258,9 +258,6 @@ height: 110px;
 .showingssec .order_links span a {
 font-size: 12px;
 }
-.buttons_map button {
-padding: 7px 16px;
-}
 .showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
 font-size: 15px;
 }
@@ -434,9 +431,7 @@ right: 23px;
 .prop_feature .category-button {
 padding: 5px 3px;
 }
-.slideronmap .leasedslider.areaexplr h3 {
-font-size: 12px;
-}
+
 .slideronmap .slider .slick-track {
 margin-left: 98px;
 }
@@ -546,9 +541,7 @@ right: 20px;
 
 
 /* schedule showings */
-.slideronmap .leasedslider.areaexplr h3 {
-font-size: 11px;
-}
+
 .slideronmap .leasedslider.areaexplr p {
 font-size: 9px;
 }
@@ -615,9 +608,6 @@ margin-left: 215px;
 }
 .slideronmap {
 margin: -84px 0 0 0;
-}
-.buttons_map button {
-padding: 7px 12px;
 }
 .tablinks_propfeat ul.nav li a {
 padding: 5px 12px;
@@ -834,9 +824,6 @@ height: 128px;
 }
 .similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
 margin-left: 229px;
-}
-.buttons_map button {
-padding: 7px 10px;
 }
 .showingssec .timelabel span, .showingssec .timeinfo span, .showingssec .datelabel span, .showingssec .dateinfo span {
 font-size: 13px;

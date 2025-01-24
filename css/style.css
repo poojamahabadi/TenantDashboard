@@ -3386,8 +3386,7 @@ border-radius: 20px;
 padding: 0;
 margin: 0 10px 0px 0;
 }
-.schedtour_popup .tab-content>.tab-pane{ display: block; height: 0px; overflow: hidden; }
-.schedtour_popup .tab-content>.active{ height: auto;}
+
 .showingssec_infodiv .slick-list{
 overflow: auto;
 display: flex;
@@ -3713,6 +3712,21 @@ padding: 2px 25px 2px 10px;
 .bottomdetails_descrip.schedshowbtmdets_new{
     padding: 10px 0 0 0;
 }
+.showings_sche_div.imagehe_div{
+    max-height: 196px;
+}
+.bottomdetails_descrip.schedshowbtmdets_new .buttongrp_rating{
+    width: auto;
+}
+.bottomdetails_descrip.schedshowbtmdets_new .buttongrp_rating .butn_green{
+    margin:0;
+}
+.bottomdetails_descrip.schedshowbtmdets_new .buttongrp_rating .butn_green .btn{
+    padding: 0;
+}
+.schedshowbtmdets_new .pricedet_showings h3 span{
+    font-size: 18px;
+}
 .schedshowbtmdets_new .pricedet_showings h3{
     color:#315D80;
 }
@@ -3819,10 +3833,13 @@ font-weight: 400;
 font-size: 12px;
 padding-right: 5px;
 }
+.bgclr_divaddr_btn .map_streetshowings h3{
+    font-size: 16px;
+}
 .map_streetshowings h3{
 font-family: 'Helvetica';
 font-weight: 700;
-font-size: 15px;
+font-size: 16px;
 text-transform: capitalize;
 color: #315D80;
 margin:0;
@@ -3832,6 +3849,9 @@ margin: 0 8px 0 0px;
 }
 .map_streetdetails{
 margin: 30px 0 0 0;
+}
+.bgclr_divaddr_btn .addr_streetshowings h3{
+    font-size: 12px;
 }
 .addr_streetshowings h3{
 font-family: 'Helvetica';
@@ -4149,7 +4169,7 @@ width: 100%;
 height: 330px;
 }
 .mrbtm{
-margin-bottom: 15px;
+margin-bottom: 6px;
 }
 .about_descrip h3 span{
 color: #F2727F;
@@ -4520,6 +4540,9 @@ background: #EDF2FA;
 box-shadow: 3.20624px 3.84749px 3.20624px -0.641248px rgba(137, 174, 234, 0.04), inset 2.56499px 2.56499px 8.97747px rgba(57, 124, 238, 0.12);
 border-radius: 64.1248px;
 }
+.mapdiv_showings .buttons_map button{
+    font-size: 14px;
+}
 .buttons_map button{
 font-family: 'Helvetica';
 font-style: normal;
@@ -4528,7 +4551,7 @@ font-size: 12px;
 text-transform: capitalize;
 color: #315D80;
 border: unset;
-padding: 7px 10px;
+padding:4px 7px;
 letter-spacing: 0.8px;
 }
 .buttons_map button.active{
@@ -4623,7 +4646,7 @@ display: flex;
 .slideronmap .slider .slick-track {
 margin-left: 90px;
 }
-.google-map-section .container-fluid{
+.content-wrapper.content-wrapper--with-bg .mapdiv_showings .google-map-section .container-fluid{
 width: 100%;
 padding: 0;
 }
@@ -8320,9 +8343,9 @@ justify-content: flex-start;
 margin-left:7px;
 }
 .midtxt_css{
-background: #DEE7F2;
-padding: 4px 10px;
-margin: 0 0 10px 0;
+    background: #DEE7F2;
+    padding: 4px 10px;
+    margin: 0 0 2px 0;
 }
 .midtxt_css h3{
 font-family: 'Helvetica';
@@ -8342,8 +8365,8 @@ padding: 0;
 .tablinks_propfeat.unit_div.tabsprop_schedulediv .midtxt_css h3{
 padding: 0;
 }
-.prop_feature.propertyfeat_sche_showdiv{
-padding: 20px 0px 0px 0px;
+.prop_feature.propertyfeat_sche_showdiv {
+    padding: 13px 0px 0px 0px;
 }
 .propertyfeat_sche_showdiv .top_propsection{
 padding: 0px 12px 0px 12px;
@@ -8376,6 +8399,30 @@ line-height: 22px;
 text-transform: capitalize;
 color: #315D80;
 display: block;
+}
+.sche_tour.desktopview_tour h3{
+    text-align: center;
+    padding: 9px 19px 4px 0;
+}
+.sche_tour.desktopview_tour .flexschedule{
+    justify-content: center;
+    margin:0;
+    padding: 0 19px 0 0;
+}
+.sche_tour.desktopview_tour .switch-field{
+    background-color: #ffffff;
+}
+.sche_tour.desktopview_tour .switch-field input + label span.video img {
+    height: 15px;
+    vertical-align: text-bottom;
+}
+.sche_tour.desktopview_tour .switch-field input + label span.person img {
+    height: 21px;
+}
+.sche_tour.desktopview_tour .switch-field label{
+    width: 223px;
+    height: 46px;
+    line-height: 33px;
 }
 .median_lease .card-header a.collapsed:after {
 font-family: 'FontAwesome';
@@ -8533,6 +8580,7 @@ border-radius: 17px;
 padding: 14px 19px;
 position: relative;
 }
+
 .sche_tour h3{
 font-family: 'Helvetica';
 font-weight: 700;
@@ -8547,7 +8595,8 @@ margin:0 0 15px 0;
 display: flex;
 justify-content:space-between;
 align-items: center;
-margin: 0 0 3px 0;
+margin: 0 0 15px 0;
+padding: 0 13px 0 0;
 }
 .stepsmodal_body .seldateboxsche_prop{
 justify-content:flex-start;
@@ -8556,14 +8605,14 @@ justify-content:flex-start;
 width: 30%;
 }
 .seldateboxsche_prop .date_heading h3 {
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 15px;
-line-height: 20px;
-text-align: left;
-text-transform: capitalize;
-color: #315D80;
-margin: 0;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #315D80;
+    margin: 0;
 }
 .monthyear_div{
 width: 49%;
@@ -8576,10 +8625,10 @@ position: relative;
 width: 35%;
 }
 .seldateboxsche_prop .select-box {
-width: 38%;
+width: 36%;
 }
 .seldateboxsche_prop .select-box1{
-width: 27%;
+    width: 20%;
 }
 .day_monthtab .tab-content .container.tab-pane{
 padding:0;
@@ -8597,20 +8646,25 @@ background:unset;
 border-radius: 42px;
 font-family: 'Helvetica';
 font-weight: 700;
-font-size: 13px;
+font-size: 12px;
 text-align: left;
 text-transform: capitalize;
 color: #315D80;
-height: 31px;
 }
-.seldateboxsche_prop .select-box .label::after,.seldateboxsche_prop .select-box1 .label::after {
-content: url(../images/showings/showing_lease_offer/arrow_offerlease.svg);
-font-family: 'FontAwesome';
-font-size: 12px;
-position: absolute;
-right: 0;
-top: 0;
-padding: 6px 15px;
+.seldateboxsche_prop .select-box .label::after{
+    right: 20px;
+    top: 0px;
+}
+.seldateboxsche_prop .select-box1 .label::after{
+    right: 1px;
+    top: 0px;
+}
+.seldateboxsche_prop .select-box .label::after, .seldateboxsche_prop .select-box1 .label::after {
+    content: url(../images/showings/showing_lease_offer/arrow_offerlease.svg);
+    font-family: 'FontAwesome';
+    font-size: 12px;
+    position: absolute;
+    padding: 5px 4px 0 5px;
 }
 .seldateboxsche_prop .select-box .select,.seldateboxsche_prop .select-box1 .select {
 width: 100%;
@@ -8625,12 +8679,15 @@ height: 28px;
 opacity : 0; 
 pointer-events:none;
 }
+.sche_tour.desktopview_tour {
+    padding: 14px 0px 24px 19px;
+}
 .sliderforday_div .slick-slide .date_dayslide{
 background: #C9D7E5;
 border-radius: 10px;
 text-align: center;
-padding: 12px 10px 15px 10px;
-width: 75%;
+padding: 21px 10px 21px 10px;
+width: 68px;
 }
 .date_dayslide p:first-child,.date_dayslide p:nth-child(2){
 font-family: 'Helvetica';
@@ -9075,8 +9132,84 @@ margin: 0 0 0 16px;
 .schedtour_popup .modal-content {
 background-color: unset;
 border: unset;
-width: 80%;
+width: 73%;
 margin: 0 auto;
+}
+.schedtour_popup .seldateboxsche_prop .select-box .label::after {
+    right: 9px;
+}
+.schedtour_popup .tab-content>.tab-pane{ display: block; height: 0px; overflow: hidden;padding:0 }
+.schedtour_popup .tab-content>.active{ height: auto;}
+.schedtour_popup .sliderforday_div .slick-slide .date_dayslide {
+    padding: 14px 10px 13px 10px;
+}
+.schedtour_popup .date_dayslide p:first-child {
+    margin:0 0 10px 0px;
+}
+.schedtour_popup .sliderforday_div .slick-track{
+    margin:0 0 0 -16px;
+}
+.schedtour_popup .date_dayslide p:nth-child(2){
+    text-transform: uppercase;
+}
+.desktopview_tour .sliderforday_div .slick-slide .date_dayslide p{
+    text-transform: uppercase;
+}
+.schedtour_popup .tenantaccord .flexdiv .basicdata select.form-control {
+    background-image: url(../images/down_arrow_icon.svg);
+    background-repeat: no-repeat;
+    background-position: 93% center;
+    appearance: auto;
+ padding-right: 4px; 
+}
+.schedtour_popup .tenantaccord .flexdiv .basicdata select.form-control,
+.schedtour_popup .tenantaccord .flexdiv .basicdata input.form-control{
+    color:#315D80;
+}
+.schedtour_popup .tenantaccord .flexdiv .basicdata input.form-control::-webkit-input-placeholder {
+    color:#315D80;
+    }
+    .schedtour_popup .tenantaccord .flexdiv .basicdata input.form-control::-moz-placeholder {
+        color:#315D80;
+    }
+    .schedtour_popup .tenantaccord .flexdiv .basicdata input.form-control:-ms-input-placeholder {
+        color:#315D80;
+    }
+    .schedtour_popup .tenantaccord .flexdiv .basicdata input.form-control:-moz-placeholder {
+        color:#315D80;
+    }
+.schedtour_popup .tenantaccord .lf_flexside .flexdiv{
+    width: 95%;
+    margin:0 auto 0 0;
+}
+.schedtour_popup .tenantaccord .rt_flexside .flexdiv{
+    width: 95%;
+    margin:0 0 0 auto;
+}
+.starred{
+    color:#F2727F;
+}
+.content-wrapper.content-wrapper--with-bg .schedtour_popup .container-fluid {
+    padding: 0 20px;
+}
+.schedtour_popup .sched_tourdivbtnnext .btn.btnsched_tournext {
+    padding: 11px 0 0px 0;
+}
+.schedtour_popup .seldateboxsche_prop {
+    margin: 0 0 8px 0;
+    align-items: baseline;
+}
+.schedtour_popup .sche_tour .date_heading h3{
+    margin:0;
+}
+.schedtour_popup .seldateboxsche_prop .select-box {
+    width: 49%;
+}
+.schedtour_popup .seldateboxsche_prop .select-box1 {
+    width: 30%;
+}
+.schedtour_popup .sche_tour {
+    padding: 14px 79px 31px 79px;
 }
 .schedtour_popup .modal-body.stepsmodal_body {
 padding: 0;
@@ -9088,7 +9221,7 @@ padding: 8px 8px 0px 8px;
 background: #F8F8F8;
 box-shadow: 0px 12px 7px #F8F8F8, 0px -10px 19px rgba(133, 178, 255, 0.31), inset 0px 4px 4px 2px rgba(189, 215, 255, 0.3);
 border-radius: 20px 20px 0 0;
-width:42%;
+width: 44%;
 margin: 0 auto;
 position: relative;
 z-index: 1;
@@ -9113,9 +9246,9 @@ color: #ffffff;
 .schedtour_popup ul.nav-tabs li a {
 border: unset;
 font-weight: bold;
-font-size: 1.5em;
+font-size: 22px;
 color: #F2727F;
-padding: 10px;
+padding: 7px 4px 8px 4px;
 width: 100%;
 display: block;
 text-align: center;
@@ -9188,6 +9321,9 @@ background: linear-gradient(281.64deg, #F8B195 -63.17%, #F2727F 63.95%);
 .sched_tourdivbtnschedule .btn.btnsched_tourschedule{
 background: #9BB997;
 }
+.schedtour_popup ul.nav-tabs li.stepone.changecolorlink a{
+    color:#315D80;
+}
 .sched_tourdivbtnnext .btn.btnsched_tournext,.sched_tourdivbtnschedule .btn.btnsched_tourschedule{
 border-radius: 100px;
 font-family: 'Helvetica';
@@ -9200,10 +9336,14 @@ color: #FFFFFF;
 width: 350px;
 height: 40px;
 border: unset;
+box-shadow:unset;
 }
 .propschepopaccord {
-width: 82%;
-margin: 2em auto 1.5em auto;
+    width: 90%;
+    margin: 2em auto 1.5em auto;
+}
+.schedtour_popup  .basicdata select option:not(:first-child) {
+    text-align: right;
 }
 .bedrmbox,.bathrmbox,.parkrmbox{
 width: 36%;
@@ -9789,7 +9929,7 @@ right: 0;
 left: 0;
 z-index: 1;
 margin: 0;
-padding:10px 0 0 0;
+padding:5px 0 0 0;
 max-height: 76px;
 overflow-x: hidden;
 border-radius: 0 0 10px 10px;
@@ -9801,11 +9941,12 @@ width: 2px;
 }
 .timetab_div .options li {
 margin: 0;
-padding: 12px 0;
+padding: 3px 0;
 text-align: left;
 text-indent: 11px;
 font-weight: 700;
 color: #315D80;
+font-size: 16px;
 -moz-transition: all 0.15s ease-in;
 -o-transition: all 0.15s ease-in;
 -webkit-transition: all 0.15s ease-in;
@@ -9815,10 +9956,10 @@ transition: all 0.15s ease-in;
 color: #315D80;
 }
 .flxtime_design {
-display: flex;
-justify-content: space-around;
-align-items: center;
-margin: 53px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 27px 0 0 0;
 }
 button.closesche_tourprop:hover,button.closesche_tourprop:active,button.closesche_tourprop:focus{
 background-color: #3E6B8E;  
@@ -9869,8 +10010,8 @@ height: 21px;
 vertical-align: middle;
 }
 .schedtour_popup .sche_tour h3 {
-text-align: center;
-margin: 20px 0;
+    text-align: center;
+    margin: 23px 0 17px 0;
 }
 /* end of schedule tour page design */
 
