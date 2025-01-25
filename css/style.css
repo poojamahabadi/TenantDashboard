@@ -8518,7 +8518,7 @@ border: 0;
 margin: 0;
 font-size: 14px;
 text-align: center;
-font-family: 'Helvetica Rounded';
+font-family: 'Helvetica';
 color: #6388A5;
 padding: 7px 6px 7px 6px;
 transition: all 0.1s ease-in-out;
@@ -8703,12 +8703,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 16px;
 margin: 0;
-}
-.sliderforday_div .slick-slide.slick-current.slick-active .date_dayslide{
-background-color: #F2727F;
-}
-.sliderforday_div .slick-slide.slick-current.slick-active .date_dayslide p{
-color:#ffffff;
 }
 .seldateboxsche_prop .select-box .select, .seldateboxsche_prop .select-box1 .select{
 color:#315D80;  
@@ -9154,13 +9148,6 @@ margin: 0 auto;
 }
 .desktopview_tour .sliderforday_div .slick-slide .date_dayslide p{
     text-transform: uppercase;
-}
-.schedtour_popup .tenantaccord .flexdiv .basicdata select.form-control {
-    background-image: url(../images/down_arrow_icon.svg);
-    background-repeat: no-repeat;
-    background-position: 93% center;
-    appearance: auto;
- padding-right: 4px; 
 }
 .schedtour_popup .tenantaccord .flexdiv .basicdata select.form-control,
 .schedtour_popup .tenantaccord .flexdiv .basicdata input.form-control{
@@ -10084,12 +10071,26 @@ padding: 0 15px 0 0;
 
 
 /* send offer to lease popup */
-.signin_popupreservenow .modal-content{
-background: rgba(237, 242, 250, 0.9);
-border-radius: 17px;
-width: 74%;
-margin: 0 auto;
-border: unset;
+.content-wrapper.content-wrapper--with-bg .signin_popupreservenow .container-fluid {
+    padding: 0 18px;
+}
+.beforesignin .bld_txtprop{
+    font-weight:700;
+}
+.signin_popupreservenow .my_info{
+    width: 95%;
+    margin: 0 auto 10px auto;
+}
+.signin_popupreservenow .beforesignin {
+    margin-top: 10px;
+}
+
+.signin_popupreservenow .modal-content {
+    background: rgba(237, 242, 250, 0.9);
+    border-radius: 17px;
+    width: 81%;
+    margin: 0 auto;
+    border: unset;
 }
 .signin_popupreservenow .modal-content .modal-body {
 padding: 0;

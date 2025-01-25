@@ -4130,9 +4130,9 @@ padding: 5px 28px;
 margin: 0 49px 0 0px;
 font-size: 12px;
 }
-.signin_popupreservenow .modal-dialog{
-max-width: 84%;
-margin:0 auto;
+.signin_popupreservenow .modal-dialog {
+    max-width: 92%;
+    margin: 0 auto;
 }
 .twobtn_showings{
 text-align: center;
