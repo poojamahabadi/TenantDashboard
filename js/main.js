@@ -707,7 +707,7 @@ $(".desktopversion_credit").hide();
 // reschedule button
 $(".reschedulenew_div").hide();
 $(document).ready(function() {
-$(".resche_link a").click(function(){
+$(".resche_link a,.reschedule_divp a").click(function(){
 if($(this).hasClass('yellowclr')) {
 $(this).removeClass('yellowclr');
 } else {
