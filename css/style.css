@@ -9101,12 +9101,18 @@ pointer-events:none;
 .sche_tour.desktopview_tour {
     padding: 14px 0px 24px 19px;
 }
-.sliderforday_div .slick-slide .date_dayslide{
+.sliderforday_div .slick-slide .date_dayslide,.schedtour_popup .sliderforday_div.stylebox .date_dayslide{
 background: #C9D7E5;
 border-radius: 10px;
 text-align: center;
 padding: 21px 10px 21px 10px;
 width: 68px;
+}
+.schedtour_popup .sliderforday_div.stylebox > div{
+    display: flex;
+}
+.schedtour_popup .sliderforday_div.stylebox .element{
+    margin:0 10px 0 0;
 }
 .date_dayslide p:first-child,.date_dayslide p:nth-child(2){
 font-family: 'Helvetica';
@@ -10396,7 +10402,7 @@ font-size: 12px;
 .stepsmodal_body .editinfoic a.accord_edit {
 margin-right: 25px;
 }
-.flxboth_propschepop .sliderforday_div .slick-slider{
+.flxboth_propschepop .sliderforday_div .slick-slider,.schedtour_popup .sliderforday_div.stylebox{
 margin:0 0 10px 0;
 }
 .sliderbtm_txtpopup p{
