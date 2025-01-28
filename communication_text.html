@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Communication</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+    <!-- datepicker styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="l-header">
+    <div class="l-header__inner clearfix">
+    <div class="c-header-icon desktopversion_search">
+    <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    <div class="logo">
+    <div class="logo__txt">
+    <a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+    <div class="mobileversion_view">
+    <a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+    </div>
+    </div>
+    </div>
+    
+    <div class="c-search desktopversion_search">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    
+    <div class="mobileversion_view txt_heading">
+    <h3>Property Details </h3>
+    </div>
+    
+    <div class="links">
+    <ul>
+    <li class="phone desktopversion_search"> <a href="">
+    <img src="images/phone.svg"></a>
+    <div class="count_phone">
+    <span>4</span>
+    </div>
+    </li>
+    <li class="comment desktopversion_search"> <a href="">
+    <img src="images/comment.svg"></a>
+    <div class="count_comment">
+    <span>5</span>
+    </div>
+    </li>
+    <li class="email desktopversion_search"> <a href="">
+    <img src="images/email.svg"></a>
+    <div class="count_email">
+    <span>6</span>
+    </div>
+    </li>
+    <li class="notify"> <a href="">
+    <img src="images/notify.svg"></a>
+    <div class="count_notify">
+    <span>30</span>
+    </div>
+    </li>
+    </ul>
+    </div>
+    
+    <div class="c-header-icon mobileversion_view">
+    <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </header>
+    
+    
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="topsec_menu">
+    <div class="profilepic">
+    <img src="images/menu/profilemenu.svg">
+    <div class="status status_green">
+    <span></span>
+    </div>
+    </div>
+    <div class="profiledetails">
+    <p>Mae Coleman <small>Tenant</small></p>
+    <a href="">View Profile</a>
+    </div>
+    <div class="menu_scanicon">
+    <img src="images/menu/menu_scan.svg">
+    </div>
+    </div>
+    <div class="c-search menusearch">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    <div class="menu_nav">
+    <a href="myinformation.html">  <img src="images/menu/my_info.svg"> My Information</a>
+    <a href="#" class="active">  <img src="images/menu/communication.svg"> Communications</a>
+    <a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+    <a href="showings.html">  <img src="images/menu/showings.svg"> showings & offers</a>
+    <a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+    <a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+    <a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+    <a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+    <a href="#">  <img src="images/menu/scanqr.svg"> Scan QR Code</a>
+    <div class="logoutsec">
+    <div>
+    <a href="javascript:void(0);">Logout</a>
+    </div>
+    <div>
+    <button class="btn upgrade_btn">Upgrade</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    
+<main class="l-main">
+<div class="content-wrapper content-wrapper--with-bg">
+<div class="container-fluid">
+
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-12">
+                <div class="commun_bg">
+                <div class="profile_chat"></div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="profileimg_comm">
+                        <img src="images/showings/communication/profile.svg">
+                        <div class="status_chat"></div>
+                    </div>
+                    <div class="prof_name">
+                        <h3>john doe</h3>
+                    </div>
+                    <div class="social_link_commu">
+                        <ul>
+                            <li><a href=""><img src="images/showings/communication/email.svg"></a></li>
+                            <li><a href=""><img src="images/showings/communication/comment.svg"></a></li>
+                            <li><a href=""><img src="images/showings/communication/phone.svg"></a></li>
+                            <li><a href=""><img src="images/showings/communication/video.svg"></a></li>
+                        </ul>
+                    </div>
+                    <hr/>
+                    <div class="prof_name commtxt">
+                        <h3>Communication</h3>
+                    </div>
+                    <div class="comm_chat_links">
+                        <ul>
+                            <li><a href=""><img src="images/showings/communication/all.svg">all</a></li>
+                            <li><a href=""><img src="images/showings/communication/call.svg">calls</a></li>
+                            <li class="active"><a href=""><img src="images/showings/communication/text.svg">texts</a></li>
+                            <li><a href=""><img src="images/showings/communication/email2.svg">emails</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- profile end -->
+         <!-- message history -->
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-7 col-12">
+                <div class="msg_history">
+                    <div class="datetxt_decrip">
+                        <p>July 24, 2024 </p>
+                    </div>
+
+                    <div class="outgoing_msg">
+                        <div class="sent_msg">
+                          <p>How can we help? We're here for you!</p>
+                          <span class="time_date read_done"> Read 11:00 AM</span>
+                         </div>
+                         <div class="outgoing_msg_img"> 
+                            <img src="images/showings/communication/outcoming_img.svg"> 
+                        </div>
+                    </div>
+
+                    <div class="incoming_msg">
+                        <div class="prof_descripimg">
+                            <div class="incoming_msg_img"> 
+                                <img src="images/showings/communication/incoming_img.svg"> 
+                            </div>
+                            <div class="received_msg">
+                                <div class="received_withd_msg">
+                                    <p>Hey John, I am looking for the best admin template. 
+                                        Could you please help me to find it out?</p>
+                                    <p>How can we help? We're here for you!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="time_date_incoming"> 1:20 PM</span>
+                    </div>
+
+                    <div class="outgoing_msg">
+                        <div class="sent_msg">
+                          <p>Absolutely ! </p>
+                         </div>
+                         <div class="outgoing_msg_img"> 
+                            <img src="images/showings/communication/outcoming_img.svg"> 
+                        </div>
+                    </div>
+ 
+                    <div class="outgoing_msg">
+                        <div class="sent_msg">
+                          <p>How can we help? We're here for you! </p>
+                          <span class="time_date orange_done"> Delivered 10:40 AM </span>
+                         </div>
+                         <div class="outgoing_msg_img"> 
+                            <img src="images/showings/communication/outcoming_img.svg"> 
+                        </div>
+                    </div>
+
+                    <div class="incoming_msg">
+                        <div class="prof_descripimg">
+                            <div class="incoming_msg_img"> 
+                                <img src="images/showings/communication/incoming_img.svg"> 
+                            </div>
+                            <div class="received_msg">
+                                <div class="received_withd_msg">
+                                    <p>Hey John, I am looking for the best admin template. 
+                                        Could you please help me to find it out?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="time_date_incoming">1:20 PM</span>
+                    </div>
+
+                    <div class="type_something">
+                        <div class="input-group">
+                            <div class="input-group-append leftinp_arrw">
+                                <span class="input-group-text attach_btn">
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control type_msg" placeholder="Say Something...">
+                            <div class="input-group-append rightsendbtn">
+                                <span class="input-group-text send_btn">
+                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+         <!-- message history end -->
+          </div>
+  
+
+
+
+
+
+
+    </div>
+    </div>
+    </main>
+    
+    <!-- mobileview menu -->
+     <div class="downarrow">
+      <a href="javascript:void(0);"><img src="images/new_arrow.svg"></a>
+     </div>
+    
+    <div class="container-fluid btmmenu">
+      <div class="flex_menubottom">
+      <div class="dash">
+      <a href="">
+      <img src="images/dashboard.svg">
+      <p>Dashboard</p>
+      </a> 
+      </div>
+      <div class="commu">
+      <a href="">
+      <img src="images/communication.svg">
+      <p>Communication</p>
+      </a>
+      </div>
+      <div class="maint">
+      <a href="">
+      <img src="images/maintenance.svg">
+      <p>Maintenance</p>
+      </a>
+      </div>
+      <div class="rent">
+      <a href="">
+      <img src="images/rentals.svg">
+      <p>Rentals</p>
+      </a>
+      </div>
+      </div>
+      </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--  slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+    </html>

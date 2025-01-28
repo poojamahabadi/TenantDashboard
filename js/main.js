@@ -544,14 +544,49 @@ var img = '<img src="' + imgSource + '"/>';
 $(this).parents('.dropdown').find('#dropdownMenuButton').html(img + '<span> ' +selText+'</span>');
 });
 
+
 // tour schedule
 $(".desktopview_tour .sliderforday_div .slick-slider").slick({
-slidesToShow: 6.3,
-infinite:true,
-arrows: false,
-slidesToScroll: 1,
-autoplay: true,
+slidesToShow: 7.4,
+infinite:false,
+slidesToScroll: 2,
+autoplay: false,
 autoplaySpeed: 2000,
+responsive: [
+{
+breakpoint:1400,
+settings: {
+
+slidesToShow: 7.2,
+}
+},
+{
+breakpoint:1367,
+settings: {
+
+slidesToShow: 6.6,
+}
+},
+{
+breakpoint:960,
+settings: {
+
+slidesToShow: 6.8,
+}
+},
+{
+breakpoint: 641,
+settings: {
+slidesToShow: 2.1,
+}
+},
+{
+breakpoint: 410,
+settings: {
+slidesToShow: 1.7,
+}
+},
+]
 });
 
 $(".schedtour_popup .sliderforday_div .slick-slider").slick({
@@ -565,7 +600,6 @@ responsive: [
 {
 breakpoint:960,
 settings: {
-
 slidesToShow: 6.3,
 }
 },
@@ -583,35 +617,37 @@ slidesToShow: 1.7,
 },
 ]
 });
+
+
 $(".mobileview_tour .sliderforday_div .slick-slider").slick({
-slidesToShow: 6.3,
-infinite:true,
-slidesToScroll: 1,
-autoplay: true,
-arrows: false,
-autoplaySpeed: 2000,
-responsive: [
-{
-breakpoint:960,
-settings: {
-
-slidesToShow: 6.3,
-}
-},
-{
-breakpoint: 641,
-settings: {
-slidesToShow: 2.1,
-}
-},
-{
-breakpoint: 410,
-settings: {
-slidesToShow: 1.7,
-}
-},
-]
-});
+    slidesToShow: 6.3,
+    infinite:true,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 2000,
+    responsive: [
+    {
+    breakpoint:960,
+    settings: {
+    
+    slidesToShow: 6.3,
+    }
+    },
+    {
+    breakpoint: 641,
+    settings: {
+    slidesToShow: 2.1,
+    }
+    },
+    {
+    breakpoint: 410,
+    settings: {
+    slidesToShow: 1.7,
+    }
+    },
+    ]
+    });
 
 // property schedule tabs pop up
 $(document).ready(function () {
@@ -657,28 +693,27 @@ $(".reqdate_btnclick.deskbtnclk").removeClass("margcss");
 // active lease transaction tab
 $(".desktopversion_credit").hide();
 $(document).ready(function() {
-    $(".lease_transtabs").click(function(){
-    if ((screen.width>767)) {
-        $(".desktopversion_credit").show();
-    }
-    }); 
-    $(".lease_infor").click(function(){
-        $(".desktopversion_credit").hide();
-    }); 
+$(".lease_transtabs").click(function(){
+if ((screen.width>767)) {
+$(".desktopversion_credit").show();
+}
+}); 
+$(".lease_infor").click(function(){
+$(".desktopversion_credit").hide();
+}); 
 });
 
 
 // reschedule button
 $(".reschedulenew_div").hide();
 $(document).ready(function() {
-    $(".resche_link a").click(function(){
-        if($(this).hasClass('yellowclr')) {
-            $(this).removeClass('yellowclr');
-        } else {
-            $(this).addClass('yellowclr');
-        }
-        $(".reschedulenew_div").toggle();
-        $(".profsec_div").toggleClass("remv_borderradius");
-    }); 
+$(".resche_link a").click(function(){
+if($(this).hasClass('yellowclr')) {
+$(this).removeClass('yellowclr');
+} else {
+$(this).addClass('yellowclr');
+}
+$(".reschedulenew_div").toggle();
+$(".profsec_div").toggleClass("remv_borderradius");
+}); 
 });
- 

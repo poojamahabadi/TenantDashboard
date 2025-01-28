@@ -32,9 +32,6 @@ font-size: 12px;
 .midsche_toursec {
 width: 51.8%;
 }
-.confr_appt h3 {
-margin: 0 0 2.2em 0;
-}
 .bottomdiv_info {
 margin: 1.3em 0 0em 0;
 }
@@ -398,6 +395,10 @@ padding: 5px 19px;
 .midsche_toursec {
 width: 65%;
 }
+.midsche_toursec .showing_viewdetails .view_detail {
+    padding: 3px 12px 4px 12px;
+    width: 87%;
+}
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
 margin-left: 209px;
 }
@@ -637,11 +638,11 @@ left: -3px;
 .midsche_toursec {
 width: 73.25%;
 }
+.midsche_toursec .showing_viewdetails .view_detail {
+    width: 84%;
+}
 .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
 height: 128px;
-}
-.confr_appt h3 {
-font-size: 16px;
 }
 .schetour_img img {
 height: 130px;
@@ -652,11 +653,8 @@ padding-left:3px;
 .bottomdiv_info.schetour_btm {
 padding: 10px 15px;
 }
-.confr_appt h3 {
-margin: 0 0 2.1em 0;
-}
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-margin-left: 247px;
+    margin-left: 235px;
 }
 /* schedule tour end */
 /* find property */
@@ -869,9 +867,7 @@ font-size: 17px;
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
 margin-left: 234px;
 }
-.confr_appt h3 {
-margin: 0 0 2.3em 0;
-}
+
 /* end of schedule tour */
 /* showing confirmed block */
 .shw_divbody img {
@@ -1222,6 +1218,9 @@ margin-left: 212px;
 .midsche_toursec {
 width: 82.8%;
 }
+.toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
+    width: 49%;
+}
 .bgclr_divaddr_btn .map_streetshowings h3 {
     font-size: 14px;
 }
@@ -1231,24 +1230,11 @@ width: 82.8%;
 .seldateboxsche_prop .select-box1 {
     width: 22%;
 }
-.confr_appt h3 {
-font-size: 15px;
-line-height: 18px;
-}
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
 margin-left: 216px;
 }
-.confr_appt h3 {
-margin: 0 0 2.75em 0;
-}
 .midsche_toursec .showing_viewdetails .view_detail {
 padding: 6px 12px 7px 12px;
-}
-.midsectour_sche .timelabel span img, .midsectour_sche .datelabel span img {
-height: 14px;
-}
-.midsche_toursec .timelabel span, .midsche_toursec .datelabel span {
-font-size: 13px;
 }
 /* end of schedule tour */
 /* showing confirmed block */
@@ -1302,6 +1288,9 @@ max-width: 80%;
 }
 #catgory-sliderbath .swiper-slide, #catgory-sliderbed .swiper-slide {
 width: 50px !important;
+}
+.signin_popupreservenow .beforesignin p {
+    width: 82%;
 }
 /* end of find property */
 
@@ -1601,6 +1590,9 @@ font-size: 15px;
 /* schedule tour */
 .midsche_toursec {
 width: 87.6%;
+}
+.toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
+    width: 52%;
 }
 .seldateboxsche_prop .select-box1 {
     width: 23%;
@@ -2089,6 +2081,12 @@ right: -5px;
 .midsche_toursec {
 width: 92.2%;
 }
+.toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
+    width: 55%;
+}
+.schetour_btm .showing_viewdetails .btn.view_detail i {
+    vertical-align: sub;
+}
 .bgclr_divaddr_btn .map_streetshowings h3 {
     font-size: 13px;
 }
@@ -2099,7 +2097,7 @@ width: 92.2%;
     width: 25%;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-margin-left: 197px;
+    margin-left: 188px;
 }
 /* end of schedule tour */
 /* give notice */
@@ -2561,6 +2559,12 @@ right: -15px;
 .midsche_toursec {
 width: 95.4%;
 }
+.similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
+    margin-left: 192px;
+}
+.schetour_btm .showing_viewdetails .btn.view_detail i {
+    vertical-align: middle;
+}
 .seldateboxsche_prop .select-box {
     width: 47%;
 }
@@ -2977,14 +2981,14 @@ margin: 10px 0 0 0;
 .confr_appt p {
 line-height: 16px;
 }
+.midsche_toursec .showing_viewdetails .view_detail {
+    width: 87%;
+}
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
 margin-left: 187px;
 }
 .schetour_img img {
 height: 126px;
-}
-.confr_appt h3 {
-margin: 0 0 2.6em 0;
 }
 /* end of schedule tour */
 /* give notice */
@@ -3374,9 +3378,6 @@ height: 236px;
 .ratingstar_count i {
 font-size: 12px;
 }
-.slidelocation_div .txt_loc {
-font-size: 1em;
-}
 .slidelocation_div {
 margin: 10px 0 0 0;
 }
@@ -3520,6 +3521,15 @@ padding: 4px 22px 4px 12px;
 .midsche_toursec {
 width: 100%;
 }
+.confr_appt h2 {
+    margin: 2em 0 1.3em 0;
+}
+.midsche_toursec .showing_viewdetails .view_detail {
+    width: auto;
+}
+.schetour_btm .showing_viewdetails .btn.view_detail i {
+    vertical-align: bottom;
+}
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
 margin-left: 151px;
 }
@@ -3532,22 +3542,11 @@ margin: 0 25px 0 2px;
 .schetour_img img {
 height: 118px;
 }
-.confr_appt h3 {
-margin: 0 0 2.9em 0;
-}
-.confr_appt p {
-font-size: 12px;
-}
-.confr_appt h3 {
-font-size: 13px;
-line-height: 16px;
-}
 .rightsche_tourcss{
 padding: 0px 8px;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
 padding: 6px 8px 7px 10px;
-font-size: 11px;
 }
 .schetour_btm .showing_details p {
 line-height: 15px;
@@ -4539,7 +4538,7 @@ width: 76%;
 height: 105px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-margin-left: 60px;
+    margin-left: 66px;
 }
 .bottomdiv_info.schetour_btm {
 padding: 7px 7px;
@@ -4549,12 +4548,6 @@ margin: 1.7em 0 0 0;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
 padding: 3px 7px 5px 9px;
-font-size: 11px;
-}
-.confr_appt h3 {
-font-size: 12px;
-line-height: 15px;
-margin: 0 0 2.3em 0;
 }
 .toursche_slidiv .slidelocation_div .txt_loc {
 font-size: 14px;
@@ -4570,9 +4563,6 @@ margin: 0 0 9px 0;
 }
 .midsectour_sche .bottomdiv_info {
 margin: 0.1em 0 0em 0;
-}
-.confr_appt h3 {
-margin: 0 0 2.4em 0;
 }
 /* schedule tour */
 /* give notice */
@@ -4857,8 +4847,15 @@ width: 57%;
 background-color:unset;
 }
 
-
-
+/* communication */
+.leftbarcommu_desk {
+    height: auto;
+    height: 100%;
+    border-radius: 40px;
+}
+.bottomlink_calls{
+    display: none;
+}
 /* payment deposit */
 .bankdetailsdescript_txt,.viewbankdetails_btn {
     flex: 100%;
@@ -4923,14 +4920,24 @@ width: 55%;
 }
 /* end of showing confirmed and reschedule pop up */
 /* schedule tour */
+.confr_appt h2 {
+    margin: 0 0 1em 0;
+}
+.similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
+    height: 128px;
+}
+.schetour_img img {
+    height: 79px;
+}
+.midsche_toursec .showing_viewdetails .view_detail {
+    padding: 4px 7px 5px 9px;
+    width: auto;
+}
 .bottomdiv_info.schetour_btm.desktpschedutour_view{
 display:none;
 }
-.confr_appt h3 {
-margin: 0 0 6px 0;
-text-align: center;
-font-size: 14px;
-line-height: 15px;
+.toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
+    width: 60%;
 }
 .rightsche_tourcss {
 padding: 0px 15px 0 30px;
@@ -4942,12 +4949,9 @@ background-color: #DEE7F2;
 .leftsche_tourcss {
 padding-left: 0;
 }
-.confr_appt p {
-text-align: center;
-}
-.confr_appt{
-width: 72%;
-margin: 15px auto;
+.confr_appt {
+    width: 72%;
+    margin: 23px auto 16px auto;
 }
 .bottomdiv_info.schetour_btm.mobileschedutour_view {
 display: flex;
@@ -6382,8 +6386,11 @@ width: 74%;
 .confr_appt {
 width: 90%;
 }
+.toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
+    width: 98%;
+}
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-margin-left: 172px;
+    margin-left: 163px;
 }
 .similar_unitsdiv.toursche_slidiv .rat_tot_count p.count_rst span:nth-child(2) {
 font-size: 0.7em;
@@ -6410,7 +6417,6 @@ font-size: 16px;
 }
 .midsche_toursec .showing_viewdetails .view_detail {
 padding: 3px 14px 5px 23px;
-font-size: 12px;
 }
 .midsche_toursec .reschedule_divp {
 padding: 10px 0 11px 0;
@@ -7411,11 +7417,19 @@ height: 79px;
 .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
 height: 150px;
 }
+.midsche_toursec .showing_viewdetails .btn.view_detail {
+font-size: 10px;
+padding: 3px 13px 5px 17px;
+}
+
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-margin-left: 155px;
+    margin-left: 149px;
 }
 .toursche_slidiv h3 {
 margin: 0 0 0 9px;
+}
+.schetour_btm .showing_viewdetails .btn.view_detail i {
+    vertical-align: bottom;
 }
 .midsche_toursec .reschedule_divp {
 padding: 11px 0 12px 0;
@@ -8647,6 +8661,11 @@ width: 100%;
 height: 149px;
 }
 /* end of price range */
+/* schedule tour */
+.schetour_btm .showing_viewdetails .btn.view_detail i {
+    vertical-align: text-bottom;
+}
+/* end of schedule tour */
 /* showings calender view */
 .calenderview_div {
 top: 214px;
@@ -11348,9 +11367,7 @@ font-size: 12px;
 .input_reschedule input.form-control {
 font-size: 12px;
 }
-.showing_viewdetails .btn.view_detail {
-font-size: 12px;
-}
+
 .confrm_div p {
 font-size: 13px;
 }
@@ -11736,8 +11753,8 @@ width: 100%;
 .rightsche_tourcss {
 padding: 0px 0px 0 25px;
 }
-.simisched_tour .rat_tot_count p.count_rst span.amtrate {
-font-size: 14px;
+.similar_unitsdiv.toursche_slidiv .leasedslider .unverifi_divtxt img {
+    height: 20px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
 margin-left: 27px;
@@ -13921,10 +13938,6 @@ padding: 3px 12px 5px 13px;
 .schetour_btm .showing_details p {
 font-size: 11px;
 }
-.confr_appt p {
-font-size: 11px;
-line-height: 13px;
-}
 .leftsche_tourcss {
 padding-left: 11px;
 }
@@ -15278,9 +15291,6 @@ width: 100%;
 .leftsche_tourcss {
 padding-left: 8px;
 }
-.confr_appt p {
-line-height: 14px;
-}
 .showing_sched_tour h3 img {
 height: 17px;
 }
@@ -15309,9 +15319,6 @@ align-items: flex-start;
 .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
 height: 128px;
 }
-.confr_appt p {
-font-size: 11px;
-}
 .similar_unitsdiv.toursche_slidiv .propred_clr {
 margin: 0 96px 0 2px;
 }
@@ -15332,8 +15339,6 @@ font-size: 11px;
 .confr_appt h3 {
 font-size: 12px;
 line-height: 14px;
-}
-.confr_appt h3 {
 margin: 0 0 12px 0;
 }
 .midsectour_sche .timelabel span img, .midsectour_sche .datelabel span img {

@@ -3124,9 +3124,10 @@ color: #ffffff;
 font-size: 13px;
 border:unset;
 }
-.showing_viewdetails .btn.view_detail i{
-vertical-align: text-bottom;
-padding-left: 2px;
+.schetour_btm .showing_viewdetails .btn.view_detail i{
+    vertical-align: bottom;
+    padding-left: 2px;
+    font-weight: 600;
 }
 .btn.confirmbtn {
 background: #9BB997;
@@ -4513,6 +4514,9 @@ margin: 16px 0;
 background-color: #315D80;
 color: #FFFFFF;
 }
+.unit_newlist_lease ul.nav.nav-tabs li a.active span{
+color:#ffffff;
+}
 .unit_newlist_lease ul.nav.nav-tabs li{
 width: 33.33%;
 }
@@ -4525,6 +4529,7 @@ text-align: center;
 text-transform: capitalize;
 color: #315D80;
 border-radius: 25.6499px;  
+border:unset;
 }
 .unit_newlist_lease ul.nav.nav-tabs li a span{
 color:#F2727F;
@@ -6360,6 +6365,9 @@ display: block;
 margin: 0 0 9px 0;
 position: relative;
 }
+.comm_chat_links ul li.active a{
+background: #9BB997;
+}
 .comm_chat_links ul li a img{
 position: absolute;
 left: 19px;
@@ -6494,6 +6502,436 @@ margin-left: 13px;
 }
 /* end of communication */
 
+/* communication calls */
+.contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contact-list .contact:not(:last-child) {
+    margin-bottom: 7px;
+}
+.contact-list .contact a {
+    text-decoration: none;
+}
+.contact-list .contact .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 20px 4px 8px;
+}
+.contact-list .contact .avatar-holder .named-avatar.green img{
+    border:2px solid #9BB997; 
+}
+.contact-list .contact .avatar-holder .named-avatar.yellow img{
+    border:2px solid #F1D15B; 
+}
+.contact-list .contact .avatar-holder .named-avatar img {
+    width: 40px;
+    height: 40px;
+border:2px solid #9d9d9d;
+box-shadow: inset 4px 5px 5px rgba(57, 124, 238, 0.06);
+border-radius: 40px;
+}
+.alpha_contact p{
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #92A3B4;
+    margin: 12px 0 0 0;
+}
+.salescommuni_div ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+.popupsales.bottomcommu_details ul {
+    padding: 8px 0 8px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.salescommuni_div{
+    padding: 0 0 3em 0;
+}
+.salescommuni_div ul.main_sec > li.active{
+    border-bottom: 1px solid transparent;
+    padding: 0;
+}
+.salescommuni_div ul.main_sec > li{
+    margin: 9px 0;
+    border-bottom: 1px solid rgba(191, 204, 217, 1);
+    padding: 8px 10px 15px 23px;
+}
+.salescommuni_div li .topsec_salesdiv{
+    background-color: unset;
+    border-radius: 12px;
+}
+.salescommuni_div.custcommu_div li.active .topsec_salesdiv{
+    background: #EDF2FA;
+    border-radius: 12px;
+    padding: 16px 10px 15px 23px;
+}
+.salescommuni_div li.active .topsec_salesdiv{
+    background: #EDF2FA;
+    border-radius: 12px 12px 0px 0px;
+    padding: 13px 10px 13px 23px;
+}
+.contact.borderradius_add{
+    border-radius: 27px;
+}
+.bottomcommu_details{
+    display: none;
+}
+.salescommuni_div ul li.active .popupsales.bottomcommu_details{
+    display: block;
+    border-radius: 0 0 12px 12px;
+}
+.salescommuni_div ul li .popupsales.bottomcommu_details{
+    display: none;
+}
+.bottomcommu_details.btmcontact,.popupsales.bottomcommu_details.btmcontact{
+    display:block;
+}
+.bottomcommu_details{
+    background: #92A3B4;
+    border-radius: 0 0 27px 27px;
+}
+.bottomcommu_details ul{
+    list-style-type: none;
+    padding: 3px 0 9px 0;
+    width: 94%;
+    margin: 0 auto;
+}
+.bottomcommu_details ul li a{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    display: block;
+}
+.bottomcommu_details ul li a img{
+    width: 20px;
+    height: 18px;
+    margin: 0 5px 0 0px;
+    vertical-align: top;
+}
+.bottomcommu_details ul li{
+background-color: unset;
+}
+.allcommuni_tabs .container{
+    max-width: 100%;
+}
+ul.mobview_commu_tabs li a.nav-link.active{
+background: #315D80;
+border-radius: 36px;
+color:#ffffff;
+}
+.timecomm_txt{
+font-weight: 400;
+font-size: 12px;
+line-height:19px;
+color: #92A3B4;
+margin-right: 7px;
+}
+.sal_custserv a{
+    background: #DEE7F2;
+    box-shadow: 3.20624px 3.84749px 3.20624px -0.641248px rgba(137, 174, 234, 0.04), inset 2.56499px 2.56499px 8.97747px rgba(57, 124, 238, 0.12);
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 8px 10px;
+color: #315D80;
+}
+.sal_custserv a img{
+    margin-right: 5px;
+}
+.sal_custserv{
+    text-align: center;
+    margin: 3px 0 9px 0;
+}
+.salescommuni_div li.active .topsec_salesdiv a{
+    color: #315D80;
+}
+.topsec_salesdiv a {
+font-weight: 700;
+font-size: 16px;
+line-height:26px;
+text-transform: capitalize;
+color:#63829E;
+}
+.salesmod_popup .modal-header img,.customerservice_popup .modal-header img{
+    width: 22px;
+    height: 28px;
+    margin: 0 7px 0 0px;
+}
+.salesmod_popup .modal-header,.customerservice_popup .modal-header{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    padding: 17px 0 8px 0;
+    vertical-align: top;
+    border: unset;
+}
+.salesmod_popup .modal-header h4,.customerservice_popup .modal-header h4{
+font-family: 'Helvetica';
+font-weight: 700;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+text-transform: capitalize;
+color: #315D80;
+}
+.modal.salesmod_popup .modal-dialog,.modal.customerservice_popup .modal-dialog{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.modal.salesmod_popup .modal-body,.customerservice_popup .modal-body{
+    padding: 10px;
+}
+.salesmod_popup .modal-header .close,.customerservice_popup .modal-header .close{
+    position: absolute;
+    right: 13px;
+    width: 30px;
+    height: 44px;
+    background: rgba(55, 105, 144, 0.2);
+    border-radius: 42px;
+    top: 11px;
+    margin: 0px 0 0 0;
+    padding: 8px 8.5px 10px 8.5px;
+    opacity: 1;
+    text-shadow: unset;
+    font-size: 19px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.salescommuni_div li a img{
+    height: 20px;
+    width: 20px;
+    margin: 0 15px 0 0;
+    vertical-align: sub;
+}
+.salesmod_popup .modal-content,.customerservice_popup .modal-content{
+background: rgba(201, 215, 229, 0.9);
+border-radius: 17px;
+border:unset;
+}
+.salescommuni_div ul.main_sec li:last-child {
+    border-bottom: none;
+    }
+.salescommuni_div li.active a.adver img{
+    content: url('../images/showings/communication/adver_imgactive.svg');
+}
+.salescommuni_div li.active a.adver_prop img{
+    content: url('../images/showings/communication/rentprop_imgactive.svg');
+}
+.salescommuni_div li.active a.reqfin img{
+    content: url('../images/showings/communication/reqfinan_imgactive.svg');
+}
+.c-search.srch_communu {
+    width: 81%;
+    background: #F8FAFF;
+    border-radius: 40px;
+    margin: 0px 31px 7px auto;
+}
+.c-search.srch_communu .c-search__input.form-control::-webkit-input-placeholder {
+    color: rgba(55, 105, 144, 0.5);
+    }
+    .c-search.srch_communu .c-search__input.form-control::-moz-placeholder {
+        color: rgba(55, 105, 144, 0.5);
+    }
+    .c-search.srch_communu .c-search__input.form-control:-ms-input-placeholder {
+        color: rgba(55, 105, 144, 0.5);
+    }
+    .c-search.srch_communu .c-search__input.form-control:-moz-placeholder {
+        color: rgba(55, 105, 144, 0.5);
+    }
+    .c-search.srch_communu .c-search__input.form-control{
+background: #F8FAFF;
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-transform: capitalize;
+color: rgba(55, 105, 144);
+box-shadow: unset;
+height: 35px;
+}
+ul.mobview_commu_tabs{
+    justify-content: space-between;
+    border: unset;
+    margin: 0 0 1em 0;
+}
+.searchicbtn{
+border-right: 1px solid #EEF4FF;
+}
+ul.mobview_commu_tabs li a.nav-link{
+font-weight: 700;
+font-size: 14px;
+line-height:22px;
+text-align: center;
+text-transform: capitalize;
+color: #92A3B4;
+border: unset;
+margin: 0;
+padding: 1px 18px 4px 18px;
+position: relative;
+}
+.container.support_container,.container.reqt_container,.all_container,.mycont_container{
+    padding:0;
+}
+.pl_pr_css{
+    padding: 0 10px;
+}
+.accpt_rejectdiv img{
+    width:20px;
+    height:20px;
+}
+ul.mobview_commu_tabs li a.nav-link .req_count{
+    background: #92A3B4;
+    border: 2px solid #FFFFFF;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    border-radius: 40px;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    top: -5px;
+    right: -1px;
+}
+.contact-list .contact .avatar-holder{
+    display: flex;
+}
+.contact-list li{
+    background: #EDF2FA;
+    border-radius: 36px;
+    padding: 6px 0px 0px 0px;
+}
+.contact-list .contact .email {
+    font-size: 10px;
+    color: gray;
+}
+.contact-list .contact p {
+    margin: 0;
+}
+.contact-list .contact .name {
+font-weight: 400;
+font-size: 16px;
+line-height:21px;
+text-transform: capitalize;
+color: #315D80;
+}
+.contact-list .contact .personinfo{
+font-family: 'Helvetica';
+font-weight: 400;
+font-size: 14px;
+line-height:22px;
+text-transform: capitalize;
+color: #92A3B4;
+}
+
+/* communications desktop */
+.prof_persondetails .profimg_dets {
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.prof_persondetails .status_chat{
+    background-color: #9d9d9d;
+}
+.prof_persondetails .status_chat.greenprof_comm{
+    background-color: #9BB997;
+}
+.prof_persondetails{
+    display: none;
+    margin: 2.4em 0 0 0;
+}
+.prof_persondetails.active  {
+    display: block; /* Show details when person is active */
+  }
+.prof_persondetails .status_chat.yellowprof_comm{
+    background-color: #F1D15B;
+}
+.profimg_dets > img {
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: -35px auto 0 auto;
+    background: #EDF2FA;
+    box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.1), inset 4px 5px 5px rgba(57, 124, 238, 0.12);
+    border-radius: 50px;
+    border: 3px solid #3E6B8E;
+}
+.leftbarcommu_desk{
+    background: #EDF2FA;
+    border-radius: 17px 17px 0 0;
+    padding: 20px 14px 8px 14px;
+    height:100vh;
+    position: relative;
+}
+.leftbarcommu_desk .c-search.srch_communu{
+width: 89%;
+margin: 0px 21px 7px auto;
+}
+.leftbarcommu_desk .contact-list li{
+background: #F8FAFF;
+}
+.bottomlink_calls{
+    border-top: 1px solid rgba(49, 93, 128, 0.1);
+    width: 100%;
+    padding: 20px 14px 15px 14px;
+    background: #EDF2FA;
+    border-radius:0 0 17px 17px;
+}
+.bottomlink_calls ul{
+    padding: 0;
+    margin: 0px 0 7px 0;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.bottomlink_calls ul li.active a{
+    background: #92A3B4;
+    color: #F8FAFF;
+}
+.bottomlink_calls ul li{
+    width: 23%;
+}
+.bottomlink_calls ul li a img{
+    width: 31px;
+    height: 25px;
+}
+.bottomlink_calls ul li a p{
+    margin:0 0 5px 0;
+}
+.bottomlink_calls ul li a{
+    border-radius: 17px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    padding: 14px 10px 5px 10px;
+color: #92A3B4;
+}
+/* end of communication desktop */
+
+/* end of communication calls */
 
 /* showing step 1  */
 .step_sharebg{  
@@ -7532,26 +7970,7 @@ position: absolute;
 right: 4px;
 top: 4px;
 }
-.search_ip_prop .input-group input.form-control::-webkit-input-placeholder {
-/* Chrome/Opera/Safari */
-color: #6388A5;
-font-size: 14px;
-}
-.search_ip_prop .input-group input.form-control::-moz-placeholder {
-/* Firefox 19+ */
-color: #6388A5;
-font-size: 14px;
-}
-.search_ip_prop .input-group input.form-control:-ms-input-placeholder {
-/* IE 10+ */
-color: #6388A5;
-font-size: 14px;
-}
-.search_ip_prop .input-group input.form-control:-moz-placeholder {
-/* Firefox 18- */
-color: #6388A5;
-font-size: 14px;
-}
+
 .search_ip_prop{
 width: 85.3%;
 margin: 0 0 0 auto;
@@ -9079,9 +9498,11 @@ align-items: baseline;
 }
 .btn.declbtn{
 background: #F2727F;
+margin: 0 10px 0 0px;
 }
 .btn.confrbtntw{
 background: #9BB997;
+margin: 0 0px 0 10px;
 }
 .my_info .tenantaccord span.income-index1{
 display: none;
@@ -9404,6 +9825,16 @@ vertical-align: text-bottom;
 .schedtour_popup .sche_tour .switch-field{
 background-color:#ffffff;
 box-shadow: unset;
+}
+.toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
+    margin: 0 auto 6px auto;
+    width: 44%;
+}
+.toursche_slidiv .leaseddetails_slider .car_details,.toursche_slidiv .leaseddetails_slider .shower_details,
+.toursche_slidiv .leaseddetails_slider .bed_details{
+background: rgba(237, 242, 250, 0.7);
+box-shadow: inset 3.28684px 4.10855px 4.10855px rgba(57, 124, 238, 0.12);
+border-radius: 6px;
 }
 /* end of schedule tour pop up */
 
@@ -9732,8 +10163,8 @@ padding: 11px 0;
 .midsche_toursec .reschedule_divp p{
 font-family: 'Helvetica';
 font-weight: 700;
-font-size: 13px;
-line-height: 12px;
+font-size: 12px;
+line-height: 10px;
 text-align: center;
 text-transform: capitalize;
 color: #839FB7;
@@ -9746,6 +10177,7 @@ border-radius: 14px;
 }
 .bottomdiv_info.schetour_btm{
 display: flex;
+align-items: center;
 }
 .schetour_btm .showing_details{
 flex-basis: 64%;
@@ -9754,32 +10186,27 @@ flex-basis: 64%;
 flex-basis: 35%;
 }
 .midsche_toursec .showing_viewdetails .view_detail{
-font-weight: 700;
-font-size: 12px;
-height: 32px;
-padding: 3px 12px 5px 12px;
+    font-weight: 700;
+    font-size: 10px;
+    height: 32px;
+    padding: 3px 12px 5px 12px;
+    width: 85%;
+    text-transform: capitalize;
 }
 .midsectour_sche .timelabel span img,.midsectour_sche .datelabel span img {
 height: 16px;
 }
 .midsectour_sche .showtime {
-margin: 7px 0 4px 0;
+    margin: 7px 0 7px 0;
 }
+
 .confr_appt h3{
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 17px;
-line-height: 21px;
-color: #F2727F;
-margin: 0 0 1.8em 0;
-}
-.confr_appt p{
-font-family: 'Helvetica';
-font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-color: #315D80;
-margin:0;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #F2727F;
+    text-align: center;
 }
 .midsectour_sche .timeinfo span,.midsectour_sche .dateinfo span{
 font-weight: 400;
@@ -9787,8 +10214,25 @@ font-size: 12px;
 line-height:20px;
 color: #315D80;
 }
+.confr_appt h2{
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #315D80;
+    margin: 2em 0 3em 0;
+}
+.grn_prequal{
+color: #9BB997;
+text-transform: capitalize;
+}
+.confr_appt h2 a{
+    color: #315D80;
+    text-decoration: underline; 
+}
 .confr_appt {
-margin: 8px 0 0 0;
+    margin: 25px 0 0 0;
 }
 .showing_sched_tour h3{
 font-family: 'Helvetica';
@@ -9821,6 +10265,7 @@ display: none;
 }
 .similar_unitsdiv .simisched_tour .leasedslider {
 margin: 11px 0px 0 8px;
+box-shadow: 0px 9.86051px 5.75197px #F8F8F8, 0px -2.46513px 9.86051px rgba(133, 178, 255, 0.31), inset 0px 3.28684px 3.28684px 1.64342px rgba(189, 215, 255, 0.3);
 }
 .midschetour_cssalign{
 align-items: center;
@@ -9840,35 +10285,7 @@ font-size: 14px;
 .simisched_tour .rat_tot_count p.count_rst span {
 font-size: 12px;
 }
-.toursche_slidiv h3{
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 22px;
-line-height: 35px;
-text-transform: capitalize;
-color: #315D80;
-margin: 0 0 0 7px;
-}
-.btn.btnviewbtnall{
-padding: 2px 0 0 0;
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 12px;
-line-height: 14px;
-text-align: center;
-text-transform: capitalize;
-color: #315D80;
-border: unset;
-margin: 0px 43px 0 7px;
-}
-.propred_clr{
-color:#F2727F;
-margin: 0 25px 0 7px;
-}
 .content-wrapper .container-fluid.sm_propty {
-width: 98%;
-overflow-x: hidden;
-margin: 0 0px 30px auto;
 padding: 0 0 15px 0;
 }
 .timetab_div .s-hidden {
@@ -10000,6 +10417,8 @@ vertical-align: middle;
     text-align: center;
     margin: 23px 0 17px 0;
 }
+.toursche_slidiv .tab-content>.tab-pane{ display: block; height: 0px; overflow: hidden; }
+.toursche_slidiv .tab-content>.active{ height: auto;}
 /* end of schedule tour page design */
 
 
