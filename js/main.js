@@ -1,9 +1,10 @@
 function openNav() {
-document.getElementById("mySidenav").style.width = "270px";
+    document.getElementById("mySidenav").style.left = "0";
 }
 
 function closeNav() {
-document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.left = "-100%";
+    document.getElementById("mySidenav").style.width = "270px";
 }
 
 $(".display_accord").hide();
@@ -89,34 +90,92 @@ $(".clickhide").show();
 });
 
 
-$(document).ready(function(){
-$('.showingssec_infodiv.pendingslider').slick({
-slidesToShow: 1.1,
-slidesToScroll: 1,
-arrows: true,
-centerMode: false,
-dots: false,
-speed: 300,
-infinite: false,
-autoplaySpeed: 5000,
-autoplay: false,
-responsive: [
-{
-breakpoint: 1920,
-settings: {
-slidesToShow: 1.1,
-}
-},
-{
-breakpoint: 540,
-settings: {
-slidesToScroll: 1,
-slidesToShow:1,
-}
-}
-]
+// $(document).ready(function(){
+// $('.showingssec_infodiv.pendingslider').slick({
+// slidesToShow: 1.1,
+// slidesToScroll: 1,
+// arrows: true,
+// centerMode: false,
+// dots: false,
+// speed: 300,
+// infinite: false,
+// autoplaySpeed: 5000,
+// autoplay: false,
+// responsive: [
+// {
+// breakpoint: 1920,
+// settings: {
+// slidesToShow: 1.1,
+// }
+// },
+// {
+// breakpoint: 540,
+// settings: {
+// slidesToScroll: 1,
+// slidesToShow:1,
+// }
+// }
+// ]
+// });
+// });
+
+
+$(document).ready(function() {
+    // Initialize Slick for larger screens
+    function pendSlick() {
+        if ($(window).width() > 484) {
+            if (!$('.showingssec_infodiv.pendingslider').hasClass('slick-initialized')) {
+                $('.showingssec_infodiv.pendingslider').slick({
+                        slidesToShow: 1.3,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        centerMode: false,
+                        dots: false,
+                        speed: 300,
+                        infinite: false,
+                        autoplaySpeed: 5000,
+                        autoplay: false,
+                        responsive: [
+                                // {
+                                //         breakpoint: 1920,
+                                //         settings: {
+                                //                 slidesToShow: 1.4,
+                                //         }
+                                // },
+                                {
+                                        breakpoint: 1366,
+                                        settings: {
+                                                slidesToScroll: 1.3,
+                                                // slidesToShow: 1.2,
+                                        }
+                                },
+                                {
+                                        breakpoint: 1140,
+                                        settings: {
+                                                slidesToScroll: 1,
+                                                slidesToShow: 1,
+                                        }
+                                }
+                        ]
+                });
+            }
+        } else {
+            // Destroy Slick on smaller screens and display cards vertically
+            if ($('.showingssec_infodiv.pendingslider').hasClass('slick-initialized')) {
+                $('.showingssec_infodiv.pendingslider').slick('unslick');
+            }
+        }
+    }
+
+    // Call the function on load
+    pendSlick();
+
+    // Reinitialize Slick when window is resized
+    $(window).resize(function() {
+        pendSlick();
+    });
 });
-});
+
 
 $(document).ready(function(){
 $('.showingssec_infodiv.scheduleslider').slick({
@@ -250,12 +309,12 @@ $(".invite_sliderslick .next-btn").removeClass("slick-disabled");
 });
 
 // reschedule button click
-$(".popup_reschedule_btn").hide();
-$(document).ready(function() {
-$(".resch_clk").click(function(){
-$(".popup_reschedule_btn").slideToggle();
-}); 
-});
+// $(".popup_reschedule_btn").hide();
+// $(document).ready(function() {
+// $(".resch_clk").click(function(){
+// $(".popup_reschedule_btn").slideToggle();
+// }); 
+// });
 
 // reschedule button click my appointment offer to lease
 $(".popup_reschedule_btnofferlease").hide();
