@@ -1046,13 +1046,14 @@ vertical-align: baseline;
 }
 .refresh_a img {
 height: 16px;
+width: 23px;
 margin: 0 5px 0 6px;
 vertical-align: sub;
 }
 .refresh_a {
 color: #315d80;
 text-transform: capitalize;
-font-size: 0.75em;
+font-size: 10px;
 margin: 0px 6px 0 0;
 }
 .dots_a {
@@ -1103,9 +1104,14 @@ height: 96%;
 border-radius: 40px;
 margin: 0px 9px 0 0;
 }
+.name_addr p{
+    font-size: 12px;
+}
+.clocktime span, .datetime span{
+    font-size: 10px;
+}
 .name_addr p, .clocktime span, .datetime span {
 text-transform: capitalize;
-font-size: 12px;
 vertical-align: bottom;
 margin: 0;
 }
@@ -1126,15 +1132,16 @@ text-align: center;
 color: rgba(49, 93, 128, 0.52);
 }
 .myinfotabs .btn.commn {
-text-transform: capitalize;
-border-radius: 14px;
-color: #fff;
-padding: 7px 5px;
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 11px;
-border:unset;
-width: 104px;
+    text-transform: capitalize;
+    border-radius: 14px;
+    color: #fff;
+    padding: 3px 5px;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 12px;
+    border: unset;
+    width: 101px;
+    height: 30px;
 }
 .flexdiv_myinfo .addr {
 color: #315d80;
@@ -1147,6 +1154,8 @@ margin: 0;
 }
 .clocktime span img, .datetime span img {
 vertical-align: text-top;
+height:12px;
+width:12px;
 }
 .myinfotabs .btn.commn img {
 height: 11px;
@@ -1173,7 +1182,7 @@ font-size: 12px;
 text-align: center;
 text-transform: capitalize;
 color: #315d80;
-margin: 1px 0 2px 18px;
+margin: 1px 0 1px 27px;
 }
 .myinfotabs .container {
 padding: 0;
@@ -1224,16 +1233,19 @@ width: 25%;
 }
 .mainte_tabs {
 padding: 1em 0 0 0;
-border-top: 1px solid #bdcedf;
 margin: 10px 0 0 0;
 }
 .mainte_tabs .nav-tabs .nav-item .nav-link {
 text-align: center;
 color: #315d80;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
 }
 .maintenance .myinfo_txt img {
-height: 29px;
-vertical-align: top;
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
 }
 .infopad {
 padding: 0 10px;
@@ -2279,20 +2291,158 @@ padding: 2px 15px;
 margin: 0 0 0 -14px;
 }
 /* maintenance page */
+.maintenance_upcomingevents .weknamediv.active .wekdate{
+    font-size: 14px;
+}
+.maint_pagediv .myinfotabs .btn.commn.high{
+    background-color:#F2727F;
+}
+.my_info.maintenancepage .myinfo_txt img{
+    height: 26px;
+    width: 26px;
+    vertical-align: bottom;
+}
+.maint_pagediv .details_block,.maint_pagediv .details_block.myinfodiv_sec{
+    height: auto;
+    padding: 6px 20px 4px 20px;
+}
+.maint_pagediv .flexdiv_myinfo .name_addr p.nm{
+    line-height: 16px;
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+.maint_pagediv .linediv:before{
+    width: 7px;
+    height: 37px;
+}
+.maint_pagediv .linediv.redclr:before{
+    background-color: #F2727F;
+}
+.maint_pagediv .flexdiv_myinfo .flexdiv_myinfo p.addr{
+    font-size: 12px;
+    line-height: 13px;
+}
+.maintenance_div .acc_infotxt {
+    margin: 0px 0px 0 55px;
+    text-align: left;
+}
+.maintenance_div .prof_imgstatus{
+    position:relative
+}
+.maintenance_div .profile_infotxt {
+    margin: 0px 0 0 32px;
+}
+.maintenance_div .profimg_div {
+    margin: -83px 0 0 27px;
+    width: 100%;
+    position:unset;
+}
+.maintenance_div .profimg_div img {
+    height: 146px;
+    width: 146px;
+}
+.belowpart_tenant.maintenance_div {
+    padding: 23px 0 28px 0;
+}
+.maintenance_div .account_no{
+    justify-content: left;
+}
 .maintenancepage .c-search.menusearch {
-width: 54%;
-margin: 0 16px 0 auto;
+    width: 49%;
+    margin: 0 16px 0 auto;
 }
 .maintenancepage .c-search.menusearch .c-search__input {
 background: rgba(55, 105, 144, 0.2);
-box-shadow: inset 4px 5px 5px rgba(57, 124, 238, 0.12);
 border-radius: 36px;
-height: 44px;
+height: 46px;
 font-family: 'Helvetica';
 font-weight: 700;
 font-size: 15px;
 text-transform: capitalize;
 color: #315d80;
+box-shadow: unset;
+}
+.slick_req_service .slide-content img{
+    height: 62px;
+    width: 62px;
+    margin: 0 auto;
+}
+.slick_req_service{
+background: #DEE7F2;
+border-radius: 20px;
+padding: 12px 0 0 0px;
+margin: 0 13px 0 0px;
+}
+.calenderview_div.maintenance_upcomingevents .calendercard_show {
+    margin: 0 0 6px 0;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv{
+    margin:0;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 79%;
+    margin: 0 0 0 auto;
+}
+.calenderview_div.maintenance_upcomingevents{
+    position:unset;
+    width: 100%;
+    margin:0;
+}
+.rqservice_blocksslider{
+    padding: 0 0px 15px 15px;
+}
+.rqservice_blocksslider .slick-slider{
+    margin:0;
+}
+.req_service .my_info.maintenancepage{
+    padding:0;
+    margin: 0 0 16px 0;
+}
+.maintenance_upcomingevents .date_heading h3{
+    font-size: 14px;
+    line-height: 16px;
+}
+.maintenance_upcomingevents .select-box .label,.maintenance_upcomingevents .select-box1 .label{
+    font-size: 12px;
+    height: 28px;
+    line-height: 17px;
+}
+.maintenance_upcomingevents .select-box {
+    width: 30%;
+}
+.maintenance_upcomingevents .select-box1{
+    width: 23%;
+}
+.maintenance_upcomingevents .seldatebox{
+    justify-content: flex-start;
+}
+.maintenance_upcomingevents .seldatebox .date_heading{
+    margin: 0 11px 0 0px;
+}
+.maintenance_upcomingevents .headingcalen h3 img{
+    width:27px;
+    height:27px;
+}
+.maintenance_upcomingevents .headingcalen h3{
+    font-size: 18px;
+}
+.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link.listvw span{
+    margin: 0 0 0 4px;
+}
+.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
+    font-size: 14px;
+    padding: 7px 5px;
+    line-height: 22px;
+    width: 115px;
+}
+.req_service .maintenancepage .divinfo{
+    padding: 22px 15px;
+}
+.reqserv_descrip{
+background: rgba(55, 105, 144, 0.2);
+border-radius: 42px;
+margin: 8px 0 0 0;
+padding: 8px;
 }
 .maintenancepage .c-search.menusearch .c-search__input::-webkit-input-placeholder {
 /* Chrome/Opera/Safari */
@@ -6344,8 +6494,9 @@ box-shadow: 5px 6px 5px -1px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93
 border-radius: 50px;
 }
 .prof_name.commtxt h3{
-font-size: 23px;
-margin: 21px 0 14px 0;
+    font-size: 22px;
+    margin: 21px 0 14px 0;
+    line-height: 30px;
 }
 .comm_chat_links ul{
 list-style-type: none;
@@ -6366,7 +6517,8 @@ margin: 0 0 9px 0;
 position: relative;
 }
 .comm_chat_links ul li.active a{
-background: #9BB997;
+    background: #9BB997;
+    color: #ffffff;
 }
 .comm_chat_links ul li a img{
 position: absolute;
@@ -6375,9 +6527,13 @@ top: 13px;
 height: 20px;
 }
 .msg_history{
-background: #EDF2FA;
-border-radius: 17px;
-padding: 19px 15px 0px 15px;
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 19px 15px 103px 15px;
+    overflow-y: auto;
+    height:610px;
+position: relative;
+
 }
 .datetxt_decrip p{
 font-family: 'Helvetica';
@@ -6395,10 +6551,12 @@ align-items: baseline;
 .outgoing_msg .sent_msg p{
 font-family: 'Helvetica';
 font-weight: 400;
+width: 100%;
 font-size: 14px;
 line-height: 22px;
 color: #315D80;
 margin: 0px 0 10px 0;
+text-align: right;
 }
 .outgoing_msg_img{
 margin: 0px 0px 0 9px;
@@ -6423,7 +6581,7 @@ color: #9BB997;
 }
 .prof_descripimg{
 display: flex;
-width: 56%;
+width: 49%;
 }
 .received_withd_msg p{
 background: #315D80;
@@ -6437,6 +6595,15 @@ font-size: 13px;
 line-height: 18px;
 color: #FFFFFF;
 display: inline-block;
+}
+.sent_msg {
+    width: 46%;
+}
+.received_msg {
+    display: inline-block;
+}
+.received_withd_msg {
+    width: 92%;
 }
 .incoming_msg_img{
 margin: 10px 9px 0 0px;
@@ -6455,8 +6622,11 @@ margin:0 0 1em 0;
 background: #315D80;
 border-radius: 24px 24px 0px 0px;
 padding: 20px 20px;
-width: 84%;
-margin: 2.8em auto 0 auto;
+width: 44%;
+margin: 18em auto 0 auto;
+position: fixed;
+left: 43%;
+bottom: 0px;
 }
 .type_something .input-group .form-control.type_msg{
 background: #274E6C;
