@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
 <link rel="stylesheet" href="css/jquery-clockpicker.min.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/new-stylecss.css">
 <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
@@ -522,7 +523,7 @@
                 <input class="c-search__input form-control" placeholder="Search" type="text"/>
                 <button type="submit" class="submt_btn"><i class="fa fa-search"></i></button>
             </div>
-            <a href="javascript:void(0);" class="view_allmaintain">View all</a>
+            <a href="#viewall_requestserv" data-toggle="modal" class="view_allmaintain">View all</a>
         </div>
     </div>
 <!--  request service slider -->
@@ -1243,6 +1244,498 @@
 
 
 
+
+<!-- view all request service modal -->
+<div class="modal fade viewallreq_modal" id="viewall_requestserv">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title"><img src="images/lease/request.svg"> request service</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+          <div class="requestblocks_modal">
+            <div class="six_reqserblock">
+              <div class="reqservdiv_styl">
+                  <img src="images/maintenance/blinds.svg">
+                  <div class="descrp_modalreqserv">
+                    <p class="m-0">Blinds</p>
+                  </div>
+              </div>
+              <div class="reqservdiv_styl">
+                <img src="images/maintenance/carpet.svg">
+                <div class="descrp_modalreqserv">
+                  <p class="m-0">Carpet-Cleaning</p>
+                </div>
+               </div>
+               <div class="reqservdiv_styl">
+                <img src="images/maintenance/clean.svg">
+                <div class="descrp_modalreqserv">
+                  <p class="m-0">Cleaning</p>
+                </div>
+               </div>
+               <div class="reqservdiv_styl">
+                <img src="images/maintenance/electrical.svg">
+                <div class="descrp_modalreqserv">
+                  <p class="m-0">Electrical</p>
+                </div>
+               </div>
+               <div class="reqservdiv_styl">
+                <img src="images/maintenance/garage.svg">
+                <div class="descrp_modalreqserv">
+                  <p class="m-0">Garage Door</p>
+                </div>
+               </div>
+               <div class="reqservdiv_styl">
+                <img src="images/maintenance/handy.svg">
+                <div class="descrp_modalreqserv">
+                  <p class="m-0">Handy-work</p>
+                </div>
+               </div>             
+          </div>
+
+          <div class="six_reqserblock">
+            <div class="reqservdiv_styl">
+              <img src="images/maintenance/health.svg">
+              <div class="descrp_modalreqserv">
+                <p class="m-0">Health & Safety</p>
+              </div>
+             </div> 
+             <div class="reqservdiv_styl">
+              <img src="images/maintenance/hot_water.svg">
+              <div class="descrp_modalreqserv">
+                <p class="m-0">Hot Water Tank</p>
+              </div>
+             </div> 
+             <div class="reqservdiv_styl">
+              <img src="images/maintenance/junk_remove.svg">
+              <div class="descrp_modalreqserv">
+                <p class="m-0">Junk Removal</p>
+              </div>
+             </div> 
+             <div class="reqservdiv_styl">
+              <img src="images/maintenance/mold.svg">
+              <div class="descrp_modalreqserv">
+                <p class="m-0">Mold Removal</p>
+              </div>
+             </div> 
+             <div class="reqservdiv_styl">
+              <img src="images/maintenance/painting.svg">
+              <div class="descrp_modalreqserv">
+                <p class="m-0">Painting</p>
+              </div>
+             </div> 
+             <div class="reqservdiv_styl">
+              <img src="images/maintenance/paving.svg">
+              <div class="descrp_modalreqserv">
+                <p class="m-0">Paving</p>
+              </div>
+             </div>             
+        </div>
+
+        <div class="six_reqserblock">
+          <div class="reqservdiv_styl">
+            <img src="images/maintenance/pest_control.svg">
+            <div class="descrp_modalreqserv">
+              <p class="m-0">Pest Control</p>
+            </div>
+           </div>  
+           <div class="reqservdiv_styl">
+            <img src="images/maintenance/plumb.svg">
+            <div class="descrp_modalreqserv">
+              <p class="m-0">Plumbing</p>
+            </div>
+           </div>
+           <div class="reqservdiv_styl">
+            <img src="images/maintenance/roofing.svg">
+            <div class="descrp_modalreqserv">
+              <p class="m-0">Roofing</p>
+            </div>
+           </div>
+           <div class="reqservdiv_styl">
+            <img src="images/maintenance/security.svg">
+            <div class="descrp_modalreqserv">
+              <p class="m-0">Security System</p>
+            </div>
+           </div>
+           <div class="reqservdiv_styl">
+            <img src="images/maintenance/snow.svg">
+            <div class="descrp_modalreqserv">
+              <p class="m-0">Snow Removal</p>
+            </div>
+           </div>
+           <div class="reqservdiv_styl">
+            <img src="images/maintenance/stairs.svg">
+            <div class="descrp_modalreqserv">
+              <p class="m-0">Stairs & Railings</p>
+            </div>
+           </div>            
+      </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade techni_modalstyl" id="technician_popup">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Technician </h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+            <div class="techni_profsection">
+                <div class="techni_backgimg"></div>
+                <div class="techni_profdescrip">
+                  <div class="emptyspace_div"></div>
+                  <div class="techname_imgno">
+                    <div class="name_techni">
+                        <label class="mb-0">Nickname</label>
+                        <p class="mb-0">Simon J.</p>
+                    </div>
+                    <div class="techni_prof_img">
+                          <div class="relv_profimgstatus">
+                            <img src="images/maintenance/techimg1.svg">
+                            <div class="statusmodal status_greencolr"></div>
+                          </div>
+                    </div>
+                    <div class="id_tech_no">
+                      <label class="mb-0">ID No.</label>
+                      <p class="mb-0">T34550</p>
+                    </div>
+                  </div>
+                  <div class="phono_comment">
+                      <ul>
+                        <li><img src="images/maintenance/phone_techni.svg"></li>
+                        <li><img src="images/maintenance/comment_techni.svg"></li>
+                      </ul>
+                  </div>
+                </div>
+            </div>
+<!-- end of top section -->
+
+<!-- tabs section -->
+<div class="abt_rev_certifi">
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#about_tech">about</a>
+  </li>
+  <li class="nav-item reviewslick_slider">
+    <a class="nav-link" data-toggle="tab" href="#review_tech">review</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#certifi_tech">certificates</a>
+  </li>
+</ul>
+
+
+<div class="tab-content">
+  <div id="about_tech" class="container aboutpad_sec tab-pane active">
+    <!-- about section -->
+    <div id="aboutcontent_maintenance">
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#about_section">
+            <div class="linediv green_main"></div>   About
+          </a>
+        </div>
+        <div id="about_section" class="collapse show" data-parent="#aboutcontent_maintenance">
+          <div class="card-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+
+          <a class="collapsed card-link" data-toggle="collapse" href="#not_onjob">
+            <div class="linediv yellow_main"></div>
+            When I am not on my job
+        </a>
+        </div>
+        <div id="not_onjob" class="collapse" data-parent="#aboutcontent_maintenance">
+          <div class="card-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-0">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#on_job">
+            <div class="linediv purple_main"></div>
+            When i am on my job i always make sure to
+          </a>
+        </div>
+        <div id="on_job" class="collapse" data-parent="#aboutcontent_maintenance">
+          <div class="card-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- end of about section -->
+  </div>
+  <div id="review_tech" class="container reviewcontr tab-pane fade">
+   
+<!-- review section -->
+<div class="review_slickslider">
+<div class="slick-carousel">
+
+<div class="mainflex_container">
+<div class="flexparent_reviewblock">
+    <div class="slide-contentreview_imginfo">
+      <div class="userimg_review greenuser_border">
+        <span> <img src="images/client.svg"></span>
+        <span>John Doe</span>
+      </div>
+      <div class="user_decrip_txt">
+        <p>Lorem ipsum dolor sit amet consectetur. Dis urna dui id pharetra sit vestibulum. </p>
+      </div>
+    <div class="datedecrip_div">
+      <p><img src="images/maintenance/datepick.svg"> fri, dec 12, 2024</p>
+    </div>
+    </div>
+    <div class="reviewprogress_section">
+      <div class="circles-small">
+        <div class="circle-small">
+          <div class="text">4.2</div>
+          <svg>
+            <circle class="bg" cx="40" cy="40" r="25"></circle>
+            <circle class="progress one green_prog" cx="33" cy="39" r="25"></circle>
+          </svg>
+        </div>
+      </div>
+      <div class="reviewstar_ic">
+          <p>good reviews</p>
+          <div class="rating_icongreen greenicon_colr">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="mainflex_container">
+  <div class="flexparent_reviewblock">
+      <div class="slide-contentreview_imginfo">
+        <div class="userimg_review yellowuser_border">
+          <span> <img src="images/client.svg"></span>
+          <span>John Doe</span>
+        </div>
+        <div class="user_decrip_txt">
+          <p>Lorem ipsum dolor sit amet consectetur. Dis urna dui id pharetra sit vestibulum. </p>
+        </div>
+      <div class="datedecrip_div">
+        <p><img src="images/maintenance/datepick.svg"> fri, dec 12, 2024</p>
+      </div>
+      </div>
+      <div class="reviewprogress_section">
+        <div class="circles-small">
+          <div class="circle-small">
+            <div class="text">4.2</div>
+            <svg>
+              <circle class="bg" cx="40" cy="40" r="25"></circle>
+              <circle class="progress one yellow_prog" cx="33" cy="39" r="25"></circle>
+            </svg>
+          </div>
+        </div>
+        <div class="reviewstar_ic">
+            <p>good reviews</p>
+            <div class="rating_icongreen yellowicon_colr">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="mainflex_container">
+<div class="flexparent_reviewblock">
+    <div class="slide-contentreview_imginfo">
+      <div class="userimg_review greenuser_border">
+        <span> <img src="images/client.svg"></span>
+        <span>John Doe</span>
+      </div>
+      <div class="user_decrip_txt">
+        <p>Lorem ipsum dolor sit amet consectetur. Dis urna dui id pharetra sit vestibulum. </p>
+      </div>
+    <div class="datedecrip_div">
+      <p><img src="images/maintenance/datepick.svg"> fri, dec 12, 2024</p>
+    </div>
+    </div>
+    <div class="reviewprogress_section">
+      <div class="circles-small">
+        <div class="circle-small">
+          <div class="text">4.2</div>
+          <svg>
+            <circle class="bg" cx="40" cy="40" r="25"></circle>
+            <circle class="progress one green_prog" cx="33" cy="39" r="25"></circle>
+          </svg>
+        </div>
+      </div>
+      <div class="reviewstar_ic">
+          <p>good reviews</p>
+          <div class="rating_icongreen greenicon_colr">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mainflex_container">
+  <div class="flexparent_reviewblock">
+      <div class="slide-contentreview_imginfo">
+        <div class="userimg_review yellowuser_border">
+          <span> <img src="images/client.svg"></span>
+          <span>John Doe</span>
+        </div>
+        <div class="user_decrip_txt">
+          <p>Lorem ipsum dolor sit amet consectetur. Dis urna dui id pharetra sit vestibulum. </p>
+        </div>
+      <div class="datedecrip_div">
+        <p><img src="images/maintenance/datepick.svg"> fri, dec 12, 2024</p>
+      </div>
+      </div>
+      <div class="reviewprogress_section">
+        <div class="circles-small">
+          <div class="circle-small">
+            <div class="text">4.2</div>
+            <svg>
+              <circle class="bg" cx="40" cy="40" r="25"></circle>
+              <circle class="progress one yellow_prog" cx="33" cy="39" r="25"></circle>
+            </svg>
+          </div>
+        </div>
+        <div class="reviewstar_ic">
+            <p>good reviews</p>
+            <div class="rating_icongreen yellowicon_colr">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="mainflex_container">
+<div class="flexparent_reviewblock">
+    <div class="slide-contentreview_imginfo">
+      <div class="userimg_review yellowuser_border">
+        <span> <img src="images/client.svg"></span>
+        <span>John Doe</span>
+      </div>
+      <div class="user_decrip_txt">
+        <p>Lorem ipsum dolor sit amet consectetur. Dis urna dui id pharetra sit vestibulum. </p>
+      </div>
+    <div class="datedecrip_div">
+      <p><img src="images/maintenance/datepick.svg"> fri, dec 12, 2024</p>
+    </div>
+    </div>
+    <div class="reviewprogress_section">
+      <div class="circles-small">
+        <div class="circle-small">
+          <div class="text">4.2</div>
+          <svg>
+            <circle class="bg" cx="40" cy="40" r="25"></circle>
+            <circle class="progress one yellow_prog" cx="33" cy="39" r="25"></circle>
+          </svg>
+        </div>
+      </div>
+      <div class="reviewstar_ic">
+          <p>good reviews</p>
+          <div class="rating_icongreen yellowicon_colr">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- end of review section -->
+
+  </div>
+  <div id="certifi_tech" class="container certificcontr tab-pane fade">
+   <div class="certifidiv_flexcontainer">
+      <div class="certidetails_div">
+          <div class="">
+            <img src="images/maintenance/plumb_lic.svg">
+          </div>
+          <div class="below_detailscertifi">
+            <p class="mb-0">Plumbing license</p>
+            <button class="btn btnview_div">view</button>
+          </div>
+      </div>
+      <div class="certidetails_div wsib_certif">
+        <div class="">
+          <img src="images/maintenance/plumb_lic.svg">
+        </div>
+        <div class="below_detailscertifi">
+          <p class="mb-0">WSIB Certificate</p>
+          <button class="btn btnview_div">view</button>
+        </div>
+      </div>
+      <div class="certidetails_div liabi_certif">
+        <div class="certidetails_div">
+          <img src="images/maintenance/plumb_lic.svg">
+        </div>
+        <div class="below_detailscertifi">
+          <p class="mb-0">liability
+            Insurance</p>
+          <button class="btn btnview_div">view</button>
+        </div>
+      </div>
+   </div>
+  </div>
+</div>
+</div>
+<!-- end of tab section -->
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -1255,12 +1748,32 @@
 <script>
 $().ready(function(){
     $('.rqservice_blocksslider .slick-carousel').slick({
-      arrows: true,
+      arrows: false,
       dots: false,
       slidesToShow: 4,
       infinite: false
     });
   });
 </script>
+
+<!-- review techician slider -->
+<script>
+$().ready(function(){
+  $('.review_slickslider .slick-carousel').slick({
+    arrows: false,
+      dots: false,
+      slidesToShow: 2.5,
+      infinite: false
+  });
+});
+
+</script>
+
+<script>
+
+
+  </script>
+
+
 </body>
 </html>

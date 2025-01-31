@@ -708,6 +708,18 @@ $(".mobileview_tour .sliderforday_div .slick-slider").slick({
     ]
     });
 
+// technician slick slider
+    $(document).ready(function () {
+    $('.modal.techni_modalstyl').on('shown.bs.modal', function (e) {
+        $('.review_slickslider .slick-carousel.slick-slider').slick('refresh');
+        });
+
+        $('.abt_rev_certifi .nav.nav-tabs .nav-item.reviewslick_slider a').on('click', function () {
+            $('.review_slickslider .slick-carousel.slick-slider').slick("refresh"); 
+            });
+    });
+
+
 // property schedule tabs pop up
 $(document).ready(function () {
 $('.schedtour_popup ul.nav.nav-tabs li a,.btnsched_tour').on('click', function () {
