@@ -11273,6 +11273,28 @@ vertical-align: middle;
 text-align: center;
 margin: 23px 0 17px 0;
 }
+.simisched_tour .bottom_rightdetails .galdiv_clr img {
+  height: 10px;
+  width: 10px;
+  border-radius: unset;
+  margin: 0 6px 0 0px;
+}
+.similar_unitsdiv.toursche_slidiv .galdiv_clr span {
+  font-size: 12px;
+}
+.simisched_tour .bottom_rightdetails {
+  bottom: 7px;
+  right: unset;
+  left: 11px;
+  display: block;
+}
+.simisched_tour .bottom_rightdetails .galdiv_clr {
+  padding: 3px 10px 2px 10px;
+  width: auto;
+  display: flex
+;
+  align-items: center;
+}
 .toursche_slidiv .tab-content>.tab-pane{ display: block; height: 0px; overflow: hidden; }
 .toursche_slidiv .tab-content>.active{ height: auto;}
 /* end of schedule tour page design */

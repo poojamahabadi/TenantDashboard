@@ -5027,8 +5027,9 @@ margin: 0 0 20px 0;
         border-radius: 0px 30px 30px 0;
     }
 .prop_detailsfeatures .category-lists-slider{
-	    width: 97%;
+    width: 95%;
     margin: 0 auto;
+    z-index: 1;
 }
 
 .sche_tour.propdetails_schetour .flexschedule {
@@ -7678,6 +7679,23 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
+/* property schedule */
+.prop_detailsfeatures .category-lists-slider {
+    width: 95%;
+}
+
+.prop_detailsfeatures .tablinks_propfeat.unit_div .category-lists-slider .slider-button.slider-next{
+    z-index: -1;
+    padding: 5px 8px 5px 13px;
+}
+.prop_detailsfeatures .tablinks_propfeat.unit_div .category-lists-slider .slider-button.slider-prev {
+    z-index: -1;
+    padding: 5px 13px 5px 8px;
+}
+.prop_detailsfeatures .tablinks_propfeat.unit_div .category-lists-slider .slider-button.slider-prev {
+    left: -20px;
+}
+/* end of property schedule */
 /* payment deposit */
 .descrp_photoinfo p {
 width: 89%;
