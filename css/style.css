@@ -10371,6 +10371,9 @@ margin: 0 0 0 16px;
 /*  end if delete button on my info page */
 
 /* schedule tour pop up */
+.btndesktop_hidebtnreserve{
+	display: none;
+}
 .schedtour_popup .modal-content {
 background-color: unset;
 border: unset;
