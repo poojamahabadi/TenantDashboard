@@ -11046,8 +11046,11 @@ font-weight: 700;
 font-size: 10px;
 height: 32px;
 padding: 3px 12px 5px 12px;
-width: 85%;
+width: 99px;
 text-transform: capitalize;
+}
+.median_lease.mobilemedian_lease.hidemedianleasedesktop{
+  display: none;
 }
 .midsectour_sche .timelabel span img,.midsectour_sche .datelabel span img {
 height: 16px;

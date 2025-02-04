@@ -396,7 +396,7 @@ slidesToShow:1.4,
 }
 },
 {
-breakpoint:420,
+breakpoint:480,
 settings: {
 slidesToScroll: 1,
 slidesToShow:1.07,
@@ -611,6 +611,7 @@ infinite:false,
 slidesToScroll: 2,
 autoplay: false,
 autoplaySpeed: 2000,
+draggable:false,
 responsive: [
 {
 breakpoint:1400,
@@ -651,6 +652,7 @@ slidesToShow: 1.7,
 $(".schedtour_popup .sliderforday_div .slick-slider").slick({
 slidesToShow: 6.3,
 infinite:true,
+draggable:false,
 slidesToScroll: 1,
 autoplay: true,
 arrows: false,
@@ -665,7 +667,7 @@ slidesToShow: 6.3,
 {
 breakpoint: 641,
 settings: {
-slidesToShow: 2.1,
+slidesToShow: 6.1,
 }
 },
 {
@@ -718,31 +720,6 @@ $(".mobileview_tour .sliderforday_div .slick-slider").slick({
             $('.review_slickslider .slick-carousel.slick-slider').slick("refresh"); 
             });
     });
-
-
-// property schedule tabs pop up
-$(document).ready(function () {
-$('.schedtour_popup ul.nav.nav-tabs li a,.btnsched_tour').on('click', function () {
-$('.flxboth_propschepop .sliderforday_div .slick-slider').slick("refresh"); 
-});
-
-$('.modal.schedtour_popup').on('shown.bs.modal', function (e) {
-$('.sliderforday_div .slick-slider').slick('refresh');
-})
-
-// signin pop up modal slick slider
-$('.modal.signin_popup').on('shown.bs.modal', function (e) {
-$('.verticalslitenant .slick-slider').slick('refresh');
-})
-
-$('.schedtour_popup ul.nav.nav-tabs li.steptwo').on('click', function () {
-$(this).addClass("changeborderline");
-});
-$('.schedtour_popup ul.nav.nav-tabs li.stepone').on('click', function () {
-$('.schedtour_popup ul.nav.nav-tabs li.steptwo').removeClass("changeborderline");
-});
-});
-
 
 
 // give notice request date
