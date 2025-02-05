@@ -396,7 +396,7 @@ slidesToShow:1.4,
 }
 },
 {
-breakpoint:480,
+breakpoint:481,
 settings: {
 slidesToScroll: 1,
 slidesToShow:1.07,
@@ -406,7 +406,7 @@ slidesToShow:1.07,
 breakpoint:350,
 settings: {
 slidesToScroll: 1,
-slidesToShow:1,
+slidesToShow:1.05,
 }
 }
 ]
@@ -510,7 +510,7 @@ $(".buildinglease.mobilebuilding .slick-slider").slick('refresh');
 
 
 // dropdown
-$(".dropdw_mobileview .drop_optionlist.dropdown-toggle[changeable=true]").next(".dropdown-menu").children().on("click", function() {
+$(".prop_detailsfeatures .dropdw_mobileview .drop_optionlist.dropdown-toggle[changeable=true]").next(".dropdown-menu").children().on("click", function() {
 $(this).closest(".dropdown-menu").prev(".dropdown-toggle").text($(this).text());
 });
 

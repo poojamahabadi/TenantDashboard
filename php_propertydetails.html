@@ -6635,7 +6635,7 @@
                                                         <div class="flxtime_design">
                                                             <div class="block_time hours_marg">
                                                                 <select id="schedule-a-tour-hours">
-                                                                    <option value=" - ">-</option>
+                                                                    <option value=""></option>
                                                                     <option value="01">01</option>
                                                                     <option value="02">02</option>
                                                                     <option value="03">03</option>
@@ -6654,7 +6654,7 @@
                                                             <div class="block_time mins_marg">
                                                                 <p class="txt_timeblk">Time</p>
                                                                 <select id="schedule-a-tour-min">
-                                                                    <option value=" - ">-</option>
+                                                                    <option value=""></option>
                                                                     <option value="00">00</option>
                                                                     <option value="05">05</option>
                                                                     <option value="10">10</option>
@@ -6673,7 +6673,7 @@
                                                             </div>
                                                             <div class="block_time ampm_marg">
                                                                 <select id="schedule-a-tour-ampm">
-                                                                    <option value=" - ">-</option>
+                                                                    <option value=""></option>
                                                                     <option value="AM">AM</option>
                                                                     <option value="PM">PM</option>
                                                                 </select>
@@ -6714,7 +6714,10 @@
                                                             <div class="card-body">
                                                                 <div class="row mx-0">
                                                                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 border_atend lf_flexside">
-                                                                        <div class="flexdiv">
+                                                                      
+                                                                      <!-- mobile view fields -->
+                                                                      <div class="flexdiv combinefields_mobile">
+                                                                        <div class="mobilebedbathrm_fields">
                                                                             <div class="basicdatatxt">
                                                                                 <label>bedrooms <span
                                                                                         class="starred"> *</span></label>
@@ -6730,7 +6733,41 @@
                                                                             </div>
                                                                         </div>
 
-                                                                        <div class="flexdiv">
+                                                                        <div class="mobilebedbathrm_fields">
+                                                                            <div class="basicdatatxt">
+                                                                                <label>bathrooms <span
+                                                                                        class="starred"> *</span></label>
+                                                                            </div>
+                                                                            <div class="basicdata">
+                                                                                <select id="select-boxbed" class="form-control edit-input">
+                                                                                    <option value="1">1+</option>
+                                                                                    <option value="2">2+</option>
+                                                                                    <option value="3">3+</option>
+                                                                                    <option value="4">4+</option>
+                                                                                    <option value="5">5+</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                      <!-- end of mobile view fields -->
+                                                                      
+                                                                        <div class="flexdiv mobhide_fields">
+                                                                            <div class="basicdatatxt">
+                                                                                <label>bedrooms <span
+                                                                                        class="starred"> *</span></label>
+                                                                            </div>
+                                                                            <div class="basicdata">
+                                                                                <select id="select-boxbed" class="form-control edit-input">
+                                                                                    <option value="1">1+</option>
+                                                                                    <option value="2">2+</option>
+                                                                                    <option value="3">3+</option>
+                                                                                    <option value="4">4+</option>
+                                                                                    <option value="5">5+</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="flexdiv mobhide_fields">
                                                                             <div class="basicdatatxt">
                                                                                 <label>bathrooms <span
                                                                                         class="starred"> *</span></label>
@@ -6746,7 +6783,7 @@
                                                                             </div>
                                                                         </div>
 
-                                                                        <div class="flexdiv">
+                                                                        <div class="flexdiv  border-bottom-css">
                                                                             <div class="basicdatatxt">
                                                                                 <label>parking <span
                                                                                         class="starred"> *</span></label>
@@ -6798,7 +6835,7 @@
                                                                             </div>
                                                                         </div>
 
-                                                                        <div class="flexdiv">
+                                                                        <div class="flexdiv border-bottom-css">
                                                                             <div class="basicdatatxt">
                                                                                 <label>Number of
                                                                                     Occupants <span
@@ -6869,7 +6906,7 @@
                                                                             </div>
                                                                         </div>
 
-                                                                        <div class="flexdiv border-0">
+                                                                        <div class="flexdiv border-bottom-css">
                                                                             <div class="basicdatatxt">
                                                                                 <label>email <span
                                                                                         class="starred"> *</span></label>
@@ -7060,6 +7097,7 @@
 
             $('.schedtour_popup ul.nav.nav-tabs li.stepone a').on('click', function () {
                 $('.schedtour_popup ul.nav.nav-tabs li.stepone').removeClass("changecolorlink");
+                $('.schedtour_popup ul.nav.nav-tabs li.steptwo').removeClass("changeborderline");
                 $('.schedtour_popup .listmodal_popup.listone').addClass("active");
                 $('.schedtour_popup .listmodal_popup.listtwo').removeClass("active");
             });
@@ -7095,6 +7133,7 @@
                 $('.schedtour_popup ul.nav.nav-tabs li.stepone').addClass("changecolorlink");
                 $('.schedtour_popup .listmodal_popup.listone').removeClass("active");
                 $('.schedtour_popup ul.nav.nav-tabs li.steptwo a').addClass("active");
+                $('.schedtour_popup ul.nav.nav-tabs li.steptwo').addClass("changeborderline");
                 $('.schedtour_popup .listmodal_popup.listtwo').addClass("active");
             });
         });
@@ -7495,9 +7534,9 @@
                 },
 
                 {
-                    breakpoint: 767,
+                    breakpoint: 769,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 4.3,
                     }
                 },
                 {
@@ -7988,9 +8027,13 @@
                     415: {
                         slidesPerView: 3,
                     },
-                    320: {
+                    
+                   360: {
                         slidesPerView: 2.1,
                     },
+                    320: {
+                        slidesPerView: 2.1,
+                    }
                 }
             });
         });
@@ -8032,12 +8075,16 @@
                     481: {
                         slidesPerView: 3,
                     },
-                    400: {
+                    415: {
                         slidesPerView: 3,
+                    },
+                    
+                   360: {
+                        slidesPerView: 2.1,
                     },
                     320: {
                         slidesPerView: 2.1,
-                    },
+                    }
                 }
             });
         });
@@ -8078,12 +8125,16 @@
                     481: {
                         slidesPerView: 3,
                     },
-                    400: {
+                    415: {
                         slidesPerView: 3,
+                    },
+                    
+                    360: {
+                        slidesPerView: 2.1,
                     },
                     320: {
                         slidesPerView: 2.1,
-                    },
+                    }
                 }
             });
         });
@@ -8125,6 +8176,7 @@
                 infinite: true,
                 slidesToShow: 3,
                 arrows: true,
+                initialSlide: 1,
                 autoplaySpeed: 2000,
                 autoplay: true,
                 responsive: [
@@ -8153,7 +8205,7 @@
                         breakpoint: 641,
                         settings: {
                             centerMode: false,
-                            slidesToShow: 2.4,
+                            slidesToShow: 2.7,
                         }
                     },
                     {
@@ -8174,8 +8226,32 @@
             });
         });
 
-
     </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    let dropdownButton = document.querySelector(".drop_optionlist");
+    let dropdownItems = document.querySelectorAll(".dropdown-menu .dropdown-item");
 
+    if (dropdownItems.length > 0) {
+        // Set the first item as the default selected value
+        dropdownButton.textContent = dropdownItems[0].textContent.trim();
+    }
+
+    dropdownItems.forEach(item => {
+        item.addEventListener("click", function () {
+            // Update the button text with the selected value
+            dropdownButton.textContent = this.textContent.trim();
+            
+            // Log or use the selected value
+            console.log("Selected:", this.textContent.trim());
+        });
+    });
+});
+
+
+
+
+
+</script>
 
 

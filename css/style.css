@@ -6720,6 +6720,7 @@ color: #315D80;
 text-align: center;
 margin:10px 0 5px 0px;
 }
+
 .mobileviewabout,.mobileareamap,.mobileview_all,.mobileview_allunits{
 display:none;
 }
@@ -10374,6 +10375,23 @@ margin: 0 0 0 16px;
 .btndesktop_hidebtnreserve{
 	display: none;
 }
+.flexdiv.combinefields_mobile{
+  display: none;
+}
+.schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before{
+  background-image: url(../images/find_property/prop_schedule/borderchange.svg);
+  position: relative;
+  right: -5px;
+}
+.seldateboxsche_prop select option{
+  font-size: 11px;
+  color: #315D80;
+  text-align: left;
+  font-weight: 700; 
+}
+.schedtour_popup .timetab_div .options li:first-child{
+  display:none
+}
 .schedtour_popup .modal-content {
 background-color: unset;
 border: unset;
@@ -10497,13 +10515,16 @@ z-index: 10;
 font-weight: bold;
 }
 .schedtour_popup ul.nav-tabs li.steptwo::before {
-background-image: url(../images/find_property/prop_schedule/borderstep.svg);
-background-size: 100% 100%;
-display: flex;
-content: "";
-height: 100%;
-width: 63%;
-margin: 0px 0px 0 -57px;
+  background-image: url(../images/find_property/prop_schedule/borderstep.svg);
+  background-size: cover;
+  display: flex;
+  content: "";
+  height: 11px;
+  border-radius: 30px;
+  width: 63%;
+  margin: 0px 0px 0 -57px;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 .schedtour_popup ul.nav-tabs li.steptwo.changeborderline::before{
 background-image: url(../images/find_property/prop_schedule/borderchange.svg);
@@ -10665,6 +10686,53 @@ width: 44%;
 background: rgba(237, 242, 250, 0.7);
 box-shadow: inset 3.28684px 4.10855px 4.10855px rgba(57, 124, 238, 0.12);
 border-radius: 6px;
+}
+.showing_details_block .bottom_details span {
+  font-size: 10px;
+}
+.showing_details_block .bottom_details img {
+  width: 13px;
+  height: 12px;
+}
+.showing_details_block .bottom_rightdetails .galdiv_clr img{
+  width: 12px;
+  height: 12px;
+}
+.prop_feature.prop_detailsfeatures .tablinks_propfeat{
+margin:0;
+}
+.prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
+  margin-left: 22px !important;
+}
+.prop_feature.prop_detailsfeatures .tablinks_propfeat .category-lists-slider {
+padding:0;
+width: 95%;
+margin:0 auto;
+}
+.prop_feature.prop_detailsfeatures .midtxt_css{
+  margin:0;
+}
+.showing_details_block .bottom_rightdetails .galdiv_clr{
+  padding: 2px 25px 2px 10px;
+}
+.schedtour_popup  .tenantaccord .card .card-body .flexdiv.border-bottom-css{
+  border:unset;
+  }
+.desktopmedian_lease .card-body.chart-div {
+    padding-top: 13px;
+}
+.schedshowbtmdets_new .map_streetdetails {
+  padding: 0px 0 14px 0;
+}
+.l-main .schedshowbtmdets_new .bgclr_divaddr_btn {
+  padding: 15px 20px 17px 20px;
+}
+.showing_details_block .bottom_rightdetails .videodiv_clr{
+  padding: 2px 10px 2px 10px;
+}
+.showing_details_block .bottom_rightdetails .videodiv_clr img{
+  width: 17px;
+  height: 11px;
 }
 /* end of schedule tour pop up */
 
