@@ -49,9 +49,6 @@ height: 94px;
 .prop_rowalign {
 margin: 0em 0 3em 0;
 }
-.setup_modalprop .modal-dialog {
-max-width: 56%;
-}
 /* find property end */
 
 /* header */
@@ -282,9 +279,6 @@ margin-left: 219px;
 .prop_find_details img {
 height: 147px;
 }
-.setup_modalprop .modal-dialog {
-max-width: 68%;
-}
 /* end of find property */
 
 /* header */
@@ -410,11 +404,6 @@ height: 145px;
 height: 134px;
 }
 /* end of schedule tour */
-/* find property */
-.setup_modalprop .modal-dialog {
-max-width: 71%;
-}
-/* end of find property */
 
 /* offer to lease showings */
 .bookappnt_divabs {
@@ -498,9 +487,6 @@ height: 87px;
 /* find property */
 .prop_find_details img {
 height: 127px;
-}
-.setup_modalprop .modal-dialog {
-max-width: 78%;
 }
 .txt_details_prop {
 padding: 8px 10px 10px 10px;
@@ -662,9 +648,6 @@ height: 120px;
 }
 .lochouse_details .house span, .lochouse_details .clock span {
 font-size: 11px;
-}
-.setup_modalprop .modal-dialog {
-max-width: 54%;
 }
 /* end of find property */
 
@@ -849,6 +832,11 @@ font-size: 22px;
 .similar_unitsdiv .pricerange_sliderone .leasedslider .slidelocation_div span img {
 vertical-align: text-top;
 }
+.pricerangedivs{
+    width: 97%;
+    margin: 0 auto;
+}
+
 /* end of price range */
 /* schedule tour */
 .midsche_toursec {
@@ -901,9 +889,6 @@ padding: 10px 4px 11px 6px;
 /* find property */
 .prop_find_details img {
 height: 110px;
-}
-.setup_modalprop .modal-dialog {
-max-width: 85.2%;
 }
 /* end of find property */
 /* active lease */
@@ -1297,9 +1282,6 @@ vertical-align: bottom;
 /* end of transactions */
 
 /* find property */
-.setup_modalprop .modal-dialog {
-max-width: 80%;
-}
 #catgory-sliderbath .swiper-slide, #catgory-sliderbed .swiper-slide {
 width: 50px !important;
 }
@@ -1712,9 +1694,6 @@ margin: 7em 0 2em 0;
 }
 .prop_find_details img {
 height: 96px;
-}
-.setup_modalprop .modal-dialog {
-max-width: 92%;
 }
 /* end of find property */
 
@@ -2646,8 +2625,11 @@ margin: 0 0 0 -29px;
 }
 /* end of give notice */
 /* find property */
-.setup_modalprop .modal-dialog {
-max-width: 96%;
+.pricerangedivs .lochouse_details .house span, .pricerangedivs .lochouse_details .clock span {
+    font-size: 11px;
+}
+.similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p {
+    font-size: 17px;
 }
 .movedate_value {
 width: 55.6%;
@@ -3556,6 +3538,13 @@ padding: 4px 22px 4px 12px;
 .midsche_toursec {
 width: 100%;
 }
+.price-range-slider .range-bar {
+    width: 84%;
+}
+.box-minmax {
+    width: 86.6%;
+}
+
 .confr_appt h2 {
 margin: 2em 0 1.3em 0;
 }
@@ -3734,9 +3723,21 @@ flex-basis: 23%;
 font-size: 13px;
 }
 .similar_unitsdiv.pricerangedivs .slidelocation_div .txt_loc {
-font-size: 14px;
-line-height: 17px;
+    font-size: 12px;
+    line-height: 16px;
 }
+.pricerangedivs .leaseddetails_slider {
+    width: 59%;
+}
+.similar_unitsdiv.pricerangedivs .leaseddetails_slider .car_details, .similar_unitsdiv.pricerangedivs .leaseddetails_slider .shower_details, .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details {
+    padding: 3px 3px 2px 3px;
+    height: 44px;
+}
+.l-main .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details img {
+    height: 10px;
+    margin: 11px 0 8px 0;
+}
+
 .bottom_rightdetails.bottomsimilar .galdiv_clr img {
 height: 12px;
 }
@@ -4649,23 +4650,21 @@ padding: 7px 9px 7px 20px;
 }
 /* end of transactions */
 /* find property */
-.popupcss_pad {
-max-width: 100%;
-flex: 100%;
+.mobilfullwidth_css{
+    max-width: 100%;
+    flex:100%;
+}
+.pricerangedivs .leaseddetails_slider {
+    width: 30%;
+}
+.similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p {
+    font-size: 20px;
 }
 .setup_modalprop .modal-header .modal-title {
 font-size: 18px;
 line-height: 16px;
 }
-.setup_modalprop .modal-dialog {
-max-width: 50%;
-}
-.bed_bath_pets{
-border-radius: 17px 17px 0 0;
-}
-.bed_bath_pets.moving_datesdiv{
-border-radius: 0px;
-}
+
 .bed_bath_pets.amenities_div{
 border-radius: 0px 0px 17px 17px;
 }
@@ -4683,13 +4682,19 @@ flex-basis: 79%;
 
 /* price range */
 .similar_unitsdiv.pricerangedivs .lochouse_details .house span, .similar_unitsdiv.pricerangedivs .lochouse_details .clock span {
-font-size: 10px;
+    font-size: 12px;
 }
 .pricerange_div {
 flex-basis: 56%;
 }
 .pricelabel_range {
-flex-basis: 25%;
+    flex-basis: 20%;
+}
+.similar_unitsdiv.pricerangedivs .lochouse_details .house, .similar_unitsdiv.pricerangedivs .lochouse_details .clock {
+    padding: 5px 12px 5px 12px;
+}
+.similar_unitsdiv.pricerangedivs .slidelocation_div .txt_loc {
+    font-size: 14px;
 }
 /* end of price range  */
 /* active lease */
@@ -5942,16 +5947,69 @@ margin: 0 0 12px 0;
 }
 /* end of transactions */
 /* price range  */
+.setup_modalprop.notif_div .modal-content .modal-header {
+    padding: 50px 10px 22px 0px;
+}
+.setup_modalprop.notif_div .modal-content .modal-header .modal-title{
+    color:#ffffff;
+}
+.bed_bath_pets.moving_datesdiv {
+    padding: 6px 0px 10px 0px;
+}
+.deskhide_resetbtn{
+    display: block;
+}
+.setup_modalprop .modal-dialog {
+    max-width: 100%;
+}
+.bottom_rightdetails.bottomsimilar .galdiv_clr img {
+    height: 10px;
+    margin: 0 4px 0 0px;
+}
+.pricerangedivs .galdiv_clr span,.pricerangedivs .videodiv_clr span {
+    font-size: 12px;
+}
+.pricerangedivs .bottom_rightdetails.bottomsimilar .galdiv_clr {
+    padding: 3px 15px 3px 11px;
+}
+.similar_unitsdiv.pricerangedivs .leaseddetails_slider .car_details, .similar_unitsdiv.pricerangedivs .leaseddetails_slider .shower_details, .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details {
+    padding: 3px 3px 2px 3px;
+    height: 43px;
+}
+.l-main .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details img {
+    margin: 7px 0 5px 0;
+}
+.similar_unitsdiv.pricerangedivs .leaseddetails_slider p {
+    margin: -3px 0 0 0;
+}
+.bed_bath_pets label {
+    margin: 0;
+}
+.pricerange_search {
+    margin: 40px auto 11px 27px;
+}
+.similar_unitsdiv.pricerangedivs .leaseddetails_slider .car_details img,
+ .similar_unitsdiv.pricerangedivs .leaseddetails_slider .shower_details img,
+  .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details img {
+    vertical-align: baseline;
+}
+.bed_bath_pets{
+    border-radius: 17px 17px 0 0;
+    }
+    .bed_bath_pets.moving_datesdiv{
+    border-radius: 0px;
+    }
 .loadmore_arrowsdownmobile a{
 position: fixed;
 bottom: 84px;
 left: 45%;
+z-index: 100;
 }
 .loadmore_arrowsdownmobile{
 display: block;
 }
 .flexprice_range {
-margin: 4.5em 0 1em 0;
+    margin: 3.5em 0 1em 0;
 }
 .fixcontenttopmobile{
 position: fixed;
@@ -5963,12 +6021,7 @@ top:64px;
 .rightalgn_buttonsprice{
 display: none;
 }
-.similar_unitsdiv.pricerangedivs .pr-2{
-padding-right:15px !important;
-}
-.similar_unitsdiv.pricerangedivs .pl-1{
-padding-left: 15px !important;
-}
+
 .pricerange_search .form-search .input-group input.form-control {
 padding: 10px 204px 10px 21px;
 }
@@ -5978,18 +6031,25 @@ font-size: 20px;
 .pricelabel_range p {
 margin: -42px 26px 0 0px;
 }
-.price-range-slider .range-bar{
-width: 95%;
+.price-range-slider .range-bar {
+    width: 89%;
 }
 .pricerange_search .form-search .input-group-append {
 right: 4px;
 }
-.pricerange_search {
-margin: 11px auto 11px 0;
-width: 95%;
+.pricerangedivs {
+    width: 90%;
 }
-.box-minmax{
-width: 96%;
+.pricerange_search {
+    margin: 40px auto 11px 24px;
+    width: 92%;
+    padding: 0;
+}
+.mobilfullwidth_css {
+    padding: 0 !important;
+}
+.box-minmax {
+    width: 91.3%;
 }
 .pricerange_search .form-search .input-group input.form-control::-webkit-input-placeholder{
 font-weight: 400;
@@ -6010,10 +6070,6 @@ flex-basis: 72%;
 margin: 5px 0 0px 0;
 height: 17px;
 }
-.similar_unitsdiv.pricerangedivs .leaseddetails_slider p {
-margin: 3px 0 0 0;
-}
-
 .similar_unitsdiv.pricerangedivs .lochouse_details .house span,
 .similar_unitsdiv.pricerangedivs .lochouse_details .clock span {
 font-size: 12px;
@@ -6027,11 +6083,15 @@ height: 19px;
 .similar_unitsdiv.pricerangedivs .slidelocation_div {
 margin: 5px 0 0 0;
 }
+.price-range-slider {
+    padding: 10px 9px;
+}
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count {
 top: 10px;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider {
-padding: 15px 15px 10px 15px;
+    padding: 15px 15px 10px 15px;
+    margin: 0 0 6px 0;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house,
 .similar_unitsdiv.pricerangedivs .lochouse_details .clock {
@@ -6046,9 +6106,7 @@ height: 23px;
 .similar_unitsdiv.pricerangedivs .descrip_details_list.verifitxt_divsec {
 padding: 5px 55px 5px 0;
 }
-.pricelabel_range {
-flex-basis: 16%;
-}
+
 /* end of price range */
 
 /* find property */
@@ -6080,10 +6138,25 @@ display: block;
 text-align: right;
 padding: 5px 0 0 0;
 }
-.setup_modalprop .modal-content{
-background: #315D80;
-padding: 10px;
-border-radius: 17px;
+.setup_modalprop .modal-content .modal-header {
+    background: #315D80;
+    padding: 15px 10px 0px 0px;
+    border-radius: 17px 17px 0 0;
+}
+.setup_modalprop .modal-header .close {
+    top: 15px;
+    right: 14px;
+}
+.setup_modalprop .btn.resetSearch{
+line-height: 16px;
+color: #315D80;
+margin: 12px auto 6px auto;
+background: unset;
+}
+.setup_modalprop .modal-content .modal-body{
+    background: #315D80;
+    padding: 10px; 
+    border-radius:0 0 17px 17px; 
 }
 .bed_bath_pets {
 background: unset;
@@ -6100,8 +6173,8 @@ width: auto;
 display: block;
 }
 .mobileviewfindprop_btn {
-display: block;
-margin: 0 58px 22px 0px;
+    display: block;
+    margin: 0 58px 4px 0px;
 }
 .mobhide_footerbtn{
 display: none;
@@ -7143,6 +7216,12 @@ font-size: 18px;
 .btmfilter_btns {
 width: 90%;
 }
+.price-range-slider .range-bar {
+    width: 87%;
+}
+.pricelabel_range {
+    flex-basis: 21%;
+}
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
 height: 15px;
 }
@@ -7151,8 +7230,9 @@ width: 155px;
 height: 40px;
 }
 .pricerang_btnsprop .algntxt {
-display: flex;
-justify-content: end;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
 }
 .btn.propnotify,.btn.saveprop {
 font-size: 12px;
@@ -7166,9 +7246,6 @@ height: 40px;
 /* find property */
 .prop_find_details img {
 height: 120px;
-}
-.setup_modalprop .modal-dialog {
-max-width: 56%;
 }
 .bed_bath_pets .category-lists-slider .swiper-container {
 padding: 0 0 0 5px;
@@ -8112,11 +8189,14 @@ width: 49%;
 /* end of confirm and reschedule showing pop up */
 /* price range */
 .fixcontenttopmobile {
-top: 94px;
+    top: 69px;
 }
 .pricerange_search {
-margin: 33px auto 11px 0;
-width: 95%;
+    margin: 33px auto 11px 25px;
+    width: 89%;
+}
+.bed_bath_pets .category-lists-slider {
+    margin-top: 6px;
 }
 .price-range-slider {
 width: 78%;
@@ -8124,8 +8204,11 @@ float: none;
 padding: 10px 0px 10px 0;
 margin: 0 auto 0 0;
 }
+.btmfilter_btns.pricerang_btnsprop {
+    width: 98%;
+}
 .pricelabel_range {
-flex-basis: 16%;
+    flex-basis: 19%;
 }
 .btn.propnotify {
 margin: 0 0 0 -23px;
@@ -8301,10 +8384,7 @@ font-size: 15px;
 /* end of transactions */
 
 /* find property */
-.setup_modalprop .modal-dialog {
-max-width: 63%;
-margin: 23px auto;
-}
+
 .btn.svsearch {
 width: auto;
 font-size: 0.9em;
@@ -9818,9 +9898,18 @@ padding: 0 21px 0 10px;
 }
 /* end of transactions */
 /* price range */
+.pricelabel_range {
+    flex-basis: 22%;
+}
 .pricerange_search {
-margin: 29px auto 11px 0;
-width: 95%;
+    margin: 33px auto 11px 25px;
+    width: 88%;
+}
+.btn.propnotify, .btn.saveprop {
+    line-height: 26px;
+}
+.price-range-slider {
+    width: 73%;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house img,
 .similar_unitsdiv.pricerangedivs .lochouse_details .clock img {
@@ -9830,17 +9919,11 @@ margin: 0 3px 0 0px;
 .pricerangedivs .unverifi_divtxt p {
 margin: 2px 0 0 0;
 }
+.pricerangedivs {
+    width: 86%;
+}
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
 height: 16px;
-}
-.pricelabel_range {
-flex-basis: 18%;
-}
-.price-range-slider {
-width: 76%;
-}
-.pricerange_search {
-width: 95%;
 }
 .btmfilter_btns {
 width: 100%;
@@ -9855,9 +9938,6 @@ margin: 2px 0 0 0;
 /* find property */
 .prop_find_details img {
 height: 89px;
-}
-.setup_modalprop .modal-dialog {
-max-width: 75%;
 }
 .txt_details_prop {
 padding: 16px 7px 8px 7px;
@@ -11435,19 +11515,27 @@ margin: 0 0px 21px 0px;
 
 
 /* price range */
-.pricerange_search {
-margin: 29px auto 11px 0;
-width: 95%;
+.pricerangedivs .leaseddetails_slider {
+    width: 41%;
 }
-
+.bed_bath_pets.moving_datesdiv {
+    padding: 6px 0px 10px 0px;
+}
+.pricerange_search {
+    margin: 35px auto 11px 21px;
+    width: 88%;
+}
+.pricerangedivs {
+    width: 83%;
+}
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count p {
 line-height: 10px;
 }
 .pricelabel_range {
-flex-basis: 21%;
+    flex-basis: 27%;
 }
 .price-range-slider {
-width: 73%;
+    width: 65%;
 }
 .box-minmax {
 width: 97%;
@@ -11506,8 +11594,6 @@ font-size: 15px;
 }
 .setup_modalprop .modal-dialog {
 max-width: 96%;
-max-height: 700px;
-overflow-y: auto;
 }
 .prop_addres h4 {
 margin: 0 0 5px 0;
@@ -12815,7 +12901,11 @@ width: 62%;
 padding: 1.7em 1em 1.1em 1em;
 }
 .pricerange_search {
-width: 92%;
+    margin: 35px auto 11px 26px;
+    width: 88%;
+}
+.content-wrapper.content-wrapper--with-bg .container-fluid > div.titledesktop_hide.row {
+    margin: 0 0 31px 0px;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house img, .similar_unitsdiv.pricerangedivs .lochouse_details .clock img {
 height: 13px;
@@ -12831,8 +12921,6 @@ height: 128px;
 /* find property */
 .setup_modalprop .modal-dialog {
 max-width: 96%;
-max-height: 700px;
-overflow-y: auto;
 }
 /* end of find property */
 .bookappnt_divabs, .sched_meeting {
@@ -14038,8 +14126,17 @@ padding: 1.5em 0 2.8em 0;
 
 
 /* price range */
+.pricerangedivs .leaseddetails_slider {
+    width: 40%;
+}
+.bed_bath_pets.moving_datesdiv {
+    padding: 0;
+}
 .pricerange_search {
-margin: 29px auto 11px 0;
+    margin: 35px auto 11px 18px;
+}
+.pricerangedivs {
+    width: 84%;
 }
 .flexprice_range {
 margin: 4em 0 1em 0;
@@ -14065,14 +14162,17 @@ margin: 0px 0px 0 0px;
 .pricerang_btnsprop .btn.filterpricerg {
 margin: 0 0 0 10px;
 }
+.setup_modalprop .flexgrp_css {
+    margin: 0 0 1em 0;
+}
 .btmfilter_btns {
 width: 100%;
 }
 .pricelabel_range {
-flex-basis: 21%;
+    flex-basis: 26%;
 }
 .price-range-slider {
-width: 74%;
+    width: 67%;
 }
 .btn.saveprop, .btn.propnotify {
 font-size: 12px;
@@ -15431,18 +15531,37 @@ padding: 1.5em 0 2.8em 0;
 /* end of confirm showing pop up */
 
 /* price range */
+.setup_modalprop.notif_div .modal-content .modal-header {
+    padding: 44px 10px 22px 0px;
+}
+.pricerangedivs .leaseddetails_slider {
+    width: 40%;
+}
+.content-wrapper.content-wrapper--with-bg .container-fluid > div.titledesktop_hide.row {
+    margin: 0 0 18px 0px;
+}
+.bed_bath_pets.moving_datesdiv {
+    padding: 0px 0px 10px 0px;
+}
+.setup_modalprop .flexgrp_css {
+    margin: 0 0 16px 0;
+}
+.pricerange_search {
+    margin: 35px auto 11px 15px;
+}
+.pricelabel_range {
+    flex-basis: 25%;
+}
+.price-range-slider {
+    width: 71%;
+}
 .loadmore_arrowsdownmobile a {
 left: 41%;
 }
 .flexprice_range {
 margin: 4.4em 0 1em 0;
 }
-.pricelabel_range {
-flex-basis: 21%;
-}
-.price-range-slider {
-width: 74%;
-}
+
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
 height: 17px;
 }
@@ -15493,9 +15612,6 @@ margin: 0 0 0 -51px;
 
 .myteam_mobileview .leasflx_team .leaseflex .twotem_images {
 width: 94%;
-}
-.setup_modalprop .modal-dialog {
-max-height: 560px;
 }
 /* showing step 1 */
 .step_sharebg {
@@ -17023,14 +17139,43 @@ padding: 1.5em 0 2.8em 0;
 
 
 /* price range */
+.setup_modalprop.notif_div .modal-content .modal-header {
+    padding: 44px 10px 22px 0px;
+}
+.bed_bath_pets.moving_datesdiv {
+    padding: 0 0px 10px 0px;
+}
+.content-wrapper.content-wrapper--with-bg .container-fluid > div.titledesktop_hide.row {
+    margin: 0 0 8px 0px;
+}
+.pricerange_search {
+    margin: 35px auto 11px 12px;
+    width: 90%;
+}
+.pricelabel_range {
+    flex-basis: 23%;
+}
+.price-range-slider {
+    width: 77%;
+}
+.pricerangedivs {
+    width: 84%;
+}
+.setup_modalprop .flexgrp_css{
+    margin: 0 0 10px 0;
+}
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count {
 top: 7px;
 }
+.pricerangedivs .leaseddetails_slider {
+    width: 43%;
+}
+.btmfilter_btns.pricerang_btnsprop {
+    width: 90%;
+}
+
 .loadmore_arrowsdownmobile a {
 left: 41%;
-}
-.pricelabel_range {
-flex-basis: 21%;
 }
 .similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p {
 font-size: 18px;
@@ -17051,8 +17196,8 @@ padding: 1.7em 0.4em 1.1em 0.4em;
 margin: 0 4px 0 7px;
 }
 .btn.saveprop, .btn.propnotify {
-font-size: 12px;
-width: auto;
+    font-size: 11px;
+    padding: 7px 12px;
 }
 .padcss_div {
 padding: 0;
@@ -18457,6 +18602,15 @@ font-size: 13px;
 }
 /* end of find property */
 /* price range */
+.pricerange_search {
+    margin: 35px auto 11px 11px;
+}
+.pricelabel_range {
+    flex-basis: 24%;
+}
+.price-range-slider {
+    width: 72%;
+}
 .loadmore_arrowsdownmobile a {
 left: 40%;
 bottom: 77px;
@@ -18502,8 +18656,8 @@ margin: 0 0 0 -35px;
 height: 19px;
 }
 .btn.saveprop, .btn.propnotify {
-height: 33px;
-padding: 5px 7px;
+    font-size: 11px;
+    padding: 7px 7px;
 }
 /* endof price range */
 

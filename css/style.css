@@ -5249,6 +5249,7 @@ width: auto;
 display: inline-block;
 border-radius: 0px;
 margin: 0 2px 0 0px;
+object-fit: unset;
 }
 .house span img {
 height: 12px;
@@ -8849,22 +8850,25 @@ align-items: center;
 margin: 9em 0 2em 0;
 }
 .labeltxt_bed p {
-font-family: 'Helvetica';
-font-weight: 400;
-font-size: 11px;
-line-height: 19px;
-text-transform: capitalize;
-color: #FFFFFF;
-margin: 0 8px 0 8px;
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0 8px 0 8px;
+}
+.content-wrapper.content-wrapper--with-bg .setup_modalprop .container-fluid {
+  padding: 0 15px;
 }
 .bed_bath_pets label{
-font-family: 'Helvetica';
-font-weight: 500;
-font-size: 12px;
-line-height: 22px;
-text-transform: capitalize;
-color: #FFFFFF;
-margin: 0;
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0 0 4px 13px;
 }
 .listimges_prop{
 margin:0 0 3em 0;
@@ -8882,7 +8886,7 @@ padding: 10px;
 width:100%;
 }
 .setup_modalprop .modal-dialog {
-max-width: 56%;
+max-width:736px;
 }
 .popupcss_pad{
 padding: 0 5px;
@@ -8908,6 +8912,15 @@ height: 40px;
 border: unset;
 text-align: center;
 padding: 10px 35px 10px 5px;
+}
+.moving_datesdiv .dropdown.dropinfo .dropdown-menu .dropdown-item{
+  color: #ffffff;
+  font-size: 13px;
+}
+.moving_datesdiv .dropdown.dropinfo .dropdown-menu{
+background-color: rgba(49, 93, 128,0.89);
+border:unset;
+border-radius: 17px;
 }
 .moving_datesdiv .movedate_value .input-group-text{
 background-color: unset;
@@ -8940,8 +8953,8 @@ display: flex;
 width: 100%;
 align-items: center;
 }
-.setup_modalprop.notif_div .furnish_div{
-justify-content: end;
+.setup_modalprop.notif_div .furnish_div {
+  justify-content: space-between;
 }
 .priceprop_p{
 display: flex;
@@ -9096,8 +9109,14 @@ border-radius: 17px 17px 0 0;
 .movedate_value.input-group>.form-control:focus {
 z-index: unset;
 }
+.priceprop_p .parkdiv .label_datetxt,.priceprop_p .parkdiv .parking_proptype {
+  width: 48%;
+}
+.priceprop_p .furnish_div .label_datetxt,.priceprop_p .furnish_div .furnis_proptype {
+  width: 48%;
+}
 .setup_modalprop.show{
-background:rgba(255, 255, 255,0.75);
+background:rgba(255, 255, 255,0.36);
 backdrop-filter: blur(7.5px);
 }
 .setup_modalprop .modal-footer{
@@ -9133,14 +9152,27 @@ text-align: center;
 color:#ffffff;
 box-shadow: unset;
 }
-.btn.svsearch{
-width: 349px;
+.btn.svsearch,.btn.svSettings{
+  width: 150px;
 height: 40px;
 background: linear-gradient(281.64deg, #F8B195 -63.17%, #F2727F 63.95%);
 border-radius: 100px;
 text-transform: capitalize;
 box-shadow: unset;
 border: unset;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+}
+.deskhide_resetbtn{
+  display: none;
+}
+.setup_modalprop .btn.resetSearch{
+  width: 150px;
+font-weight: 700;
+font-size: 14px;
+color: #315D80;
 }
 .bed_bath_pets .category-lists-slider .swiper-container{
 border-radius: 30px;
@@ -9151,14 +9183,12 @@ margin:0;
 flex-basis: 80%;
 }
 .labeltxt_bed{
-background: #245073;
-border-radius: 42px 0px 0 42px;
-align-items: center;
-height: 40px;
-padding: 9px 0 0 0px;
-flex-basis: 20%;
+  background: #245073;
+  border-radius: 42px 0px 0 42px;
+  height: 40px;
+  padding: 9px 0 0 5px;
+  flex-basis: 20%;
 }
-
 .bed_bath_pets .category-lists-slider{
 position: relative;
 display: flex;
@@ -9381,7 +9411,7 @@ border-radius: 24px;
 border-top-left-radius: 24px;
 border-bottom-left-radius: 24px;
 color: #ffffff;
-font-size: 0.9em;
+font-size:14px;
 padding: 8px 11px 8px 15px;
 border: unset;
 }
@@ -9428,29 +9458,32 @@ outline: none;
 position: relative;
 }
 .box-minmax {
-margin-top: 17px;
 display: flex;
-justify-content: space-between;
-font-size: 20px;
-color: #000000;
-width: 71%;
-margin: 27px 0 0 0;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #000000;
+  width: 71.5%;
+  margin: 27px 0 0 0;
 }
 .rate_min{
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 12px;
-line-height: 11px;
-text-transform: capitalize;
-color: #9BB997;
+  background: #EDF2FA;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 11px;
+  text-transform: capitalize;
+  color: #9BB997;
+  padding: 3px 21px;
 }
 .rate_max{
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 12px;
-line-height: 11px;
-text-transform: capitalize;
+  background: #EDF2FA;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 11px;
+  text-transform: capitalize;
 color: #F2727F;
+padding: 3px 21px;
 }
 .pricerangedivs .unverifi_divtxt {
 margin: 0px 11px 0 0;
@@ -9540,6 +9573,11 @@ font-size: 20px;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .slidelocation_div span img {
 vertical-align: baseline;
+width: 13px;
+height: 16px;
+}
+.pricerangedivs .slidelocation_div .txt_loc{
+font-size: 14px;
 }
 .similar_unitsdiv .pricerange_sliderone .rat_tot_count p.count_rst,
 .similar_unitsdiv .pricerange_sliderone .ratingstar_count i{
@@ -11574,6 +11612,13 @@ margin:0 auto 7px auto;
 }
 
 /* range slider */
+.btn.filterbtnpriceimg{
+  padding: 0 0px 0 8px;
+}
+.btn.filterbtnpriceimg img{
+width: 22px;
+height:20px;
+}
 .price-range-slider {
 width: 100%;
 float: left;

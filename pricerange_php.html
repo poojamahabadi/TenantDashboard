@@ -1,0 +1,2410 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tenant Portal</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="font-awesome.css">
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="css/slick-theme.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Swiper Slider CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- Toastr CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <!-- Datepicker CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+
+    <link rel="stylesheet" href="css/jquery-clockpicker.min.css">
+<!-- Include Date Range Picker JS -->
+<script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+<!-- Include Date Range Picker CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/css/jquery-clockpicker.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/css/developer.css">
+    <link rel="stylesheet" href="css/new-stylecss.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Custom Scripts -->
+    <script src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/js/scripts.js"></script>
+
+    <!-- SweetAlert2 CSS & JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
+</head>
+
+<body>
+    <header class="l-header">
+        <div class="l-header__inner clearfix">
+            <div class="c-header-icon desktopversion_search">
+                                    <a href="javascript:void(0)" onclick="openNav()">
+                        <div class="hamburger-toggle">
+                            <span class="bar-top"></span>
+                            <span class="bar-mid"></span>
+                            <span class="bar-bot"></span>
+                        </div>
+                    </a>
+                            </div>
+            <div class="logo">
+                <div class="logo__txt">
+                    <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/dashboard" class="desktopversion_logo"><img
+                            src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/newlogo.svg"></a>
+                    <div class="mobileversion_view">
+                        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/dashboard"><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/mobile_logo.svg"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="c-search desktopversion_search">
+                <input class="c-search__input form-control" placeholder="Search" type="text" />
+                <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+                </button>
+            </div>
+            <div class="mobileversion_view txt_heading">
+                <h3>Property</h3> <!-- 'Default Heading' as fallback -->
+            </div>
+            <div class="links">
+                <ul>
+                    <li class="phone desktopversion_search"> <a href="">
+                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/phone.svg"></a>
+                        <div class="count_phone">
+                            <span>4</span>
+                        </div>
+                    </li>
+                    <li class="comment desktopversion_search"> <a href="">
+                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/comment.svg"></a>
+                        <div class="count_comment">
+                            <span>5</span>
+                        </div>
+                    </li>
+                    <li class="email desktopversion_search"> <a href="">
+                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/email.svg"></a>
+                        <div class="count_email">
+                            <span>6</span>
+                        </div>
+                    </li>
+                    <li class="notify"> <a href="">
+                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/notify.svg"></a>
+                        <div class="count_notify">
+                            <span>30</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="c-header-icon mobileversion_view">
+                                    <a href="javascript:void(0)" onclick="openNav()">
+                        <div class="hamburger-toggle">
+                            <span class="bar-top"></span>
+                            <span class="bar-mid">
+                            </span><span class="bar-bot"></span>
+                        </div>
+                    </a>
+                            </div>
+        </div>
+    </header>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="topsec_menu">
+        <div class="profilepic">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/profilemenu.svg">
+            <div class="status status_green">
+                <span></span>
+            </div>
+        </div>
+        <div class="profiledetails">
+            <p>Akhil Sharma <small> - Tenant</small></p>
+            <a href="">View Profile</a>
+        </div>
+        <div class="upgradediv">
+        </div>
+    </div>
+    <div class="c-search menusearch">
+        <!-- <input class="c-search__input form-control" placeholder="Search" type="text" />
+        <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+        </button> -->
+    </div>
+    <div class="menu_nav">
+        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/dashboard" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/my_info.svg"> My Information
+        </a>
+        <!-- <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/communications" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/communication.svg"> Communications
+        </a> -->
+        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/showing/view" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/showings.svg"> Showings & Offers
+        </a>
+        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/showing/active-lease" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/active_lease.svg"> Active Lease
+        </a>
+        <!-- <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/transactions" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/transaction.svg"> Transactions
+        </a> -->
+        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/find-property" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/properties.svg"> Find a Properties
+        </a>
+
+        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/maintenance" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/maintenance.svg"> Maintenance
+        </a>
+
+        <div class="logoutsec">
+            <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/logout"
+               onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                <div class="c-menu__item__inner">
+                    <div class="c-menu-item__title"><span>Log Out</span></div>
+                </div>
+            </a>
+            <form id="logout-form" action="https://phpstack-1217932-4677201.cloudwaysapps.com/logout" method="POST" style="display: none;">
+                <input type="hidden" name="_token" value="8tmvOgyoXgKK5T2ukOAARaBIP9Efrh3ObbxXv2G1" autocomplete="off">            </form>
+        </div>
+    </div>
+</div>
+
+<main class="l-main ">
+    <div class="content-wrapper content-wrapper--with-bg">
+        <div class="container-fluid">
+            
+    <div class="fixcontenttopmobile">
+        <div class="row algncenter_price">
+        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 widrangefull">
+            <div class="search pricerange_search">
+                <div class="form-search">
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" placeholder="Search" data-toggle="modal"
+                               data-target="#setup_prop">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn searchbtn">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/find-property/property-map-view" class="btn btnmap">Map View <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/map_pin.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 widrangefull">
+            <div class="rightalgn_buttonsprice">
+                <button class="btn savepropbtnprice">Saved Properties <img
+                        src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/find_property/save_prop.svg"></button>
+                <button href="#notifymodal" data-toggle="modal" class="btn propnotifprice">Property Notification <img
+                        src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/find_property/bell_prop.svg"></button>
+                <a href="#setup_prop" data-toggle="modal" class="btn filterbtnpriceimg"><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/find_property/filterpricerange.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="pricerange_container">
+        <!-- price range  -->
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="flexprice_range">
+                    <div class="pricelabel_range">
+                        <p>price</p>
+                    </div>
+                    <div class="price-range-slider">
+                        <div id="slider-range" class="range-bar"></div>
+                        <p class="range-value">
+                            <input type="text" class="ipone" id="amountone" readonly>
+                            <input type="text" class=" optwo" id="amounttwo" readonly>
+                        </p>
+                        <div class="box-minmax">
+                            <span class="rate_min">$0</span><span class="rate_max">$5000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- price range end  -->
+
+        <div class="similar_unitsdiv pricerangedivs">
+            <section class="pricerange_sliderone">
+                <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-2 pl-1 colshow_load mobilfullwidth_css">
+                            <div class="leasedslider">
+                                <div class="imageover_details">
+                                    <img src="https://tenantportal.royalyorkpropertymanagement.ca/storage/uploads/coming-soon-small.webp">
+                                    <div class="top_section1">
+                                        <div class="newdiv">
+                                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/lease_slider/new.svg">
+                                        </div>
+                                    </div>
+                                    <div class="bottom_rightdetails bottomsimilar">
+                                      <span class="galdiv_clr" data-toggle="modal" data-target="#galleryModal"
+                                            data-id="22">
+                                        <img
+                                            src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/gallery.svg"> <span>0</span>
+                                      </span>
+                                    </div>
+                                    <div class="top_section2">
+                                        <div class="heartdiv redheart">
+                                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/lease_slider/redheart.svg">
+                                        </div>
+                                    </div>
+                                    <div class="leaseddetails_slider">
+                                        <div class="car_details">
+                                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/park.svg">
+                                            <p>2</p>
+                                        </div>
+                                        <div class="shower_details">
+                                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/shower.svg">
+                                            <p>3.5</p>
+                                        </div>
+                                        <div class="bed_details">
+                                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/bed.svg">
+                                            <p>3.5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/find-property/detail/22">
+                                    <div class="descrip_details_list">
+                                        <div class="price_rate">
+                                            <p>$3,100.00</p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="lochouse_details">
+                                        <div class="house">
+                                            <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/house.svg"> House</span>
+                                        </div>
+                                        <div class="clock">
+                                            <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/clock.svg">1 days on market</span>
+                                        </div>
+                                    </div>
+                                    <div class="slidelocation_div">
+                                        <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/price_range/map.svg"></span>
+                                        <span class="txt_loc">17 Coote Court, Ajax, Ontario L1T 0P5</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-2 pl-1 colshow_load mobilfullwidth_css">
+                            <div class="leasedslider">
+                                <div class="imageover_details">
+                                    <img src="https://tenantportal.royalyorkpropertymanagement.ca/storage/uploads/coming-soon-small.webp">
+                                    <div class="top_section1">
+                                        <div class="newdiv">
+                                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/lease_slider/new.svg">
+                                        </div>
+                                    </div>
+                                    <div class="bottom_rightdetails bottomsimilar">
+                                      <span class="galdiv_clr" data-toggle="modal" data-target="#galleryModal"
+                                            data-id="25">
+                                        <img
+                                            src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/gallery.svg"> <span>0</span>
+                                      </span>
+                                    </div>
+                                    <div class="top_section2">
+                                        <div class="heartdiv redheart">
+                                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/lease_slider/redheart.svg">
+                                        </div>
+                                    </div>
+                                    <div class="leaseddetails_slider">
+                                        <div class="car_details">
+                                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/park.svg">
+                                            <p>2</p>
+                                        </div>
+                                        <div class="shower_details">
+                                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/shower.svg">
+                                            <p>1</p>
+                                        </div>
+                                        <div class="bed_details">
+                                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/bed.svg">
+                                            <p>1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/find-property/detail/25">
+                                    <div class="descrip_details_list">
+                                        <div class="price_rate">
+                                            <p>$2,200.00</p>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="lochouse_details">
+                                        <div class="house">
+                                            <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/house.svg"> Multi Unit - Above Ground</span>
+                                        </div>
+                                        <div class="clock">
+                                            <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/clock.svg">1 days on market</span>
+                                        </div>
+                                    </div>
+                                    <div class="slidelocation_div">
+                                        <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/price_range/map.svg"></span>
+                                        <span class="txt_loc">B-9 Foord Road, Ajax, Ontario L1S 1K6</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    <!-- load more -->
+                    <div class="loadmore_arrowsdownmobile">
+                        <a href="javascript:void(0);" class="down_load_arrowmobile"><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/price_range/scrolldown.svg"></a>
+                    </div>
+                    <!-- end of load more -->
+                    <!-- scroll down -->
+                    <div class="scrolldown_arrows">
+                        <a href="javascript:void(0);" class="downarrw_scroll">Load More</a>
+                    </div>
+                    <!-- end of scroll down -->
+                </div>
+            </section>
+            <!-- scroll top -->
+            <div class="scrollup_arrows">
+                <a href="javascript:void(0);" class="uparrwscroll"><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/price_range/scrollup.svg">Go to top</a>
+            </div>
+            <!-- scroll top -->
+        </div>
+    </div>
+
+
+    <!--proce range bottom -->
+    <div class="btmfilter_btns pricerang_btnsprop">
+        <div class="container-fluid">
+            <div class="row flx_btnsalign">
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 padcss_div">
+                    <button class="btn saveprop">Saved Properties <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/find_property/save_prop.svg"></button>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7 algntxt padcss_div">
+                    <a href="#notifymodal" data-toggle="modal" class="btn propnotify">Property Notification <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/find_property/bell_prop.svg">
+                    </a>
+                    <a href="#setup_prop" data-toggle="modal" class="btn filterpricerg"><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/find_property/filterpricerange.svg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fullscreen-blur" id="fullscreen-blur" style="display: none;">
+        <div class="loader" id="loader-image">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Gallery Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel">Gallery</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row" id="galleryContent">
+                            <!-- Images will be populated here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery Modal -->
+
+    <!-- setup properties  -->
+    <div class="modal setup_modalprop" id="setup_prop">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <div class="mobileviewfindprop_btn">
+                        <button data-target="#notifymodal" data-toggle="modal" data-dismiss="modal" type="button" class="btn btn-danger svsearch">save search</button>
+                    </div>
+                    <h4 class="modal-title">setup your preferred properties</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="titledesktop_hide row">
+                            <div class="col-xl-12">
+                                <h4>setup your preferred properties</h4>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 popupcss_pad">
+                                    <div class="bed_bath_pets">
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label for="Beds">Beds:</label>
+                                                <div class="bedbg_colr">
+                                                    <div class="category-lists-slider bednav">
+                                                        <div class="labeltxt_bed">
+                                                            <p>Studio+</p>
+                                                        </div>
+                                                        <div class="swiper-container bedslider" id="catgory-sliderbed">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <div id="beds-1"
+                                                                         class="category-button beds "
+                                                                         data-id="1+">
+                                                                        1+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div id="beds-2"
+                                                                         class="category-button beds "
+                                                                         data-id="2+">
+                                                                        2+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div id="beds-3"
+                                                                         class="category-button beds "
+                                                                         data-id="3+">
+                                                                        3+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div id="beds-4"
+                                                                         class="category-button beds "
+                                                                         data-id="4+">
+                                                                        4+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div id="beds-5"
+                                                                         class="category-button beds "
+                                                                         data-id="5+">
+                                                                        5+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div id="beds-6"
+                                                                         class="category-button beds "
+                                                                         data-id="6+">
+                                                                        6+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slider-button slider-prev"><i
+                                                                class="fa fa-chevron-left"></i></div>
+                                                        <div class="slider-button slider-next"><i
+                                                                class="fa fa-chevron-right"></i></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label for="Baths">Baths:</label>
+                                                <div class="bedbg_colr">
+                                                    <div class="category-lists-slider bathnav">
+                                                        <div class="labeltxt_bed">
+                                                            <p>Any</p>
+                                                        </div>
+                                                        <div class="swiper-container bathslider"
+                                                             id="catgory-sliderbath">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <div id="baths-1"
+                                                                         class="category-button baths "
+                                                                         data-id="1+">
+                                                                        1+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div id="baths-2"
+                                                                         class="category-button baths "
+                                                                         data-id="2+">
+                                                                        2+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div id="baths-3"
+                                                                         class="category-button baths "
+                                                                         data-id="3+">
+                                                                        3+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div id="baths-4"
+                                                                         class="category-button baths "
+                                                                         data-id="4+">
+                                                                        4+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div id="baths-5"
+                                                                         class="category-button baths "
+                                                                         data-id="5+">
+                                                                        5+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div id="baths-6"
+                                                                         class="category-button baths "
+                                                                         data-id="6+">
+                                                                        6+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slider-button slider-prev"><i
+                                                                class="fa fa-chevron-left"></i></div>
+                                                        <div class="slider-button slider-next"><i
+                                                                class="fa fa-chevron-right"></i></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 popupcss_pad">
+                                    <div class="bed_bath_pets moving_datesdiv">
+                                        <div class="flexmovedate">
+                                            <div class="form-group flexgrp_css">
+                                                <div class="label_datetxt">
+                                                    <label for="movingdate">moving date</label>
+                                                </div>
+                                                <div class="movedate_value input-group">
+                                                    <input type="text" value="dec 1 , 2024"  id="moving_date" class="form-control" id="mov_datetxt">
+                                                    <div class="input-group-append dateiconimg">
+                                                        <span class="input-group-text">
+                                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/find_property/dateic.svg">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="proptype_p">
+                                            <div class="form-group flexgrp_css">
+                                                <div class="label_datetxt">
+                                                    <label for="propertytype">property type</label>
+                                                </div>
+                                                <div class="selc_proptype">
+                                                    <div class="dropdown dropinfo">
+                                                        <button type="button" class="btn dropdown-toggle"
+                                                                data-toggle="dropdown"
+                                                                aria-expanded="false">--Select Here--</button>
+                                                        <div class="dropdown-menu" style="">
+                                                            <a class="dropdown-item" href="#">Condominium</a>
+                                                            <a class="dropdown-item" href="#">Freestanding Townhouse</a>
+                                                            <a class="dropdown-item" href="#">Unit - Apartment
+                                                                Building</a>
+                                                            <a class="dropdown-item" href="#">House</a>
+                                                            <a class="dropdown-item" href="#">Multi Unit - Above
+                                                                Ground</a>
+                                                            <a class="dropdown-item" href="#">Stacked Townhouse</a>
+                                                            <a class="dropdown-item" href="#">Basement</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="priceprop_p">
+                                            <div class="form-group flexgrp_css">
+                                                <div class="label_datetxt">
+                                                    <label for="parking">parking</label>
+                                                </div>
+                                                <div class="selc_proptype">
+                                                    <div class="dropdown dropinfo parking_proptype1">
+                                                        <button type="button" class="btn dropdown-toggle"
+                                                                data-toggle="dropdown"
+                                                                aria-expanded="false">--Select Here--</button>
+                                                        <div class="dropdown-menu" style="">
+                                                            <a class="dropdown-item" href="#">yes</a>
+                                                            <a class="dropdown-item" href="#">no</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer mobhide_footerbtn">
+                    <button type="button" class="btn btn-danger svsearch">save search</button>
+                    <button type="button" class="btn btn-danger resetSearch">reset search</button>
+                </div>
+                <button type="button" class="btn btn-danger resetSearch deskhide_resetbtn">reset search</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- end of setup properties -->
+
+    <!-- notify me  -->
+    <div class="modal setup_modalprop notif_div" id="notifymodal">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">notify me</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 popupcss_pad">
+                                    <div class="bed_bath_pets">
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label for="Beds">Beds:</label>
+                                                <div class="bedbg_colr">
+                                                    <div class="category-lists-slider bednav">
+                                                        <div class="labeltxt_bed">
+                                                            <p>Studio+</p>
+                                                        </div>
+                                                        <div class="swiper-container bedslider11"
+                                                             id="catgory-sliderbed11">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button active"
+                                                                         data-id="data41">
+                                                                        1+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data42">
+                                                                        2+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data43">
+                                                                        3+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data44">
+                                                                        4+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data45">
+                                                                        5+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data46">
+                                                                        6+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slider-button slider-prev"><i
+                                                                class="fa fa-chevron-left"></i></div>
+                                                        <div class="slider-button slider-next"><i
+                                                                class="fa fa-chevron-right"></i></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label for="Baths">Baths:</label>
+                                                <div class="bedbg_colr">
+                                                    <div class="category-lists-slider bathnav">
+                                                        <div class="labeltxt_bed">
+                                                            <p>Any+</p>
+                                                        </div>
+                                                        <div class="swiper-container bathslider12"
+                                                             id="catgory-sliderbath12">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide active">
+                                                                    <div class="category-button active"
+                                                                         data-id="data51">
+                                                                        1+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data52">
+                                                                        2+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data53">
+                                                                        3+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data54">
+                                                                        4+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data55">
+                                                                        5+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data56">
+                                                                        6+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slider-button slider-prev"><i
+                                                                class="fa fa-chevron-left"></i></div>
+                                                        <div class="slider-button slider-next"><i
+                                                                class="fa fa-chevron-right"></i></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label for="Pets">Pets:</label>
+                                                <div class="bedbg_colr">
+                                                    <div class="category-lists-slider petnav">
+                                                        <div class="swiper-container petslider13"
+                                                             id="catgory-sliderpet13">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button active"
+                                                                         data-id="data61">
+                                                                        None
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data62">
+                                                                        Cat
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data63">
+                                                                        Dog
+                                                                    </div>
+                                                                </div>
+                                                                <!-- <div class="swiper-slide">
+                                                                    <div class="category-button" data-id="data34">
+                                                                       Dog
+                                                                    </div>
+                                                                </div> -->
+                                                            </div>
+                                                        </div>
+                                                        <div class="slider-button slider-prev"><i
+                                                                class="fa fa-chevron-left"></i></div>
+                                                        <div class="slider-button slider-next"><i
+                                                                class="fa fa-chevron-right"></i></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 popupcss_pad">
+                                    <div class="bed_bath_pets moving_datesdiv">
+                                        <div class="flexmovedate">
+                                            <div class="form-group flexgrp_css">
+                                                <div class="label_datetxt">
+                                                    <label for="movingdate">moving date</label>
+                                                </div>
+                                                <div class="movedate_value input-group">
+                                                    <input type="text" value="dec 1 , 2024" id="datepickertwo" class="form-control" id="mov_datetxt">
+                                                    <div class="input-group-append dateiconimg">
+                                                        <span class="input-group-text">
+                                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/find_property/dateic.svg">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="proptype_p">
+                                            <div class="form-group flexgrp_css">
+                                                <div class="label_datetxt">
+                                                    <label for="propertytype">property type</label>
+                                                </div>
+                                                <div class="selc_proptype">
+                                                    <div class="dropdown dropinfo">
+                                                        <button type="button" class="btn dropdown-toggle"
+                                                                data-toggle="dropdown" aria-expanded="false">family
+                                                        </button>
+                                                        <div class="dropdown-menu" style="">
+                                                            <a class="dropdown-item" href="#">multi family</a>
+                                                            <a class="dropdown-item" href="#">family</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="priceprop_p">
+                                            <div class="form-group parkdiv">
+                                                <div class="label_datetxt">
+                                                    <label for="parking">parking</label>
+                                                </div>
+                                                <div class="parking_proptype">
+                                                    <div class="dropdown dropinfo">
+                                                        <button type="button" class="btn dropdown-toggle"
+                                                                data-toggle="dropdown" aria-expanded="false">yes
+                                                        </button>
+                                                        <div class="dropdown-menu" style="">
+                                                            <a class="dropdown-item" href="#">yes</a>
+                                                            <a class="dropdown-item" href="#">no</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group furnish_div">
+                                                <div class="label_datetxt">
+                                                    <label for="Furnished">Furnished</label>
+                                                </div>
+                                                <div class="furnis_proptype">
+                                                    <div class="dropdown dropinfo">
+                                                        <button type="button" class="btn dropdown-toggle"
+                                                                data-toggle="dropdown" aria-expanded="false">yes
+                                                        </button>
+                                                        <div class="dropdown-menu" style="">
+                                                            <a class="dropdown-item" href="#">yes</a>
+                                                            <a class="dropdown-item" href="#">no</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger svSettings" data-dismiss="modal">save Settings</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end of notify me -->
+
+        </div>
+    </div>
+    <div id="loader">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</main>
+
+
+
+
+<!-- Script Inclusions -->
+<!-- jQuery (ensure one version is used) -->
+<script src="https://phpstack-1217932-4677201.cloudwaysapps.com/admin/plugins/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Additional Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/js/jquery-clockpicker.min.js"></script>
+<script src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/js/swiper-bundle.min.js"></script>
+
+<!-- Google Maps API -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHl2q8AVSHkjv9RfHbzUKxyK4UP8mAv_4"></script>
+<script src="https://unpkg.com/@googlemaps/markerclustererplus@1.2.10/dist/index.min.js"></script>
+
+<!-- Custom Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Optional Frameworks -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="js/slick.min.js"></script>
+
+<!-- FullCalendar -->
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
+<!-- Include PDF.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+<!-- Dynamsoft Web TWAIN -->
+<script src="https://docs.opencv.org/4.7.0/opencv.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ColonelParrot/jscanify@master/src/jscanify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<!-- Allow for Page-Specific Scripts -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+
+    
+    <script>
+        $(function() {
+            $("#datepickerone,#moving_date").datepicker();
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            var currentDate = new Date();
+            var formattedDate = (currentDate.getMonth() + 1) + '/' + currentDate.getDate() + '/' + currentDate.getFullYear();
+            document.getElementById('moving_date').value = formattedDate;
+        });
+    </script>
+
+    
+    <script>
+        // price range scroll up and scroll down
+        $(".pricerangedivs .pricerange_sliderone .colshow_load").hide();
+        $('.uparrwscroll').hide();
+        $(document).ready(function() {
+            var win = $(this);
+            if (win.width() >767) {
+                $(".pricerangedivs .pricerange_sliderone .colshow_load").slice(0, 3).show();
+                $("body").on('click touchstart', '.downarrw_scroll', function (e) {
+                    e.preventDefault();
+                    $(".pricerangedivs .pricerange_sliderone .colshow_load:hidden").slice(0, 3).slideDown(1000);
+
+                    if ($(".pricerangedivs .pricerange_sliderone .colshow_load:hidden").length == 0) {
+                        $(".downarrw_scroll").css('visibility', 'hidden');
+                        $(".uparrwscroll").show(1000);
+                    }
+                    $('html,body').animate({
+                        scrollTop: $(this).offset().top
+                    }, 1000);
+                });
+            }
+            else if(win.width() <=767) {
+                $(".scrolldown_arrows").hide();
+                $(".pricerangedivs .pricerange_sliderone .colshow_load").slice(0, 2).show();
+                $("body").on('click touchstart', '.down_load_arrowmobile', function (e) {
+                    e.preventDefault();
+                    $(".pricerangedivs .pricerange_sliderone .colshow_load:hidden").slice(0,1).slideDown(1000);
+
+                    if ($(".pricerangedivs .pricerange_sliderone .colshow_load:hidden").length == 0) {
+                        $(".down_load_arrowmobile").css('visibility', 'hidden');
+                        $(".uparrwscroll").show(1000);
+                        $(".scrolldown_arrows").show(1000);
+                    }
+                    $('html,body').animate({
+                        scrollTop: $(this).offset().top+150
+                    }, 1000);
+
+                });
+            }
+        });
+
+        $(document).ready(function() {
+            $(".uparrwscroll").click(function() {
+                $('html, body').animate({
+                    scrollTop: $(".pricerange_container").offset().top-110}, 1000);
+            });
+        });
+
+    </script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            $(function () {
+                $("#slider-range").slider({
+                    range: true,
+                    min: 0,
+                    max: 5000,
+                    values: [0, 5000],
+                    slide: function (event, ui) {
+                        var minval = $("#amountone").val("$" + ui.values[0]);
+                        $(this).find('span').first().attr('class', 'firstspanmaxprice');
+                        $('.range-bar span.firstspanmaxprice').html(minval);
+                        var maxval = $("#amounttwo").val("$" + ui.values[1]);
+                        $('.range-bar span.firstspanmaxprice + span ').html(maxval);
+                    },
+                    stop: function (event, ui) {
+                        // Call fetchFilteredProperties with min and max values when sliding stops
+                        fetchFilteredProperties(ui.values[0], ui.values[1]);
+                    }
+                });
+
+                function getQueryParams() {
+                    const params = new URLSearchParams(window.location.search);
+                    return {
+                        city: params.get('city'),
+                        province: params.get('province')
+                    };
+                }
+                function fetchFilteredProperties(minPrice, maxPrice) {
+                    console.log('Fetching properties with price range:', minPrice, maxPrice);
+                    const {city, province} = getQueryParams();
+                    $.ajax({
+                        url: 'https://phpstack-1217932-4677201.cloudwaysapps.com/find-property/filter-price-property',
+                        method: 'GET',
+                        data: {
+                            price_from: minPrice,
+                            price_to: maxPrice,
+                            city: city,
+                            province: province
+                        },
+                        success: function(response) {
+                            console.log('Properties fetched successfully:', response.data);
+                            const properties = response.data;
+                            const propertyList = $('.pricerange_sliderone .row');
+                            propertyList.empty(); // Clear existing properties
+
+                            properties.forEach(property => {
+                                const detailsRoute = `https://phpstack-1217932-4677201.cloudwaysapps.com/find-property/detail/${property.id}`;
+                                const propertyHtml = `
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-2 pl-1 colshow_load">
+                        <div class="leasedslider">
+                            <div class="imageover_details">
+                                <img src="${property.thumbnail_path}">
+                                <div class="top_section1">
+                                    <div class="newdiv">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/lease_slider/new.svg">
+                                    </div>
+                                </div>
+                                <div class="bottom_rightdetails bottomsimilar">
+                                    <span class="galdiv_clr" data-toggle="modal" data-target="#galleryModal" data-id="${property.id}">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/gallery.svg"> <span>${property.attachments.length}</span>
+                                    </span>
+                                </div>
+                                <div class="top_section2">
+                                    <div class="heartdiv redheart">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/lease_slider/redheart.svg">
+                                    </div>
+                                </div>
+                                <div class="leaseddetails_slider">
+                                    <div class="car_details">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/park.svg">
+                                        <p>${property.Number_of_Parking_Spaces}</p>
+                                    </div>
+                                    <div class="shower_details">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/shower.svg">
+                                        <p>${property.Bathrooms}</p>
+                                    </div>
+                                    <div class="bed_details">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/bed.svg">
+                                        <p>${property.Bathrooms}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="${detailsRoute}">
+                                <div class="descrip_details_list">
+                                    <div class="price_rate">
+                                        <p>$${property.Market_Price_With_Parking_and_Locker.toFixed(2)}</p>
+                                    </div>
+                                </div>
+                                <div class="lochouse_details">
+                                    <div class="house">
+                                        <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/house.svg"> ${property.Unit_Type}</span>
+                                    </div>
+                                    <div class="clock">
+                                        <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/clock.svg">1 days on market</span>
+                                    </div>
+                                </div>
+                                <div class="slidelocation_div">
+                                    <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/price_range/map.svg"></span>
+                                    <span class="txt_loc">${property.Name}</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                `;
+                                propertyList.append(propertyHtml);
+                            });
+                        },
+                        error: function(xhr) {
+                            console.error('An error occurred while fetching properties.');
+                        }
+                    });
+                }
+
+            });
+        });
+
+        $(document).ready(function () {
+            var minvaladd = $(".range-bar span:nth-child(2)");
+            minvaladd.append('<input type="text" class="ipone" id="amountone" readonly="" value="0">');
+
+            var maxvalueadd = $(".range-bar span:nth-child(3)");
+            maxvalueadd.append('<input type="text" class="ipone" id="amounttwo" readonly="" value="5000">');
+        });
+
+    </script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            $('#galleryModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var propertyId = button.data('id');
+                var propertyName = button.closest('.leasedslider').find('.txt_loc').text();
+                var modal = $(this);
+                var galleryContent = modal.find('#galleryContent');
+
+                modal.find('.modal-title').text(propertyName);
+
+                $.ajax({
+                    url: '/api/property/' + propertyId + '/attachments',
+                    method: 'GET',
+                    success: function (data) {
+                        galleryContent.empty();
+                        if (data.attachments.length === 0) {
+                            galleryContent.html('<p>No photos in this property</p>');
+                        } else {
+                            data.attachments.forEach(function (attachment) {
+                                var imageHtml = `
+                            <div class="col-md-4 mb-4">
+                                <a href="${attachment.file_path}" data-lightbox="gallery-${propertyId}" data-title="${attachment.file_name ?? '-'}">
+                                    <img src="${attachment.file_path}" class="img-fluid" alt="${attachment.file_name ?? '-'}">
+                                </a>
+                            </div>
+                        `;
+                                galleryContent.append(imageHtml);
+                            });
+                        }
+                    },
+                    error: function () {
+                        galleryContent.html('<p>No data found</p>');
+                    }
+                });
+            });
+        });
+    </script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.beds').forEach(function (button) {
+                button.addEventListener('click', function () {
+                    document.querySelectorAll('.beds').forEach(function (btn) {
+                        btn.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.baths').forEach(function (button) {
+                button.addEventListener('click', function () {
+                    document.querySelectorAll('.baths').forEach(function (btn) {
+                        btn.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelector('.svsearch').addEventListener('click', function (event) {
+                event.preventDefault();
+
+                let bedsElement = document.querySelector('#catgory-sliderbed .category-button.active');
+                let bathsElement = document.querySelector('#catgory-sliderbath .category-button.active');
+                let movingDateElement = document.querySelector('#moving_date');
+                let propertyTypeElement = document.querySelector('.selc_proptype .dropdown-toggle');
+                let parkingElement = document.querySelector('.parking_proptype1 .dropdown-toggle');
+
+                let formData = {
+                    beds: bedsElement ? bedsElement.dataset.id : '',
+                    baths: bathsElement ? bathsElement.dataset.id : '',
+                    moving_date: movingDateElement ? movingDateElement.value : '',
+                    property_type: propertyTypeElement && propertyTypeElement.textContent.trim() !== '--Select Here--' ? propertyTypeElement.textContent.trim() : '',
+                    parking: parkingElement && parkingElement.textContent.trim() !== '--Select Here--' ? parkingElement.textContent.trim() : '',
+                };
+
+                // Validate data
+                for (const key in formData) {
+                    if (formData[key] === '') {
+                        toastr.error(`${key.replace(/_/g, ' ').charAt(0).toUpperCase() + key.replace(/_/g, ' ').slice(1)} is required.`);
+                        return;
+                    }
+                }
+
+                $.ajax({
+                    url: 'https://phpstack-1217932-4677201.cloudwaysapps.com/find-property/settings/preferred',
+                    method: 'POST',
+                    data: formData,
+                    headers: {
+                        'X-CSRF-TOKEN': '8tmvOgyoXgKK5T2ukOAARaBIP9Efrh3ObbxXv2G1'
+                    },
+                    success: function (response) {
+                        toastr.success(response.message || 'Settings saved successfully!');
+                        setTimeout(function() {
+                            location.reload();
+                        }, 2000);
+                    },
+                    error: function (response) {
+                        toastr.error(response.message || 'An error occurred while saving settings.');
+                        setTimeout(function() {
+                            location.reload();
+                        }, 1000);
+                    }
+                });
+            });
+        });
+    </script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelector('.resetSearch').addEventListener('click', function (event) {
+                event.preventDefault();
+
+                $.ajax({
+                    url: '/api/properties/settings/preferred',
+                    method: 'DELETE',
+                    headers: {
+                        'Authorization': 'Bearer ' + '',
+                        'X-CSRF-TOKEN': '8tmvOgyoXgKK5T2ukOAARaBIP9Efrh3ObbxXv2G1'
+                    },
+                    success: function (response) {
+                        toastr.success('Settings reset successfully!1');
+                        /*setTimeout(function() {
+                            location.reload();
+                        }, 2000);*/
+                    },
+                    error: function (response) {
+                        toastr.error(response.message || 'An error occurred while resetting settings.');
+                    }
+                });
+            });
+        });
+    </script>
+    <script>
+    // ----------swiper-slider---------
+    var swiper = '';
+    $(window).on('load', function () {
+        swiper = new Swiper('#catgory-sliderbath', {
+            loop: false,
+            observer: true,
+            initialSlide: 1,
+            spaceBetween: 3,
+            observeParents: true,
+            slidesPerView: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderbath .bathnav .slider-next',
+                prevEl: '#catgory-sliderbath .bathnav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 5.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 5.5,
+                },
+                570: {
+                    slidesPerView: 4.5,
+                },
+                481: {
+                    slidesPerView: 4,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                },
+                320: {
+                    slidesPerView: 2.1,
+                },
+            }
+        });
+    });
+</script>
+<script>
+    var swipernoti = '';
+    $(window).on('load', function () {
+        swipernoti = new Swiper('#catgory-sliderbath12', {
+            loop: true,
+            observer: true,
+            initialSlide: 0,
+            spaceBetween: 3,
+            observeParents: true,
+            slidesPerView: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderbath12 .bathnav .slider-next',
+                prevEl: '#catgory-sliderbath12 .bathnav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 5.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 5.5,
+                },
+                570: {
+                    slidesPerView: 4.5,
+                },
+                481: {
+                    slidesPerView: 4,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                },
+                320: {
+                    slidesPerView: 2.1,
+                },
+            }
+        });
+    });
+</script>
+<script>
+    $(".bathslider .category-button").click(function () {
+        $(".bathslider .category-button").removeClass("active");
+        $(this).addClass('active');
+        swiper.unlockSwipeToNext();
+        var getid = $(this).data('id');
+        $(".bathslider .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+
+    $(".bathslider12 .category-button").click(function () {
+        $(".bathslider12 .category-button").removeClass("active");
+        $(this).addClass('active');
+        swiper.unlockSwipeToNext();
+        var getid = $(this).data('id');
+        $(".bathslider12 .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+
+</script>
+<script>
+    var swiperbed = '';
+    $(window).on('load', function () {
+        swiperbed = new Swiper('#catgory-sliderbed', {
+            loop: false,
+            observer: true,
+            observeParents: true,
+            slidesPerView: 4,
+            initialSlide: 1,
+            spaceBetween: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderbed .bednav .slider-next',
+                prevEl: '#catgory-sliderbed .bednav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 5.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 5.5,
+                },
+                570: {
+                    slidesPerView: 4.5,
+                },
+                481: {
+                    slidesPerView: 4,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                },
+                320: {
+                    slidesPerView: 2.1,
+                },
+            }
+        });
+    });
+</script>
+<script>
+    var swiperbednoti = '';
+    $(window).on('load', function () {
+        swiperbednoti = new Swiper('#catgory-sliderbed11', {
+            loop: true,
+            observer: true,
+            observeParents: true,
+            slidesPerView: 4,
+            initialSlide: 0,
+            spaceBetween: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderbed11 .bednav .slider-next',
+                prevEl: '#catgory-sliderbed11 .bednav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 5.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 5.5,
+                },
+                570: {
+                    slidesPerView: 4.5,
+                },
+                481: {
+                    slidesPerView: 4,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                },
+                320: {
+                    slidesPerView: 2.1,
+                },
+            }
+        });
+    });
+</script>
+
+
+<script>
+    $(".bedslider .category-button").click(function () {
+        $(".bedslider .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".bedslider .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+    $(".bedslider11 .category-button").click(function () {
+        $(".bedslider11 .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".bedslider11 .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+</script>
+
+
+<script>
+    // ----------swiper-slider---------
+    var swiperpet = '';
+    $(window).on('load', function () {
+        swiperpet = new Swiper('#catgory-sliderpet', {
+            loop: false,
+            observer: true,
+            initialSlide: 1,
+            spaceBetween: 3,
+            observeParents: true,
+            slidesPerView: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderpet .petnav .slider-next',
+                prevEl: '#catgory-sliderpet .petnav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 5.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 5.5,
+                },
+                570: {
+                    slidesPerView: 4.5,
+                },
+                481: {
+                    slidesPerView: 4,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                },
+                320: {
+                    slidesPerView: 2.1,
+                },
+            }
+        });
+    });
+</script>
+<script>
+    var swiperpetnoti = '';
+    $(window).on('load', function () {
+        swiperpetnoti = new Swiper('#catgory-sliderpet13', {
+            loop: false,
+            observer: true,
+            initialSlide: 0,
+            spaceBetween: 3,
+            observeParents: true,
+            slidesPerView: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderpet13 .petnav .slider-next',
+                prevEl: '#catgory-sliderpet13 .petnav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 5.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 5.5,
+                },
+                570: {
+                    slidesPerView: 4.5,
+                },
+                481: {
+                    slidesPerView: 4,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                },
+                320: {
+                    slidesPerView: 2.1,
+                },
+            }
+        });
+    });
+</script>
+
+<script>
+    $(".petslider .category-button").click(function () {
+        $(".petslider .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".petslider .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+    $(".petslider13 .category-button").click(function () {
+        $(".petslider13 .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".petslider13 .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+</script>
+
+<!-- dropdown property type -->
+<script>
+
+    $(document).ready(function () {
+        $('.selc_proptype .dropdown.dropinfo .dropdown-menu a').click(function (event) {
+            var option = $(event.target).text();
+            $(event.target).parents('.dropdown.dropinfo').find('.dropdown-toggle').html(option);
+        });
+
+        $('.parking_proptype .dropdown.dropinfo .dropdown-menu a').click(function (event) {
+            var option = $(event.target).text();
+            $(event.target).parents('.dropdown.dropinfo').find('.dropdown-toggle').html(option);
+        });
+
+        $('.furnis_proptype .dropdown.dropinfo .dropdown-menu a').click(function (event) {
+            var option = $(event.target).text();
+            $(event.target).parents('.dropdown.dropinfo').find('.dropdown-toggle').html(option);
+        });
+    });
+
+</script>
+<!-- dropdown property type end -->
+
+
+<!-- Allow for Page-Specific Scripts -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/js/jquery-ui.min.js"></script>
+
+    
+    <script>
+        $(function() {
+            $("#datepickerone,#moving_date").datepicker();
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            var currentDate = new Date();
+            var formattedDate = (currentDate.getMonth() + 1) + '/' + currentDate.getDate() + '/' + currentDate.getFullYear();
+            document.getElementById('moving_date').value = formattedDate;
+        });
+    </script>
+
+    
+    <script>
+        // price range scroll up and scroll down
+        $(".pricerangedivs .pricerange_sliderone .colshow_load").hide();
+        $('.uparrwscroll').hide();
+        $(document).ready(function() {
+            var win = $(this);
+            if (win.width() >767) {
+                $(".pricerangedivs .pricerange_sliderone .colshow_load").slice(0, 3).show();
+                $("body").on('click touchstart', '.downarrw_scroll', function (e) {
+                    e.preventDefault();
+                    $(".pricerangedivs .pricerange_sliderone .colshow_load:hidden").slice(0, 3).slideDown(1000);
+
+                    if ($(".pricerangedivs .pricerange_sliderone .colshow_load:hidden").length == 0) {
+                        $(".downarrw_scroll").css('visibility', 'hidden');
+                        $(".uparrwscroll").show(1000);
+                    }
+                    $('html,body').animate({
+                        scrollTop: $(this).offset().top
+                    }, 1000);
+                });
+            }
+            else if(win.width() <=767) {
+                $(".scrolldown_arrows").hide();
+                $(".pricerangedivs .pricerange_sliderone .colshow_load").slice(0, 2).show();
+                $("body").on('click touchstart', '.down_load_arrowmobile', function (e) {
+                    e.preventDefault();
+                    $(".pricerangedivs .pricerange_sliderone .colshow_load:hidden").slice(0,1).slideDown(1000);
+
+                    if ($(".pricerangedivs .pricerange_sliderone .colshow_load:hidden").length == 0) {
+                        $(".down_load_arrowmobile").css('visibility', 'hidden');
+                        $(".uparrwscroll").show(1000);
+                        $(".scrolldown_arrows").show(1000);
+                    }
+                    $('html,body').animate({
+                        scrollTop: $(this).offset().top+150
+                    }, 1000);
+
+                });
+            }
+        });
+
+        $(document).ready(function() {
+            $(".uparrwscroll").click(function() {
+                $('html, body').animate({
+                    scrollTop: $(".pricerange_container").offset().top-110}, 1000);
+            });
+        });
+
+    </script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            $(function () {
+                $("#slider-range").slider({
+                    range: true,
+                    min: 0,
+                    max: 5000,
+                    values: [0, 5000],
+                    slide: function (event, ui) {
+                        var minval = $("#amountone").val("$" + ui.values[0]);
+                        $(this).find('span').first().attr('class', 'firstspanmaxprice');
+                        $('.range-bar span.firstspanmaxprice').html(minval);
+                        var maxval = $("#amounttwo").val("$" + ui.values[1]);
+                        $('.range-bar span.firstspanmaxprice + span ').html(maxval);
+                    },
+                    stop: function (event, ui) {
+                        // Call fetchFilteredProperties with min and max values when sliding stops
+                        fetchFilteredProperties(ui.values[0], ui.values[1]);
+                    }
+                });
+
+                function getQueryParams() {
+                    const params = new URLSearchParams(window.location.search);
+                    return {
+                        city: params.get('city'),
+                        province: params.get('province')
+                    };
+                }
+                function fetchFilteredProperties(minPrice, maxPrice) {
+                    console.log('Fetching properties with price range:', minPrice, maxPrice);
+                    const {city, province} = getQueryParams();
+                    $.ajax({
+                        url: 'https://phpstack-1217932-4677201.cloudwaysapps.com/find-property/filter-price-property',
+                        method: 'GET',
+                        data: {
+                            price_from: minPrice,
+                            price_to: maxPrice,
+                            city: city,
+                            province: province
+                        },
+                        success: function(response) {
+                            console.log('Properties fetched successfully:', response.data);
+                            const properties = response.data;
+                            const propertyList = $('.pricerange_sliderone .row');
+                            propertyList.empty(); // Clear existing properties
+
+                            properties.forEach(property => {
+                                const detailsRoute = `https://phpstack-1217932-4677201.cloudwaysapps.com/find-property/detail/${property.id}`;
+                                const propertyHtml = `
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-2 pl-1 colshow_load">
+                        <div class="leasedslider">
+                            <div class="imageover_details">
+                                <img src="${property.thumbnail_path}">
+                                <div class="top_section1">
+                                    <div class="newdiv">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/lease_slider/new.svg">
+                                    </div>
+                                </div>
+                                <div class="bottom_rightdetails bottomsimilar">
+                                    <span class="galdiv_clr" data-toggle="modal" data-target="#galleryModal" data-id="${property.id}">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/gallery.svg"> <span>${property.attachments.length}</span>
+                                    </span>
+                                </div>
+                                <div class="top_section2">
+                                    <div class="heartdiv redheart">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/lease_slider/redheart.svg">
+                                    </div>
+                                </div>
+                                <div class="leaseddetails_slider">
+                                    <div class="car_details">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/park.svg">
+                                        <p>${property.Number_of_Parking_Spaces}</p>
+                                    </div>
+                                    <div class="shower_details">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/shower.svg">
+                                        <p>${property.Bathrooms}</p>
+                                    </div>
+                                    <div class="bed_details">
+                                        <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/bed.svg">
+                                        <p>${property.Bathrooms}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="${detailsRoute}">
+                                <div class="descrip_details_list">
+                                    <div class="price_rate">
+                                        <p>$${property.Market_Price_With_Parking_and_Locker.toFixed(2)}</p>
+                                    </div>
+                                </div>
+                                <div class="lochouse_details">
+                                    <div class="house">
+                                        <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/house.svg"> ${property.Unit_Type}</span>
+                                    </div>
+                                    <div class="clock">
+                                        <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/showings/slider/clock.svg">1 days on market</span>
+                                    </div>
+                                </div>
+                                <div class="slidelocation_div">
+                                    <span><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/price_range/map.svg"></span>
+                                    <span class="txt_loc">${property.Name}</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                `;
+                                propertyList.append(propertyHtml);
+                            });
+                        },
+                        error: function(xhr) {
+                            console.error('An error occurred while fetching properties.');
+                        }
+                    });
+                }
+
+            });
+        });
+
+        $(document).ready(function () {
+            var minvaladd = $(".range-bar span:nth-child(2)");
+            minvaladd.append('<input type="text" class="ipone" id="amountone" readonly="" value="0">');
+
+            var maxvalueadd = $(".range-bar span:nth-child(3)");
+            maxvalueadd.append('<input type="text" class="ipone" id="amounttwo" readonly="" value="5000">');
+        });
+
+    </script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            $('#galleryModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var propertyId = button.data('id');
+                var propertyName = button.closest('.leasedslider').find('.txt_loc').text();
+                var modal = $(this);
+                var galleryContent = modal.find('#galleryContent');
+
+                modal.find('.modal-title').text(propertyName);
+
+                $.ajax({
+                    url: '/api/property/' + propertyId + '/attachments',
+                    method: 'GET',
+                    success: function (data) {
+                        galleryContent.empty();
+                        if (data.attachments.length === 0) {
+                            galleryContent.html('<p>No photos in this property</p>');
+                        } else {
+                            data.attachments.forEach(function (attachment) {
+                                var imageHtml = `
+                            <div class="col-md-4 mb-4">
+                                <a href="${attachment.file_path}" data-lightbox="gallery-${propertyId}" data-title="${attachment.file_name ?? '-'}">
+                                    <img src="${attachment.file_path}" class="img-fluid" alt="${attachment.file_name ?? '-'}">
+                                </a>
+                            </div>
+                        `;
+                                galleryContent.append(imageHtml);
+                            });
+                        }
+                    },
+                    error: function () {
+                        galleryContent.html('<p>No data found</p>');
+                    }
+                });
+            });
+        });
+    </script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.beds').forEach(function (button) {
+                button.addEventListener('click', function () {
+                    document.querySelectorAll('.beds').forEach(function (btn) {
+                        btn.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.baths').forEach(function (button) {
+                button.addEventListener('click', function () {
+                    document.querySelectorAll('.baths').forEach(function (btn) {
+                        btn.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelector('.svsearch').addEventListener('click', function (event) {
+                event.preventDefault();
+
+                let bedsElement = document.querySelector('#catgory-sliderbed .category-button.active');
+                let bathsElement = document.querySelector('#catgory-sliderbath .category-button.active');
+                let movingDateElement = document.querySelector('#moving_date');
+                let propertyTypeElement = document.querySelector('.selc_proptype .dropdown-toggle');
+                let parkingElement = document.querySelector('.parking_proptype1 .dropdown-toggle');
+
+                let formData = {
+                    beds: bedsElement ? bedsElement.dataset.id : '',
+                    baths: bathsElement ? bathsElement.dataset.id : '',
+                    moving_date: movingDateElement ? movingDateElement.value : '',
+                    property_type: propertyTypeElement && propertyTypeElement.textContent.trim() !== '--Select Here--' ? propertyTypeElement.textContent.trim() : '',
+                    parking: parkingElement && parkingElement.textContent.trim() !== '--Select Here--' ? parkingElement.textContent.trim() : '',
+                };
+
+                // Validate data
+                for (const key in formData) {
+                    if (formData[key] === '') {
+                        toastr.error(`${key.replace(/_/g, ' ').charAt(0).toUpperCase() + key.replace(/_/g, ' ').slice(1)} is required.`);
+                        return;
+                    }
+                }
+
+                $.ajax({
+                    url: 'https://phpstack-1217932-4677201.cloudwaysapps.com/find-property/settings/preferred',
+                    method: 'POST',
+                    data: formData,
+                    headers: {
+                        'X-CSRF-TOKEN': '8tmvOgyoXgKK5T2ukOAARaBIP9Efrh3ObbxXv2G1'
+                    },
+                    success: function (response) {
+                        toastr.success(response.message || 'Settings saved successfully!');
+                        setTimeout(function() {
+                            location.reload();
+                        }, 2000);
+                    },
+                    error: function (response) {
+                        toastr.error(response.message || 'An error occurred while saving settings.');
+                        setTimeout(function() {
+                            location.reload();
+                        }, 1000);
+                    }
+                });
+            });
+        });
+    </script>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelector('.resetSearch').addEventListener('click', function (event) {
+                event.preventDefault();
+
+                $.ajax({
+                    url: '/api/properties/settings/preferred',
+                    method: 'DELETE',
+                    headers: {
+                        'Authorization': 'Bearer ' + '',
+                        'X-CSRF-TOKEN': '8tmvOgyoXgKK5T2ukOAARaBIP9Efrh3ObbxXv2G1'
+                    },
+                    success: function (response) {
+                        toastr.success('Settings reset successfully!1');
+                        /*setTimeout(function() {
+                            location.reload();
+                        }, 2000);*/
+                    },
+                    error: function (response) {
+                        toastr.error(response.message || 'An error occurred while resetting settings.');
+                    }
+                });
+            });
+        });
+    </script>
+    <script>
+    // ----------swiper-slider---------
+    var swiper = '';
+    $(window).on('load', function () {
+        swiper = new Swiper('#catgory-sliderbath', {
+            loop: false,
+            observer: true,
+            initialSlide: 1,
+            spaceBetween: 3,
+            observeParents: true,
+            slidesPerView: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderbath .bathnav .slider-next',
+                prevEl: '#catgory-sliderbath .bathnav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 4.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                570: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                481: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                    initialSlide: 0,
+                },
+                320: {
+                    slidesPerView: 2.5,
+                    initialSlide: 0,
+                },
+            }
+        });
+    });
+</script>
+<script>
+    var swipernoti = '';
+    $(window).on('load', function () {
+        swipernoti = new Swiper('#catgory-sliderbath12', {
+            loop: true,
+            observer: true,
+            initialSlide: 0,
+            spaceBetween: 3,
+            observeParents: true,
+            slidesPerView: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderbath12 .bathnav .slider-next',
+                prevEl: '#catgory-sliderbath12 .bathnav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 4.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                570: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                481: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                    initialSlide: 0,
+                },
+                320: {
+                    slidesPerView: 2.5,
+                    initialSlide: 0,
+                },
+            }
+        });
+    });
+</script>
+<script>
+    $(".bathslider .category-button").click(function () {
+        $(".bathslider .category-button").removeClass("active");
+        $(this).addClass('active');
+        swiper.unlockSwipeToNext();
+        var getid = $(this).data('id');
+        $(".bathslider .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+
+    $(".bathslider12 .category-button").click(function () {
+        $(".bathslider12 .category-button").removeClass("active");
+        $(this).addClass('active');
+        swiper.unlockSwipeToNext();
+        var getid = $(this).data('id');
+        $(".bathslider12 .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+
+</script>
+<script>
+    var swiperbed = '';
+    $(window).on('load', function () {
+        swiperbed = new Swiper('#catgory-sliderbed', {
+            loop: false,
+            observer: true,
+            observeParents: true,
+            slidesPerView: 4,
+            initialSlide: 1,
+            spaceBetween: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderbed .bednav .slider-next',
+                prevEl: '#catgory-sliderbed .bednav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 4.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                570: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                481: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                    initialSlide: 0,
+                },
+                320: {
+                    slidesPerView: 2.5,
+                    initialSlide: 0,
+                },
+            }
+        });
+    });
+</script>
+<script>
+    var swiperbednoti = '';
+    $(window).on('load', function () {
+        swiperbednoti = new Swiper('#catgory-sliderbed11', {
+            loop: true,
+            observer: true,
+            observeParents: true,
+            slidesPerView: 4,
+            initialSlide: 0,
+            spaceBetween: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderbed11 .bednav .slider-next',
+                prevEl: '#catgory-sliderbed11 .bednav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 4.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                570: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                481: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                    initialSlide: 0,
+                },
+                320: {
+                    slidesPerView: 2.5,
+                    initialSlide: 0,
+                },
+            }
+        });
+    });
+</script>
+
+
+<script>
+    $(".bedslider .category-button").click(function () {
+        $(".bedslider .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".bedslider .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+    $(".bedslider11 .category-button").click(function () {
+        $(".bedslider11 .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".bedslider11 .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+</script>
+
+
+<script>
+    // ----------swiper-slider---------
+    var swiperpet = '';
+    $(window).on('load', function () {
+        swiperpet = new Swiper('#catgory-sliderpet', {
+            loop: false,
+            observer: true,
+            initialSlide: 1,
+            spaceBetween: 3,
+            observeParents: true,
+            slidesPerView: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderpet .petnav .slider-next',
+                prevEl: '#catgory-sliderpet .petnav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 4.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                570: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                481: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                    initialSlide: 0,
+                },
+                320: {
+                    slidesPerView: 2.5,
+                    initialSlide: 0,
+                },
+            }
+        });
+    });
+</script>
+<script>
+    var swiperpetnoti = '';
+    $(window).on('load', function () {
+        swiperpetnoti = new Swiper('#catgory-sliderpet13', {
+            loop: false,
+            observer: true,
+            initialSlide: 0,
+            spaceBetween: 3,
+            observeParents: true,
+            slidesPerView: 3,
+            allowTouchMove: true,
+            mousewheel: true,
+            slideToClickedSlide: true,
+            centeredSlides: false,
+            navigation: {
+                nextEl: '#catgory-sliderpet13 .petnav .slider-next',
+                prevEl: '#catgory-sliderpet13 .petnav .slider-prev',
+            },
+            breakpoints: {
+                1280: {
+                    slidesPerView: 4.5,
+                },
+                1080: {
+                    slidesPerView: 4.5,
+                },
+                960: {
+                    slidesPerView: 3.5,
+                },
+                768: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                570: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                481: {
+                    slidesPerView: 3.5,
+                    initialSlide: 0,
+                },
+                400: {
+                    slidesPerView: 3.1,
+                    initialSlide: 0,
+                },
+                320: {
+                    slidesPerView: 2.5,
+                    initialSlide: 0,
+                },
+            }
+        });
+    });
+</script>
+
+<script>
+    $(".petslider .category-button").click(function () {
+        $(".petslider .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".petslider .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+    $(".petslider13 .category-button").click(function () {
+        $(".petslider13 .category-button").removeClass("active");
+        $(this).addClass('active');
+        var getid = $(this).data('id');
+        $(".petslider13 .data-text").removeClass('active');
+        $("#" + getid).addClass("active");
+    });
+</script>
+
+<!-- dropdown property type -->
+<script>
+
+    $(document).ready(function () {
+        $('.selc_proptype .dropdown.dropinfo .dropdown-menu a').click(function (event) {
+            var option = $(event.target).text();
+            $(event.target).parents('.dropdown.dropinfo').find('.dropdown-toggle').html(option);
+        });
+
+        $('.parking_proptype .dropdown.dropinfo .dropdown-menu a').click(function (event) {
+            var option = $(event.target).text();
+            $(event.target).parents('.dropdown.dropinfo').find('.dropdown-toggle').html(option);
+        });
+
+        $('.furnis_proptype .dropdown.dropinfo .dropdown-menu a').click(function (event) {
+            var option = $(event.target).text();
+            $(event.target).parents('.dropdown.dropinfo').find('.dropdown-toggle').html(option);
+        });
+    });
+
+</script>
+<!-- dropdown property type end -->
