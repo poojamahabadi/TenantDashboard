@@ -5365,6 +5365,12 @@ background: #315D80;
 border-radius: 25.6499px;
 color:#ffffff;
 }
+.about_descrip ul li:first-child {
+  padding: 0 10px 0 0px;
+}
+.about_descrip ul li:last-child {
+  padding: 0 0px 0 10px;
+}
 .btn.btninvite.minus img{
 content: url("../images/showings/slider/minus.svg");
 }
@@ -9531,15 +9537,18 @@ line-height: 18px;
 text-transform: capitalize;
 color: #315D80;
 }
-pricerange_div{
+.pricerange_div{
 flex-basis: 44%;
+}
+.content-wrapper.content-wrapper--with-bg .btmfilter_btns.pricerang_btnsprop .row.flx_btnsalign{
+  margin:0;
 }
 .btmfilter_btns.pricerang_btnsprop{
 background: #EDF2FA;
 border-radius: 24px 24px 0px 0px;
 width: auto;
 margin: 0 auto;
-padding: 1.7em 1em 1.1em 1em;
+padding: 25px 20px 20px 20px;
 position: fixed;
 left: 50%;
 bottom: 0;
