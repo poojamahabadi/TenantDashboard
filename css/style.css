@@ -8808,7 +8808,7 @@ margin: 0 0 0 auto;
 width: 100%;
 border-radius: 10px 10px 0 0;
 object-fit: cover;
-height: 183px;
+height: 100px;
 }
 .txt_details_prop{
 display: flex;
@@ -8842,7 +8842,7 @@ color: #315D80;
 background: rgba(127, 162, 189, 0.2);
 border-radius: 10px;
 }
-.findpropinfo .myinfo_txt img {
+.divinfo.findpropinfo .myinfo_txt img {
 margin-right: 15px;
 height: 17px;
 width: 18px;
@@ -9562,13 +9562,13 @@ height: 12px;
 height: 14px;
 }
 .btn.saveprop img,.btn.propnotify img{
-margin: -3px 0 0 4px;
+margin: -2px 0 0 4px;
 }
 .btn.saveprop,.btn.propnotify{
 font-family: 'Helvetica';
 font-weight: 400;
 color: #315D80;
-font-size: 14px;
+font-size: 12px;
 line-height: 22px;
 text-transform: capitalize;
 width: 187px;
