@@ -1,5 +1,42 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
-/* give notice */
+/* maintenance */
+.modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
+    max-width: 1014px;
+}
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 98px;
+}
+.calenderview_div.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
+    padding: 7px 22px 8px 10px;
+}
+.maintenance_div .acc_infotxt {
+    margin: 0px 0px 0 130px;
+}
+.belowpart_tenant.maintenance_div .profimg_div{
+    margin-top: -92px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 159px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 347px;
+}
+.calenderview_div.maintenance_upcomingevents{
+    height: 412px;
+    max-height: unset;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 53%;
+}
+.maintenance_upcomingevents .select-box .label::after, .maintenance_upcomingevents .select-box1 .label::after {
+    right: 10px;
+    padding: 6px 0;
+    top: -1px;
+}
+/* end of maintenance */
+
+
+    /* give notice */
 .reqdate_btnclick .bookappnt_divabs {
 right: 104px;
 }
@@ -8,7 +45,6 @@ right: 104px;
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track{
     margin: 0 0 0 -34px;
 }
-
 .schetour_img img {
 height: 147px;
 }
@@ -263,6 +299,42 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 1600px) {
+/* maintenance */
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 60px;
+}
+.req_service .maintenancepage .divinfo {
+    padding: 12px 20px 11px 18px;
+}
+.maintenance_div .acc_infotxt {
+    margin: 0px 0px 0 113px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 0px 0 0 0px;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin-top: -89px;
+}
+.listheight_auto {
+    max-height: 349px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 164px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 330px;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 65%;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 418px;
+}
+.maintenance.my_info.maint_pagediv {
+    height: 478px;
+}
+
+/* end of maintenance */
 /* price range */
 .similar_unitsdiv.pricerangedivs .slick-track {
 margin-left: -3px;
@@ -381,6 +453,26 @@ padding: 5px 19px;
 }
 
 @media only screen and (max-width: 1536px){
+/* maintenance */
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 52px;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin: -88px 0 0 24px;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 68%;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 157px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 323px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 0px 0 0 10px;
+}
+/* end of maintenance */
 /* schedule tour */
 .midsche_toursec {
 width: 65%;
@@ -457,6 +549,42 @@ left: -25px;
 }
 
 @media only screen and (max-width: 1400px){
+/* maintenance */
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 36px;
+}
+.my_teamdiv.myleaseteam_flex.maint_myteamflex.maint_myteamflex {
+    padding: 15px 21px 12px 13px;
+}
+.calenderview_div.maintenance_upcomingevents .listview:last-child{
+    margin-bottom: 0;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 75%;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 425px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 329px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 187px;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin-top: -82px;
+    margin-left: 24px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 0px 0 0 31px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 171px;
+}
+.maintenance_div .acc_infotxt {
+    margin: 0px 0px 0 78px;
+}
+/* end of maintenance */
 /* price range */
 .flexprice_range {
 margin: 1.9em 0 1em 0;
@@ -612,9 +740,44 @@ left: -3px;
 
 
 @media only screen and (max-width: 1366px){
-
+/* maintenance */
+.belowpart_tenant.maintenance_div .profimg_div img{
+    height: 146px;
+    width: 146px;
+}
+.maintenance.my_info.maint_pagediv {
+    height: 472px;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 412px;
+}
+.belowpart_tenant.maintenance_div .profimg_div .status {
+    right: -7px;
+}
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 31px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 324px;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin-top: -88px;
+    margin-left: 34px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 158px;
+}
+.belowpart_tenant.maintenance_div {
+    padding: 23px 0 43px 0;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 0px 0 0 37px;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 78%;
+}
+/* end of maintenance */
 /* schedule tour */
-
 .midsche_toursec {
 width: 73.25%;
 }
@@ -812,6 +975,33 @@ padding: 0 8px;
 }
 
 @media only screen and (max-width: 1280px){
+/* maintenance */
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin-top: -93px;
+    margin-left: 26px;
+}
+.reqserv_descrip p {
+    font-size: 14px;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 408px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 153px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 320px;
+}
+.belowpart_tenant.maintenance_div {
+    padding: 23px 0 39px 0;
+}
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 28px;
+}
+.maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
+    font-size: 16px;
+}
+/* end of maintenance */
 /* give notice pop up */
 .secdiv_dpheld .trans_txt h3{
 font-size: 22px;
@@ -1207,6 +1397,59 @@ margin-left: 212px;
 
 @media only screen and (max-width: 1200px){
 
+/* maintenance */
+.abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
+    padding: 9px 0 0 0;
+}
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 15px;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 405px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 317px;
+}
+
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 149px;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 86%;
+}
+.myleaseteam_flex.maint_myteamflex .btnappoint {
+    margin: 0 0 0 -14px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 0px 0 0 41px;
+}
+.reqserv_descrip p {
+    font-size: 14px;
+}
+.maint_pagediv .myinfotabs .btn.commn {
+    font-size: 11px;
+    width: 105px;
+}
+.calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
+    margin: 0px 5px 0 0;
+}
+.calenderview_div.maintenance_upcomingevents .listimg_reqservice_img img {
+    height: 25px;
+    width: 25px;
+}
+.maint_pagediv .name_addr p,.viewdescrip_reqserv_list p {
+    font-size: 11px;
+}
+.listheight_auto {
+    max-height: 340px;
+}
+.maintenance_div .profile_infotxt .prof_label,.maintenance_div .acc_infotxt .acc_label {
+    line-height: 15px;
+}
+.maintenance_div .acc_infotxt {
+    margin: 0px 0px 0 72px;
+}
+/* end of maintenance */
 /* schedule tour */
 .midsche_toursec {
 width: 82.8%;
@@ -1586,6 +1829,86 @@ font-size: 15px;
 }
 
 @media only screen and (max-width:1136px){
+/* my team */
+.my_teamdiv {
+    padding: 17px 4px 17px 25px;
+}
+.teamtxt h3 {
+    margin: 0;
+}
+/* end of my team */
+/* maintenance */
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 92%;
+}
+.maint_pagediv .flexdiv_myinfo {
+    align-items: center;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 396px;
+}
+.slick_req_service {
+    padding: 18px 0 0 0px;
+}
+.maintenance_upcomingevents .seldatebox{
+    flex-basis: 68%;
+}
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 11px;
+}
+.listheight_auto {
+    max-height: 341px;
+}
+.maintenance_upcomingevents .viewdescrip_reqserv_list p{
+    line-height: 16px;
+}
+.my_teamdiv.myleaseteam_flex.maint_myteamflex.maint_myteamflex {
+    padding: 15px 21px 12px 20px;
+}
+.reqserv_descrip p {
+    font-size: 13px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 307px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 141px;
+}
+.maint_pagediv .flexdiv_myinfo .name_addr p.nm {
+    line-height: 15px;
+    font-size: 13px;
+    margin: 0 0 5px 0;
+}
+.maint_pagediv .infopad {
+    padding: 0 6px;
+}
+.maint_pagediv .myinfotabs .btn.commn {
+    font-size: 10px;
+    width: 99px;
+}
+.belowpart_tenant.maintenance_div .profimg_div img {
+    height: 133px;
+    width: 133px;
+}
+
+.slick_req_service .slide-content img {
+    height: 57px;
+    width: 57px;
+}
+.belowpart_tenant.maintenance_div {
+    padding: 23px 0 31px 0;
+}
+.maintenance_div .acc_infotxt {
+    margin: 0px 0px 0 56px;
+}
+.belowpart_tenant.maintenance_div .profimg_div .status {
+    right: 2px;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin-top: -87px;
+    margin-left: 20px;
+}
+/* end of maintenance */
 /* schedule tour */
 .midsche_toursec {
 width: 87.6%;
@@ -2091,6 +2414,28 @@ right: -5px;
 }
 
 @media only screen and (max-width:1080px){
+/* maintenance */
+.modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
+    max-width: 90%;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 97%;
+}
+.myleaseteam_flex.maint_myteamflex .btnappoint button.btn.btn_appoint.desktopbook {
+    width: 133px;
+    padding: 7px 5px;
+}
+.slick_req_service {
+    padding: 26px 0 0 0px;
+}
+.listheight_auto {
+    max-height: 346px;
+}
+.slick_req_service .slide-content img {
+    height: 53px;
+    width: 53px;
+}
+/* end of maintenance */
 /* schedule tour */
 .midsche_toursec {
 width: 92.2%;
@@ -2575,6 +2920,44 @@ right: -15px;
 
 
 @media only screen and (max-width:1024px){
+/* maintenance */
+.techni_profsection .statusmodal {
+    right: 10px;
+}
+.maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
+    font-size: 14px;
+}
+.modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
+    max-width: 96%;
+}
+.requestblocks_modal {
+    padding: 0 24px;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 99%;
+}
+.my_teamdiv.myleaseteam_flex.maint_myteamflex.maint_myteamflex {
+    padding: 13px 16px 12px 20px;
+}
+.maintenance_div .acc_infotxt {
+    margin: 0px 0px 0 44px;
+}
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 7px;
+}
+.myleaseteam_flex.maint_myteamflex .btnappoint button.btn.btn_appoint.desktopbook {
+    width: 130px;
+}
+.maint_pagediv .clocktime span,.maint_pagediv .datetime span {
+    font-size: 9px;
+}
+.maintenance_upcomingevents .listdate_show p {
+    font-size: 9px;
+}
+.maint_pagediv .name_addr p, .viewdescrip_reqserv_list p {
+    font-size: 10px;
+}
+/* end of maintenance */
 /* schedule tour */
 .midsche_toursec {
 width: 95.4%;
@@ -3000,6 +3383,36 @@ margin: 10px 0 0 0;
 }
 
 @media only screen and (max-width:992px){
+/* maintenance */
+.maint_pagediv .infopad {
+    padding: 0 3px;
+}
+.maintenancepage .myinfo_txt span {
+    font-size: 17px;
+}
+.maintenance_upcomingevents .seldatebox {
+    flex-basis: 73%;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 135px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 299px;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 388px;
+}
+.maintenance.my_info.maint_pagediv {
+    height: 465px;
+}
+.maint_pagediv .myinfotabs .btn.commn {
+    height: 29px;
+    width: 95px;
+}
+.reqserv_descrip p {
+    font-size: 12px;
+}
+/* end of maintenance */
 /* schedule tour */
 .confr_appt p {
 line-height: 16px;
@@ -3537,6 +3950,60 @@ padding: 4px 22px 4px 12px;
 }
 }
 @media only screen and (max-width:800px){
+/* maintenance */
+.reqservdiv_styl img {
+    height: 41px;
+    width: 41px;
+}
+.reqservdiv_styl {
+    margin: 0 10px 15px 0px;
+    flex-basis: 100%;
+}
+.maint_pagediv .myinfotabs .container {
+    max-width: 100%;
+}
+.requestblocks_modal {
+    padding: 0 11px;
+}
+.descrp_modalreqserv p {
+    font-size: 13px;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 71%;
+}
+.maintenance_upcomingevents .select-box .label::after, .maintenance_upcomingevents .select-box1 .label::after {
+    top: -1px;
+    right: 3px;
+}
+.maintenance_upcomingevents .seldatebox {
+    flex-basis: 39%;
+}
+.maintenance_upcomingevents .listview_show.container,.maintenance_upcomingevents .calview_show.container  {
+    max-width: 100%;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 400px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 308px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 145px;
+}
+.calenderview_div.maintenance_upcomingevents {
+    margin: 0 0 20px 0;
+    max-height: unset;
+}
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 84px;
+}
+.mainte_left_css{
+    padding:0 15px !important;
+}
+.mainte_right_css{
+    padding:0 15px!important;
+}
+/* end of maintenance */
 /* schedule tour */
 .midsche_toursec {
 width: 100%;
@@ -4576,6 +5043,43 @@ padding: 14px 20px;
 
 @media only screen and (max-width:768px){
 
+    /* maintenance */
+    .maintenance.my_info.maint_pagediv {
+        height: auto;
+    }
+    .descrp_modalreqserv p {
+        font-size: 12px;
+    }
+    .modal.viewallreq_modal .modal-body {
+        padding: 21px 0 4px 0;
+    }
+    .modal.viewallreq_modal .modal-header, .techni_modalstyl .modal-header {
+        justify-content: center;
+        border: unset;
+        padding: 27px 0 14px 0;
+    }
+    .maintenance_upcomingevents .seldatebox {
+        flex-basis: 41%;
+    }
+    .maint_pagediv .tab-content.myinfotabs {
+        max-height: 400px;
+    }
+    .belowpart_tenant.maintenance_div .profile_infotxt {
+        margin: 0px 0 0 -7px;
+    }
+    .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+        width: 94%;
+    }
+    .maintenance_div .acc_infotxt {
+        margin: 0px 0px 0 133px;
+    }
+    .maint_pagediv .infopad {
+        padding: 0 11px;
+    }
+    .maint_pagediv .stat_div {
+        margin: 1px 0 1px 66px;
+    }
+    /* end of maintenance */
 /* schedule tour */
 .schedtour_popup .modal-dialog{
     width: 100%;
@@ -4909,6 +5413,121 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
+/* maintenance */
+.midsche_toursec {
+    width: 100%;
+}
+.l-main .showing_det.prop_feature.propertyfeat_sche_showdiv {
+    height: auto;
+}
+.modal.schedtour_popup .tenantaccord .flexdiv .mobilebedbathrm_fields .basicdata select.form-control {
+    width: 68px;
+}
+.schedtour_popup .sche_tour h3{
+    font-size: 18px;
+}
+.schedtour_popup .modal-body.stepsmodal_body .bgclr_tabtourtypestep1 .sche_tour {
+    padding: 28px 18px 18px 18px;
+}
+.schedtour_popup .seldateboxsche_prop .select-box .label,.schedtour_popup .seldateboxsche_prop .select-box1 .label {
+    padding: 5px 21px 5px 0px;
+}
+.schedtour_popup .seldateboxsche_prop .date_heading h3 {
+    margin: 0 0 0 7px;
+}
+.maint_pagediv .myinfotabs .container{
+    max-width: 100%;
+}
+.descrp_modalreqserv p {
+    text-align: left;
+    font-size: 14px;
+}
+.reqservdiv_styl {
+    margin: 0 auto 15px auto;
+    display: flex;
+    width: 96%;
+    height: 40px;
+    align-items: center;
+    padding: 4px 6px 6px 19px;
+    justify-content: start;
+    flex-basis: unset;
+}
+.reqservdiv_styl img {
+    height: 21px;
+    width: 21px;
+    margin: 0 7px 0 0px;
+}
+.six_reqserblock {
+    flex-direction: column;
+    flex-basis: 49%;
+}
+.mobileversion_reqservice {
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    max-height: 484px;
+    width: 95%;
+    margin: 0 auto;
+}
+.mobileversion_reqservice::-webkit-scrollbar-track
+{
+border-radius: 10px;
+background-color: #DEE7F2;
+}
+.mobileversion_reqservice::-webkit-scrollbar
+{
+width: 7px;
+}
+.mobileversion_reqservice::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+background-color: #315D80;
+}
+.desktopreq_serv_modal{
+    display:none;
+}
+.modal.viewallreq_modal .modal-body {
+    padding: 6px 0 12px 0;
+}
+.descrp_modalreqserv {
+    padding: 7px 5px;
+    margin: 0;
+    flex-basis: 100%;
+    background: unset;
+}
+.upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link img {
+    vertical-align: middle;
+    margin: 0 0 0 3px;
+}
+.belowpart_tenant.maintenance_div .profimg_div .status {
+    right: -31px;
+}
+.belowpart_tenant .profimg_div .avatar-preview .status, .belowpart_tenant .profimg_div .status {
+    bottom: 24px;
+}
+.my_teamdiv.myleaseteam_flex.maint_myteamflex .team_memname {
+    flex-direction: row;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 429px;
+    margin: 0 0 10px 0;
+}
+.maintenance_upcomingevents .time_eventcalender{
+    max-height: 186px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 327px;
+}
+.calenderview_div.maintenance_upcomingevents .tab-content {
+    padding: 11px 12px 2px 12px;
+}
+.maintenance_div .acc_infotxt {
+    margin: 0px 0px 0 84px;
+}
+.belowpart_tenant.maintenance_div {
+    padding: 23px 0 31px 0 !important;
+}
+/* end of maintenance */
 .setup_modalprop .modal-header,.setup_modalprop .modal-body{
 background-color:unset;
 }
@@ -5016,9 +5635,12 @@ width: 55%;
 }
 .hidemedianleasedesktop .boxone_mark p,.hidemedianleasedesktop .boxtwo_mark p {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 21px;
     text-transform: capitalize;
     color: #6388A5;
+}
+.schedshow_newpropdistr .prop_ptxt {
+    text-align: center;
 }
 .hidemedianleasedesktop .boxone_mark h3{
     color: #8BAC8C;
@@ -5049,9 +5671,9 @@ text-align: center !important;
 flex-basis: 100%;
 }
 .schedshow_newpropdistr .proptype_dis {
-text-align: center;
-font-size: 18px;
-margin: 0 0 20px 0px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 16px 0px;
 }
 .l-main .mapdetails_div .category-button img {
     vertical-align: sub;
@@ -5122,7 +5744,7 @@ margin: 0 0 20px 0px;
     }
 .median_lease.mobilemedian_lease.hidemedianleasedesktop{
     display: block;
-    padding: 25px 7px 20px 7px;
+    padding: 22px 7px 20px 7px;
 }
 .hidemedianleasedesktop h3{
 font-weight: 700;
@@ -5173,13 +5795,10 @@ max-width: 100%;
 .schedtour_popup .sche_tour .switch-field input + label span.video img {
 height: 15px;
 }
-.schedtour_popup .seldateboxsche_prop .select-box1 {
-width: 29%;
-margin: 0;
+.schedtour_popup .seldateboxsche_prop .select-box1,.schedtour_popup .seldateboxsche_prop .select-box  {
+width: auto;
 }
-.schedtour_popup .seldateboxsche_prop .select-box {
-width: 39%;
-}
+
 .schedtour_popup .seldateboxsche_prop .select-box .label::after {
 right: -9px;
 }
@@ -5257,8 +5876,24 @@ align-items: baseline;
 }
 .sche_tour.propdetails_schetour .date_heading h3 {
     margin: 0 0 20px 0;
-    padding: 0 0px 0 11px;
+    padding: 0 0px 0 32px;
     font-size: 16px;
+}
+.sche_tour.mobileview_tour.propdetails_schetour .day_monthtab .tab-content .seldateboxsche_prop .monthyear_div {
+    width: 43%;
+}
+.sche_tour.mobileview_tour.propdetails_schetour .seldateboxsche_prop .select-box1 .label::after {
+    right: 0px;
+}
+.sche_tour.mobileview_tour.propdetails_schetour .seldateboxsche_prop .select-box1 .label,.sche_tour.mobileview_tour.propdetails_schetour .seldateboxsche_prop .select-box .label{
+    padding: 5px 20px 4px 7px;
+}
+.sche_tour.mobileview_tour.propdetails_schetour .day_monthtab .tab-content .seldateboxsche_prop .monthyear_div .select-box.month {
+    width: auto;
+    margin: 0;
+}
+.sche_tour.mobileview_tour.propdetails_schetour .day_monthtab .tab-content .seldateboxsche_prop .monthyear_div .select-box1.year{
+    width: auto;  
 }
 .propdetails_schetour .sched_tourdivbtn{
 text-align: center;
@@ -5285,7 +5920,7 @@ width: 13px;
 margin: 5px 0px 0px 0px;
 }
 .mobileview_tour.propdetails_schetour .sliderforday_div .slick-track {
-margin-left: 56px;
+margin-left: 0;
 }
 .schedshowbtmdets_new .map_streetshowings img {
 height: 17px;
@@ -5539,9 +6174,6 @@ padding:0 0px 0 16px;
 .similar_unitsdiv .simisched_tour .leasedslider{
 box-shadow: unset;
 }
-.midsche_toursec {
-margin: 87px auto 0 auto;
-}
 .showing_sched_tour h3 img {
 height: 24px;
 width: 24px;
@@ -5711,7 +6343,6 @@ width: 39%;
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
 text-align: left;
 font-size: 16px;
-margin: 0 0 0 18px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
     margin: 0 0 0 48px;
@@ -6027,7 +6658,7 @@ margin:0;
 position: fixed;
 bottom: 84px;
 left: 45%;
-z-index: 100;
+z-index: 1000;
 }
 .loadmore_arrowsdownmobile{
 display: block;
@@ -6411,10 +7042,7 @@ max-width: 100%;
 content: url(../images/showings/listview.svg);
 }
 
-.upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link img{
-vertical-align: text-top;
-margin: 0 0 0 3px;
-}
+
 .pendingslider .showingssec .showtime {
 margin: 8px 0 0px 0;
 padding: 2px 20px 4px 0px;
@@ -7116,7 +7744,86 @@ right: 13px;
 }
 }
 @media only screen and (max-width: 640px){
-
+/* maintenance */
+.maint_pagediv .stat_div {
+    margin: 1px 0 1px 34px;
+}
+.propdetails_slider .similar_unitsdiv .leasedslider {
+    margin: 11px 0px 0 11px;
+}
+.l-main .property_showing_card  .showings_sche_div .bottom_rightdetails {
+    bottom: 12px !important;
+}
+.l-main .property_showing_card .showings_sche_div .bottom_rightdetails .videodiv_clr,
+ .l-main .property_showing_card .showings_sche_div .bottom_rightdetails .galdiv_clr {
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+.property_showing_card .galdiv_clr span,.property_showing_card .videodiv_clr span {
+    vertical-align: text-bottom;
+}
+.hidemedianleasedesktop .boxone_mark, .hidemedianleasedesktop .boxtwo_mark {
+    padding: 17px 33px 22px 33px;
+}
+.sche_tour .switch-field input + label span.video img {
+    vertical-align: text-bottom;
+}
+.sche_tour.mobileview_tour.propdetails_schetour .seldateboxsche_prop .select-box1 .label{
+    padding: 5px 19px 4px 7px;
+}
+.sche_tour.mobileview_tour.propdetails_schetour .seldateboxsche_prop .select-box .label {
+    padding: 5px 21px 4px 7px;
+}
+.maintenance_upcomingevents .seldatebox {
+    flex-basis: 49%;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 475px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 198px;
+}
+.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link img {
+    vertical-align: middle;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 324px;
+}
+.my_teamdiv.myleaseteam_flex.maint_myteamflex.maint_myteamflex {
+    padding: 12px 16px 12px 20px;
+}
+.belowpart_tenant.maintenance_div .profimg_div img {
+    height: 100%;
+    width: 100%;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    width: 95px;
+    height: 95px;
+    display: block;
+}
+.belowpart_tenant.maintenance_div {
+    padding: 23px 0 24px 0 !important;
+}
+.maintenance_upcomingevents .headingcalen h3 {
+    margin: 0 0 21px 0;
+}
+.belowpart_tenant.maintenance_div .profimg_div .status {
+    right: 7px;
+}
+.belowpart_tenant.maintenance_div .profimg_div .avatar-preview .status, .belowpart_tenant.maintenance_div .profimg_div .status {
+    bottom: 19px;
+}
+.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events li {
+    text-align: center;
+}
+.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
+    width: 100%;
+    margin: 0 auto;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 100%;
+}
+/* end of maintenance */
 /* payment deposit */
 .descrp_photoinfo p {
 width: 74%;
@@ -7151,9 +7858,8 @@ width: 68%;
 .l-main .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
     margin-left: -55px !important;
 }
-.schedtour_popup .sche_tour > h3 {
-margin: 4px 0 21px 0;
-font-size: 18px;
+.schedtour_popup .seldateboxsche_prop .select-box .label, .schedtour_popup .seldateboxsche_prop .select-box1 .label {
+    padding: 5px 23px 5px 6px;
 }
 .schedtour_popup .modal-body.stepsmodal_body ul.nav.nav-tabs li.nav-item .nav-link {
 font-size: 18px;
@@ -7177,7 +7883,7 @@ vertical-align: bottom;
     left: 9px;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 144px;
+    margin-left: 160px;
 }
 .l-main .similar_unitsdiv .leasedslider .unverifi_divtxt img {
 top: 1px;
@@ -7391,6 +8097,10 @@ top: 8px;
 .headingcalen {
 width: 95%;
 margin: 0 auto 0 0;
+}
+.maintenance_upcomingevents .headingcalen {
+    width: 95%;
+    margin: 0 auto 0 auto;
 }
 .calendercard_show {
 flex-direction: column;
@@ -7852,7 +8562,7 @@ margin: 24px 0 0 0;
 }
 .about_descrip ul li {
     padding: 0 6px 0 6px;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 20px;
 }
 .leasedslider.areaexplr p {
@@ -8170,6 +8880,308 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
+/* maintenance */
+.maintenance_upcomingevents .calview_show {
+    padding: 10px;
+}
+.schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .timetab_div.modaltime_div .flxtime_design .block_time.mins_marg {
+    margin: 0 23px;
+}
+.sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
+    text-align: left;
+    padding-left: 30px;
+}
+.main_workdescrip{
+    flex-basis: 57%;
+}
+.workstatus_div{
+    flex-basis: 40%;
+}
+.maint_pagediv .stat_div {
+    margin: 4px 0 1px 0px;
+    text-align: right;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin: -82px 0 0 25px;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 500px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 374px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 229px;
+}
+.maintenance_upcomingevents .seldatebox {
+    flex-basis: 56%;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk{
+    margin:0;
+}
+.req_service {
+    margin: 16px 0 0 0;
+}
+.my_info.maintenance {
+    padding: 18px 14px 14px 14px;
+}
+.req_service .my_info.maintenancepage {
+    min-height: 245px;
+}
+.req_service .maintenancepage .divinfo {
+    padding: 11px 20px 11px 18px;
+}
+.maintenancepage .myinfo_txt span {
+    font-size: 18px;
+}
+.calenderview_div.maintenance_upcomingevents .calendercard_show {
+    margin: 0 0 10px 0;
+}
+.worksdesktop_view,.desktpview_all,.maint_pagediv a.refresh_a,.desktop_listview{
+    display:none;
+}
+.calenderview_div.maintenance_upcomingevents .listview {
+    margin-bottom: 10px;
+    padding: 0;
+}
+.maintenance_upcomingevents .weknamediv.active .wekdate {
+    font-size: 12px;
+}
+.mobile_listview .listdate_show {
+    margin: 10px 0 0 0;
+}
+.mainte_tabs .nav.nav-tabs{
+    border-radius: 22px;
+}
+.mainte_tabs .nav.nav-tabs .nav-item {
+    width: 50%;
+}
+.calenderview_div.maintenance_upcomingevents .listimg_reqservice_img img {
+    height: 30px;
+    width: 30px;
+}
+.calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
+    margin: 0px 14px 0 0;
+}
+.mobile_listview .viewdescrip_reqserv_list p {
+    font-size: 12px;
+}
+.leftsec_listdiv{
+    flex-basis: 20%;
+}
+.maintenance_upcomingevents .listdate_show p {
+    font-size: 10px;
+}
+.mobile_listview .listdate_show p img {
+    vertical-align: sub;
+    height: 14px;
+    width: 11px;
+}
+.mobile_listview .listtab_txt p {
+    margin: 0 9px;
+}
+.rightsec_listdiv{
+    flex-basis: 80%;
+}
+.maintenance_upcomingevents .headingcalen h3 img {
+    width: 22px;
+    height: 22px;
+}
+.eventstimings_sectiondiv{
+    display: flex;
+    align-items: center;
+}
+.calenderview_div.maintenance_upcomingevents .listrow {
+    margin: 0;
+    padding: 14px 20px;
+    align-items: center;
+    display: flex;
+}
+.mobile_listview .timings_datalist {
+    justify-content: space-between;
+    margin: 0;
+    align-items: end;
+}
+.maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
+    font-size: 18px;
+}
+.my_info.maint_pagediv .myinfo_txt img {
+    height: 22px;
+    width: 22px;
+}
+.date_timesecmain .clocktime{
+    margin:0 10px 0 0;
+}
+.maint_pagediv .myinfotabs .btn.commn {
+    height: auto;
+    width: auto;
+    padding: 8px 17px 8px 9px;
+}
+.maint_pagediv .myinfotabs .btn.commn img {
+    margin: 2px 7px 0 2px;
+}
+.reqserv_descrip p {
+    font-size: 16px;
+}
+.slick_req_service .slide-content img {
+    height: 62px;
+    width: 62px;
+}
+.mobilview_all{
+    display: block;
+    text-align: center;
+    padding: 0 0 12px 0;
+}
+.my_info.maintenancepage .myinfo_txt img {
+    height: 22px;
+    width: 22px;
+    margin-right: 9px;
+}
+.slick_req_service{
+    padding: 18px 0 0 0px;
+}
+.reqserv_descrip {
+    margin: 12px 0 0 0;
+}
+.maintenancepage .c-search.menusearch {
+    width: 63%;
+    margin: 0 0 0 auto;
+}
+.mainteam_mobileview .bookappnt_divabs {
+    margin: -33px 0px 0 -4px;
+}
+.worksmobile_view,.mobile_listview{
+    display: block;
+}
+.mainte_tabs .nav-tabs .nav-item .nav-link{
+    line-height: 31px;
+}
+.mainte_tabs .nav.nav-tabs {
+    margin: 0 0 8px 0;
+    box-shadow: unset;
+    border: unset;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 374px;
+}
+.viewall_workorders{
+    text-align: center;
+    margin: 17px 0 5px 0;
+}
+.calenderview_div.maintenance_upcomingevents .tab-content {
+    padding: 0;
+    background: unset;
+}
+.calenderview_div.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
+    padding: 7px 19px 8px 10px;
+}
+.upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link img {
+    vertical-align: middle;
+}
+.listheight_auto {
+    max-height: 390px;
+}
+.calenderview_div.maintenance_upcomingevents .eventtxtdiv h3 {
+    margin: 0 0 2px 0;
+}
+.calenderview_div.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp .linediv.yellowclr:before{
+    box-shadow: unset;
+}
+.viewall_workorders a{
+font-weight: 700;
+font-size: 14px;
+line-height:22px;
+text-align: center;
+text-transform: capitalize;
+color: #315D80;
+}
+.workorder_block{
+    background: #C9D7E5;
+    border-radius: 20px;
+    padding: 8px 14px 10px 14px;
+    margin: 0 0 10px 0;
+}
+.maint_pagediv .clocktime span, .maint_pagediv .datetime span {
+    font-size: 10px;
+    line-height: 16px;
+}
+.maint_pagediv .name_addr p.nm {
+    font-size: 14px;
+    line-height: 22px;
+}
+.maint_pagediv .name_addr p.addr{
+    font-size: 12px;
+    line-height: 19px;
+}
+.maindivwork_bottomsec,.date_timesecmain,
+.maindivwork_topsec{
+    display: flex;
+    justify-content: space-between;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3{
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    margin: 0 auto 0 -5px;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .btnappoint button.btn.btn_appoint.mobilebook {
+    padding: 6px 9px;
+    width: 107px;
+    font-size: 12px;
+    height: 46px;
+    line-height: 14px;
+}
+.belowpart_tenant.maintenance_div .profimg_div .status {
+    right: 9px;
+}
+.belowpart_tenant.maintenance_div .profimg_div .avatar-preview .status, .belowpart_tenant.maintenance_div .profimg_div .status {
+    bottom: 16px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 15px 0 0 27px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt .profilename {
+    order: 2;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
+    line-height: 12px;
+}
+.belowpart_tenant.maintenance_div .acc_infotxt {
+    margin: 14px 29px 0 0px;
+    text-align: right;
+}
+.belowpart_tenant.maintenance_div {
+    padding: 23px 0 15px 0 !important;
+}
+.belowpart_tenant.maintenance_div .profilename,.belowpart_tenant.maintenance_div .account_no {
+    font-size: 18px;
+    line-height: 28px;
+}
+.belowpart_tenant.maintenance_div .account_no {
+    justify-content: right;
+    margin: 0 3px 0 0px;
+}
+.myteam_mobileview.mainteam_mobileview .myleaseteam_flex.desk .prof_name p:nth-child(2) {
+text-align: center;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
+    max-height: 76px;
+    padding: 7px 7px 9px 22px;
+}
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    width: 74%;
+}
+.myteam_mobileview.mainteam_mobileview .myleaseteam_flex.desk .prof_name p:nth-child(2) {
+    font-size: 8px;
+    line-height: 11px;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk .prof_img img {
+    height: 36px;
+    width: 36px;
+}
+/* end of maintenance */
 /* property schedule */
 .propr_txt{
 margin-right:4px;
@@ -8206,9 +9218,6 @@ margin-right:4px;
     height: 44px;
     line-height: 30px;
 }
-.schedtour_popup .seldateboxsche_prop .select-box1 {
-    width: 32%;
-}
 .schedtour_popup .tenantaccord .flexdiv .mobilebedbathrm_fields .basicdata {
     width: 60px;
 }
@@ -8229,10 +9238,7 @@ margin: 0 0 23px 0;
     margin-left: -45px !important;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 151px;
-}
-.schedtour_popup .seldateboxsche_prop .select-box {
-    width: 44%;
+    margin-left: 141px;
 }
 .schedshow_newpropdistr .prop_distri {
 padding: 21px 13px 8px 13px;
@@ -8307,9 +9313,7 @@ padding-left: 0;
 .schetour_img img {
 height: 79px;
 }
-.mobileview_tour.propdetails_schetour .sliderforday_div .slick-track {
-margin-left: 49px;
-}
+
 .midsche_toursec .showing_viewdetails .btn.view_detail {
 font-size: 10px;
 padding: 3px 13px 5px 17px;
@@ -8506,11 +9510,11 @@ padding: 5px 6px 5px 18px;
 .ten_insur {
 padding: 0px;
 }
-.myteam_mobileview .leasflx_team .leaseflex .twotem_images{
-display: flex;
-width: 68%;
-margin: 0 0 0 -28px;
-text-align: center;
+.myteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    display: flex;
+    width: 85%;
+    margin: 0 0 0 -28px;
+    text-align: center;
 }
 .myteam_mobileview .prof_img {
 margin: 0;
@@ -8518,6 +9522,11 @@ margin: 0;
 .btn.btn_appoint {
 padding: 6px 25px;
 font-size: 14px;
+}
+.myteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .btnappoint button.btn.btn_appoint.mobilebook{
+    padding: 6px 25px;
+font-size: 14px;
+line-height: 17px;
 }
 .tenant_info {
 margin: 0px 0 0 0;
@@ -9271,7 +10280,7 @@ margin: 11px 8px 0 0px;
 .txt_heading h3 {
 font-size: 18px;
 }
-.mobileview_allunits h3, .mobileview_allunits h3, .about_descrip h3, .head_explr {
+.mobileview_allunits h3, .mobileview_allunits h3, .head_explr {
 font-size: 19px;
 }
 .button_myinfos.sched_reschedule .btn.reschedulebtn {
@@ -9820,6 +10829,68 @@ top: 11px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
+
+/* maintenance */
+.reqserv_descrip {
+    margin: 8px 0 0 0;
+}
+.sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
+    padding-left: 21px;
+}
+.schedtour_popup .seldateboxsche_prop .date_heading h3 {
+    margin: 0 0 0 18px;
+}
+.sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
+    padding-left: 23px;
+}
+.sche_tour.propdetails_schetour .flexschedule {
+    margin: 0 0 36px 0;
+}
+.about_descrip ul li {
+    line-height: 17px;
+}
+.sche_tour.propdetails_schetour .date_heading h3 {
+    margin: 0px 0 17px 0;
+    padding: 0 0px 0 28px;
+}
+.sche_tour.mobileview_tour.propdetails_schetour .day_monthtab .tab-content .seldateboxsche_prop {
+    width: 95%;
+    margin: 0 auto 0 auto;
+}
+.main_workdescrip {
+    flex-basis: 69%;
+}
+.workstatus_div {
+    flex-basis: 33%;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
+    padding: 5px 7px 9px 22px;
+}
+.maintenance_upcomingevents .seldatebox {
+    flex-basis: 59%;
+}
+.calenderview_div.maintenance_upcomingevents {
+    height: 500px;
+}
+.maintenance_upcomingevents .listheight_auto {
+    max-height: 374px;
+}
+.maintenance_upcomingevents .time_eventcalender {
+    max-height: 230px;
+}
+.mobilview_all {
+    padding: 4px 0 6px 0;
+}
+.belowpart_tenant.maintenance_div .acc_infotxt {
+    margin: 14px 21px 0 0px;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin: -85px 0 0 25px;
+}
+.mainteam_mobileview .bookappnt_divabs {
+    margin: -34px 0px 0 -4px;
+}
+/* maintenance */
 /* payment desposit */
 .paymentopt_billpayee {
 width: 88.5%;
@@ -9842,7 +10913,7 @@ align-items: flex-start;
 /* confirm showing and reschedule showing pop up end */
 /* schedule tour */
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 30px;
+    margin-left: 19px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
     left: 21px;
@@ -9858,9 +10929,6 @@ width: 95%;
 }
 .midsche_toursec .reschedulenew_div.tourresche {
 width: 97.8%;
-}
-.mobileview_tour.propdetails_schetour .sliderforday_div .slick-track {
-    margin-left: 41px;
 }
 .midsectour_sche .datelabel, .midsectour_sche .timelabel {
 width: 58%;
@@ -10619,7 +11687,7 @@ height: 11px;
 height: 15px;
 }
 .about_descrip ul li {
-font-size: 12px;
+font-size: 11px;
 }
 .showimgpend img {
 height: 107px;
@@ -10746,6 +11814,26 @@ width: 56%;
 
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
+    /* maintenance */
+    .belowpart_tenant.maintenance_div .profimg_div {
+        margin: -85px 0 0 29px;
+    }
+    .main_workdescrip {
+        flex-basis: 75%;
+    }
+    .workstatus_div {
+        flex-basis: 28%;
+    }
+    .req_service .maintenancepage .divinfo {
+        padding: 11px 13px 11px 18px;
+    }
+    .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+        width: 79%;
+    }
+    .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+        margin: 0 auto 0 7px;
+    }
+    /* end of maintenance */
 /* payment desposit */
 .paymentopt_billpayee {
 width: 80.5%;
@@ -10760,7 +11848,6 @@ width: 80.5%;
     width: 24%;
 }
 .hidemedianleasedesktop h3 {
-    font-size: 22px;
     line-height: 27px;
 }
 .l-main .similar_unitsdiv .leasedslider .unverifi_divtxt img {
@@ -10769,11 +11856,8 @@ width: 80.5%;
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
     margin-left: 23px;
 }
-.mobileview_allunits h3, .mobileview_allunits h3, .about_descrip h3, .head_explr {
+.mobileview_allunits h3, .mobileview_allunits h3, .head_explr {
     font-size: 23px;
-}
-.about_descrip ul li {
-    font-size: 11px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
     margin: 0px 0 0 -37px;
@@ -11319,6 +12403,9 @@ margin-left: 66px;
 .schedtour_popup .descrip_details_list {
     align-items: anchor-center;
 }
+.sche_tour.mobileview_tour.propdetails_schetour .day_monthtab .tab-content .seldateboxsche_prop {
+    width: 94%;
+}
 .schedtour_popup ul.nav-tabs {
     width: 65%;
 }
@@ -11338,7 +12425,7 @@ margin-left: 66px;
     width: 32%;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 25px;
+    margin-left: 15px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
     left: 26px;
@@ -11352,8 +12439,8 @@ margin-left: 66px;
 .about_descrip ul li {
     padding: 0 7px 0 7px;
 }
-.mobileview_tour.propdetails_schetour .sliderforday_div .slick-track {
-    margin-left: 21px;
+.sche_tour.propdetails_schetour .date_heading h3 {
+    padding: 0 0px 0 19px;
 }
 /* end of property */
 .myteam_mobileview .leasflx_team .leaseflex .twotem_images {
@@ -11395,6 +12482,108 @@ margin: 0 0 0 10px;
 
 
 @media only screen and (max-width: 414px) and (min-width:386px) {
+/* maintenance */
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin: -85px 0 0 22px;
+}
+.sche_tour .flexschedule {
+    margin: 0 0 31px 0;
+}
+.schedtour_popup .seldateboxsche_prop .date_heading h3 {
+    margin: 0 0 0 17px;
+}
+.sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
+    padding-left: 18px;
+}
+.sche_tour.propdetails_schetour .flexschedule {
+    margin: 0 0 32px 0;
+}
+.hidemedianleasedesktop .boxone_mark, .hidemedianleasedesktop .boxtwo_mark {
+    padding: 17px 25px 22px 25px;
+}
+.l-main .similar_unitsdiv .lochouse_details .house span, .l-main .similar_unitsdiv .lochouse_details .clock span {
+    font-size: 11px;
+}
+.main_workdescrip {
+    flex-basis: 72%;
+}
+.workstatus_div {
+    flex-basis: 28%;
+}
+.req_service .maintenancepage .divinfo {
+    padding: 11px 13px 11px 18px;
+}
+.reqservdiv_styl img {
+    margin: 0 3px 0 0px;
+}
+.maintenance_upcomingevents .select-box1 {
+    margin-left: 1px;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 98%;
+    margin: 0 auto;
+}
+.calenderview_div.maintenance_upcomingevents {
+    padding: 18px 8px 15px 8px;
+}
+.maintenance_upcomingevents .seldatebox {
+    flex-basis: 59%;
+}
+.mobilview_all {
+    padding: 3px 0 9px 0px;
+}
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    width: 79%;
+}
+.viewdescrip_reqserv_list h3 {
+    font-size: 13px;
+    line-height: 12px;
+}
+.maintenance_upcomingevents .img_reqservice_img img {
+    height: 25px;
+    width: 25px;
+}
+.mobile_listview .listtab_txt p {
+    margin: 0 5px;
+}
+.mobile_listview .viewdescrip_reqserv_list p {
+    font-size: 11px;
+}
+.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp{
+    left: 10px;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
+    padding: 5px 3px 9px 10px;
+}
+.maintenancepage .myinfo_txt {
+    flex-basis: 53%;
+}
+.maintenancepage .infomy_div {
+    flex-basis: 42%;
+}
+.mainteam_mobileview .bookappnt_divabs {
+    margin: -10px 0px 0 -12px;
+}
+
+.maintenancepage .c-search.menusearch{
+    width: 100%;
+}
+.calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
+    margin: 0px 9px 0 0;
+}
+.calenderview_div.maintenance_upcomingevents .listrow {
+    padding: 14px 13px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
+    line-height: 13px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 13px 0 0 22px;
+}
+.belowpart_tenant.maintenance_div .acc_infotxt {
+    margin: 11px 27px 0 0px;
+}
+/* end of maintenance */
 /* payment desposit */
 .paymentopt_billpayee {
 width: 93%;
@@ -11406,7 +12595,7 @@ right: -14px;
 
 /* schedule tour */
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 24px;
+    margin-left: 13px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
     left: 23px;
@@ -11468,9 +12657,6 @@ margin-left: 55px;
 }
 .toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
 width: 93%;
-}
-.mobileview_tour.propdetails_schetour .sliderforday_div .slick-track {
-    margin-left: 10px;
 }
 .midsectour_sche .bottomdiv_info.schetour_btm {
 padding: 12px 7px;
@@ -11713,7 +12899,7 @@ line-height: 10px;
 }
 .box-minmax {
 width: 97%;
-margin: 27px auto 0 auto;
+margin: 27px auto 0 auto !important;
 }
 .similar_unitsdiv .pricerange_sliderone .leasedslider .unverifi_divtxt img{
 margin: 4px 0 0 0;
@@ -11894,9 +13080,7 @@ padding: 8px 4px;
 .calenderview_div {
 max-height: 408px;
 }
-.listdate_show {
-margin: 7px 0 0 0;
-}
+
 .form-search.showmapgoogle .input-group input.form-control {
 padding: 10px 159px 10px 21px;
 }
@@ -12650,8 +13834,8 @@ font-size: 15px;
 }
 
 .mobileview_allunits h3, .mobileview_allunits h3, .about_descrip h3, .head_explr {
-font-size: 17px;
-line-height: 26px;
+font-size: 18px;
+line-height: 25px;
 }
 .detshow_div .showing_detailsdiv {
 align-items: baseline;
@@ -12894,6 +14078,56 @@ left: -18px;
 }
 
 @media only screen and (max-width: 393px) {
+/* maintenance */
+.rqservice_blocksslider {
+    padding: 4px 6px 6px 16px;
+}
+.about_descrip ul li {
+    padding: 0 5px 0 5px;
+    font-size: 11px;
+}
+.modal.viewallreq_modal .modal-header .close, .modal.techni_modalstyl .modal-header .close {
+    width: 28px;
+    height: 40px;
+    right: 7px;
+    top: 7px;
+}
+.descrp_modalreqserv p {
+    line-height: 16px;
+}
+.maintenance_upcomingevents .select-box1 {
+    width: 76px;
+    margin-left: 1px;
+}
+.mainteam_mobileview .myleaseteam_flex.desk .team_memname {
+    margin: 0 0 0 3px;
+}
+.maindivwork_bottomsec{
+    margin: 7px 0 0 0;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin: -86px 0 0 22px;
+}
+.belowpart_tenant.maintenance_div .acc_infotxt {
+    margin: 11px 22px 0 0px;
+}
+.belowpart_tenant.maintenance_div {
+    padding: 23px 0 11px 0 !important;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3 {
+    font-size: 15px;
+    line-height: 22px;
+}
+.reqserv_descrip p {
+    font-size: 14px;
+}
+
+.mobilview_all {
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+}
+/* maintenance end */
 /* payment desposit */
 .paymentopt_billpayee {
 width: 100%;
@@ -12903,7 +14137,7 @@ width: 100%;
 }
 /* end of payment deposit */
 /* schedule tour */
-.mobileview_allunits h3, .mobileview_allunits h3, .about_descrip h3, .head_explr {
+.mobileview_allunits h3, .mobileview_allunits h3, .head_explr {
     font-size: 20px;
     line-height: 26px;
 }
@@ -12911,7 +14145,7 @@ width: 100%;
     margin: 0 4px;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 23px;
+    margin-left: 14px;
 }
 .btn.declbtn, .btn.confrbtntw {
     height: 46px;
@@ -12955,14 +14189,8 @@ width: 100%;
 .l-main .similar_unitsdiv .slidelocation_div .txt_loc {
     font-size: 13px;
 }
-.schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    margin: 0 0 0 3px;
-}
 .schedtour_popup .monthyear_div {
     width: 66%;
-}
-.mobileview_tour.propdetails_schetour .sliderforday_div .slick-track {
-    margin-left: 10px;
 }
 .rightsche_tourcss {
 padding: 0px 0px 0 25px;
@@ -14028,6 +15256,107 @@ left: -22px;
 
 
 @media only screen and (max-width: 375px) and (min-width:361px) {
+
+/* maintenance */
+.schedtour_popup .seldateboxsche_prop .date_heading h3 {
+    margin: 0 0 0 8px;
+}
+.schedtour_popup .seldateboxsche_prop .date_heading {
+    width: 46%;
+}
+.schedtour_popup .seldateboxsche_prop .monthyear_div {
+    width: 51%;
+}
+.maintenance_upcomingevents .weknamediv.active .wekdate {
+    font-size: 12px;
+}
+.sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
+    text-align: left;
+    padding-left: 20px;
+}
+.workstatus_div {
+    flex-basis: 30%;
+}
+.main_workdescrip {
+    flex-basis: 82%;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 98%;
+    margin: 0 auto;
+}
+.calenderview_div.maintenance_upcomingevents {
+    padding: 18px 8px 15px 8px;
+}
+.mobilview_all {
+
+    padding: 17px 0 0 0;
+}
+.maintenance_upcomingevents .linediv:before {
+    margin: 0px 5px 0 0;
+}
+.calenderview_div.maintenance_upcomingevents .eventtxtdiv h3 {
+    font-size: 12px;
+}
+.maintenance_upcomingevents .img_reqservice_img img {
+    height: 24px;
+    width: 24px;
+}
+.calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
+    margin: 0px 8px 0 0;
+}
+.mobile_listview .listtab_txt p {
+    margin: 0 5px;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin: -82px 0 0 17px;
+}
+.maintenancepage .c-search.menusearch {
+    width:100%;
+}
+.calenderview_div.maintenance_upcomingevents .listrow {
+    padding: 11px 8px;
+}
+.reqserv_descrip p {
+    font-size: 13px;
+}
+.maintenancepage .myinfo_txt {
+    flex-basis: 56%;
+}
+.maintenancepage .infomy_div {
+    flex-basis: 42%;
+}
+.slick_req_service {
+    padding: 11px 0 0 0px;
+}
+.reqserv_descrip p {
+    font-size: 13px;
+}
+.maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
+    font-size: 16px;
+}
+.reqserv_descrip {
+    margin: 6px 0 0 0;
+}
+.belowpart_tenant.maintenance_div .acc_infotxt {
+    margin: 12px 17px 0 0px;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
+    padding: 7px 5px 9px 6px;
+}
+.myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
+    line-height: 11px;
+}
+.maint_pagediv .name_addr p.addr {
+    font-size: 11px;
+    line-height: 14px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 13px 0 0 19px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
+    line-height: 13px;
+}
+/* end of maintenance */
 /* payment deposit */
 .descrp_photoinfo p {
 margin: 4px auto 17px auto;
@@ -14062,12 +15391,7 @@ width: 50%;
 .l-main .propdetails_slider .similar_unitsdiv .leasedslider .unverifi_divtxt img {
     top: 3px;
 }
-.similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 22px;
-}
-.similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 21px;
-}
+
 .sche_tour.mobileview_tour .flexschedule .switch-field {
     width: 84%;
 }
@@ -14078,11 +15402,17 @@ width: 50%;
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
     font-size: 14px;
 }
+.l-main .similar_unitsdiv .lochouse_details .house span, .l-main .similar_unitsdiv .lochouse_details .clock span {
+    font-size: 9px;
+}
+.l-main .propdetails_slider .similar_unitsdiv .lochouse_details .house, .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .clock {
+    padding: 2px 5px;
+}
 .l-main .similar_unitsdiv .lochouse_details .clock img {
     vertical-align: text-top;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 30px;
+    margin-left: 11px;
 }
 .schedtour_popup .sche_tour .switch-field {
     width: 100%;
@@ -15248,6 +16578,146 @@ width: 37%;
 
 @media only screen and (max-width: 360px) and (min-width:341px) {
 
+/* maintenance  */
+.maintenancepage .c-search.menusearch {
+    width:100%;
+}
+.sche_tour.propdetails_schetour .flexschedule {
+    margin: 0 0 30px 0;
+}
+.sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
+    padding-left: 20px;
+}
+.about_descrip h3 {
+    line-height: 23px;
+}
+.main_workdescrip {
+    flex-basis: 79%;
+}
+.workstatus_div {
+    flex-basis: 35%;
+}
+.reqservdiv_styl{
+    padding: 4px 6px 6px 14px;
+}
+.descrp_modalreqserv p {
+    font-size: 12px;
+}
+.modal.viewallreq_modal .modal-header, .techni_modalstyl .modal-header {
+    padding: 23px 0 18px 0;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 98%;
+    margin: 0 auto;
+}
+.calenderview_div.maintenance_upcomingevents {
+    padding: 18px 8px 15px 8px;
+}
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    width: 88%;
+}
+.mobile_listview .listdate_show p img {
+    vertical-align: middle;
+}
+.maintenance_upcomingevents .listdate_show p {
+    font-size: 9px;
+}
+.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
+    font-size: 12px;
+}
+.rightsec_listdiv {
+    flex-basis: 83%;
+}
+.leftsec_listdiv {
+    flex-basis: 17%;
+}
+.viewdescrip_reqserv_list h3 {
+    font-size: 13px;
+    line-height: 13px;
+}
+.calenderview_div.maintenance_upcomingevents .listimg_reqservice_img img {
+    height: 26px;
+    width: 26px;
+}
+.mobile_listview .listtab_time p {
+    font-size: 9px;
+}
+.mobile_listview .viewdescrip_reqserv_list p {
+    font-size: 11px;
+}
+.mobile_listview .listtab_txt p {
+    margin: 0 5px;
+}
+.calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
+    margin: 0px 6px 0 0;
+}
+.calenderview_div.maintenance_upcomingevents .listrow {
+    padding: 9px 8px;
+}
+.maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
+    font-size: 16px;
+}
+.maintenancepage .myinfo_txt span {
+    font-size: 16px;
+}
+.reqserv_descrip p {
+    font-size: 13px;
+}
+.maintenancepage .myinfo_txt {
+    flex-basis: 56%;
+}
+.maintenancepage .infomy_div {
+    flex-basis: 42%;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin: -83px 0 0 18px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
+    line-height: 15px;
+}
+.belowpart_tenant.maintenance_div .acc_infotxt {
+    margin: 10px 15px 0 0px;
+}
+.maintenancepage .c-search.menusearch .c-search__input {
+    font-size: 13px;
+}
+.maint_pagediv .stat_div {
+    margin:3px 0px 0px 0px;
+}
+.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
+    left: 8px;
+}
+.maint_pagediv .name_addr p.addr {
+    font-size: 11px;
+    line-height: 15px;
+}
+.maindivwork_bottomsec {
+    margin: 6px 0 0 0;
+}
+.maint_pagediv .name_addr p.nm {
+    font-size: 13px;
+    line-height: 20px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 10px 0 0 20px;
+}
+.myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
+    line-height: 11px;
+}
+.myteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3 {
+    font-size: 16px;
+}
+.mainteam_mobileview .btnappoint {
+    margin: 0 0 0 -14px;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
+    padding: 7px 7px 9px 7px;
+}
+.belowpart_tenant.maintenance_div .profilename, .belowpart_tenant.maintenance_div .account_no {
+    font-size: 16px;
+    line-height: 20px;
+}
+/* end of maintenance */
 /* payment deposit */
 .depoheight {
 padding: 1rem 1rem 10rem 1rem !important;
@@ -15497,9 +16967,11 @@ line-height: 9px;
     right: 0px;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 21px;
+    margin-left: 10px;
 }
-
+.l-main .similar_unitsdiv .lochouse_details .house span, .l-main .similar_unitsdiv .lochouse_details .clock span {
+    font-size: 9px;
+}
 .schedtour_popup .stepsmodal_body .seldateboxsche_prop {
     padding: 0;
 }
@@ -16318,7 +17790,7 @@ font-size: 12px;
 height: 17px;
 }
 .about_descrip ul li {
-font-size: 11px;
+font-size: 10px;
 line-height: 18px;
 }
 
@@ -16339,7 +17811,7 @@ line-height: 18px;
     padding: 2px 4px;
 }
 .l-main .similar_unitsdiv .slidelocation_div .txt_loc {
-    font-size: 12px;
+    font-size: 11px;
 }
 .detshow_div .showingssec .showtime {
 align-items: flex-start;
@@ -16396,9 +17868,6 @@ font-size: 17px;
 }
 .bottom_rightdetails,.right_topheart {
 right: 11px;
-}
-.mobileview_tour.propdetails_schetour .sliderforday_div .slick-track {
-    margin-left: 69px;
 }
 .schedtour_popup ul.nav-tabs {
     width: 82%;
@@ -16817,6 +18286,183 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+/* maintenance */
+.maint_pagediv .name_addr p.addr {
+    font-size: 11px;
+    line-height: 15px;
+}
+.sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
+    text-align: left;
+    padding-left: 17px;
+}
+.main_workdescrip {
+    flex-basis: 82%;
+}
+.workstatus_div {
+    flex-basis: 31%;
+}
+.modal.viewallreq_modal .modal-header .modal-title, .techni_modalstyl .modal-header .modal-title {
+    font-size: 16px;
+}
+.modal.viewallreq_modal .modal-header, .techni_modalstyl .modal-header {
+    padding: 23px 0 18px 0;
+}
+.reqservdiv_styl {
+    padding: 4px 6px 6px 8px;
+}
+.descrp_modalreqserv p {
+    font-size: 12px;
+}
+.imgarrw_div {
+    margin-left: 5px;
+}
+.maintenance_upcomingevents .select-box1 {
+    width: 69px;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+    width: 98%;
+    margin: 0 auto;
+}
+.calenderview_div.maintenance_upcomingevents {
+    padding: 18px 8px 15px 8px;
+}
+.maintenance_upcomingevents .headingcalen {
+    width: 98%;
+    margin: 0 auto 0 auto;
+}
+.calenderview_div.maintenance_upcomingevents {
+    padding: 18px 9px 15px 9px;
+}
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    width: 94%;
+}
+.maintenancepage .c-search.menusearch .c-search__input {
+    height: 43px;
+    font-size: 13px;
+}
+.mobile_listview .listdate_show p img {
+    vertical-align: middle;
+}
+.maintenance_upcomingevents .listdate_show p {
+    font-size: 9px;
+}
+.viewdescrip_reqserv_list h3{
+    line-height: 11px;
+}
+.mobile_listview .viewdescrip_reqserv_list p {
+    font-size: 10px;
+}
+.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
+    font-size: 12px;
+}
+.calenderview_div.maintenance_upcomingevents .listimg_reqservice_img img {
+    height: 25px;
+    width: 25px;
+}
+.belowpart_tenant.maintenance_div .acc_infotxt {
+    margin: 11px 15px 0 0px;
+}
+.viewdescrip_reqserv_list h3 {
+    font-size: 12px;
+}
+.mobile_listview .listtab_txt p {
+    margin: 0 5px;
+}
+.calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
+    margin: 0px 6px 0 0;
+}
+.calenderview_div.maintenance_upcomingevents .listrow {
+    padding: 11px 8px;
+}
+.calenderview_div.maintenance_upcomingevents .eventtxtdiv h3 {
+    font-size: 12px;
+}
+.maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
+    font-size: 15px;
+}
+.maintenancepage .myinfo_txt span {
+    font-size: 15px;
+}
+.reqserv_descrip p {
+    font-size: 13px;
+}
+.my_info.maintenance.maint_pagediv {
+    padding: 18px 12px 14px 12px;
+}
+.req_service .maintenancepage .divinfo {
+    padding: 11px 14px 11px 18px;
+}
+.maintenancepage .c-search.menusearch {
+    width: 100%;
+}
+.maintenancepage .myinfo_txt {
+    flex-basis: 56%;
+}
+.maintenancepage .infomy_div {
+    flex-basis: 42%;
+}
+.mainteam_mobileview .btnappoint {
+    margin: 0 0 0 -13px;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .btnappoint button.btn.btn_appoint.mobilebook {
+    width: 98px;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3 {
+    font-size: 14px;
+    line-height: 19px;
+}
+.myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
+    line-height: 12px;
+}
+.belowpart_tenant.maintenance_div .profilename, .belowpart_tenant.maintenance_div .account_no {
+    font-size: 15px;
+    line-height: 25px;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
+    padding: 7px 3px 9px 6px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 12px 0 0 20px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
+    line-height: 11px;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin: -83px 0 0 20px;
+}
+
+.rightsec_listdiv {
+    flex-basis: 83%;
+}
+.leftsec_listdiv {
+    flex-basis: 17%;
+}
+.calenderview_div.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
+    padding: 9px 8px 10px 8px;
+}
+.maintenance_upcomingevents .img_reqservice_img img {
+    height: 25px;
+    width: 25px;
+}
+.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
+    left: 9px;
+}
+.maindivwork_bottomsec{
+    margin: 6px 0 0 0;
+}
+.viewall_workorders {
+    margin: 14px 0 0px 0;
+}
+.workorder_block {
+    padding: 8px 9px 10px 9px;
+}
+.maint_pagediv .stat_div {
+    margin: 3px 0 0 0;
+}
+.maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
+    font-size: 16px;
+}
+/* end of maintenance */
 /* payment deposit */
 .descrp_photoinfo p {
 width: 100%;
@@ -16886,15 +18532,16 @@ font-size: 13px;
     font-size: 12px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0px 0 0 -13px;
+    margin: 0px 0 0 -15px;
 }
-.mobileview_tour.propdetails_schetour .sliderforday_div .slick-track {
-    margin-left: 66px;
-}
+
 .flexschedule.switchtabs_schepop .switch-field, .propdetails_schetour .flexschedule .switch-field {
     width: 85%;
     margin: 0 auto;
     height: 40px;
+}
+.about_descrip h3 {
+    line-height: 20px;
 }
 .l-main .similar_unitsdiv .slidelocation_div .txt_loc {
     font-size: 11px;
@@ -16935,7 +18582,7 @@ font-size: 13px;
     width: auto;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 14px;
+    margin-left: 3px;
 }
 
 .unit_newlist_lease.propdetails_slider ul.nav.nav-tabs li a{
@@ -18108,9 +19755,9 @@ font-size: 11px;
 height: 17px;
 }
 .about_descrip ul li {
-padding: 0 5px 0 5px;
-font-size: 11px;
-line-height: 18px;
+    padding: 0 3px 0 3px;
+    font-size: 9px;
+    line-height: 18px;
 }
 .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .house, .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .clock {
     padding: 2px 2px;
@@ -18611,6 +20258,58 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+/* maintenance */
+.main_workdescrip {
+    flex-basis: 71%;
+}
+.workstatus_div {
+    flex-basis: 29%;
+}
+.myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
+    line-height: 10px;
+}
+.mainteam_mobileview .btnappoint {
+    margin: 0 0 0 -20px;
+}
+.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
+    left: 4px;
+}
+.maintenance_upcomingevents .lefttime_txt,.maintenance_upcomingevents .righttime_txt {
+    font-size: 9px;
+}
+.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp p{
+    font-size: 9px;
+}
+.calenderview_div.maintenance_upcomingevents .eventtxtdiv h3 {
+    font-size: 11px;
+}
+.maintenance_upcomingevents .headingcalen h3 {
+    font-size: 16px;
+}
+.maintenance_upcomingevents .headingcalen h3 img {
+    vertical-align: bottom;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin: -89px 0 0 20px;
+}
+.maint_pagediv .myinfotabs .btn.commn {
+    padding: 7px 9px 8px 4px;
+    font-size: 9px;
+}
+.maint_pagediv .name_addr p.nm {
+    font-size: 13px;
+    line-height: 20px;
+}
+.reqserv_descrip p {
+    font-size: 12px;
+}
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
+    padding: 4px 3px 9px 6px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 12px 0 0 22px;
+}
+/* end of maintenance */
 /*  payment deposit */
 .firstblock_bankimg img {
 height: 64px;
@@ -18643,9 +20342,6 @@ width: 49%;
 }
 .lf_flexside, .rt_flexside {
     padding: 0 0px;
-}
-.mobileview_tour.propdetails_schetour .sliderforday_div .slick-track {
-    margin-left: 19px;
 }
 .type_distr_btn .btn.blueclrbtn, .type_distr_btn .btn.greenclrbtn, .type_distr_btn .blueclrbtndrk {
     padding: 4px 11px;
@@ -19062,8 +20758,8 @@ height: 101px;
 margin-left: 1px;
 }
 .about_descrip ul li {
-padding: 0 4px 0 4px;
-font-size: 10px;
+    padding: 0 3px 0 3px;
+    font-size: 9px;
 }
 
 .detshow_div .showingssec .order_links span a {

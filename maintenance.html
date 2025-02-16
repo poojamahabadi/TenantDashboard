@@ -147,14 +147,23 @@
 <div class="content-wrapper content-wrapper--with-bg">
 <div class="container-fluid">
 <div class="row">
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 pr-2">
+<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 pr-2 mainte_left_css">
 <div class="row">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-<div class="tenant_profilebg"></div>
+  <div class="avatar-upload bgimg">
+    <div class="avatar-edit">
+        <input type='file' id="imageUploadbgmaintain" accept=".png, .jpg, .jpeg" />
+        <label for="imageUpload"></label>
+    </div>
+    <div class="avatar-preview">
+        <div id="imagePreviewbgmaintain" class="tenant_profilebg" style="background-image: url(images/tenant_prof/tenantbg.svg);">
+        </div>
+    </div>
+</div>
 
 <div class="belowpart_tenant maintenance_div">
 <div class="row">
-<div class="col-xl-3">
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
 <div class="profimg_div">
     <div class="prof_imgstatus">
         <img src="images/client.svg">
@@ -164,13 +173,13 @@
     </div>
 </div>
 </div>
-<div class="col-xl-5">
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-4 col-6">
 <div class="profile_infotxt">
 <p class="prof_label">Nickname</p>
 <p class="profilename">Mae Coleman</p>
 </div>
 </div>
-<div class="col-xl-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 <div class="acc_infotxt">
 <p class="acc_label">Account No.</p>
 <p class="account_no">1087623</p>
@@ -181,6 +190,53 @@
 </div>
 </div>
 
+
+
+<!-- mobile view team -->
+<div class="myteam_mobileview mainteam_mobileview">
+  <div class="my_teamdiv myleaseteam_flex desk">
+  <div class="row leasflx_team">
+  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-2 leaseflex">
+  <div class="teamtxt">
+  <h3>my team</h3>
+  </div>
+  </div>
+  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-5 col-6 leaseflex">
+  <div class="twotem_images">
+  <div class="team_memname">
+  <div class="prof_img">
+  <img src="images/lease/t1.svg">
+  </div>  
+  <div class="prof_name">
+  <p>jack smith</p>
+  <p>propertyscsa managerscdc</p>
+  </div>
+  </div>
+  <div class="team_memname">
+  <div class="prof_img">
+  <img src="images/lease/t2.svg">
+  </div>  
+  <div class="prof_name">
+  <p>mark dega</p>
+  <p>leasingsdvd agentvsdv</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-4 leaseflex">
+  <div class="btnappoint">
+  <button class="btn btn_appoint mobilebook">book appointment</button>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- end of mobile view  my team-->
+
+
+
+  <!-- all works desktop view -->
+<div class="worksdesktop_view">
 <div class="row">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 <div class="my_info maintenance maint_pagediv">
@@ -214,7 +270,7 @@
 <div class="tab-pane container active" id="all">
 <div class="details_block myinfodiv_sec">
 <div class="row tablealign">
-<div class="col-xl-5 col-lg-5 xol-md-5 col-sm-6 col-12 infopad">
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 infopad">
 <div class="flexdiv_myinfo">
 <div class="linediv redclr"></div>
 <div class="name_addr">
@@ -223,19 +279,19 @@
 </div>
 </div>
 </div>
-<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="clocktime">
 <span><img src="images/clock.svg"></span>
 <span>08:42 am</span>
 </div>
 </div>
-<div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="datetime">
 <span><img src="images/cal.svg"></span>
 <span>10/02/2024</span>
 </div>
 </div> 
-<div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-12 infopad text-right">
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 infopad text-right">
 <button class="btn commn high"><img src="images/red_alert.svg">High</button>
 <p class="stat_div">Pending</p>
 </div> 
@@ -244,7 +300,7 @@
 
 <div class="details_block myinfodiv_sec">
 <div class="row tablealign">
-<div class="col-xl-5 col-lg-5 xol-md-5 col-sm-6 col-12 infopad">
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 infopad">
 <div class="flexdiv_myinfo">
 <div class="linediv yellowclr"></div>
 <div class="name_addr">
@@ -253,19 +309,19 @@
 </div>
 </div>
 </div>
-<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="clocktime">
 <span><img src="images/clock.svg"></span>
 <span>08:42 am</span>
 </div>
 </div>
-<div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="datetime">
 <span><img src="images/cal.svg"></span>
 <span>10/02/2024</span>
 </div>
 </div> 
-<div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-12 infopad text-right">
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 infopad text-right">
 <button class="btn commn normal"><img src="images/normal.svg">Normal</button>
 <p class="stat_div">in progress</p>
 </div> 
@@ -274,7 +330,7 @@
 
 <div class="details_block myinfodiv_sec">
 <div class="row tablealign">
-<div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 col-12 infopad">
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 infopad">
 <div class="flexdiv_myinfo">
 <div class="linediv greenclr"></div>
 <div class="name_addr">
@@ -283,19 +339,19 @@
 </div>
 </div>
 </div>
-<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="clocktime">
 <span><img src="images/clock.svg"></span>
 <span>08:42 am</span>
 </div>
 </div>
-<div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="datetime">
 <span><img src="images/cal.svg"></span>
 <span>10/02/2024</span>
 </div>
 </div> 
-<div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-12 infopad text-right">
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 infopad text-right">
 <button class="btn commn reoccur"><img src="images/green.svg">Reoccurring</button>
 <p class="stat_div">completed</p>
 </div> 
@@ -304,7 +360,7 @@
 
 <div class="details_block myinfodiv_sec">
     <div class="row tablealign">
-    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 col-12 infopad">
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 infopad">
     <div class="flexdiv_myinfo">
     <div class="linediv redclr"></div>
     <div class="name_addr">
@@ -313,19 +369,19 @@
     </div>
     </div>
     </div>
-    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 infopad">
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
     <div class="clocktime">
     <span><img src="images/clock.svg"></span>
     <span>08:42 am</span>
     </div>
     </div>
-    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-12 infopad">
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
     <div class="datetime">
     <span><img src="images/cal.svg"></span>
     <span>10/02/2024</span>
     </div>
     </div> 
-    <div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-12 infopad text-right">
+    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 infopad text-right">
     <button class="btn commn high"><img src="images/red_alert.svg">High</button>
     <p class="stat_div">Pending</p>
     </div> 
@@ -334,7 +390,7 @@
 
     <div class="details_block myinfodiv_sec">
         <div class="row tablealign">
-        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 col-12 infopad">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 infopad">
         <div class="flexdiv_myinfo">
         <div class="linediv yellowclr"></div>
         <div class="name_addr">
@@ -343,19 +399,19 @@
         </div>
         </div>
         </div>
-        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 infopad">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
         <div class="clocktime">
         <span><img src="images/clock.svg"></span>
         <span>08:42 am</span>
         </div>
         </div>
-        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-12 infopad">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
         <div class="datetime">
         <span><img src="images/cal.svg"></span>
         <span>10/02/2024</span>
         </div>
         </div> 
-        <div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-12 infopad text-right">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 infopad text-right">
         <button class="btn commn normal"><img src="images/normal.svg">Normal</button>
         <p class="stat_div">in progress</p>
         </div> 
@@ -366,7 +422,7 @@
 <div class="tab-pane container fade" id="inprog">
 <div class="details_block myinfodiv_sec">
 <div class="row tablealign">
-<div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 col-12 infopad">
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 infopad">
 <div class="flexdiv_myinfo">
 <div class="linediv yellowclr"></div>
 <div class="name_addr">
@@ -375,19 +431,19 @@
 </div>
 </div>
 </div>
-<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="clocktime">
 <span><img src="images/clock.svg"></span>
 <span>08:42 am</span>
 </div>
 </div>
-<div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="datetime">
 <span><img src="images/cal.svg"></span>
 <span>10/02/2024</span>
 </div>
 </div> 
-<div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-12 infopad text-right">
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 infopad text-right">
 <button class="btn commn normal"><img src="images/normal.svg">Normal</button>
 <p class="stat_div">in progress</p>
 </div> 
@@ -398,7 +454,7 @@
 <div class="tab-pane container fade" id="complete">
 <div class="details_block myinfodiv_sec">
 <div class="row tablealign">
-<div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 col-12 infopad">
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 infopad">
 <div class="flexdiv_myinfo">
 <div class="linediv greenclr"></div>
 <div class="name_addr">
@@ -407,19 +463,19 @@
 </div>
 </div>
 </div>
-<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="clocktime">
 <span><img src="images/clock.svg"></span>
 <span>08:42 am</span>
 </div>
 </div>
-<div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="datetime">
 <span><img src="images/cal.svg"></span>
 <span>10/02/2024</span>
 </div>
 </div> 
-<div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-12 infopad text-right">
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 infopad text-right">
 <button class="btn commn reoccur"><img src="images/green.svg">Reoccurring</button>
 <p class="stat_div">completed</p>
 </div> 
@@ -430,7 +486,7 @@
 <div class="tab-pane container fade" id="pending">
 <div class="details_block myinfodiv_sec">
 <div class="row tablealign">
-<div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 col-12 infopad">
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 infopad">
 <div class="flexdiv_myinfo">
 <div class="linediv redclr"></div>
 <div class="name_addr">
@@ -439,19 +495,19 @@
 </div>
 </div>
 </div>
-<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="clocktime">
 <span><img src="images/clock.svg"></span>
 <span>08:42 am</span>
 </div>
 </div>
-<div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-12 infopad">
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 infopad">
 <div class="datetime">
 <span><img src="images/cal.svg"></span>
 <span>10/02/2024</span>
 </div>
 </div> 
-<div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-12 infopad text-right">
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 infopad text-right">
 <button class="btn commn high"><img src="images/red_alert.svg">High</button>
 <p class="stat_div">Pending</p>
 </div> 
@@ -461,8 +517,7 @@
 <!-- end of pending -->
 </div>
 </div>
-
-
+</div>
 </div>
 </div>
 </div>
@@ -470,15 +525,18 @@
 <!-- left col-6 -->
 
 
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pl-2">
-<div class="my_teamdiv">
+<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 pl-2 mainte_right_css">
+
+  <!-- my team desktop view -->
+  <div class="mobwidth_offerleasse">
+  <div class="my_teamdiv myleaseteam_flex desk maint_myteamflex">
     <div class="row">
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 leaseflex">
+    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-2 col-6 leaseflex">
     <div class="teamtxt">
     <h3>my team</h3>
     </div>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 leaseflex">
+    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 leaseflex">
     <div class="team_memname">
     <div class="prof_img">
     <img src="images/lease/t1.svg">
@@ -489,7 +547,7 @@
     </div>
     </div>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 leaseflex">
+    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-6 leaseflex">
     <div class="team_memname">
     <div class="prof_img">
     <img src="images/lease/t2.svg">
@@ -500,14 +558,19 @@
     </div>
     </div>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6 leaseflex">
+    <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-6 leaseflex">
     <div class="btnappoint">
-    <button class="btn btn_appoint">book appointment</button>
+    <button class="btn btn_appoint desktopbook">book appointment</button>
     </div>
     </div>
     </div>
     </div>
-    <!-- end of my team -->
+  </div>
+<!-- end of my team desktop view -->
+
+
+
+
 
 <!-- request service -->
 <div class="req_service">
@@ -523,7 +586,7 @@
                 <input class="c-search__input form-control" placeholder="Search" type="text"/>
                 <button type="submit" class="submt_btn"><i class="fa fa-search"></i></button>
             </div>
-            <a href="#viewall_requestserv" data-toggle="modal" class="view_allmaintain">View all</a>
+            <a href="#technician_popup" data-toggle="modal" class="view_allmaintain desktpview_all">View all</a>
         </div>
     </div>
 <!--  request service slider -->
@@ -677,6 +740,10 @@
       </div>
 </div>
 <!-- end of request service slider -->
+
+<div class="mobilview_all">
+  <a href="#viewall_requestserv" data-toggle="modal" class="view_allmaintain">View all</a>
+</div>
 </div>
 </div>
 </div>
@@ -684,8 +751,238 @@
 <!-- request service section ends -->
 
 
-<!-- upcoming Events -->
+  <!-- mobile view all work orders -->
+<div class="worksmobile_view">
+  <div class="row">
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+  <div class="my_info maintenance maint_pagediv">
+  <div class="divinfo">
+  <div class="myinfo_txt">
+  <img src="images/maintain.svg"> <span>all work orders</span>
+  </div>
+  <div class="content_right">
+  <a href="javascript:void(0);" class="refresh_a"><img src="images/refresh.svg">refresh</a>
+  </div>
+  </div>
+  
+  <div class="mainte_tabs">
+  <ul class="nav nav-tabs">
+  <li class="nav-item">
+  <a class="nav-link active" data-toggle="tab" href="#allmobile">All</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link pending" data-toggle="tab" href="#pendingmobile">pending</a>
+    </li>
+  <li class="nav-item">
+  <a class="nav-link progressbtn" data-toggle="tab" href="#inprogmobile">In-Progress</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link complete" data-toggle="tab" href="#completemobile">completed</a>
+  </li>
+ 
+  </ul>
+  
+  <!-- Tab panes -->
+  <div class="tab-content myinfotabs">
+  <div class="tab-pane container active" id="allmobile">
 
+  <div class="workorder_block">
+    <div class="maindivwork_topsec">
+      <div class="main_workdescrip">
+        <div class="name_addr">
+          <p class="nm">Plumbing</p>
+          <p class="addr">Toilet Is Clogged and Over Flowing</p>
+          </div>
+      </div>
+      <div class="workstatus_div">
+        <p class="stat_div">Pending</p>
+      </div>
+    </div>
+    <div class="maindivwork_bottomsec">
+      <div class="date_timesecmain">
+      <div class="clocktime">
+        <span><img src="images/clock.svg"></span>
+        <span>08:42 am</span>
+      </div>
+      <div class="datetime">
+        <span><img src="images/cal.svg"></span>
+        <span>10/02/2024</span>
+        </div>
+      </div>
+        <div class="buttonflex_maintain">
+          <button class="btn commn high"><img src="images/red_alert.svg">High</button>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="workorder_block">
+    <div class="maindivwork_topsec">
+      <div class="main_workdescrip">
+        <div class="name_addr">
+          <p class="nm">Handywork </p>
+          <p class="addr">Screen Door Needs to be Replaced</p>
+          </div>
+      </div>
+      <div class="workstatus_div">
+        <p class="stat_div">in progress</p>
+      </div>
+    </div>
+    <div class="maindivwork_bottomsec">
+      <div class="date_timesecmain">
+      <div class="clocktime">
+        <span><img src="images/clock.svg"></span>
+        <span>08:42 am</span>
+      </div>
+      <div class="datetime">
+        <span><img src="images/cal.svg"></span>
+        <span>10/02/2024</span>
+        </div>
+      </div>
+        <div class="buttonflex_maintain">
+          <button class="btn commn normal"><img src="images/normal.svg">Normal</button>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="workorder_block">
+    <div class="maindivwork_topsec">
+      <div class="main_workdescrip">
+        <div class="name_addr">
+          <p class="nm">Cleaning - Recurring </p>
+          <p class="addr">Common Area Hard Surface Cleaning</p>
+          </div>
+      </div>
+      <div class="workstatus_div">
+        <p class="stat_div">completed</p>
+      </div>
+    </div>
+    <div class="maindivwork_bottomsec">
+      <div class="date_timesecmain">
+      <div class="clocktime">
+        <span><img src="images/clock.svg"></span>
+        <span>08:42 am</span>
+      </div>
+      <div class="datetime">
+        <span><img src="images/cal.svg"></span>
+        <span>10/02/2024</span>
+        </div>
+      </div>
+        <div class="buttonflex_maintain">
+          <button class="btn commn reoccur"><img src="images/green.svg">Reoccurring</button>
+        </div>
+    </div>
+  </div>
+<div class="viewall_workorders">
+<a href="javascript:void(0);">view all</a>
+</div>
+ </div>
+  <!-- end of all -->
+  <div class="tab-pane container fade" id="inprogmobile">
+    <div class="workorder_block">
+      <div class="maindivwork_topsec">
+        <div class="main_workdescrip">
+          <div class="name_addr">
+            <p class="nm">Handywork </p>
+            <p class="addr">Screen Door Needs to be Replaced</p>
+            </div>
+        </div>
+        <div class="workstatus_div">
+          <p class="stat_div">in progress</p>
+        </div>
+      </div>
+      <div class="maindivwork_bottomsec">
+        <div class="date_timesecmain">
+        <div class="clocktime">
+          <span><img src="images/clock.svg"></span>
+          <span>08:42 am</span>
+        </div>
+        <div class="datetime">
+          <span><img src="images/cal.svg"></span>
+          <span>10/02/2024</span>
+          </div>
+        </div>
+          <div class="buttonflex_maintain">
+            <button class="btn commn normal"><img src="images/normal.svg">Normal</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of in progress -->
+  <div class="tab-pane container fade" id="completemobile">
+
+    <div class="workorder_block">
+      <div class="maindivwork_topsec">
+        <div class="main_workdescrip">
+          <div class="name_addr">
+            <p class="nm">Cleaning - Recurring </p>
+            <p class="addr">Common Area Hard Surface Cleaning</p>
+            </div>
+        </div>
+        <div class="workstatus_div">
+          <p class="stat_div">completed</p>
+        </div>
+      </div>
+      <div class="maindivwork_bottomsec">
+        <div class="date_timesecmain">
+        <div class="clocktime">
+          <span><img src="images/clock.svg"></span>
+          <span>08:42 am</span>
+        </div>
+        <div class="datetime">
+          <span><img src="images/cal.svg"></span>
+          <span>10/02/2024</span>
+          </div>
+        </div>
+          <div class="buttonflex_maintain">
+            <button class="btn commn reoccur"><img src="images/green.svg">Reoccurring</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of completed -->
+  <div class="tab-pane container fade" id="pendingmobile">
+    <div class="workorder_block">
+      <div class="maindivwork_topsec">
+        <div class="main_workdescrip">
+          <div class="name_addr">
+            <p class="nm">Plumbing</p>
+            <p class="addr">Toilet Is Clogged and Over Flowing</p>
+            </div>
+        </div>
+        <div class="workstatus_div">
+          <p class="stat_div">Pending</p>
+        </div>
+      </div>
+      <div class="maindivwork_bottomsec">
+        <div class="date_timesecmain">
+        <div class="clocktime">
+          <span><img src="images/clock.svg"></span>
+          <span>08:42 am</span>
+        </div>
+        <div class="datetime">
+          <span><img src="images/cal.svg"></span>
+          <span>10/02/2024</span>
+          </div>
+        </div>
+          <div class="buttonflex_maintain">
+            <button class="btn commn high"><img src="images/red_alert.svg">High</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of pending -->
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- mobile view all work orders end -->
+
+
+<!-- upcoming Events -->
 <div class="calenderview_div maintenance_upcomingevents">
     <div class="calendercard_show">
       <div class="headingcalen">
@@ -827,10 +1124,16 @@
   
   <div class="datearrow">
   <div class="datedetailsshow">
-    <p> <span>3th</span> - <span>9th</span></p>
-    <div class="imgarrw_div">
-      <img src="images/showings/cal_arrow_show.svg">
-    </div>
+    <div class="imgarrw_div left_arrow" >
+      <img
+          src="images/showings/left_arrow.svg">
+  </div>
+  <p> <span>9</span> - <span>12</span>
+  </p>
+  <div class="imgarrw_div right_arrow">
+      <img
+          src="images/showings/cal_arrow_show.svg">
+  </div>
   </div>
   </div>
   </div>
@@ -1005,7 +1308,9 @@
   </div>
   <!-- end of calender -->
   <div class="listview_show tab-pane container fade" id="listview_calender">
-    <div class="listheight_auto">
+
+    <!--desktop view  -->
+    <div class="listheight_auto desktop_listview">
         <div class="listview">
             <div class="row listrow">
               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
@@ -1020,7 +1325,6 @@
                       </div>
                   </div>
               </div>
-      
               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 descrip_pad">
                 <div class="timings_datalist">
                   <div class="listtab_time">
@@ -1230,11 +1534,219 @@
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
+<!-- end of list desktop view -->
 
-<!-- end of upcoming events -->
+
+<!-- list mobile view -->
+<div class="listheight_auto mobile_listview">
+  <div class="listview">
+      <div class="listrow">
+        <div class="leftsec_listdiv">
+            <div class="listviewsec_cal">
+                <div class="linediv yellowclr"></div>
+                <div class="listimg_reqservice_img">
+                    <img src="images/maintenance/list_paint.svg">
+                </div>
+
+            </div>
+        </div>
+        <div class="rightsec_listdiv">
+          <div class="">
+            <div class="viewdescrip_reqserv_list">
+              <h3>Painting - 76389</h3>
+              <p>Technician: tony R. - ID# T34562</p>
+          </div>
+          </div>
+          <div class="timings_datalist">
+            <div class="eventstimings_sectiondiv">
+                  <div class="listtab_time">
+                    <p>10 <sub>AM</sub></p>
+                  </div>
+                  <div class="listtab_txt">
+                        <p>To</p>   
+                  </div>
+                  <div class="listtab_time">
+                        <p>10:15 <sub>AM</sub> </p>
+                  </div>
+            </div>
+            <div class="listdate_show">
+              <p>
+                <img src="images/cal.svg"> <span>14/06/2024</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="listview">
+      <div class="listrow">
+        <div class="leftsec_listdiv">
+            <div class="listviewsec_cal">
+                <div class="linediv greenclr"></div>
+                <div class="listimg_reqservice_img">
+                  <img src="images/maintenance/clean.svg">
+                </div>
+
+            </div>
+        </div>
+        <div class="rightsec_listdiv">
+          <div class="">
+            <div class="viewdescrip_reqserv_list">
+              <h3>Cleaning - 23871</h3>
+              <p>Technician: tony R. - ID# T34562</p>
+          </div>
+          </div>
+          <div class="timings_datalist">
+            <div class="eventstimings_sectiondiv">
+                  <div class="listtab_time">
+                    <p>10 <sub>AM</sub></p>
+                  </div>
+                  <div class="listtab_txt">
+                        <p>To</p>   
+                  </div>
+                  <div class="listtab_time">
+                        <p>10:15 <sub>AM</sub> </p>
+                  </div>
+            </div>
+            <div class="listdate_show">
+              <p>
+                <img src="images/cal.svg"> <span>14/06/2024</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="listview">
+      <div class="listrow">
+        <div class="leftsec_listdiv">
+            <div class="listviewsec_cal">
+                <div class="linediv redclr"></div>
+                <div class="listimg_reqservice_img">
+                  <img src="images/maintenance/plumb.svg">
+                </div>
+
+            </div>
+        </div>
+        <div class="rightsec_listdiv">
+          <div class="">
+            <div class="viewdescrip_reqserv_list">
+              <h3>Plumbing - 65321</h3>
+              <p>Technician: tony R. - ID# T34562</p>
+          </div>
+          </div>
+          <div class="timings_datalist">
+            <div class="eventstimings_sectiondiv">
+                  <div class="listtab_time">
+                    <p>10 <sub>AM</sub></p>
+                  </div>
+                  <div class="listtab_txt">
+                        <p>To</p>   
+                  </div>
+                  <div class="listtab_time">
+                        <p>10:15 <sub>AM</sub> </p>
+                  </div>
+            </div>
+            <div class="listdate_show">
+              <p>
+                <img src="images/cal.svg"> <span>14/06/2024</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="listview">
+      <div class="listrow">
+        <div class="leftsec_listdiv">
+            <div class="listviewsec_cal">
+                <div class="linediv yellowclr"></div>
+                <div class="listimg_reqservice_img">
+                  <img src="images/maintenance/handy.svg">
+                </div>
+
+            </div>
+        </div>
+        <div class="rightsec_listdiv">
+          <div class="">
+            <div class="viewdescrip_reqserv_list">
+              <h3>Handywork-85679</h3>
+              <p>Technician: tony R. - ID# T34562</p>
+          </div>
+          </div>
+          <div class="timings_datalist">
+            <div class="eventstimings_sectiondiv">
+                  <div class="listtab_time">
+                    <p>10 <sub>AM</sub></p>
+                  </div>
+                  <div class="listtab_txt">
+                        <p>To</p>   
+                  </div>
+                  <div class="listtab_time">
+                        <p>10:15 <sub>AM</sub> </p>
+                  </div>
+            </div>
+            <div class="listdate_show">
+              <p>
+                <img src="images/cal.svg"> <span>14/06/2024</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="listview">
+      <div class="listrow">
+        <div class="leftsec_listdiv">
+            <div class="listviewsec_cal">
+                <div class="linediv greenclr"></div>
+                <div class="listimg_reqservice_img">
+                    <img src="images/maintenance/list_paint.svg">
+                </div>
+
+            </div>
+        </div>
+        <div class="rightsec_listdiv">
+          <div class="">
+            <div class="viewdescrip_reqserv_list">
+              <h3>Painting - 76389</h3>
+              <p>Technician: tony R. - ID# T34562</p>
+          </div>
+          </div>
+          <div class="timings_datalist">
+            <div class="eventstimings_sectiondiv">
+                  <div class="listtab_time">
+                    <p>10 <sub>AM</sub></p>
+                  </div>
+                  <div class="listtab_txt">
+                        <p>To</p>   
+                  </div>
+                  <div class="listtab_time">
+                        <p>10:15 <sub>AM</sub> </p>
+                  </div>
+            </div>
+            <div class="listdate_show">
+              <p>
+                <img src="images/cal.svg"> <span>14/06/2024</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- end of list mobile view -->
+
+  </div>
+  </div>
+  </div><!-- end of upcoming events -->
 
 </div><!-- end of col-6 right -->
 </div>
@@ -1242,12 +1754,41 @@
 </div>
 </main>
 
-
+<!-- mobileview menu -->
+<!-- <div class="container-fluid btmmenu">
+  <div class="flex_menubottom">
+  <div class="dash">
+  <a href="">
+  <img src="images/dashboard.svg">
+  <p>Dashboard</p>
+  </a> 
+  </div>
+  <div class="commu">
+  <a href="">
+  <img src="images/communication.svg">
+  <p>Communication</p>
+  </a>
+  </div>
+  <div class="maint">
+  <a href="">
+  <img src="images/maintenance.svg">
+  <p>Maintenance</p>
+  </a>
+  </div>
+  <div class="rent">
+  <a href="">
+  <img src="images/rentals.svg">
+  <p>Rentals</p>
+  </a>
+  </div>
+  </div>
+  </div>
+   -->
 
 
 <!-- view all request service modal -->
 <div class="modal fade viewallreq_modal" id="viewall_requestserv">
-  <div class="modal-dialog modal-xl">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
     
       <!-- Modal Header -->
@@ -1258,7 +1799,8 @@
       
       <!-- Modal body -->
       <div class="modal-body">
-          <div class="requestblocks_modal">
+        <!-- desktop view -->
+          <div class="requestblocks_modal desktopreq_serv_modal">
             <div class="six_reqserblock">
               <div class="reqservdiv_styl">
                   <img src="images/maintenance/blinds.svg">
@@ -1376,6 +1918,132 @@
            </div>            
       </div>
           </div>
+<!-- end of desktop view -->
+
+<!-- mobile view -->
+ <div class="mobileversion_reqservice">
+<div class="six_reqserblock">
+  <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_blinds.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Blinds</p>
+    </div>
+   </div>  
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_cleaning.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Cleaning</p>
+    </div>
+   </div>
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_garge.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Garage Door</p>
+    </div>
+   </div>
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_health.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Health & Safety</p>
+    </div>
+   </div>
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_junk.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Junk Removal</p>
+    </div>
+   </div>
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_paint.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Painting</p>
+    </div>
+   </div>  
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_pest.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Pest Control</p>
+    </div>
+   </div>   
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_roof.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Roofing</p>
+    </div>
+   </div>
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_snow.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Snow Removal</p>
+    </div>
+   </div>             
+</div>
+
+<div class="six_reqserblock">
+  <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_carpet.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Carpet-Cleaning</p>
+    </div>
+   </div>  
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/electrical.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Electrical</p>
+    </div>
+   </div>
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_handy.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Handy-work</p>
+    </div>
+   </div>
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_hot.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Hot Water Tank</p>
+    </div>
+   </div>
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_mold.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Mold Removal</p>
+    </div>
+   </div>
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_paving.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Paving</p>
+    </div>
+   </div>  
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_plumb.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Plumbing</p>
+    </div>
+   </div> 
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_security.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Security System</p>
+    </div>
+   </div>  
+   <div class="reqservdiv_styl">
+    <img src="images/maintenance/mob_stairs.svg">
+    <div class="descrp_modalreqserv">
+      <p class="m-0">Stairs & Railings</p>
+    </div>
+   </div>             
+</div>
+</div>
+<!-- mobile view end -->
+
+
+
+
+
+
+
       </div>
     </div>
   </div>
@@ -1384,7 +2052,7 @@
 
 
 <div class="modal fade techni_modalstyl" id="technician_popup">
-  <div class="modal-dialog modal-xl">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
     
       <!-- Modal Header -->
@@ -1750,8 +2418,52 @@ $().ready(function(){
     $('.rqservice_blocksslider .slick-carousel').slick({
       arrows: false,
       dots: false,
-      slidesToShow: 4,
-      infinite: false
+      slidesToShow: 3.5,
+      infinite: false,
+      responsive: [
+{
+breakpoint:1201,
+settings: {
+centerMode: false,
+slidesToShow: 3.5,
+}
+},
+{
+breakpoint: 768,
+settings: {
+centerMode: false,
+slidesToShow: 3.5,
+}
+},
+{
+breakpoint: 576,
+settings: {
+centerMode: false,
+slidesToShow:3.1,
+}
+},
+{
+breakpoint: 481,
+settings: {
+centerMode: false,
+slidesToShow:2.5,
+}
+},
+{
+breakpoint: 441,
+settings: {
+centerMode: false,
+slidesToShow:2.2,
+}
+},
+{
+breakpoint: 391,
+settings: {
+centerMode: false,
+slidesToShow:2.2,
+}
+}
+]
     });
   });
 </script>
@@ -1770,9 +2482,21 @@ $().ready(function(){
 </script>
 
 <script>
-
-
-  </script>
+  function readURL(input) {
+  if (input.files && input.files[0]) {
+      var reader = new FileReader();
+      reader.onload = function(e) {
+          $('#imagePreviewbgmaintain').css('background-image', 'url('+e.target.result +')');
+          $('#imagePreviewbgmaintain').hide();
+          $('#imagePreviewbgmaintain').fadeIn(650);
+      }
+      reader.readAsDataURL(input.files[0]);
+  }
+}
+$("#imageUploadbgmaintain").change(function() {
+  readURL(this);
+});
+</script>
 
 
 </body>

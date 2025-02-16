@@ -34,14 +34,13 @@ height: 7px;
 {
 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 border-radius: 10px;
-background-color: #F5F5F5;
+background-color: #C9D7E5;
 }
 
 .respre_dropdown::-webkit-scrollbar
 {
 width: 7px;
 height: 5px;
-background-color: #F5F5F5;
 }
 .respre_dropdown::-webkit-scrollbar-thumb
 {
@@ -61,7 +60,6 @@ background-color: #F5F5F5;
 {
 width: 7px;
 height: 5px;
-background-color: #F5F5F5;
 }
 .respre_dropdown::-webkit-scrollbar-thumb
 {
@@ -1235,12 +1233,19 @@ width: 25%;
 padding: 1em 0 0 0;
 margin: 10px 0 0 0;
 }
+.maintenance_upcomingevents .select-box {
+  width: auto;
+}
+.maintenance_upcomingevents .select-box .label {
+  padding: 5px 25px 5px 12px;
+}
 .mainte_tabs .nav-tabs .nav-item .nav-link {
 text-align: center;
 color: #315d80;
 font-weight: 700;
 font-size: 18px;
 line-height: 28px;
+border:unset;
 }
 .maintenance .myinfo_txt img {
 height: 32px;
@@ -1656,7 +1661,7 @@ font-family: 'Helvetica Rounded';
 color: #fff;
 text-transform: capitalize;
 font-size: 19px;
-margin: 7px 0 0 0;
+  margin: 0;
 }
 .btn.btn_appoint {
 background: #edf2fa;
@@ -2291,9 +2296,17 @@ padding: 2px 15px;
 margin: 0 0 0 -14px;
 }
 /* maintenance page */
+
 .listviewsec_cal {
 display: flex;
 align-items: center;
+}
+.mobile_listview,
+.worksmobile_view,.mobilview_all{
+  display: none;
+}
+.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link.listvw.active span img{
+content:url('../images/maintenance/listview_icmaintenace.svg');
 }
 .listimg_reqservice_img img{
 height:30px;
@@ -2333,22 +2346,25 @@ margin:0 10px 0 0;
 .listheight_auto::-webkit-scrollbar-track
 {
 border-radius: 10px;
-background-color: #F5F5F5;
+background-color: #C9D7E5;
 }
 .listheight_auto::-webkit-scrollbar
 {
 width: 7px;
 height: 5px;
-background-color: #F5F5F5;
+}
+.maintenancepage .myinfo_txt span{
+  font-size: 18px;
+  line-height: 28.3px;
 }
 .listheight_auto::-webkit-scrollbar-thumb
 {
 border-radius: 10px;
 background-color: #DEE7F2;
 }
-.listheight_auto{
-max-height: 350px;
-overflow-y: auto;
+.listheight_auto {
+  max-height: 332px;
+  overflow-y: auto;
 }
 .reqserv_descrip p{
 font-weight: 700;
@@ -2377,7 +2393,7 @@ font-size: 14px;
 margin: 0 0 10px 0;
 }
 .maintenance_upcomingevents .time_eventcalender {
-  max-height: 195px;
+  max-height: 197px;
 }
 .maintenance_upcomingevents .timeeventtxt {
 margin: 0 0 26px 0;
@@ -2448,13 +2464,14 @@ height: 48px;
 .calenderview_div.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp .linediv.yellowclr:before{
 box-shadow: inset 2px 2px 4px rgba(255, 235, 166, 0.6), inset -2px -2px 5px -1px #C5A530;
 }
-.calenderview_div.maintenance_upcomingevents .eventtxtdiv h3{
-font-weight: 700;
-font-size: 14px;
-line-height:17px;
-text-transform: capitalize;
-color: #315D80;
-text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+.calenderview_div.maintenance_upcomingevents .eventtxtdiv h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  color: #315D80;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  margin: 0 0 6px 0;
 }
 .maint_pagediv .linediv:before{
 width: 7px;
@@ -2555,11 +2572,33 @@ margin: 0 13px 15px 0px;
 flex-basis: 16%;
 text-align: center;
 }
+.requestblocks_modal::-webkit-scrollbar-track
+{
+border-radius: 10px;
+background-color: #DEE7F2;
+}
+.requestblocks_modal::-webkit-scrollbar
+{
+width: 7px;
+}
+.mobileversion_reqservice{
+  display: none;
+}
+.requestblocks_modal::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+background-color: #315D80;
+}
+.requestblocks_modal{
+  width: 97%;
+  margin: 0 auto;
+  padding: 0 35px;
+  overflow-x: auto;
+  max-height: 413px;
+}
 .six_reqserblock{
 display: flex;
 justify-content: space-between;
-width: 90%;
-margin: 0 auto;
 }
 .descrp_modalreqserv p {
 font-weight: 700;
@@ -2702,11 +2741,15 @@ height: 62px;
 width: 62px;
 margin: 0 auto;
 }
+.maint_pagediv .tab-content.myinfotabs{
+  max-height: 354px;
+  overflow-x: auto;
+}
 .slick_req_service{
-background: #DEE7F2;
-border-radius: 20px;
-padding: 12px 0 0 0px;
-margin: 0 13px 0 0px;
+  background: #DEE7F2;
+  border-radius: 20px;
+  padding: 17px 0 0 0px;
+  margin: 0 13px 0 0px;
 }
 .calenderview_div.maintenance_upcomingevents .calendercard_show {
 margin: 0 0 18px 0;
@@ -2725,14 +2768,15 @@ margin:0;
 padding: 18px 15px 15px 15px;
 }
 .rqservice_blocksslider{
-padding: 0 0px 15px 15px;
+padding: 0 0px 10px 15px;
 }
 .rqservice_blocksslider .slick-slider{
 margin:0;
 }
-.req_service .my_info.maintenancepage{
-padding:0;
-margin: 0 0 16px 0;
+.req_service .my_info.maintenancepage {
+  padding: 0;
+  margin: 0 0 16px 0;
+  min-height: 205px;
 }
 .maintenance_upcomingevents .date_heading h3{
 font-size: 14px;
@@ -2743,11 +2787,8 @@ font-size: 12px;
 height: 28px;
 line-height: 17px;
 }
-.maintenance_upcomingevents .select-box {
-width: 30%;
-}
 .maintenance_upcomingevents .select-box1{
-width: 23%;
+width: 76px;
 margin-left: 10px;
 }
 .maintenance_upcomingevents .seldatebox{
@@ -2772,8 +2813,20 @@ padding: 7px 5px;
 line-height: 22px;
 width: 115px;
 }
+.maintenance.my_info.maint_pagediv {
+  height: 475px;
+}
+.my_teamdiv.myleaseteam_flex.maint_myteamflex.maint_myteamflex{
+  min-height: 76px;
+  padding: 15px 8px 12px 13px;
+}
+.myleaseteam_flex.maint_myteamflex .btnappoint button.btn.btn_appoint.desktopbook {
+  padding: 14px 16px;
+  width: 147px;
+  height: 46px;
+}
 .req_service .maintenancepage .divinfo{
-  padding: 12px 15px 14px 15px;
+  padding: 12px 15px 11px 15px;
   margin: 0;
 }
 .reqserv_descrip{
@@ -6409,6 +6462,7 @@ background: #DEE7F2;
 border-radius: 40px;
 width: 92%;
 margin: 0 0 0 auto;
+border:unset;
 }
 .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link{
 font-family: 'Helvetica';
@@ -8775,6 +8829,23 @@ margin: 1em 0 0.5em 0;
 /* end of transaction page */
 
 /* find property */
+.midsche_toursec .resche_link {
+  background: #E4ECF3;
+  border-radius: 0px 0px 20px 20px;
+}
+.midsche_toursec .resche_link a.resch_clk{
+  font-family: 'Helvetica';
+  font-weight: 700;
+  font-size: 10px;
+  padding: 11px 0;
+  background-color: unset;
+  line-height: 11px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #839FB7;
+  display: block;
+  border-radius: 0 0 17px 17px;
+}
 .search_ip_prop .input-group input.form-control {
 background: #EDF2FA;
 border-radius: 36px !important;
@@ -9488,7 +9559,7 @@ display: flex;
   font-size: 20px;
   color: #000000;
   width: 71.5%;
-  margin: 27px 0 0 0;
+  margin: 27px 0 0 0 !important;
 }
 .rate_min{
   background: #EDF2FA;
