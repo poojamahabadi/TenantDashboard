@@ -5433,7 +5433,7 @@ width: 57%;
     padding: 5px 21px 5px 0px;
 }
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    margin: 0 0 0 7px;
+    margin: 0 0 0 20px;
 }
 .maint_pagediv .myinfotabs .container{
     max-width: 100%;
@@ -5721,7 +5721,7 @@ flex-basis: 100%;
     padding: 0 22px 0 0px;
 }
 .schedtour_popup .tenantaccord .flexdiv .basicdata input.form-control{
-    padding: 0 10px 0 0px;
+    padding: 0 7px 0 6px;
 }
 .schedtour_popup .tenantaccord .flexdiv .basicdata select.form-control,
 .tenantaccord .flexdiv .basicdata select.form-control,
@@ -6162,7 +6162,7 @@ width: auto;
 display:none;
 }
 .toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
-width: 94%;
+width: 96%;
 margin: 0px auto 4px auto;
 }
 .similar_unitsdiv.toursche_slidiv .unit_newlist_lease {
@@ -8754,8 +8754,8 @@ width: 85px;
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
 margin-left: -38px;
 }
-.midsche_toursec {
-margin: 75px auto 0 auto;
+.l-main {
+    margin: 6em 0 0em 0 !important;
 }
 .similar_unitsdiv.toursche_slidiv .leaseddetails_slider .bed_details img {
 margin: 6px 0 3px 0;
@@ -8883,6 +8883,12 @@ top: -28px;
 /* maintenance */
 .maintenance_upcomingevents .calview_show {
     padding: 10px;
+}
+.midsche_toursec .resche_link a {
+    padding: 8px 0;
+}
+.similar_unitsdiv.toursche_slidiv .lochouse_details .house, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock {
+    padding: 2px 15px 2px 7px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .timetab_div.modaltime_div .flxtime_design .block_time.mins_marg {
     margin: 0 23px;
@@ -9322,7 +9328,7 @@ padding: 3px 13px 5px 17px;
 width: 43%;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-margin-left: 135px;
+    margin-left: 143px;
 }
 .toursche_slidiv h3 {
 margin: 0 0 0 9px;
@@ -12391,6 +12397,10 @@ margin-left: 66px;
 @media only screen and (max-width: 430px) {
 
 /* property */
+.toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
+    width: 92%;
+}
+
 .schedtour_popup .tenantaccord .flexdiv .mobilebedbathrm_fields .basicdata {
     width: 58px;
 }
@@ -12486,6 +12496,13 @@ margin: 0 0 0 10px;
 .belowpart_tenant.maintenance_div .profimg_div {
     margin: -85px 0 0 22px;
 }
+.about_descrip ul li:first-child {
+    padding: 0 2px 0 0px;
+}
+.about_descrip ul li {
+    padding: 0 2px 0 2px;
+    font-size: 11px;
+}
 .sche_tour .flexschedule {
     margin: 0 0 31px 0;
 }
@@ -12502,7 +12519,7 @@ margin: 0 0 0 10px;
     padding: 17px 25px 22px 25px;
 }
 .l-main .similar_unitsdiv .lochouse_details .house span, .l-main .similar_unitsdiv .lochouse_details .clock span {
-    font-size: 11px;
+    font-size: 9px;
 }
 .main_workdescrip {
     flex-basis: 72%;
@@ -12665,9 +12682,9 @@ padding: 12px 7px;
 margin: 0 0 10px 0;
 }
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house span img, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span img {
-height: 13px;
-width: 14px;
-vertical-align: text-top;
+    height: 12px;
+    width: 12px;
+    vertical-align: sub;
 }
 .similar_unitsdiv.toursche_slidiv .rat_tot_count p.count_rst, .toursche_slidiv .ratingstar_count {
 line-height: 9px;
@@ -14082,9 +14099,15 @@ left: -18px;
 .rqservice_blocksslider {
     padding: 4px 6px 6px 16px;
 }
+.schedtour_popup .tenantaccord .card .card-body .flexdiv {
+    padding: 7px 0px 7px 2px;
+}
+.similar_unitsdiv .leasedslider .slidelocation_div span img {
+    height: 17px;
+}
 .about_descrip ul li {
-    padding: 0 5px 0 5px;
-    font-size: 11px;
+    padding: 0 2px 0 2px;
+    font-size: 10px;
 }
 .modal.viewallreq_modal .modal-header .close, .modal.techni_modalstyl .modal-header .close {
     width: 28px;
@@ -14187,7 +14210,7 @@ width: 100%;
 }
 
 .l-main .similar_unitsdiv .slidelocation_div .txt_loc {
-    font-size: 13px;
+    font-size: 11px;
 }
 .schedtour_popup .monthyear_div {
     width: 66%;
@@ -14214,7 +14237,7 @@ padding-left: 21px;
 height: 20px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-margin-left: 27px;
+    margin-left: 24px;
 }
 .similar_unitsdiv.toursche_slidiv .propred_clr {
 margin: 0 146px 0 2px;
@@ -15258,6 +15281,24 @@ left: -22px;
 @media only screen and (max-width: 375px) and (min-width:361px) {
 
 /* maintenance */
+.similar_unitsdiv.toursche_slidiv .lochouse_details .house span, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
+    font-size: 9px;
+}
+.about_descrip ul li:first-child {
+    padding: 0 2px 0 0px;
+}
+.l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn {
+    padding: 14px 12px 14px 12px;
+}
+.midsche_toursec .showing_viewdetails .btn.view_detail {
+    padding: 3px 7px 5px 8px;
+}
+.confr_appt h3 {
+    font-size: 11px;
+}
+.similar_unitsdiv.toursche_slidiv .lochouse_details .house, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock {
+    padding: 2px 6px 2px 7px;
+}
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
     margin: 0 0 0 8px;
 }
@@ -15382,8 +15423,12 @@ width: 50%;
 }
 /* payment deposit */
 /* schedule tour */
-.schedtour_popup .tenantaccord .card-body .border_atend {
+.schedtour_popup .tenantaccord .card-body .border_atend,
+.schedtour_popup .tenantaccord .card-body .rt_flexside {
     padding: 0 6px;
+}
+.schedtour_popup .accordion.tenantaccord .flexdiv div label {
+    font-size: 11px;
 }
 #reservenow_offer .my_info {
     padding: 11px 9px 2px 9px;
@@ -15400,7 +15445,7 @@ width: 50%;
     margin: 0 auto 0 -11px;
 }
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    font-size: 14px;
+    font-size: 13px;
 }
 .l-main .similar_unitsdiv .lochouse_details .house span, .l-main .similar_unitsdiv .lochouse_details .clock span {
     font-size: 9px;
@@ -15454,7 +15499,7 @@ font-size: 17px;
     width: 72%;
 }
 .l-main .similar_unitsdiv .slidelocation_div .txt_loc {
-    font-size: 13px;
+    font-size: 12px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
     top: 15px;
@@ -16210,9 +16255,6 @@ font-size: 12px;
 .map_streetshowings h3 {
 font-size: 14px;
 }
-.about_descrip ul li {
-padding: 0px 5px 0 5px;
-}
 .mobileview_allunits h3, .mobileview_allunits h3, .about_descrip h3, .head_explr {
 font-size: 17px;
 }
@@ -16582,6 +16624,12 @@ width: 37%;
 .maintenancepage .c-search.menusearch {
     width:100%;
 }
+.about_descrip ul li:first-child {
+    padding: 0 2px 0 0px;
+}
+.midsche_toursec {
+    margin-top: 0;
+}
 .sche_tour.propdetails_schetour .flexschedule {
     margin: 0 0 30px 0;
 }
@@ -16904,7 +16952,7 @@ margin: 0 0 0 11px;
 
 /* schedule tour */
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    font-size: 14px;
+    font-size: 12px;
 }
 .lf_flexside, .rt_flexside {
     padding:0px;
@@ -17790,7 +17838,7 @@ font-size: 12px;
 height: 17px;
 }
 .about_descrip ul li {
-font-size: 10px;
+font-size: 9px;
 line-height: 18px;
 }
 
@@ -18287,6 +18335,29 @@ font-size: 15px;
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
 /* maintenance */
+.midsche_toursec {
+    margin-top: 0;
+}
+.about_descrip ul li {
+    padding: 0 2px 0 2px;
+    font-size: 8px;
+    line-height: 13px;
+}
+.schedtour_popup .seldateboxsche_prop .date_heading h3 {
+    margin: 0 0 0 10px;
+}
+.schetour_btm.mobileschedutour_view .showing_details {
+    flex-basis: 63%;
+}
+.midsectour_sche .showing_viewdetails .btn.view_detail {
+    padding: 1px 8px 3px 6px;
+}
+.schetour_img img {
+    height: 63px;
+}
+.confr_appt h3 {
+    font-size: 11px;
+}
 .maint_pagediv .name_addr p.addr {
     font-size: 11px;
     line-height: 15px;
@@ -18627,7 +18698,7 @@ padding: 2px 8px;
 padding: 1px 12px 3px 13px;
 }
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house span, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
-font-size: 11px;
+font-size: 9px;
 }
 .similar_unitsdiv.toursche_slidiv .slidelocation_div .txt_loc {
 font-size: 12px;
@@ -19754,11 +19825,7 @@ font-size: 11px;
 .mapdetails_div .category-button img {
 height: 17px;
 }
-.about_descrip ul li {
-    padding: 0 3px 0 3px;
-    font-size: 9px;
-    line-height: 18px;
-}
+
 .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .house, .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .clock {
     padding: 2px 2px;
 }
