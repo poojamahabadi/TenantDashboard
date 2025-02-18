@@ -18,15 +18,16 @@ position:relative;
 width: 10px;
 }
 /* Track */
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
 background: #DEE7F2;
-}
+} */
 /* Handle */
 ::-webkit-scrollbar-thumb {
 background: #C9D7E5;
 border-radius: 20px;
 }
-.time_eventcalender::-webkit-scrollbar,.calenderview_div::-webkit-scrollbar{
+.time_eventcalender::-webkit-scrollbar,.calenderview_div::-webkit-scrollbar,
+.maint_pagediv .tab-content.myinfotabs::-webkit-scrollbar{
 width: 7px;
 height: 7px;
 }
@@ -2296,7 +2297,12 @@ padding: 2px 15px;
 margin: 0 0 0 -14px;
 }
 /* maintenance page */
-
+.review_slickslider .slick-slider{
+  margin:0;
+}
+.maintenance_upcomingevents .select-box1 .label{
+  padding: 5px 0 0 16px;
+}
 .listviewsec_cal {
 display: flex;
 align-items: center;
@@ -2649,10 +2655,13 @@ align-items: anchor-center;
 }
 .phono_comment{
 flex-basis: 15%;
-margin: 5px 0 0 0;
+margin: 0px 0 0 0;
 }
 .name_techni label{
 color: #6B5E7B;
+}
+.techni_profsection .phono_comment ul li:last-child{
+  margin:0;
 }
 .id_tech_no label{
 color: #F2727F;
@@ -2699,7 +2708,7 @@ border-radius: 0 0 17px 17px;
 padding: 0 10px;
 margin: 0;
 align-items: center;
-max-height: 95px;
+max-height: 105px;
 }
 .relv_profimgstatus img{
 height: 146px;
@@ -2910,9 +2919,13 @@ color:#ffffff;
     padding: 0 5px;
 }
 .certidetails_div img{
-    width: 113px;
-    height: 152px;
-    object-fit: cover;
+  width: 113px;
+  height: 152px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.techni_profsection .phono_comment ul li{
+  margin: 0 7px 0 7px;
 }
 .btn.btnview_div{
     background: #315D80;
@@ -2928,7 +2941,7 @@ color:#ffffff;
     border: unset;
     position: absolute;
     bottom: 19px;
-    left: 50%;
+    left: 52%;
 }
 .below_detailscertifi{
     width: 39%;

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Maintenance</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+    <!-- datepicker styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="css/jquery-clockpicker.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/new-stylecss.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header class="l-header">
+        <div class="l-header__inner clearfix">
+            <div class="c-header-icon desktopversion_search">
+                                    <a href="javascript:void(0)" onclick="openNav()">
+                        <div class="hamburger-toggle">
+                            <span class="bar-top"></span>
+                            <span class="bar-mid"></span>
+                            <span class="bar-bot"></span>
+                        </div>
+                    </a>
+                            </div>
+            <div class="logo">
+                <div class="logo__txt">
+                    <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/dashboard" class="desktopversion_logo"><img
+                            src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/newlogo.svg"></a>
+                    <div class="mobileversion_view">
+                        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/dashboard"><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/mobile_logo.svg"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="c-search desktopversion_search">
+                <input class="c-search__input form-control" placeholder="Search" type="text" />
+                <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+                </button>
+            </div>
+            <div class="mobileversion_view txt_heading">
+                <h3>Technician </h3> <!-- 'Default Heading' as fallback -->
+            </div>
+            <div class="links">
+                <ul>
+                    <li class="phone desktopversion_search"> <a href="">
+                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/phone.svg"></a>
+                        <div class="count_phone">
+                            <span>4</span>
+                        </div>
+                    </li>
+                    <li class="comment desktopversion_search"> <a href="">
+                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/comment.svg"></a>
+                        <div class="count_comment">
+                            <span>5</span>
+                        </div>
+                    </li>
+                    <li class="email desktopversion_search"> <a href="">
+                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/email.svg"></a>
+                        <div class="count_email">
+                            <span>6</span>
+                        </div>
+                    </li>
+                    <li class="notify"> <a href="">
+                            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/notify.svg"></a>
+                        <div class="count_notify">
+                            <span>30</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="c-header-icon mobileversion_view">
+                                    <a href="javascript:void(0)" onclick="openNav()">
+                        <div class="hamburger-toggle">
+                            <span class="bar-top"></span>
+                            <span class="bar-mid">
+                            </span><span class="bar-bot"></span>
+                        </div>
+                    </a>
+                            </div>
+        </div>
+    </header>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="topsec_menu">
+        <div class="profilepic">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/profilemenu.svg">
+            <div class="status status_green">
+                <span></span>
+            </div>
+        </div>
+        <div class="profiledetails">
+            <p>Akhil Sharma <small> - Tenant</small></p>
+            <a href="">View Profile</a>
+        </div>
+        <div class="upgradediv">
+        </div>
+    </div>
+    <div class="c-search menusearch">
+        <!-- <input class="c-search__input form-control" placeholder="Search" type="text" />
+        <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+        </button> -->
+    </div>
+    <div class="menu_nav">
+        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/dashboard" class="active">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/my_info.svg"> My Information
+        </a>
+        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/communications" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/communication.svg"> Communications
+        </a>
+        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/showing/view" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/showings.svg"> Showings & Offers
+        </a>
+        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/showing/active-lease" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/active_lease.svg"> Active Lease
+        </a>
+        <!-- <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/transactions" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/transaction.svg"> Transactions
+        </a> -->
+        <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/find-property" class="">
+            <img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/properties.svg"> Find a Properties
+        </a>
+
+        <div class="logoutsec">
+            <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/logout"
+               onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                <div class="c-menu__item__inner">
+                    <div class="c-menu-item__title"><span>Log Out</span></div>
+                </div>
+            </a>
+            <form id="logout-form" action="https://phpstack-1217932-4677201.cloudwaysapps.com/logout" method="POST" style="display: none;">
+                <input type="hidden" name="_token" value="HjmJAIpx3itrWHhnoQ0cpLFcWQ24Zm6SNuxctJmj" autocomplete="off">            </form>
+        </div>
+    </div>
+</div>
+
+
+<main class="l-main">
+<div class="content-wrapper content-wrapper--with-bg">
+<div class="container-fluid">
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="techni_profsection mobview_technician">
+        <div class="techni_backgimg"></div>
+        <div class="techni_profdescrip">
+          <div class="techname_imgno">
+            <div class="techni_prof_img">
+                  <div class="relv_profimgstatus">
+                    <img src="images/maintenance/techimg1.svg">
+                    <div class="statusmodal status_greencolr"></div>
+                  </div>
+                  <div class="profile_infotxt">
+                    <p class="prof_label">Nickname</p>
+                    <p class="profilename">Simon J.</p>
+                </div>
+            </div>
+                
+          </div>
+          <div class="phono_comment">
+              <ul>
+                <li><img src="images/maintenance/phone_techni.svg"></li>
+                <li><img src="images/maintenance/comment_techni.svg"></li>
+              </ul>
+              <div class="acc_infotxt">
+                <p class="acc_label">ID No.</p>
+                <p class="account_no">T34550</p>
+                </div>
+          </div>
+        </div>
+    </div>
+<!-- end of top section -->
+
+
+<!-- tabs section -->
+<div class="abt_rev_certifi">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#about_tech">about</a>
+      </li>
+      <li class="nav-item reviewslick_slider">
+        <a class="nav-link" data-toggle="tab" href="#review_tech">review</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#certifi_tech">certificates</a>
+      </li>
+    </ul>
+    
+    
+    <div class="tab-content">
+      <div id="about_tech" class="container aboutpad_sec tab-pane active">
+        <!-- about section -->
+        <div id="aboutcontent_maintenance">
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#about_section">
+                <div class="linediv green_main"></div>   About
+              </a>
+            </div>
+            <div id="about_section" class="collapse show" data-parent="#aboutcontent_maintenance">
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+    
+              <a class="collapsed card-link" data-toggle="collapse" href="#not_onjob">
+                <div class="linediv yellow_main"></div>
+                When I am not on my job
+            </a>
+            </div>
+            <div id="not_onjob" class="collapse" data-parent="#aboutcontent_maintenance">
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-0">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#on_job">
+                <div class="linediv purple_main"></div>
+                When i am on my job i always make sure to
+              </a>
+            </div>
+            <div id="on_job" class="collapse" data-parent="#aboutcontent_maintenance">
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- end of about section -->
+      </div>
+      <div id="review_tech" class="container reviewcontr tab-pane fade">
+       
+    <!-- review section -->
+    <div class="review_slickslider">
+    <div class="slick-carousel">
+    
+    <div class="mainflex_container">
+    <div class="flexparent_reviewblock">
+        <div class="slide-contentreview_imginfo">
+          <div class="userimg_review greenuser_border">
+            <span> <img src="images/client.svg"></span>
+            <span>John Doe</span>
+          </div>
+          <div class="user_decrip_txt">
+            <p>Lorem ipsum dolor sit amet consectetur. Dis urna dui id pharetra sit vestibulum. </p>
+          </div>
+        <div class="datedecrip_div">
+          <p><img src="images/maintenance/datepick.svg"> fri, dec 12, 2024</p>
+        </div>
+        </div>
+        <div class="reviewprogress_section">
+          <div class="circles-small">
+            <div class="circle-small">
+              <div class="text">4.2</div>
+              <svg>
+                <circle class="bg" cx="40" cy="40" r="25"></circle>
+                <circle class="progress one green_prog" cx="33" cy="39" r="25"></circle>
+              </svg>
+            </div>
+          </div>
+          <div class="reviewstar_ic">
+              <p>good reviews</p>
+              <div class="rating_icongreen greenicon_colr">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="mainflex_container">
+      <div class="flexparent_reviewblock">
+          <div class="slide-contentreview_imginfo">
+            <div class="userimg_review yellowuser_border">
+              <span> <img src="images/client.svg"></span>
+              <span>John Doe</span>
+            </div>
+            <div class="user_decrip_txt">
+              <p>Lorem ipsum dolor sit amet consectetur. Dis urna dui id pharetra sit vestibulum. </p>
+            </div>
+          <div class="datedecrip_div">
+            <p><img src="images/maintenance/datepick.svg"> fri, dec 12, 2024</p>
+          </div>
+          </div>
+          <div class="reviewprogress_section">
+            <div class="circles-small">
+              <div class="circle-small">
+                <div class="text">4.2</div>
+                <svg>
+                  <circle class="bg" cx="40" cy="40" r="25"></circle>
+                  <circle class="progress one yellow_prog" cx="33" cy="39" r="25"></circle>
+                </svg>
+              </div>
+            </div>
+            <div class="reviewstar_ic">
+                <p>good reviews</p>
+                <div class="rating_icongreen yellowicon_colr">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+    <div class="mainflex_container">
+    <div class="flexparent_reviewblock">
+        <div class="slide-contentreview_imginfo">
+          <div class="userimg_review greenuser_border">
+            <span> <img src="images/client.svg"></span>
+            <span>John Doe</span>
+          </div>
+          <div class="user_decrip_txt">
+            <p>Lorem ipsum dolor sit amet consectetur. Dis urna dui id pharetra sit vestibulum. </p>
+          </div>
+        <div class="datedecrip_div">
+          <p><img src="images/maintenance/datepick.svg"> fri, dec 12, 2024</p>
+        </div>
+        </div>
+        <div class="reviewprogress_section">
+          <div class="circles-small">
+            <div class="circle-small">
+              <div class="text">4.2</div>
+              <svg>
+                <circle class="bg" cx="40" cy="40" r="25"></circle>
+                <circle class="progress one green_prog" cx="33" cy="39" r="25"></circle>
+              </svg>
+            </div>
+          </div>
+          <div class="reviewstar_ic">
+              <p>good reviews</p>
+              <div class="rating_icongreen greenicon_colr">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mainflex_container">
+      <div class="flexparent_reviewblock">
+          <div class="slide-contentreview_imginfo">
+            <div class="userimg_review yellowuser_border">
+              <span> <img src="images/client.svg"></span>
+              <span>John Doe</span>
+            </div>
+            <div class="user_decrip_txt">
+              <p>Lorem ipsum dolor sit amet consectetur. Dis urna dui id pharetra sit vestibulum. </p>
+            </div>
+          <div class="datedecrip_div">
+            <p><img src="images/maintenance/datepick.svg"> fri, dec 12, 2024</p>
+          </div>
+          </div>
+          <div class="reviewprogress_section">
+            <div class="circles-small">
+              <div class="circle-small">
+                <div class="text">4.2</div>
+                <svg>
+                  <circle class="bg" cx="40" cy="40" r="25"></circle>
+                  <circle class="progress one yellow_prog" cx="33" cy="39" r="25"></circle>
+                </svg>
+              </div>
+            </div>
+            <div class="reviewstar_ic">
+                <p>good reviews</p>
+                <div class="rating_icongreen yellowicon_colr">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="mainflex_container">
+    <div class="flexparent_reviewblock">
+        <div class="slide-contentreview_imginfo">
+          <div class="userimg_review yellowuser_border">
+            <span> <img src="images/client.svg"></span>
+            <span>John Doe</span>
+          </div>
+          <div class="user_decrip_txt">
+            <p>Lorem ipsum dolor sit amet consectetur. Dis urna dui id pharetra sit vestibulum. </p>
+          </div>
+        <div class="datedecrip_div">
+          <p><img src="images/maintenance/datepick.svg"> fri, dec 12, 2024</p>
+        </div>
+        </div>
+        <div class="reviewprogress_section">
+          <div class="circles-small">
+            <div class="circle-small">
+              <div class="text">4.2</div>
+              <svg>
+                <circle class="bg" cx="40" cy="40" r="25"></circle>
+                <circle class="progress one yellow_prog" cx="33" cy="39" r="25"></circle>
+              </svg>
+            </div>
+          </div>
+          <div class="reviewstar_ic">
+              <p>good reviews</p>
+              <div class="rating_icongreen yellowicon_colr">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- end of review section -->
+    
+      </div>
+      <div id="certifi_tech" class="container certificcontr tab-pane fade">
+        <h3>Licenses & certificates</h3>
+       <div class="certifidiv_flexcontainer">
+          <div class="certidetails_div">
+              <div class="">
+                <img src="images/maintenance/plumb_moblic.svg">
+              </div>
+              <div class="below_detailscertifi">
+                <p class="mb-0">Plumbing license</p>
+              </div>
+              <div class="below_detailscertifi">
+                <button class="btn btnview_div">view</button>
+              </div>
+          </div>
+          <div class="certidetails_div wsib_certif">
+            <div class="">
+              <img src="images/maintenance/plumb_lic.svg">
+            </div>
+            <div class="below_detailscertifi">
+                <p class="mb-0">WSIB Certificate</p>
+              </div>
+            <div class="below_detailscertifi">
+              <button class="btn btnview_div">view</button>
+            </div>
+          </div>
+          <div class="certidetails_div liabi_certif">
+            <div class="">
+              <img src="images/maintenance/plumb_lic.svg">
+            </div>
+            <div class="below_detailscertifi">
+                <p class="mb-0">liability
+                  Insurance</p>
+              </div>
+            <div class="below_detailscertifi">
+              <button class="btn btnview_div">view</button>
+            </div>
+          </div>
+       </div>
+      </div>
+    </div>
+    </div>
+    <!-- end of tab section -->
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+</main>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<!--  slick js -->
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>

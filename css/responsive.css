@@ -3,6 +3,10 @@
 .modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
     max-width: 1014px;
 }
+.statusmodal {
+    bottom: 29px;
+    right: 13px;
+}
 .maint_pagediv .stat_div {
     margin: 1px 0 1px 98px;
 }
@@ -2416,7 +2420,7 @@ right: -5px;
 @media only screen and (max-width:1080px){
 /* maintenance */
 .modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
-    max-width: 90%;
+    max-width: 96%;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
     width: 97%;
@@ -3388,7 +3392,11 @@ margin: 10px 0 0 0;
     padding: 0 3px;
 }
 .maintenancepage .myinfo_txt span {
-    font-size: 17px;
+    font-size: 15px;
+}
+.my_info.maintenancepage .myinfo_txt img {
+    height: 23px;
+    width: 26px;
 }
 .maintenance_upcomingevents .seldatebox {
     flex-basis: 73%;
@@ -3954,6 +3962,36 @@ padding: 4px 22px 4px 12px;
 .reqservdiv_styl img {
     height: 41px;
     width: 41px;
+}
+.certifidiv_flexcontainer .btn.btnview_div {
+    width: 40%;
+    bottom: 13px;
+    left: 56%;
+}
+.maint_pagediv .details_block.myinfodiv_sec .linediv:before {
+    margin: 0px 9px 0 4px;
+}
+.belowpart_tenant.maintenance_div .profimg_div .status {
+    right: -2px;
+    bottom: 27px;
+}
+.my_info.maintenancepage .myinfo_txt img {
+    height: 26px;
+}
+.maintenancepage .myinfo_txt span {
+    font-size: 18px;
+}
+.maintenance_div .acc_infotxt {
+    margin: 0px 0px 0 120px;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    margin-left: 41px;
+}
+.modal.viewallreq_modal .modal-header, .techni_modalstyl .modal-header {
+    padding: 18px 0 17px 0;
+}
+.techni_profsection .statusmodal {
+    right: 20px;
 }
 .reqservdiv_styl {
     margin: 0 10px 15px 0px;
@@ -5044,6 +5082,21 @@ padding: 14px 20px;
 @media only screen and (max-width:768px){
 
     /* maintenance */
+    .certifidiv_flexcontainer .btn.btnview_div {
+        width: 36%;
+        left: 60%;
+    }
+    .below_detailscertifi p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .l-main {
+        padding: 7em 0 0em 0;
+        margin: 0 !important;
+    }
+    .belowpart_tenant.maintenance_div .profimg_div {
+        margin-left: 26px;
+    }
     .maintenance.my_info.maint_pagediv {
         height: auto;
     }
@@ -5056,7 +5109,7 @@ padding: 14px 20px;
     .modal.viewallreq_modal .modal-header, .techni_modalstyl .modal-header {
         justify-content: center;
         border: unset;
-        padding: 27px 0 14px 0;
+        padding: 22px 0 18px 0;
     }
     .maintenance_upcomingevents .seldatebox {
         flex-basis: 41%;
@@ -5416,6 +5469,118 @@ width: 57%;
 /* maintenance */
 .midsche_toursec {
     width: 100%;
+}
+.timeeventtxt p {
+    text-align: center;
+}
+.below_detailscertifi p {
+    font-size: 16px;
+    line-height: 18px;
+}
+.abt_rev_certifi .tab-content .container.reviewcontr{
+    max-width: 100%;
+}
+.certificcontr h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #315D80;
+    text-align: center;
+    margin: 4px 0 16px 0;
+}
+.certifidiv_flexcontainer .btn.btnview_div {
+    position: unset;
+    width: 71px;
+    line-height: 12px;
+}
+.certidetails_div{
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+    min-height: 79px;
+    padding: 0 14px 0 10px;
+}
+.certifidiv_flexcontainer {
+    display: block;
+}
+.below_detailscertifi{
+    margin: 0;
+    width: auto;
+    display: flex;
+}
+.certidetails_div img{
+    width: 88px;
+    height: 64px;
+}
+.user_decrip_txt p {
+    margin: 0 0 13px 0;
+}
+.flexparent_reviewblock {
+    margin: 0 0 13px 0;
+    padding: 5px 29px 13px 29px;
+    justify-content: space-between;
+}
+.mobview_technician .techni_profdescrip {
+    padding: 10px 10px 24px 0px;
+}
+.techni_backgimg {
+    height: 117px;
+}
+.mobview_technician .phono_comment ul {
+    margin: -32px 0 0 0;
+}
+.mobview_technician .profilename{
+    font-size:18px;
+    line-height: 29px;
+}
+.mobview_technician .phono_comment img {
+    width: 43px;
+    height: 43px;
+}
+.mobview_technician .acc_infotxt .acc_label{
+    text-align: right;
+    margin: 0 0 5px 0;
+}
+.mobview_technician .profile_infotxt .prof_label{
+    margin:0;
+}
+.mobview_technician .acc_infotxt .account_no{
+    font-size: 18px;
+}
+.mobview_technician .acc_infotxt {
+    margin: 26px 0 0 0;
+}
+.techni_profsection .statusmodal {
+    right: 7px;
+    bottom: 19px;
+}
+.relv_profimgstatus img {
+    height: 95px;
+    width: 95px;
+    margin: -20px 0 0 0;
+}
+.techni_profdescrip{
+    padding:0;
+}
+.mobview_technician .profile_infotxt {
+    margin: 10px 0 0 0;
+}
+.techni_prof_img {
+    margin: -47px 0 0 25px;
+}
+.relv_profimgstatus{
+    top:0;
+}
+.techname_imgno {
+    flex-basis: 68%;
+    justify-content: start;
+}
+.phono_comment {
+    flex-basis: 30%;
+}
+.abt_rev_certifi .tab-content .container.aboutpad_sec, .abt_rev_certifi .tab-content .container.certificcontr {
+    width: 100%;
+    max-width: 100%;
 }
 .l-main .showing_det.prop_feature.propertyfeat_sche_showdiv {
     height: auto;
@@ -7748,6 +7913,15 @@ right: 13px;
 .maint_pagediv .stat_div {
     margin: 1px 0 1px 34px;
 }
+.mobview_technician .acc_infotxt {
+    margin: 30px 0 0 0;
+}
+.relv_profimgstatus img {
+    margin: -18px 0 0 0;
+}
+.mobview_technician .profile_infotxt {
+    margin: 16px 0 0 0;
+}
 .propdetails_slider .similar_unitsdiv .leasedslider {
     margin: 11px 0px 0 11px;
 }
@@ -8755,7 +8929,7 @@ width: 85px;
 margin-left: -38px;
 }
 .l-main {
-    margin: 6em 0 0em 0 !important;
+    margin: 0em 0 0em 0 !important;
 }
 .similar_unitsdiv.toursche_slidiv .leaseddetails_slider .bed_details img {
 margin: 6px 0 3px 0;
@@ -8884,6 +9058,47 @@ top: -28px;
 .maintenance_upcomingevents .calview_show {
     padding: 10px;
 }
+.maintenance_upcomingevents .timeeventtxt sub {
+    bottom: 1px;
+}
+.maintenance_upcomingevents .cale_num {
+    font-size: 10px;
+}
+.maintenance_upcomingevents .timecalenderpad {
+    padding: 0 0 0 15px;
+}
+.maintenance_upcomingevents .timeeventtxt p {
+    text-align: left;
+}
+.maint_pagediv .tab-content.myinfotabs {
+    max-height: unset;
+    overflow-x: unset;
+}
+.widextend_mobviewleft{
+    flex: 0 0 10.333333%;
+    max-width: 10.333333%;
+}
+.widextend_mobviewright{
+    flex: 0 0 89.666667%;
+    max-width: 89.666667%;
+}
+.abt_rev_certifi .tab-content .container .card .card-header a {
+    align-items: anchor-center;
+}
+.abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link{
+    width: 110px;
+}
+.mobview_technician .profile_infotxt .profilename{
+    order: 2;
+    line-height: 24px;
+}
+.mobview_technician .phono_comment ul {
+    margin: -29px 0 0 0;
+}
+.mobview_technician .acc_infotxt {
+    margin: 22px 0 0 0;
+}
+
 .midsche_toursec .resche_link a {
     padding: 8px 0;
 }
@@ -8911,13 +9126,13 @@ top: -28px;
     margin: -82px 0 0 25px;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 500px;
+    height: auto;
 }
 .maintenance_upcomingevents .listheight_auto {
     max-height: 374px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 229px;
+    max-height: 500px;
 }
 .maintenance_upcomingevents .seldatebox {
     flex-basis: 56%;
@@ -8929,7 +9144,7 @@ top: -28px;
     margin: 16px 0 0 0;
 }
 .my_info.maintenance {
-    padding: 18px 14px 14px 14px;
+    padding: 18px 14px 10px 14px;
 }
 .req_service .my_info.maintenancepage {
     min-height: 245px;
@@ -9068,8 +9283,9 @@ top: -28px;
     border: unset;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 374px;
+    max-height: 600px;
 }
+
 .viewall_workorders{
     text-align: center;
     margin: 17px 0 5px 0;
@@ -10840,6 +11056,13 @@ top: 11px;
 .reqserv_descrip {
     margin: 8px 0 0 0;
 }
+
+.mobview_technician .phono_comment ul {
+    margin: -24px 0 0 0;
+}
+.mobview_technician .acc_infotxt {
+    margin: 17px 0 0 0;
+}
 .sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
     padding-left: 21px;
 }
@@ -10874,15 +11097,6 @@ top: 11px;
 }
 .maintenance_upcomingevents .seldatebox {
     flex-basis: 59%;
-}
-.calenderview_div.maintenance_upcomingevents {
-    height: 500px;
-}
-.maintenance_upcomingevents .listheight_auto {
-    max-height: 374px;
-}
-.maintenance_upcomingevents .time_eventcalender {
-    max-height: 230px;
 }
 .mobilview_all {
     padding: 4px 0 6px 0;
@@ -11821,6 +12035,18 @@ width: 56%;
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
     /* maintenance */
+    .flexparent_reviewblock {
+        padding: 5px 12px 13px 14px;
+        justify-content: space-between;
+    }
+    .widextend_mobviewright {
+        flex: 0 0 85.666667%;
+        max-width: 85.666667%;
+    }
+    .widextend_mobviewleft {
+        flex: 0 0 13.333333%;
+        max-width: 13.333333%;
+    }
     .belowpart_tenant.maintenance_div .profimg_div {
         margin: -85px 0 0 29px;
     }
@@ -12495,6 +12721,26 @@ margin: 0 0 0 10px;
 /* maintenance */
 .belowpart_tenant.maintenance_div .profimg_div {
     margin: -85px 0 0 22px;
+}
+.widextend_mobviewright {
+    flex: 0 0 85.666667%;
+    max-width: 85.666667%;
+}
+.widextend_mobviewleft {
+    flex: 0 0 13.333333%;
+    max-width: 13.333333%;
+}
+.flexparent_reviewblock {
+    padding: 8px 19px 16px 15px;
+}
+.mobview_technician .phono_comment ul {
+    margin: -25px 0 0 0;
+}
+.mobview_technician .acc_infotxt {
+    margin: 18px 0 0 0;
+}
+.abt_rev_certifi ul.nav.nav-tabs .nav-item {
+    margin: 0 14px 0 0;
 }
 .about_descrip ul li:first-child {
     padding: 0 2px 0 0px;
@@ -14096,6 +14342,30 @@ left: -18px;
 
 @media only screen and (max-width: 393px) {
 /* maintenance */
+.abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
+    width: 107px;
+}
+.widextend_mobviewright {
+    flex: 0 0 85.666667%;
+    max-width: 85.666667%;
+}
+.widextend_mobviewleft {
+    flex: 0 0 13.333333%;
+    max-width: 13.333333%;
+}
+.abt_rev_certifi .tab-content .container .card .card-header a {
+    line-height: 17px;
+}
+.user_decrip_txt p {
+    margin: 0 7px 13px 0px;
+}
+.below_detailscertifi p {
+    margin: 0 10px;
+    text-align: left;
+}
+.flexparent_reviewblock {
+    padding: 5px 8px 13px 15px;
+}
 .rqservice_blocksslider {
     padding: 4px 6px 6px 16px;
 }
@@ -14132,7 +14402,7 @@ left: -18px;
     margin: -86px 0 0 22px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 11px 22px 0 0px;
+    margin: 15px 22px 0 0px;
 }
 .belowpart_tenant.maintenance_div {
     padding: 23px 0 11px 0 !important;
@@ -14636,8 +14906,38 @@ height: 21px;
 
 
 @media only screen and (max-width: 385px) and (min-width:376px) {
-
-
+    .abt_rev_certifi ul.nav.nav-tabs .nav-item {
+        margin: 0 8px 0 0;
+        font-size: 16px;
+    }
+    .maint_pagediv .name_addr p.addr {
+        line-height: 16px;
+    }
+    .maintenancepage .myinfo_txt {
+        width: 50%;
+    }
+    .maintenancepage .c-search.menusearch {
+        width: 78%;
+    }
+    .maintenancepage .myinfo_txt span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .mobview_technician .acc_infotxt .acc_label {
+        margin: 0;
+    }
+    .below_detailscertifi p {
+        font-size: 14px;
+    }
+    .mobview_technician .phono_comment ul {
+        margin: -25px 0 0 0;
+    }
+    .mobview_technician .profilename,.mobview_technician .acc_infotxt .account_no {
+        font-size: 15px;
+    }
+    .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
+        font-size: 16px;
+    }
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p,.confirmreschedule .modal-header p {
 width: 88%;
@@ -15284,14 +15584,48 @@ left: -22px;
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house span, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
     font-size: 9px;
 }
-.about_descrip ul li:first-child {
-    padding: 0 2px 0 0px;
+.maintenancepage .myinfo_txt span {
+    font-size: 15px;
+}
+.req_service .maintenancepage .divinfo {
+    padding: 11px 13px 11px 18px;
+}
+.techni_prof_img {
+    margin: -47px 0 0 19px;
+}
+.mobview_technician .acc_infotxt {
+    margin: 22px 0 0 0;
+}
+.mobview_technician .phono_comment ul {
+    margin: -22px 0 0 0;
+}
+.mobview_technician .acc_infotxt .acc_label {
+    margin: 0;
+}
+.mobview_technician .profilename,.mobview_technician .acc_infotxt .account_no {
+    font-size: 15px;
+}
+.flexparent_reviewblock {
+    padding: 9px 13px 18px 15px;
+}
+.abt_rev_certifi .tab-content .card .card-body {
+    padding: 15px 11px 10px 18px;
+}
+.abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
+    font-size: 14px;
+    width: 101px;
+}
+.abt_rev_certifi ul.nav.nav-tabs .nav-item {
+    margin: 0 4px 0 0;
 }
 .l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn {
     padding: 14px 12px 14px 12px;
 }
 .midsche_toursec .showing_viewdetails .btn.view_detail {
     padding: 3px 7px 5px 8px;
+}
+.below_detailscertifi p {
+    font-size: 14px;
 }
 .confr_appt h3 {
     font-size: 11px;
@@ -16255,6 +16589,9 @@ font-size: 12px;
 .map_streetshowings h3 {
 font-size: 14px;
 }
+.about_descrip ul li {
+padding: 0px 5px 0 5px;
+}
 .mobileview_allunits h3, .mobileview_allunits h3, .about_descrip h3, .head_explr {
 font-size: 17px;
 }
@@ -16623,6 +16960,37 @@ width: 37%;
 /* maintenance  */
 .maintenancepage .c-search.menusearch {
     width:100%;
+}
+.req_service .maintenancepage .divinfo {
+    padding: 11px 12px 11px 18px;
+}
+.mobview_technician .techni_profdescrip {
+    padding: 10px 14px 17px 0px;
+}
+.mobview_technician .acc_infotxt {
+    margin: 27px 0 0 0;
+}
+.mobview_technician .phono_comment ul {
+    margin: -26px 0 0 0;
+}
+.mobview_technician .acc_infotxt .acc_label {
+    margin: 0;
+}
+.mobview_technician .profilename,.mobview_technician .acc_infotxt .account_no {
+    font-size: 15px;
+}
+.abt_rev_certifi .tab-content .card .card-body {
+    padding: 15px 10px 10px 16px;
+}
+.abt_rev_certifi ul.nav.nav-tabs .nav-item {
+    margin: 0 2px 0 0;
+}
+.below_detailscertifi p {
+    font-size: 14px;
+}
+.abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
+    width: 99px;
+    font-size: 14px;
 }
 .about_descrip ul li:first-child {
     padding: 0 2px 0 0px;
@@ -17838,7 +18206,7 @@ font-size: 12px;
 height: 17px;
 }
 .about_descrip ul li {
-font-size: 9px;
+font-size: 10px;
 line-height: 18px;
 }
 
@@ -18338,14 +18706,60 @@ font-size: 15px;
 .midsche_toursec {
     margin-top: 0;
 }
-.about_descrip ul li {
-    padding: 0 2px 0 2px;
-    font-size: 8px;
-    line-height: 13px;
+.certidetails_div {
+    padding: 0 9px 0 10px;
 }
-.schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    margin: 0 0 0 10px;
+.mobview_technician .profilename,.mobview_technician .acc_infotxt .account_no {
+    font-size: 16px;
 }
+.mobview_technician .techni_profdescrip {
+    padding: 10px 10px 19px 0px;
+}
+.techni_prof_img {
+    margin: -47px 0 0 12px;
+}
+.mobview_technician .phono_comment ul {
+    margin: -25px 0 0 0;
+}
+.mobview_technician .acc_infotxt .acc_label {
+    margin: 0;
+}
+.mobview_technician .acc_infotxt {
+    margin: 25px 0 0 0;
+}
+.certifidiv_flexcontainer .btn.btnview_div {
+    width: 66px;
+}
+.abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
+    width: 92px;
+    font-size: 13px;
+}
+
+.abt_rev_certifi .tab-content .card .card-body {
+    padding: 15px 6px 10px 18px;
+}
+.below_detailscertifi p {
+    font-size: 12px;
+    line-height: 14px;
+}
+.flexparent_reviewblock {
+    padding: 5px 8px 13px 11px;
+}
+.user_decrip_txt p {
+    margin: 0 7px 9px 0px;
+    font-size: 11px;
+    line-height: 12px;
+}
+.abt_rev_certifi ul.nav.nav-tabs .nav-item {
+    margin: 0 2px 0 0;
+}
+.slick_req_service .slide-content img {
+    height: 52px;
+    width: 52px;
+}
+    .schedtour_popup .seldateboxsche_prop .date_heading h3 {
+        margin: 0 0 0 10px;
+    }
 .schetour_btm.mobileschedutour_view .showing_details {
     flex-basis: 63%;
 }
@@ -19825,7 +20239,11 @@ font-size: 11px;
 .mapdetails_div .category-button img {
 height: 17px;
 }
-
+.about_descrip ul li {
+    padding: 0 3px 0 3px;
+    font-size: 9px;
+    line-height: 18px;
+}
 .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .house, .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .clock {
     padding: 2px 2px;
 }
@@ -20328,6 +20746,12 @@ left: 14px;
 /* maintenance */
 .main_workdescrip {
     flex-basis: 71%;
+}
+.abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
+    width: 86px;
+}
+.abt_rev_certifi .tab-content .card .card-body {
+    padding: 15px 6px 10px 17px;
 }
 .workstatus_div {
     flex-basis: 29%;
