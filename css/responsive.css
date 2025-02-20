@@ -1,53 +1,53 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
 /* maintenance */
 .modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
-    max-width: 1014px;
+max-width: 1014px;
 }
 .statusmodal {
-    bottom: 29px;
-    right: 13px;
+bottom: 29px;
+right: 13px;
 }
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 98px;
+margin: 1px 0 1px 98px;
 }
 .calenderview_div.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
-    padding: 7px 22px 8px 10px;
+padding: 7px 22px 8px 10px;
 }
 .maintenance_div .acc_infotxt {
-    margin: 0px 0px 0 130px;
+margin: 0px 0px 0 130px;
 }
 .belowpart_tenant.maintenance_div .profimg_div{
-    margin-top: -92px;
+margin-top: -92px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 159px;
+max-height: 159px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 347px;
+max-height: 347px;
 }
 .calenderview_div.maintenance_upcomingevents{
-    height: 412px;
-    max-height: unset;
+height: 412px;
+max-height: unset;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 53%;
+width: 53%;
 }
 .maintenance_upcomingevents .select-box .label::after, .maintenance_upcomingevents .select-box1 .label::after {
-    right: 10px;
-    padding: 6px 0;
-    top: -1px;
+right: 10px;
+padding: 6px 0;
+top: -1px;
 }
 /* end of maintenance */
 
 
-    /* give notice */
+/* give notice */
 .reqdate_btnclick .bookappnt_divabs {
 right: 104px;
 }
 /* end of give notice */
 /* schedule tour */
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track{
-    margin: 0 0 0 -34px;
+margin: 0 0 0 -34px;
 }
 .schetour_img img {
 height: 147px;
@@ -305,37 +305,37 @@ font-size: 15px;
 @media only screen and (max-width: 1600px) {
 /* maintenance */
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 60px;
+margin: 1px 0 1px 60px;
 }
 .req_service .maintenancepage .divinfo {
-    padding: 12px 20px 11px 18px;
+padding: 12px 20px 11px 18px;
 }
 .maintenance_div .acc_infotxt {
-    margin: 0px 0px 0 113px;
+margin: 0px 0px 0 113px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 0px 0 0 0px;
+margin: 0px 0 0 0px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin-top: -89px;
+margin-top: -89px;
 }
 .listheight_auto {
-    max-height: 349px;
+max-height: 349px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 164px;
+max-height: 164px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 330px;
+max-height: 330px;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 65%;
+width: 65%;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 418px;
+height: 418px;
 }
 .maintenance.my_info.maint_pagediv {
-    height: 478px;
+height: 478px;
 }
 
 /* end of maintenance */
@@ -459,22 +459,22 @@ padding: 5px 19px;
 @media only screen and (max-width: 1536px){
 /* maintenance */
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 52px;
+margin: 1px 0 1px 52px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -88px 0 0 24px;
+margin: -88px 0 0 24px;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 68%;
+width: 68%;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 157px;
+max-height: 157px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 323px;
+max-height: 323px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 0px 0 0 10px;
+margin: 0px 0 0 10px;
 }
 /* end of maintenance */
 /* schedule tour */
@@ -555,38 +555,38 @@ left: -25px;
 @media only screen and (max-width: 1400px){
 /* maintenance */
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 36px;
+margin: 1px 0 1px 36px;
 }
 .my_teamdiv.myleaseteam_flex.maint_myteamflex.maint_myteamflex {
-    padding: 15px 21px 12px 13px;
+padding: 15px 21px 12px 13px;
 }
 .calenderview_div.maintenance_upcomingevents .listview:last-child{
-    margin-bottom: 0;
+margin-bottom: 0;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 75%;
+width: 75%;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 425px;
+height: 425px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 329px;
+max-height: 329px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 187px;
+max-height: 187px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin-top: -82px;
-    margin-left: 24px;
+margin-top: -82px;
+margin-left: 24px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 0px 0 0 31px;
+margin: 0px 0 0 31px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 171px;
+max-height: 171px;
 }
 .maintenance_div .acc_infotxt {
-    margin: 0px 0px 0 78px;
+margin: 0px 0px 0 78px;
 }
 /* end of maintenance */
 /* price range */
@@ -746,39 +746,39 @@ left: -3px;
 @media only screen and (max-width: 1366px){
 /* maintenance */
 .belowpart_tenant.maintenance_div .profimg_div img{
-    height: 146px;
-    width: 146px;
+height: 146px;
+width: 146px;
 }
 .maintenance.my_info.maint_pagediv {
-    height: 472px;
+height: 472px;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 412px;
+height: 412px;
 }
 .belowpart_tenant.maintenance_div .profimg_div .status {
-    right: -7px;
+right: -7px;
 }
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 31px;
+margin: 1px 0 1px 31px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 324px;
+max-height: 324px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin-top: -88px;
-    margin-left: 34px;
+margin-top: -88px;
+margin-left: 34px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 158px;
+max-height: 158px;
 }
 .belowpart_tenant.maintenance_div {
-    padding: 23px 0 43px 0;
+padding: 23px 0 43px 0;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 0px 0 0 37px;
+margin: 0px 0 0 37px;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 78%;
+width: 78%;
 }
 /* end of maintenance */
 /* schedule tour */
@@ -981,29 +981,29 @@ padding: 0 8px;
 @media only screen and (max-width: 1280px){
 /* maintenance */
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin-top: -93px;
-    margin-left: 26px;
+margin-top: -93px;
+margin-left: 26px;
 }
 .reqserv_descrip p {
-    font-size: 14px;
+font-size: 14px;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 408px;
+height: 408px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 153px;
+max-height: 153px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 320px;
+max-height: 320px;
 }
 .belowpart_tenant.maintenance_div {
-    padding: 23px 0 39px 0;
+padding: 23px 0 39px 0;
 }
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 28px;
+margin: 1px 0 1px 28px;
 }
 .maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
-    font-size: 16px;
+font-size: 16px;
 }
 /* end of maintenance */
 /* give notice pop up */
@@ -1016,8 +1016,8 @@ font-size: 22px;
 vertical-align: text-top;
 }
 .pricerangedivs{
-    width: 97%;
-    margin: 0 auto;
+width: 97%;
+margin: 0 auto;
 }
 
 /* end of price range */
@@ -1026,13 +1026,13 @@ vertical-align: text-top;
 width: 77.5%;
 }
 .lochouse_details .house, .lochouse_details .clock {
-    padding: 2px 6px;
+padding: 2px 6px;
 }
 .l-main .schedshowbtmdets_new .bgclr_divaddr_btn .map_streetshowings h3 {
-    font-size: 12px;
+font-size: 12px;
 }
 .schedshowbtmdets_new .bgclr_divaddr_btn .addr_streetshowings img {
-    vertical-align: baseline;
+vertical-align: baseline;
 }
 .seldateboxsche_prop .select-box1 .label::after {
 right: -1px;
@@ -1074,15 +1074,15 @@ padding: 10px 4px 11px 6px;
 height: 110px;
 }
 .mar_propbtm {
-    margin: 0 0 23px 0;
+margin: 0 0 23px 0;
 }
 .prop_rowalign {
-    margin: 0em auto 35px auto;
-    width: 98%;
+margin: 0em auto 35px auto;
+width: 98%;
 }
 .listimges_prop {
-    width: 95.4%;
-    margin: 0 auto 3em auto;
+width: 95.4%;
+margin: 0 auto 3em auto;
 }
 /* end of find property */
 /* active lease */
@@ -1403,55 +1403,55 @@ margin-left: 212px;
 
 /* maintenance */
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
-    padding: 9px 0 0 0;
+padding: 9px 0 0 0;
 }
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 15px;
+margin: 1px 0 1px 15px;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 405px;
+height: 405px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 317px;
+max-height: 317px;
 }
 
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 149px;
+max-height: 149px;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 86%;
+width: 86%;
 }
 .myleaseteam_flex.maint_myteamflex .btnappoint {
-    margin: 0 0 0 -14px;
+margin: 0 0 0 -14px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 0px 0 0 41px;
+margin: 0px 0 0 41px;
 }
 .reqserv_descrip p {
-    font-size: 14px;
+font-size: 14px;
 }
 .maint_pagediv .myinfotabs .btn.commn {
-    font-size: 11px;
-    width: 105px;
+font-size: 11px;
+width: 105px;
 }
 .calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
-    margin: 0px 5px 0 0;
+margin: 0px 5px 0 0;
 }
 .calenderview_div.maintenance_upcomingevents .listimg_reqservice_img img {
-    height: 25px;
-    width: 25px;
+height: 25px;
+width: 25px;
 }
 .maint_pagediv .name_addr p,.viewdescrip_reqserv_list p {
-    font-size: 11px;
+font-size: 11px;
 }
 .listheight_auto {
-    max-height: 340px;
+max-height: 340px;
 }
 .maintenance_div .profile_infotxt .prof_label,.maintenance_div .acc_infotxt .acc_label {
-    line-height: 15px;
+line-height: 15px;
 }
 .maintenance_div .acc_infotxt {
-    margin: 0px 0px 0 72px;
+margin: 0px 0px 0 72px;
 }
 /* end of maintenance */
 /* schedule tour */
@@ -1459,10 +1459,10 @@ margin-left: 212px;
 width: 82.8%;
 }
 .schedshowbtmdets_new .bgclr_divaddr_btn .addr_streetshowings img {
-    vertical-align: bottom;
+vertical-align: bottom;
 }
 .schedshowbtmdets_new .map_streetshowings img {
-    vertical-align: bottom;
+vertical-align: bottom;
 }
 .toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
 width: 49%;
@@ -1536,7 +1536,7 @@ width: 50px !important;
 width: 82%;
 }
 .txt_details_prop {
-    padding: 8px 13px 10px 13px;
+padding: 8px 13px 10px 13px;
 }
 /* end of find property */
 
@@ -1835,82 +1835,82 @@ font-size: 15px;
 @media only screen and (max-width:1136px){
 /* my team */
 .my_teamdiv {
-    padding: 17px 4px 17px 25px;
+padding: 17px 4px 17px 25px;
 }
 .teamtxt h3 {
-    margin: 0;
+margin: 0;
 }
 /* end of my team */
 /* maintenance */
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 92%;
+width: 92%;
 }
 .maint_pagediv .flexdiv_myinfo {
-    align-items: center;
+align-items: center;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 396px;
+height: 396px;
 }
 .slick_req_service {
-    padding: 18px 0 0 0px;
+padding: 18px 0 0 0px;
 }
 .maintenance_upcomingevents .seldatebox{
-    flex-basis: 68%;
+flex-basis: 68%;
 }
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 11px;
+margin: 1px 0 1px 11px;
 }
 .listheight_auto {
-    max-height: 341px;
+max-height: 341px;
 }
 .maintenance_upcomingevents .viewdescrip_reqserv_list p{
-    line-height: 16px;
+line-height: 16px;
 }
 .my_teamdiv.myleaseteam_flex.maint_myteamflex.maint_myteamflex {
-    padding: 15px 21px 12px 20px;
+padding: 15px 21px 12px 20px;
 }
 .reqserv_descrip p {
-    font-size: 13px;
+font-size: 13px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 307px;
+max-height: 307px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 141px;
+max-height: 141px;
 }
 .maint_pagediv .flexdiv_myinfo .name_addr p.nm {
-    line-height: 15px;
-    font-size: 13px;
-    margin: 0 0 5px 0;
+line-height: 15px;
+font-size: 13px;
+margin: 0 0 5px 0;
 }
 .maint_pagediv .infopad {
-    padding: 0 6px;
+padding: 0 6px;
 }
 .maint_pagediv .myinfotabs .btn.commn {
-    font-size: 10px;
-    width: 99px;
+font-size: 10px;
+width: 99px;
 }
 .belowpart_tenant.maintenance_div .profimg_div img {
-    height: 133px;
-    width: 133px;
+height: 133px;
+width: 133px;
 }
 
 .slick_req_service .slide-content img {
-    height: 57px;
-    width: 57px;
+height: 57px;
+width: 57px;
 }
 .belowpart_tenant.maintenance_div {
-    padding: 23px 0 31px 0;
+padding: 23px 0 31px 0;
 }
 .maintenance_div .acc_infotxt {
-    margin: 0px 0px 0 56px;
+margin: 0px 0px 0 56px;
 }
 .belowpart_tenant.maintenance_div .profimg_div .status {
-    right: 2px;
+right: 2px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin-top: -87px;
-    margin-left: 20px;
+margin-top: -87px;
+margin-left: 20px;
 }
 /* end of maintenance */
 /* schedule tour */
@@ -1918,22 +1918,22 @@ font-size: 15px;
 width: 87.6%;
 }
 .l-main .schedshowbtmdets_new .bgclr_divaddr_btn {
-    padding: 15px 14px 17px 14px;
+padding: 15px 14px 17px 14px;
 }
 .schedshowbtmdets_new .map_streetdetails {
-    align-items: baseline;
+align-items: baseline;
 }
 .prop_distri.schedshow_newpropdistr, .median_lease {
-    height: auto;
+height: auto;
 }
 .schedshowbtmdets_new .map_streetdetails .map_streetshowings{
-    flex-basis: 48%;
+flex-basis: 48%;
 }
 .schedshowbtmdets_new .map_streetdetails .addr_streetshowings{
-    flex-basis: 48%;
+flex-basis: 48%;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0 0 0 10px;
+margin: 0 0 0 10px;
 }
 .toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
 width: 52%;
@@ -2420,24 +2420,24 @@ right: -5px;
 @media only screen and (max-width:1080px){
 /* maintenance */
 .modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
-    max-width: 96%;
+max-width: 96%;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 97%;
+width: 97%;
 }
 .myleaseteam_flex.maint_myteamflex .btnappoint button.btn.btn_appoint.desktopbook {
-    width: 133px;
-    padding: 7px 5px;
+width: 133px;
+padding: 7px 5px;
 }
 .slick_req_service {
-    padding: 26px 0 0 0px;
+padding: 26px 0 0 0px;
 }
 .listheight_auto {
-    max-height: 346px;
+max-height: 346px;
 }
 .slick_req_service .slide-content img {
-    height: 53px;
-    width: 53px;
+height: 53px;
+width: 53px;
 }
 /* end of maintenance */
 /* schedule tour */
@@ -2445,10 +2445,10 @@ right: -5px;
 width: 92.2%;
 }
 .schedtour_popup .accordion.tenantaccord .flexdiv div label {
-    font-size: 12px;
+font-size: 12px;
 }
 .schedtour_popup .accordion.tenantaccord .basicdatatxt {
-    flex-basis: 49%;
+flex-basis: 49%;
 }
 .toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
 width: 55%;
@@ -2926,40 +2926,40 @@ right: -15px;
 @media only screen and (max-width:1024px){
 /* maintenance */
 .techni_profsection .statusmodal {
-    right: 10px;
+right: 10px;
 }
 .maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
-    font-size: 14px;
+font-size: 14px;
 }
 .modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
-    max-width: 96%;
+max-width: 96%;
 }
 .requestblocks_modal {
-    padding: 0 24px;
+padding: 0 24px;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 99%;
+width: 99%;
 }
 .my_teamdiv.myleaseteam_flex.maint_myteamflex.maint_myteamflex {
-    padding: 13px 16px 12px 20px;
+padding: 13px 16px 12px 20px;
 }
 .maintenance_div .acc_infotxt {
-    margin: 0px 0px 0 44px;
+margin: 0px 0px 0 44px;
 }
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 7px;
+margin: 1px 0 1px 7px;
 }
 .myleaseteam_flex.maint_myteamflex .btnappoint button.btn.btn_appoint.desktopbook {
-    width: 130px;
+width: 130px;
 }
 .maint_pagediv .clocktime span,.maint_pagediv .datetime span {
-    font-size: 9px;
+font-size: 9px;
 }
 .maintenance_upcomingevents .listdate_show p {
-    font-size: 9px;
+font-size: 9px;
 }
 .maint_pagediv .name_addr p, .viewdescrip_reqserv_list p {
-    font-size: 10px;
+font-size: 10px;
 }
 /* end of maintenance */
 /* schedule tour */
@@ -3016,10 +3016,10 @@ margin: 0 0 0 -29px;
 /* end of give notice */
 /* find property */
 .pricerangedivs .lochouse_details .house span, .pricerangedivs .lochouse_details .clock span {
-    font-size: 11px;
+font-size: 11px;
 }
 .similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p {
-    font-size: 17px;
+font-size: 17px;
 }
 .movedate_value {
 width: 55.6%;
@@ -3389,36 +3389,36 @@ margin: 10px 0 0 0;
 @media only screen and (max-width:992px){
 /* maintenance */
 .maint_pagediv .infopad {
-    padding: 0 3px;
+padding: 0 3px;
 }
 .maintenancepage .myinfo_txt span {
-    font-size: 15px;
+font-size: 15px;
 }
 .my_info.maintenancepage .myinfo_txt img {
-    height: 23px;
-    width: 26px;
+height: 23px;
+width: 26px;
 }
 .maintenance_upcomingevents .seldatebox {
-    flex-basis: 73%;
+flex-basis: 73%;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 135px;
+max-height: 135px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 299px;
+max-height: 299px;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 388px;
+height: 388px;
 }
 .maintenance.my_info.maint_pagediv {
-    height: 465px;
+height: 465px;
 }
 .maint_pagediv .myinfotabs .btn.commn {
-    height: 29px;
-    width: 95px;
+height: 29px;
+width: 95px;
 }
 .reqserv_descrip p {
-    font-size: 12px;
+font-size: 12px;
 }
 /* end of maintenance */
 /* schedule tour */
@@ -3635,7 +3635,7 @@ margin: 7em auto 3em auto;
 margin-bottom: 1px;
 }
 .similarunits .slick-track, .newly_listed .slick-track, .just_leased .slick-track {
-    margin-left: -156px;
+margin-left: -156px;
 }
 .leasedslider.areaexplr p {
 line-height: 11px;
@@ -3960,86 +3960,86 @@ padding: 4px 22px 4px 12px;
 @media only screen and (max-width:800px){
 /* maintenance */
 .reqservdiv_styl img {
-    height: 41px;
-    width: 41px;
+height: 41px;
+width: 41px;
 }
 .certifidiv_flexcontainer .btn.btnview_div {
-    width: 40%;
-    bottom: 13px;
-    left: 56%;
+width: 40%;
+bottom: 13px;
+left: 56%;
 }
 .maint_pagediv .details_block.myinfodiv_sec .linediv:before {
-    margin: 0px 9px 0 4px;
+margin: 0px 9px 0 4px;
 }
 .belowpart_tenant.maintenance_div .profimg_div .status {
-    right: -2px;
-    bottom: 27px;
+right: -2px;
+bottom: 27px;
 }
 .my_info.maintenancepage .myinfo_txt img {
-    height: 26px;
+height: 26px;
 }
 .maintenancepage .myinfo_txt span {
-    font-size: 18px;
+font-size: 18px;
 }
 .maintenance_div .acc_infotxt {
-    margin: 0px 0px 0 120px;
+margin: 0px 0px 0 120px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin-left: 41px;
+margin-left: 41px;
 }
 .modal.viewallreq_modal .modal-header, .techni_modalstyl .modal-header {
-    padding: 18px 0 17px 0;
+padding: 18px 0 17px 0;
 }
 .techni_profsection .statusmodal {
-    right: 20px;
+right: 20px;
 }
 .reqservdiv_styl {
-    margin: 0 10px 15px 0px;
-    flex-basis: 100%;
+margin: 0 10px 15px 0px;
+flex-basis: 100%;
 }
 .maint_pagediv .myinfotabs .container {
-    max-width: 100%;
+max-width: 100%;
 }
 .requestblocks_modal {
-    padding: 0 11px;
+padding: 0 11px;
 }
 .descrp_modalreqserv p {
-    font-size: 13px;
+font-size: 13px;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 71%;
+width: 71%;
 }
 .maintenance_upcomingevents .select-box .label::after, .maintenance_upcomingevents .select-box1 .label::after {
-    top: -1px;
-    right: 3px;
+top: -1px;
+right: 3px;
 }
 .maintenance_upcomingevents .seldatebox {
-    flex-basis: 39%;
+flex-basis: 39%;
 }
 .maintenance_upcomingevents .listview_show.container,.maintenance_upcomingevents .calview_show.container  {
-    max-width: 100%;
+max-width: 100%;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 400px;
+height: 400px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 308px;
+max-height: 308px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 145px;
+max-height: 145px;
 }
 .calenderview_div.maintenance_upcomingevents {
-    margin: 0 0 20px 0;
-    max-height: unset;
+margin: 0 0 20px 0;
+max-height: unset;
 }
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 84px;
+margin: 1px 0 1px 84px;
 }
 .mainte_left_css{
-    padding:0 15px !important;
+padding:0 15px !important;
 }
 .mainte_right_css{
-    padding:0 15px!important;
+padding:0 15px!important;
 }
 /* end of maintenance */
 /* schedule tour */
@@ -4047,10 +4047,10 @@ padding: 4px 22px 4px 12px;
 width: 100%;
 }
 .price-range-slider .range-bar {
-    width: 84%;
+width: 84%;
 }
 .box-minmax {
-    width: 86.6%;
+width: 86.6%;
 }
 
 .confr_appt h2 {
@@ -4090,10 +4090,10 @@ font-size: 12px;
 height: 12px;
 }
 .showing_details_block .bottom_rightdetails .galdiv_clr {
-    padding: 2px 31px 2px 10px;
+padding: 2px 31px 2px 10px;
 }
 .showing_details_block .bottom_rightdetails .galdiv_clr {
-    padding: 2px 31px 2px 10px;
+padding: 2px 31px 2px 10px;
 }
 /* end of schedule tour */
 /* showing confirm block */
@@ -4231,19 +4231,19 @@ flex-basis: 23%;
 font-size: 13px;
 }
 .similar_unitsdiv.pricerangedivs .slidelocation_div .txt_loc {
-    font-size: 12px;
-    line-height: 16px;
+font-size: 12px;
+line-height: 16px;
 }
 .pricerangedivs .leaseddetails_slider {
-    width: 59%;
+width: 59%;
 }
 .similar_unitsdiv.pricerangedivs .leaseddetails_slider .car_details, .similar_unitsdiv.pricerangedivs .leaseddetails_slider .shower_details, .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details {
-    padding: 3px 3px 2px 3px;
-    height: 44px;
+padding: 3px 3px 2px 3px;
+height: 44px;
 }
 .l-main .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details img {
-    height: 10px;
-    margin: 11px 0 8px 0;
+height: 10px;
+margin: 11px 0 8px 0;
 }
 
 .bottom_rightdetails.bottomsimilar .galdiv_clr img {
@@ -4306,8 +4306,8 @@ flex-basis: 70%;
 width: 100%;
 }
 .prop_rowalign {
-    margin: 0em auto 35px auto;
-    width: 99%;
+margin: 0em auto 35px auto;
+width: 99%;
 }
 .txt_details_prop {
 padding: 10px 12px 12px 12px;
@@ -5081,74 +5081,74 @@ padding: 14px 20px;
 
 @media only screen and (max-width:768px){
 
-    /* maintenance */
-    .certifidiv_flexcontainer .btn.btnview_div {
-        width: 36%;
-        left: 60%;
-    }
-    .below_detailscertifi p {
-        font-size: 14px;
-        line-height: 15px;
-    }
-    .l-main {
-        padding: 7em 0 0em 0;
-        margin: 0 !important;
-    }
-    .belowpart_tenant.maintenance_div .profimg_div {
-        margin-left: 26px;
-    }
-    .maintenance.my_info.maint_pagediv {
-        height: auto;
-    }
-    .descrp_modalreqserv p {
-        font-size: 12px;
-    }
-    .modal.viewallreq_modal .modal-body {
-        padding: 21px 0 4px 0;
-    }
-    .modal.viewallreq_modal .modal-header, .techni_modalstyl .modal-header {
-        justify-content: center;
-        border: unset;
-        padding: 22px 0 18px 0;
-    }
-    .maintenance_upcomingevents .seldatebox {
-        flex-basis: 41%;
-    }
-    .maint_pagediv .tab-content.myinfotabs {
-        max-height: 400px;
-    }
-    .belowpart_tenant.maintenance_div .profile_infotxt {
-        margin: 0px 0 0 -7px;
-    }
-    .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-        width: 94%;
-    }
-    .maintenance_div .acc_infotxt {
-        margin: 0px 0px 0 133px;
-    }
-    .maint_pagediv .infopad {
-        padding: 0 11px;
-    }
-    .maint_pagediv .stat_div {
-        margin: 1px 0 1px 66px;
-    }
-    /* end of maintenance */
+/* maintenance */
+.certifidiv_flexcontainer .btn.btnview_div {
+width: 36%;
+left: 60%;
+}
+.below_detailscertifi p {
+font-size: 14px;
+line-height: 15px;
+}
+.l-main {
+padding: 7em 0 0em 0;
+margin: 0 !important;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+margin-left: 26px;
+}
+.maintenance.my_info.maint_pagediv {
+height: auto;
+}
+.descrp_modalreqserv p {
+font-size: 12px;
+}
+.modal.viewallreq_modal .modal-body {
+padding: 21px 0 4px 0;
+}
+.modal.viewallreq_modal .modal-header, .techni_modalstyl .modal-header {
+justify-content: center;
+border: unset;
+padding: 22px 0 18px 0;
+}
+.maintenance_upcomingevents .seldatebox {
+flex-basis: 41%;
+}
+.maint_pagediv .tab-content.myinfotabs {
+max-height: 400px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+margin: 0px 0 0 -7px;
+}
+.calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
+width: 94%;
+}
+.maintenance_div .acc_infotxt {
+margin: 0px 0px 0 133px;
+}
+.maint_pagediv .infopad {
+padding: 0 11px;
+}
+.maint_pagediv .stat_div {
+margin: 1px 0 1px 66px;
+}
+/* end of maintenance */
 /* schedule tour */
 .schedtour_popup .modal-dialog{
-    width: 100%;
-    max-width: 100%;
+width: 100%;
+max-width: 100%;
 }
 .button.closesche_tourprop{
-    display: none;
+display: none;
 }
 .schedtour_popup .sche_tour h3 {
-    margin: -8px 0 23px 0;
+margin: -8px 0 23px 0;
 }
 .schedtour_popup .modal-body.stepsmodal_body .bgclr_tabtourtypestep2 .propschepopaccord {
-    padding:0px;
+padding:0px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0 0 0 26px;
+margin: 0 0 0 26px;
 }
 .midsectour_sche .datelabel,.midsectour_sche .timelabel{
 width: 76%;
@@ -5212,14 +5212,14 @@ padding: 7px 9px 7px 20px;
 /* end of transactions */
 /* find property */
 .mobilfullwidth_css{
-    max-width: 100%;
-    flex:100%;
+max-width: 100%;
+flex:100%;
 }
 .pricerangedivs .leaseddetails_slider {
-    width: 30%;
+width: 30%;
 }
 .similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p {
-    font-size: 20px;
+font-size: 20px;
 }
 .setup_modalprop .modal-header .modal-title {
 font-size: 18px;
@@ -5243,19 +5243,19 @@ flex-basis: 79%;
 
 /* price range */
 .similar_unitsdiv.pricerangedivs .lochouse_details .house span, .similar_unitsdiv.pricerangedivs .lochouse_details .clock span {
-    font-size: 10px;
+font-size: 10px;
 }
 .pricerange_div {
 flex-basis: 56%;
 }
 .pricelabel_range {
-    flex-basis: 20%;
+flex-basis: 20%;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house, .similar_unitsdiv.pricerangedivs .lochouse_details .clock {
-    padding: 5px 12px 5px 12px;
+padding: 5px 12px 5px 12px;
 }
 .similar_unitsdiv.pricerangedivs .slidelocation_div .txt_loc {
-    font-size: 14px;
+font-size: 14px;
 }
 /* end of price range  */
 /* active lease */
@@ -5466,173 +5466,941 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
+.widfull_plusicon .custom-select {
+position: relative;
+width: 142px;
+background: unset;
+padding: 0;
+border: unset;
+margin: 0 0 0 auto;
+display: block;
+height: 28px;
+}
+.widfull_plusicon .arrow {
+transition: transform 0.3sease;
+font-weight: bold;
+font-size: 16px;
+float: right;
+}
+.widfull_plusicon .custom-select.active .arrow {
+transform: rotate(0deg);
+}
+.widfull_plusicon .selected-option {
+padding: 5px 10px;
+border: unset;
+width: 100%;
+cursor: pointer;
+text-align: center;
+margin: 0 0 0 auto;
+height: 28px;
+background: #C9D7E5;
+border-radius: 20px;
+font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+text-transform: capitalize;
+color: #315D80;
+text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.5);
+margin: 0 0 0 auto;
+}
+.widfull_plusicon .options {
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+background: rgba(49, 93, 128, 0.77);
+border: unset;
+display: none;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+z-index: 100;
+}
+.widfull_plusicon .option {
+padding: 3px 7px;
+cursor: pointer;
+color: #ffffff;
+font-size: 13px;
+text-align: center;
+}   
+.widfull_plusicon .custom-select.active .options {
+display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* communication details  */
+.l-main {
+padding: 5em 0 0em 0;
+}
+ul.commdetails_mobileview li a.nav-link.active{
+background: #6B5E7A;
+border-radius: 20px 20px 0px 0px;
+color: #ffffff;
+border: unset;
+}
+.commu_eventschedpopup.confirmpopupdiv .modal-header h4{
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+}
+.commu_eventschedpopup.confirmpopupdiv .modal-dialog {
+max-width: 41%;
+}
+.commu_eventschedpopup.confirmpopupdiv .flx_addrimg {
+align-items: flex-start;
+width: 86%;
+margin: 0 0 0 auto;
+}
+.commu_eventschedpopup.confirmpopupdiv .confirmtime_div p img {
+margin-right: 2px;
+vertical-align: text-bottom;
+width: 15px;
+height: 15px;
+}
+.commu_eventschedpopup .confirmtime_div p{
+font-weight: 700;
+}
+ul.commdetails_mobileview li.nav-item{
+flex-basis: 25%;
+}
+.commu_eventschedpopup.confirmpopupdiv .modal-header p{
+line-height: 22px;
+width: 87%;
+}
+.maintenance_upcomingevents.commu_detailscalender .seldatebox {
+flex-basis: 27%;
+}
+.topsec_commevent_sched{
+background: #FFFFFF;
+border-radius: 14px 14px 0px 0px;
+margin: 0 0 -8px 0;
+padding: 3px 0 9px 0;
+}
+.topsec_commevent_sched img{
+width: 18px;
+height: 13px;
+margin: 0 7px 0 0px;
+vertical-align: text-top;
+}
+.topsec_commevent_sched p{
+font-weight: 700;
+font-size: 12px;
+line-height: 28px;
+text-align: center;
+text-transform: capitalize;
+color: #92A3B4;
+margin: 0;
+}
+.commu_eventschedpopup.confirmpopupdiv .confirmtime_div{
+padding: 18px 0;
+}
+ul.commdetails_mobileview li a.nav-link.email_txtlink.active img{
+content: url('../images/showings/communication/communication_details/eventwhite.svg');
+}
+.filtercommu_options .commu_closefilterclk{
+background: rgba(99, 136, 165, 0.2);
+backdrop-filter: blur(7.5px);
+border-radius: 13px;
+padding: 4px 3px 4px 0px;
+}
+.filtercommu_options {
+position: absolute;
+right: 4px;
+display: none;
+z-index: 1;
+top: 30px;
+background: rgba(99, 136, 165, 0.2);
+backdrop-filter: blur(7.5px);
+border-radius: 12px 0 12px 12px;
+}
+.btnlist_filter{
+padding: 12px 5px 6px 5px;
+}
+.filtercommu_options .btn:last-child{
+margin:0;
+}
+.all_must_eventdiv .filtercommu_options a{
+margin: -24px -2px 0 0px;
+}
+.all_must_eventdiv .filtercommu_options a img{
+width: 28px;
+height: 24px;
+}
+.filtercommu_options .btn {
+width: 100%;
+background: #FFFFFF;
+border-radius: 12px;
+padding: 3px 7px;
+display: block;
+border: unset;
+margin: 0px auto 6px auto;
+font-weight: 700;
+font-size: 11px;
+text-align: center;
+text-transform: capitalize;
+color: #315D80;
+}
+.videoform_div .meet_timediv{
+margin:0;
+}
+.maintenance_upcomingevents.commu_detailscalender .time_eventcalender {
+max-height: unset;
+}
+.maintenance_upcomingevents.commu_detailscalender .listheight_auto {
+max-height: 377px;
+}
+.allcommuni_tabs.commudetails_tablink .container {
+max-width: 100%;
+padding: 0;
+}
+.commudetails_tablink .datesel_show {
+margin: 14px 0 1.7em 0;
+}
+.commuevents_block{
+display: flex;
+}
+.imgcommu_div{
+width: 35px;
+height: 43px;
+}
+.imgcommu_div img{
+height: 100%;
+width: 100%;
+border-radius: 12px 0 0 12px;
+}
+.commu_topsec.yellowcommucolr div p{
+color:#ffffff;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+.btn.confirm_btncommun{
+width: 114px;
+height: 20px;
+background: #9BB997;
+border-radius: 40px;
+font-weight: 700;
+font-size: 12px;
+line-height: 12px;
+text-transform: capitalize;
+color: #FFFFFF;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+padding:0;
+}
+.autocanl_txt{
+font-weight: 700;
+font-size: 8px;
+line-height: 12px;
+text-transform: capitalize;
+color: #F2727F;
+background: #FFFFFF;
+border-radius: 20px;
+display: inline-block;
+width: 61px;
+height: 13px;
+text-align: center;
+margin-right: 5px;
+}
+.autotime_txt{
+font-weight: 400;
+font-size: 10px;
+line-height: 9px;
+text-align: center;
+text-transform: capitalize;
+color: #F2727F;
+}
+.yellowcommucolr{
+background: #F1D15B;
+}
+.autocancl_timediv{
+display: flex;
+align-items: center;
+}
+.listview_img img{
+border-radius: 0px 0 0 12px;
+width: 100%;
+height: 80px;
+object-fit: cover;
+}
+.maindescriplist_div p{
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+text-transform: capitalize;
+color: #315D80;
+margin: 0 0 10px 0;
+}
+.commutimedate_details p:first-child {
+margin: 0 0 4px 0;
+}
+.listview_commu_details {
+display: flex;
+max-height:80px;
+background-color: #C9D7E5;
+border-radius: 0 0 14px 14px;
+margin: 0 0 12px 0;
+}
+
+.btn.reschedul_btncommun i {
+font-size: 16px;
+vertical-align: bottom;
+}
+.commutimedate_details p img{
+height: 12px;
+width: 12px;
+margin-right: 5px;
+}
+.descripcomm_details{
+display: flex;
+justify-content: space-between;
+align-items: end;
+}
+.commutimedate_details{
+font-weight: 400;
+font-size: 12px;
+line-height:19px;
+text-transform: capitalize;
+color: rgba(49, 93, 128, 0.52);
+margin:0;
+}
+.showingcompleted_sec .maindescriplist_div p{
+text-transform: capitalize;
+text-align: center;
+margin: 0 0 1px 0;
+}
+.btn.sendoffrtolease,.btn.notinterested{
+font-weight: 700;
+font-size: 12px; 
+text-transform: capitalize;
+border: unset;
+height: 20px;
+text-align: center;
+padding: 0 20px;
+}
+.btn.sendoffrtolease{
+background: #9BB997;
+border-radius: 40px;
+line-height: 12px;
+color: #FFFFFF;
+}
+.centr_twobtns{
+text-align: center;
+}
+.btn.notinterested{
+line-height: 19px;
+color: #F2727F;
+}
+.showingcompleted_sec .maindescriplist_div p:first-child{
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+color: #315D80;
+}
+.showingcompleted_sec .maindescriplist_div p:nth-child(2){
+font-weight: 700;
+font-size: 10px;
+line-height: 16px;
+text-transform: capitalize;
+color: #315D80;
+}
+.showingcompleted_sec .maindescriplist_div p:nth-child(3){
+font-weight: 400;
+font-size: 10px;
+line-height: 16px;
+color: #92A3B4;
+}
+.commutimedate_details p{
+margin: 0;
+}
+.showingcompl_div img{
+margin: 0 0 0 4px;
+width: 12px;
+height: 12px;
+}
+.commutimedate_details .comm_txtfont{
+font-weight: 700;
+margin-left: 12px;
+}
+.nav-tabs.commullinks_details {
+width: 100%;
+border: unset;
+background: #FFFFFF;
+border-radius: 64.1248px;
+justify-content: space-between;
+margin: 0 0 12px 0px;
+}
+.nav-tabs.commullinks_details li.nav-item a.nav-link.active{
+background-color: #315D80;
+color: #ffffff;
+border-radius: 25px;
+}
+.nav-tabs.commullinks_details li.nav-item a.nav-link.active.videoimg img{
+content:url('../images/showings/communication/communication_details/videochat.svg');
+}
+.nav-tabs.commullinks_details li.nav-item a.nav-link.active.phoneimg img{
+content:url('../images/showings/communication/communication_details/phonewhite.svg');
+}
+.nav-tabs.commullinks_details li.nav-item a.nav-link.active.personimg img{
+content:url('../images/showings/communication/communication_details/whiteperson.svg');
+}
+.calenderview_div.maintenance_upcomingevents.commu_detailscalender .widfull_plusicon .tab-content{
+background: unset;
+}
+.maintenance_upcomingevents.commu_detailscalender .videoform_div .select-box {
+margin: 0 0 0 auto;
+width:142px;
+}
+.datepickermeetingdate .input-group-append span,.datepickermeetingdatetwo .input-group-append span{
+border: unset;
+padding: 0 10px;
+background: #C9D7E5;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.widfull_plusicon .datepickermeetingdate input.form-control,.widfull_plusicon .datepickermeetingdatetwo input.form-control{
+width: 100%;
+}
+.widfull_plusicon .datepickermeetingdate,.widfull_plusicon .datepickermeetingdatetwo{
+width: 142px;
+flex-wrap: nowrap;
+margin: 0 0 0 auto;
+}
+.widfull_plusicon input.form-control{
+width:142px;
+height:28px;
+background: #C9D7E5;
+border-radius: 20px;
+font-weight: 400;
+font-size: 12px;
+line-height:19px;
+text-align: right;
+text-transform: capitalize;
+color: #315D80;
+text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.5);
+margin: 0 0 0 auto;
+}
+.widfull_plusicon label{
+font-weight: 400;
+font-size: 12px;
+line-height:19px;
+text-transform: capitalize;
+color: #315D80;
+margin:0;
+}
+.backtabspopup{
+background: #EDF2FA;
+box-shadow: 5px 6px 5px rgba(49, 93, 128, 0.08), -2px -3px 10px rgba(49, 93, 128, 0.1);
+border-radius: 15px 0 15px 15px;
+padding: 13px 10px 10px 10px;
+position: relative;
+z-index: 10;
+}
+.upcomevents_plus a{
+display: block;
+z-index: 100;
+position: relative;
+}
+.upcomevents_plus a[aria-expanded="false"]{
+background-color: unset;
+box-shadow: unset;
+padding: 3px 0px 0px 5px;
+}
+.upcomevents_plus a[aria-expanded="true"]{
+background: #edf2fa;
+box-shadow: 0px 0px 0px rgba(49, 93, 128, 0.08), -2px -4px 7px rgba(49, 93, 128, 0.1);
+border-radius: 25px 25px 0 0;
+padding: 6px 6px 6px 6px;
+}
+.upcomevents_plus a[aria-expanded="true"] img{
+content: url('../images/showings/communication/communication_details/minus_comm.svg');
+}
+.widfull_plusicon {
+width: 61%;
+position: absolute;
+right: 18px;
+top: 51px;
+z-index: 10;
+}
+.commu_detailscalender .calendercard_show{
+position: relative;
+}
+.upcomevents_plus{
+text-align: right;
+}
+.maintenance_upcomingevents.commu_detailscalender .select-box .label{
+font-weight: 400;
+padding: 6px 33px 5px 20px;
+text-align: center;
+}
+.maintenance_upcomingevents.commu_detailscalender select option{
+font-size: 11px;
+color: #315D80;
+text-align: center;
+font-weight: 500; 
+}
+.sched_bottomdiv a{
+font-weight: 700;
+font-size: 12px;
+line-height:11px;
+text-transform: capitalize;
+color: #FFFFFF;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+.sched_bottomdiv{
+background: #9BB997;
+box-shadow: 5px 6px 5px -1px rgba(137, 174, 234, 0.15), -2px -3px 10px rgba(64, 136, 255, 0.15);
+border-radius: 14px;
+position: absolute;
+bottom: -37px;
+width: 100%;
+left: 0;
+z-index: 1;
+padding: 37px 0 8px 0;
+text-align: center;
+}
+.videoform_div .meet_timediv .meet_inputtime{
+width: 142px;
+flex-basis: unset;
+margin: 0 0 0 auto;
+}
+.videoform_div .meet_timediv .meet_inputtime input,.videoform_div .meet_timediv .input-group-append{
+height: 28px;
+}
+.nav-tabs.commullinks_details li.nav-item a.nav-link{
+font-weight: 700;
+font-size: 12px;
+line-height:19px;
+text-align: center;
+text-transform: capitalize;
+color: #74738C;
+}
+.nav-tabs.commullinks_details li.nav-item a.nav-link img{
+margin-right:5px;
+width: 15px;
+height: 15px;
+vertical-align: sub;
+}
+.calenderview_div.maintenance_upcomingevents.commu_detailscalender .tab-content{
+padding: 0;
+border-radius: 20px;
+}
+.all_must_eventdiv{
+padding: 13px 16px 12px 16px;
+position: relative;
+}
+.calenderview_div.maintenance_upcomingevents.commu_detailscalender .tab-content .container {
+padding: 0px 12px 2px 12px;
+}
+.calenderview_div.maintenance_upcomingevents.commu_detailscalender .tab-content .commlistview.container{
+padding: 0 8px 10px 8px;
+}
+.commu_detailscalender .commudetails_tablink .datesel_show {
+margin: 2px 0 1.7em 0;
+}
+.resche_commudetails .btn.reschedul_btncommun{
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+text-transform: capitalize;
+color: #FFFFFF;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+background: #F1D15B;
+border-radius: 40px;
+width: 114px;
+height: 20px;
+padding: 0px 2px;
+}
+.commu_topsec div p{
+font-weight: 700;
+font-size: 8px;
+line-height:13px;
+text-align: center;
+text-transform: capitalize;
+margin:0;
+color: #315D80;
+}
+.listview_img {
+flex-basis: 13%;
+}
+.greencommucolr{
+background: #9BB997;
+}
+.whittxtcolr{
+font-weight: 400;
+font-size: 10px;
+line-height:9px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.commu_topsec.greencommucolr div p{
+color:#ffffff;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+.descripcomm_details.onlytime_date {
+padding: 0 10px 0 10px;
+}
+.commu_topsec.cancelcommucolr{
+background: #F2727F;
+}
+.commu_topsec.cancelcommucolr div p{
+color: #FFFFFF;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+.greentxtcolr{
+font-weight: 700;
+font-size: 8px;
+line-height: 12px;
+text-transform: capitalize;
+color: #9BB997;
+background: #FFFFFF;
+border-radius: 20px;
+display: inline-block;
+width: 35px;
+height: 13px;
+text-align: center;
+margin-right: 5px;
+}
+.commu_topsec{
+display: flex;
+justify-content: space-between;
+border-radius: 14px 14px 0 0;
+align-items: center;
+padding:5px 10px;
+}
+.reschdiv_showingscommu{
+background: #A7BBCE;
+border-radius: 0px 0px 14px 0px;
+position: absolute;
+width: 100%;
+bottom: 0;
+}
+.listview_commu_details:last-child{
+margin:0;
+}
+.reschdiv_showingscommu a{
+font-weight: 700;
+font-size: 10px;
+line-height: 9px;
+text-align: center;
+text-transform: capitalize;
+color: #63829E;
+display: block;
+padding: 7px 10px;
+}
+.dattime_seccommu .maindescriplist_div{
+padding: 5px 5px 0px 10px;
+}
+.contentlist_view.dattime_seccommu{
+padding: 0;
+}
+.commu_topsec.whitecolr{
+background-color: #ffffff;
+}
+.contentlist_view {
+flex-basis: 87%;
+padding: 5px 5px 7px 13px;
+position: relative;
+}
+.commuevents_block{
+box-sizing: border-box;
+background: #C9D7E5;
+border-radius: 12px;
+width: 57%;
+max-height: 43px;
+position: absolute;
+top: -20px;
+left: 15px;
+/* align-items: center; */
+justify-content: space-between;
+}
+p.start_txt.redcolr_commu{
+color: #F2727F;
+padding: 1px 6px;
+}
+p.timeevent_commu.redcolrtime_txt{
+color:#F2727F;
+}
+.greencommu_colr{
+border: 2px solid #9BB997;
+}
+.yellowcommu_colr{
+border: 2px solid #F1D15B;
+}
+.timeschedule_commu{
+text-align: center;
+flex-basis: 22%;
+margin: 0 2px 0 0;
+}
+p.start_txt{
+background: #FFFFFF;
+border-radius: 20px;
+font-weight: 700;
+font-size: 8px;
+line-height: 10px;
+text-align: center;
+text-transform: capitalize;
+color: #9BB997;
+padding: 1px 15px;
+margin: 0 0 2px 0;
+display: inline-block;
+}
+.timeevent_commu{
+font-weight: 400;
+font-size: 8px;
+line-height:7px;
+text-transform: capitalize;
+color: #315D80;
+margin:0 0 3px 0;
+}
+.descripcommu_txt p{
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+text-transform: capitalize;
+color: #315D80;
+margin: 0;
+padding: 5px 5px;
+width: 88%;
+}
+.stat_commutxt{
+font-weight: 700;
+font-size: 8px;
+line-height: 9px;
+text-transform: capitalize;
+color: #92A3B4;
+margin:0;
+}
+.timetxt_commutxt {
+font-weight: 700;
+font-size: 8px;
+line-height: 13px;
+color: rgba(49, 93, 128, 0.52);
+margin: 0 0 2px 0;
+}
+.stat_commutxt.confr_here{
+color:#315D80;
+}
+
+.all_must_eventdiv p{
+font-weight: 400;
+font-size: 10px;
+line-height:12px;
+text-align: center;
+text-transform: capitalize;
+color: #97B1C7;
+margin:0 0 5px 0;
+}
+.all_must_eventdiv a{
+font-weight: 400;
+font-size: 12px;
+line-height:19px;
+text-align: right;
+text-transform: capitalize;
+color: rgba(49, 93, 128, 0.52);
+float:right;
+}
+.all_must_eventdiv a img{
+width: 12px;
+height: 13px;
+margin: 0 0 0 4px;
+}
+.calenderview_div.maintenance_upcomingevents.commu_detailscalender {
+margin: 0 0 8em 0;
+height: auto;
+padding:0;
+}
+.calenderview_div.maintenance_upcomingevents.commu_detailscalender .calendercard_show {
+padding: 19px 18px 0 18px;
+}
+.allcommuni_tabs .headingcalen {
+width: 100%;
+}
+.maintenance_upcomingevents.commu_detailscalender .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
+width: 100%;
+}
+.calenderview_div.maintenance_upcomingevents.commu_detailscalender .upcoming_eventsdiv{
+width: 96%;
+margin: 0 auto 11px auto;
+}
+.calenderview_div.maintenance_upcomingevents.commu_detailscalender .upcoming_eventsdiv .nav.upcom_events {
+width: 100%;
+}
+/* end of communication */
 /* maintenance */
 .midsche_toursec {
-    width: 100%;
+width: 100%;
 }
 .timeeventtxt p {
-    text-align: center;
+text-align: center;
 }
 .below_detailscertifi p {
-    font-size: 16px;
-    line-height: 18px;
+font-size: 16px;
+line-height: 18px;
 }
 .abt_rev_certifi .tab-content .container.reviewcontr{
-    max-width: 100%;
+max-width: 100%;
 }
 .certificcontr h3{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 29px;
-    text-transform: capitalize;
-    color: #315D80;
-    text-align: center;
-    margin: 4px 0 16px 0;
+font-weight: 700;
+font-size: 18px;
+line-height: 29px;
+text-transform: capitalize;
+color: #315D80;
+text-align: center;
+margin: 4px 0 16px 0;
 }
 .certifidiv_flexcontainer .btn.btnview_div {
-    position: unset;
-    width: 71px;
-    line-height: 12px;
+position: unset;
+width: 71px;
+line-height: 12px;
 }
 .certidetails_div{
-    justify-content: space-between;
-    margin: 0 0 10px 0;
-    min-height: 79px;
-    padding: 0 14px 0 10px;
+justify-content: space-between;
+margin: 0 0 10px 0;
+min-height: 79px;
+padding: 0 14px 0 10px;
 }
 .certifidiv_flexcontainer {
-    display: block;
+display: block;
 }
 .below_detailscertifi{
-    margin: 0;
-    width: auto;
-    display: flex;
+margin: 0;
+width: auto;
+display: flex;
 }
 .certidetails_div img{
-    width: 88px;
-    height: 64px;
+width: 88px;
+height: 64px;
 }
 .user_decrip_txt p {
-    margin: 0 0 13px 0;
+margin: 0 0 13px 0;
 }
 .flexparent_reviewblock {
-    margin: 0 0 13px 0;
-    padding: 5px 29px 13px 29px;
-    justify-content: space-between;
+margin: 0 0 13px 0;
+padding: 5px 29px 13px 29px;
+justify-content: space-between;
 }
 .mobview_technician .techni_profdescrip {
-    padding: 10px 10px 24px 0px;
+padding: 10px 10px 24px 0px;
 }
 .techni_backgimg {
-    height: 117px;
+height: 117px;
 }
 .mobview_technician .phono_comment ul {
-    margin: -32px 0 0 0;
+margin: -32px 0 0 0;
 }
 .mobview_technician .profilename{
-    font-size:18px;
-    line-height: 29px;
+font-size:18px;
+line-height: 29px;
 }
 .mobview_technician .phono_comment img {
-    width: 43px;
-    height: 43px;
+width: 43px;
+height: 43px;
 }
 .mobview_technician .acc_infotxt .acc_label{
-    text-align: right;
-    margin: 0 0 5px 0;
+text-align: right;
+margin: 0 0 5px 0;
 }
 .mobview_technician .profile_infotxt .prof_label{
-    margin:0;
+margin:0;
 }
 .mobview_technician .acc_infotxt .account_no{
-    font-size: 18px;
+font-size: 18px;
 }
 .mobview_technician .acc_infotxt {
-    margin: 26px 0 0 0;
+margin: 26px 0 0 0;
 }
 .techni_profsection .statusmodal {
-    right: 7px;
-    bottom: 19px;
+right: 7px;
+bottom: 19px;
 }
 .relv_profimgstatus img {
-    height: 95px;
-    width: 95px;
-    margin: -20px 0 0 0;
+height: 95px;
+width: 95px;
+margin: -20px 0 0 0;
 }
 .techni_profdescrip{
-    padding:0;
+padding:0;
 }
 .mobview_technician .profile_infotxt {
-    margin: 10px 0 0 0;
+margin: 10px 0 0 0;
 }
 .techni_prof_img {
-    margin: -47px 0 0 25px;
+margin: -47px 0 0 25px;
 }
 .relv_profimgstatus{
-    top:0;
+top:0;
 }
 .techname_imgno {
-    flex-basis: 68%;
-    justify-content: start;
+flex-basis: 68%;
+justify-content: start;
 }
 .phono_comment {
-    flex-basis: 30%;
+flex-basis: 30%;
 }
 .abt_rev_certifi .tab-content .container.aboutpad_sec, .abt_rev_certifi .tab-content .container.certificcontr {
-    width: 100%;
-    max-width: 100%;
+width: 100%;
+max-width: 100%;
 }
 .l-main .showing_det.prop_feature.propertyfeat_sche_showdiv {
-    height: auto;
+height: auto;
 }
 .modal.schedtour_popup .tenantaccord .flexdiv .mobilebedbathrm_fields .basicdata select.form-control {
-    width: 68px;
+width: 68px;
 }
 .schedtour_popup .sche_tour h3{
-    font-size: 18px;
+font-size: 18px;
 }
 .schedtour_popup .modal-body.stepsmodal_body .bgclr_tabtourtypestep1 .sche_tour {
-    padding: 28px 18px 18px 18px;
+padding: 28px 18px 18px 18px;
 }
 .schedtour_popup .seldateboxsche_prop .select-box .label,.schedtour_popup .seldateboxsche_prop .select-box1 .label {
-    padding: 5px 21px 5px 0px;
+padding: 5px 21px 5px 0px;
 }
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    margin: 0 0 0 20px;
+margin: 0 0 0 20px;
 }
 .maint_pagediv .myinfotabs .container{
-    max-width: 100%;
+max-width: 100%;
 }
 .descrp_modalreqserv p {
-    text-align: left;
-    font-size: 14px;
+text-align: left;
+font-size: 14px;
 }
 .reqservdiv_styl {
-    margin: 0 auto 15px auto;
-    display: flex;
-    width: 96%;
-    height: 40px;
-    align-items: center;
-    padding: 4px 6px 6px 19px;
-    justify-content: start;
-    flex-basis: unset;
+margin: 0 auto 15px auto;
+display: flex;
+width: 96%;
+height: 40px;
+align-items: center;
+padding: 4px 6px 6px 19px;
+justify-content: start;
+flex-basis: unset;
 }
 .reqservdiv_styl img {
-    height: 21px;
-    width: 21px;
-    margin: 0 7px 0 0px;
+height: 21px;
+width: 21px;
+margin: 0 7px 0 0px;
 }
 .six_reqserblock {
-    flex-direction: column;
-    flex-basis: 49%;
+flex-direction: column;
+flex-basis: 49%;
 }
 .mobileversion_reqservice {
-    display: flex;
-    justify-content: center;
-    overflow-y: auto;
-    max-height: 484px;
-    width: 95%;
-    margin: 0 auto;
+display: flex;
+justify-content: center;
+overflow-y: auto;
+max-height: 484px;
+width: 95%;
+margin: 0 auto;
 }
 .mobileversion_reqservice::-webkit-scrollbar-track
 {
@@ -5649,48 +6417,48 @@ border-radius: 10px;
 background-color: #315D80;
 }
 .desktopreq_serv_modal{
-    display:none;
+display:none;
 }
 .modal.viewallreq_modal .modal-body {
-    padding: 6px 0 12px 0;
+padding: 6px 0 12px 0;
 }
 .descrp_modalreqserv {
-    padding: 7px 5px;
-    margin: 0;
-    flex-basis: 100%;
-    background: unset;
+padding: 7px 5px;
+margin: 0;
+flex-basis: 100%;
+background: unset;
 }
 .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link img {
-    vertical-align: middle;
-    margin: 0 0 0 3px;
+vertical-align: middle;
+margin: 0 0 0 3px;
 }
 .belowpart_tenant.maintenance_div .profimg_div .status {
-    right: -31px;
+right: -31px;
 }
 .belowpart_tenant .profimg_div .avatar-preview .status, .belowpart_tenant .profimg_div .status {
-    bottom: 24px;
+bottom: 24px;
 }
 .my_teamdiv.myleaseteam_flex.maint_myteamflex .team_memname {
-    flex-direction: row;
+flex-direction: row;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 429px;
-    margin: 0 0 10px 0;
+height: 429px;
+margin: 0 0 10px 0;
 }
 .maintenance_upcomingevents .time_eventcalender{
-    max-height: 186px;
+max-height: 186px;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 327px;
+max-height: 327px;
 }
 .calenderview_div.maintenance_upcomingevents .tab-content {
-    padding: 11px 12px 2px 12px;
+padding: 11px 12px 2px 12px;
 }
 .maintenance_div .acc_infotxt {
-    margin: 0px 0px 0 84px;
+margin: 0px 0px 0 84px;
 }
 .belowpart_tenant.maintenance_div {
-    padding: 23px 0 31px 0 !important;
+padding: 23px 0 31px 0 !important;
 }
 /* end of maintenance */
 .setup_modalprop .modal-header,.setup_modalprop .modal-body{
@@ -5776,42 +6544,42 @@ width: 55%;
 /* end of showing confirmed and reschedule pop up */
 /* schedule tour */
 .schedtour_popup  .tenantaccord .card .card-body .flexdiv.border-bottom-css{
-    border-bottom: 1px solid #c9d7e5;
-    }
+border-bottom: 1px solid #c9d7e5;
+}
 .schedtour_popup .tenantaccord .card .card-header h2 {
-    align-items: center;
+align-items: center;
 }
 .mobhide_fields{
-    display: none;
+display: none;
 }
 .schedtour_popup .tenantaccord .flexdiv .mobilebedbathrm_fields .basicdata{
-    width: 53px;
-    margin: 0 0 0 auto;
-    }
+width: 53px;
+margin: 0 0 0 auto;
+}
 #chartContainertwo .canvasjs-chart-canvas{
-    width: 100% !important;
+width: 100% !important;
 }
 .flexdiv.combinefields_mobile{
-    display: flex;
-  }
+display: flex;
+}
 #chartContainertwo{
-    width: 96% !important;
-    max-width: 100% !important;
+width: 96% !important;
+max-width: 100% !important;
 }
 .hidemedianleasedesktop .boxone_mark p,.hidemedianleasedesktop .boxtwo_mark p {
-    font-size: 14px;
-    line-height: 21px;
-    text-transform: capitalize;
-    color: #6388A5;
+font-size: 14px;
+line-height: 21px;
+text-transform: capitalize;
+color: #6388A5;
 }
 .schedshow_newpropdistr .prop_ptxt {
-    text-align: center;
+text-align: center;
 }
 .hidemedianleasedesktop .boxone_mark h3{
-    color: #8BAC8C;
+color: #8BAC8C;
 }
 .hidemedianleasedesktop .boxtwo_mark h3{
-    color:#6388A5;
+color:#6388A5;
 }
 .hidemedianleasedesktop .boxone_mark h3,.hidemedianleasedesktop .boxtwo_mark h3{
 font-weight: 700;
@@ -5820,14 +6588,14 @@ line-height:22px;
 text-transform: capitalize;
 }
 .schedshow_newpropdistr .condo_apt{
-    flex-direction: column;
-    background: rgba(55, 105, 144, 0.08);
-    border-radius: 8px;
-    margin: 0;
-    padding: 18px 20px 25px 20px !important;
+flex-direction: column;
+background: rgba(55, 105, 144, 0.08);
+border-radius: 8px;
+margin: 0;
+padding: 18px 20px 25px 20px !important;
 }
 .schedshow_newpropdistr .condo_apt h3 {
-    margin: 0 0 13px 0;
+margin: 0 0 13px 0;
 }
 .schedshow_newpropdistr .abtcondo_txt,.schedshow_newpropdistr .txt_condoschedetails{
 text-align: center !important;
@@ -5836,80 +6604,80 @@ text-align: center !important;
 flex-basis: 100%;
 }
 .schedshow_newpropdistr .proptype_dis {
-    text-align: center;
-    font-size: 18px;
-    margin: 0 0 16px 0px;
+text-align: center;
+font-size: 18px;
+margin: 0 0 16px 0px;
 }
 .l-main .mapdetails_div .category-button img {
-    vertical-align: sub;
+vertical-align: sub;
 }
 .hidemedianleasedesktop .boxone_mark,.hidemedianleasedesktop .boxtwo_mark{
-    background: rgba(55, 105, 144, 0.08);
-    border-radius: 8px;
-    padding: 17px 15px 22px 15px;
+background: rgba(55, 105, 144, 0.08);
+border-radius: 8px;
+padding: 17px 15px 22px 15px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.nav-item::before {
-    width: 87px;
-    position: unset;
+width: 87px;
+position: unset;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    top: 24px;
-    height: 15px;
-    position: absolute;
-    left: -15px;
-    right: unset;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+top: 24px;
+height: 15px;
+position: absolute;
+left: -15px;
+right: unset;
 }
 .schedtour_popup .modal-body.stepsmodal_body ul.nav.nav-tabs{
-    position: relative;
+position: relative;
 }
 .schedtour_popup .tenantaccord .flexdiv .basicdata{
-    width: auto;
+width: auto;
 }
 .schedtour_popup .tenantaccord .card .card-body .flexdiv {
-    padding: 7px 0px 7px 10px;
+padding: 7px 0px 7px 10px;
 }
 .mobilebedbathrm_fields{
-    display: flex;
-    border-right: 1px solid #C9D7E5;
-    width: 49%;
-    align-items: center;
+display: flex;
+border-right: 1px solid #C9D7E5;
+width: 49%;
+align-items: center;
 }
 .mobilebedbathrm_fields:last-child{
-    border-right: unset;
-    justify-content: end;
+border-right: unset;
+justify-content: end;
 }
 .schedtour_popup .tenantaccord .flexdiv .basicdata select.form-control,
 .tenantaccord .flexdiv .basicdata select.form-control{
-    padding: 0 22px 0 0px;
+padding: 0 22px 0 0px;
 }
 .schedtour_popup .tenantaccord .flexdiv .basicdata input.form-control{
-    padding: 0 7px 0 6px;
+padding: 0 7px 0 6px;
 }
 .schedtour_popup .tenantaccord .flexdiv .basicdata select.form-control,
 .tenantaccord .flexdiv .basicdata select.form-control,
 .schedtour_popup .tenantaccord .flexdiv .basicdata input.form-control {
-    width: 136px;
-    height: 24px;
+width: 136px;
+height: 24px;
 
 }
 .title_mediancss{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    text-transform: capitalize;
-    color: #6388A5;
-    text-align: center;
-    margin: 11px 0 16px 0;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-transform: capitalize;
+color: #6388A5;
+text-align: center;
+margin: 11px 0 16px 0;
 }
 .median_lease.mobilemedian_lease{
-    display: none;
-    }
+display: none;
+}
 .median_lease.mobilemedian_lease.hidemedianleasedesktop{
-    display: block;
-    padding: 22px 7px 20px 7px;
+display: block;
+padding: 22px 7px 20px 7px;
 }
 .hidemedianleasedesktop h3{
 font-weight: 700;
@@ -5920,13 +6688,13 @@ text-transform: capitalize;
 color: #315D80;
 }
 .propdetails_slider .rat_tot_count p.count_rst {
-    font-size: 14px;
+font-size: 14px;
 }
 .propdetails_slider .rat_tot_count p.count_rst span:nth-child(2) {
-    font-size: 10px;
+font-size: 10px;
 }
 .schedtour_popup .modal-dialog .modal-content {
-    padding-top: 0;
+padding-top: 0;
 }
 .schedtour_popup .modal-body.stepsmodal_body .bgclr_tabtourtypestep1 .sche_tour{
 overflow: hidden;
@@ -5968,7 +6736,7 @@ width: auto;
 right: -9px;
 }
 .l-main .similar_unitsdiv .lochouse_details .clock img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .l-main .similar_unitsdiv .lochouse_details .house img, .l-main .similar_unitsdiv .lochouse_details .clock img {
 margin:0 4px 0 0;
@@ -5985,8 +6753,8 @@ margin-right: 4px;
 .similar_unitsdiv .propdetails_slidersimi .rat_tot_count p.count_rst,
 .similar_unitsdiv .newlypropdetails_slider .rat_tot_count p.count_rst,
 .similar_unitsdiv .just_propdetails .rat_tot_count p.count_rst {
-    text-align: center;
-    }
+text-align: center;
+}
 .propdetails_slidersimi .rat_tot_count,.newlypropdetails_slider .rat_tot_count ,.just_propdetails .rat_tot_count  {
 width: 17%;
 text-align: center;
@@ -6040,25 +6808,25 @@ margin: 0 auto;
 align-items: baseline;
 }
 .sche_tour.propdetails_schetour .date_heading h3 {
-    margin: 0 0 20px 0;
-    padding: 0 0px 0 32px;
-    font-size: 16px;
+margin: 0 0 20px 0;
+padding: 0 0px 0 32px;
+font-size: 16px;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .day_monthtab .tab-content .seldateboxsche_prop .monthyear_div {
-    width: 43%;
+width: 43%;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .seldateboxsche_prop .select-box1 .label::after {
-    right: 0px;
+right: 0px;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .seldateboxsche_prop .select-box1 .label,.sche_tour.mobileview_tour.propdetails_schetour .seldateboxsche_prop .select-box .label{
-    padding: 5px 20px 4px 7px;
+padding: 5px 20px 4px 7px;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .day_monthtab .tab-content .seldateboxsche_prop .monthyear_div .select-box.month {
-    width: auto;
-    margin: 0;
+width: auto;
+margin: 0;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .day_monthtab .tab-content .seldateboxsche_prop .monthyear_div .select-box1.year{
-    width: auto;  
+width: auto;  
 }
 .propdetails_schetour .sched_tourdivbtn{
 text-align: center;
@@ -6228,12 +6996,12 @@ padding: 4px 36px 4px 13px;
 padding: 4px 18px 4px 13px;
 }
 .showing_details_block .bottom_rightdetails .galdiv_clr img {
-    width: 12px;
-    height: 12px;
+width: 12px;
+height: 12px;
 }
 .showing_details_block .bottom_rightdetails .videodiv_clr img {
-    width: 17px;
-    height: 11px;
+width: 17px;
+height: 11px;
 }
 .showings_sche_div.showing_details_block .bottom_details img {
 height: 11px;
@@ -6305,7 +7073,7 @@ margin: 0 0 1em 0;
 display: none;
 }
 .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: 8px !important;
+margin-left: 8px !important;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .imageover_details > img {
 height: 128px;
@@ -6440,9 +7208,9 @@ border-radius: 0 0 17px 17px;
 padding: 0 0 20px 0;
 }
 .signin_popupreservenow .modal-header {
-    width: 95.7%;
-    margin: 0 auto;
-    border-radius: 17px 17px 0 0;
+width: 95.7%;
+margin: 0 auto;
+border-radius: 17px 17px 0 0;
 }
 
 .signin_popupreservenow .rightwidless_sche .flexdiv {
@@ -6481,7 +7249,7 @@ width: 100%;
 max-width: 100%;
 }
 .sched_tourdivbtnnext .btn.btnsched_tournext, .sched_tourdivbtnschedule .btn.btnsched_tourschedule{
-    width: 358px;
+width: 358px;
 }
 .schedtour_popup .sche_tour .switch-field {
 margin: 0 auto;
@@ -6499,8 +7267,8 @@ width: 76%;
 margin: 10px auto 0 auto;
 }
 .schedtour_popup .modal-dialog{
-    max-width: 90%;
-    margin: 0 auto;
+max-width: 90%;
+margin: 0 auto;
 }
 .schedtour_popup .monthyear_div {
 width: 39%;
@@ -6510,7 +7278,7 @@ text-align: left;
 font-size: 16px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0 0 0 48px;
+margin: 0 0 0 48px;
 }
 .schedtour_popup .flxtime_design {
 margin: 20px 0 0 0;
@@ -6755,70 +7523,70 @@ margin: 0 0 12px 0;
 /* end of transactions */
 /* price range  */
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
-    height: 16.5px;
-    width: 13.5px;
+height: 16.5px;
+width: 13.5px;
 }
 .leasedslider .slidelocation_div span img{
-    margin-right: 4px;
+margin-right: 4px;
 }
 .fixcontenttopmobile .algncenter_price {
 margin:0;
 }
 .btn.propnotify {
-    padding: 8px 0 0 0;
+padding: 8px 0 0 0;
 }
 .setup_modalprop.notif_div .modal-content .modal-header {
-    padding: 50px 10px 22px 0px;
+padding: 50px 10px 22px 0px;
 }
 .setup_modalprop.notif_div .modal-content .modal-header .modal-title{
-    color:#ffffff;
+color:#ffffff;
 }
 .bed_bath_pets.moving_datesdiv {
-    padding: 6px 0px 10px 0px;
+padding: 6px 0px 10px 0px;
 }
 .deskhide_resetbtn{
-    display: block;
+display: block;
 }
 .setup_modalprop .modal-dialog {
-    max-width: 100%;
+max-width: 100%;
 }
 .bottom_rightdetails.bottomsimilar .galdiv_clr img {
-    height: 10px;
-    margin: 0 4px 0 0px;
+height: 10px;
+margin: 0 4px 0 0px;
 }
 .pricerangedivs .galdiv_clr span,.pricerangedivs .videodiv_clr span {
-    font-size: 12px;
+font-size: 12px;
 }
 .pricerangedivs .bottom_rightdetails.bottomsimilar .galdiv_clr {
-    padding: 3px 15px 3px 11px;
+padding: 3px 15px 3px 11px;
 }
 .similar_unitsdiv.pricerangedivs .leaseddetails_slider .car_details, .similar_unitsdiv.pricerangedivs .leaseddetails_slider .shower_details, .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details {
-    padding: 3px 3px 2px 3px;
-    height: 43px;
+padding: 3px 3px 2px 3px;
+height: 43px;
 }
 .l-main .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details img {
-    margin: 7px 0 5px 0;
+margin: 7px 0 5px 0;
 }
 .similar_unitsdiv.pricerangedivs .leaseddetails_slider p {
-    margin: -3px 0 0 0;
+margin: -3px 0 0 0;
 }
 .bed_bath_pets label {
-    margin: 0;
+margin: 0;
 }
 .pricerange_search {
-    margin: 40px auto 11px 27px;
+margin: 40px auto 11px 27px;
 }
 .similar_unitsdiv.pricerangedivs .leaseddetails_slider .car_details img,
- .similar_unitsdiv.pricerangedivs .leaseddetails_slider .shower_details img,
-  .similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details img {
-    vertical-align: baseline;
+.similar_unitsdiv.pricerangedivs .leaseddetails_slider .shower_details img,
+.similar_unitsdiv.pricerangedivs .leaseddetails_slider .bed_details img {
+vertical-align: baseline;
 }
 .bed_bath_pets{
-    border-radius: 17px 17px 0 0;
-    }
-    .bed_bath_pets.moving_datesdiv{
-    border-radius: 0px;
-    }
+border-radius: 17px 17px 0 0;
+}
+.bed_bath_pets.moving_datesdiv{
+border-radius: 0px;
+}
 .loadmore_arrowsdownmobile a{
 position: fixed;
 bottom: 84px;
@@ -6829,7 +7597,7 @@ z-index: 1000;
 display: block;
 }
 .flexprice_range {
-    margin: 3.5em 0 1em 0;
+margin: 3.5em 0 1em 0;
 }
 .fixcontenttopmobile{
 position: fixed;
@@ -6839,7 +7607,7 @@ z-index: 10;
 top:64px;
 }
 .pricerange_container{
-    overflow:hidden;
+overflow:hidden;
 }
 .rightalgn_buttonsprice{
 display: none;
@@ -6856,24 +7624,24 @@ font-size: 20px;
 margin: -42px 26px 0 0px;
 }
 .price-range-slider .range-bar {
-    width: 89%;
+width: 89%;
 }
 .pricerange_search .form-search .input-group-append {
 right: 4px;
 }
 .pricerangedivs {
-    width: 90%;
+width: 90%;
 }
 .pricerange_search {
-    margin: 40px auto 11px 24px;
-    width: 92%;
-    padding: 0;
+margin: 40px auto 11px 24px;
+width: 92%;
+padding: 0;
 }
 .mobilfullwidth_css {
-    padding: 0 !important;
+padding: 0 !important;
 }
 .box-minmax {
-    width: 91.3%;
+width: 91.3%;
 }
 .pricerange_search .form-search .input-group input.form-control::-webkit-input-placeholder{
 font-weight: 400;
@@ -6906,14 +7674,14 @@ height: 19px;
 margin: 5px 0 0 0;
 }
 .price-range-slider {
-    padding: 10px 9px;
+padding: 10px 9px;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count {
 top: 10px;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider {
-    padding: 15px 15px 10px 15px;
-    margin: 0 0 6px 0;
+padding: 15px 15px 10px 15px;
+margin: 0 0 6px 0;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house,
 .similar_unitsdiv.pricerangedivs .lochouse_details .clock {
@@ -6933,12 +7701,12 @@ padding: 5px 55px 5px 0;
 
 /* find property */
 .l-main .listimges_prop.propfind {
-    margin: 0 auto;
-    width: 95%;
+margin: 0 auto;
+width: 95%;
 }
 .search_ip_prop a.btn.btnmapprop img{
-    height: 17px;
-    vertical-align: sub;
+height: 17px;
+vertical-align: sub;
 }
 
 .desktopproperty_hide{
@@ -6970,13 +7738,13 @@ text-align: right;
 padding: 5px 0 0 0;
 }
 .setup_modalprop .modal-content .modal-header {
-    background: #315D80;
-    padding: 15px 10px 0px 0px;
-    border-radius: 17px 17px 0 0;
+background: #315D80;
+padding: 15px 10px 0px 0px;
+border-radius: 17px 17px 0 0;
 }
 .setup_modalprop .modal-header .close {
-    top: 15px;
-    right: 14px;
+top: 15px;
+right: 14px;
 }
 .setup_modalprop .btn.resetSearch{
 line-height: 16px;
@@ -6985,9 +7753,9 @@ margin: 12px auto 6px auto;
 background: unset;
 }
 .setup_modalprop .modal-content .modal-body{
-    background: #315D80;
-    padding: 10px; 
-    border-radius:0 0 17px 17px; 
+background: #315D80;
+padding: 10px; 
+border-radius:0 0 17px 17px; 
 }
 .bed_bath_pets {
 background: unset;
@@ -7004,8 +7772,8 @@ width: auto;
 display: block;
 }
 .mobileviewfindprop_btn {
-    display: block;
-    margin: 0 58px 4px 0px;
+display: block;
+margin: 0 58px 4px 0px;
 }
 .mobhide_footerbtn{
 display: none;
@@ -7014,11 +7782,11 @@ display: none;
 height: 26px;
 }
 .findpropinfo .myinfo_txt span {
-    font-size: 12px;
-    font-weight: 400;
+font-size: 12px;
+font-weight: 400;
 }
 .divinfo.findpropinfo .myinfo_txt img {
-    margin-right: 5px;
+margin-right: 5px;
 }
 .mobilproperty_hide{
 display:none;
@@ -7778,7 +8546,7 @@ padding: 22px 10px;
 position: fixed;
 bottom: -1px;
 width: 100%;
-z-index: 1;
+z-index: 10;
 } 
 .profimg_div .status {
 right: 56px;
@@ -7911,91 +8679,91 @@ right: 13px;
 @media only screen and (max-width: 640px){
 /* maintenance */
 .maint_pagediv .stat_div {
-    margin: 1px 0 1px 34px;
+margin: 1px 0 1px 34px;
 }
 .mobview_technician .acc_infotxt {
-    margin: 30px 0 0 0;
+margin: 30px 0 0 0;
 }
 .relv_profimgstatus img {
-    margin: -18px 0 0 0;
+margin: -18px 0 0 0;
 }
 .mobview_technician .profile_infotxt {
-    margin: 16px 0 0 0;
+margin: 16px 0 0 0;
 }
 .propdetails_slider .similar_unitsdiv .leasedslider {
-    margin: 11px 0px 0 11px;
+margin: 11px 0px 0 11px;
 }
 .l-main .property_showing_card  .showings_sche_div .bottom_rightdetails {
-    bottom: 12px !important;
+bottom: 12px !important;
 }
 .l-main .property_showing_card .showings_sche_div .bottom_rightdetails .videodiv_clr,
- .l-main .property_showing_card .showings_sche_div .bottom_rightdetails .galdiv_clr {
-    padding-top: 2px;
-    padding-bottom: 5px;
+.l-main .property_showing_card .showings_sche_div .bottom_rightdetails .galdiv_clr {
+padding-top: 2px;
+padding-bottom: 5px;
 }
 .property_showing_card .galdiv_clr span,.property_showing_card .videodiv_clr span {
-    vertical-align: text-bottom;
+vertical-align: text-bottom;
 }
 .hidemedianleasedesktop .boxone_mark, .hidemedianleasedesktop .boxtwo_mark {
-    padding: 17px 33px 22px 33px;
+padding: 17px 33px 22px 33px;
 }
 .sche_tour .switch-field input + label span.video img {
-    vertical-align: text-bottom;
+vertical-align: text-bottom;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .seldateboxsche_prop .select-box1 .label{
-    padding: 5px 19px 4px 7px;
+padding: 5px 19px 4px 7px;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .seldateboxsche_prop .select-box .label {
-    padding: 5px 21px 4px 7px;
+padding: 5px 21px 4px 7px;
 }
 .maintenance_upcomingevents .seldatebox {
-    flex-basis: 49%;
+flex-basis: 49%;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: 475px;
+height: 475px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 198px;
+max-height: 198px;
 }
 .maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link img {
-    vertical-align: middle;
+vertical-align: middle;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 324px;
+max-height: 324px;
 }
 .my_teamdiv.myleaseteam_flex.maint_myteamflex.maint_myteamflex {
-    padding: 12px 16px 12px 20px;
+padding: 12px 16px 12px 20px;
 }
 .belowpart_tenant.maintenance_div .profimg_div img {
-    height: 100%;
-    width: 100%;
+height: 100%;
+width: 100%;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    width: 95px;
-    height: 95px;
-    display: block;
+width: 95px;
+height: 95px;
+display: block;
 }
 .belowpart_tenant.maintenance_div {
-    padding: 23px 0 24px 0 !important;
+padding: 23px 0 24px 0 !important;
 }
 .maintenance_upcomingevents .headingcalen h3 {
-    margin: 0 0 21px 0;
+margin: 0 0 21px 0;
 }
 .belowpart_tenant.maintenance_div .profimg_div .status {
-    right: 7px;
+right: 7px;
 }
 .belowpart_tenant.maintenance_div .profimg_div .avatar-preview .status, .belowpart_tenant.maintenance_div .profimg_div .status {
-    bottom: 19px;
+bottom: 19px;
 }
 .maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events li {
-    text-align: center;
+text-align: center;
 }
 .maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
-    width: 100%;
-    margin: 0 auto;
+width: 100%;
+margin: 0 auto;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 100%;
+width: 100%;
 }
 /* end of maintenance */
 /* payment deposit */
@@ -8011,29 +8779,29 @@ margin: 51px auto 0 11px;
 /* payment deposit end */
 /* schedule tour */
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    width: 20%;
-    right: -8px;
+width: 20%;
+right: -8px;
 }
 .about_descrip ul li:first-child {
-    padding: 0 6px 0 0px;
+padding: 0 6px 0 0px;
 }
 .about_descrip ul li:last-child {
-    padding: 0 0px 0 6px;
+padding: 0 0px 0 6px;
 }
 .schedtour_popup ul.nav-tabs {
 width: 68%;
 }
 .mobilebedbathrm_fields {
-    padding-right: 10px;
+padding-right: 10px;
 }
 .mobilebedbathrm_fields:last-child {
-    padding-right: 0px;
+padding-right: 0px;
 }
 .l-main .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: -55px !important;
+margin-left: -55px !important;
 }
 .schedtour_popup .seldateboxsche_prop .select-box .label, .schedtour_popup .seldateboxsche_prop .select-box1 .label {
-    padding: 5px 23px 5px 6px;
+padding: 5px 23px 5px 6px;
 }
 .schedtour_popup .modal-body.stepsmodal_body ul.nav.nav-tabs li.nav-item .nav-link {
 font-size: 18px;
@@ -8042,7 +8810,7 @@ font-size: 18px;
 width: 90%;
 }
 .similar_unitsdiv .leaseddetails_slider .car_details img {
-    height: 15px;
+height: 15px;
 }
 .similar_unitsdiv.toursche_slidiv .unit_newlist_lease .tab-content {
 padding: 0 0px 0 12px;
@@ -8054,10 +8822,10 @@ padding: 3px 7px 5px 9px;
 vertical-align: bottom;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
-    left: 9px;
+left: 9px;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 160px;
+margin-left: 160px;
 }
 .l-main .similar_unitsdiv .leasedslider .unverifi_divtxt img {
 top: 1px;
@@ -8145,13 +8913,13 @@ font-size: 18px;
 width: 90%;
 }
 .pricerange_search {
-    margin: 30px auto 11px 24px;
+margin: 30px auto 11px 24px;
 }
 .price-range-slider .range-bar {
-    width: 87%;
+width: 87%;
 }
 .pricelabel_range {
-    flex-basis: 21%;
+flex-basis: 21%;
 }
 
 .btn.propnotify{
@@ -8159,10 +8927,10 @@ width: 155px;
 height: 40px;
 }
 .pricerang_btnsprop .algntxt {
-    display: flex;
-            justify-content: end;
-            align-items: anchor-center;
-        }
+display: flex;
+justify-content: end;
+align-items: anchor-center;
+}
 
 .btn.propnotify,.btn.saveprop {
 font-size: 12px;
@@ -8181,8 +8949,8 @@ height: 120px;
 padding: 0 0 0 5px;
 }
 .l-main .listimges_prop.propfind {
-    margin: 0 auto;
-    width: 94%;
+margin: 0 auto;
+width: 94%;
 }
 /* end of find property */
 /* property schedule */
@@ -8273,8 +9041,8 @@ width: 95%;
 margin: 0 auto 0 0;
 }
 .maintenance_upcomingevents .headingcalen {
-    width: 95%;
-    margin: 0 auto 0 auto;
+width: 95%;
+margin: 0 auto 0 auto;
 }
 .calendercard_show {
 flex-direction: column;
@@ -8637,11 +9405,11 @@ right: 8px;
 top: 7px;
 }
 .unit_newlist_lease.propdetails_slider {
-    padding: 16px 10px;
+padding: 16px 10px;
 }
 .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .house,
- .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .clock {
-    padding: 2px 6px;
+.l-main .propdetails_slider .similar_unitsdiv .lochouse_details .clock {
+padding: 2px 6px;
 }
 .similar_unitsdiv .leaseddetails_slider .bed_details img {
 margin: 3px 0 5px 0;
@@ -8735,9 +9503,9 @@ display:block;
 margin: 24px 0 0 0;
 }
 .about_descrip ul li {
-    padding: 0 6px 0 6px;
-    font-size: 12px;
-    line-height: 20px;
+padding: 0 6px 0 6px;
+font-size: 12px;
+line-height: 20px;
 }
 .leasedslider.areaexplr p {
 font-size: 12px;
@@ -8896,7 +9664,7 @@ text-align: center;
 color: #F2727F;
 }
 .about_descrip ul {
-    justify-content: center;
+justify-content: center;
 }
 .mobileview_allunits .similar_unitsdiv .bottom_rightdetails {
 bottom: 7px;
@@ -8929,7 +9697,7 @@ width: 85px;
 margin-left: -38px;
 }
 .l-main {
-    margin: 0em 0 0em 0 !important;
+margin: 0em 0 0em 0 !important;
 }
 .similar_unitsdiv.toursche_slidiv .leaseddetails_slider .bed_details img {
 margin: 6px 0 3px 0;
@@ -8955,11 +9723,11 @@ font-size: 12px;
 display: unset;
 }
 .similar_unitsdiv .leasedslider .unverifi_divtxt img {
-    height: 23px;
-    width: auto;
+height: 23px;
+width: auto;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0 0 0 11px;
+margin: 0 0 0 11px;
 }
 .similar_unitsdiv .ratingstar_count i {
 font-size: 9px;
@@ -9056,258 +9824,251 @@ top: -28px;
 @media only screen and (max-width:575px) {
 /* maintenance */
 .maintenance_upcomingevents .calview_show {
-    padding: 10px;
+padding: 10px;
 }
 .maintenance_upcomingevents .timeeventtxt sub {
-    bottom: 1px;
+bottom: 1px;
 }
 .maintenance_upcomingevents .cale_num {
-    font-size: 10px;
+font-size: 10px;
 }
 .maintenance_upcomingevents .timecalenderpad {
-    padding: 0 0 0 15px;
+padding: 0 0 0 15px;
 }
 .maintenance_upcomingevents .timeeventtxt p {
-    text-align: left;
+text-align: left;
 }
 .maint_pagediv .tab-content.myinfotabs {
-    max-height: unset;
-    overflow-x: unset;
+max-height: unset;
+overflow-x: unset;
 }
-.widextend_mobviewleft{
-    flex: 0 0 10.333333%;
-    max-width: 10.333333%;
-}
-.widextend_mobviewright{
-    flex: 0 0 89.666667%;
-    max-width: 89.666667%;
-}
+
 .abt_rev_certifi .tab-content .container .card .card-header a {
-    align-items: anchor-center;
+align-items: anchor-center;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link{
-    width: 110px;
+width: 110px;
 }
 .mobview_technician .profile_infotxt .profilename{
-    order: 2;
-    line-height: 24px;
+order: 2;
+line-height: 24px;
 }
 .mobview_technician .phono_comment ul {
-    margin: -29px 0 0 0;
+margin: -29px 0 0 0;
 }
 .mobview_technician .acc_infotxt {
-    margin: 22px 0 0 0;
+margin: 22px 0 0 0;
 }
 
 .midsche_toursec .resche_link a {
-    padding: 8px 0;
+padding: 8px 0;
 }
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock {
-    padding: 2px 15px 2px 7px;
+padding: 2px 15px 2px 7px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .timetab_div.modaltime_div .flxtime_design .block_time.mins_marg {
-    margin: 0 23px;
+margin: 0 23px;
 }
 .sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
-    text-align: left;
-    padding-left: 30px;
+text-align: left;
+padding-left: 30px;
 }
 .main_workdescrip{
-    flex-basis: 57%;
+flex-basis: 57%;
 }
 .workstatus_div{
-    flex-basis: 40%;
+flex-basis: 40%;
 }
 .maint_pagediv .stat_div {
-    margin: 4px 0 1px 0px;
-    text-align: right;
+margin: 4px 0 1px 0px;
+text-align: right;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -82px 0 0 25px;
+margin: -82px 0 0 25px;
 }
 .calenderview_div.maintenance_upcomingevents {
-    height: auto;
+height: auto;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 374px;
+max-height: 374px;
 }
 .maintenance_upcomingevents .time_eventcalender {
-    max-height: 500px;
+max-height: 500px;
 }
 .maintenance_upcomingevents .seldatebox {
-    flex-basis: 56%;
+flex-basis: 56%;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk{
-    margin:0;
+margin:0;
 }
 .req_service {
-    margin: 16px 0 0 0;
+margin: 16px 0 0 0;
 }
 .my_info.maintenance {
-    padding: 18px 14px 10px 14px;
+padding: 18px 14px 10px 14px;
 }
 .req_service .my_info.maintenancepage {
-    min-height: 245px;
+min-height: 245px;
 }
 .req_service .maintenancepage .divinfo {
-    padding: 11px 20px 11px 18px;
+padding: 11px 20px 11px 18px;
 }
 .maintenancepage .myinfo_txt span {
-    font-size: 18px;
+font-size: 18px;
 }
 .calenderview_div.maintenance_upcomingevents .calendercard_show {
-    margin: 0 0 10px 0;
+margin: 0 0 10px 0;
 }
 .worksdesktop_view,.desktpview_all,.maint_pagediv a.refresh_a,.desktop_listview{
-    display:none;
+display:none;
 }
 .calenderview_div.maintenance_upcomingevents .listview {
-    margin-bottom: 10px;
-    padding: 0;
+margin-bottom: 10px;
+padding: 0;
 }
 .maintenance_upcomingevents .weknamediv.active .wekdate {
-    font-size: 12px;
+font-size: 12px;
 }
 .mobile_listview .listdate_show {
-    margin: 10px 0 0 0;
+margin: 10px 0 0 0;
 }
 .mainte_tabs .nav.nav-tabs{
-    border-radius: 22px;
+border-radius: 22px;
 }
 .mainte_tabs .nav.nav-tabs .nav-item {
-    width: 50%;
+width: 50%;
 }
 .calenderview_div.maintenance_upcomingevents .listimg_reqservice_img img {
-    height: 30px;
-    width: 30px;
+height: 30px;
+width: 30px;
 }
 .calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
-    margin: 0px 14px 0 0;
+margin: 0px 14px 0 0;
 }
 .mobile_listview .viewdescrip_reqserv_list p {
-    font-size: 12px;
+font-size: 12px;
 }
 .leftsec_listdiv{
-    flex-basis: 20%;
+flex-basis: 20%;
 }
 .maintenance_upcomingevents .listdate_show p {
-    font-size: 10px;
+font-size: 10px;
 }
 .mobile_listview .listdate_show p img {
-    vertical-align: sub;
-    height: 14px;
-    width: 11px;
+vertical-align: sub;
+height: 14px;
+width: 11px;
 }
 .mobile_listview .listtab_txt p {
-    margin: 0 9px;
+margin: 0 9px;
 }
 .rightsec_listdiv{
-    flex-basis: 80%;
+flex-basis: 80%;
 }
 .maintenance_upcomingevents .headingcalen h3 img {
-    width: 22px;
-    height: 22px;
+width: 22px;
+height: 22px;
 }
 .eventstimings_sectiondiv{
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-    margin: 0;
-    padding: 14px 20px;
-    align-items: center;
-    display: flex;
+margin: 0;
+padding: 14px 20px;
+align-items: center;
+display: flex;
 }
 .mobile_listview .timings_datalist {
-    justify-content: space-between;
-    margin: 0;
-    align-items: end;
+justify-content: space-between;
+margin: 0;
+align-items: end;
 }
 .maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
-    font-size: 18px;
+font-size: 18px;
 }
 .my_info.maint_pagediv .myinfo_txt img {
-    height: 22px;
-    width: 22px;
+height: 22px;
+width: 22px;
 }
 .date_timesecmain .clocktime{
-    margin:0 10px 0 0;
+margin:0 10px 0 0;
 }
 .maint_pagediv .myinfotabs .btn.commn {
-    height: auto;
-    width: auto;
-    padding: 8px 17px 8px 9px;
+height: auto;
+width: auto;
+padding: 8px 17px 8px 9px;
 }
 .maint_pagediv .myinfotabs .btn.commn img {
-    margin: 2px 7px 0 2px;
+margin: 2px 7px 0 2px;
 }
 .reqserv_descrip p {
-    font-size: 16px;
+font-size: 16px;
 }
 .slick_req_service .slide-content img {
-    height: 62px;
-    width: 62px;
+height: 62px;
+width: 62px;
 }
 .mobilview_all{
-    display: block;
-    text-align: center;
-    padding: 0 0 12px 0;
+display: block;
+text-align: center;
+padding: 0 0 12px 0;
 }
 .my_info.maintenancepage .myinfo_txt img {
-    height: 22px;
-    width: 22px;
-    margin-right: 9px;
+height: 22px;
+width: 22px;
+margin-right: 9px;
 }
 .slick_req_service{
-    padding: 18px 0 0 0px;
+padding: 18px 0 0 0px;
 }
 .reqserv_descrip {
-    margin: 12px 0 0 0;
+margin: 12px 0 0 0;
 }
 .maintenancepage .c-search.menusearch {
-    width: 63%;
-    margin: 0 0 0 auto;
+width: 63%;
+margin: 0 0 0 auto;
 }
 .mainteam_mobileview .bookappnt_divabs {
-    margin: -33px 0px 0 -4px;
+margin: -33px 0px 0 -4px;
 }
 .worksmobile_view,.mobile_listview{
-    display: block;
+display: block;
 }
 .mainte_tabs .nav-tabs .nav-item .nav-link{
-    line-height: 31px;
+line-height: 31px;
 }
 .mainte_tabs .nav.nav-tabs {
-    margin: 0 0 8px 0;
-    box-shadow: unset;
-    border: unset;
+margin: 0 0 8px 0;
+box-shadow: unset;
+border: unset;
 }
 .maintenance_upcomingevents .listheight_auto {
-    max-height: 600px;
+max-height: 600px;
 }
 
 .viewall_workorders{
-    text-align: center;
-    margin: 17px 0 5px 0;
+text-align: center;
+margin: 17px 0 5px 0;
 }
 .calenderview_div.maintenance_upcomingevents .tab-content {
-    padding: 0;
-    background: unset;
+padding: 0;
+background: unset;
 }
 .calenderview_div.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
-    padding: 7px 19px 8px 10px;
+padding: 7px 19px 8px 10px;
 }
 .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link img {
-    vertical-align: middle;
+vertical-align: middle;
 }
 .listheight_auto {
-    max-height: 390px;
+max-height: 390px;
 }
 .calenderview_div.maintenance_upcomingevents .eventtxtdiv h3 {
-    margin: 0 0 2px 0;
+margin: 0 0 2px 0;
 }
 .calenderview_div.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp .linediv.yellowclr:before{
-    box-shadow: unset;
+box-shadow: unset;
 }
 .viewall_workorders a{
 font-weight: 700;
@@ -9318,90 +10079,90 @@ text-transform: capitalize;
 color: #315D80;
 }
 .workorder_block{
-    background: #C9D7E5;
-    border-radius: 20px;
-    padding: 8px 14px 10px 14px;
-    margin: 0 0 10px 0;
+background: #C9D7E5;
+border-radius: 20px;
+padding: 8px 14px 10px 14px;
+margin: 0 0 10px 0;
 }
 .maint_pagediv .clocktime span, .maint_pagediv .datetime span {
-    font-size: 10px;
-    line-height: 16px;
+font-size: 10px;
+line-height: 16px;
 }
 .maint_pagediv .name_addr p.nm {
-    font-size: 14px;
-    line-height: 22px;
+font-size: 14px;
+line-height: 22px;
 }
 .maint_pagediv .name_addr p.addr{
-    font-size: 12px;
-    line-height: 19px;
+font-size: 12px;
+line-height: 19px;
 }
 .maindivwork_bottomsec,.date_timesecmain,
 .maindivwork_topsec{
-    display: flex;
-    justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3{
-    margin: 0;
-    padding: 0;
-    line-height: 25px;
+margin: 0;
+padding: 0;
+line-height: 25px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    margin: 0 auto 0 -5px;
+margin: 0 auto 0 -5px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .btnappoint button.btn.btn_appoint.mobilebook {
-    padding: 6px 9px;
-    width: 107px;
-    font-size: 12px;
-    height: 46px;
-    line-height: 14px;
+padding: 6px 9px;
+width: 107px;
+font-size: 12px;
+height: 46px;
+line-height: 14px;
 }
 .belowpart_tenant.maintenance_div .profimg_div .status {
-    right: 9px;
+right: 9px;
 }
 .belowpart_tenant.maintenance_div .profimg_div .avatar-preview .status, .belowpart_tenant.maintenance_div .profimg_div .status {
-    bottom: 16px;
+bottom: 16px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 15px 0 0 27px;
+margin: 15px 0 0 27px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .profilename {
-    order: 2;
+order: 2;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
-    line-height: 12px;
+line-height: 12px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 14px 29px 0 0px;
-    text-align: right;
+margin: 14px 29px 0 0px;
+text-align: right;
 }
 .belowpart_tenant.maintenance_div {
-    padding: 23px 0 15px 0 !important;
+padding: 23px 0 15px 0 !important;
 }
 .belowpart_tenant.maintenance_div .profilename,.belowpart_tenant.maintenance_div .account_no {
-    font-size: 18px;
-    line-height: 28px;
+font-size: 18px;
+line-height: 28px;
 }
 .belowpart_tenant.maintenance_div .account_no {
-    justify-content: right;
-    margin: 0 3px 0 0px;
+justify-content: right;
+margin: 0 3px 0 0px;
 }
 .myteam_mobileview.mainteam_mobileview .myleaseteam_flex.desk .prof_name p:nth-child(2) {
 text-align: center;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-    max-height: 76px;
-    padding: 7px 7px 9px 22px;
+max-height: 76px;
+padding: 7px 7px 9px 22px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 74%;
+width: 74%;
 }
 .myteam_mobileview.mainteam_mobileview .myleaseteam_flex.desk .prof_name p:nth-child(2) {
-    font-size: 8px;
-    line-height: 11px;
+font-size: 8px;
+line-height: 11px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk .prof_img img {
-    height: 36px;
-    width: 36px;
+height: 36px;
+width: 36px;
 }
 /* end of maintenance */
 /* property schedule */
@@ -9409,67 +10170,67 @@ text-align: center;
 margin-right:4px;
 }
 .schedtour_popup .tenantaccord .card .card-body .flexdiv {
-    padding: 7px 0px 7px 2px;
+padding: 7px 0px 7px 2px;
 }
 .btn.declbtn, .btn.confrbtntw {
-    margin: 0;
+margin: 0;
 }
 .l-main .showings_sche_div .bottom_rightdetails {
-    bottom: 10px !important;
+bottom: 10px !important;
 }
 .l-main .similar_unitsdiv .lochouse_details .clock img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .l-main .showings_sche_div .bottom_rightdetails .videodiv_clr, .l-main .showings_sche_div .bottom_rightdetails .galdiv_clr {
-    padding-top: 2px;
-    padding-bottom: 4px;
+padding-top: 2px;
+padding-bottom: 4px;
 }
 .schedtour_popup .tenantaccord .card .card-header {
-    padding: 5px 20px 5px 15px;
+padding: 5px 20px 5px 15px;
 }
 .schedtour_popup ul.nav-tabs {
-    width: 58%;
-    box-shadow: unset;
+width: 58%;
+box-shadow: unset;
 }
 .schedtour_popup .timetab_div .styledSelect{
-    padding: 8px 7px 4px 7px;
-    font-size: 14px;
+padding: 8px 7px 4px 7px;
+font-size: 14px;
 }
 .schedtour_popup .select {
-    width: 44px;
-    height: 44px;
-    line-height: 30px;
+width: 44px;
+height: 44px;
+line-height: 30px;
 }
 .schedtour_popup .tenantaccord .flexdiv .mobilebedbathrm_fields .basicdata {
-    width: 60px;
+width: 60px;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    right: -1px;
+right: -1px;
 }
 .sche_tour .switch-field input + label span.video img {
-    vertical-align: text-bottom;
+vertical-align: text-bottom;
 }
 #reservenow_offer .my_info {
-    padding: 11px 16px 2px 16px;
+padding: 11px 16px 2px 16px;
 }
 .schedshow_newpropdistr .prop_ptxt{
 text-align: center;
 margin: 0 0 23px 0;
 }
 .l-main .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: -45px !important;
+margin-left: -45px !important;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 141px;
+margin-left: 141px;
 }
 .schedshow_newpropdistr .prop_distri {
 padding: 21px 13px 8px 13px;
 }
 .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: 98px !important;
+margin-left: 98px !important;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0px 0 0 -25px;
+margin: 0px 0 0 -25px;
 }
 /* end of property schedule */
 /* payment deposit */
@@ -9487,17 +10248,17 @@ width: 49%;
 /* end of confirm and reschedule showing pop up */
 /* price range */
 .fixcontenttopmobile {
-    top: 69px;
+top: 69px;
 }
 .price-range-slider .range-bar {
-    width: 83%;
+width: 83%;
 }
 .pricerange_search {
-    margin: 33px auto 11px 25px;
-    width: 89%;
+margin: 33px auto 11px 25px;
+width: 89%;
 }
 .bed_bath_pets .category-lists-slider {
-    margin-top: 6px;
+margin-top: 6px;
 }
 .price-range-slider {
 width: 78%;
@@ -9506,17 +10267,17 @@ padding: 10px 0px 10px 0;
 margin: 0 auto 0 0;
 }
 .btmfilter_btns.pricerang_btnsprop {
-    width: 100%;
+width: 100%;
 }
 .pricelabel_range {
-    flex-basis: 19%;
+flex-basis: 19%;
 }
 .btn.saveprop, .btn.propnotify {
-    width: auto;
-    padding: 8px 17px;
+width: auto;
+padding: 8px 17px;
 }
 .pricerang_btnsprop .btn.filterpricerg {
-    margin: 0 0 0 24px;
+margin: 0 0 0 24px;
 }
 .pricerang_btnsprop .btn.filterpricerg {
 margin: 0 0 0 12px;
@@ -9544,7 +10305,7 @@ padding: 3px 13px 5px 17px;
 width: 43%;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 143px;
+margin-left: 143px;
 }
 .toursche_slidiv h3 {
 margin: 0 0 0 9px;
@@ -9553,7 +10314,7 @@ margin: 0 0 0 9px;
 vertical-align: bottom;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
-    left: 12px;
+left: 12px;
 }
 /* end of schedule tour */
 /* reserve now  */
@@ -9688,20 +10449,20 @@ font-size: 15px;
 
 /* find property */
 .l-main .listimges_prop.propfind {
-    width: 93%;
+width: 93%;
 }
 .prop_addres h4 {
-    margin: 0 0 6px 0;
+margin: 0 0 6px 0;
 }
 .content-wrapper.content-wrapper--with-bg .container-fluid > div.row.prop_rowalign {
-    margin: 0 auto 14px auto;
+margin: 0 auto 14px auto;
 }
 .txt_details_prop {
 display: block;
 text-align: center;
 }
 .prop_numbs p {
-    text-align: center;
+text-align: center;
 }
 .btn.svsearch {
 width: auto;
@@ -9733,10 +10494,10 @@ padding: 5px 6px 5px 18px;
 padding: 0px;
 }
 .myteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    display: flex;
-    width: 85%;
-    margin: 0 0 0 -28px;
-    text-align: center;
+display: flex;
+width: 85%;
+margin: 0 0 0 -28px;
+text-align: center;
 }
 .myteam_mobileview .prof_img {
 margin: 0;
@@ -9746,7 +10507,7 @@ padding: 6px 25px;
 font-size: 14px;
 }
 .myteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .btnappoint button.btn.btn_appoint.mobilebook{
-    padding: 6px 25px;
+padding: 6px 25px;
 font-size: 14px;
 line-height: 17px;
 }
@@ -10741,7 +11502,7 @@ background-position: bottom;
 height: 115px;
 }
 header.l-header .l-header__inner {
-    height: 71px;
+height: 71px;
 }
 .links {
 margin: 0;
@@ -11054,61 +11815,61 @@ top: 11px;
 
 /* maintenance */
 .reqserv_descrip {
-    margin: 8px 0 0 0;
+margin: 8px 0 0 0;
 }
 
 .mobview_technician .phono_comment ul {
-    margin: -24px 0 0 0;
+margin: -24px 0 0 0;
 }
 .mobview_technician .acc_infotxt {
-    margin: 17px 0 0 0;
+margin: 17px 0 0 0;
 }
 .sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
-    padding-left: 21px;
+padding-left: 21px;
 }
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    margin: 0 0 0 18px;
+margin: 0 0 0 18px;
 }
 .sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
-    padding-left: 23px;
+padding-left: 23px;
 }
 .sche_tour.propdetails_schetour .flexschedule {
-    margin: 0 0 36px 0;
+margin: 0 0 36px 0;
 }
 .about_descrip ul li {
-    line-height: 17px;
+line-height: 17px;
 }
 .sche_tour.propdetails_schetour .date_heading h3 {
-    margin: 0px 0 17px 0;
-    padding: 0 0px 0 28px;
+margin: 0px 0 17px 0;
+padding: 0 0px 0 28px;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .day_monthtab .tab-content .seldateboxsche_prop {
-    width: 95%;
-    margin: 0 auto 0 auto;
+width: 95%;
+margin: 0 auto 0 auto;
 }
 .main_workdescrip {
-    flex-basis: 69%;
+flex-basis: 69%;
 }
 .workstatus_div {
-    flex-basis: 33%;
+flex-basis: 33%;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-    padding: 5px 7px 9px 22px;
+padding: 5px 7px 9px 22px;
 }
 .maintenance_upcomingevents .seldatebox {
-    flex-basis: 59%;
+flex-basis: 59%;
 }
 .mobilview_all {
-    padding: 4px 0 6px 0;
+padding: 4px 0 6px 0;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 14px 21px 0 0px;
+margin: 14px 21px 0 0px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -85px 0 0 25px;
+margin: -85px 0 0 25px;
 }
 .mainteam_mobileview .bookappnt_divabs {
-    margin: -34px 0px 0 -4px;
+margin: -34px 0px 0 -4px;
 }
 /* maintenance */
 /* payment desposit */
@@ -11133,16 +11894,16 @@ align-items: flex-start;
 /* confirm showing and reschedule showing pop up end */
 /* schedule tour */
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 19px;
+margin-left: 19px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
-    left: 21px;
+left: 21px;
 }
 .l-main .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: 33px !important;
+margin-left: 33px !important;
 }
 .signin_popupreservenow .modal-header {
-    width: 94%;
+width: 94%;
 }
 .confr_appt {
 width: 95%;
@@ -11154,20 +11915,20 @@ width: 97.8%;
 width: 58%;
 }
 .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .house, .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .clock {
-    padding: 2px 10px;
+padding: 2px 10px;
 }
 .toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
 width: 95%;
 }
 .prop_detailsfeatures .tablinks_propfeat .category-lists-slider .slider-button.slider-next {
-    right: 0px;
-    top: 0px;
-    padding: 4px 4px 3px 5px;
+right: 0px;
+top: 0px;
+padding: 4px 4px 3px 5px;
 }
 .prop_detailsfeatures .tablinks_propfeat .category-lists-slider .slider-button.slider-prev {
-    left: -1px;
-    padding: 4px 4px 3px 5px;
-    top: 0px;
+left: -1px;
+padding: 4px 4px 3px 5px;
+top: 0px;
 }
 .similar_unitsdiv.toursche_slidiv .leasedslider .unverifi_divtxt img {
 height: 23px;
@@ -11175,40 +11936,40 @@ margin: -2px 0 0 0;
 }
 
 .category-lists-slider.mobviewcate_div_expr_area .slider-button {
-    top: 9px;
+top: 9px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0px 0 0 9px;
+margin: 0px 0 0 9px;
 }
 .schedtour_popup .monthyear_div {
-    width: 48%;
+width: 48%;
 }
 .schedtour_popup .seldateboxsche_prop .select-box {
-    width: 44%;
+width: 44%;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
 margin-left: 65px;
 }
 .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: 38px !important;
+margin-left: 38px !important;
 }
 .schedshowbtmdets_new .map_streetshowings h3 {
-    margin: 0 0 6px 0;
+margin: 0 0 6px 0;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    width: 20%;
+width: 20%;
 }
 .propdetails_slider .ratingstar_count i {
-    font-size: 9px;
+font-size: 9px;
 }
 .propdetails_slider .ratingstar_count{
-    line-height: 8px;
+line-height: 8px;
 }
 .l-main .propdetails_slider .similar_unitsdiv  .leasedslider .unverifi_divtxt img {
-    top: 4px;
+top: 4px;
 }
 .propdetails_slider .descrip_details_list {
-    align-items: end;
+align-items: end;
 }
 /* end of schedule tour */
 /* reserve now */
@@ -11277,17 +12038,17 @@ padding: 0 21px 0 10px;
 /* end of transactions */
 /* price range */
 .pricelabel_range {
-    flex-basis: 22%;
+flex-basis: 22%;
 }
 .pricerange_search {
-    margin: 33px auto 11px 25px;
-    width: 88%;
+margin: 33px auto 11px 25px;
+width: 88%;
 }
 .btn.propnotify, .btn.saveprop {
-    line-height: 26px;
+line-height: 26px;
 }
 .price-range-slider {
-    width: 73%;
+width: 73%;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house img,
 .similar_unitsdiv.pricerangedivs .lochouse_details .clock img {
@@ -11298,7 +12059,7 @@ margin: 0 3px 0 0px;
 margin: 2px 0 0 0;
 }
 .pricerangedivs {
-    width: 86%;
+width: 86%;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
 height: 16px;
@@ -11683,7 +12444,7 @@ font-size: 0.85em;
 height: 19px;
 }
 .similar_unitsdiv .leaseddetails_slider .car_details img {
-    height: 14px;
+height: 14px;
 }
 .similar_unitsdiv .descrip_details_list .price_rate p {
 font-size: 15px;
@@ -12034,38 +12795,38 @@ width: 56%;
 
 }
 @media only screen and (max-width: 448px) and (min-width:415px) {
-    /* maintenance */
-    .flexparent_reviewblock {
-        padding: 5px 12px 13px 14px;
-        justify-content: space-between;
-    }
-    .widextend_mobviewright {
-        flex: 0 0 85.666667%;
-        max-width: 85.666667%;
-    }
-    .widextend_mobviewleft {
-        flex: 0 0 13.333333%;
-        max-width: 13.333333%;
-    }
-    .belowpart_tenant.maintenance_div .profimg_div {
-        margin: -85px 0 0 29px;
-    }
-    .main_workdescrip {
-        flex-basis: 75%;
-    }
-    .workstatus_div {
-        flex-basis: 28%;
-    }
-    .req_service .maintenancepage .divinfo {
-        padding: 11px 13px 11px 18px;
-    }
-    .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-        width: 79%;
-    }
-    .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-        margin: 0 auto 0 7px;
-    }
-    /* end of maintenance */
+/* maintenance */
+.flexparent_reviewblock {
+padding: 5px 12px 13px 14px;
+justify-content: space-between;
+}
+.widextend_mobviewright {
+flex: 0 0 85.666667%;
+max-width: 85.666667%;
+}
+.widextend_mobviewleft {
+flex: 0 0 13.333333%;
+max-width: 13.333333%;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+margin: -85px 0 0 29px;
+}
+.main_workdescrip {
+flex-basis: 75%;
+}
+.workstatus_div {
+flex-basis: 28%;
+}
+.req_service .maintenancepage .divinfo {
+padding: 11px 13px 11px 18px;
+}
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+width: 79%;
+}
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+margin: 0 auto 0 7px;
+}
+/* end of maintenance */
 /* payment desposit */
 .paymentopt_billpayee {
 width: 80.5%;
@@ -12074,25 +12835,25 @@ width: 80.5%;
 
 /* schedule tour */
 .schedshowbtmdets_new .map_streetshowings h3 {
-    margin: 0 0 7px 0;
+margin: 0 0 7px 0;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    width: 24%;
+width: 24%;
 }
 .hidemedianleasedesktop h3 {
-    line-height: 27px;
+line-height: 27px;
 }
 .l-main .similar_unitsdiv .leasedslider .unverifi_divtxt img {
-    top: 4px;
+top: 4px;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 23px;
+margin-left: 23px;
 }
 .mobileview_allunits h3, .mobileview_allunits h3, .head_explr {
-    font-size: 23px;
+font-size: 23px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0px 0 0 -37px;
+margin: 0px 0 0 -37px;
 }
 .schetour_btm .showing_details {
 flex-basis: 60%;
@@ -12183,7 +12944,7 @@ margin: 0 0 1.7em 0;
 height: 22px;
 }
 .l-main .listimges_prop.propfind {
-    width: 90%;
+width: 90%;
 }
 .prop_find_details img {
 height: 87px;
@@ -12301,7 +13062,7 @@ margin: 7.5em 0 8em 0;
 height: 36px;
 }
 .mobileversion_view {
-    margin: 3px 0 0 0;
+margin: 3px 0 0 0;
 }
 .form-search.showmapgoogle {
 position: absolute;
@@ -12624,59 +13385,59 @@ margin-left: 66px;
 
 /* property */
 .toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
-    width: 92%;
+width: 92%;
 }
 
 .schedtour_popup .tenantaccord .flexdiv .mobilebedbathrm_fields .basicdata {
-    width: 58px;
+width: 58px;
 }
 .l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn .map_streetshowings h3{
-    margin: 0 0 5px 0;
+margin: 0 0 5px 0;
 }
 .l-main .similar_unitsdiv .descrip_details_list .price_rate p {
-    font-size: 17px;
+font-size: 17px;
 }
 .schedtour_popup .descrip_details_list {
-    align-items: anchor-center;
+align-items: anchor-center;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .day_monthtab .tab-content .seldateboxsche_prop {
-    width: 94%;
+width: 94%;
 }
 .schedtour_popup ul.nav-tabs {
-    width: 65%;
+width: 65%;
 }
 .l-main .similar_unitsdiv .leasedslider .unverifi_divtxt img {
-    top: 3px;
+top: 3px;
 }
 .hidemedianleasedesktop h3 {
-    line-height: 24px;
+line-height: 24px;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    right: -14px;
+right: -14px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0px 0 0 -65px;
+margin: 0px 0 0 -65px;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    width: 32%;
+width: 32%;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 15px;
+margin-left: 15px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
-    left: 26px;
+left: 26px;
 }
 .sche_tour .switch-field input + label span.video img {
-    vertical-align: text-bottom;
+vertical-align: text-bottom;
 }
 .l-main .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: 29px !important;
+margin-left: 29px !important;
 }
 .about_descrip ul li {
-    padding: 0 7px 0 7px;
+padding: 0 7px 0 7px;
 }
 .sche_tour.propdetails_schetour .date_heading h3 {
-    padding: 0 0px 0 19px;
+padding: 0 0px 0 19px;
 }
 /* end of property */
 .myteam_mobileview .leasflx_team .leaseflex .twotem_images {
@@ -12720,131 +13481,131 @@ margin: 0 0 0 10px;
 @media only screen and (max-width: 414px) and (min-width:386px) {
 /* maintenance */
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -85px 0 0 22px;
+margin: -85px 0 0 22px;
 }
 .widextend_mobviewright {
-    flex: 0 0 85.666667%;
-    max-width: 85.666667%;
+flex: 0 0 85.666667%;
+max-width: 85.666667%;
 }
 .widextend_mobviewleft {
-    flex: 0 0 13.333333%;
-    max-width: 13.333333%;
+flex: 0 0 13.333333%;
+max-width: 13.333333%;
 }
 .flexparent_reviewblock {
-    padding: 8px 19px 16px 15px;
+padding: 8px 19px 16px 15px;
 }
 .mobview_technician .phono_comment ul {
-    margin: -25px 0 0 0;
+margin: -25px 0 0 0;
 }
 .mobview_technician .acc_infotxt {
-    margin: 18px 0 0 0;
+margin: 18px 0 0 0;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item {
-    margin: 0 14px 0 0;
+margin: 0 14px 0 0;
 }
 .about_descrip ul li:first-child {
-    padding: 0 2px 0 0px;
+padding: 0 2px 0 0px;
 }
 .about_descrip ul li {
-    padding: 0 2px 0 2px;
-    font-size: 11px;
+padding: 0 2px 0 2px;
+font-size: 11px;
 }
 .sche_tour .flexschedule {
-    margin: 0 0 31px 0;
+margin: 0 0 31px 0;
 }
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    margin: 0 0 0 17px;
+margin: 0 0 0 17px;
 }
 .sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
-    padding-left: 18px;
+padding-left: 18px;
 }
 .sche_tour.propdetails_schetour .flexschedule {
-    margin: 0 0 32px 0;
+margin: 0 0 32px 0;
 }
 .hidemedianleasedesktop .boxone_mark, .hidemedianleasedesktop .boxtwo_mark {
-    padding: 17px 25px 22px 25px;
+padding: 17px 25px 22px 25px;
 }
 .l-main .similar_unitsdiv .lochouse_details .house span, .l-main .similar_unitsdiv .lochouse_details .clock span {
-    font-size: 9px;
+font-size: 9px;
 }
 .main_workdescrip {
-    flex-basis: 72%;
+flex-basis: 72%;
 }
 .workstatus_div {
-    flex-basis: 28%;
+flex-basis: 28%;
 }
 .req_service .maintenancepage .divinfo {
-    padding: 11px 13px 11px 18px;
+padding: 11px 13px 11px 18px;
 }
 .reqservdiv_styl img {
-    margin: 0 3px 0 0px;
+margin: 0 3px 0 0px;
 }
 .maintenance_upcomingevents .select-box1 {
-    margin-left: 1px;
+margin-left: 1px;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 98%;
-    margin: 0 auto;
+width: 98%;
+margin: 0 auto;
 }
 .calenderview_div.maintenance_upcomingevents {
-    padding: 18px 8px 15px 8px;
+padding: 18px 8px 15px 8px;
 }
 .maintenance_upcomingevents .seldatebox {
-    flex-basis: 59%;
+flex-basis: 59%;
 }
 .mobilview_all {
-    padding: 3px 0 9px 0px;
+padding: 3px 0 9px 0px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 79%;
+width: 79%;
 }
 .viewdescrip_reqserv_list h3 {
-    font-size: 13px;
-    line-height: 12px;
+font-size: 13px;
+line-height: 12px;
 }
 .maintenance_upcomingevents .img_reqservice_img img {
-    height: 25px;
-    width: 25px;
+height: 25px;
+width: 25px;
 }
 .mobile_listview .listtab_txt p {
-    margin: 0 5px;
+margin: 0 5px;
 }
 .mobile_listview .viewdescrip_reqserv_list p {
-    font-size: 11px;
+font-size: 11px;
 }
 .maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp{
-    left: 10px;
+left: 10px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-    padding: 5px 3px 9px 10px;
+padding: 5px 3px 9px 10px;
 }
 .maintenancepage .myinfo_txt {
-    flex-basis: 53%;
+flex-basis: 53%;
 }
 .maintenancepage .infomy_div {
-    flex-basis: 42%;
+flex-basis: 42%;
 }
 .mainteam_mobileview .bookappnt_divabs {
-    margin: -10px 0px 0 -12px;
+margin: -10px 0px 0 -12px;
 }
 
 .maintenancepage .c-search.menusearch{
-    width: 100%;
+width: 100%;
 }
 .calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
-    margin: 0px 9px 0 0;
+margin: 0px 9px 0 0;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-    padding: 14px 13px;
+padding: 14px 13px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
-    line-height: 13px;
+line-height: 13px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 13px 0 0 22px;
+margin: 13px 0 0 22px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 11px 27px 0 0px;
+margin: 11px 27px 0 0px;
 }
 /* end of maintenance */
 /* payment desposit */
@@ -12858,50 +13619,50 @@ right: -14px;
 
 /* schedule tour */
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 13px;
+margin-left: 13px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
-    left: 23px;
+left: 23px;
 }
 .rightsche_tourcss {
 padding: 0px 0px 0 25px;
 }
 .propdetails_slider .descrip_details_list {
-    align-items: end;
+align-items: end;
 }
 .propdetails_slider .rat_tot_count p{
-    line-height: 9px;
+line-height: 9px;
 }
 .propdetails_slider .ratingstar_count i {
-    font-size: 9px;
+font-size: 9px;
 }
 .l-main .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: 0px !important;
+margin-left: 0px !important;
 }
 .type_distr_btn .btn.blueclrbtn, .type_distr_btn .btn.greenclrbtn, .type_distr_btn .blueclrbtndrk {
-    padding: 5px 16px;
+padding: 5px 16px;
 }
 .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: -7px !important;
+margin-left: -7px !important;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    width: 26%;
+width: 26%;
 }
 .l-main .propdetails_slider .similar_unitsdiv .leasedslider .unverifi_divtxt img {
-    top: 7px;
-    height: 24px;
+top: 7px;
+height: 24px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0px 0 0 9px;
+margin: 0px 0 0 9px;
 }
 .schedtour_popup ul.nav-tabs {
-    width: 70%;
+width: 70%;
 }
 .schedtour_popup .seldateboxsche_prop .date_heading {
-    width: 45%;
+width: 45%;
 }
 .schedtour_popup .monthyear_div {
-    width: 55%;
+width: 55%;
 }
 .reschedulenew_div.tourresche .reschedulenew_div {
 width: 97.5%;
@@ -12928,9 +13689,9 @@ padding: 12px 7px;
 margin: 0 0 10px 0;
 }
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house span img, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span img {
-    height: 12px;
-    width: 12px;
-    vertical-align: sub;
+height: 12px;
+width: 12px;
+vertical-align: sub;
 }
 .similar_unitsdiv.toursche_slidiv .rat_tot_count p.count_rst, .toursche_slidiv .ratingstar_count {
 line-height: 9px;
@@ -12957,7 +13718,7 @@ padding: 0px 12px 5px 12px;
 width: 91%;
 }
 .signin_popupreservenow .modal-header {
-    width: 93%;
+width: 93%;
 }
 /* end of reserve now */
 /* showing completed */
@@ -13133,32 +13894,32 @@ margin: 0 0px 21px 0px;
 
 /* price range */
 .pricerangedivs .leaseddetails_slider {
-    width: 41%;
+width: 41%;
 }
 .bed_bath_pets.moving_datesdiv {
-    padding: 6px 0px 10px 0px;
+padding: 6px 0px 10px 0px;
 }
 .pricerange_search {
-    margin: 35px auto 11px 2px;
-    width: 99%;
+margin: 35px auto 11px 2px;
+width: 99%;
 }
 .btn.saveprop, .btn.propnotify {
-    padding: 9px 20px;
+padding: 9px 20px;
 }
 .pricerangedivs {
-    width: 83%;
+width: 83%;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count p {
 line-height: 10px;
 }
 .pricelabel_range {
-    flex-basis: 24%;
+flex-basis: 24%;
 }
 .price-range-slider .range-bar {
-    width: 93%;
+width: 93%;
 }
 .price-range-slider {
-    width: 68%;
+width: 68%;
 }
 .box-minmax {
 width: 97%;
@@ -13192,7 +13953,7 @@ margin: -4px 0 0 12px;
 }
 
 .btn.filterpricerg img {
-    height: 20px;
+height: 20px;
 }
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
 height: 16px;
@@ -13211,13 +13972,13 @@ margin: 0;
 
 /* find property */
 .l-main .listimges_prop.propfind {
-    width: 91%;
+width: 91%;
 }
 .search_ip_prop .input-group input.form-control {
-    padding: 10px 114px 10px 38px;
+padding: 10px 114px 10px 38px;
 }
 .divinfo.findpropinfo {
-    margin: 12px 0 0 0;
+margin: 12px 0 0 0;
 }
 .setup_modalprop .modal-dialog {
 max-width: 96%;
@@ -13746,8 +14507,8 @@ font-size: 11px;
 top: 10px;
 }
 .category-lists-slider .swiper-container {
-    width: 98%;
-    margin: 0 auto 5px auto;
+width: 98%;
+margin: 0 auto 5px auto;
 }
 .mobileview_allunits h3 {
 margin: 17px 0 12px 0;
@@ -14343,82 +15104,82 @@ left: -18px;
 @media only screen and (max-width: 393px) {
 /* maintenance */
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
-    width: 107px;
+width: 107px;
 }
 .widextend_mobviewright {
-    flex: 0 0 85.666667%;
-    max-width: 85.666667%;
+flex: 0 0 85.666667%;
+max-width: 85.666667%;
 }
 .widextend_mobviewleft {
-    flex: 0 0 13.333333%;
-    max-width: 13.333333%;
+flex: 0 0 13.333333%;
+max-width: 13.333333%;
 }
 .abt_rev_certifi .tab-content .container .card .card-header a {
-    line-height: 17px;
+line-height: 17px;
 }
 .user_decrip_txt p {
-    margin: 0 7px 13px 0px;
+margin: 0 7px 13px 0px;
 }
 .below_detailscertifi p {
-    margin: 0 10px;
-    text-align: left;
+margin: 0 10px;
+text-align: left;
 }
 .flexparent_reviewblock {
-    padding: 5px 8px 13px 15px;
+padding: 5px 8px 13px 15px;
 }
 .rqservice_blocksslider {
-    padding: 4px 6px 6px 16px;
+padding: 4px 6px 6px 16px;
 }
 .schedtour_popup .tenantaccord .card .card-body .flexdiv {
-    padding: 7px 0px 7px 2px;
+padding: 7px 0px 7px 2px;
 }
 .similar_unitsdiv .leasedslider .slidelocation_div span img {
-    height: 17px;
+height: 17px;
 }
 .about_descrip ul li {
-    padding: 0 2px 0 2px;
-    font-size: 10px;
+padding: 0 2px 0 2px;
+font-size: 10px;
 }
 .modal.viewallreq_modal .modal-header .close, .modal.techni_modalstyl .modal-header .close {
-    width: 28px;
-    height: 40px;
-    right: 7px;
-    top: 7px;
+width: 28px;
+height: 40px;
+right: 7px;
+top: 7px;
 }
 .descrp_modalreqserv p {
-    line-height: 16px;
+line-height: 16px;
 }
 .maintenance_upcomingevents .select-box1 {
-    width: 76px;
-    margin-left: 1px;
+width: 76px;
+margin-left: 1px;
 }
 .mainteam_mobileview .myleaseteam_flex.desk .team_memname {
-    margin: 0 0 0 3px;
+margin: 0 0 0 3px;
 }
 .maindivwork_bottomsec{
-    margin: 7px 0 0 0;
+margin: 7px 0 0 0;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -86px 0 0 22px;
+margin: -86px 0 0 22px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 15px 22px 0 0px;
+margin: 15px 22px 0 0px;
 }
 .belowpart_tenant.maintenance_div {
-    padding: 23px 0 11px 0 !important;
+padding: 23px 0 11px 0 !important;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3 {
-    font-size: 15px;
-    line-height: 22px;
+font-size: 15px;
+line-height: 22px;
 }
 .reqserv_descrip p {
-    font-size: 14px;
+font-size: 14px;
 }
 
 .mobilview_all {
-    display: block;
-    text-align: center;
-    padding: 12px 0;
+display: block;
+text-align: center;
+padding: 12px 0;
 }
 /* maintenance end */
 /* payment desposit */
@@ -14431,59 +15192,59 @@ width: 100%;
 /* end of payment deposit */
 /* schedule tour */
 .mobileview_allunits h3, .mobileview_allunits h3, .head_explr {
-    font-size: 20px;
-    line-height: 26px;
+font-size: 20px;
+line-height: 26px;
 }
 #reservenow_offer .btn.declbtn, .btn.confrbtntw {
-    margin: 0 4px;
+margin: 0 4px;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 14px;
+margin-left: 14px;
 }
 .btn.declbtn, .btn.confrbtntw {
-    height: 46px;
-    width: 44%;
+height: 46px;
+width: 44%;
 }
 .sched_tourdivbtnnext .btn.btnsched_tournext, .sched_tourdivbtnschedule .btn.btnsched_tourschedule {
-    width: 100%;
+width: 100%;
 }
 .schedtour_popup .sched_tourdivbtnnext .btn.btnsched_tournext {
-    width: 100%;
+width: 100%;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
-    left: 24px;
+left: 24px;
 }
 .mobilebedbathrm_fields {
-    padding-right: 6px;
+padding-right: 6px;
 }
 .schedtour_popup .tenantaccord .card .card-body .flexdiv {
-    padding: 7px 0px 7px 3px;
+padding: 7px 0px 7px 3px;
 }
 .schedtour_popup .mobilebedbathrm_fields .basicdatatxt {
-    flex-basis: auto;
+flex-basis: auto;
 }
 .hidemedianleasedesktop h3 {
-    padding: 0px 25px;
+padding: 0px 25px;
 }
 .schedshow_newpropdistr .condo_apt {
-    padding: 18px 12px 25px 12px !important;
+padding: 18px 12px 25px 12px !important;
 }
 .mapdiv_showings .category-lists-slider .slider-button {
-    top: 8px;
+top: 8px;
 }
 .sche_tour.propdetails_schetour .date_heading h3 {
-    padding: 0 0px 0 12px;
-    margin: 0 0 14px 0;
+padding: 0 0px 0 12px;
+margin: 0 0 14px 0;
 }
 .l-main .propdetails_slider .similar_unitsdiv .leasedslider .unverifi_divtxt img {
-    top: 6px;
+top: 6px;
 }
 
 .l-main .similar_unitsdiv .slidelocation_div .txt_loc {
-    font-size: 11px;
+font-size: 11px;
 }
 .schedtour_popup .monthyear_div {
-    width: 66%;
+width: 66%;
 }
 .rightsche_tourcss {
 padding: 0px 0px 0 25px;
@@ -14507,7 +15268,7 @@ padding-left: 21px;
 height: 20px;
 }
 .similar_unitsdiv.toursche_slidiv .simisched_tour .slick-track {
-    margin-left: 24px;
+margin-left: 24px;
 }
 .similar_unitsdiv.toursche_slidiv .propred_clr {
 margin: 0 146px 0 2px;
@@ -14532,7 +15293,7 @@ font-size: 12px;
 margin: 0 0 5px 0;
 }
 .signin_popupreservenow .modal-header {
-    width: 92.5%;
+width: 92.5%;
 }
 .showing_complete .detshow_div .showing_detailsdiv {
 margin: 0 0 10px 0;
@@ -14612,11 +15373,11 @@ width: 62%;
 padding: 1.7em 0.8em 1.1em 0.8em;
 }
 .pricerange_search {
-    margin: 35px auto 11px 0px;
-    width: 100%;
+margin: 35px auto 11px 0px;
+width: 100%;
 }
 .content-wrapper.content-wrapper--with-bg .container-fluid > div.titledesktop_hide.row {
-    margin: 0 0 31px 0px;
+margin: 0 0 31px 0px;
 }
 .similar_unitsdiv.pricerangedivs .lochouse_details .house img, .similar_unitsdiv.pricerangedivs .lochouse_details .clock img {
 height: 13px;
@@ -14881,7 +15642,7 @@ vertical-align: sub;
 margin: 0 0 5px 0;
 }
 .l-main .listimges_prop.propfind {
-    width: 90%;
+width: 90%;
 }
 .mar_propbtm {
 margin: 0 0 1.7em 0;
@@ -14906,38 +15667,38 @@ height: 21px;
 
 
 @media only screen and (max-width: 385px) and (min-width:376px) {
-    .abt_rev_certifi ul.nav.nav-tabs .nav-item {
-        margin: 0 8px 0 0;
-        font-size: 16px;
-    }
-    .maint_pagediv .name_addr p.addr {
-        line-height: 16px;
-    }
-    .maintenancepage .myinfo_txt {
-        width: 50%;
-    }
-    .maintenancepage .c-search.menusearch {
-        width: 78%;
-    }
-    .maintenancepage .myinfo_txt span {
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .mobview_technician .acc_infotxt .acc_label {
-        margin: 0;
-    }
-    .below_detailscertifi p {
-        font-size: 14px;
-    }
-    .mobview_technician .phono_comment ul {
-        margin: -25px 0 0 0;
-    }
-    .mobview_technician .profilename,.mobview_technician .acc_infotxt .account_no {
-        font-size: 15px;
-    }
-    .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
-        font-size: 16px;
-    }
+.abt_rev_certifi ul.nav.nav-tabs .nav-item {
+margin: 0 8px 0 0;
+font-size: 16px;
+}
+.maint_pagediv .name_addr p.addr {
+line-height: 16px;
+}
+.maintenancepage .myinfo_txt {
+width: 50%;
+}
+.maintenancepage .c-search.menusearch {
+width: 78%;
+}
+.maintenancepage .myinfo_txt span {
+font-size: 15px;
+line-height: 20px;
+}
+.mobview_technician .acc_infotxt .acc_label {
+margin: 0;
+}
+.below_detailscertifi p {
+font-size: 14px;
+}
+.mobview_technician .phono_comment ul {
+margin: -25px 0 0 0;
+}
+.mobview_technician .profilename,.mobview_technician .acc_infotxt .account_no {
+font-size: 15px;
+}
+.abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
+font-size: 16px;
+}
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p,.confirmreschedule .modal-header p {
 width: 88%;
@@ -14974,22 +15735,22 @@ padding: 0;
 }
 .btn.saveprop, .btn.propnotify {
 width: auto;
-    padding: 8px 16px;
+padding: 8px 16px;
 }
 .btn.filterpricerg img {
-    height: 24px;
+height: 24px;
 }
 .pricelabel_range {
-    flex-basis: 26%;
+flex-basis: 26%;
 }
 .price-range-slider .range-bar {
-    width: 91%;
+width: 91%;
 }
 .price-range-slider {
-    width: 67%;
+width: 67%;
 }
 .content-wrapper.content-wrapper--with-bg .btmfilter_btns.pricerang_btnsprop .row.flx_btnsalign {
-    justify-content: space-between;
+justify-content: space-between;
 }
 .btmfilter_btns {
 padding: 1.7em 0.4em 1.1em 0.4em;
@@ -15582,154 +16343,154 @@ left: -22px;
 
 /* maintenance */
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house span, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
-    font-size: 9px;
+font-size: 9px;
 }
 .maintenancepage .myinfo_txt span {
-    font-size: 15px;
+font-size: 15px;
 }
 .req_service .maintenancepage .divinfo {
-    padding: 11px 13px 11px 18px;
+padding: 11px 13px 11px 18px;
 }
 .techni_prof_img {
-    margin: -47px 0 0 19px;
+margin: -47px 0 0 19px;
 }
 .mobview_technician .acc_infotxt {
-    margin: 22px 0 0 0;
+margin: 22px 0 0 0;
 }
 .mobview_technician .phono_comment ul {
-    margin: -22px 0 0 0;
+margin: -22px 0 0 0;
 }
 .mobview_technician .acc_infotxt .acc_label {
-    margin: 0;
+margin: 0;
 }
 .mobview_technician .profilename,.mobview_technician .acc_infotxt .account_no {
-    font-size: 15px;
+font-size: 15px;
 }
 .flexparent_reviewblock {
-    padding: 9px 13px 18px 15px;
+padding: 9px 13px 18px 15px;
 }
 .abt_rev_certifi .tab-content .card .card-body {
-    padding: 15px 11px 10px 18px;
+padding: 15px 11px 10px 18px;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
-    font-size: 14px;
-    width: 101px;
+font-size: 14px;
+width: 101px;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item {
-    margin: 0 4px 0 0;
+margin: 0 4px 0 0;
 }
 .l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn {
-    padding: 14px 12px 14px 12px;
+padding: 14px 12px 14px 12px;
 }
 .midsche_toursec .showing_viewdetails .btn.view_detail {
-    padding: 3px 7px 5px 8px;
+padding: 3px 7px 5px 8px;
 }
 .below_detailscertifi p {
-    font-size: 14px;
+font-size: 14px;
 }
 .confr_appt h3 {
-    font-size: 11px;
+font-size: 11px;
 }
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock {
-    padding: 2px 6px 2px 7px;
+padding: 2px 6px 2px 7px;
 }
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    margin: 0 0 0 8px;
+margin: 0 0 0 8px;
 }
 .schedtour_popup .seldateboxsche_prop .date_heading {
-    width: 46%;
+width: 46%;
 }
 .schedtour_popup .seldateboxsche_prop .monthyear_div {
-    width: 51%;
+width: 51%;
 }
 .maintenance_upcomingevents .weknamediv.active .wekdate {
-    font-size: 12px;
+font-size: 12px;
 }
 .sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
-    text-align: left;
-    padding-left: 20px;
+text-align: left;
+padding-left: 20px;
 }
 .workstatus_div {
-    flex-basis: 30%;
+flex-basis: 30%;
 }
 .main_workdescrip {
-    flex-basis: 82%;
+flex-basis: 82%;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 98%;
-    margin: 0 auto;
+width: 98%;
+margin: 0 auto;
 }
 .calenderview_div.maintenance_upcomingevents {
-    padding: 18px 8px 15px 8px;
+padding: 18px 8px 15px 8px;
 }
 .mobilview_all {
 
-    padding: 17px 0 0 0;
+padding: 17px 0 0 0;
 }
 .maintenance_upcomingevents .linediv:before {
-    margin: 0px 5px 0 0;
+margin: 0px 5px 0 0;
 }
 .calenderview_div.maintenance_upcomingevents .eventtxtdiv h3 {
-    font-size: 12px;
+font-size: 12px;
 }
 .maintenance_upcomingevents .img_reqservice_img img {
-    height: 24px;
-    width: 24px;
+height: 24px;
+width: 24px;
 }
 .calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
-    margin: 0px 8px 0 0;
+margin: 0px 8px 0 0;
 }
 .mobile_listview .listtab_txt p {
-    margin: 0 5px;
+margin: 0 5px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -82px 0 0 17px;
+margin: -82px 0 0 17px;
 }
 .maintenancepage .c-search.menusearch {
-    width:100%;
+width:100%;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-    padding: 11px 8px;
+padding: 11px 8px;
 }
 .reqserv_descrip p {
-    font-size: 13px;
+font-size: 13px;
 }
 .maintenancepage .myinfo_txt {
-    flex-basis: 56%;
+flex-basis: 56%;
 }
 .maintenancepage .infomy_div {
-    flex-basis: 42%;
+flex-basis: 42%;
 }
 .slick_req_service {
-    padding: 11px 0 0 0px;
+padding: 11px 0 0 0px;
 }
 .reqserv_descrip p {
-    font-size: 13px;
+font-size: 13px;
 }
 .maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
-    font-size: 16px;
+font-size: 16px;
 }
 .reqserv_descrip {
-    margin: 6px 0 0 0;
+margin: 6px 0 0 0;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 12px 17px 0 0px;
+margin: 12px 17px 0 0px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-    padding: 7px 5px 9px 6px;
+padding: 7px 5px 9px 6px;
 }
 .myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
-    line-height: 11px;
+line-height: 11px;
 }
 .maint_pagediv .name_addr p.addr {
-    font-size: 11px;
-    line-height: 14px;
+font-size: 11px;
+line-height: 14px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 13px 0 0 19px;
+margin: 13px 0 0 19px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
-    line-height: 13px;
+line-height: 13px;
 }
 /* end of maintenance */
 /* payment deposit */
@@ -15759,114 +16520,114 @@ width: 50%;
 /* schedule tour */
 .schedtour_popup .tenantaccord .card-body .border_atend,
 .schedtour_popup .tenantaccord .card-body .rt_flexside {
-    padding: 0 6px;
+padding: 0 6px;
 }
 .schedtour_popup .accordion.tenantaccord .flexdiv div label {
-    font-size: 11px;
+font-size: 11px;
 }
 #reservenow_offer .my_info {
-    padding: 11px 9px 2px 9px;
+padding: 11px 9px 2px 9px;
 }
 .l-main .propdetails_slider .similar_unitsdiv .leasedslider .unverifi_divtxt img {
-    top: 3px;
+top: 3px;
 }
 
 .sche_tour.mobileview_tour .flexschedule .switch-field {
-    width: 84%;
+width: 84%;
 }
 .propdetails_schetour .sched_tourdivbtn .btn.btnsched_tour {
-    width: 91%;
-    margin: 0 auto 0 -11px;
+width: 91%;
+margin: 0 auto 0 -11px;
 }
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    font-size: 13px;
+font-size: 13px;
 }
 .l-main .similar_unitsdiv .lochouse_details .house span, .l-main .similar_unitsdiv .lochouse_details .clock span {
-    font-size: 9px;
+font-size: 9px;
 }
 .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .house, .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .clock {
-    padding: 2px 5px;
+padding: 2px 5px;
 }
 .l-main .similar_unitsdiv .lochouse_details .clock img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 11px;
+margin-left: 11px;
 }
 .schedtour_popup .sche_tour .switch-field {
-    width: 100%;
+width: 100%;
 }
 .l-main .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: -5px !important;
+margin-left: -5px !important;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.nav-item a.nav-link {
-    padding: 13px 5px 13px 4px;
+padding: 13px 5px 13px 4px;
 }
 .schedtour_popup .basicdatatxt {
-    flex-basis: auto;
+flex-basis: auto;
 }
 .schedtour_popup .tenantaccord .flexdiv .basicdata select.form-control, .tenantaccord .flexdiv .basicdata select.form-control, .schedtour_popup .tenantaccord .flexdiv .basicdata input.form-control {
-    width: 108px;
+width: 108px;
 }
 .similar_unitsdiv.toursche_slidiv .descrip_details_list .price_rate p {
 font-size: 17px;
 }
 
 .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: -5px !important;
+margin-left: -5px !important;
 }
 .sche_tour.propdetails_schetour .date_heading h3 {
-    margin: 0 0 13px 0;
-    font-size: 13px;
+margin: 0 0 13px 0;
+font-size: 13px;
 }
 .unit_newlist_lease.propdetails_slider ul.nav.nav-tabs li a {
-    font-size: 13px;
-    padding: 7px 10px;
+font-size: 13px;
+padding: 7px 10px;
 }
 .type_distr_btn .btn.blueclrbtn, .type_distr_btn .btn.greenclrbtn, .type_distr_btn .blueclrbtndrk {
-    padding: 5px 14px;
+padding: 5px 14px;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    right: 2px;
+right: 2px;
 }
 .schedtour_popup ul.nav-tabs {
-    width: 72%;
+width: 72%;
 }
 .l-main .similar_unitsdiv .slidelocation_div .txt_loc {
-    font-size: 12px;
+font-size: 12px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
-    top: 15px;
+top: 15px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.nav-item::before {
-    margin: 0px 0px 0 -57px;
+margin: 0px 0px 0 -57px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.nav-item::before{
-    margin: 5px 0px 0 -57px;
+margin: 5px 0px 0 -57px;
 }
 .hidemedianleasedesktop h3 {
-    line-height: 24px;;
+line-height: 24px;;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0px 0 0 8px;
+margin: 0px 0 0 8px;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    width: auto;
+width: auto;
 }
 .l-main .similar_unitsdiv .descrip_details_list .price_rate p {
-    font-size: 18px;
+font-size: 18px;
 }
 .propdetails_slider .rat_tot_count p {
-    line-height: 9px;
+line-height: 9px;
 }
 .propdetails_slider .descrip_details_list {
-    align-items: end;
+align-items: end;
 }
 .propdetails_slider .ratingstar_count i {
-    font-size: 8px;
+font-size: 8px;
 }
 .l-main .similar_unitsdiv .leasedslider .unverifi_divtxt img {
-    top: 3px;
+top: 3px;
 }
 .leftsche_tourcss {
 padding-left: 22px;
@@ -16054,14 +16815,14 @@ padding: 1.5em 0 2.8em 0;
 
 /* price range */
 .pricerangedivs .leaseddetails_slider {
-    width: 40%;
+width: 40%;
 }
 .bed_bath_pets.moving_datesdiv {
-    padding: 0;
+padding: 0;
 }
 
 .pricerangedivs {
-    width: 84%;
+width: 84%;
 }
 .flexprice_range {
 margin: 4em 0 1em 0;
@@ -16070,7 +16831,7 @@ margin: 4em 0 1em 0;
 justify-content: space-between;
 }
 .btmfilter_btns.pricerang_btnsprop {
-    padding: 1.7em 0.8em 1.1em 0.8em;
+padding: 1.7em 0.8em 1.1em 0.8em;
 }
 .pricerang_btnsprop .algntxt {
 justify-content: end;
@@ -16088,20 +16849,20 @@ margin: 0px 0px 0 0px;
 margin: 0 0 0 10px;
 }
 .setup_modalprop .flexgrp_css {
-    margin: 0 0 1em 0;
+margin: 0 0 1em 0;
 }
 .btmfilter_btns {
 width: 100%;
 }
 .pricelabel_range {
-    flex-basis: 26%;
+flex-basis: 26%;
 }
 .price-range-slider {
-    width: 71%;
+width: 71%;
 }
 .btn.saveprop, .btn.propnotify {
-    width: auto;
-    padding: 9px 15px;
+width: auto;
+padding: 9px 15px;
 }
 .padcss_div {
 padding: 0;
@@ -16127,7 +16888,7 @@ max-height: 580px;
 height: 70px;
 }
 .divinfo.findpropinfo {
-    margin: 13px 0 0 0;
+margin: 13px 0 0 0;
 }
 /* end of find property */
 .myteam_mobileview .leasflx_team .leaseflex .twotem_images {
@@ -16500,7 +17261,7 @@ margin: 24px 0 26px 0;
 margin: 26px 0 10px 0;
 }
 .about_descrip ul li {
-    margin: 0 0 1px 0;
+margin: 0 0 1px 0;
 }
 .category-lists-slider.mobviewcate_div_expr_area {
 width: 94%;
@@ -16959,179 +17720,179 @@ width: 37%;
 
 /* maintenance  */
 .maintenancepage .c-search.menusearch {
-    width:100%;
+width:100%;
 }
 .req_service .maintenancepage .divinfo {
-    padding: 11px 12px 11px 18px;
+padding: 11px 12px 11px 18px;
 }
 .mobview_technician .techni_profdescrip {
-    padding: 10px 14px 17px 0px;
+padding: 10px 14px 17px 0px;
 }
 .mobview_technician .acc_infotxt {
-    margin: 27px 0 0 0;
+margin: 27px 0 0 0;
 }
 .mobview_technician .phono_comment ul {
-    margin: -26px 0 0 0;
+margin: -26px 0 0 0;
 }
 .mobview_technician .acc_infotxt .acc_label {
-    margin: 0;
+margin: 0;
 }
 .mobview_technician .profilename,.mobview_technician .acc_infotxt .account_no {
-    font-size: 15px;
+font-size: 15px;
 }
 .abt_rev_certifi .tab-content .card .card-body {
-    padding: 15px 10px 10px 16px;
+padding: 15px 10px 10px 16px;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item {
-    margin: 0 2px 0 0;
+margin: 0 2px 0 0;
 }
 .below_detailscertifi p {
-    font-size: 14px;
+font-size: 14px;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
-    width: 99px;
-    font-size: 14px;
+width: 99px;
+font-size: 14px;
 }
 .about_descrip ul li:first-child {
-    padding: 0 2px 0 0px;
+padding: 0 2px 0 0px;
 }
 .midsche_toursec {
-    margin-top: 0;
+margin-top: 0;
 }
 .sche_tour.propdetails_schetour .flexschedule {
-    margin: 0 0 30px 0;
+margin: 0 0 30px 0;
 }
 .sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
-    padding-left: 20px;
+padding-left: 20px;
 }
 .about_descrip h3 {
-    line-height: 23px;
+line-height: 23px;
 }
 .main_workdescrip {
-    flex-basis: 79%;
+flex-basis: 79%;
 }
 .workstatus_div {
-    flex-basis: 35%;
+flex-basis: 35%;
 }
 .reqservdiv_styl{
-    padding: 4px 6px 6px 14px;
+padding: 4px 6px 6px 14px;
 }
 .descrp_modalreqserv p {
-    font-size: 12px;
+font-size: 12px;
 }
 .modal.viewallreq_modal .modal-header, .techni_modalstyl .modal-header {
-    padding: 23px 0 18px 0;
+padding: 23px 0 18px 0;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 98%;
-    margin: 0 auto;
+width: 98%;
+margin: 0 auto;
 }
 .calenderview_div.maintenance_upcomingevents {
-    padding: 18px 8px 15px 8px;
+padding: 18px 8px 15px 8px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 88%;
+width: 88%;
 }
 .mobile_listview .listdate_show p img {
-    vertical-align: middle;
+vertical-align: middle;
 }
 .maintenance_upcomingevents .listdate_show p {
-    font-size: 9px;
+font-size: 9px;
 }
 .maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
-    font-size: 12px;
+font-size: 12px;
 }
 .rightsec_listdiv {
-    flex-basis: 83%;
+flex-basis: 83%;
 }
 .leftsec_listdiv {
-    flex-basis: 17%;
+flex-basis: 17%;
 }
 .viewdescrip_reqserv_list h3 {
-    font-size: 13px;
-    line-height: 13px;
+font-size: 13px;
+line-height: 13px;
 }
 .calenderview_div.maintenance_upcomingevents .listimg_reqservice_img img {
-    height: 26px;
-    width: 26px;
+height: 26px;
+width: 26px;
 }
 .mobile_listview .listtab_time p {
-    font-size: 9px;
+font-size: 9px;
 }
 .mobile_listview .viewdescrip_reqserv_list p {
-    font-size: 11px;
+font-size: 11px;
 }
 .mobile_listview .listtab_txt p {
-    margin: 0 5px;
+margin: 0 5px;
 }
 .calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
-    margin: 0px 6px 0 0;
+margin: 0px 6px 0 0;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-    padding: 9px 8px;
+padding: 9px 8px;
 }
 .maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
-    font-size: 16px;
+font-size: 16px;
 }
 .maintenancepage .myinfo_txt span {
-    font-size: 16px;
+font-size: 16px;
 }
 .reqserv_descrip p {
-    font-size: 13px;
+font-size: 13px;
 }
 .maintenancepage .myinfo_txt {
-    flex-basis: 56%;
+flex-basis: 56%;
 }
 .maintenancepage .infomy_div {
-    flex-basis: 42%;
+flex-basis: 42%;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -83px 0 0 18px;
+margin: -83px 0 0 18px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
-    line-height: 15px;
+line-height: 15px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 10px 15px 0 0px;
+margin: 10px 15px 0 0px;
 }
 .maintenancepage .c-search.menusearch .c-search__input {
-    font-size: 13px;
+font-size: 13px;
 }
 .maint_pagediv .stat_div {
-    margin:3px 0px 0px 0px;
+margin:3px 0px 0px 0px;
 }
 .maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
-    left: 8px;
+left: 8px;
 }
 .maint_pagediv .name_addr p.addr {
-    font-size: 11px;
-    line-height: 15px;
+font-size: 11px;
+line-height: 15px;
 }
 .maindivwork_bottomsec {
-    margin: 6px 0 0 0;
+margin: 6px 0 0 0;
 }
 .maint_pagediv .name_addr p.nm {
-    font-size: 13px;
-    line-height: 20px;
+font-size: 13px;
+line-height: 20px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 10px 0 0 20px;
+margin: 10px 0 0 20px;
 }
 .myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
-    line-height: 11px;
+line-height: 11px;
 }
 .myteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3 {
-    font-size: 16px;
+font-size: 16px;
 }
 .mainteam_mobileview .btnappoint {
-    margin: 0 0 0 -14px;
+margin: 0 0 0 -14px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-    padding: 7px 7px 9px 7px;
+padding: 7px 7px 9px 7px;
 }
 .belowpart_tenant.maintenance_div .profilename, .belowpart_tenant.maintenance_div .account_no {
-    font-size: 16px;
-    line-height: 20px;
+font-size: 16px;
+line-height: 20px;
 }
 /* end of maintenance */
 /* payment deposit */
@@ -17161,30 +17922,30 @@ right: -9px;
 
 /* schedule tour */
 .hidemedianleasedesktop h3 {
-    line-height: 24px;
-    padding: 0px 10px;
+line-height: 24px;
+padding: 0px 10px;
 }
 .l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn {
-    padding: 14px 8px;
+padding: 14px 8px;
 }
 .l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn .map_streetshowings h3{
-    margin: 0 0 4px 0;
+margin: 0 0 4px 0;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .switch-field input + label span.person img {
-    height: 19px;
+height: 19px;
 }
 .propdetails_schetour .sched_tourdivbtn .btn.btnsched_tour {
-    width: 100%;
+width: 100%;
 }
 .confr_appt {
 margin: 19px auto 16px auto;
 }
 .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: -6px !important;
+margin-left: -6px !important;
 }
 .category-lists-slider .swiper-container {
-    width: 98%;
-    margin: 0 auto 5px auto;
+width: 98%;
+margin: 0 auto 5px auto;
 }
 .midsche_toursec .reschedulenew_div.tourresche {
 width: 96.9%;
@@ -17303,10 +18064,10 @@ margin: 0;
 width: 95%;
 }
 .signin_popupreservenow .modal-header {
-    width: 91.8%;
+width: 91.8%;
 }
 #reservenow_offer .my_info {
-    padding: 11px 8px 2px 8px;
+padding: 11px 8px 2px 8px;
 }
 .signin_popupreservenow .modal-header h4 {
 font-size: 17px;
@@ -17320,89 +18081,89 @@ margin: 0 0 0 11px;
 
 /* schedule tour */
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    font-size: 12px;
+font-size: 12px;
 }
 .lf_flexside, .rt_flexside {
-    padding:0px;
+padding:0px;
 }
 .schedtour_popup .accordion.tenantaccord .flexdiv div label {
-    font-size: 11px;
+font-size: 11px;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
-    left: 19px;
+left: 19px;
 }
 .accordion.tenantaccord .flexdiv div label {
-    font-size: 11px;
+font-size: 11px;
 }
 .type_distr_btn .btn.blueclrbtn, .type_distr_btn .btn.greenclrbtn, .type_distr_btn .blueclrbtndrk {
-    padding: 5px 14px;
-    font-size: 12px;
+padding: 5px 14px;
+font-size: 12px;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count{
-    width: auto;
+width: auto;
 }
 .propdetails_slidersimi .descrip_details_list {
-    align-items: end;
+align-items: end;
 }
 .l-main .similar_unitsdiv .leasedslider .unverifi_divtxt img {
-    top: 4px;
+top: 4px;
 }
 .sche_tour.propdetails_schetour .date_heading h3 {
-    margin: 0 0 10px 0;
-    font-size: 14px;
+margin: 0 0 10px 0;
+font-size: 14px;
 }
 .propdetails_slidersimi .rat_tot_count p {
 line-height: 9px;
 }
 .similar_unitsdiv .leasedslider {
-    padding: 11px;
+padding: 11px;
 }
 .sche_tour.mobileview_tour .flexschedule .switch-field {
-    width: 85%;
-    margin: 0 auto;
-    height: 46px;
-    align-items: anchor-center;
+width: 85%;
+margin: 0 auto;
+height: 46px;
+align-items: anchor-center;
 }
 .schedtour_popup .sche_tour .switch-field input + label span.video img {
-    vertical-align: middle;
+vertical-align: middle;
 }
 .schedtour_popup .sche_tour .flexschedule.switchtabs_schepop .switch-field {
-    margin: 0 auto;
-    width: 100%;
+margin: 0 auto;
+width: 100%;
 }
 .schedtour_popup .modal-body.stepsmodal_body .bgclr_tabtourtypestep1 .sche_tour .switch-field label{
-    width: 100%;
+width: 100%;
 }
 .l-main .similar_unitsdiv .descrip_details_list .price_rate p {
-    font-size: 16px;
+font-size: 16px;
 }
 .l-main .similar_unitsdiv .slidelocation_div .txt_loc {
-    font-size: 13px;
+font-size: 13px;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    right: 0px;
+right: 0px;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 10px;
+margin-left: 10px;
 }
 .l-main .similar_unitsdiv .lochouse_details .house span, .l-main .similar_unitsdiv .lochouse_details .clock span {
-    font-size: 9px;
+font-size: 9px;
 }
 .schedtour_popup .stepsmodal_body .seldateboxsche_prop {
-    padding: 0;
+padding: 0;
 }
 .unit_newlist_lease.propdetails_slider ul.nav.nav-tabs li a {
-    font-size: 12px;
-    padding: 7px 7px;
+font-size: 12px;
+padding: 7px 7px;
 }
 .schedtour_popup .modal-content, .schedtour_popup .modal-content .tab-content .container {
 padding: 0;
 }
 .l-main .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: -4px !important;
+margin-left: -4px !important;
 }
 .sche_tour .switch-field input + label span.video img {
-    vertical-align: text-bottom;
+vertical-align: text-bottom;
 }
 /* schedule tour end */
 /* showing confirmed */
@@ -17645,41 +18406,41 @@ padding: 1.5em 0 2.8em 0;
 
 /* price range */
 header.l-header .l-header__inner {
-    height: 78px;
+height: 78px;
 }
 .mobilfullwidth_css {
-    padding: 0 10px !important;
+padding: 0 10px !important;
 }
 .btn.saveprop img, .btn.propnotify img {
-    margin: -2px 0 0 2px;
+margin: -2px 0 0 2px;
 }
 .setup_modalprop.notif_div .modal-content .modal-header {
-    padding: 44px 10px 22px 0px;
+padding: 44px 10px 22px 0px;
 }
 .pricerangedivs .leaseddetails_slider {
-    width: 40%;
+width: 40%;
 }
 .content-wrapper.content-wrapper--with-bg .container-fluid > div.titledesktop_hide.row {
-    margin: 0 0 18px 0px;
+margin: 0 0 18px 0px;
 }
 .bed_bath_pets.moving_datesdiv {
-    padding: 0px 0px 10px 0px;
+padding: 0px 0px 10px 0px;
 }
 .setup_modalprop .flexgrp_css {
-    margin: 0 0 16px 0;
+margin: 0 0 16px 0;
 }
 
 .pricelabel_range {
-    flex-basis: 25%;
+flex-basis: 25%;
 }
 .price-range-slider {
-    width: 71%;
+width: 71%;
 }
 .loadmore_arrowsdownmobile a {
 left: 41%;
 }
 .flexprice_range {
-    margin: 3.7em 0 0.5em 0;
+margin: 3.7em 0 0.5em 0;
 }
 
 .similar_unitsdiv.pricerangedivs .leasedslider .slidelocation_div span img {
@@ -17707,7 +18468,7 @@ padding: 9px 11px;
 padding: 0;
 }
 .btn.filterpricerg img {
-    height: 22px;
+height: 22px;
 }
 .pricerange_search .input-group-append .btn.btnmap {
 font-size: 0.75em;
@@ -18211,23 +18972,23 @@ line-height: 18px;
 }
 
 .hidemedianleasedesktop h3 {
-    font-size: 17px;
+font-size: 17px;
 }
 #reservenow_offer .beforesignin p {
-    width: 97%;
+width: 97%;
 }
 #reservenow_offer .card-body {
-    padding: 0;
+padding: 0;
 }
 .hidemedianleasedesktop .boxone_mark h3, .hidemedianleasedesktop .boxtwo_mark h3 {
-    font-size: 17px;
-    line-height: 18px;
+font-size: 17px;
+line-height: 18px;
 }
 .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .house, .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .clock {
-    padding: 2px 4px;
+padding: 2px 4px;
 }
 .l-main .similar_unitsdiv .slidelocation_div .txt_loc {
-    font-size: 11px;
+font-size: 11px;
 }
 .detshow_div .showingssec .showtime {
 align-items: flex-start;
@@ -18286,10 +19047,10 @@ font-size: 17px;
 right: 11px;
 }
 .schedtour_popup ul.nav-tabs {
-    width: 82%;
+width: 82%;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0px 0 0 -15px;
+margin: 0px 0 0 -15px;
 }
 .top_propsection {
 align-items: center;
@@ -18704,248 +19465,248 @@ font-size: 15px;
 @media only screen and (max-width: 340px) and (min-width:320px) {
 /* maintenance */
 .midsche_toursec {
-    margin-top: 0;
+margin-top: 0;
 }
 .certidetails_div {
-    padding: 0 9px 0 10px;
+padding: 0 9px 0 10px;
 }
 .mobview_technician .profilename,.mobview_technician .acc_infotxt .account_no {
-    font-size: 16px;
+font-size: 16px;
 }
 .mobview_technician .techni_profdescrip {
-    padding: 10px 10px 19px 0px;
+padding: 10px 10px 19px 0px;
 }
 .techni_prof_img {
-    margin: -47px 0 0 12px;
+margin: -47px 0 0 12px;
 }
 .mobview_technician .phono_comment ul {
-    margin: -25px 0 0 0;
+margin: -25px 0 0 0;
 }
 .mobview_technician .acc_infotxt .acc_label {
-    margin: 0;
+margin: 0;
 }
 .mobview_technician .acc_infotxt {
-    margin: 25px 0 0 0;
+margin: 25px 0 0 0;
 }
 .certifidiv_flexcontainer .btn.btnview_div {
-    width: 66px;
+width: 66px;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
-    width: 92px;
-    font-size: 13px;
+width: 92px;
+font-size: 13px;
 }
 
 .abt_rev_certifi .tab-content .card .card-body {
-    padding: 15px 6px 10px 18px;
+padding: 15px 6px 10px 18px;
 }
 .below_detailscertifi p {
-    font-size: 12px;
-    line-height: 14px;
+font-size: 12px;
+line-height: 14px;
 }
 .flexparent_reviewblock {
-    padding: 5px 8px 13px 11px;
+padding: 5px 8px 13px 11px;
 }
 .user_decrip_txt p {
-    margin: 0 7px 9px 0px;
-    font-size: 11px;
-    line-height: 12px;
+margin: 0 7px 9px 0px;
+font-size: 11px;
+line-height: 12px;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item {
-    margin: 0 2px 0 0;
+margin: 0 2px 0 0;
 }
 .slick_req_service .slide-content img {
-    height: 52px;
-    width: 52px;
+height: 52px;
+width: 52px;
 }
-    .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-        margin: 0 0 0 10px;
-    }
+.schedtour_popup .seldateboxsche_prop .date_heading h3 {
+margin: 0 0 0 10px;
+}
 .schetour_btm.mobileschedutour_view .showing_details {
-    flex-basis: 63%;
+flex-basis: 63%;
 }
 .midsectour_sche .showing_viewdetails .btn.view_detail {
-    padding: 1px 8px 3px 6px;
+padding: 1px 8px 3px 6px;
 }
 .schetour_img img {
-    height: 63px;
+height: 63px;
 }
 .confr_appt h3 {
-    font-size: 11px;
+font-size: 11px;
 }
 .maint_pagediv .name_addr p.addr {
-    font-size: 11px;
-    line-height: 15px;
+font-size: 11px;
+line-height: 15px;
 }
 .sche_tour.mobileview_tour .day_monthtab .tab-content .seldateboxsche_prop .date_heading h3 {
-    text-align: left;
-    padding-left: 17px;
+text-align: left;
+padding-left: 17px;
 }
 .main_workdescrip {
-    flex-basis: 82%;
+flex-basis: 82%;
 }
 .workstatus_div {
-    flex-basis: 31%;
+flex-basis: 31%;
 }
 .modal.viewallreq_modal .modal-header .modal-title, .techni_modalstyl .modal-header .modal-title {
-    font-size: 16px;
+font-size: 16px;
 }
 .modal.viewallreq_modal .modal-header, .techni_modalstyl .modal-header {
-    padding: 23px 0 18px 0;
+padding: 23px 0 18px 0;
 }
 .reqservdiv_styl {
-    padding: 4px 6px 6px 8px;
+padding: 4px 6px 6px 8px;
 }
 .descrp_modalreqserv p {
-    font-size: 12px;
+font-size: 12px;
 }
 .imgarrw_div {
-    margin-left: 5px;
+margin-left: 5px;
 }
 .maintenance_upcomingevents .select-box1 {
-    width: 69px;
+width: 69px;
 }
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
-    width: 98%;
-    margin: 0 auto;
+width: 98%;
+margin: 0 auto;
 }
 .calenderview_div.maintenance_upcomingevents {
-    padding: 18px 8px 15px 8px;
+padding: 18px 8px 15px 8px;
 }
 .maintenance_upcomingevents .headingcalen {
-    width: 98%;
-    margin: 0 auto 0 auto;
+width: 98%;
+margin: 0 auto 0 auto;
 }
 .calenderview_div.maintenance_upcomingevents {
-    padding: 18px 9px 15px 9px;
+padding: 18px 9px 15px 9px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 94%;
+width: 94%;
 }
 .maintenancepage .c-search.menusearch .c-search__input {
-    height: 43px;
-    font-size: 13px;
+height: 43px;
+font-size: 13px;
 }
 .mobile_listview .listdate_show p img {
-    vertical-align: middle;
+vertical-align: middle;
 }
 .maintenance_upcomingevents .listdate_show p {
-    font-size: 9px;
+font-size: 9px;
 }
 .viewdescrip_reqserv_list h3{
-    line-height: 11px;
+line-height: 11px;
 }
 .mobile_listview .viewdescrip_reqserv_list p {
-    font-size: 10px;
+font-size: 10px;
 }
 .maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link {
-    font-size: 12px;
+font-size: 12px;
 }
 .calenderview_div.maintenance_upcomingevents .listimg_reqservice_img img {
-    height: 25px;
-    width: 25px;
+height: 25px;
+width: 25px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 11px 15px 0 0px;
+margin: 11px 15px 0 0px;
 }
 .viewdescrip_reqserv_list h3 {
-    font-size: 12px;
+font-size: 12px;
 }
 .mobile_listview .listtab_txt p {
-    margin: 0 5px;
+margin: 0 5px;
 }
 .calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
-    margin: 0px 6px 0 0;
+margin: 0px 6px 0 0;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-    padding: 11px 8px;
+padding: 11px 8px;
 }
 .calenderview_div.maintenance_upcomingevents .eventtxtdiv h3 {
-    font-size: 12px;
+font-size: 12px;
 }
 .maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
-    font-size: 15px;
+font-size: 15px;
 }
 .maintenancepage .myinfo_txt span {
-    font-size: 15px;
+font-size: 15px;
 }
 .reqserv_descrip p {
-    font-size: 13px;
+font-size: 13px;
 }
 .my_info.maintenance.maint_pagediv {
-    padding: 18px 12px 14px 12px;
+padding: 18px 12px 14px 12px;
 }
 .req_service .maintenancepage .divinfo {
-    padding: 11px 14px 11px 18px;
+padding: 11px 14px 11px 18px;
 }
 .maintenancepage .c-search.menusearch {
-    width: 100%;
+width: 100%;
 }
 .maintenancepage .myinfo_txt {
-    flex-basis: 56%;
+flex-basis: 56%;
 }
 .maintenancepage .infomy_div {
-    flex-basis: 42%;
+flex-basis: 42%;
 }
 .mainteam_mobileview .btnappoint {
-    margin: 0 0 0 -13px;
+margin: 0 0 0 -13px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .btnappoint button.btn.btn_appoint.mobilebook {
-    width: 98px;
+width: 98px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3 {
-    font-size: 14px;
-    line-height: 19px;
+font-size: 14px;
+line-height: 19px;
 }
 .myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
-    line-height: 12px;
+line-height: 12px;
 }
 .belowpart_tenant.maintenance_div .profilename, .belowpart_tenant.maintenance_div .account_no {
-    font-size: 15px;
-    line-height: 25px;
+font-size: 15px;
+line-height: 25px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-    padding: 7px 3px 9px 6px;
+padding: 7px 3px 9px 6px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 12px 0 0 20px;
+margin: 12px 0 0 20px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
-    line-height: 11px;
+line-height: 11px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -83px 0 0 20px;
+margin: -83px 0 0 20px;
 }
 
 .rightsec_listdiv {
-    flex-basis: 83%;
+flex-basis: 83%;
 }
 .leftsec_listdiv {
-    flex-basis: 17%;
+flex-basis: 17%;
 }
 .calenderview_div.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
-    padding: 9px 8px 10px 8px;
+padding: 9px 8px 10px 8px;
 }
 .maintenance_upcomingevents .img_reqservice_img img {
-    height: 25px;
-    width: 25px;
+height: 25px;
+width: 25px;
 }
 .maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
-    left: 9px;
+left: 9px;
 }
 .maindivwork_bottomsec{
-    margin: 6px 0 0 0;
+margin: 6px 0 0 0;
 }
 .viewall_workorders {
-    margin: 14px 0 0px 0;
+margin: 14px 0 0px 0;
 }
 .workorder_block {
-    padding: 8px 9px 10px 9px;
+padding: 8px 9px 10px 9px;
 }
 .maint_pagediv .stat_div {
-    margin: 3px 0 0 0;
+margin: 3px 0 0 0;
 }
 .maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
-    font-size: 16px;
+font-size: 16px;
 }
 /* end of maintenance */
 /* payment deposit */
@@ -18977,123 +19738,123 @@ font-size: 13px;
 
 /* schedule tour */
 .signin_popupreservenow .mbcolrbg_div .card .card-body .col-12{
-    padding:0;
+padding:0;
 }
 .l-main .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: 0px !important;
+margin-left: 0px !important;
 }
 .schedtour_popup .modal-content .modal-body.stepsmodal_body .tab_modal ul.nav.nav-tabs li.steptwo.changeborderline::before {
-    left: 20px;
+left: 20px;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count {
-    right: 0;
+right: 0;
 }
 .lf_flexside,.rt_flexside{
-    padding:0 7px;
+padding:0 7px;
 }
 .schedtour_popup .accordion.tenantaccord .flexdiv div label {
-    font-size: 10px;
+font-size: 10px;
 }
 .schedtour_popup .tenantaccord .flexdiv .basicdata .form-control {
-    font-size: 11px;
+font-size: 11px;
 }
 .mobilebedbathrm_fields:last-child {
-    padding-left: 7px;
+padding-left: 7px;
 }
 .mobilebedbathrm_fields {
-    width: 50%;
+width: 50%;
 }
 .schedtour_popup ul.nav-tabs {
-    width: 87%;
+width: 87%;
 }
 .type_distr_btn .btn.blueclrbtn, .type_distr_btn .btn.greenclrbtn, .type_distr_btn .blueclrbtndrk {
-    padding: 5px 7px;
+padding: 5px 7px;
 }
 .propdetails_schetour .sched_tourdivbtn .btn.btnsched_tour {
-    width: 91%;
-    margin: 0 auto 0 -11px;
+width: 91%;
+margin: 0 auto 0 -11px;
 }
 .schedtour_popup .seldateboxsche_prop .date_heading h3 {
-    font-size: 12px;
+font-size: 12px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0px 0 0 -15px;
+margin: 0px 0 0 -15px;
 }
 
 .flexschedule.switchtabs_schepop .switch-field, .propdetails_schetour .flexschedule .switch-field {
-    width: 85%;
-    margin: 0 auto;
-    height: 40px;
+width: 85%;
+margin: 0 auto;
+height: 40px;
 }
 .about_descrip h3 {
-    line-height: 20px;
+line-height: 20px;
 }
 .l-main .similar_unitsdiv .slidelocation_div .txt_loc {
-    font-size: 11px;
+font-size: 11px;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .flexschedule .switch-field > label {
-    padding: 9px 10px;
-    height: auto;
+padding: 9px 10px;
+height: auto;
 }
 .prop_feature.propertyfeat_sche_showdiv.prop_detailsfeatures .slick-track {
-    margin-left: 3px !important;
+margin-left: 3px !important;
 }
 .category-lists-slider .swiper-container {
-    margin: 0 auto 5px auto;
+margin: 0 auto 5px auto;
 }
 .showing_det .prop_headingfeat h3 {
-    font-size: 16px;
+font-size: 16px;
 }
 .hidemedianleasedesktop h3 {
-    font-size: 16px;
-    line-height: 21px;
+font-size: 16px;
+line-height: 21px;
 }
 .l-main .similar_unitsdiv .descrip_details_list .price_rate p {
-    font-size: 16px;
+font-size: 16px;
 }
 .propdetails_slider .descrip_details_list {
-    align-items: end;
+align-items: end;
 }
 .l-main .propdetails_slider .similar_unitsdiv .leasedslider .unverifi_divtxt img {
-    top: 5px;
+top: 5px;
 }
 .mapdiv_showings .category-button {
-    padding: 8px 6px;
+padding: 8px 6px;
 }
 .propdetails_slider .rat_tot_count p {
-    line-height: 10px;
+line-height: 10px;
 }
 .propdetails_slidersimi .rat_tot_count, .newlypropdetails_slider .rat_tot_count, .just_propdetails .rat_tot_count{
-    width: auto;
+width: auto;
 }
 .similarunits.propdetails_slidersimi .slick-track, .newly_listed.newlypropdetails_slider .slick-track, .just_leased.just_propdetails .slick-track {
-    margin-left: 3px;
+margin-left: 3px;
 }
 
 .unit_newlist_lease.propdetails_slider ul.nav.nav-tabs li a{
-    padding: 7px 6px;
-    font-size: 12px;
+padding: 7px 6px;
+font-size: 12px;
 }
 .schedtour_popup .monthyear_div {
-    width: 72%;
+width: 72%;
 }
 .flexschedule.switchtabs_schepop .switch-field, .propdetails_schetour .flexschedule .switch-field {
-    width: 95%;
+width: 95%;
 }
 .sche_tour.propdetails_schetour .date_heading h3 {
-    font-size: 12px;
+font-size: 12px;
 }
 .schedtour_popup .modal-body.stepsmodal_body .bgclr_tabtourtypestep1 .sche_tour .switch-field label{
-    width: 100%;
+width: 100%;
 }
 .l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn {
-    padding: 14px 10px 14px 10px;
+padding: 14px 10px 14px 10px;
 }
 .l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn .map_streetshowings h3, .l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn .addr_streetshowings h3 {
-    font-size: 11px;
+font-size: 11px;
 }
 .l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn .map_streetshowings h3{
-    margin:0 0 5px 0;
+margin:0 0 5px 0;
 }
 .midsche_toursec .btn.conf_resch.confnew,.midsche_toursec .btn.canc_show.cancnew {
 width: auto;
@@ -19267,7 +20028,7 @@ width: 109px;
 height: 40px;
 }
 .sche_tour .switch-field label {
-    font-size: 12px;
+font-size: 12px;
 }
 .schedtour_popup .sche_tour .switch-field input + label span.video img {
 height: 14px;
@@ -19526,34 +20287,34 @@ padding: 1.5em 0 2.8em 0;
 
 /* price range */
 .txt_details_prop {
-    padding: 11px 7px 9px 7px;
+padding: 11px 7px 9px 7px;
 }
 .setup_modalprop.notif_div .modal-content .modal-header {
-    padding: 44px 10px 22px 0px;
+padding: 44px 10px 22px 0px;
 }
 .bed_bath_pets.moving_datesdiv {
-    padding: 0 0px 10px 0px;
+padding: 0 0px 10px 0px;
 }
 .content-wrapper.content-wrapper--with-bg .container-fluid > div.titledesktop_hide.row {
-    margin: 0 0 8px 0px;
+margin: 0 0 8px 0px;
 }
 .pricelabel_range {
-    flex-basis: 28%;
+flex-basis: 28%;
 }
 .price-range-slider {
-    width: 66%;
+width: 66%;
 }
 .pricerangedivs {
-    width: 84%;
+width: 84%;
 }
 .setup_modalprop .flexgrp_css{
-    margin: 0 0 10px 0;
+margin: 0 0 10px 0;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count {
 top: 7px;
 }
 .pricerangedivs .leaseddetails_slider {
-    width: 43%;
+width: 43%;
 }
 
 .loadmore_arrowsdownmobile a {
@@ -19573,14 +20334,14 @@ justify-content: space-between;
 margin: 0 4px 0 7px;
 }
 .btn.saveprop, .btn.propnotify {
-    font-size: 11px;
-    padding: 8px 12px;
+font-size: 11px;
+padding: 8px 12px;
 }
 .padcss_div {
 padding: 0;
 }
 .btn.filterpricerg img {
-    height: 21px;
+height: 21px;
 }
 .pricerange_search .input-group-append .btn.btnmap {
 font-size: 0.75em;
@@ -19609,11 +20370,11 @@ margin: 0 0 0 -35px;
 /* endof price range */
 /* find property */
 .search_ip_prop .input-group input.form-control {
-    padding: 10px 111px 10px 37px;
-    font-size: 12px;
+padding: 10px 111px 10px 37px;
+font-size: 12px;
 }
 header.l-header .l-header__inner {
-    height: 79px;
+height: 79px;
 }
 .titledesktop_hide h4 {
 font-size: 15px;
@@ -20240,12 +21001,12 @@ font-size: 11px;
 height: 17px;
 }
 .about_descrip ul li {
-    padding: 0 3px 0 3px;
-    font-size: 9px;
-    line-height: 18px;
+padding: 0 3px 0 3px;
+font-size: 9px;
+line-height: 18px;
 }
 .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .house, .l-main .propdetails_slider .similar_unitsdiv .lochouse_details .clock {
-    padding: 2px 2px;
+padding: 2px 2px;
 }
 .btn.btninvite, .btn.btninvite.minus {
 padding: 5px 14px 6px 18px;
@@ -20307,15 +21068,15 @@ right: 11px;
 width: 98%;
 }
 .sche_tour .switch-field{
-    align-items: unset;
+align-items: unset;
 }
 .sche_tour.mobileview_tour .flexschedule .switch-field {
-    height: auto;
-    align-items: center;
+height: auto;
+align-items: center;
 }
 .sche_tour.mobileview_tour.propdetails_schetour .switch-field input + label span.person img {
-    height: 18px;
-    width: 18px;
+height: 18px;
+width: 18px;
 }
 
 .top_propsection {
@@ -20745,60 +21506,60 @@ left: 14px;
 @media only screen and (max-width:320px){
 /* maintenance */
 .main_workdescrip {
-    flex-basis: 71%;
+flex-basis: 71%;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
-    width: 86px;
+width: 86px;
 }
 .abt_rev_certifi .tab-content .card .card-body {
-    padding: 15px 6px 10px 17px;
+padding: 15px 6px 10px 17px;
 }
 .workstatus_div {
-    flex-basis: 29%;
+flex-basis: 29%;
 }
 .myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
-    line-height: 10px;
+line-height: 10px;
 }
 .mainteam_mobileview .btnappoint {
-    margin: 0 0 0 -20px;
+margin: 0 0 0 -20px;
 }
 .maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
-    left: 4px;
+left: 4px;
 }
 .maintenance_upcomingevents .lefttime_txt,.maintenance_upcomingevents .righttime_txt {
-    font-size: 9px;
+font-size: 9px;
 }
 .maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp p{
-    font-size: 9px;
+font-size: 9px;
 }
 .calenderview_div.maintenance_upcomingevents .eventtxtdiv h3 {
-    font-size: 11px;
+font-size: 11px;
 }
 .maintenance_upcomingevents .headingcalen h3 {
-    font-size: 16px;
+font-size: 16px;
 }
 .maintenance_upcomingevents .headingcalen h3 img {
-    vertical-align: bottom;
+vertical-align: bottom;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -89px 0 0 20px;
+margin: -89px 0 0 20px;
 }
 .maint_pagediv .myinfotabs .btn.commn {
-    padding: 7px 9px 8px 4px;
-    font-size: 9px;
+padding: 7px 9px 8px 4px;
+font-size: 9px;
 }
 .maint_pagediv .name_addr p.nm {
-    font-size: 13px;
-    line-height: 20px;
+font-size: 13px;
+line-height: 20px;
 }
 .reqserv_descrip p {
-    font-size: 12px;
+font-size: 12px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-    padding: 4px 3px 9px 6px;
+padding: 4px 3px 9px 6px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 12px 0 0 22px;
+margin: 12px 0 0 22px;
 }
 /* end of maintenance */
 /*  payment deposit */
@@ -20812,49 +21573,49 @@ width: 49%;
 /* end of payment deposit */
 /* schedule tour */
 .mobileview_allunits h3, .mobileview_allunits h3, .about_descrip h3, .head_explr {
-    font-size: 18px;
+font-size: 18px;
 }
 .l-main .similar_unitsdiv .lochouse_details .house span, .l-main .similar_unitsdiv .lochouse_details .clock span {
-    font-size: 9px !important;
+font-size: 9px !important;
 }
 .hidemedianleasedesktop .boxone_mark h3, .hidemedianleasedesktop .boxtwo_mark h3 {
-    font-size: 16px;
-    line-height: 16px;
+font-size: 16px;
+line-height: 16px;
 }
 .hidemedianleasedesktop .boxone_mark p, .hidemedianleasedesktop .boxtwo_mark p {
-    font-size: 13px;
-    line-height: 18px;
+font-size: 13px;
+line-height: 18px;
 }
 .hidemedianleasedesktop h3 {
-    padding: 0px 22px;
+padding: 0px 22px;
 }
 .lochouse_details .house, .lochouse_details .clock {
-    margin: 0 5px 0 0;
+margin: 0 5px 0 0;
 }
 .lf_flexside, .rt_flexside {
-    padding: 0 0px;
+padding: 0 0px;
 }
 .type_distr_btn .btn.blueclrbtn, .type_distr_btn .btn.greenclrbtn, .type_distr_btn .blueclrbtndrk {
-    padding: 4px 11px;
-    font-size: 12px;
+padding: 4px 11px;
+font-size: 12px;
 }
 .median_lease.mobilemedian_lease.hidemedianleasedesktop {
-    padding: 18px 7px 20px 7px;
+padding: 18px 7px 20px 7px;
 }
 .l-main .bottomdetails_descrip.schedshowbtmdets_new .bgclr_divaddr_btn {
-    padding: 14px 7px 14px 7px;
+padding: 14px 7px 14px 7px;
 }
 .schedtour_popup .seldateboxsche_prop .select-box .label::after {
-    right: -13px;
+right: -13px;
 }
 .schedtour_popup .seldateboxsche_prop .select-box1 .label::after {
-    right: -4px;
+right: -4px;
 }
 .schedtour_popup .bgclr_tabtourtypestep1 .flxboth_propschepop .day_monthtab.day_modaldiv .slick-track {
-    margin: 0px 0 0 15px;
+margin: 0px 0 0 15px;
 }
 .schedtour_popup ul.nav-tabs {
-    width: 91%;
+width: 91%;
 }
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock {
 padding: 2px 4px;
@@ -20947,10 +21708,10 @@ font-size: 11px;
 padding: 2px 5px;
 }
 .signin_popupreservenow .modal-header {
-    width: 90.8%;
+width: 90.8%;
 }
 #reservenow_offer .my_info {
-    padding: 11px 10px 2px 10px;
+padding: 11px 10px 2px 10px;
 }
 /* end of showing confirmed */
 /* confirmed showing */
@@ -21050,10 +21811,10 @@ font-size: 13px;
 /* end of find property */
 /* price range */
 .pricelabel_range {
-    flex-basis: 29%;
+flex-basis: 29%;
 }
 .price-range-slider {
-    width: 67%;
+width: 67%;
 }
 .loadmore_arrowsdownmobile a {
 left: 40%;
@@ -21095,8 +21856,8 @@ padding: 11px;
 margin: 0 0 0 -35px;
 }
 .btn.saveprop, .btn.propnotify {
-    font-size: 10px;
-    padding: 9px 10px;
+font-size: 10px;
+padding: 9px 10px;
 }
 /* endof price range */
 
@@ -21249,8 +22010,8 @@ height: 101px;
 margin-left: 1px;
 }
 .about_descrip ul li {
-    padding: 0 3px 0 3px;
-    font-size: 9px;
+padding: 0 3px 0 3px;
+font-size: 9px;
 }
 
 .detshow_div .showingssec .order_links span a {

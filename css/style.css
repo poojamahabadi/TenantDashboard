@@ -1237,6 +1237,9 @@ margin: 10px 0 0 0;
 .maintenance_upcomingevents .select-box {
   width: auto;
 }
+.mainte_left_css .tenant_profilebg {
+  height: 126px;
+}
 .maintenance_upcomingevents .select-box .label {
   padding: 5px 25px 5px 12px;
 }
@@ -2297,8 +2300,15 @@ padding: 2px 15px;
 margin: 0 0 0 -14px;
 }
 /* maintenance page */
+
 .review_slickslider .slick-slider{
   margin:0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display:unset;
+}
+.review_slickslider .slick-initialized.slick-slider {
+  opacity: 1;
 }
 .maintenance_upcomingevents .select-box1 .label{
   padding: 5px 0 0 16px;
@@ -2312,7 +2322,7 @@ align-items: center;
   display: none;
 }
 .maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events .nav-item .nav-link.listvw.active span img{
-content:url('../images/maintenance/listview_icmaintenace.svg');
+content:url('/images/maintenance/listview_icmaintenace.svg');
 }
 .listimg_reqservice_img img{
 height:30px;
@@ -2404,11 +2414,21 @@ margin: 0 0 10px 0;
 .maintenance_upcomingevents .timeeventtxt {
 margin: 0 0 26px 0;
 }
+.widextend_mobviewleft{
+  flex: 0 0 10.333333%;
+  max-width: 10.333333%;
+  }
+  .widextend_mobviewright{
+  flex: 0 0 89.666667%;
+  max-width: 89.666667%;
+  }
 .maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
 top: -34px;
 }
 .calenderview_div.maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp {
 padding: 7px 10px 8px 10px;
+margin: 4px 0;
+top: -40px;
 }
 .maint_pagediv .myinfotabs .btn.commn.high{
 background-color:#F2727F;
@@ -2821,6 +2841,7 @@ font-size: 14px;
 padding: 7px 5px;
 line-height: 22px;
 width: 115px;
+border:unset;
 }
 .maintenance.my_info.maint_pagediv {
   height: 475px;
@@ -7170,6 +7191,45 @@ display: none;
 /* end of calender view showings */
 
 /* communication */
+ul.commdetails_mobileview {
+  justify-content: space-between;
+  border: unset;
+  margin: 0 0 -15px 0;
+  position: relative;
+  z-index: 1;
+}
+.allcommuni_tabs.commudetails_tablink {
+  position: relative;
+  z-index: 10;
+}
+ul.commdetails_mobileview li a.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  border: unset;
+  margin: 0;
+  padding: 13px 19px 21px 19px;
+  position: relative;
+}
+ul.commdetails_mobileview li a.nav-link img{
+  width: 20px;
+  height: 16px;
+  margin: 0 0 10px 0;
+}
+.all_txtlink,.all_txtlink:hover,.all_txtlink:active,.all_txtlink:focus{
+color:#315D80;
+}
+.call_txtlink,.call_txtlink:hover,.call_txtlink:active,.call_txtlink:focus{
+color:#9BB997;
+}
+.text_txtlink,.text_txtlink:hover,.text_txtlink:active,.text_txtlink:focus{
+color:#ECC63D;
+}
+.email_txtlink,.email_txtlink:hover,.email_txtlink:active,.email_txtlink:focus{
+color:#F5896C;
+}
 .profile_chat{
 background: url(../images/showings/communication/chat_profilebg.svg);
 background-size: cover;
