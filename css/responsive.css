@@ -5715,7 +5715,16 @@ margin: 0;
 padding: 18px 0;
 }
 ul.commdetails_mobileview li a.nav-link.email_txtlink.active img{
-content: url('../images/showings/communication/communication_details/eventwhite.svg');
+content: url('../images/showings/communication/communication_details/activeemail.svg');
+}
+ul.commdetails_mobileview li a.nav-link.call_txtlink.active img{
+    content: url('../images/showings/communication/communication_details/callactive.svg');
+}
+ul.commdetails_mobileview li a.nav-link.all_txtlink.active img{
+        content: url('../images/showings/communication/communication_details/activeall.svg');
+}
+ ul.commdetails_mobileview li a.nav-link.text_txtlink.active img{
+            content: url('../images/showings/communication/communication_details/commu_text.svg');
 }
 .filtercommu_options .commu_closefilterclk{
 background: rgba(99, 136, 165, 0.2);
