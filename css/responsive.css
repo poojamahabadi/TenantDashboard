@@ -5466,6 +5466,117 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
+
+/* work order mobile view */
+.flex_containerdiv{
+background: unset;
+flex-direction: column;
+width: 100%;
+gap: 5px;
+padding:0;
+}
+.issue_select label, .descrip_div label, .uploadphotos_div label {
+margin: 0 0 7px 0;
+}
+.issueselectbox{
+text-align: left;
+}
+.issuewrapper{
+width: 100%;
+height: 46px;
+}
+.categ_section .dropdown-selected .fa {
+top: 15px;
+right: 21px;
+}
+.issuewrapper .fa{
+right: 21px;
+}
+.main_wrapperdiv {
+justify-content: flex-start;
+flex-direction: column;
+margin: 16px 0 0 0;
+}
+.rightcontent_work{
+margin: 20px 0 0 0;
+}
+.categ_section .dropdown-selected,.issueselectbox{
+text-align: left;
+padding: 4px 10px 4px 20px;
+height: 100%;
+line-height: 37px;
+border-radius: 30px;
+}
+.work_contentsection{
+background: #EDF2FA;
+border-radius: 17px;
+padding: 20px;
+margin: 0 0 10px 0;
+}
+.successful_modaldiv {
+    margin: 4em 0 3em 0;
+}
+.succ_msg p {
+    width: 81%;
+    margin: 0 auto;
+}
+.successful_modaldiv img {
+    margin: 2em 0 3em 0;
+}
+.successful_modaldiv h4{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    color: #315D80;
+    margin:0;
+    }
+.btn.reqtechician{
+width: 318px;
+margin:20px 0 30px 0;
+}
+.categ_section{
+flex-direction: column;
+width: 100%;
+}
+.categorytxt{
+    margin: 5px auto 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.uploadphotos_div label span{
+font-weight: 700;
+}
+.upload-container {
+height:auto;
+min-height: 107px;
+}
+.descrip_div textarea {
+max-height: 107px;
+}
+.flex_containerdiv label,.issue_select label, .descrip_div label, .uploadphotos_div label {
+padding-left: 18px;
+display: block;
+text-transform: inherit;
+}
+.flex_containerdiv label{
+color: #315D80;
+display: block;
+width: 100%;
+}
+.categ_section .custom-dropdown{
+width: 100%;  
+height: 46px;
+}
+/* end of work order mobile view */
+
+.allcommuni_tabs.commudetails_tablink .headingcalen {
+width: 61%;
+margin:0 auto 0 0;
+}
+.maintenance_upcomingevents.commu_detailscalender .headingcalen h3 {
+margin: 0;
+}
 .widfull_plusicon .custom-select {
 position: relative;
 width: 142px;
@@ -6219,6 +6330,7 @@ padding:0;
 }
 .calenderview_div.maintenance_upcomingevents.commu_detailscalender .calendercard_show {
 padding: 19px 18px 0 18px;
+flex-direction: row;
 }
 .allcommuni_tabs .headingcalen {
 width: 100%;

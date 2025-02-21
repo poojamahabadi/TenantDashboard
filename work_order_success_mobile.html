@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Work Order</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<!-- timepicker styles -->
+<link rel="stylesheet" href="css/jquery-clockpicker.min.css">
+    <!-- datepicker styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="l-header">
+    <div class="l-header__inner clearfix">
+    <div class="c-header-icon desktopversion_search">
+    <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    <div class="logo">
+    <div class="logo__txt">
+    <a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+    <div class="mobileversion_view">
+    <a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+    </div>
+    </div>
+    </div>
+    
+    <div class="c-search desktopversion_search">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    
+    <div class="mobileversion_view txt_heading">
+    <h3>Work Order </h3>
+    </div>
+    
+    <div class="links">
+    <ul>
+    <li class="phone desktopversion_search"> <a href="">
+    <img src="images/phone.svg"></a>
+    <div class="count_phone">
+    <span>4</span>
+    </div>
+    </li>
+    <li class="comment desktopversion_search"> <a href="">
+    <img src="images/comment.svg"></a>
+    <div class="count_comment">
+    <span>5</span>
+    </div>
+    </li>
+    <li class="email desktopversion_search"> <a href="">
+    <img src="images/email.svg"></a>
+    <div class="count_email">
+    <span>6</span>
+    </div>
+    </li>
+    <li class="notify"> <a href="">
+    <img src="images/notify.svg"></a>
+    <div class="count_notify">
+    <span>30</span>
+    </div>
+    </li>
+    </ul>
+    </div>
+    
+    <div class="c-header-icon mobileversion_view">
+    <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </header>
+    
+    
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="topsec_menu">
+    <div class="profilepic">
+    <img src="images/menu/profilemenu.svg">
+    <div class="status status_green">
+    <span></span>
+    </div>
+    </div>
+    <div class="profiledetails">
+    <p>Mae Coleman <small>Tenant</small></p>
+    <a href="">View Profile</a>
+    </div>
+    <div class="menu_scanicon">
+    <img src="images/menu/menu_scan.svg">
+    </div>
+    </div>
+    <div class="c-search menusearch">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    <div class="menu_nav">
+    <a href="myinformation.html">  <img src="images/menu/my_info.svg"> My Information</a>
+    <a href="#" class="active">  <img src="images/menu/communication.svg"> Communications</a>
+    <a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+    <a href="showings.html">  <img src="images/menu/showings.svg"> showings & offers</a>
+    <a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+    <a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+    <a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+    <a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+    <a href="#">  <img src="images/menu/scanqr.svg"> Scan QR Code</a>
+    <div class="logoutsec">
+    <div>
+    <a href="javascript:void(0);">Logout</a>
+    </div>
+    <div>
+    <button class="btn upgrade_btn">Upgrade</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    
+<main class="l-main">
+<div class="content-wrapper content-wrapper--with-bg">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-12">
+            <div class="successful_modaldiv">
+                <h4>Successfully Submitted</h4>
+                <img src="images/maintenance/work_order/success_check.svg">
+        
+                <div class="succ_msg">
+                  <p>If this is an emergency work order related to plumbing, electrical, flooding or HVAC, please call us immediately. We are open to service you 24/7.</p>
+                </div>
+          </div>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-12 text-center">
+            <button type="button" class="btn reqtechician phowork"><img src="images/maintenance/work_order/phonework.svg">Contact Us</button>
+    </div>
+</div>
+
+</div>
+</div>
+</main>
+
+<!-- mobileview menu -->
+<div class="container-fluid btmmenu">
+    <div class="flex_menubottom">
+    <div class="dash">
+    <a href="">
+    <img src="images/dashboard.svg">
+    <p>Dashboard</p>
+    </a> 
+    </div>
+    <div class="commu">
+    <a href="">
+    <img src="images/communication.svg">
+    <p>Communication</p>
+    </a>
+    </div>
+    <div class="maint">
+    <a href="">
+    <img src="images/maintenance.svg">
+    <p>Maintenance</p>
+    </a>
+    </div>
+    <div class="rent">
+    <a href="">
+    <img src="images/rentals.svg">
+    <p>Rentals</p>
+    </a>
+    </div>
+    </div>
+    </div>
+
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

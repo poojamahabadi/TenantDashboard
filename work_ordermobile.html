@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Work Order</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<!-- timepicker styles -->
+<link rel="stylesheet" href="css/jquery-clockpicker.min.css">
+    <!-- datepicker styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="l-header">
+    <div class="l-header__inner clearfix">
+    <div class="c-header-icon desktopversion_search">
+    <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    <div class="logo">
+    <div class="logo__txt">
+    <a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+    <div class="mobileversion_view">
+    <a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+    </div>
+    </div>
+    </div>
+    
+    <div class="c-search desktopversion_search">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    
+    <div class="mobileversion_view txt_heading">
+    <h3>Work Order </h3>
+    </div>
+    
+    <div class="links">
+    <ul>
+    <li class="phone desktopversion_search"> <a href="">
+    <img src="images/phone.svg"></a>
+    <div class="count_phone">
+    <span>4</span>
+    </div>
+    </li>
+    <li class="comment desktopversion_search"> <a href="">
+    <img src="images/comment.svg"></a>
+    <div class="count_comment">
+    <span>5</span>
+    </div>
+    </li>
+    <li class="email desktopversion_search"> <a href="">
+    <img src="images/email.svg"></a>
+    <div class="count_email">
+    <span>6</span>
+    </div>
+    </li>
+    <li class="notify"> <a href="">
+    <img src="images/notify.svg"></a>
+    <div class="count_notify">
+    <span>30</span>
+    </div>
+    </li>
+    </ul>
+    </div>
+    
+    <div class="c-header-icon mobileversion_view">
+    <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </header>
+    
+    
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="topsec_menu">
+    <div class="profilepic">
+    <img src="images/menu/profilemenu.svg">
+    <div class="status status_green">
+    <span></span>
+    </div>
+    </div>
+    <div class="profiledetails">
+    <p>Mae Coleman <small>Tenant</small></p>
+    <a href="">View Profile</a>
+    </div>
+    <div class="menu_scanicon">
+    <img src="images/menu/menu_scan.svg">
+    </div>
+    </div>
+    <div class="c-search menusearch">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    <div class="menu_nav">
+    <a href="myinformation.html">  <img src="images/menu/my_info.svg"> My Information</a>
+    <a href="#" class="active">  <img src="images/menu/communication.svg"> Communications</a>
+    <a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+    <a href="showings.html">  <img src="images/menu/showings.svg"> showings & offers</a>
+    <a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+    <a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+    <a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+    <a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+    <a href="#">  <img src="images/menu/scanqr.svg"> Scan QR Code</a>
+    <div class="logoutsec">
+    <div>
+    <a href="javascript:void(0);">Logout</a>
+    </div>
+    <div>
+    <button class="btn upgrade_btn">Upgrade</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    
+<main class="l-main">
+<div class="content-wrapper content-wrapper--with-bg">
+<div class="container-fluid">
+<div class="workorder_mobileview">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-12">
+            <h4>
+               <a href=""><img src="images/maintenance/work_order/leftarrw.svg"></a>
+                Work Order</h4>
+        </div>
+    </div>
+
+
+<div class="work_contentsection">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-12">
+<div class="categ_section">
+<div class="flex_containerdiv">
+<label for="category">Category</label>
+<div class="custom-dropdown">
+<div class="dropdown-selected">
+<img src="images/maintenance/work_order/painting.svg" alt="Selected"> 
+<span>Painting</span>
+<i class="fa fa-chevron-down"></i>
+</div>
+<div class="dropdown-options">
+<div class="dropdown-option" data-value="1">
+<img src="images/maintenance/work_order/animal.svg" alt="Option 1">
+<span>Animal Control</span>
+</div>
+<div class="dropdown-option" data-value="2">
+<img src="images/maintenance/work_order/appliances.svg" alt="Option 2">
+<span>Appliances</span>
+</div>
+<div class="dropdown-option" data-value="3">
+<img src="images/maintenance/work_order/health.svg" alt="Option 3">
+<span>Health & Safety</span>
+</div>
+<div class="dropdown-option" data-value="4">
+<img src="images/maintenance/work_order/blinds.svg" alt="Option 4">
+<span>Blinds</span>
+</div>
+<div class="dropdown-option" data-value="5">
+<img src="images/maintenance/work_order/carpet.svg" alt="Option 5">
+<span>Carpet-Cleaning</span>
+</div>
+<div class="dropdown-option" data-value="6">
+<img src="images/maintenance/work_order/carpet.svg" alt="Option 6">
+<span>Carpet-Installation</span>
+</div>
+<div class="dropdown-option" data-value="7">
+<img src="images/maintenance/work_order/clean.svg" alt="Option 7">
+<span>Cleaning</span>
+</div>
+<div class="dropdown-option" data-value="8">
+<img src="images/maintenance/work_order/door.svg" alt="Option 8">
+<span>Door/Window screen-Repair</span>
+</div>
+<div class="dropdown-option" data-value="9">
+<img src="images/maintenance/work_order/drywall.svg" alt="Option 9">
+<span>Drywall</span>
+</div>
+<div class="dropdown-option" data-value="10">
+<img src="images/maintenance/work_order/electrical.svg" alt="Option 10">
+<span>Electrical</span>
+</div>
+<div class="dropdown-option" data-value="11">
+<img src="images/maintenance/work_order/flooring.svg" alt="Option 11">
+<span>Flooring - Installation</span>
+</div>
+<div class="dropdown-option" data-value="12">
+<img src="images/maintenance/work_order/flooring.svg" alt="Option 12">
+<span>Flooring - Repairs</span>
+</div>
+<div class="dropdown-option" data-value="13">
+<img src="images/maintenance/work_order/foundation.svg" alt="Option 13">
+<span>Foundation Repair</span>
+</div>
+<div class="dropdown-option" data-value="14">
+<img src="images/maintenance/work_order/handywork.svg" alt="Option 14">
+<span>Handy-Work</span>
+</div>
+<div class="dropdown-option" data-value="15">
+<img src="images/maintenance/work_order/hvac.svg" alt="Option 15">
+<span>HVAC - Heating and cooling</span>
+</div>
+<div class="dropdown-option" data-value="16">
+<img src="images/maintenance/work_order/junk.svg" alt="Option 16">
+<span>Junk Removal</span>
+</div>
+<div class="dropdown-option" data-value="17">
+<img src="images/maintenance/work_order/lock.svg" alt="Option 17">
+<span>Locksmith</span>
+</div>
+
+<div class="dropdown-option" data-value="18">
+<img src="images/maintenance/work_order/mold.svg" alt="Option 18">
+<span>Mold Removal</span>
+</div>
+<div class="dropdown-option" data-value="19">
+<img src="images/maintenance/work_order/painting.svg" alt="Option 19">
+<span>Painting</span>
+</div>
+<div class="dropdown-option" data-value="20">
+<img src="images/maintenance/work_order/paving.svg" alt="Option 20">
+<span>Paving</span>
+</div>
+<div class="dropdown-option" data-value="21">
+<img src="images/maintenance/work_order/prop_ins.svg" alt="Option 21">
+<span>Property Inspection</span>
+</div>
+<div class="dropdown-option" data-value="22">
+<img src="images/maintenance/work_order/pest_cntrl.svg" alt="Option 22">
+<span>Pest Control</span>
+</div>
+<div class="dropdown-option" data-value="23">
+<img src="images/maintenance/work_order/plumb.svg" alt="Option 23">
+<span>Plumbing</span>
+</div>
+<div class="dropdown-option" data-value="24">
+<img src="images/maintenance/work_order/roof.svg" alt="Option 24">
+<span>Roofing</span>
+</div>
+<div class="dropdown-option" data-value="25">
+<img src="images/maintenance/work_order/snow.svg" alt="Option 25">
+<span>Snow Removal</span>
+</div>
+<div class="dropdown-option" data-value="26">
+<img src="images/maintenance/work_order/stairs.svg" alt="Option 26">
+<span>Stairs & Railings - Installation</span>
+</div>
+<div class="dropdown-option" data-value="27">
+<img src="images/maintenance/work_order/stairs.svg" alt="Option 27">
+<span>Stairs & Railings - Repairs</span>
+</div>
+<div class="dropdown-option" data-value="28">
+<img src="images/maintenance/work_order/duct_clean.svg" alt="Option 28">
+<span>HVAC-Duct cleaning</span>
+</div>
+<div class="dropdown-option" data-value="29">
+<img src="images/maintenance/work_order/garage.svg" alt="Option 29">
+<span>Garage Door</span>
+</div>
+<div class="dropdown-option" data-value="30">
+<img src="images/maintenance/work_order/hotwater.svg" alt="Option 30">
+<span>Hot Water Tank</span>
+</div>
+<div class="dropdown-option" data-value="31">
+<img src="images/maintenance/work_order/security.svg" alt="Option 31">
+<span>Security System</span>
+</div>
+</div>
+</div>
+</div>
+<div class="categorytxt">
+<p>Ensure you select the correct category related to the issue you are having.</p>
+</div>
+</div>
+ <!-- category section end -->
+            
+<div class="main_wrapperdiv">
+<div class="select_leftcontent">
+<div class="issue_select">
+<label>Is this first time you are informing this issue?</label>
+<div class="issuewrapper">
+<select id="customSelectissue" class="issueselectbox">
+<option value="1">Select </option>
+<option value="2">Select 1</option>
+<option value="3">Select 2</option>
+</select>
+<i class="fa fa-chevron-down"></i>
+</div>
+</div>
+<div class="descrip_div">
+<label>Description of the problem </label>
+<textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+<div class="categorytxt">
+<p>Ensure you give a very detailed description of the issue occurring.This will help us dispatch the correct technician.</p>
+</div>
+</div>
+    
+<div class="rightcontent_work">
+<div class="uploadphotos_div">
+<label>Please update photos <span>( 4 per entry )</span>  </label>
+<div class="upload-container">
+<label for="photouploadimg" class="upload-label">
+<img src="images/maintenance/work_order/plusicon.svg">
+<span class="add-entry">Add Entry</span>
+</label>
+<input type="file" id="photouploadimg" multiple accept="image/*" hidden>
+<div id="preview_photos" class="hiddenimg"></div>
+</div>
+</div>
+<p>Update a minimum of one zoomed in photo and one of the area of where the issue is occuring.</p>
+</div>
+</div><!-- main wrapper end -->
+</div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-12 text-center">
+        <button type="button" class="btn reqtechician" data-dismiss="modal">Request Technician</button>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+
+
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- work order category select box -->
+<script>
+    $(document).ready(function() {
+                $(".custom-dropdown .dropdown-selected").click(function() {
+                    $(".dropdown-options").toggle();
+                });
+    
+                $(".dropdown-option").click(function() {
+                    var selectedImg = $(this).find("img").attr("src");
+                    var selectedText = $(this).find("span").text();
+    
+                    $(".dropdown-selected img").attr("src", selectedImg);
+                    $(".dropdown-selected span").text(selectedText);
+                    $(".dropdown-options").hide();
+                });
+    
+                $(document).click(function(event) {
+                    if (!$(event.target).closest(".custom-dropdown").length) {
+                        $(".dropdown-options").hide();
+                    }
+                });
+            });
+    </script>
+    <!-- work order category select box end -->
+
+
+<!-- upload photos -->
+<script>
+
+    $(document).ready(function () {
+        let imagesArray = [];
+    
+        $("#photouploadimg").on("change", function (event) {
+            let files = event.target.files;
+            let totalFiles = imagesArray.length + files.length;
+    
+            if (totalFiles > 4) {
+                alert("You can only upload up to 4 images.");
+                return;
+            }
+    
+            for (let i = 0; i < files.length; i++) {
+                let reader = new FileReader();
+                reader.onload = function (e) {
+                    imagesArray.push(e.target.result);
+                    updatePreview();
+                };
+                reader.readAsDataURL(files[i]);
+            }
+        });
+    
+        function updatePreview() {
+            $("#preview_photos").empty();
+    
+            imagesArray.forEach((imgSrc, index) => {
+                let imgWrapper = $(`<div class="image-wrapper"></div>`);
+                let imgElement = $(`<img src="${imgSrc}" class="preview-image">`);
+                let removeBtn = $(`<button class="remove-btn">&times;</button>`);
+    
+                removeBtn.on("click", function () {
+                    imagesArray.splice(index, 1);
+                    updatePreview();
+                });
+    
+                imgWrapper.append(imgElement).append(removeBtn);
+                $("#preview_photos").append(imgWrapper);
+            });
+    
+            if (imagesArray.length === 4) {
+                $(".upload-label").addClass("hiddenimg"); // Hide when 4 images are uploaded
+            } else {
+                $(".upload-label").removeClass("hiddenimg"); // Show if images are less than 4
+            }
+    
+            $("#preview_photos").toggleClass("hiddenimg", imagesArray.length === 0);
+        }
+    });
+    
+    </script>
+    <!-- end of upload photos -->
+
+    <!-- work order issues select box -->
+<script>
+    $(document).ready(function(){
+    $("#customSelectissue").change(function(){
+      var selectedText = $("#customSelectissue option:selected").text();
+      $("#selectedValue").text(selectedText);
+    });
+  });
+</script>
+<!-- work order issues select box end-->
+
+</body>
+</html>
