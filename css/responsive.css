@@ -5090,10 +5090,6 @@ left: 60%;
 font-size: 14px;
 line-height: 15px;
 }
-.l-main {
-padding: 7em 0 0em 0;
-margin: 0 !important;
-}
 .belowpart_tenant.maintenance_div .profimg_div {
 margin-left: 26px;
 }
@@ -5649,9 +5645,6 @@ display: block;
 
 
 /* communication details  */
-.l-main {
-padding: 5em 0 0em 0;
-}
 ul.commdetails_mobileview li a.nav-link.active{
 background: #6B5E7A;
 border-radius: 20px 20px 0px 0px;
@@ -19588,6 +19581,12 @@ font-size: 15px;
 .midsche_toursec {
 margin-top: 0;
 }
+.maintenance_upcomingevents .left_arrow {
+    margin-right: 5px;
+}
+.maint_pagediv .name_addr p.addr {
+    max-width: 168px;
+}
 .certidetails_div {
 padding: 0 9px 0 10px;
 }
@@ -21628,6 +21627,9 @@ left: 14px;
 /* maintenance */
 .main_workdescrip {
 flex-basis: 71%;
+}
+.maint_pagediv .name_addr p.addr {
+    max-width: 143px;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
 width: 86px;
