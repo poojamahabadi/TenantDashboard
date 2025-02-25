@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Maintenance</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<!-- datepicker styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="css/jquery-clockpicker.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/new-stylecss.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header class="l-header">
+<div class="l-header__inner clearfix">
+<div class="c-header-icon desktopversion_search">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid"></span>
+<span class="bar-bot"></span>
+</div>
+</a>
+</div>
+<div class="logo">
+<div class="logo__txt">
+<a href="https://phpstack-1217932-4677201.cloudwaysapps.com/dashboard" class="desktopversion_logo"><img
+src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/newlogo.svg"></a>
+<div class="mobileversion_view">
+<a href="https://phpstack-1217932-4677201.cloudwaysapps.com/dashboard"><img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/mobile_logo.svg"></a>
+</div>
+
+</div>
+</div>
+<div class="c-search desktopversion_search">
+<input class="c-search__input form-control" placeholder="Search" type="text" />
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+<div class="mobileversion_view txt_heading">
+<h3>Maintenance</h3> <!-- 'Default Heading' as fallback -->
+</div>
+<div class="links">
+<ul>
+<li class="phone desktopversion_search"> <a href="">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/phone.svg"></a>
+<div class="count_phone">
+<span>4</span>
+</div>
+</li>
+<li class="comment desktopversion_search"> <a href="">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/comment.svg"></a>
+<div class="count_comment">
+<span>5</span>
+</div>
+</li>
+<li class="email desktopversion_search"> <a href="">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/email.svg"></a>
+<div class="count_email">
+<span>6</span>
+</div>
+</li>
+<li class="notify"> <a href="">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/notify.svg"></a>
+<div class="count_notify">
+<span>30</span>
+</div>
+</li>
+</ul>
+</div>
+
+<div class="c-header-icon mobileversion_view">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+</div>
+</header>
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="topsec_menu">
+<div class="profilepic">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/profilemenu.svg">
+<div class="status status_green">
+<span></span>
+</div>
+</div>
+<div class="profiledetails">
+<p>Akhil Sharma <small> - Tenant</small></p>
+<a href="">View Profile</a>
+</div>
+<div class="upgradediv">
+</div>
+</div>
+<div class="c-search menusearch">
+<!-- <input class="c-search__input form-control" placeholder="Search" type="text" />
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button> -->
+</div>
+<div class="menu_nav">
+<a href="https://phpstack-1217932-4677201.cloudwaysapps.com/dashboard" class="active">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/my_info.svg"> My Information
+</a>
+<a href="https://phpstack-1217932-4677201.cloudwaysapps.com/communications" class="">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/communication.svg"> Communications
+</a>
+<a href="https://phpstack-1217932-4677201.cloudwaysapps.com/showing/view" class="">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/showings.svg"> Showings & Offers
+</a>
+<a href="https://phpstack-1217932-4677201.cloudwaysapps.com/showing/active-lease" class="">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/active_lease.svg"> Active Lease
+</a>
+<!-- <a href="https://phpstack-1217932-4677201.cloudwaysapps.com/transactions" class="">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/transaction.svg"> Transactions
+</a> -->
+<a href="https://phpstack-1217932-4677201.cloudwaysapps.com/find-property" class="">
+<img src="https://phpstack-1217932-4677201.cloudwaysapps.com/assets/tenent/images/menu/properties.svg"> Find a Properties
+</a>
+
+<div class="logoutsec">
+<a href="https://phpstack-1217932-4677201.cloudwaysapps.com/logout"
+onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+<div class="c-menu__item__inner">
+<div class="c-menu-item__title"><span>Log Out</span></div>
+</div>
+</a>
+<form id="logout-form" action="https://phpstack-1217932-4677201.cloudwaysapps.com/logout" method="POST" style="display: none;">
+<input type="hidden" name="_token" value="HjmJAIpx3itrWHhnoQ0cpLFcWQ24Zm6SNuxctJmj" autocomplete="off">            </form>
+</div>
+</div>
+</div>
+
+
+<main class="l-main">
+<div class="content-wrapper content-wrapper--with-bg">
+<div class="container-fluid">
+<div class="map_mobile_timleine relv_mapcss">
+<div class="main_timeline">
+<div class="timeline_divorder">
+<div class="arrow_space">
+<a href=""><img src="images/maintenance/work_order/leftarrw.svg"></a>
+</div>
+<div class="flexdiv_myinfo timelinewidth">
+<div class="name_addr">
+<p class="nm">Plumbing - 65321</p>
+<p class="addr">Unit#1 - 2344 yonge st,
+Toronto, Ontario M4N7654</p>
+</div>
+</div>
+<div class="timelinestatus">
+<button class="btn commn high"><img src="images/maintenance/work_order/high_triangle.svg">High</button>
+</div>
+</div>
+
+<div class="tabsorder_section tabsmobileview_timeline">
+<ul class="nav nav-tabs">
+<li class="nav-item">
+<a class="nav-link active descriptabclk_mobile" data-toggle="tab" href="#order_description">Description</a>
+</li>
+<li class="nav-item">
+<a class="nav-link timelineclk_mobile" data-toggle="tab" href="#order_timeline">Timeline</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+
+<!-- category -->
+<div class="tab-content tabcon_timelinemobileview">
+<div class="tab-pane active container descripcontainerdiv" id="order_description">
+<div class="order_descrip_content">
+<div class="jobdescrip_order">
+<div class="headersec_order">
+<h4>
+<img src="images/maintenance/timeline/job_descrip.svg"> <span>Job Description</span>
+<a href="javascript:void(0);" class="job_editlink"><img src="images/maintenance/timeline/editicon.svg"></a>
+</h4>
+</div>
+<div class="middec_order">
+<h3>water leaking</h3>
+<p>We have identified a significant leak in the toilet located in the main bathroom.The leak appears to be continuous and has caused water to accumulate around the base ...</p>
+<div class="viewallbtn_link text-center">
+<a href="javascript:void(0);">View All</a>
+</div>
+</div>
+<div class="bottom_sectionorder">
+
+<div class="category">
+<div class="cate_label">
+<p>Category</p>
+</div>
+<div class="cate_data">
+<p>Plumbing</p>
+</div>
+<div class="categoryinputdiv">
+    <div class="issuewrapper">
+      <select id="categoryone" class="issueselectbox">
+      <option value="Plumbing">Plumbing </option>
+      <option value="Handywork">Handywork</option>
+      <option value="Cleaning">Cleaning</option>
+      </select>
+      <i class="fa fa-chevron-down"></i>
+      </div>
+  </div>
+</div>
+
+<div class="category">
+<div class="cate_label">
+<p>Submitted by </p>
+</div>
+<div class="cate_data">
+<p> Mae Coleman</p>
+</div>
+<div class="categoryinputdiv">
+    <div class="issuewrapper">
+      <select id="submitdivby" class="issueselectbox">
+      <option value="Mae Coleman">Mae Coleman</option>
+      <option value="Mae Coleman 2">Mae Coleman 2</option>
+      <option value="Mae Coleman 3">Mae Coleman 3</option>
+      </select>
+      <i class="fa fa-chevron-down"></i>
+      </div>
+  </div>
+</div>
+
+<div class="category">
+<div class="cate_label">
+<p>Submitted Date </p>
+</div>
+<div class="cate_data">
+<p>13/06/2024 02:23 AM</p>
+</div>
+<div class="categoryinputdiv">
+    <div class="issuewrapper">
+      <select id="submitdate" class="issueselectbox">
+      <option value="13/06/2024 02:23 AM">13/06/2024 02:23 AM</option>
+      <option value="13/06/2024 02:23 AM">13/06/2024 02:23 AM</option>
+      <option value="13/06/2024 02:23 AM">13/06/2024 02:23 AM</option>
+      </select>
+      <i class="fa fa-chevron-down"></i>
+      </div>
+  </div>
+</div>
+
+<div class="category">
+<div class="cate_label">
+<p>Due date </p>
+</div>
+<div class="cate_data">
+<p>14/06/2024</p>
+</div>
+<div class="categoryinputdiv">
+    <div class="issuewrapper">
+      <input type="date" class="form-control" id="duedate">
+      </div>
+  </div>
+</div>
+
+<div class="category">
+<div class="cate_label">
+<p>Scheduled  </p>
+</div>
+<div class="cate_data">
+<p>14/06/2024 10:00 AM</p>
+</div>
+<div class="categoryinputdiv">
+    <div class="issuewrapper">
+      <div class="issuewrapper">
+        <select id="submitschedule" class="issueselectbox">
+        <option value="13/06/2024 02:23 AM">14/06/2024 10:00 AM</option>
+        <option value="14/06/2024 10:00 AM">14/06/2024 10:00 AM</option>
+        <option value="14/06/2024 10:00 AM">14/06/2024 10:00 AM</option>
+        </select>
+        <i class="fa fa-chevron-down"></i>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="category">
+<div class="cate_label">
+<p>Technician </p>
+</div>
+<div class="cate_data">
+<p> Simon J. - ID# T34550</p>
+</div>
+<div class="categoryinputdiv">
+    <div class="issuewrapper">
+      <select id="techni_div" class="issueselectbox">
+      <option value=" Simon J. - ID# T34550"> Simon J. - ID# T34550</option>
+      <option value=" Simon J. - ID# T34550"> Simon J. - ID# T34550</option>
+      <option value=" Simon J. - ID# T34550"> Simon J. - ID# T34550</option>
+      </select>
+      <i class="fa fa-chevron-down"></i>
+      </div>
+      </div>
+</div>
+</div>
+<div class="sav_cancelsection">
+    <button type="button" class="btn timeline_save">save</button>
+    <button type="button" class="btn timeline_cancel">cancel</button>
+  </div>
+</div>
+<!-- left side ended -->
+
+
+<div class="rightside_sectionafter">
+<div class="bef_afterimgdecrip">
+<div class="befafter_descriptheader">
+<h4>Before & after image</h4>
+<div class="bottom_rightdetails orderbefaftr_div">
+<span class="galdiv_clr">
+<img src="images/showings/slider/gallery.svg"> <span>14</span>
+</span>
+<span class="videodiv_clr">
+<img src="images/showings/slider/video_slider.svg"> <span>1</span>
+</span>
+</div>
+</div>
+
+
+<div class="height_befafterlist">
+<div class="befafter_sectionimg">
+<div class="leftimg_bef">
+<img src="images/maintenance/timeline/beforeimg.png">
+<span>before</span>
+</div>
+<div class="rightimg_after">
+<img src="images/maintenance/timeline/afterimg.png">
+<span>after</span>
+</div>
+</div>
+
+<div class="befafter_sectionimg">
+<div class="leftimg_bef">
+<img src="images/maintenance/timeline/beforeimg.png">
+<span>before</span>
+</div>
+<div class="rightimg_after">
+<img src="images/maintenance/timeline/afterimg.png">
+<span>after</span>
+</div>
+</div>
+
+<div class="befafter_sectionimg">
+<div class="leftimg_bef">
+<img src="images/maintenance/timeline/beforeimg.png">
+<span>before</span>
+</div>
+<div class="rightimg_after">
+<img src="images/maintenance/timeline/afterimg.png">
+<span>after</span>
+</div>
+</div>
+
+<div class="befafter_sectionimg">
+<div class="leftimg_bef">
+<img src="images/maintenance/timeline/beforeimg.png">
+<span>before</span>
+</div>
+<div class="rightimg_after">
+<img src="images/maintenance/timeline/afterimg.png">
+<span>after</span>
+</div>
+</div>
+</div>
+
+
+<div class="viewallbtn_link befafter_viewall text-center mt-3">
+<a href="javascript:void(0);">View All</a>
+</div>
+</div>
+
+
+<!-- closing notes -->
+<div class="clos_notesheader">
+<div class="headersec_order">
+<h4>
+<img src="images/maintenance/timeline/job_descrip.svg"> <span>Closing Notes</span>
+</h4>
+</div>
+<div class="middec_order closenotes_decrip">
+<h3>Technician comments</h3>
+<p>I has resolved the leak issue and confirmed that the toilet is now functioning correctly. Any affected areas have been inspected, and no further damage was ...</p>
+<div class="viewallbtn_link text-center">
+<a href="javascript:void(0);">View All</a>
+</div>
+</div>
+<div class="bottom_sectionorder closenotes_list">
+<div class="category">
+<div class="cate_label">
+<p>arrival time</p>
+</div>
+<div class="cate_data">
+<p>13/06/2024 09:58 AM</p>
+</div>
+</div>
+
+<div class="category">
+<div class="cate_label">
+<p>departure time </p>
+</div>
+<div class="cate_data">
+<p>13/06/2024 11:01 AM</p>
+</div>
+</div>
+
+<div class="category">
+<div class="cate_label">
+<p>Closed By</p>
+</div>
+<div class="cate_data">
+<p>Simon J. - ID# T34550</p>
+</div>
+</div>
+
+<div class="category">
+<div class="cate_label">
+<p>Closed date </p>
+</div>
+<div class="cate_data">
+<p>13/06/2024 11:01 AM</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="viewreport_div">
+    <a href="javascript:void(0);"><img src="images/maintenance/timeline/view_report.svg">view work order report</a>
+</div>
+
+</div><!-- right side ended -->
+</div>
+</div>
+
+
+<div class="tab-pane container fade orderdivtime_linetab" id="order_timeline">
+    <div class="maporder_timelime">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977"  allowfullscreen></iframe>
+        </div>
+<div class="listorder_timelimetab ">
+<div class="list-group vertical-steps timlinetab_list">
+<div>
+<div class="list-group-item created">
+<div class="d-flex align-items-center justify-content-between">
+<div class="wideqlleft mr-2">
+<p class="mb-1 mb-sm-2"> Created </p>
+<p class="mb-0">Initial request logged by the tenant.</p>
+</div>
+<div class="wideqlright">
+<p class="mb-2"><img src="images/clock.svg"> 9:55 AM</p>
+<p class="mb-0"><img src="images/cal.svg"> 10/02/24</p>
+</div>
+</div>
+</div>
+<div class="list-group-item reviewed">
+<div class="d-flex align-items-center justify-content-between">
+<div class="wideqlleft mr-2">
+<p class="mb-1 mb-sm-2"> Reviewed</p>
+<p class="mb-0">Assessed by the property management team.</p>
+</div>
+<div class="wideqlright">
+<p class="mb-2"><img src="images/clock.svg"> 7:32 AM</p>
+<p class="mb-0"><img src="images/cal.svg">10/06/24</p>
+</div>
+</div>
+</div>
+<div class="list-group-item landlord">
+<div class="d-flex align-items-center justify-content-between">
+<div class="wideqlleft mr-2">
+<p class="mb-1 mb-sm-2"> Landlord Approved </p>
+<p class="mb-0">Landlord provides approval to proceed.</p>
+</div>
+<div class="wideqlright">
+<p class="mb-2"><img src="images/clock.svg"> 7:32 AM</p>
+<p class="mb-0"><img src="images/cal.svg">10/06/24</p>
+</div>
+</div>
+</div>
+<div class="list-group-item dispatch">
+<div class="d-flex align-items-center justify-content-between">
+<div class="wideqlleft mr-2">
+<p class="mb-2 mb-sm-2">Dispatched</p>
+<p class="mb-0">Assigned to a technician/contractor.</p>
+</div>
+<div class="wideqlright">
+<p class="mb-2"><img src="images/clock.svg"> 7:32 AM</p>
+<p class="mb-0"><img src="images/cal.svg">10/06/24</p>
+</div>
+</div>
+</div>
+<div class="list-group-item scheduled">
+<div class="d-flex align-items-center justify-content-between">
+<div class="wideqlleft mr-2">
+<p class="mb-2 mb-sm-2">Scheduled</p>
+<p class="mb-0">Technician sets an appointment with the tenant.</p>
+</div>
+<div class="wideqlright">
+<p class="mb-2"><img src="images/clock.svg"> 7:32 AM</p>
+<p class="mb-0"><img src="images/cal.svg">10/06/24</p>
+</div>
+</div>
+</div>
+<div class="list-group-item Arrived">
+<div class="d-flex align-items-center justify-content-between">
+<div class="wideqlleft mr-2">
+<p class="mb-2 mb-sm-2">Arrived</p>
+<p class="mb-0">Technician arrives at the property.</p>
+</div>
+<div class="wideqlright">
+<p class="mb-2"><img src="images/clock.svg"> 7:32 AM</p>
+<p class="mb-0"><img src="images/cal.svg">10/06/24</p>
+</div>
+</div>
+</div>
+<div class="list-group-item departed">
+<div class="d-flex align-items-center justify-content-between">
+<div class="wideqlleft mr-2">
+<p class="mb-2 mb-sm-2">Departed</p>
+<p class="mb-0">Technician completes the task.</p>
+</div>
+<div class="wideqlright">
+<p class="mb-2"><img src="images/clock.svg"> 7:32 AM</p>
+<p class="mb-0"><img src="images/cal.svg">10/06/24</p>
+</div>
+</div>
+</div>
+<div class="list-group-item tenantconfrm">
+<div class="d-flex align-items-center justify-content-between">
+<div class="wideqlleft mr-2">
+<p class="mb-2 mb-sm-2">Tenant Confirmation</p>
+<p class="mb-0">Tenant confirms the work is satisfactorily completed.</p>
+</div>
+<div class="wideqlright">
+<p class="mb-2"><img src="images/clock.svg"> 7:32 AM</p>
+<p class="mb-0"><img src="images/cal.svg">10/06/24</p>
+</div>
+</div>
+</div>
+<div class="list-group-item reviewedtenant">
+<div class="d-flex align-items-center justify-content-between">
+<div class="wideqlleft mr-2">
+<p class="mb-2 mb-sm-2">Reviewed by Tenant </p>
+<p class="mb-0">Reviewed by management & the work order is marked complete.</p>
+</div>
+<div class="wideqlright">
+<p class="mb-2"><img src="images/clock.svg"> 7:32 AM</p>
+<p class="mb-0"><img src="images/cal.svg">10/06/24</p>
+</div>
+</div>
+</div>
+<div class="list-group-item closed">
+<div class="d-flex align-items-center justify-content-between">
+<div class="wideqlleft mr-2">
+<p class="mb-2 mb-sm-2">Closed </p>
+<p class="mb-0">Final review by management, and the work order is marked complete.</p>
+</div>
+<div class="wideqlright">
+<p class="mb-2"><img src="images/clock.svg"> 7:32 AM</p>
+<p class="mb-0"><img src="images/cal.svg">10/06/24</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</main>
+
+
+
+
+<!-- mobileview menu -->
+<div class="container-fluid btmmenu">
+<div class="flex_menubottom">
+<div class="dash">
+<a href="">
+<img src="images/dashboard.svg">
+<p>Dashboard</p>
+</a> 
+</div>
+<div class="commu">
+<a href="">
+<img src="images/communication.svg">
+<p>Communication</p>
+</a>
+</div>
+<div class="maint">
+<a href="">
+<img src="images/maintenance.svg">
+<p>Maintenance</p>
+</a>
+</div>
+<div class="rent">
+<a href="">
+<img src="images/rentals.svg">
+<p>Rentals</p>
+</a>
+</div>
+</div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- edit js -->
+<script>
+$(".job_editlink").click(function(){
+  $(".categoryinputdiv,.sav_cancelsection").show();
+  $(".job_editlink").addClass("applyheight");
+  $(".jobdescrip_order .cate_data").hide();
+});
+
+$(".timeline_cancel").click(function(){
+  $(".categoryinputdiv,.sav_cancelsection").hide();
+  $(".jobdescrip_order .cate_data").show();
+});
+</script>
+      <!-- edit js -->
+
+<script>
+    // before after images list scrollbar
+$(document).ready(function () {
+    let touchStartY = 0;
+    let touchEndY = 0;
+    
+    $(".height_befafterlist").on("touchstart", function (e) {
+        touchStartY = e.touches[0].clientY;
+    });
+
+    $(".height_befafterlist").on("touchmove", function (e) {
+        touchEndY = e.touches[0].clientY;
+        this.scrollTop += touchStartY - touchEndY;
+        touchStartY = touchEndY;
+        e.preventDefault(); // Prevent default page scroll
+    });
+});
+
+$(document).ready(function(){
+  // Check if "Description" tab is active on page load
+  if ($(".descriptabclk_mobile").hasClass("active")) {
+        $(".map_mobile_timleine").addClass("css_remove_position");
+    }
+    // Handle tab switching
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        if ($(e.target).hasClass("descriptabclk_mobile")) {
+            $(".map_mobile_timleine").addClass("css_remove_position");
+        } else {
+            $(".map_mobile_timleine").removeClass("css_remove_position");
+        }
+    });
+});
+</script>
+
+</body>
+</html>
