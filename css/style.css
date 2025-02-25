@@ -13573,6 +13573,7 @@ flex-basis: 49%;
 .orderdivtime_linetab .vertical-steps .list-group-item .wideqlright p:first-child,.orderdivtime_linetab .vertical-steps .list-group-item .wideqlright p:nth-child(2){
 color:#315D80;
 }
+
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item::before {
 display: inline-flex;
 float: left;

@@ -632,13 +632,14 @@ Toronto, Ontario M4N7654</p>
 <script>
 $(".job_editlink").click(function(){
   $(".categoryinputdiv,.sav_cancelsection").show();
-  $(".job_editlink").addClass("applyheight");
+  $(".jobdescrip_order").addClass("applyheight");
   $(".jobdescrip_order .cate_data").hide();
 });
 
 $(".timeline_cancel").click(function(){
   $(".categoryinputdiv,.sav_cancelsection").hide();
   $(".jobdescrip_order .cate_data").show();
+  $(".jobdescrip_order").removeClass("applyheight");
 });
 </script>
       <!-- edit js -->

@@ -5466,6 +5466,9 @@ width: 57%;
 .categoryinputdiv .issuewrapper .fa {
     right: 10px;
 }
+.jobdescrip_order.applyheight,.jobdescrip_order{
+    max-height: unset;
+}
 .height_befafterlist{
     height: 500px;
     overflow-y: scroll; /* Enable scrolling */
@@ -5490,7 +5493,6 @@ width: 57%;
 .height_befafterlist::-webkit-scrollbar {
     display: none; /* Hide scrollbar in Chrome, Safari */
   }
-
 .relv_mapcss.css_remove_position {
     margin: 0;
 }
@@ -19937,6 +19939,9 @@ font-size: 15px;
 .main_timeline {
     width: 325px;
 }
+.main_timeline .flexdiv_myinfo .nm {
+    font-size: 13px;
+}
 .categoryinputdiv .issuewrapper, .categoryinputdiv input.form-control {
     width: 169px;
 }
@@ -22071,6 +22076,9 @@ left: 14px;
 /* maintenance */
 .main_workdescrip {
 flex-basis: 71%;
+}
+.categoryinputdiv .issueselectbox, .categoryinputdiv input.form-control {
+    font-size: 12px;
 }
 .listorder_timelimetab {
     padding: 20px 10px 12px 10px;
