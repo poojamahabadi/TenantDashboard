@@ -5824,7 +5824,7 @@ border-radius: 30px;
     }
     .btn.reqtechician {
         width: 318px;
-        margin: 20px 0 30px 0;
+        margin: 20px auto 30px auto;
         letter-spacing: 1px;
     }
 .categ_section{
@@ -20096,6 +20096,9 @@ font-size: 15px;
 /* maintenance */
 .flex_containerdiv label,.descrip_div label, .workorder_mobileview .issue_select label, .workorder_mobileview .uploadphotos_div label {
     font-size: 12px;
+}
+.orderdivtime_linetab .list-group.vertical-steps {
+    width: 94%;
 }
 .succ_msg p{
     font-size: 14px;
