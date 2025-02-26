@@ -12837,8 +12837,8 @@ border: unset;
 
 /* work order */
 .modal.workorder_modal .modal-body{
-padding: 10px 71px 44px 71px;
-border-radius: 0 0 17px 17px;
+    padding: 10px 68px 44px 68px;
+    border-radius: 0 0 17px 17px;
 border: unset;
 background: #EDF2FA;
 }
@@ -12856,18 +12856,25 @@ outline: none;
 border: unset;
 margin: 8px auto 0 auto;
 }
+.workorder_modal .issuewrapper {
+    width: 100%;
+}
 .workorder_modal .modal-footer{
 border: unset;
 }
 .categ_section .custom-dropdown {
 position: relative;
-width: 223px;
+width: 100%;
+}
+.categorytxt{
+    flex-basis: 49%;
 }
 .flex_containerdiv{
 background: #315D80;
 border-radius: 20px;
 display: flex;
-gap: 20px;
+gap: 27px;
+flex-basis: 49%;
 padding: 5px 6px 5px 15px;
 align-items: center;
 }
@@ -12880,16 +12887,15 @@ color: #FFFFFF;
 margin:0;
 }
 .categ_section .dropdown-selected {
-text-align: center;
-
-padding: 4px 10px;
-background: #C9D7E5;
-border-radius: 20px;
-cursor: pointer;
-font-size: 14px;
-font-weight: 400;
-color: #315D80;
-line-height: 22px;
+    text-align: center;
+    padding: 4px 22px 4px 8px;
+    background: #C9D7E5;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: #315D80;
+    line-height: 22px;
 }
 .categ_section .dropdown-selected img {
 width: 16px;
@@ -13057,6 +13063,15 @@ margin: 1.3em 0 0 0;
 background: #C9D7E5;
 border-radius: 20px;
 resize: none;
+color:#315D80;
+font-size: 14px;
+font-weight: 400;
+border: unset;
+}
+.descrip_div textarea.form-control:focus{
+    box-shadow: unset;
+    border: unset;
+    background: #C9D7E5;
 }
 
 /* upload photos */
@@ -13123,6 +13138,7 @@ font-size: 16px;
 line-height:20px;
 text-align: center;
 color: #315D80;
+margin:0 auto 10px auto;
 }
 .successful_modaldiv{
 text-align: center;
@@ -13154,16 +13170,18 @@ border-radius: 5px;
 border: 1px solid #ddd;
 }
 .remove-btn {
-position: absolute;
-top: -5px;
-right: -5px;
-background: red;
-color: white;
-border: none;
-border-radius: 50%;
-width: 20px;
-height: 20px;
-cursor: pointer;
+    position: absolute;
+    top: -5px;
+    right: -6px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 19px;
+    height: 20px;
+    cursor: pointer;
+    padding: 0;
+    font-size: 13px;
 }
 /* end of work order pop up */
 
@@ -13440,12 +13458,12 @@ padding: 1px 14px 1px 10px;
 padding: 1px 21px 1px 10px;
 }
 .orderbefaftr_div .galdiv_clr img {
-height: 10px;
-width: 10px;
+    height: 11px;
+    width: 11px;
 }
 .orderbefaftr_div .videodiv_clr img{
-height: 10px;
-width: 12px;  
+    height: 12px;
+    width: 13px;  
 }
 .befafter_sectionimg{
 display: flex;
@@ -13456,7 +13474,7 @@ position: relative;
 }
 .leftimg_bef span,.rightimg_after span{
 position: absolute;
-top: 3px;
+top: 4px;
 border-radius: 4px;
 font-weight: 700;
 font-size: 12px;
@@ -13527,34 +13545,34 @@ padding: 0px 0px 20px 20px;
 background-color: unset;
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item.created::before {
-content: url('/images/maintenance/timeline/created.svg');
+content: url('../images/maintenance/timeline/created.svg');
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item.reviewed::before {
-content: url('/images/maintenance/timeline/reviewed.svg');
+content: url('../images/maintenance/timeline/reviewed.svg');
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item.landlord::before {
-content: url('/images/maintenance/timeline/landlord_apprv.svg');
+content: url('../images/maintenance/timeline/landlord_apprv.svg');
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item.dispatch::before {
-content: url('/images/maintenance/timeline/dispatch.svg');
+content: url('../images/maintenance/timeline/dispatch.svg');
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item.scheduled::before {
-content: url('/images/maintenance/timeline/schedule.svg');
+content: url('../images/maintenance/timeline/schedule.svg');
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item.Arrived::before {
-content: url('/images/maintenance/timeline/arrive.svg');
+content: url('../images/maintenance/timeline/arrive.svg');
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item.departed::before {
-content: url('/images/maintenance/timeline/departed.svg');
+content: url('../images/maintenance/timeline/departed.svg');
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item.tenantconfrm::before {
-content: url('/images/maintenance/timeline/tenant_confirm.svg');
+content: url('../images/maintenance/timeline/tenant_confirm.svg');
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item.reviewedtenant::before {
-content: url('/images/maintenance/timeline/review_tenant.svg');
+content: url('../images/maintenance/timeline/review_tenant.svg');
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item.closed::before {
-content: url('/images/maintenance/timeline/closed.svg');
+content: url('../images/maintenance/timeline/closed.svg');
 }
 .flexdiv_timelineparent{
 display: flex;
@@ -13573,7 +13591,6 @@ flex-basis: 49%;
 .orderdivtime_linetab .vertical-steps .list-group-item .wideqlright p:first-child,.orderdivtime_linetab .vertical-steps .list-group-item .wideqlright p:nth-child(2){
 color:#315D80;
 }
-
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item::before {
 display: inline-flex;
 float: left;

@@ -1,5 +1,22 @@
 @media only screen and (max-width: 1920px) and (min-width: 992px)  {
 /* maintenance */
+/* work order */
+.modal.workorder_modal .modal-dialog {
+    max-width: 62%;
+}
+.succ_msg p {
+    width: 55%;
+    margin: 0 auto;
+}
+.modal.workorder_modal.successfullorder  .modal-body {
+    padding: 10px 68px 75px 68px;
+}
+/* end of work order */
+/* timeline pop up */
+.timeline_divorder .linediv.redclr:before {
+    height: 100%;
+}
+/* end of timeline pop up */
 .modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
 max-width: 1014px;
 }
@@ -303,6 +320,11 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 1600px) {
+/* work order */
+.succ_msg p {
+    width: 68%;
+}
+/* end of work order */
 /* maintenance */
 .maint_pagediv .stat_div {
 margin: 1px 0 1px 60px;
@@ -553,6 +575,11 @@ left: -25px;
 }
 
 @media only screen and (max-width: 1400px){
+/* work order */
+.succ_msg p {
+    width: 79%;
+}
+/* end of work order */
 /* maintenance */
 .maint_pagediv .stat_div {
 margin: 1px 0 1px 36px;
@@ -745,6 +772,9 @@ left: -3px;
 
 @media only screen and (max-width: 1366px){
 /* maintenance */
+.modal.workorder_modal .modal-dialog {
+    max-width: 68%;
+}
 .belowpart_tenant.maintenance_div .profimg_div img{
 height: 146px;
 width: 146px;
@@ -1400,8 +1430,15 @@ margin-left: 212px;
 
 
 @media only screen and (max-width: 1200px){
-
+/* work order */
+.categ_section .dropdown-option {
+    padding: 6px 14px;
+}
+/* end of work order */
 /* maintenance */
+.modal.workorder_modal .modal-dialog {
+    max-width: 73%;
+}
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
 padding: 9px 0 0 0;
 }
@@ -1833,6 +1870,11 @@ font-size: 15px;
 }
 
 @media only screen and (max-width:1136px){
+/* work order */
+.modal.workorder_modal .modal-dialog {
+    max-width: 77%;
+}
+/* end of work order */
 /* my team */
 .my_teamdiv {
 padding: 17px 4px 17px 25px;
@@ -1842,6 +1884,12 @@ margin: 0;
 }
 /* end of my team */
 /* maintenance */
+
+/* timeline  */
+.timelinewidth {
+    flex-basis: 32%;
+}
+/* end of timeline */
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
 width: 92%;
 }
@@ -2419,6 +2467,9 @@ right: -5px;
 
 @media only screen and (max-width:1080px){
 /* maintenance */
+.modal.workorder_modal .modal-dialog {
+    max-width: 80%;
+}
 .modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
 max-width: 96%;
 }
@@ -2925,6 +2976,12 @@ right: -15px;
 
 @media only screen and (max-width:1024px){
 /* maintenance */
+
+/* timeline */
+.modal.workorder_modal .modal-dialog {
+    max-width: 85%;
+}
+/* end of timeline */
 .techni_profsection .statusmodal {
 right: 10px;
 }
@@ -3388,6 +3445,12 @@ margin: 10px 0 0 0;
 
 @media only screen and (max-width:992px){
 /* maintenance */
+
+/* timeline */
+.modal.workorder_modal .modal-dialog {
+    max-width: 87%;
+}
+/* end of timeline */
 .maint_pagediv .infopad {
 padding: 0 3px;
 }
@@ -3959,6 +4022,40 @@ padding: 4px 22px 4px 12px;
 }
 @media only screen and (max-width:800px){
 /* maintenance */
+/* work order */
+.succ_msg p {
+    width: 89%;
+}
+.modal.workorder_modal .modal-dialog {
+    max-width: 92%;
+}
+.modal.workorder_modal .modal-body {
+    padding: 10px 38px 44px 38px;
+}
+/* end of work order */
+/* timeline */
+.timelinepop_up .modal-dialog {
+    max-width: 93%;
+}
+.orderbefaftr_div .galdiv_clr {
+    padding: 1px 31px 1px 10px;
+}
+.jobdescrip_order.applyheight {
+    max-height: 513px;
+}
+.timelinewidth {
+        flex-basis: 36%;
+}
+.timedate_line {
+    flex-basis: 28%;
+}
+.jobdescrip_order {
+    max-height: 422px;
+}
+.timelinepop_up .modal-content {
+    width: 100%;
+}
+/* end of timeline */
 .reqservdiv_styl img {
 height: 41px;
 width: 41px;
@@ -5080,8 +5177,22 @@ padding: 14px 20px;
 }
 
 @media only screen and (max-width:768px){
-
+/* work order */
+.categ_section .dropdown-selected {
+    padding: 4px 21px 4px 6px;
+    font-size: 12px;
+}
+.flex_containerdiv {
+    gap: 13px;
+}
+.flex_containerdiv label,.categ_section .dropdown-option span {
+    font-size: 12px;
+}
+/* end of work order */
 /* maintenance */
+.headersec_order h4 span,.befafter_descriptheader h4 {
+    font-size: 16px;
+}
 .certifidiv_flexcontainer .btn.btnview_div {
 width: 36%;
 left: 60%;
@@ -5463,6 +5574,28 @@ width: 57%;
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
 /* timeline mobile view */
+.successful_modaldiv h4{
+
+}
+.tabcon_timelinemobileview .container {
+    max-width: 100%;
+}
+.flex_containerdiv label,.descrip_div label, .workorder_mobileview .issue_select label,.workorder_mobileview .uploadphotos_div label {
+    font-size: 14px;
+}
+.uploadphotos_div .upload-container label.upload-label {
+    padding-left:0px;
+}
+.workorder_mobileview h4 {
+    margin: 0 0 15px 0;
+}
+.categ_section .dropdown-selected ,.work_contentsection .issueselectbox{
+    font-size: 14px;
+}
+.workorder_mobileview{
+    width: 95%;
+    margin: 0 auto;
+}
 .categoryinputdiv .issuewrapper .fa {
     right: 10px;
 }
@@ -5564,8 +5697,8 @@ font-weight: 400;
 font-size: 10px;
 }
 .orderdivtime_linetab .list-group.vertical-steps {
-    width: 86%;
-    margin: 0 auto;
+    width: 89%;
+    margin: 0 0 0 auto;
     flex-direction: column;
 }
 
@@ -5665,11 +5798,11 @@ height: 100%;
 line-height: 37px;
 border-radius: 30px;
 }
-.work_contentsection{
-background: #EDF2FA;
-border-radius: 17px;
-padding: 20px;
-margin: 0 0 10px 0;
+.work_contentsection {
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 10px 15px;
+    margin: 0 0 10px 0;
 }
 .successful_modaldiv {
     margin: 4em 0 3em 0;
@@ -5689,10 +5822,11 @@ margin: 0 0 10px 0;
     color: #315D80;
     margin:0;
     }
-.btn.reqtechician{
-width: 318px;
-margin:20px 0 30px 0;
-}
+    .btn.reqtechician {
+        width: 318px;
+        margin: 20px 0 30px 0;
+        letter-spacing: 1px;
+    }
 .categ_section{
 flex-direction: column;
 width: 100%;
@@ -5708,6 +5842,7 @@ font-weight: 700;
 .upload-container {
 height:auto;
 min-height: 107px;
+padding: 18px 10px;
 }
 .descrip_div textarea {
 max-height: 107px;
@@ -8954,6 +9089,12 @@ right: 13px;
 }
 @media only screen and (max-width: 640px){
 /* maintenance */
+.succ_msg p {
+    width: 95%;
+}
+.orderdivtime_linetab .list-group.vertical-steps {
+    width: 90%;
+}
 .relv_mapcss.css_remove_position {
     margin: 102px 0 0 0px;
 }
@@ -9983,9 +10124,6 @@ width: 85px;
 /* schedule showings */
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
 margin-left: -38px;
-}
-.l-main {
-margin: 0em 0 0em 0 !important;
 }
 .similar_unitsdiv.toursche_slidiv .leaseddetails_slider .bed_details img {
 margin: 6px 0 3px 0;
@@ -11661,7 +11799,6 @@ padding: 0;
 margin: 1em 0 0 0;
 }
 .flex_menubottom p{
-font-family: 'Helvetica Rounded';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -12109,13 +12246,13 @@ top: 11px;
 margin: 8px 0 0 0;
 }
 .viewreport_div {
-    margin-bottom: 5em;
+    margin-bottom: 4.1em;
 }
 .orderdivtime_linetab .list-group.vertical-steps {
-    width: 90%;
+    width: 93%;
 }
 .relv_mapcss {
-    margin: 42px 0 0 0px;
+    margin: 39px 0 0 0px;
 }
 .main_timeline {
     left: 10%;
@@ -13817,7 +13954,7 @@ margin: 0 0 0 10px;
     margin: 5px 0 0 0;
 }
 .main_timeline {
-    left: 3%;
+    left: 3.5%;
 }
 .relv_mapcss {
     margin: 39px 0 0 0px;
@@ -15445,13 +15582,16 @@ left: -18px;
 
 @media only screen and (max-width: 394px) {
 /* maintenance */
+.succ_msg p {
+    width: 100%;
+}
+/* timeline */
+.orderdivtime_linetab .list-group.vertical-steps {
+    width: 92%;
+}
 .main_timeline {
     width: 358px;
     left: 4.5%;
-}
-.orderdivtime_linetab .list-group.vertical-steps {
-    width: 95%;
-    margin: 0 0 0 auto;
 }
 .main_timeline .timelinestatus {
     flex-basis: 34%;
@@ -15474,6 +15614,7 @@ left: -18px;
 .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs li {
     width: 179px;
 }
+/* timeline end */
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
 width: 107px;
 }
@@ -16039,6 +16180,12 @@ height: 21px;
 
 @media only screen and (max-width: 386px) and (min-width:377px) {
     /* maintenance  */
+    /* timeline */
+    .bottom_sectionorder .category p {
+        font-size: 13px;
+        padding: 6px 0;
+    }
+
 .main_timeline {
 width: 358px;
 }
@@ -16057,6 +16204,7 @@ width: 358px;
 .relv_mapcss.css_remove_position {
 margin: 0px;
 }
+    /* timeline end*/
 .abt_rev_certifi ul.nav.nav-tabs .nav-item {
 margin: 0 8px 0 0;
 font-size: 16px;
@@ -18126,6 +18274,16 @@ width: 37%;
 @media only screen and (max-width: 361px) and (min-width:341px) {
 
 /* maintenance  */
+.categoryinputdiv .issueselectbox {
+    font-size: 12px;
+}
+.succ_msg p{
+    font-size: 14px;
+    line-height: 19px;
+}
+.btn.reqtechician {
+    width: 100%;
+}
 .categoryinputdiv .issuewrapper, .categoryinputdiv input.form-control {
     width: 169px;
     font-size: 13px;
@@ -18158,7 +18316,7 @@ width:100%;
     margin-bottom: 5.3em;
 }
 .orderdivtime_linetab .list-group.vertical-steps {
-    width: 96%;
+    width: 93%;
 }
 .listorder_timelimetab {
     padding: 25px 10px 39px 10px;
@@ -19936,6 +20094,23 @@ font-size: 15px;
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
 /* maintenance */
+.flex_containerdiv label,.descrip_div label, .workorder_mobileview .issue_select label, .workorder_mobileview .uploadphotos_div label {
+    font-size: 12px;
+}
+.succ_msg p{
+    font-size: 14px;
+    line-height: 19px;
+}
+.btn.reqtechician {
+    width: 100%;
+}
+.categ_section .dropdown-selected, .work_contentsection .issueselectbox {
+    font-size: 13px;
+}
+/* timeline */
+.descripcontainerdiv .galdiv_clr span, .descripcontainerdiv .videodiv_clr span {
+    font-size: 11px;
+}
 .main_timeline {
     width: 325px;
 }
@@ -20027,6 +20202,7 @@ font-size: 15px;
 .relv_mapcss.css_remove_position {
     margin: 0;
 }
+/* end of timeline */
 .midsche_toursec {
 margin-top: 0;
 }
