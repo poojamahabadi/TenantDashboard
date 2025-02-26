@@ -5574,9 +5574,7 @@ width: 57%;
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
 /* timeline mobile view */
-.successful_modaldiv h4{
 
-}
 .tabcon_timelinemobileview .container {
     max-width: 100%;
 }
