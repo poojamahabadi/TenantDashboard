@@ -10425,8 +10425,8 @@ margin: 0px 14px 0 0;
 .mobile_listview .viewdescrip_reqserv_list p {
 font-size: 12px;
 }
-.leftsec_listdiv{
-flex-basis: 20%;
+.leftsec_listdiv {
+    flex-basis: 15%;
 }
 .maintenance_upcomingevents .listdate_show p {
 font-size: 10px;
@@ -10439,8 +10439,8 @@ width: 11px;
 .mobile_listview .listtab_txt p {
 margin: 0 9px;
 }
-.rightsec_listdiv{
-flex-basis: 80%;
+.rightsec_listdiv {
+    flex-basis: 84%;
 }
 .maintenance_upcomingevents .headingcalen h3 img {
 width: 22px;
@@ -10451,14 +10451,15 @@ display: flex;
 align-items: center;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-margin: 0;
-padding: 14px 20px;
-align-items: center;
-display: flex;
+    margin: 0;
+    padding: 14px 43px 14px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 .mobile_listview .timings_datalist {
 justify-content: space-between;
-margin: 0;
+margin: 4px 0px 0px 0px;
 align-items: end;
 }
 .maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
@@ -10583,9 +10584,6 @@ margin: 0;
 padding: 0;
 line-height: 25px;
 }
-.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-margin: 0 auto 0 -5px;
-}
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .btnappoint button.btn.btn_appoint.mobilebook {
 padding: 6px 9px;
 width: 107px;
@@ -10627,11 +10625,15 @@ margin: 0 3px 0 0px;
 text-align: center;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-max-height: 76px;
-padding: 7px 7px 9px 22px;
+    max-height: 76px;
+    padding: 7px 7px 9px 12px;
+}
+.mainteam_mobileview .teamtxt {
+    margin: 0 0 0 -4px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-width: 74%;
+    width: 45%;
+    margin: 0 auto 0 -18px;
 }
 .myteam_mobileview.mainteam_mobileview .myleaseteam_flex.desk .prof_name p:nth-child(2) {
 font-size: 8px;
@@ -12299,6 +12301,10 @@ top: 11px;
 .reqserv_descrip {
 margin: 8px 0 0 0;
 }
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    width: 50%;
+    margin: 0 auto 0 -6px;
+}
 .viewreport_div {
     margin-bottom: 4.1em;
 }
@@ -12350,7 +12356,7 @@ flex-basis: 69%;
 flex-basis: 33%;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-padding: 5px 7px 9px 22px;
+    padding: 8px 7px 8px 14px;
 }
 .maintenance_upcomingevents .seldatebox {
 flex-basis: 59%;
@@ -13994,10 +14000,13 @@ margin: 0 0 0 10px;
 
 
 
-@media only screen and (max-width: 415px) and (min-width:387px) {
+@media only screen and (max-width: 415px) and (min-width:388px) {
 /* communication */
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 78%;
+}
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    width: 78%;
 }
 /* end of communication */
 /* maintenance */
@@ -14103,7 +14112,8 @@ flex-basis: 59%;
 padding: 3px 0 9px 0px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-width: 79%;
+    width: 77%;
+    margin: 0 auto 0 -8px;
 }
 .viewdescrip_reqserv_list h3 {
 font-size: 13px;
@@ -14122,9 +14132,6 @@ font-size: 11px;
 .maintenance_upcomingevents .eventtxtdiv .eventinfotxtdivp{
 left: 10px;
 }
-.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-padding: 5px 3px 9px 10px;
-}
 .maintenancepage .myinfo_txt {
 flex-basis: 53%;
 }
@@ -14142,7 +14149,7 @@ width: 100%;
 margin: 0px 9px 0 0;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-padding: 14px 13px;
+    padding: 14px 31px 14px 15px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
 line-height: 13px;
@@ -15671,6 +15678,9 @@ left: -18px;
 .succ_msg p {
     width: 100%;
 }
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    width: 78%;
+}
 /* timeline */
 .orderdivtime_linetab .list-group.vertical-steps {
     width: 92%;
@@ -16264,7 +16274,7 @@ height: 21px;
 
 
 
-@media only screen and (max-width: 386px) and (min-width:377px) {
+@media only screen and (max-width: 387px) and (min-width:377px) {
 /* communication */
 .contact-list .contact .name {
     font-size: 14px;
@@ -16303,6 +16313,13 @@ ul.mobview_commu_tabs li a.nav-link {
 }
 /* end of communication */
     /* maintenance  */
+    .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+        margin: 0 auto 0 0px;
+        width: 74%;
+    }
+    .calenderview_div.maintenance_upcomingevents .listrow {
+        padding: 14px 17px 14px 14px;
+    }
     /* timeline */
     .bottom_sectionorder .category p {
         font-size: 13px;
@@ -17034,6 +17051,10 @@ ul.mobview_commu_tabs li a.nav-link{
 }
 /* end of communication */
 /* maintenance */
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    width: 73%;
+    margin: 0 auto 0 0px;
+}
 .relv_mapcss.css_remove_position {
     margin: 0;
 }
@@ -17158,7 +17179,7 @@ margin: -82px 0 0 17px;
 width:100%;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-padding: 11px 8px;
+    padding: 11px 24px 11px 8px;
 }
 .reqserv_descrip p {
 font-size: 13px;
@@ -17185,7 +17206,7 @@ margin: 6px 0 0 0;
 margin: 12px 17px 0 0px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-padding: 7px 5px 9px 6px;
+    padding: 7px 5px 9px 9px;
 }
 .myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
 line-height: 11px;
@@ -18627,7 +18648,8 @@ margin: 0 auto;
 padding: 18px 8px 15px 8px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-width: 88%;
+    width: 76%;
+    margin: 0 auto 0 -2px;
 }
 .mobile_listview .listdate_show p img {
 vertical-align: middle;
@@ -18661,11 +18683,14 @@ font-size: 11px;
 .mobile_listview .listtab_txt p {
 margin: 0 5px;
 }
+.mobile_listview .timings_datalist {
+    margin: 2px 0px 0px 0px;
+}
 .calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
 margin: 0px 6px 0 0;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-padding: 9px 8px;
+    padding: 9px 23px 9px 8px;
 }
 .maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
 font-size: 16px;
@@ -20344,6 +20369,10 @@ ul.mobview_commu_tabs li a.nav-link {
 }
 /* end of communication */
 /* maintenance */
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+    width: 79%;
+    margin: 0 auto 0 -3px;
+}
 .flex_containerdiv label,.descrip_div label, .workorder_mobileview .issue_select label, .workorder_mobileview .uploadphotos_div label {
     font-size: 12px;
 }
@@ -20577,9 +20606,7 @@ margin: 0 auto 0 auto;
 .calenderview_div.maintenance_upcomingevents {
 padding: 18px 9px 15px 9px;
 }
-.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-width: 94%;
-}
+
 .maintenancepage .c-search.menusearch .c-search__input {
 height: 43px;
 font-size: 13px;

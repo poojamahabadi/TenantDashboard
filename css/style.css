@@ -1149,7 +1149,7 @@ text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
 .flexdiv_myinfo .nm {
 color: #315d80;
 text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-margin: 0;
+margin: 0 0 8px 0;
 }
 .clocktime span img, .datetime span img {
 vertical-align: text-top;
@@ -2329,15 +2329,15 @@ width:30px;
 .listviewsec_cal .yellowclr:before {
 background: #f1d15b;
 }
-.viewdescrip_reqserv_list h3{
-font-family: 'Helvetica';
-font-weight: 700;
-font-size: 14px;
-line-height:17px;
-text-transform: capitalize;
-color: #315D80;
-text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-margin: 0 0 3px 0;
+.viewdescrip_reqserv_list h3 {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #315D80;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    margin: 0 0 5px 0;
 }
 .viewdescrip_reqserv_list p{
 font-weight: 400;
@@ -13267,8 +13267,8 @@ flex-basis: 30%;
 display: flex;
 align-items: baseline;
 }
-.timelinestatus .stat_div{
-margin:0 25px 0 0;
+.timelinestatus .stat_div {
+    margin: 0 17px 0 0;
 }
 .timelinestatus .btn.commn.high{
 width: 101px;
@@ -13625,11 +13625,11 @@ flex-basis: 49%;
 color:#315D80;
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item::before {
-display: inline-flex;
-float: left;
-height: 25px;
-width: 25px;
-margin: 2px 0 0 -35px;
+    display: inline-flex;
+    float: left;
+    height: 25px;
+    width: 25px;
+    margin: -3px 0 0 -35px;
 }
 .orderdivtime_linetab .vertical-steps .list-group-item .wideqlleft p:first-child{
 font-size: 14px;
@@ -13641,7 +13641,7 @@ color: #315D80;
 font-size: 11px;
 }
 .listorder_timelimetab .list-group .list-group-item > div{
-margin:0 0 20px 0;
+    margin: 3px 0 20px 0;
 }
 .maporder_timelime iframe{
 height: 375px;
