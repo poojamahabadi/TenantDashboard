@@ -2106,7 +2106,6 @@ color: #315d80;
 background: #f1d15b;
 }
 .amount_trans h3 {
-font-family: 'Helvetica Rounded';
 font-weight: 700;
 font-size: 22px;
 line-height: 26px;
@@ -2123,7 +2122,6 @@ color: #315d80;
 margin: 0;
 }
 .trans_txt h3 {
-font-family: 'Helvetica Rounded';
 font-weight: 700;
 font-size: 22px;
 line-height: 25px;
@@ -2538,7 +2536,7 @@ margin: -83px 0 0 27px;
 width: 100%;
 position:unset;
 }
-.maintenance_div .profimg_div img {
+.belowpart_tenant.maintenance_div .profimg_div img {
 height: 146px;
 width: 146px;
 }
@@ -7188,6 +7186,14 @@ display: none;
 /* end of calender view showings */
 
 /* communication */
+.accept_ic_comm{
+    display: inline-block;
+    margin: 0 10px 0 0px;
+}
+.bottomcommu_details ul li.event_img a img{
+    width: 14px;
+    height: 16px;
+}
 ul.commdetails_mobileview {
 justify-content: space-between;
 border: unset;
@@ -7471,6 +7477,21 @@ margin-left: 13px;
 /* end of communication */
 
 /* communication calls */
+ul.mobview_commu_tabs li a.nav-link.active .req_count{
+    background: #ffffff;
+    border: 2px solid #315d80;
+    line-height: 18px;
+    height: 20px;
+    width: 20px;
+    top: -4px;
+    color:#315d80;
+}
+.padcont_info{
+    padding: 7px;
+}
+.pad_letters{
+    padding: 0 7px;
+}
 .contact-list {
 list-style: none;
 margin: 0;
@@ -7516,6 +7537,12 @@ list-style-type: none;
 padding: 0;
 margin:0;
 }
+.customerservice_popup .salescommuni_div ul.main_sec > li{
+    padding:0;
+}
+.customerservice_popup .salescommuni_div li .topsec_salesdiv,.customerservice_popup .salescommuni_div li.active .topsec_salesdiv{
+    padding: 13px 10px 13px 17px;
+}
 .popupsales.bottomcommu_details ul {
 padding: 8px 0 8px 0;
 width: 90%;
@@ -7526,12 +7553,17 @@ padding: 0 0 3em 0;
 }
 .salescommuni_div ul.main_sec > li.active{
 border-bottom: 1px solid transparent;
-padding: 0;
+}
+.salesmod_popup .salescommuni_div ul.main_sec > li {
+    padding: 8px 10px 15px 16px;
+}
+.salesmod_popup .salescommuni_div ul.main_sec > li.active{
+    padding: 0;
 }
 .salescommuni_div ul.main_sec > li{
-margin: 9px 0;
+margin: 0px 0 9px 0;
 border-bottom: 1px solid rgba(191, 204, 217, 1);
-padding: 8px 10px 15px 23px;
+padding: 8px 10px 15px 10px;
 }
 .salescommuni_div li .topsec_salesdiv{
 background-color: unset;
@@ -7540,12 +7572,12 @@ border-radius: 12px;
 .salescommuni_div.custcommu_div li.active .topsec_salesdiv{
 background: #EDF2FA;
 border-radius: 12px;
-padding: 16px 10px 15px 23px;
+
 }
 .salescommuni_div li.active .topsec_salesdiv{
 background: #EDF2FA;
 border-radius: 12px 12px 0px 0px;
-padding: 13px 10px 13px 23px;
+padding: 16px 10px 15px 10px;
 }
 .contact.borderradius_add{
 border-radius: 27px;
@@ -7620,6 +7652,7 @@ color: #315D80;
 }
 .sal_custserv a img{
 margin-right: 5px;
+vertical-align: bottom;
 }
 .sal_custserv{
 text-align: center;
@@ -7744,13 +7777,13 @@ border-right: 1px solid #EEF4FF;
 ul.mobview_commu_tabs li a.nav-link{
 font-weight: 700;
 font-size: 14px;
-line-height:22px;
+line-height: 20px;
 text-align: center;
 text-transform: capitalize;
 color: #92A3B4;
 border: unset;
 margin: 0;
-padding: 1px 18px 4px 18px;
+padding: 2px 18px 4px 18px;
 position: relative;
 }
 .container.support_container,.container.reqt_container,.all_container,.mycont_container{
@@ -13642,3 +13675,92 @@ text-transform: capitalize;
 /* end of timeline tab */
 
 /* end of timeline */
+
+
+/* benefit */
+.benefit_main_topsec{
+    display: flex;
+    justify-content: space-between;
+}
+.benefit_main_topsec .tenant_profilebg {
+    height: 115px;
+}
+.leftprof_picbenefe,.rightapply_credit{
+    flex-basis: 49%;
+    background:#EDF2FA;
+    border-radius: 17px;   
+}
+.benefit_main_topsec .belowpart_tenant{
+    background-color: unset;
+    padding: 6px 0 8px 0;
+    margin: 0;
+}
+.benefit_main_topsec .belowpart_tenant .profimg_div img {
+    height: 135px;
+    width: 135px;
+}
+.benefit_main_topsec .belowpart_tenant .profimg_div .prof_imgstatus{
+    position: relative;
+}
+.benefit_main_topsec .acc_infotxt{
+    margin: 22px 10px 0px 100px;
+    text-align: left;
+}
+.benefit_main_topsec .account_no{
+    justify-content:left;
+}
+.benefit_main_topsec .rightapply_credit{
+    padding: 25px 18px 14px 18px;
+}
+.benefit_main_topsec .rightapply_credit .aply_creditbg_benefit .divinfo .myinfo_txt img{
+    width: 26px;
+    height: 25px;
+}
+.benefit_main_topsec .rightapply_credit .aply_creditbg_benefit .myinfo_txt span {
+    font-size: 18px;
+    line-height: 28.3px;
+}
+.benefit_main_topsec .bgcolr_depos .trans_txt h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #315D80;
+    margin: 0 0 8px 0;
+}
+.benefit_main_topsec .btn.preapprovtrans,.benefit_main_topsec .btn.preapprovtrans span{
+    font-weight: 700;
+}
+.benefit_main_topsec .btn.preapprovtrans span{
+    font-size: 10px;
+}
+.maindivapplycredit{
+    display: flex;
+    justify-content: space-around;
+}
+.bgcolr_depos.leftcreditdiv,.bgcolr_depos.rightcreditdiv{
+    flex-basis: 49%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 96px;
+    align-items: center;
+    padding: 13px 20px;
+}
+.bgcolr_depos.leftcreditdiv .trans_txt{
+  flex-basis: 40%;
+  text-align: left;
+}
+.benefit_main_topsec .pre_approvebtnmo{
+    flex-basis: 52%;
+    text-align: right;
+    padding: 12px 5px 13px 7px;
+}
+.benefit_main_topsec .btn.preapprovtrans{
+    width: 100%;
+    text-align: right;
+    padding: 12px 5px 13px 6px;
+}
+.benefit_main_topsec .addi_amtapply .btn.adapply_btn{
+    padding: 9px 13px;
+    height: 46px;
+}

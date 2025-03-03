@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Communication</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+    <!-- datepicker styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/developer.css">
+<link rel="stylesheet" href="css/new-stylecss.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="l-header">
+    <div class="l-header__inner clearfix">
+    <div class="c-header-icon desktopversion_search">
+    <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    <div class="logo">
+    <div class="logo__txt">
+    <a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+    <div class="mobileversion_view">
+    <a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+    </div>
+    </div>
+    </div>
+    
+    <div class="c-search desktopversion_search">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    
+    <div class="mobileversion_view txt_heading">
+    <h3>Property Details </h3>
+    </div>
+    
+    <div class="links">
+    <ul>
+    <li class="phone desktopversion_search"> <a href="">
+    <img src="images/phone.svg"></a>
+    <div class="count_phone">
+    <span>4</span>
+    </div>
+    </li>
+    <li class="comment desktopversion_search"> <a href="">
+    <img src="images/comment.svg"></a>
+    <div class="count_comment">
+    <span>5</span>
+    </div>
+    </li>
+    <li class="email desktopversion_search"> <a href="">
+    <img src="images/email.svg"></a>
+    <div class="count_email">
+    <span>6</span>
+    </div>
+    </li>
+    <li class="notify"> <a href="">
+    <img src="images/notify.svg"></a>
+    <div class="count_notify">
+    <span>30</span>
+    </div>
+    </li>
+    </ul>
+    </div>
+    
+    <div class="c-header-icon mobileversion_view">
+    <a href="javascript:void(0)" onclick="openNav()">
+    <div class="hamburger-toggle">
+    <span class="bar-top"></span>
+    <span class="bar-mid">
+    </span><span class="bar-bot"></span>
+    </div>
+    </a>
+    </div>
+    </div>
+    </header>
+    
+    
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="topsec_menu">
+    <div class="profilepic">
+    <img src="images/menu/profilemenu.svg">
+    <div class="status status_green">
+    <span></span>
+    </div>
+    </div>
+    <div class="profiledetails">
+    <p>Mae Coleman <small>Tenant</small></p>
+    <a href="">View Profile</a>
+    </div>
+    <div class="menu_scanicon">
+    <img src="images/menu/menu_scan.svg">
+    </div>
+    </div>
+    <div class="c-search menusearch">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    <div class="menu_nav">
+    <a href="myinformation.html">  <img src="images/menu/my_info.svg"> My Information</a>
+    <a href="#" class="active">  <img src="images/menu/communication.svg"> Communications</a>
+    <a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+    <a href="showings.html">  <img src="images/menu/showings.svg"> showings & offers</a>
+    <a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+    <a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+    <a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+    <a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+    <a href="#">  <img src="images/menu/scanqr.svg"> Scan QR Code</a>
+    <div class="logoutsec">
+    <div>
+    <a href="javascript:void(0);">Logout</a>
+    </div>
+    <div>
+    <button class="btn upgrade_btn">Upgrade</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    
+<main class="l-main">
+<div class="content-wrapper content-wrapper--with-bg">
+<div class="container-fluid">
+<!-- mobile view -->
+<div class="row">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <ul class="nav nav-tabs mobview_commu_tabs" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#all">all</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#mycont">My Contacts</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#support">support</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#request">Requests <span class="req_count">5</span></a>
+        </li>
+
+    </ul>
+  <!-- Tab panes -->
+  <div class="tab-content allcommuni_tabs">
+    <div id="all" class="container all_container tab-pane active">
+     
+    </div>
+    <div id="mycont" class="container mycont_container tab-pane fade ">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="c-search srch_communu input-group">
+                    <input class="c-search__input form-control" placeholder="search name" type="text">
+                    <div class="input-group-append">
+                    <button class="btn searchicbtn" type="button"><img src="images/showings/communication/searchic.svg"></button>
+                    <button class="btn micbtn" type="button"><img src="images/showings/communication/micic.svg"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!-- my contact -->
+       <div class="row">
+        <div class="col-xl-1 col-sm-1 col-1 pad_letters">
+            <div class="alpha_contact">
+                <p>A</p>
+            </div>
+        </div>
+        <div class="col-xl-11 col-sm-11 col-11 padcont_info">
+            <ul class="contact-list">
+                 <li class="contact">
+                    <div class="inner">
+                      <div class="avatar-holder">
+                        <div class="named-avatar mr-2">
+                            <img src="images/showings/communication/prof1.svg">
+                        </div>
+                        <div class="info-holder">
+                            <p class="name">
+                                Aarchi
+                            </p>
+                            <p class="personinfo">
+                                potential roommate dsgfgfgdfgdf fgdfgfdgd
+                            </p>
+                          </div>
+                      </div>
+        
+                      <div class="infodescrip">
+                        <a href="javascript:void(0);"><img src="images/showings/communication/info_icon.svg"></a>
+                      </div>
+                    </div>
+                    <div class="bottomcommu_details">
+                        <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                            <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                        </ul>
+                      </div>
+                </li>
+                <li class="contact">
+                    <div class="inner">
+                        <div class="avatar-holder">
+                            <div class="named-avatar mr-2">
+                                <img src="images/showings/communication/prof2.svg">
+                            </div>
+                            <div class="info-holder">
+                                <p class="name">
+                                    Aayush Jr
+                                </p>
+                                <p class="personinfo">
+                                    my landlord fgdfgdfgdfgg dfgdfgdfg fdgdfg dfgd
+                                </p>
+                              </div>
+                          </div>
+                      <div class="infodescrip">
+                        <a href=""><img src="images/showings/communication/info_icon.svg"></a>
+                      </div>
+                    </div>
+                    <div class="bottomcommu_details">
+                        <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                            <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                        </ul>
+                      </div>
+                </li>
+                <li class="contact">
+                    <div class="inner">
+                        <div class="avatar-holder">
+                            <div class="named-avatar mr-2">
+                                <img src="images/showings/communication/prof3.svg">
+                            </div>
+                            <div class="info-holder">
+                                <p class="name">
+                                    Abhishek
+                                </p>
+                                <p class="personinfo">
+                                    potential landlord dfgdfgdfgfdg dfgfgfg gfdgdfg
+                                </p>
+                              </div>
+                          </div>
+                      <div class="infodescrip">
+                        <a href=""><img src="images/showings/communication/info_icon.svg"></a>
+                      </div>
+                    </div>
+                    <div class="bottomcommu_details">
+                        <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                            <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                        </ul>
+                      </div>
+                </li>
+                <li class="contact">
+                      <div class="inner">
+                        <div class="avatar-holder">
+                            <div class="named-avatar mr-2">
+                                <img src="images/showings/communication/prof4.svg">
+                            </div>
+                            <div class="info-holder">
+                                <p class="name">
+                                    Aditya Sehrawat
+                                </p>
+                                <p class="personinfo">
+                                    potential roommate dfgfdgfdgdfgd fgdfgdfgdf
+                                </p>
+                              </div>
+                          </div>
+                        <div class="infodescrip">
+                            <a href=""><img src="images/showings/communication/info_icon.svg"></a>
+                          </div>
+                      </div>
+                      <div class="bottomcommu_details">
+                        <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                            <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                        </ul>
+                      </div>
+                  </li>
+              </ul>
+        </div>
+        <div class="col-xl-1 col-sm-1 col-1 pad_letters">
+            <div class="alpha_contact">
+                <p>B</p>
+            </div>
+        </div>
+        <div class="col-xl-11 col-sm-11 col-11 padcont_info">
+            <ul class="contact-list">
+                 <li class="contact">
+                    <div class="inner">
+                      <div class="avatar-holder">
+                        <div class="named-avatar mr-2">
+                            <img src="images/showings/communication/prof1.svg">
+                        </div>
+                        <div class="info-holder">
+                            <p class="name">
+                                Aarchi
+                            </p>
+                            <p class="personinfo">
+                                potential roommate fgfdgfd dfgdfgfd dfgdfgdfg df
+                            </p>
+                          </div>
+                      </div>
+        
+                      <div class="infodescrip">
+                        <a href=""><img src="images/showings/communication/info_icon.svg"></a>
+                      </div>
+                    </div>
+                    <div class="bottomcommu_details">
+                        <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                            <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                        </ul>
+                      </div>
+                </li>
+                <li class="contact">
+                    <div class="inner">
+                        <div class="avatar-holder">
+                            <div class="named-avatar mr-2">
+                                <img src="images/showings/communication/prof2.svg">
+                            </div>
+                            <div class="info-holder">
+                                <p class="name">
+                                    Aayush Jr
+                                </p>
+                                <p class="personinfo">
+                                    my landlord dfgdfgfgdfg dfgdfgdfgdf dffgdfgdfg dfg dfg
+                                </p>
+                              </div>
+                          </div>
+                      <div class="infodescrip">
+                        <a href=""><img src="images/showings/communication/info_icon.svg"></a>
+                      </div>
+                    </div>
+                    <div class="bottomcommu_details">
+                        <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                            <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                        </ul>
+                      </div>
+                </li>
+                <li class="contact">
+                    <div class="inner">
+                        <div class="avatar-holder">
+                            <div class="named-avatar mr-2">
+                                <img src="images/showings/communication/prof3.svg">
+                            </div>
+                            <div class="info-holder">
+                                <p class="name">
+                                    Abhishek
+                                </p>
+                                <p class="personinfo">
+                                    potential landlord hhghg hjh hhg hjg jhjg hjh hj g hjghg
+                                </p>
+                              </div>
+                          </div>
+                      <div class="infodescrip">
+                        <a href=""><img src="images/showings/communication/info_icon.svg"></a>
+                      </div>
+                    </div>
+                    <div class="bottomcommu_details">
+                        <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                            <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                        </ul>
+                      </div>
+                </li>
+                <li class="contact">
+                      <div class="inner">
+                        <div class="avatar-holder">
+                            <div class="named-avatar mr-2">
+                                <img src="images/showings/communication/prof4.svg">
+                            </div>
+                            <div class="info-holder">
+                                <p class="name">
+                                    Aditya Sehrawat
+                                </p>
+                                <p class="personinfo">
+                                    potential roommate hvhjghhjh jbjhbgghjh jjhjkjjhiuuhkj jbhjhb
+                                </p>
+                              </div>
+                          </div>
+                        <div class="infodescrip">
+                            <a href=""><img src="images/showings/communication/info_icon.svg"></a>
+                          </div>
+                      </div>
+                      <div class="bottomcommu_details">
+                        <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                            <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                            <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                        </ul>
+                      </div>
+                  </li>
+              </ul>
+        </div>
+       </div>
+      <!-- end of my contact -->
+    </div>
+
+
+
+
+<div id="support" class="container support_container tab-pane fade">
+<!-- support -->
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 padcont_info">
+        <div class="sal_custserv">
+            <a href="#salesmodal_commu" data-toggle="modal"><img src="images/showings/communication/sales.svg">sales</a>
+            <a href="#custservice_commu" data-toggle="modal"><img src="images/showings/communication/cust_service.svg">customer service</a>
+        </div>
+        <ul class="contact-list mb-2">
+             <li class="contact">
+                <div class="inner">
+                  <div class="avatar-holder">
+                    <div class="named-avatar mr-2">
+                        <img src="images/showings/communication/prof1.svg">
+                    </div>
+                    <div class="info-holder">
+                        <p class="name">
+                            Aarchi
+                        </p>
+                        <p class="personinfo">
+                            potential roommate hjbjhbjhbhjbkjjbjbh hjbhbjhbj kjhjhjh hjbhjhj kjhjhjhhj
+                        </p>
+                      </div>
+                  </div>
+    
+                  <div class="infodescrip">
+                    <span class="timecomm_txt">8:50 pm</span>
+                    <span><a href="javascript:void(0);"><img src="images/showings/communication/info_icon.svg"></a></span>
+                  </div>
+                </div>
+                <div class="bottomcommu_details">
+                    <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+
+            <li class="contact">
+                <div class="inner">
+                  <div class="avatar-holder">
+                    <div class="named-avatar mr-2">
+                        <img src="images/showings/communication/prof1.svg">
+                    </div>
+                    <div class="info-holder">
+                        <p class="name">
+                            Aarchi
+                        </p>
+                        <p class="personinfo">
+                            potential roommate jjjj kjnjknjnj kjnjjbhj jkjjhhbjbhjb
+                        </p>
+                      </div>
+                  </div>
+    
+                  <div class="infodescrip">
+                    <span class="timecomm_txt">8:50 pm</span>
+                    <span><a href="javascript:void(0);"><img src="images/showings/communication/info_icon.svg"></a></span>
+                  </div>
+                </div>
+                <div class="bottomcommu_details">
+                    <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+
+            <li class="contact">
+                <div class="inner">
+                  <div class="avatar-holder">
+                    <div class="named-avatar mr-2">
+                        <img src="images/showings/communication/prof1.svg">
+                    </div>
+                    <div class="info-holder">
+                        <p class="name">
+                            Aarchi
+                        </p>
+                        <p class="personinfo">
+                            potential roommate hghjghgh jjhhjhj jhbhjbhhh jbhjbhjbhj jbhbh
+                        </p>
+                      </div>
+                  </div>
+    
+                  <div class="infodescrip">
+                    <span class="timecomm_txt">8:50 pm</span>
+                    <span><a href="javascript:void(0);"><img src="images/showings/communication/info_icon.svg"></a></span>
+                  </div>
+                </div>
+                <div class="bottomcommu_details">
+                    <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+
+            <li class="contact">
+                <div class="inner">
+                  <div class="avatar-holder">
+                    <div class="named-avatar mr-2">
+                        <img src="images/showings/communication/prof1.svg">
+                    </div>
+                    <div class="info-holder">
+                        <p class="name">
+                            Aarchi
+                        </p>
+                        <p class="personinfo">
+                            potential roommate jjhjhjbh jjbjbjj jnkjnjn kjjnknk
+                        </p>
+                      </div>
+                  </div>
+    
+                  <div class="infodescrip">
+                    <span class="timecomm_txt">8:50 pm</span>
+                    <span><a href="javascript:void(0);"><img src="images/showings/communication/info_icon.svg"></a></span>
+                  </div>
+                </div>
+                <div class="bottomcommu_details">
+                    <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+            </ul>
+    </div>
+</div>
+
+<!-- end of support -->
+
+    </div>
+    <div id="request" class="container reqt_container tab-pane fade">
+       
+<!-- request -->
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pl_pr_css">
+        <ul class="contact-list mb-2">
+             <li class="contact">
+                <div class="inner">
+                  <div class="avatar-holder">
+                    <div class="named-avatar mr-2">
+                        <img src="images/showings/communication/prof1.svg">
+                    </div>
+                    <div class="info-holder">
+                        <p class="name">
+                            Aarchi
+                        </p>
+                        <p class="personinfo">
+                            potential roommate wefdgd dgdfgdfgdfg dfgdfgdfg
+                        </p>
+                      </div>
+                  </div>
+    
+                  <div class="infodescrip">
+                    <span class="timecomm_txt">8:50 pm</span>
+                    <span><a href="javascript:void(0);"><img src="images/showings/communication/info_icon.svg"></a></span>
+                  </div>
+                  <div class="accpt_rejectdiv">
+                    <span class="accept_ic_comm">
+                        <a href="javascript:void(0);"><img src="images/showings/communication/accept_commun.svg"></a>
+                    </span>
+                    <span class="reject_ic_comm">
+                        <a href="javascript:void(0);"><img src="images/showings/communication/reject_commun.svg"></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="bottomcommu_details">
+                    <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+
+            <li class="contact">
+                <div class="inner">
+                  <div class="avatar-holder">
+                    <div class="named-avatar mr-2">
+                        <img src="images/showings/communication/prof1.svg">
+                    </div>
+                    <div class="info-holder">
+                        <p class="name">
+                            Aarchi
+                        </p>
+                        <p class="personinfo">
+                            potential roommate asfsdfsd sddfdsfsd sdf ds f sdfsdf
+                        </p>
+                      </div>
+                  </div>
+    
+                  <div class="infodescrip">
+                    <span class="timecomm_txt">8:50 pm</span>
+                    <span><a href="javascript:void(0);"><img src="images/showings/communication/info_icon.svg"></a></span>
+                  </div>
+                  <div class="accpt_rejectdiv">
+                    <span class="accept_ic_comm">
+                        <a href="javascript:void(0);"><img src="images/showings/communication/accept_commun.svg"></a>
+                    </span>
+                    <span class="reject_ic_comm">
+                        <a href="javascript:void(0);"><img src="images/showings/communication/reject_commun.svg"></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="bottomcommu_details">
+                    <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+
+            <li class="contact">
+                <div class="inner">
+                  <div class="avatar-holder">
+                    <div class="named-avatar mr-2">
+                        <img src="images/showings/communication/prof1.svg">
+                    </div>
+                    <div class="info-holder">
+                        <p class="name">
+                            Aarchi
+                        </p>
+                        <p class="personinfo">
+                            potential roommate sdfsdfsdf sdfsdfsdf sdfsdfsd f
+                        </p>
+                      </div>
+                  </div>
+    
+                  <div class="infodescrip">
+                    <span class="timecomm_txt">8:50 pm</span>
+                    <span><a href="javascript:void(0);"><img src="images/showings/communication/info_icon.svg"></a></span>
+                  </div>
+                  <div class="accpt_rejectdiv">
+                    <span class="accept_ic_comm">
+                        <a href="javascript:void(0);"><img src="images/showings/communication/accept_commun.svg"></a>
+                    </span>
+                    <span class="reject_ic_comm">
+                        <a href="javascript:void(0);"><img src="images/showings/communication/reject_commun.svg"></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="bottomcommu_details">
+                    <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+
+            <li class="contact">
+                <div class="inner">
+                  <div class="avatar-holder">
+                    <div class="named-avatar mr-2">
+                        <img src="images/showings/communication/prof1.svg">
+                    </div>
+                    <div class="info-holder">
+                        <p class="name">
+                            Aarchi
+                        </p>
+                        <p class="personinfo">
+                            potential roommate sdfsdfsdf sdfdsfdsf  dsfsdfds fsdf
+                        </p>
+                      </div>
+                  </div>
+    
+                  <div class="infodescrip">
+                    <span class="timecomm_txt">8:50 pm</span>
+                    <span><a href="javascript:void(0);"><img src="images/showings/communication/info_icon.svg"></a></span>
+                  </div>
+                  <div class="accpt_rejectdiv">
+                    <span class="accept_ic_comm">
+                        <a href="javascript:void(0);"><img src="images/showings/communication/accept_commun.svg"></a>
+                    </span>
+                    <span class="reject_ic_comm">
+                        <a href="javascript:void(0);"><img src="images/showings/communication/reject_commun.svg"></a>
+                    </span>
+                  </div>
+                </div>
+                <div class="bottomcommu_details">
+                    <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+            </ul>
+    </div>
+</div>
+
+<!-- end of request -->
+
+      </div>
+  </div>
+
+</div>
+</div>
+<!-- end of mobile view -->
+</div>
+</div>
+</main>
+
+<!-- mobileview menu -->
+<div class="container-fluid btmmenu">
+  <div class="flex_menubottom">
+  <div class="dash">
+  <a href="">
+  <img src="images/dashboard.svg">
+  <p>Dashboard</p>
+  </a> 
+  </div>
+  <div class="commu">
+  <a href="">
+  <img src="images/communication.svg">
+  <p>Communication</p>
+  </a>
+  </div>
+  <div class="maint">
+  <a href="">
+  <img src="images/maintenance.svg">
+  <p>Maintenance</p>
+  </a>
+  </div>
+  <div class="rent">
+  <a href="">
+  <img src="images/rentals.svg">
+  <p>Rentals</p>
+  </a>
+  </div>
+  </div>
+  </div>
+
+
+<!-- sales modal -->
+
+  <div class="modal fade salesmod_popup" id="salesmodal_commu">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"><img src="images/showings/communication/salesimgpop.svg">sales</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+    
+        <div class="modal-body">
+       <div class="salescommuni_div">
+        <ul class="main_sec">
+            <li class="active">
+                <div class="topsec_salesdiv">
+                    <a class="adver" href="javascript:void(0);">
+                        <span><img src="images/showings/communication/adver_img.svg"></span>
+                        advertise your property</a>
+                </div>
+                <div class="popupsales bottomcommu_details">
+                    <ul class="d-flex justify-content-between align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> message</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+            <li>
+                <div class="topsec_salesdiv">
+                        <a class="adver_prop" href="javascript:void(0);"><span><img src="images/showings/communication/rentprop_img.svg"></span>rent a property</a>
+                </div>
+                <div class="popupsales bottomcommu_details">
+                    <ul class="d-flex justify-content-between align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> message</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+            <li>
+                <div class="topsec_salesdiv">
+                    <a class="reqfin" href="javascript:void(0);"><span><img src="images/showings/communication/reqfinan_img.svg"></span>request financing</a>
+                </div>
+                <div class="popupsales bottomcommu_details">
+                    <ul class="d-flex justify-content-between align-items-center">
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> message</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                        <li><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                    </ul>
+                  </div>
+            </li>
+        </ul>
+       </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+  <!-- end of sales modal -->
+
+
+
+
+
+<!-- customer service modal -->
+
+<div class="modal fade customerservice_popup" id="custservice_commu">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"><img src="images/showings/communication/cust_service.svg">customer service</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+    
+        <div class="modal-body">
+       <div class="salescommuni_div custcommu_div">
+        <ul class="main_sec">
+            <li class="active">
+                <div class="topsec_salesdiv custodivpop">
+                    <a class="movein_cust" href="javascript:void(0);">
+                        <span><img src="images/showings/communication/movein.svg"></span>
+                        move-in support</a>
+                </div>
+            </li>
+            <li>
+                <div class="topsec_salesdiv">
+                        <a class="cust_satify" href="javascript:void(0);"><span><img src="images/showings/communication/smile.svg"></span>customer satisfaction</a>
+                </div>
+            </li>
+            <li>
+                <div class="topsec_salesdiv">
+                    <a class="maintain_supprt" href="javascript:void(0);"><span><img src="images/showings/communication/maintain.svg"></span>maintenance support</a>
+                </div>
+            </li>
+        </ul>
+       </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+  <!-- end of customer service modal -->
+
+
+
+
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<!--  slick js -->
+<script src="js/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+// pop up sales
+var selectorlink = '.salescommuni_div ul li';
+$(selectorlink).on('click', function(){
+    $(selectorlink).removeClass('active');
+    $(this).addClass('active');
+});
+
+$('.salescommuni_div ul li').on('click', function () {
+        $('.popupsales.bottomcommu_details').removeClass("btmcontact");
+        $(this).find('.popupsales.bottomcommu_details').addClass('btmcontact');
+        $('salescommuni_div ul li').addClass('borderradius_add');
+});
+
+// end of pop up
+
+</script>
+<script>
+  
+    $('.contact-list li.contact').on('click', function () {
+        $('.bottomcommu_details').removeClass("btmcontact");
+        $(this).find('.bottomcommu_details').addClass('btmcontact');
+        $('.contact').addClass('borderradius_add');
+});
+</script>
+</body>
+</html>

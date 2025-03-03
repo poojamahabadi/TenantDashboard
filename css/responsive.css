@@ -10246,6 +10246,56 @@ top: -28px;
 }
 }
 @media only screen and (max-width:575px) {
+/* communication */
+.modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
+    max-width: 55%;
+}
+.mycont_container .contact-list .contact .avatar-holder{
+    flex-basis: 80%;
+}
+.allcommuni_tabs .timecomm_txt {
+    font-size: 10px;
+}
+.mycont_container .contact-list .contact .infodescrip{
+    flex-basis: 18%;
+}
+.contact-list .contact .name {
+    line-height: 18px;
+}
+.contact-list .contact .personinfo {
+    line-height: 18px;
+}
+.mycont_container .contact-list .contact .avatar-holder,.support_container .contact-list .contact .avatar-holder  {
+    flex-basis: 75%;
+}
+.mycont_container .contact-list .contact .infodescrip,.support_container .contact-list .contact .infodescrip {
+    flex-basis: 21%;
+    text-align: right;
+}
+.reqt_container .contact-list .contact .avatar-holder{
+    flex-basis: 55.33%;
+}
+.reqt_container .contact-list .contact .infodescrip{
+    flex-basis: 23%;
+}
+.reqt_container .contact-list .contact .accpt_rejectdiv{
+    flex-basis: 20%;
+    text-align: right;
+}
+.salescommuni_div li.active .topsec_salesdiv {
+    padding: 13px 10px 13px 17px;
+}
+.salescommuni_div li a img {
+    margin: 0 12px 0 0;
+}
+ul.mobview_commu_tabs {
+    margin: 4px 0 1em 0;
+}
+.alpha_contact p {
+    margin: 20px 0 0 0;
+}
+/* end of communication */
+
 /* maintenance */
 .main_timeline {
     left: 16%;
@@ -12238,6 +12288,12 @@ top: 11px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
+/* communication */
+.modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
+    max-width: 67%;
+}
+/* end of communication */
+
 
 /* maintenance */
 .reqserv_descrip {
@@ -13235,6 +13291,14 @@ width: 56%;
 
 }
 @media only screen and (max-width: 448px) and (min-width:416px) {
+/* communication */
+.alpha_contact p {
+    margin: 20px 0 0 0;
+}
+.modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
+    max-width: 72%;
+}
+/* end of communication  */
 /* maintenance */
 .relv_mapcss.css_remove_position {
     margin:0;
@@ -13931,6 +13995,11 @@ margin: 0 0 0 10px;
 
 
 @media only screen and (max-width: 415px) and (min-width:387px) {
+/* communication */
+.modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
+    max-width: 78%;
+}
+/* end of communication */
 /* maintenance */
 .relv_mapcss.css_remove_position {
     margin: 0;
@@ -15579,6 +15648,25 @@ left: -18px;
 }
 
 @media only screen and (max-width: 394px) {
+/* communication */
+.modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
+    max-width: 81%;
+}
+.mycont_container .contact-list .contact .avatar-holder, .support_container .contact-list .contact .avatar-holder {
+    flex-basis: 70%;
+}
+.mycont_container .contact-list .contact .infodescrip, .support_container .contact-list .contact .infodescrip {
+    flex-basis: 29%;
+}
+.accpt_rejectdiv img {
+    width: 16px;
+    height: 16px;
+}
+.contact-list .contact .inner {
+    padding: 0 13px 4px 8px;
+}
+/* end of communication */
+
 /* maintenance */
 .succ_msg p {
     width: 100%;
@@ -16177,6 +16265,43 @@ height: 21px;
 
 
 @media only screen and (max-width: 386px) and (min-width:377px) {
+/* communication */
+.contact-list .contact .name {
+    font-size: 14px;
+}
+.bottomcommu_details ul li a img {
+    width: 17px;
+    height: 17px;
+}
+.salescommuni_div li.active .topsec_salesdiv {
+    padding: 10px 10px 10px 17px;
+}
+.topsec_salesdiv a {
+    font-size: 14px;
+    line-height: 19px;
+}
+.sal_custserv a {
+    font-size: 12px;
+    padding: 7px 10px;
+}
+.allcommuni_tabs .contact .inner a img{
+    width: 15px;
+    height: 15px;
+}
+ul.mobview_commu_tabs li a.nav-link {
+    font-size: 13px;
+}
+.contact-list li {
+    padding: 4px 0px 1px 0px;
+}
+.contact-list .contact .personinfo {
+    line-height: 15px;
+    font-size: 12px;
+}
+.alpha_contact p {
+    font-size: 14px;
+}
+/* end of communication */
     /* maintenance  */
     /* timeline */
     .bottom_sectionorder .category p {
@@ -16877,7 +17002,37 @@ left: -22px;
 
 
 @media only screen and (max-width: 376px) and (min-width:362px) {
-
+/* communication */
+ul.mobview_commu_tabs li a.nav-link {
+    padding: 2px 12px 4px 12px;
+}
+.allcommuni_tabs .contact .inner a img{
+    width: 15px;
+    height: 15px;
+}
+.topsec_salesdiv a {
+    font-size: 14px;
+    line-height: 20px;
+}
+.sal_custserv a {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 10px;
+}
+ul.mobview_commu_tabs li a.nav-link{
+    font-size: 13px;
+}
+.c-search.srch_communu .c-search__input.form-control {
+    font-size: 13px;
+}
+.contact-list .contact .name {
+    font-size: 14px;;
+}
+.contact-list .contact .personinfo {
+    line-height: 15px;
+    font-size: 12px;
+}
+/* end of communication */
 /* maintenance */
 .relv_mapcss.css_remove_position {
     margin: 0;
@@ -18270,7 +18425,60 @@ width: 37%;
 
 
 @media only screen and (max-width: 361px) and (min-width:341px) {
-
+/* communication */
+ul.mobview_commu_tabs li a.nav-link {
+    font-size: 12px;
+    padding: 2px 11px 4px 11px;
+}
+ul.mobview_commu_tabs {
+    margin: 4px 0 10px 0;
+}
+.salescommuni_div li.active .topsec_salesdiv {
+    padding: 9px 10px 9px 17px;
+}
+.topsec_salesdiv a {
+    font-size: 14px;
+    line-height: 24px;
+}
+.mycont_container .contact-list .contact .avatar-holder, .support_container .contact-list .contact .avatar-holder {
+    flex-basis: 75%;
+}
+.mycont_container .contact-list .contact .infodescrip, .support_container .contact-list .contact .infodescrip {
+    flex-basis: 23%;
+}
+.alpha_contact p {
+    font-size: 14px;
+}
+.allcommuni_tabs .timecomm_txt {
+    font-size: 10px;
+}
+.c-search.srch_communu {
+    width: 86%;
+    margin: 0px 20px 0px auto;
+}
+.sal_custserv a {
+    font-size: 12px;
+    line-height: 19px;
+    padding: 6px 10px;
+}
+.allcommuni_tabs .contact .inner a img {
+    width: 13px;
+    height: 13px;
+}
+.c-search.srch_communu .c-search__input.form-control {
+    font-size: 12px;
+}
+.contact-list .contact .personinfo {
+    line-height: 15px;
+    font-size: 12px;
+}
+.contact-list .contact .name {
+    font-size: 14px;
+}
+.modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
+    max-width: 97%;
+}
+/* end of communication */
 /* maintenance  */
 .categoryinputdiv .issueselectbox {
     font-size: 12px;
@@ -20091,6 +20299,50 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+/* communication */
+ul.mobview_commu_tabs li a.nav-link {
+    font-size: 12px;
+    padding: 2px 11px 4px 11px;
+}
+.modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
+    max-width: 97%;
+}
+.allcommuni_tabs .timecomm_txt {
+    margin-right: 3px;
+}
+.sal_custserv a {
+    font-size: 12px;
+    line-height: 19px;
+    padding: 6px 10px;
+}
+.alpha_contact p {
+    font-size: 14px;
+}
+.c-search.srch_communu .c-search__input.form-control {
+    font-size: 12px;
+}
+.reqt_container .contact-list .contact .accpt_rejectdiv {
+    flex-basis: 17%;
+}
+.accept_ic_comm {
+    margin: 0 6px 0 0px;
+}
+.allcommuni_tabs .contact .inner a img {
+    width: 13px;
+    height: 13px;
+}
+.c-search.srch_communu {
+    width: 87%;
+    margin: 0px 14px 7px auto;
+}
+.contact-list .contact .personinfo {
+    line-height: 13px;
+    font-size: 12px;
+}
+.contact-list .contact .name {
+    font-size: 12px;
+}
+/* end of communication */
 /* maintenance */
 .flex_containerdiv label,.descrip_div label, .workorder_mobileview .issue_select label, .workorder_mobileview .uploadphotos_div label {
     font-size: 12px;
@@ -22250,6 +22502,28 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+/* communication */
+.mycont_container .contact-list .contact .avatar-holder{
+    flex-basis: 77%;
+}
+.salescommuni_div li.active .topsec_salesdiv {
+    padding: 10px 10px 10px 17px;
+}
+.topsec_salesdiv a {
+    font-size: 14px;
+    line-height: 22px;
+}
+.bottomcommu_details ul li a img {
+    width: 17px;
+    height: 16px;
+}
+.contact-list .contact .personinfo {
+    line-height: 13px;
+    font-size: 10px;
+}
+.mycont_container .contact-list .contact .infodescrip{
+    flex-basis: 20%;
+}
 /* maintenance */
 .main_workdescrip {
 flex-basis: 71%;
