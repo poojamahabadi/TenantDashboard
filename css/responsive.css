@@ -20673,11 +20673,9 @@ flex-basis: 56%;
 flex-basis: 42%;
 }
 .mainteam_mobileview .btnappoint {
-margin: 0 0 0 -13px;
+    margin: 2px 0 0 -25px;
 }
-.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .btnappoint button.btn.btn_appoint.mobilebook {
-width: 98px;
-}
+
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3 {
 font-size: 14px;
 line-height: 19px;
