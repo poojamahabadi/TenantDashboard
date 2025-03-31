@@ -104,7 +104,7 @@ height: 94px;
 /* end of showing confirmed */
 /* find property */
 .prop_rowalign {
-margin: 0em 0 3em 0;
+    margin: 0em 0 2em 0;
 }
 /* find property end */
 
@@ -767,6 +767,12 @@ right: 6px;
 .avatar-upload .avatar-edit input + label:after {
 left: -3px;
 }
+
+/* my info */
+.belowpart_tenant .profimg_div{
+margin-left: 12px;
+}
+/* end of my info */
 }
 
 
@@ -1100,6 +1106,9 @@ padding: 10px 4px 11px 6px;
 /* end of transactions */
 
 /* find property */
+.listimges_prop.propfind {
+    width: 96%;
+}
 .prop_find_details img {
 height: 110px;
 }
@@ -1241,6 +1250,9 @@ font-size: 9px;
 .myleaseunit .tablinks_propfeat.unit_div .slick-track, .myleaseunit .tablinks_propfeat.building_div .slick-track {
 margin-left: -71px;
 }
+.pricerangedivs .slidelocation_div {
+    align-items: flex-start;
+}
 /* end of showings offer to lease  */
 /* schedule showings */
 .slideronmap .slider .slick-track {
@@ -1349,9 +1361,6 @@ left: 8px;
 .tenantaccord .addi_incomeemp_section .card .card-header h2 button, .btn.btnadd_emp {
 font-size: 12px;
 }
-.tenantaccord .card .card-header {
-padding: 8px 20px;
-}
 .tenantaccord .card .card-header h2 .save_btn_all {
 margin: 0 0 0 -15px;
 }
@@ -1372,9 +1381,6 @@ height: 23px;
 width: 23px;
 font-size: 11px;
 }
-.profilename, .account_no {
-font-size: 18px;
-}
 .btn.commn {
 font-size: 11px;
 }
@@ -1382,7 +1388,8 @@ font-size: 11px;
 font-size: 10px;
 }
 .tabcontent_tenant p {
-font-size: 12px;
+    font-size: 12px;
+    line-height: 120%;
 }
 .flexcss_tenant p {
 font-size: 11px;
@@ -2067,11 +2074,11 @@ padding: 5px 9px;
 }
 /* end of transactions */
 /* find property */
-.prop_rowalign {
-margin: 7em auto 2em auto;
-}
 .prop_find_details img {
-height: 96px;
+    height: 100px;
+}
+.prop_rowalign {
+    margin: 0em auto 30px auto;
 }
 /* end of find property */
 
@@ -2926,6 +2933,14 @@ padding: 5px 12px;
 font-size: 10px;
 }
 /* end of showings */
+/* find property */
+.txt_details_prop {
+    padding: 8px 9px 10px 9px;
+}
+.pricerangedivs .lochouse_details .house span, .pricerangedivs .lochouse_details .clock span {
+    font-size: 11px;
+}
+/* end of find property */
 .basicdata {
 flex-basis: 54%;
 }
@@ -2955,9 +2970,6 @@ height: 142px;
 }
 .edit_button .cancel_btn_all {
 padding: 4px 20px 4px 8px;
-}
-.profilename, .account_no {
-font-size: 15px;
 }
 .basicdatatxt {
 flex-basis: 43%;
@@ -3072,9 +3084,6 @@ margin: 0 0 0 -29px;
 }
 /* end of give notice */
 /* find property */
-.pricerangedivs .lochouse_details .house span, .pricerangedivs .lochouse_details .clock span {
-font-size: 11px;
-}
 .similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p {
 font-size: 17px;
 }
@@ -3318,9 +3327,6 @@ font-size: 12px;
 .weknamediv .wekdate {
 font-size: 11px;
 }
-.btn i {
-font-size: 14px;
-}
 .input_reschedule input.form-control {
 font-size: 12px;
 }
@@ -3441,6 +3447,12 @@ width: 31%;
 .btncenter_div {
 margin: 10px 0 0 0;
 }
+
+/* my info */
+.req_document .tabsdiv .tab-content .tab-pane .details_block {
+    padding: 6px 5px 6px 6px;
+}
+/* end of my info */
 }
 
 @media only screen and (max-width:992px){
@@ -3793,6 +3805,9 @@ right: -9px;
 .flexdiv div label {
 font-size: 10px;
 }
+/* my info */
+
+/* end of my info */
 }
 @media only screen and (max-width: 991px) and (min-width: 320px){
 .propfeat_tab ul li a {
@@ -4375,6 +4390,12 @@ flex-basis: 58%;
 }
 /* end of price range */
 /* find property */
+.price-range-slider {
+    width: 69%;
+}
+.pricerangedivs .leasedslider {
+    padding: 10px;
+}
 .prop_find_details img {
 height: 145px;
 }
@@ -5174,6 +5195,12 @@ font-size: 13px;
 .my_info {
 padding: 14px 20px;
 }
+/* my info */
+.tenantaccord .card .card-header h2 .save_btn_all {
+    line-height: 16px;
+}
+/* end of my info */
+
 }
 
 @media only screen and (max-width:768px){
@@ -5573,6 +5600,8 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
+
+
 /* timeline mobile view */
 
 .tabcon_timelinemobileview .container {
@@ -5927,16 +5956,6 @@ text-align: center;
 .widfull_plusicon .custom-select.active .options {
 display: block;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* communication details  */
@@ -6841,9 +6860,7 @@ background: unset;
 vertical-align: middle;
 margin: 0 0 0 3px;
 }
-.belowpart_tenant.maintenance_div .profimg_div .status {
-right: -31px;
-}
+
 .belowpart_tenant .profimg_div .avatar-preview .status, .belowpart_tenant .profimg_div .status {
 bottom: 24px;
 }
@@ -6867,7 +6884,17 @@ padding: 11px 12px 2px 12px;
 margin: 0px 0px 0 84px;
 }
 .belowpart_tenant.maintenance_div {
-padding: 23px 0 31px 0 !important;
+padding: 23px 0 20px 0 !important;
+}
+.belowpart_tenant.maintenance_div .profimg_div .status {
+    right: 16px;
+    bottom: 8px;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+    position: relative;
+    height: 133px;
+    width: 132px;
+    margin-top: -87px;
 }
 /* end of maintenance */
 .setup_modalprop .modal-header,.setup_modalprop .modal-body{
@@ -8026,9 +8053,6 @@ display: none;
 padding: 10px 204px 10px 21px;
 box-shadow:unset;
 }
-.similar_unitsdiv .pricerange_sliderone .descrip_details_list .price_rate p {
-font-size: 20px;
-}
 .pricelabel_range p {
 margin: -42px 26px 0 0px;
 }
@@ -8082,8 +8106,12 @@ height: 19px;
 .similar_unitsdiv.pricerangedivs .slidelocation_div {
 margin: 5px 0 0 0;
 }
+.flexprice_range .price-range-slider .box-minmax {
+    width: 91.3%;
+}
 .price-range-slider {
 padding: 10px 9px;
+width:100%;
 }
 .similar_unitsdiv.pricerangedivs .descrip_details_list .rat_tot_count {
 top: 10px;
@@ -8109,6 +8137,12 @@ padding: 5px 55px 5px 0;
 /* end of price range */
 
 /* find property */
+.similar_unitsdiv.pricerangedivs .lochouse_details .house span, .similar_unitsdiv.pricerangedivs .lochouse_details .clock span {
+    font-size: 12px;
+}
+.l-main .similar_unitsdiv.pricerangedivs .slidelocation_div .txt_loc {
+    font-size: 14px;
+}
 .l-main .listimges_prop.propfind {
 margin: 0 auto;
 width: 95%;
@@ -9020,9 +9054,6 @@ font-size: 19px;
 height: 115px;
 width: 115px;
 }
-.tenantaccord .card .card-header h2 button {
-font-size: 16px;
-}
 .profimg_div .status {
 right: 46px;
 }
@@ -9165,11 +9196,6 @@ padding: 12px 16px 12px 20px;
 height: 100%;
 width: 100%;
 }
-.belowpart_tenant.maintenance_div .profimg_div {
-width: 95px;
-height: 95px;
-display: block;
-}
 .belowpart_tenant.maintenance_div {
 padding: 23px 0 24px 0 !important;
 }
@@ -9177,7 +9203,7 @@ padding: 23px 0 24px 0 !important;
 margin: 0 0 21px 0;
 }
 .belowpart_tenant.maintenance_div .profimg_div .status {
-right: 7px;
+    right: 18px;
 }
 .belowpart_tenant.maintenance_div .profimg_div .avatar-preview .status, .belowpart_tenant.maintenance_div .profimg_div .status {
 bottom: 19px;
@@ -10245,7 +10271,7 @@ font-size: 13px;
 top: -28px;
 }
 }
-@media only screen and (max-width:575px) {
+@media only screen and (max-width:576px) {
 /* communication */
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 55%;
@@ -10361,7 +10387,9 @@ margin: 4px 0 1px 0px;
 text-align: right;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-margin: -82px 0 0 25px;
+height: 95px;
+width: 95px;
+margin-left: 22px;
 }
 .calenderview_div.maintenance_upcomingevents {
 height: auto;
@@ -10389,9 +10417,6 @@ min-height: 245px;
 }
 .req_service .maintenancepage .divinfo {
 padding: 11px 20px 11px 18px;
-}
-.maintenancepage .myinfo_txt span {
-font-size: 18px;
 }
 .calenderview_div.maintenance_upcomingevents .calendercard_show {
 margin: 0 0 10px 0;
@@ -10598,7 +10623,7 @@ right: 9px;
 bottom: 16px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-margin: 15px 0 0 27px;
+    margin: 8px 0 0 27px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .profilename {
 order: 2;
@@ -10607,11 +10632,11 @@ order: 2;
 line-height: 12px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-margin: 14px 29px 0 0px;
-text-align: right;
+    margin: 8px 20px 0 0px;
+    text-align: right;
 }
 .belowpart_tenant.maintenance_div {
-padding: 23px 0 15px 0 !important;
+    padding: 10px 0 10px 0 !important;
 }
 .belowpart_tenant.maintenance_div .profilename,.belowpart_tenant.maintenance_div .account_no {
 font-size: 18px;
@@ -10927,6 +10952,12 @@ font-size: 15px;
 /* end of transactions */
 
 /* find property */
+.search_ip_prop .input-group input.form-control {
+    padding: 10px 126px 10px 48px;
+}
+.btn.submt_btnprop {
+    left: 14px;
+}
 .l-main .listimges_prop.propfind {
 width: 93%;
 }
@@ -11749,9 +11780,7 @@ font-size: 19px;
 font-size: 13px;
 box-shadow: unset;
 }
-.btn i {
-font-size: 14px;
-}
+
 .showingssec .showtime {
 padding: 14px 0px 8px 0px;
 align-items: baseline;
@@ -11785,9 +11814,10 @@ right: 20px;
 top: 15px;
 right: 20px;
 }
-.profile_infotxt .profilename{
-display: block;
-order: 1;
+.profile_infotxt .profilename {
+    display: block;
+    order: 1;
+    margin: 10px 0 0 0;
 }
 .profile_infotxt .prof_label {
 order: 1;
@@ -11861,9 +11891,6 @@ margin:10px 0 0 0;
 .flex_menubottom{
 padding: 16px 10px 10px 10px;
 }
-.belowpart_tenant {
-padding: 19px 10px 11px 17px;
-}
 .acc_infotxt.tenantacc{
 margin:0;
 }
@@ -11918,9 +11945,6 @@ padding: 0 9px;
 }
 .tenant_profilebg {
 height: 103px;
-}
-.tenantaccord .card .card-header h2 button {
-font-size: 15px;
 }
 .flexdiv div label,.flexdiv .basicdata p, .flexdiv .basicdata .form-group select.form-control {
 font-size: 13px;
@@ -11994,6 +12018,49 @@ flex-basis: 15%;
 margin: 0;
 flex-basis: 55%;
 }
+
+/* my info */
+.profilename, .account_no {
+    line-height: 16px;
+    font-size: 15px;
+}
+.req_document .tabsdiv .nav.nav-tabs li a {
+    font-size: 15px;
+}
+.req_document .divinfo.req_border {
+    padding: 13px 15px 10px 0;
+}
+.tooltipdivcss .tabsdiv .nav-item a.nav-link img {
+    vertical-align: middle;
+}
+.belowpart_tenant {
+    padding: 10px 14px 11px 16px !important;
+}
+.belowpart_tenant .profimg_div .status {
+    right: 5px;
+}
+.belowpart_tenant .acc_infotxt.tenantacc.rightalignid .account_no,.profile_infotxt .profilename.clickhide p.user_name {
+    margin: 0 0 4px 0;
+}
+.profimg_div .status {
+    width: 10px;
+    height: 10px;
+}
+.belowpart_tenant .profimg_div {
+    margin-top: -76px;
+    margin-left: 0px;
+    width: 95px;
+    height: 95px;
+}
+.belowpart_tenant .acc_infotxt.tenantacc.rightalignid .editprofi {
+    margin: -15px 0 10px 0;
+}
+.tenantaccord .card .card-header {
+    padding: 10px 20px;
+}
+
+
+/* end of my info */
 }
 @media only screen and (max-width: 568px) and (min-width:481px) {
 
@@ -12591,14 +12658,11 @@ margin: 0 0 1.7em 0;
 .prop_addres h4 {
 margin: 0 0 5px 0;
 }
-.prop_numbs p{
-text-align: center;
-}
-.findpropinfo .myinfo_txt span {
-font-size: 16px;
-}
 .findpropinfo .rght_iconfilter img {
 height: 23px;
+}
+.search_ip_prop .input-group input.form-control {
+    padding: 10px 115px 10px 55px;
 }
 /* end of find property */
 /* active lease */
@@ -12762,9 +12826,6 @@ top: 49px;
 }
 .showings_offerlease .acc_no {
 margin: -46px 15px 0 0;
-}
-.profilename, .account_no {
-font-size: 18px;
 }
 .profile_infotxt {
 margin: 3px 0 0 0;
@@ -13234,9 +13295,6 @@ flex-wrap: nowrap;
 .top_propsection {
 align-items: center;
 }
-.profilename, .account_no {
-line-height: 26px;
-}
 .edit_profi_name input.form-control {
 width: 85%;
 }
@@ -13294,7 +13352,6 @@ left: 39%;
 .edit_button.save_new {
 width: 56%;
 }
-
 }
 @media only screen and (max-width: 448px) and (min-width:416px) {
 /* communication */
@@ -14036,7 +14093,7 @@ margin: 0 0 0 10px;
     margin: 39px 0 0 0px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-margin: -85px 0 0 22px;
+    margin: -85px 0 0 17px;
 }
 .widextend_mobviewright {
 flex: 0 0 85.666667%;
@@ -14155,10 +14212,7 @@ margin: 0px 9px 0 0;
 line-height: 13px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-margin: 13px 0 0 22px;
-}
-.belowpart_tenant.maintenance_div .acc_infotxt {
-margin: 11px 27px 0 0px;
+    margin: 8px 0 0 21px;
 }
 /* end of maintenance */
 /* payment desposit */
@@ -14524,11 +14578,18 @@ margin: 0;
 
 
 /* find property */
+.btn.submt_btnprop {
+    top: 10px;
+    padding: 0;
+}
+.btn.submt_btnprop {
+    left: 19px;
+}
 .l-main .listimges_prop.propfind {
 width: 91%;
 }
 .search_ip_prop .input-group input.form-control {
-padding: 10px 114px 10px 38px;
+    padding: 10px 114px 10px 48px;
 }
 .divinfo.findpropinfo {
 margin: 12px 0 0 0;
@@ -14544,11 +14605,6 @@ margin: 0 0 1.7em 0;
 }
 .txt_details_prop {
 padding: 14px 7px 11px 7px;
-display: block;
-text-align: center;
-}
-.prop_numbs p{
-text-align: center;
 }
 .findpropinfo .rght_iconfilter img {
 height: 22px;
@@ -15609,8 +15665,7 @@ font-size: 17px;
 font-size: 17px;  
 }
 .profilename, .account_no {
-font-size: 15px;
-line-height: 26px;
+    line-height: 12px;
 }
 .edit_profi_name input.form-control {
 width: 88%;
@@ -15677,6 +15732,9 @@ left: -18px;
 /* maintenance */
 .succ_msg p {
     width: 100%;
+}
+.workorder_block .addr {
+    max-width: 200px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
     width: 78%;
@@ -15769,12 +15827,6 @@ margin: 7px 0 0 0;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
 margin: -86px 0 0 22px;
-}
-.belowpart_tenant.maintenance_div .acc_infotxt {
-margin: 15px 22px 0 0px;
-}
-.belowpart_tenant.maintenance_div {
-padding: 23px 0 11px 0 !important;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3 {
 font-size: 15px;
@@ -16001,6 +16053,10 @@ height: 128px;
 /* find property */
 .setup_modalprop .modal-dialog {
 max-width: 96%;
+}
+.btn.submt_btnprop {
+    top: 10px;
+    padding: 0;
 }
 /* end of find property */
 .bookappnt_divabs, .sched_meeting {
@@ -16252,19 +16308,11 @@ margin: 0 0 5px 0;
 .l-main .listimges_prop.propfind {
 width: 90%;
 }
-.mar_propbtm {
-margin: 0 0 1.7em 0;
-}
 .txt_details_prop {
 padding: 14px 7px 11px 7px;
-display: block;
-text-align: center;
 }
 .prop_find_details img {
 height: 81px;
-}
-.prop_numbs p{
-text-align: center;
 }
 .findpropinfo .rght_iconfilter img {
 height: 21px;
@@ -16317,8 +16365,20 @@ ul.mobview_commu_tabs li a.nav-link {
         margin: 0 auto 0 0px;
         width: 74%;
     }
+    .belowpart_tenant.maintenance_div .profimg_div {
+        margin: -86px 0 0 16px;
+    }
+    .belowpart_tenant.maintenance_div .profile_infotxt {
+        margin: 8px 0 0 20px;
+    }
     .calenderview_div.maintenance_upcomingevents .listrow {
         padding: 14px 17px 14px 14px;
+    }
+    .maintenance_upcomingevents .left_arrow {
+        margin-right: 5px;
+    }
+    .maintenance_upcomingevents .imgarrw_div {
+        margin-left: 6px;
     }
     /* timeline */
     .bottom_sectionorder .category p {
@@ -16872,9 +16932,6 @@ height: 14px;
 .propfeat_tab ul li a {
 width: 84px;
 }
-.btn i {
-font-size: 12px;
-}
 .butn_green .btn.btn_greenverif {
 font-size: 12px;
 }
@@ -17022,6 +17079,12 @@ left: -22px;
 /* communication */
 ul.mobview_commu_tabs li a.nav-link {
     padding: 2px 12px 4px 12px;
+}
+.maint_pagediv .name_addr p.nm {
+    line-height: 17px;
+}
+.workorder_block .addr {
+    max-width: 188px;
 }
 .allcommuni_tabs .contact .inner a img{
     width: 15px;
@@ -17202,9 +17265,6 @@ font-size: 16px;
 .reqserv_descrip {
 margin: 6px 0 0 0;
 }
-.belowpart_tenant.maintenance_div .acc_infotxt {
-margin: 12px 17px 0 0px;
-}
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
     padding: 7px 5px 9px 9px;
 }
@@ -17216,10 +17276,16 @@ font-size: 11px;
 line-height: 14px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-margin: 13px 0 0 19px;
+    margin: 8px 0 0 23px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
 line-height: 13px;
+}
+.maintenance_upcomingevents .left_arrow {
+    margin-right: 4px;
+}
+.maintenance_upcomingevents .imgarrw_div {
+    margin-left: 4px;
 }
 /* end of maintenance */
 /* payment deposit */
@@ -18292,10 +18358,7 @@ font-size: 12px;
 height: 18px;
 }
 /* showings page end */
-.profilename, .account_no {
-line-height: 29px;
-font-size: 17px;
-}
+
 .editprofi img{
 height: 20px;
 }
@@ -18399,9 +18462,6 @@ font-size: 10px;
 .myinfo_txt span {
 font-size: 17px;
 }
-.profilename, .account_no {
-font-size: 16px;
-}
 .btn.commn.upload img {
 margin-left: 3px;
 }
@@ -18426,9 +18486,6 @@ font-size: 17px;
 .myinfo_txt span {
 font-size: 16px;
 }
-.profilename, .account_no {
-font-size: 15px;
-}
 .profile_infotxt .prof_label {
 font-size: 12px;
 }
@@ -18450,6 +18507,12 @@ width: 37%;
 ul.mobview_commu_tabs li a.nav-link {
     font-size: 12px;
     padding: 2px 11px 4px 11px;
+}
+.workorder_block .addr {
+    max-width: 178px;
+}
+.maint_pagediv .name_addr p.nm {
+    line-height: 17px;
 }
 ul.mobview_commu_tabs {
     margin: 4px 0 10px 0;
@@ -18503,6 +18566,12 @@ ul.mobview_commu_tabs {
 /* maintenance  */
 .categoryinputdiv .issueselectbox {
     font-size: 12px;
+}
+.maintenance_upcomingevents .left_arrow {
+    margin-right: 3px;
+}
+.maintenance_upcomingevents .imgarrw_div {
+    margin-left: 4px;
 }
 .succ_msg p{
     font-size: 14px;
@@ -18708,13 +18777,13 @@ flex-basis: 56%;
 flex-basis: 42%;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-margin: -83px 0 0 18px;
+    margin: -83px 0 0 15px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
 line-height: 15px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-margin: 10px 15px 0 0px;
+    margin: 4px 16px 0 0px;
 }
 .maintenancepage .c-search.menusearch .c-search__input {
 font-size: 13px;
@@ -18737,7 +18806,7 @@ font-size: 13px;
 line-height: 20px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-margin: 10px 0 0 20px;
+    margin: 4px 0 0 19px;
 }
 .myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
 line-height: 11px;
@@ -20143,10 +20212,6 @@ height: 18px;
 .txt_heading h3 {
 font-size: 17px;
 }
-.profilename, .account_no {
-line-height: 29px;
-font-size: 17px;
-}
 .editprofi img{
 height: 20px;
 }
@@ -20329,6 +20394,10 @@ ul.mobview_commu_tabs li a.nav-link {
     font-size: 12px;
     padding: 2px 11px 4px 11px;
 }
+.myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .btnappoint button.btn.btn_appoint.mobilebook {
+    width: 98px;
+    font-size: 11px;
+}
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 97%;
 }
@@ -20339,6 +20408,9 @@ ul.mobview_commu_tabs li a.nav-link {
     font-size: 12px;
     line-height: 19px;
     padding: 6px 10px;
+}
+.maint_pagediv .name_addr p.nm {
+    line-height: 17px;
 }
 .alpha_contact p {
     font-size: 14px;
@@ -20375,6 +20447,12 @@ ul.mobview_commu_tabs li a.nav-link {
 }
 .flex_containerdiv label,.descrip_div label, .workorder_mobileview .issue_select label, .workorder_mobileview .uploadphotos_div label {
     font-size: 12px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+    margin: 7px 0 0 20px;
+}
+.belowpart_tenant.maintenance_div .acc_infotxt {
+    margin: 8px 15px 0 0px;
 }
 .orderdivtime_linetab .list-group.vertical-steps {
     width: 94%;
@@ -20630,9 +20708,6 @@ font-size: 12px;
 height: 25px;
 width: 25px;
 }
-.belowpart_tenant.maintenance_div .acc_infotxt {
-margin: 11px 15px 0 0px;
-}
 .viewdescrip_reqserv_list h3 {
 font-size: 12px;
 }
@@ -20690,14 +20765,11 @@ line-height: 25px;
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
 padding: 7px 3px 9px 6px;
 }
-.belowpart_tenant.maintenance_div .profile_infotxt {
-margin: 12px 0 0 20px;
-}
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
 line-height: 11px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-margin: -83px 0 0 20px;
+    margin: -83px 0 0 15px;
 }
 
 .rightsec_listdiv {
@@ -22326,10 +22398,7 @@ margin: 0 0.6em 0 1.7em;
 .l-header__inner {
 height: 101px;
 }
-.profilename, .account_no {
-line-height: 29px;
-font-size: 17px;
-}
+
 .editprofi img{
 height: 20px;
 }
@@ -22452,9 +22521,6 @@ font-size: 14px;
 }
 .tenant_profilebg {
 height: 86px;
-}
-.profile_infotxt .prof_label, .acc_label {
-font-size: 13px;
 }
 .my_info, .req_document {
 padding: 14px 10px;
@@ -22627,9 +22693,6 @@ font-size: 12px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
 padding: 4px 3px 9px 6px;
-}
-.belowpart_tenant.maintenance_div .profile_infotxt {
-margin: 12px 0 0 22px;
 }
 /* end of maintenance */
 /*  payment deposit */
@@ -22874,11 +22937,6 @@ width: 80%;
 margin: 0 0 0 33px;
 }
 /* end of showing confirm pop up */
-/* find property */
-.findpropinfo .myinfo_txt span {
-font-size: 13px;
-}
-/* end of find property */
 /* price range */
 .pricelabel_range {
 flex-basis: 29%;
