@@ -7226,6 +7226,86 @@ display: none;
 /* end of calender view showings */
 
 /* communication */
+.profiledetail_div .prof_persondetails{
+    display: block;
+}
+.commu_detailaboutme .profimg_dets > img{
+    margin:0;
+}
+.commu_detailaboutme .profimg_dets{
+    text-align: center;
+    width: 100px;
+    margin: 21px auto 0 auto;
+    position: relative;
+}
+.commu_detailaboutme .multi_icons_commu ul {
+    width: 38%;
+}
+.button_accept_reject .btn.btn_accept img{
+    width: 13px;
+    height: 12px;
+    margin: 0 7px 0 0px;
+    vertical-align: initial;
+}
+.button_accept_reject .btn.btn-decline img{
+    width: 14px;
+    height: 14px;
+    margin: 0 7px 0 0px;
+    vertical-align: text-bottom;
+}
+.button_accept_reject{
+    text-align: center;
+}
+.btn.btn_accept,.btn.btn-decline{
+    border-radius: 36px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 110px;
+    height: 30px;
+    padding: 2px;
+}
+.btn.btn_accept{
+    background: #9BB997;
+    margin: 0 16px 0 0;
+}
+.about_bodysec{
+    padding: 15px 20px;
+    margin:0 0 20px 0;
+}
+.aboutme_divsec h4{
+font-weight: 700;
+font-size: 18px;
+line-height:29px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+background: #92A3B4;
+border-radius: 17px 17px 0px 0px;
+margin:0;
+}
+.about_bodysec p{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height:22px;
+text-transform: capitalize;
+color: #315D80;
+margin:0;
+}
+.btn.btn-decline{
+    background: #92A3B4;
+}
+.aboutme_divsec{
+background: #EDF2FA;
+border-radius: 17px;
+margin:20px 0 0 0;
+}
+.two_buttonsreport.aboutme_commuabout{
+    margin: 16px 0 20px 0;
+}
 .accept_ic_comm{
 display: inline-block;
 margin: 0 10px 0 0px;
@@ -7313,7 +7393,6 @@ width: 62%;
 margin: 0 auto;
 }
 .prof_name h3{
-font-family: 'Helvetica';
 font-weight: 700;
 font-size: 20px;
 line-height: 32px;
@@ -7836,8 +7915,16 @@ padding:0;
 padding: 0 10px;
 }
 .accpt_rejectdiv img{
-width:20px;
-height:20px;
+    width: 16px;
+    height: 12px;
+}
+.reject_ic_comm img{
+width: 14px;
+height: 14px;
+}
+.contact-list .infodescrip span img{
+    width: 20px;
+    height: 20px;
 }
 ul.mobview_commu_tabs li a.nav-link .req_count{
 background: #92A3B4;
@@ -7880,7 +7967,6 @@ text-transform: capitalize;
 color: #315D80;
 }
 .contact-list .contact .personinfo{
-font-family: 'Helvetica';
 font-weight: 400;
 font-size: 14px;
 line-height:22px;

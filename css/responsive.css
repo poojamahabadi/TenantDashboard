@@ -5600,8 +5600,21 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
-
-
+/* communication about me */
+.commu_detailaboutme .profimg_dets > img {
+    width: 101px;
+    height: 97px;
+}
+.profiledetail_div .prof_persondetails {
+    margin: 8em 0 0 0;
+}
+.multi_icons_commu ul {
+    width: 39%;
+}
+.profiledetail_div .view_morediv a {
+    padding: 0px 10px 10px 10px;
+}
+/* end of communication about me */
 /* timeline mobile view */
 
 .tabcon_timelinemobileview .container {
@@ -9116,7 +9129,12 @@ bottom: 19px;
 right: 13px;
 }
 }
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 641px){
+/* communication about me */
+.commu_detailaboutme .multi_icons_commu ul {
+    width: 46%;
+}
+/* end of communication about me */
 /* maintenance */
 .succ_msg p {
     width: 95%;
@@ -10145,6 +10163,12 @@ width: 85px;
 }
 }
 @media only screen and (max-width: 640px) and (min-width:569px) {
+/* communication */
+.profiledetail_div .multi_icons_commu ul {
+    width: 49%;
+}
+/* end of communication */
+
 /* schedule showings */
 .tablinks_propfeat.unit_div .slick-track, .tablinks_propfeat.building_div .slick-track, .tablinks_propfeat.utilitiesdiv .slick-track {
 margin-left: -38px;
@@ -10273,6 +10297,12 @@ top: -28px;
 }
 @media only screen and (max-width:576px) {
 /* communication */
+.commu_detailaboutme .multi_icons_commu ul,.profiledetail_div .multi_icons_commu ul {
+    width: 52%;
+} 
+.profiledetail_div .prof_persondetails {
+    margin: 10em 0 0 0;
+}
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 55%;
 }
@@ -10303,6 +10333,7 @@ top: -28px;
 }
 .reqt_container .contact-list .contact .infodescrip{
     flex-basis: 23%;
+    text-align: right;
 }
 .reqt_container .contact-list .contact .accpt_rejectdiv{
     flex-basis: 20%;
@@ -12361,6 +12392,9 @@ top: 11px;
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 67%;
 }
+.commu_detailaboutme .multi_icons_commu ul,.profiledetail_div .multi_icons_commu ul {
+    width: 66%;
+}
 /* end of communication */
 
 
@@ -13358,6 +13392,9 @@ width: 56%;
 .alpha_contact p {
     margin: 20px 0 0 0;
 }
+.commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
+    width: 77%;
+}
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 72%;
 }
@@ -14064,6 +14101,9 @@ margin: 0 0 0 10px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
     width: 78%;
+}
+.commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
+    width: 77%;
 }
 /* end of communication */
 /* maintenance */
@@ -15711,6 +15751,9 @@ left: -18px;
 
 @media only screen and (max-width: 394px) {
 /* communication */
+.commu_detailaboutme .multi_icons_commu ul {
+    width: 81%;
+}
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 81%;
 }
@@ -17077,6 +17120,12 @@ left: -22px;
 
 @media only screen and (max-width: 376px) and (min-width:362px) {
 /* communication */
+.commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
+    width: 87%;
+}
+.about_bodysec p {
+    font-size: 13px;
+}
 ul.mobview_commu_tabs li a.nav-link {
     padding: 2px 12px 4px 12px;
 }
@@ -18504,6 +18553,9 @@ width: 37%;
 
 @media only screen and (max-width: 361px) and (min-width:341px) {
 /* communication */
+.commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
+    width: 88%;
+}
 ul.mobview_commu_tabs li a.nav-link {
     font-size: 12px;
     padding: 2px 11px 4px 11px;
@@ -20390,6 +20442,9 @@ font-size: 15px;
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
 /* communication */
+.commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
+    width: 95%;
+}
 ul.mobview_commu_tabs li a.nav-link {
     font-size: 12px;
     padding: 2px 11px 4px 11px;
@@ -22594,6 +22649,9 @@ left: 14px;
 
 @media only screen and (max-width:320px){
 /* communication */
+.commu_detailaboutme .multi_icons_commu ul {
+    width: 100%;
+}
 .mycont_container .contact-list .contact .avatar-holder{
     flex-basis: 77%;
 }
