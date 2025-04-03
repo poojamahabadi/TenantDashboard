@@ -5601,6 +5601,9 @@ width: 57%;
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
 /* communication about me */
+.tab-content.allcommuni_tabs{
+    margin: 0 0 3em 0;
+}
 .commu_detailaboutme .profimg_dets > img {
     width: 101px;
     height: 97px;
@@ -18556,6 +18559,14 @@ width: 37%;
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
     width: 88%;
 }
+.btn.btn-repblk_mod img, .btn.btn-blkmod img {
+    margin: 0 7px 0 0;
+}
+.btn.btn-repblk_mod, .btn.btn-blkmod {
+    width: 147px;
+    font-size: 13px;
+    padding: 0 10px 0 10px;
+}
 ul.mobview_commu_tabs li a.nav-link {
     font-size: 12px;
     padding: 2px 11px 4px 11px;
@@ -20442,6 +20453,17 @@ font-size: 15px;
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
 /* communication */
+.btn.btn-repblk_mod, .btn.btn-blkmod {
+    width: 133px;
+    font-size: 13px;
+    padding: 0 7px 0 7px;
+}
+.commu_reportblkmodal .modal-header h4.modal-title img {
+    vertical-align: middle;
+}
+.btn.btn-repblk_mod img, .btn.btn-blkmod img {
+    margin: 0 7px 0 0;
+}
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
     width: 95%;
 }

@@ -152,7 +152,7 @@
                 <li class="d-flex justify-content-center align-items-center"><a href="javascript:void(0);" class="d-block"><img src="images/showings/communication/commuication_all/comment.svg"></a></li>
                 <li class="d-flex justify-content-center align-items-center"><a href="javascript:void(0);" class="d-block"><img src="images/showings/communication/commuication_all/call.svg"></a></li>
                 <li class="d-flex justify-content-center align-items-center"><a href="javascript:void(0);" class="d-block"><img src="images/showings/communication/commuication_all/calender.svg"></a></li>
-                <li class="d-flex justify-content-center align-items-center"><a href="javascript:void(0);" class="d-block"><img src="images/showings/communication/commuication_all/location.svg"></a></li>
+                <li class="d-flex justify-content-center align-items-center"><a href="#commu_locationpop_up" data-toggle="modal" class="d-block"><img src="images/showings/communication/commuication_all/location.svg"></a></li>
                 <li class="d-flex justify-content-center align-items-center"><a href="javascript:void(0);" class="d-block"><img src="images/showings/communication/commuication_all/share.svg"></a></li>
             </ul>
         </div>
@@ -239,14 +239,136 @@
     
         </div>
         <div class="two_buttonsreport mt-2">
-            <button class="btn blockbtn"><img src="images/showings/communication/commuication_all/blockbtn.svg">Block</button>
-            <button class="btn reportblk_btn"><img src="images/showings/communication/commuication_all/reportbtn.svg">Report & block</button>
+            <button class="btn blockbtn" data-toggle="modal" data-target="#block_modal"><img src="images/showings/communication/commuication_all/blockbtn.svg">Block</button>
+            <button class="btn reportblk_btn" data-toggle="modal" data-target="#reportblock_modal"><img src="images/showings/communication/commuication_all/reportbtn.svg">Report & block</button>
         </div>
     </div>
 </div>
 </div>
 </div>
 </main>
+
+
+<!--  block -->
+
+<div class="modal location_commudiv commu_reportblkmodal fade" id="block_modal">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header justify-content-center border-0">
+          <h4 class="modal-title"><img src="images/showings/communication/commuication_all/report_block/report_block.svg">Report & block</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <div class="report_blockdiv">
+            <h4>Blocked contacts will no longer be able to call you or
+                send you messages.</h4>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-blkmod" data-dismiss="modal"><img src="images/showings/communication/commuication_all/report_block/blck_icon.svg">Block</button>
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+<!-- block end -->
+
+
+
+
+<!-- report and block -->
+  <div class="modal location_commudiv commu_reportblkmodal fade" id="reportblock_modal">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header justify-content-center border-0">
+          <h4 class="modal-title"><img src="images/showings/communication/commuication_all/report_block/report_block.svg">Report & block</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <div class="report_blockdiv">
+            <h4>All messages from John Doe will be forwarded to RYPM. This contact will not be notified.</h4>
+            <p>If you report and block, your chat with this contact will be deleted from your RYPM account.</p>
+        </div>
+        <div class="d-flex justify-content-between">
+            <button type="button" class="btn btn-repblk_mod" data-dismiss="modal"><img src="images/showings/communication/commuication_all/report_block/reportblk_icon.svg">Report & block</button>
+            <button type="button" class="btn btn-blkmod" data-dismiss="modal"><img src="images/showings/communication/commuication_all/report_block/blck_icon.svg">Block</button>
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+<!-- report and block end -->
+
+
+<!-- location modal -->
+<div class="modal fade location_commudiv" id="commu_locationpop_up">
+    <div class="modal-dialog modal-md modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header d-block text-center mb-0 pb-0 border-0">
+          <h4 class="modal-title">share location</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <div class="live_location">
+
+            <ul class="links_loc list-unstyled mb-0 text-center">
+                <li class="active">
+                    <a href="javascript:void(0);" data-target="#targ_one">live location</a>
+                    <div class="liveloc_div" id="targ_one">
+                        <h4>Live Location</h4>
+                        <ul class="d-flex justify-content-between list-unstyled mb-0">
+                            <li class="active">
+                                <button class="btn time_btntxt">15 min</button>
+                            </li>
+                            <li>
+                                <button class="btn time_btntxt">1hr</button>
+                            </li>
+                            <li>
+                                <button class="btn time_btntxt">8hr</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li>
+                    <a href="javascript:void(0);" data-target="#targ_two">current location</a>
+                    <div class="liveloc_div" id="targ_two">
+                        <h4>current location</h4>
+
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" data-target="#targ_three">Share as QR code</a>
+                    <div class="liveloc_div" id="targ_three">
+                        <h4>Share as QR code</h4>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- end of location modal -->
+
+
+
+
+
+
+
+
 
 <!-- mobileview menu -->
 <div class="container-fluid btmmenu">
@@ -282,9 +404,32 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-<!--  slick js -->
-<script src="js/slick.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+    $(document).ready(function(){
+        // Show the default active section on page load and hide its anchor
+        $(".links_loc li.active .liveloc_div").show();
+        $(".links_loc li.active a").hide();
+
+        $(".links_loc a").click(function(){
+            $(".links_loc li").removeClass("active"); // Remove active class from all <li>
+            $(".liveloc_div").hide(); // Hide all sections
+            $(".links_loc a").show(); // Show all anchors
+
+            var targetDiv = $(this).data("target"); // Get target div ID
+            $(this).parent("li").addClass("active"); // Add active class to clicked <li>
+            $(targetDiv).show(); // Show the corresponding div
+            $(this).hide(); // Hide the clicked anchor
+        });
+
+        $(".time_btntxt").click(function(){
+            $(".time_btntxt").removeClass("active"); // Remove active class from all time buttons
+            $(this).addClass("active"); // Add active class to clicked button
+        });
+    });
+</script>
+
+
 </body>
 </html>

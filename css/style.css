@@ -7226,8 +7226,84 @@ display: none;
 /* end of calender view showings */
 
 /* communication */
-.profiledetail_div .prof_persondetails{
+.mobileversion_view.scancommu_div{
+    position: relative;
+}
+.addcont_popup .salescommuni_div{
+    padding: 0px 0 12em 0;
+}
+.scancommu_div a{
+    position: absolute;
+    left: -8px;
+    top: -6px;
+}
+.profilescan_div .prof_persondetails{
+    position: relative;
+    padding: 0 0 3em 0;
+}
+.profiledetail_div .prof_persondetails,.profilescan_div .prof_persondetails{
     display: block;
+}
+.scanshare_div {
+    position: absolute;
+    bottom: -25px;
+    left: 42%;
+}
+.profilescan_div{
+    background: rgba(201, 215, 229, 0.9);
+    border-radius: 17px;
+    width: 312px;
+    margin: 0 auto;
+}
+.scan_infodiv p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    color: #315D80;
+    margin: 0 auto 5em auto;
+    width: 34%;
+}
+.bg_gradient_colr{
+    background: linear-gradient(360deg, #BFCDDB 0%, #FFFFFF 30%);
+}
+.scan_infodiv{
+    text-align: center;
+    padding: 3em 0 4em 0;
+}
+button.scan_done:hover,button.scan_done:active,button.scan_done:focus{
+    color: #FFFFFF; 
+}
+button.scan_done{
+background: #9BB997;
+width: 156px;
+height: 32px;
+padding: 0;
+outline: none;
+border-radius: 40px;
+font-weight: 700;
+font-size: 12px;
+line-height: 11px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+.scannerimg_div{
+    text-align: center;
+    margin: 2.5em 0 2em 0;
+}
+.scannerimg_div img{
+    width: 180px;
+    height: 180px;
+}
+.profilescan_div .prof_name.scanp_txt p{
+font-weight: 400;
+font-size: 14px;
+line-height:22px;
+text-align: center;
+text-transform: capitalize;
+color: #92A3B4;
 }
 .commu_detailaboutme .profimg_dets > img{
     margin:0;
@@ -7598,6 +7674,11 @@ margin-left: 13px;
 /* end of communication */
 
 /* communication calls */
+.plussign_commu.infodescrip{
+    position: fixed;
+    bottom: 101px;
+    right: 16px;
+}
 ul.mobview_commu_tabs li a.nav-link.active .req_count{
 background: #ffffff;
 border: 2px solid #315d80;
@@ -7972,6 +8053,137 @@ font-size: 14px;
 line-height:22px;
 text-transform: capitalize;
 color: #92A3B4;
+}
+
+/* communication share location */
+.commu_reportblkmodal .modal-header h4.modal-title img{
+    margin: 0 10px 0 0px;
+    vertical-align: text-top;
+}
+ .modal.commu_reportblkmodal {
+    bottom: 57px;
+    height: auto;
+    z-index: 10;
+    top: unset;
+} 
+.location_commudiv ~ .modal-backdrop{
+    z-index: 1;
+}
+.location_commudiv .modal-body{
+    padding:5px 0 0 0;
+}
+.location_commudiv.commu_reportblkmodal .modal-body{
+    padding: 0px 20px 31px 20px;
+}
+.profiledetail_div .multi_icons_commu ul li a{
+    width: 100%;
+    text-align: center;
+}
+.btn.btn-repblk_mod,.btn.btn-blkmod{
+    width: 162px;
+    height: 35px;
+    background: #6388A5;
+    box-shadow: 3.20624px 3.84749px 3.20624px -0.641248px rgba(137, 174, 234, 0.04), inset 2.56499px 2.56499px 8.97747px rgba(57, 124, 238, 0.12);
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #F8FCFF;
+    text-align: left;
+    padding: 0 10px 0 18px;
+    outline: none;
+}
+.btn.btn-repblk_mod img,.btn.btn-blkmod img{
+    margin: 0 17px 0 0;
+}
+.report_blockdiv h4{
+font-weight: 700;
+font-size: 12px;
+line-height: 19px;
+color: #315D80;
+}
+.report_blockdiv p{
+font-weight: 400;
+font-size: 12px;
+line-height:19px;
+color: #315D80;
+}
+.liveloc_div{
+    display: none;
+    background: #EDF2FA;
+border-radius: 12px;
+padding: 10px;
+}
+.live_location{
+    padding: 0 0 7em 0;
+}
+.links_loc >li:last-child {
+    border-bottom: none;
+}
+.links_loc >li {
+    margin: 0px 0 9px 0;
+    border-bottom: 1px solid rgba(191, 204, 217, 1);
+    padding: 8px 10px 15px 10px;
+}
+.links_loc >li a{
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+text-transform: capitalize;
+color: #63829E;
+}
+.live_location h4{
+font-weight: 700;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+text-transform: capitalize;
+color: #315D80;
+}
+.liveloc_div ul li button{
+    width: 86px;
+    height: 30px;
+    background: #C9D7E5;
+    box-shadow: 3.20624px 3.84749px 3.20624px -0.641248px rgba(137, 174, 234, 0.04), inset 2.56499px 2.56499px 8.97747px rgba(57, 124, 238, 0.12);
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:26px;
+    color: #315D80;
+    padding: 0;
+    }
+    .liveloc_div ul li.active button{
+color: #FFFFFF;
+background: #315D80;
+}
+.location_commudiv .modal-content{
+    background: rgba(201, 215, 229, 0.96);
+    border-radius: 17px;
+    border: unset;
+}
+.location_commudiv .modal-content .modal-header h4.modal-title{
+font-weight: 700;
+font-size: 18px;
+line-height:29px;
+text-transform: capitalize;
+color: #315D80;
+}
+.location_commudiv .close{
+    background: rgba(55, 105, 144, 0.2);
+    border-radius: 42px;
+    padding: 0 0 3px 0;
+    margin: 0;
+    position: absolute;
+    right: 12px;
+    opacity: 1;
+    top: 8px;
+    text-shadow: unset;
+    color: #ffffff;
+    width: 28px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 /* communications desktop */
@@ -12308,7 +12520,7 @@ top: 5px;
 .modal-backdrop.show{
 backdrop-filter: blur(7.5px);
 opacity: 1;
-background: linear-gradient(360deg, #9fb0cd -13.46%, rgba(216, 231, 255, 0) 100%);
+background: linear-gradient(360deg, #dedede -13.46%, rgba(216, 231, 255, 0) 100%);
 }
 .confirmpopupdiv .modal-header h4{
 color: #FFFFFF;
