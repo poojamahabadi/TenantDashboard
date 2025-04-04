@@ -5604,6 +5604,12 @@ width: 57%;
 .tab-content.allcommuni_tabs{
     margin: 0 0 3em 0;
 }
+.l-main.chatcommu_top {
+    margin-top: 71px !important;
+    height: 100vh;
+    background: #EDF2FA url("../images/showings/communication/commuication_all/lion_backg.svg") bottom right no-repeat;
+    background-size: contain;
+}
 .commu_detailaboutme .profimg_dets > img {
     width: 101px;
     height: 97px;

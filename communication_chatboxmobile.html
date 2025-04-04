@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Communication</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+    <!-- datepicker styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/new-stylecss.css">
+<link rel="stylesheet" href="css/developer.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+
+<style>
+  
+
+
+</style>
+
+</head>
+<body>
+  <header class="l-header">
+    <div class="d-flex justify-content-between align-items-center pt-1 pl-4 pr-4">
+        <div class="topsec_chat">
+            <div class="backbtn_flex">
+                <a href=""><img src="images/showings/communication/commuication_all/back_btn.svg"></a>
+            </div>
+            <div class="profimgflex_div">
+                <img src="images/showings/communication/profileimg1.svg">
+                     <!-- green dot -->
+                     <div class="status_chat greenprof_comm"></div>
+                     <!-- yellow dot -->
+                     <!-- <div class="status_chat yellowprof_comm"></div> -->
+            </div>   
+            <div class="profname_txtdiv">
+                <p>John Doe</p>
+            </div> 
+        </div>
+
+        <div class="chatlinks">
+            <ul class="list-unstyled justify-content-between d-flex mb-0 p-0">
+            <li> 
+            <a href="javascript:void(0);"><img src="images/showings/communication/commuication_all/email_commu_chat.svg"></a>
+            </li>
+            <li> 
+            <a href="javascript:void(0);"><img src="images/showings/communication/commuication_all/commu_call_icon.svg"></a>
+            </li>
+            <li> 
+            <a href="javascript:void(0);"><img src="images/showings/communication/commuication_all/commu_video_chat.svg"></a>
+            </li>
+            </ul>
+            </div>
+    </div>
+</header>
+    <main class="l-main chatcommu_top">
+        <div class="content-wrapper content-wrapper--with-bg">
+            <div class="container-fluid">
+
+
+            <div class="chat-container">
+                <div class="chat-box" id="chatBox"></div>
+                <div class="bottombtns_section">
+                    <div class="input-area" id="inputArea">
+                        <button id="plusBtn" class="plusbtn_styl"><img src="images/showings/communication/commuication_all/chat_plussign.svg"></button>
+                        <input type="text" id="messageInput" placeholder="Say something... ">
+                        <button id="sendBtn" class="sendbtn_msgchat"><img src="images/showings/communication/commuication_all/send_chatmsg.svg"></button>
+                    </div>
+                    <div class="hidden-buttons" id="hiddenButtons">
+                        <button id="minusBtn" class="minusbtn_styl"><img src="images/showings/communication/commuication_all/minus_iconchat.svg"></button>
+                        <button id="locationBtn" class="loc_btnchat_icon"><img src="images/showings/communication/commuication_all/location_chat.svg">Location</button>
+                        <button id="contactBtn" class="contact_btnchat_icon"><img src="images/showings/communication/commuication_all/contact_chaticon.svg">contact</button>
+                      
+                    </div>
+                </div>
+
+
+            </div>
+</div>
+</div>
+</main>
+
+
+
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+
+    <script>
+        let replyTo = null;
+        let replyToElement = null;
+
+        // Select message to reply
+        $(document).on('click', '.message', function () {
+            $('.message').removeClass('selected');
+            $(this).addClass('selected');
+            replyTo = $(this).text(); // Store the selected message text
+            replyToElement = $(this).clone(); // Clone the selected message element
+        });
+
+        // Send message
+        $('#sendBtn').click(function () {
+            var message = $('#messageInput').val();
+            if (message) {
+                addDateSeparator();
+                let msgHtml = '';
+
+                // If replying, show the selected message above the response
+                if (replyTo) {
+                    $(replyToElement).removeClass("sent received").addClass("reply-box");
+                    msgHtml += '<div class="message sent replied_div">' +
+                        $(replyToElement).prop('outerHTML') + // Attach reply message
+                        '<div class="msg_chat"><p>' + message + '</p></div>' +
+                        '<div class="time-stamp-container"><span class="time-stamp">' + getFormattedTime() + '</span></div>' +
+                        '</div>';
+                } else {
+                    msgHtml += '<div class="message sent">' + message + 
+                        '<div class="time-stamp-container"><span class="time-stamp">' + getFormattedTime() + '</span></div>' +
+                        '</div>';
+                }
+
+                $('#chatBox').append(msgHtml);
+                $('#messageInput').val('');
+                replyTo = null;
+                replyToElement = null;
+                $('.message').removeClass('selected'); // Remove highlight after sending
+
+                setTimeout(function () {
+                    $('.single-tick').removeClass('single-tick').addClass('double-tick').html('<img src="images/showings/communication/commuication_all/tick_read.svg">');
+                }, 500);
+
+                autoReply(message);
+                $('#chatBox').scrollTop($('#chatBox')[0].scrollHeight);
+            }
+        });
+
+        function getFormattedDate() {
+            let today = new Date();
+            return today.toDateString();
+        }
+
+        function getFormattedTime() {
+            let now = new Date();
+            return now.getHours().toString().padStart(2, '0') + ":" + now.getMinutes().toString().padStart(2, '0');
+        }
+
+        function addDateSeparator() {
+            let currentDate = getFormattedDate();
+            if ($('.date-separator').last().text() !== currentDate) {
+                $('#chatBox').append('<div class="date-separator">' + currentDate + '</div>');
+            }
+        }
+
+        function autoReply(userMessage) {
+            setTimeout(function () {
+                addDateSeparator();
+                var responses = ["Okay!", "Got it!", "Interesting...", "Tell me more!", "I agree!", "Let's do it!"];
+                var botReply = responses[Math.floor(Math.random() * responses.length)];
+                $('#chatBox').append('<div class="message received"><p>' + botReply + '</p><div class="time-stamp-container"><span class="time-stamp">' + getFormattedTime() + '</span><span class="ticks single-tick"><img src="images/showings/communication/commuication_all/tick_unread.svg"></span></div></div>');
+                $('.double-tick').addClass('read').html('<img src="images/showings/communication/commuication_all/tick_read.svg">'); // Mark all previous messages as read
+            }, 1000);
+        }
+
+        $('#plusBtn').click(function () {
+            $('#inputArea').hide();
+            $('#hiddenButtons').show();
+        });
+
+        $('#minusBtn').click(function () {
+            $('#hiddenButtons').hide();
+            $('#inputArea').show();
+        });
+    </script>
+</body>
+</html>
