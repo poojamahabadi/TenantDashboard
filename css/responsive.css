@@ -5602,7 +5602,23 @@ width: 57%;
 @media only screen and (max-width: 767px) and (min-width:320px) {
 /* communication about me */
 .tab-content.allcommuni_tabs{
-    margin: 0 0 3em 0;
+    margin: 0 0 4em 0;
+}
+.links_loc >li {
+    padding: 0 10px;
+}
+.live_location {
+    padding: 10px 0 7em 0;
+}
+.profiledetail_div .prof_persondetails {
+    margin: 2.4em 0 7em 0;
+}
+.profiledetail_div .multi_icons_commu ul {
+    width: 39%;
+}
+.profiledetail_div,.commu_detailaboutme{
+    width: 95%;
+    margin:0 auto;
 }
 .l-main.chatcommu_top {
     margin-top: 71px !important;
@@ -5614,14 +5630,11 @@ width: 57%;
     width: 101px;
     height: 97px;
 }
-.profiledetail_div .prof_persondetails {
-    margin: 8em 0 0 0;
-}
 .multi_icons_commu ul {
     width: 39%;
 }
 .profiledetail_div .view_morediv a {
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px 13px 10px;
 }
 /* end of communication about me */
 /* timeline mobile view */
@@ -10176,6 +10189,10 @@ width: 85px;
 .profiledetail_div .multi_icons_commu ul {
     width: 49%;
 }
+.commu_detailaboutme{
+    width: 95%;
+    margin: 0 auto;
+}
 /* end of communication */
 
 /* schedule showings */
@@ -10306,12 +10323,19 @@ top: -28px;
 }
 @media only screen and (max-width:576px) {
 /* communication */
+.btn.blockbtn{
+    padding: 8px 13px 8px 11px;
+}
+.two_buttonsreport.aboutme_commuabout {
+    margin: 57px 0 0px 0;
+}
+.commu_detailaboutme {
+    width: 95%;
+    margin: 0 auto;
+}
 .commu_detailaboutme .multi_icons_commu ul,.profiledetail_div .multi_icons_commu ul {
     width: 52%;
 } 
-.profiledetail_div .prof_persondetails {
-    margin: 10em 0 0 0;
-}
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 55%;
 }
@@ -12044,7 +12068,7 @@ background-position: bottom;
 height: 115px;
 }
 header.l-header .l-header__inner {
-height: 71px;
+    height: 71px;
 }
 .links {
 margin: 0;
@@ -12403,6 +12427,12 @@ top: 11px;
 }
 .commu_detailaboutme .multi_icons_commu ul,.profiledetail_div .multi_icons_commu ul {
     width: 66%;
+}
+.flex_menubottom.communication_btmmenu div a img {
+    height: 27px;
+}
+.flex_menubottom.communication_btmmenu  p {
+    font-size: 12px;
 }
 /* end of communication */
 
@@ -17132,6 +17162,28 @@ left: -22px;
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
     width: 87%;
 }
+.liveloc_div ul li button {
+    font-size: 14px;
+}
+.live_location h4 {
+    font-size: 16px;
+}
+.btn.btn-repblk_mod, .btn.btn-blkmod {
+    width: 156px;
+    padding: 0 6px 0 16px;
+}
+.btn.btn-repblk_mod img, .btn.btn-blkmod img {
+    margin: 0px 10px 0 0;
+}
+.audio_video_div h2 {
+    font-size: 16px;
+}
+.audio_date_sectionhead h4,.leftaudio_div span, .rightaudio_div span {
+    font-size: 13px;
+}
+.about_bodysec {
+    padding: 15px;
+}
 .about_bodysec p {
     font-size: 13px;
 }
@@ -18562,8 +18614,30 @@ width: 37%;
 
 @media only screen and (max-width: 361px) and (min-width:341px) {
 /* communication */
+.liveloc_div ul li button {
+    font-size: 14px;
+}
+.live_location h4 {
+    font-size: 16px;
+}
+.reqt_container .contact-list .contact .infodescrip {
+    flex-basis: 25%;
+}
+.audio_video_div h2 {
+    font-size: 16px;
+}
+.audio_date_sectionhead h4,.leftaudio_div span, .rightaudio_div span {
+    font-size: 13px;
+}
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
     width: 88%;
+}
+.about_bodysec p {
+    font-size: 13px;
+    line-height: 21px;
+}
+.about_bodysec {
+    padding: 15px;
 }
 .btn.btn-repblk_mod img, .btn.btn-blkmod img {
     margin: 0 7px 0 0;
@@ -20463,6 +20537,30 @@ font-size: 15px;
     width: 133px;
     font-size: 13px;
     padding: 0 7px 0 7px;
+}
+.liveloc_div ul li button {
+    font-size: 14px;
+}
+.live_location h4 {
+    font-size: 16px;
+}
+.btn.blockbtn, .btn.reportblk_btn {
+    font-size: 13px;
+}
+.audio_video_div h2 {
+    font-size: 16px;
+}
+.audio_date_sectionhead h4,.leftaudio_div span, .rightaudio_div span {
+    font-size: 13px;
+}
+.reqt_container .contact-list .contact .infodescrip {
+    flex-basis: 25%;
+}
+.commu_detailaboutme {
+    width: 92%;
+}
+.about_bodysec {
+    padding: 15px;
 }
 .commu_reportblkmodal .modal-header h4.modal-title img {
     vertical-align: middle;
