@@ -12425,6 +12425,13 @@ top: 11px;
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 67%;
 }
+.scan_infodiv p {
+    width: 47%;
+}
+.scancommu_div a {
+    left: 5px;
+    top: -4px;
+}
 .commu_detailaboutme .multi_icons_commu ul,.profiledetail_div .multi_icons_commu ul {
     width: 66%;
 }
@@ -12433,6 +12440,9 @@ top: 11px;
 }
 .flex_menubottom.communication_btmmenu  p {
     font-size: 12px;
+}
+.profilescan_div .prof_persondetails {
+    padding: 0 0 1.5em 0;
 }
 /* end of communication */
 
@@ -13437,6 +13447,15 @@ width: 56%;
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 72%;
 }
+.scancommu_div a {
+    left: -7px;
+    top: -3px;
+}
+.scan_infodiv p {
+    width: 53%;
+}
+
+
 /* end of communication  */
 /* maintenance */
 .relv_mapcss.css_remove_position {
@@ -14042,7 +14061,9 @@ margin-left: 66px;
 .toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
 width: 92%;
 }
-
+header.l-header .l-header__inner {
+    height: 75px;
+}
 .schedtour_popup .tenantaccord .flexdiv .mobilebedbathrm_fields .basicdata {
 width: 58px;
 }
@@ -14137,6 +14158,16 @@ margin: 0 0 0 10px;
 /* communication */
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 78%;
+}
+.scancommu_div a {
+    left: 6px;
+    top: -4px;
+}
+.profilescan_div .prof_persondetails {
+    padding: 0 0 1.7em 0;
+}
+.scan_infodiv p {
+    width: 54%;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
     width: 78%;
@@ -15793,6 +15824,9 @@ left: -18px;
 .commu_detailaboutme .multi_icons_commu ul {
     width: 81%;
 }
+.scan_infodiv p {
+    width: 60%;
+}
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 81%;
 }
@@ -16408,6 +16442,13 @@ height: 21px;
 /* communication */
 .contact-list .contact .name {
     font-size: 14px;
+}
+
+.scannerimg_div {
+    margin: 2.5em 0 0.5em 0;
+}
+.scancommu_div a {
+    left: 17px;
 }
 .bottomcommu_details ul li a img {
     width: 17px;
@@ -17161,6 +17202,24 @@ left: -22px;
 /* communication */
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
     width: 87%;
+}
+.scancommu_div a {
+    left: 12px;
+}
+.profilescan_div .prof_persondetails {
+    padding: 0 0 1.7em 0;
+}
+.scannerimg_div {
+    margin: 2.1em 0 2em 0;
+}
+.profilescan_div .prof_name.scanp_txt p {
+    font-size: 13px;
+}
+.prof_name h3 {
+    font-size: 18px;
+}
+.scan_infodiv p {
+    width: 62%;
 }
 .liveloc_div ul li button {
     font-size: 14px;
@@ -18616,6 +18675,10 @@ width: 37%;
 /* communication */
 .liveloc_div ul li button {
     font-size: 14px;
+}
+.scancommu_div a {
+    left: 17px;
+    top: -5px;
 }
 .live_location h4 {
     font-size: 16px;
@@ -20533,6 +20596,23 @@ font-size: 15px;
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
 /* communication */
+.scancommu_div a {
+    left: 16px;
+    top: -5px;
+}
+.scannerimg_div {
+    margin: 2em 0 0.7em 0;
+}
+.scan_infodiv p {
+    width: 69%;
+}
+.scannerimg_div img {
+    width: 155px;
+    height: 155px;
+}
+.profilescan_div {
+    width: 284px;
+}
 .btn.btn-repblk_mod, .btn.btn-blkmod {
     width: 133px;
     font-size: 13px;

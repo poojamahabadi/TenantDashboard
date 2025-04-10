@@ -7505,11 +7505,12 @@ margin: 0 auto 5em auto;
 width: 34%;
 }
 .bg_gradient_colr{
-background: linear-gradient(360deg, #BFCDDB 0%, #FFFFFF 30%);
+    background: linear-gradient(360deg, #BFCDDB 0%, #FFFFFF 30%);
+    height: 100vh;
 }
 .scan_infodiv{
 text-align: center;
-padding: 3em 0 4em 0;
+padding: 3em 0 0em 0;
 }
 button.scan_done:hover,button.scan_done:active,button.scan_done:focus{
 color: #FFFFFF; 
