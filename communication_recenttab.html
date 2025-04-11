@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Communication</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+    <!-- datepicker styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/developer.css">
+<link rel="stylesheet" href="css/new-stylecss.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<main class="communcation_tabs" style="margin:20px 0 0 0 !important">
+<div class="content-wrapper content-wrapper--with-bg">
+<div class="container-fluid">
+<div class="new_commu_toptabs">
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs border-0">
+    <li class="nav-item">
+      <a class="nav-link active border-0 text-center" data-toggle="tab" href="#recentcomm">Recent</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link border-0 text-center" data-toggle="tab" href="#contactscomm">Contacts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link border-0 text-center recenttab_styl" data-toggle="tab" href="#requestcomm">Requests <span class="countreq_no">2</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link border-0 text-center" data-toggle="tab" href="#helpcomm">help</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link border-0 text-center" data-toggle="tab" href="#eventscomm">Events</a>
+      </li>
+  </ul>
+  
+  <!-- Tab panes -->
+<div class="tab-content">
+
+<div class="searchfilter_addpeople d-flex align-items-center mt-3">
+    <div class="c-search srch_communu input-group newcommu_searchdiv">
+        <div class="input-group-prepend">
+            <button class="btn searchicbtn" type="button"><img src="images/showings/communication/searchic.svg"></button>
+          </div>
+        <input class="c-search__input form-control p-0" placeholder="search name" type="text">
+        <div class="input-group-append">
+        <button class="btn micbtn" type="button"><img src="images/showings/communication/new_communication/newmic.svg"></button>
+        </div>
+    </div>
+    <div class="filterimg_commuicon text-center">
+        <a href="javascript:void(0);" class="d-block"><img src="images/showings/communication/new_communication/filterbtn_new.svg"></a>
+    </div>
+    <div class="addpeopleicon text-center">
+        <a href="javascript:void(0);" class="d-block"><img src="images/showings/communication/new_communication/addpeople_ic.svg"></a>
+    </div>
+</div>
+
+
+    <div class="tab-pane mt-3 active" id="recentcomm">
+        <ul class="contact-list recenttab_communication mb-2">
+            <!-- missed voice call text and count -->
+            <li class="contact p-0 mb-2">
+               <div class="inner">
+                 <div class="avatar-holder">
+                   <div class="named-avatar mr-2">
+                       <img src="images/showings/communication/prof1.svg">
+                   </div>
+                   <div class="info-holder">
+                       <p class="name">
+                           Aarchi
+                       </p>
+                       <div class="voicemissed_call">
+                        <p><img src="images/showings/communication/new_communication/missed_call.svg">missed voice call</p>
+                       </div>
+                  </div>
+                  </div>
+                  <div class="timecount_nuumber">
+                    <p>5:30 pM<span class="countnum_no">2</span></p>
+                  </div>
+                </div>
+           </li>
+
+           <!--  message recevied but unread and its count -->
+           <li class="contact p-0 mb-2">
+            <div class="inner">
+              <div class="avatar-holder">
+                <div class="named-avatar mr-2">
+                    <img src="images/showings/communication/prof1.svg">
+                </div>
+                <div class="info-holder">
+                    <p class="name">
+                        Aayush Jr
+                    </p>
+                    <div class="voicemissed_call textmessage_unread">
+                     <p>Hi, how are you?</p>
+                    </div>
+               </div>
+               </div>
+               <div class="timecount_nuumber unreadmessage_count">
+                 <p>yesterday<span class="countnum_no">2</span></p>
+               </div>
+             </div>
+        </li>
+
+
+<!-- received message -->
+        <li class="contact p-0 mb-2">
+            <div class="inner">
+              <div class="avatar-holder">
+                <div class="named-avatar mr-2">
+                    <img src="images/showings/communication/prof1.svg">
+                </div>
+                <div class="info-holder">
+                    <p class="name">
+                        Aayush Jr
+                    </p>
+                    <div class="voicemissed_call textmessage_receivedread">
+                     <p>are you here?</p>
+                    </div>
+               </div>
+               </div>
+               <div class="timecount_nuumber readmessagetxt_received">
+                 <p>monday</p>
+               </div>
+             </div>
+        </li>
+
+
+        <!-- send message -->
+        <li class="contact p-0 mb-2">
+            <div class="inner">
+              <div class="avatar-holder">
+                <div class="named-avatar mr-2">
+                    <img src="images/showings/communication/prof1.svg">
+                </div>
+                <div class="info-holder">
+                    <p class="name">
+                        Aayush Jr
+                    </p>
+                    <div class="voicemissed_call textmessage_send">
+                     <p><img src="images/showings/communication/new_communication/sendmsg_tick.svg">are you here?</p>
+                    </div>
+               </div>
+               </div>
+               <div class="timecount_nuumber readmessagetxt_send">
+                 <p>monday</p>
+               </div>
+             </div>
+        </li>
+
+                                <!-- one tick message  -->
+                                <li class="contact p-0 mb-2">
+                                    <div class="inner">
+                                      <div class="avatar-holder">
+                                        <div class="named-avatar mr-2">
+                                            <img src="images/showings/communication/prof1.svg">
+                                        </div>
+                                        <div class="info-holder">
+                                            <p class="name">
+                                                Aditya Sehrawat
+                                            </p>
+                                            <div class="voicemissed_call missedmsg_call">
+                                             <p><img src="images/showings/communication/new_communication/one_tick.svg">hello</p>
+                                            </div>
+                                       </div>
+                                       </div>
+                                       <div class="timecount_nuumber readmessagetxt_send">
+                                        <p>yesterday</p>
+                                      </div>
+                                     </div>
+                                </li>
+
+        <!-- read received message -->
+        <li class="contact p-0 mb-2">
+            <div class="inner">
+              <div class="avatar-holder">
+                <div class="named-avatar mr-2">
+                    <img src="images/showings/communication/prof1.svg">
+                </div>
+                <div class="info-holder">
+                    <p class="name">
+                        Aayush Jr
+                    </p>
+                    <div class="voicemissed_call textmessage_send">
+                     <p><img src="images/showings/communication/new_communication/read_receivermsg.svg">hello</p>
+                    </div>
+               </div>
+               </div>
+               <div class="timecount_nuumber readmessagetxt_send">
+                 <p>monday</p>
+               </div>
+             </div>
+        </li>
+
+
+        <!-- green call icon -->
+                <!-- voice call done -->
+                <li class="contact p-0 mb-2">
+                    <div class="inner">
+                      <div class="avatar-holder">
+                        <div class="named-avatar mr-2">
+                            <img src="images/showings/communication/prof1.svg">
+                        </div>
+                        <div class="info-holder">
+                            <p class="name">
+                                Aayush Jr
+                            </p>
+                            <div class="voicemissed_call textmessage_send voicecall_img">
+                             <p><img src="images/showings/communication/new_communication/voicecall_icon.svg">voice call</p>
+                            </div>
+                       </div>
+                       </div>
+                       <div class="timecount_nuumber readmessagetxt_send">
+                         <p>july 27, 2025</p>
+                       </div>
+                     </div>
+                </li>
+
+                
+                <li class="contact p-0 mb-2">
+                    <div class="inner">
+                      <div class="avatar-holder">
+                        <div class="named-avatar mr-2">
+                            <img src="images/showings/communication/prof1.svg">
+                        </div>
+                        <div class="info-holder">
+                            <p class="name">
+                                Aayush Jr
+                            </p>
+                            <div class="voicemissed_call textmessage_send voicecall_img">
+                             <p><img src="images/showings/communication/new_communication/voicecall_icon.svg">voice call</p>
+                            </div>
+                       </div>
+                       </div>
+                       <div class="timecount_nuumber readmessagetxt_send">
+                         <p>monday</p>
+                       </div>
+                     </div>
+                </li>
+<!-- end of green call icon -->
+
+
+<!-- red color call icon -->
+
+
+                <!-- voice call not connected done -->
+                <li class="contact p-0 mb-2">
+                    <div class="inner">
+                      <div class="avatar-holder">
+                        <div class="named-avatar mr-2">
+                            <img src="images/showings/communication/prof1.svg">
+                        </div>
+                        <div class="info-holder">
+                            <p class="name">
+                                Aayush Jr
+                            </p>
+                            <div class="voicemissed_call textmessage_send voicecall_img">
+                             <p><img src="images/showings/communication/new_communication/voicecall_notconnected.svg">voice call not connected</p>
+                            </div>
+                       </div>
+                       </div>
+                       <div class="timecount_nuumber readmessagetxt_send">
+                         <p>july 29, 2025</p>
+                       </div>
+                     </div>
+                </li>
+
+
+            <!-- missed voice call and seen -->
+            <li class="contact p-0 mb-2">
+                <div class="inner">
+                  <div class="avatar-holder">
+                    <div class="named-avatar mr-2">
+                        <img src="images/showings/communication/prof1.svg">
+                    </div>
+                    <div class="info-holder">
+                        <p class="name">
+                            Beata
+                        </p>
+                        <div class="voicemissed_call declinemsg_call">
+                         <p><img src="images/showings/communication/new_communication/missed_call.svg">missed voice call</p>
+                        </div>
+                   </div>
+                   </div>
+                   <div class="timecount_nuumber readmessagetxt_send">
+                    <p>monday</p>
+                  </div>
+                 </div>
+            </li>
+
+                        <!-- declined voice call  -->
+                        <li class="contact p-0 mb-2">
+                            <div class="inner">
+                              <div class="avatar-holder">
+                                <div class="named-avatar mr-2">
+                                    <img src="images/showings/communication/prof1.svg">
+                                </div>
+                                <div class="info-holder">
+                                    <p class="name">
+                                        Aarchi
+                                    </p>
+                                    <div class="voicemissed_call missedmsg_call">
+                                     <p><img src="images/showings/communication/new_communication/missed_call.svg">Declined Voice Call</p>
+                                    </div>
+                               </div>
+                               </div>
+                               <div class="timecount_nuumber readmessagetxt_send">
+                                <p>monday</p>
+                              </div>
+                             </div>
+                        </li>
+<!-- red color call icon end-->
+
+
+           </ul>
+    </div>
+<!-- end of recent tab -->
+
+<!-- contact tab -->
+    <div class="tab-pane mt-3 fade contactscomm" id="contactscomm">
+        <div class="row">
+            <div class="col-xl-1 col-sm-1 col-1 pad_letters">
+                <div class="alpha_contact newcommtab_contact">
+                    <p>A</p>
+                </div>
+            </div>
+            <div class="col-xl-11 col-sm-11 col-11 padcont_info">
+                <ul class="contact-list recenttab_communication contactlist_newcommu">
+                     <li class="contact p-0">
+                        <div class="inner">
+                          <div class="avatar-holder">
+                            <div class="named-avatar mr-2">
+                                <img src="images/showings/communication/prof1.svg">
+                            </div>
+                            <div class="info-holder">
+                                <p class="name">
+                                    Aarchi
+                                </p>
+                                <p class="personinfo">
+                                    potential roommate
+                                </p>
+                              </div>
+                          </div>
+            
+                          <div class="infodescrip">
+                            <div class="chat_callemail_div">
+                                <a href=""><img src="images/showings/communication/new_communication/contact_chat.svg"></a>
+                                <a href=""><img src="images/showings/communication/new_communication/contact_call.svg"></a>
+                                <a href=""><img src="images/showings/communication/new_communication/contact_email.svg"></a>
+                                <a href="">
+                                    <img src="images/showings/communication/info_icon.svg">
+                                </a>
+                            </div>
+                          
+                          </div>
+                        </div>
+                        <div class="bottomcommu_details">
+                            <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                                <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="contact p-0">
+                        <div class="inner">
+                            <div class="avatar-holder">
+                                <div class="named-avatar mr-2">
+                                    <img src="images/showings/communication/prof2.svg">
+                                </div>
+                                <div class="info-holder">
+                                    <p class="name">
+                                        Aayush Jr
+                                    </p>
+                                    <p class="personinfo">
+                                        my landlord fgdfgdfgdfgg dfgdfgdfg fdgdfg dfgd
+                                    </p>
+                                  </div>
+                              </div>
+                          <div class="infodescrip">
+                            
+                            <a href="communication_profilemobile.html">
+                                <img src="images/showings/communication/info_icon.svg">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="bottomcommu_details">
+                            <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                                <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="contact p-0">
+                        <div class="inner">
+                            <div class="avatar-holder">
+                                <div class="named-avatar mr-2">
+                                    <img src="images/showings/communication/prof3.svg">
+                                </div>
+                                <div class="info-holder">
+                                    <p class="name">
+                                        Abhishek
+                                    </p>
+                                    <p class="personinfo">
+                                        potential landlord dfgdfgdfgfdg dfgfgfg gfdgdfg
+                                    </p>
+                                  </div>
+                              </div>
+                          <div class="infodescrip">
+                            <a href="communication_profilemobile.html">
+                                <img src="images/showings/communication/info_icon.svg">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="bottomcommu_details">
+                            <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                                <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="contact p-0">
+                          <div class="inner">
+                            <div class="avatar-holder">
+                                <div class="named-avatar mr-2">
+                                    <img src="images/showings/communication/prof4.svg">
+                                </div>
+                                <div class="info-holder">
+                                    <p class="name">
+                                        Aditya Sehrawat
+                                    </p>
+                                    <p class="personinfo">
+                                        potential roommate dfgfdgfdgdfgd fgdfgdfgdf
+                                    </p>
+                                  </div>
+                              </div>
+                            <div class="infodescrip">
+                                <a href="communication_profilemobile.html">
+                                    <img src="images/showings/communication/info_icon.svg">
+                                </a>
+                              </div>
+                          </div>
+                          <div class="bottomcommu_details">
+                            <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                                <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                            </ul>
+                          </div>
+                      </li>
+                  </ul>
+            </div>
+            <div class="col-xl-1 col-sm-1 col-1 pad_letters">
+                <div class="alpha_contact newcommtab_contact">
+                    <p>B</p>
+                </div>
+            </div>
+            <div class="col-xl-11 col-sm-11 col-11 padcont_info">
+                <ul class="contact-list recenttab_communication contactlist_newcommu">
+                     <li class="contact p-0">
+                        <div class="inner">
+                          <div class="avatar-holder">
+                            <div class="named-avatar mr-2">
+                                <img src="images/showings/communication/prof1.svg">
+                            </div>
+                            <div class="info-holder">
+                                <p class="name">
+                                    Aarchi
+                                </p>
+                                <p class="personinfo">
+                                    potential roommate fgfdgfd dfgdfgfd dfgdfgdfg df
+                                </p>
+                              </div>
+                          </div>
+            
+                          <div class="infodescrip">
+                            <a href="communication_profilemobile.html">
+                                <img src="images/showings/communication/info_icon.svg">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="bottomcommu_details">
+                            <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                                <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="contact p-0">
+                        <div class="inner">
+                            <div class="avatar-holder">
+                                <div class="named-avatar mr-2">
+                                    <img src="images/showings/communication/prof2.svg">
+                                </div>
+                                <div class="info-holder">
+                                    <p class="name">
+                                        Aayush Jr
+                                    </p>
+                                    <p class="personinfo">
+                                        my landlord dfgdfgfgdfg dfgdfgdfgdf dffgdfgdfg dfg dfg
+                                    </p>
+                                  </div>
+                              </div>
+                          <div class="infodescrip">
+                            <a href="communication_profilemobile.html">
+                                <img src="images/showings/communication/info_icon.svg">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="bottomcommu_details">
+                            <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                                <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="contact p-0">
+                        <div class="inner">
+                            <div class="avatar-holder">
+                                <div class="named-avatar mr-2">
+                                    <img src="images/showings/communication/prof3.svg">
+                                </div>
+                                <div class="info-holder">
+                                    <p class="name">
+                                        Abhishek
+                                    </p>
+                                    <p class="personinfo">
+                                        potential landlord hhghg hjh hhg hjg jhjg hjh hj g hjghg
+                                    </p>
+                                  </div>
+                              </div>
+                          <div class="infodescrip">
+                            <a href="communication_profilemobile.html">
+                                <img src="images/showings/communication/info_icon.svg">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="bottomcommu_details">
+                            <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                                <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="contact p-0">
+                          <div class="inner">
+                            <div class="avatar-holder">
+                                <div class="named-avatar mr-2">
+                                    <img src="images/showings/communication/prof4.svg">
+                                </div>
+                                <div class="info-holder">
+                                    <p class="name">
+                                        Aditya Sehrawat
+                                    </p>
+                                    <p class="personinfo">
+                                        potential roommate hvhjghhjh jbjhbgghjh jjhjkjjhiuuhkj jbhjhb
+                                    </p>
+                                  </div>
+                              </div>
+                            <div class="infodescrip">
+                            <a href="communication_profilemobile.html">
+                                <img src="images/showings/communication/info_icon.svg">
+                            </a>
+                              </div>
+                          </div>
+                          <div class="bottomcommu_details">
+                            <ul class="d-flex justify-content-between pr-sm-5 pl-sm-5 pr-2 pl-2 align-items-center">
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/textimg.svg"> Text</a></li>
+                                <li><a href="javascript:void(0);"><img src="images/showings/communication/callimg.svg">call</a></li>
+                                <li class="event_img"><a href="javascript:void(0);"><img src="images/showings/communication/event.svg">event</a></li>
+                            </ul>
+                          </div>
+                      </li>
+                  </ul>
+            </div>
+           </div>
+    </div>
+    <!-- end of contact tab -->
+    <div class="tab-pane mt-3 fade" id="requestcomm">...</div>
+    <div class="tab-pane mt-3 fade" id="helpcomm">...</div>
+    <div class="tab-pane mt-3 fade" id="eventscomm">...</div>
+  </div>
+</div>
+
+
+
+            </div>
+        </div>
+        </main>
+
+<div class="container-fluid newbtm_menucommu">
+        <div class="newcommu_bottomimg">
+            <ul class="list-unstyled d-flex justify-content-between align-items-center">
+                <li><a href="" class="d-block"><img src="images/showings/communication/new_communication/home.svg"></a></li>
+                <li><a href="" class="d-block"><img src="images/showings/communication/new_communication/hand_heart.svg"></a></li>
+                <li class="videocssimg"><a href="" class="d-block"><img src="images/showings/communication/new_communication/videocommu.svg"></a></li>
+                <li><a href="" class="d-block chatblck"><img src="images/showings/communication/new_communication/chatcommu.svg"></a></li>
+                <li><a href="" class="d-block profimgcommu_img"><img src="images/showings/communication/new_communication/profileimgcommu.svg"></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

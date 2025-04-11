@@ -9153,8 +9153,22 @@ right: 13px;
 }
 @media only screen and (max-width: 641px){
 /* communication about me */
+.new_commu_toptabs{
+    padding: 0 15px;
+    margin: 0 0 7em 0;
+}
+.newcommu_bottomimg ul {
+    width: 87%;
+}
+.newcommu_bottomimg {
+    height: 71px;
+}
 .commu_detailaboutme .multi_icons_commu ul {
     width: 46%;
+}
+.newcommu_bottomimg ul li.videocssimg a img{
+    height: 61px;
+    margin: -15px 0 0 4px;
 }
 /* end of communication about me */
 /* maintenance */
@@ -12422,6 +12436,9 @@ top: 11px;
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
 /* communication */
+.profilemenu_bottom {
+    left: 12px;
+}
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 67%;
 }
@@ -13441,6 +13458,7 @@ width: 56%;
 .alpha_contact p {
     margin: 20px 0 0 0;
 }
+
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
     width: 77%;
 }
@@ -15824,6 +15842,10 @@ left: -18px;
 .commu_detailaboutme .multi_icons_commu ul {
     width: 81%;
 }
+
+    .profilemenu_bottom {
+       left: 9px;
+    }
 .scan_infodiv p {
     width: 60%;
 }
