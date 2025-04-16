@@ -65,65 +65,87 @@
                   <!-- Tab panes -->
                   <div class="tab-content">
 
-                    <div class="tab-pane active " id="bio">
+
+                    <!-- bio tab -->
+                    <div class="tab-pane active" id="bio">
                         <div class="bio_txtp mt-2">
                             <p>Hi, I’m John! I’m a 27-year-old finance professional working full-time as a bank teller with a 9-to-5 schedule. I’m looking for a long-term (12+ months) living arrangement with a.Hi, I’m John! I’m a 27-year-old finance professional working full-time as a bank teller with a 9-to-5 schedule. I’m looking for a long-term (12+ months) living arrangement with a...Hi, I’m John!</p>
                         </div>
                     </div>
+ <!-- bio tab end-->
 
 
-                    <div class="tab-pane fade mt-3 " id="audio_video">
-                        <div class="audiovideo_calls d-flex justify-content-between align-items-center">
-                            <div class="callnames_txt">
-                                <p class="mb-0"><img src="images/showings/communication/new_communication/voicecall_icon.svg">voice call </p>
+ <!-- audio tab -->
+                    <div class="tab-pane fade mt-4" id="audio_video">
+                        <div class="audio-container">
+                            <div class="audiovideo_calls">
+                                <div class="callnames_txt">
+                                    <p class="mb-0"><img src="images/showings/communication/new_communication/voicecall_icon.svg" alt="Voice Call"> voice call </p>
+                                </div>
+                                <div class="pause_orplay">
+                                    <p class="mb-0">
+                                        <img src="images/showings/communication/new_communication/playicon.svg" class="pauseimg_clk playPauseBtn" onclick="togglePlayPause(1)">
+                                        <audio id="audio-player-1" src="images/one.mp3" preload="auto"></audio>
+                                        <span class="audio-duration" id="audio-duration-1">0 Sec (0 kB)</span>
+                                    </p>
+                                </div>
+                                <div class="audiovideo_time">
+                                    <p class="mb-0" id="current-time-1">2:54 AM</p>
+                                </div>
                             </div>
-                            <div class="pause_orplay">
-                                <p class="mb-0"><img src="images/showings/communication/new_communication/pause_img.svg"> <span>13 Sec (2 kB)</span></p>
-                            </div>
-                            <div class="audiovideo_time">
-                                <p class="mb-0">2:54 aM</p>
+                            <div class="line-container">
+                                <div class="line">
+                                    <div class="progress"></div>
+                                </div>
+                                <div class="dot"></div>
                             </div>
                         </div>
 
-                        <div class="line-container">
-                            <div class="line"><div class="progress"></div></div>
-                            <div class="dot"></div>
-                          </div>
-
-                        <div class="audiovideo_calls d-flex justify-content-between align-items-center">
-                            <div class="callnames_txt">
-                                <p class="mb-0"><img src="images/showings/communication/new_communication/voicecall_icon.svg">voice call </p>
+                        <!-- Audio Player 2 -->
+                        <div class="audio-container">
+                            <div class="audiovideo_calls">
+                                <div class="callnames_txt">
+                                    <p class="mb-0"><img src="images/showings/communication/new_communication/voicecall_icon.svg" alt="Voice Call"> voice call </p>
+                                </div>
+                                <div class="pause_orplay">
+                                    <p class="mb-0">
+                                        <img src="images/showings/communication/new_communication/playicon.svg" class="pauseimg_clk playPauseBtn" onclick="togglePlayPause(2)">
+                                        <audio id="audio-player-2" src="images/one.mp3" preload="auto"></audio>
+                                        <span class="audio-duration" id="audio-duration-2">0 Sec (0 kB)</span>
+                                    </p>
+                                </div>
+                                <div class="audiovideo_time">
+                                    <p class="mb-0" id="current-time-2">yesterday</p>
+                                </div>
                             </div>
-                            <div class="pause_orplay">
-                                <p class="mb-0"><img src="images/showings/communication/new_communication/playicon.svg"> <span>1 min (55 kB)</span></p>
-                            </div>
-                            <div class="audiovideo_time">
-                                <p class="mb-0">yesterday</p>
-                            </div>
-                        </div>
-
-                        <div class="line-container">
-                            <div class="line"><div class="progress"></div></div>
-                            <div class="dot"></div>
-                          </div>
-
-                        <div class="audiovideo_calls d-flex justify-content-between align-items-center">
-                            <div class="callnames_txt">
-                                <p class="mb-0"><img src="images/showings/communication/new_communication/videocall.svg">Video call  </p>
-                            </div>
-                            <div class="pause_orplay">
-                                <p class="mb-0"><img src="images/showings/communication/new_communication/playicon.svg"> <span>14 min (15 MB)</span></p>
-                            </div>
-                            <div class="audiovideo_time">
-                                <p class="mb-0">yesterday</p>
+                            <div class="line-container">
+                                <div class="line">
+                                    <div class="progress"></div>
+                                </div>
+                                <div class="dot"></div>
                             </div>
                         </div>
 
-                        <div class="line-container">
-                            <div class="line"><div class="progress"></div></div>
-                            <div class="dot"></div>
-                          </div>
-
+                        <!-- video call -->
+                        <div class="audiovideo_calls videosection d-flex justify-content-between align-items-center" data-video="images/video.mp4" data-id="vid1">
+                            <div class="callnames_txt">
+                            <p class="mb-0"><img src="images/showings/communication/new_communication/videocall.svg"> Video Call 1</p>
+                            </div>
+                            <div class="pause_orplay">
+                            <p class="mb-0"><img src="images/showings/communication/new_communication/playicon.svg"> <span>12 min (10 MB)</span></p>
+                            </div>
+                            <div class="audiovideo_time">
+                            <p class="mb-0">today</p>
+                            </div>
+                            </div>
+                            
+                            <div class="videocontainer line-container" data-id="vid1">
+                            <div class="videoline line">
+                            <div class="progress"></div>
+                            </div>
+                            <div class="video_dot dot"></div>
+                            </div>
+<!-- end of video call -->
                         <div class="audiovideo_calls d-flex justify-content-between align-items-center">
                             <div class="callnames_txt">
                                 <p class="mb-0"><img src="images/showings/communication/new_communication/missed_call.svg">missed voice call  </p>
@@ -184,7 +206,49 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="events_commu">cc.</div>
+                     <!-- audio tab -->
+
+
+                    <div class="tab-pane fade mt-4" id="events_commu">
+                        <div class="eventstab_newcomm">
+                            <h2>upcoming Events</h2>
+
+                            <div class="keyup_content d-flex justify-content-between">
+                                <div class="keyupdetails_div">
+                                    <h4><img src="images/showings/communication/new_communication/events_key.svg"> Key Pick up</h4>
+                                    <p class="mb-0">123 main street, Toronto</p>
+                                </div>
+                                <div class="keyup_time">
+                                    <p class="mb-0"> 3:00 PM</p>
+                                </div>
+                            </div>
+
+                            <h2 class="mt-3">past Events</h2>
+
+                            <div class="keyup_content d-flex justify-content-between">
+                                <div class="keyupdetails_div">
+                                    <h4><img src="images/showings/communication/new_communication/events_key.svg"> landlord & tenant</h4>
+                                    <p class="mb-0">Toronto Office - 789 Don Mills Road</p>
+                                </div>
+                                <div class="keyup_time">
+                                    <p class="mb-0"> 2:54 aM</p>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="keyup_content d-flex justify-content-between">
+                                <div class="keyupdetails_div">
+                                    <h4><img src="images/showings/communication/new_communication/events_key.svg"> Showing</h4>
+                                    <p class="mb-0">123 main street, Toronto</p>
+                                </div>
+                                <div class="keyup_time">
+                                    <p class="mb-0"> 2:54 aM</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- event tab end -->
                   </div>
 </div>
 
@@ -193,81 +257,337 @@
 
 
 <div class="profilemenu_bottom">
-<ul class="mb-0 d-flex align-items-center justify-content-between list-unstyled">
-    <li><a href="javacript:void(0);"><img src="images/showings/communication/new_communication/profiledetails_chat.svg"></a></li>
-    <li><a href="javacript:void(0);"><img src="images/showings/communication/new_communication/profiledetails_call.svg"></a></li>
-    <li><a href="javacript:void(0);"><img src="images/showings/communication/new_communication/profiledetails_calender.svg"></a></li>
-    <li><a href="javacript:void(0);"><img src="images/showings/communication/new_communication/profiledetails_map.svg"></a></li>
-    <li><a href="javacript:void(0);"><img src="images/showings/communication/new_communication/profiledetails_share.svg"></a></li>
-    <li><a href="javacript:void(0);"><img src="images/showings/communication/new_communication/profiledetails_more.svg"></a></li>
+ <!-- live location content -->
+<div class="livelcation_content">
+    <ul class="d-flex justify-content-between list-unstyled mb-0">
+        <li class="active">
+            <button class="btn time_btntxt">15 min</button>
+        </li>
+        <li>
+            <button class="btn time_btntxt">1hr</button>
+        </li>
+        <li>
+            <button class="btn time_btntxt">8hr</button>
+        </li>
+    </ul>
+</div>
+<!-- live location content end -->   
+<div class="location_livecurrent">
+            <button class="btn livelocation_btn">live location</button>
+            <button class="btn currentlocation_btn">current location</button>
+</div>
+
+
+
+<!-- send request section -->
+<div class="div_sendrequest_details">
+    <div class="input-group searchdiv_requ mb-2">
+        <div class="input-group-prepend">
+            <button class="btn searchicbtn" type="button"><img src="images/showings/communication/searchic.svg"></button>
+          </div>
+          <input class="c-search__input form-control" placeholder="Search name or select a contact" type="text">
+    </div>
+
+    <div class="emailreq_send">
+        <div class="slick-slider mb-0">
+            <div class="element element-1">
+                    <div class="profileimg_req">
+                        <img src="images/showings/communication/prof1.svg">
+                    </div>
+            </div>
+            <div class="element element-2">
+                <div class="profileimg_req">
+                    <img src="images/showings/communication/prof1.svg">
+                </div>
+            </div>
+            <div class="element element-3">
+                <div class="profileimg_req">
+                    <img src="images/showings/communication/prof1.svg">
+                </div>
+            </div>
+            <div class="element element-4">
+                <div class="profileimg_req">
+                    <img src="images/showings/communication/prof1.svg">
+                </div>
+            </div>
+            <div class="element element-5">
+                <div class="profileimg_req">
+                    <img src="images/showings/communication/prof1.svg">
+                </div>
+            </div>
+            <div class="element element-6">
+                <div class="profileimg_req">
+                    <img src="images/showings/communication/prof1.svg">
+                </div>
+            </div>
+            <div class="element element-7">
+                <div class="profileimg_req">
+                    <img src="images/showings/communication/prof1.svg">
+                </div>
+            </div>
+          </div>
+    </div>
+    <div class="slickslider_sendreq">
+        <p class="mb-1 mt-1">or</p>
+    </div>
+    <div class="belowsec_div">
+        <div class="sendreq_btns d-flex justify-content-between">
+            <div class="emaillabel_txt">
+                <label>email</label>
+            </div>
+            <div class="email_iptext">
+                <input type="text" class="form-control" placeholder="John@gmail.com">
+            </div>
+    </div>
+    <div class="mt-2">
+        <button class="btn btnsendreq">send request</button>
+    </div>
+    </div>
+
+</div>
+
+<!-- send request section end -->
+<ul class="optionlist_div mb-0 d-flex align-items-center justify-content-between list-unstyled">
+    <li><a href="javascript:void(0);"><img src="images/showings/communication/new_communication/profiledetails_chat.svg"></a></li>
+    <li><a href="javascript:void(0);"><img src="images/showings/communication/new_communication/profiledetails_call.svg"></a></li>
+    <li><a href="javascript:void(0);"><img src="images/showings/communication/new_communication/profiledetails_calender.svg"></a></li>
+    <li><a href="javascript:void(0);" class="mapclick_div"><img src="images/showings/communication/new_communication/profiledetails_map.svg"></a></li>
+    <li><a href="javascript:void(0);" class="sendrequest_secdiv"><img src="images/showings/communication/new_communication/profiledetails_share.svg"></a></li>
+    <li><a href="javascript:void(0);"><img src="images/showings/communication/new_communication/profiledetails_more.svg"></a></li>
 </ul>
 </div>
-
-
-    
 </div>
 </div>
-
-
 
 <div class="container-fluid newbtm_menucommu">
     <div class="newcommu_bottomimg">
         <ul class="list-unstyled d-flex justify-content-between align-items-center">
-            <li><a href="javacript:void(0);" class="d-block"><img src="images/showings/communication/new_communication/home.svg"></a></li>
-            <li><a href="javacript:void(0);" class="d-block"><img src="images/showings/communication/new_communication/hand_heart.svg"></a></li>
+            <li><a href="javascript:void(0);" class="d-block"><img src="images/showings/communication/new_communication/home.svg"></a></li>
+            <li><a href="javascript:void(0);" class="d-block"><img src="images/showings/communication/new_communication/hand_heart.svg"></a></li>
             <li class="videocssimg"><a href="" class="d-block"><img src="images/showings/communication/new_communication/videocommu.svg"></a></li>
-            <li><a href="javacript:void(0);" class="d-block chatblck"><img src="images/showings/communication/new_communication/chatcommu.svg"></a></li>
-            <li><a href="javacript:void(0);" class="d-block profimgcommu_img"><img src="images/showings/communication/new_communication/profileimgcommu.svg"></a></li>
+            <li><a href="javascript:void(0);" class="d-block chatblck"><img src="images/showings/communication/new_communication/chatcommu.svg"></a></li>
+            <li><a href="javascript:void(0);" class="d-block profimgcommu_img"><img src="images/showings/communication/new_communication/profileimgcommu.svg"></a></li>
         </ul>
     </div>
 </div>
 
+<div id="videoModal" class="videomodal_div modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalBtn">&times;</span>
+      <video id="videoPlayer" controls>
+        <source src="" type="video/mp4" id="videoSource">
+        Your browser does not support HTML video.
+      </video>
+    </div>
+  </div>
 
 <script src="js/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<!--  slick js -->
+<script src="js/slick.min.js"></script>
+<!--  -->
 <script>
- document.querySelectorAll('.line-container').forEach(container => {
-    const dot = container.querySelector('.dot');
-    const progress = container.querySelector('.progress');
-    let isDragging = false;
-
-    function startDrag(e) {
-      isDragging = true;
-      dot.classList.add('dragging');
-      e.preventDefault();
-    }
-
-    function stopDrag() {
-      isDragging = false;
-      dot.classList.remove('dragging');
-    }
-
-    function drag(e) {
-      if (!isDragging) return;
-
-      const rect = container.getBoundingClientRect();
-      let clientX = e.clientX;
-      if (e.touches) clientX = e.touches[0].clientX;
-
-      let x = clientX - rect.left;
-      x = Math.max(0, Math.min(rect.width, x));
-
-      dot.style.left = `${x}px`;
-      progress.style.width = `${x}px`;
-    }
-
-    // Mouse events
-    dot.addEventListener('mousedown', startDrag);
-    document.addEventListener('mouseup', stopDrag);
-    document.addEventListener('mousemove', drag);
-
-    // Touch events
-    dot.addEventListener('touchstart', startDrag);
-    document.addEventListener('touchend', stopDrag);
-    document.addEventListener('touchmove', drag);
+  $(".emailreq_send .slick-slider").slick({
+   slidesToShow: 5.5,
+   infinite:false,
+   slidesToScroll: 1,
+   autoplay: true,
+   autoplaySpeed: 2000
   });
-  </script>
+</script>
+
+<!-- on click of share button -->
+<script>
+    $(document).ready(function () {
+  $('.sendrequest_secdiv').on('click', function (e) {
+    e.stopPropagation(); // Prevent the click from reaching the document
+    $('.div_sendrequest_details').show();
+    $(".optionlist_div").addClass('spacetop_ul_share');
+    $('.livelcation_content').hide();
+    $('.location_livecurrent').hide();
+  });
+
+  $('.div_sendrequest_details').on('click', function (e) {
+    e.stopPropagation(); // Prevent the click inside the div from hiding it
+  });
+
+  $(document).on('click', function () {
+    $('.div_sendrequest_details').hide();
+    $(".optionlist_div").removeClass('spacetop_ul_share');
+  });
+});
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const mapClickDiv = document.querySelector(".mapclick_div");
+        const locationLiveCurrent = document.querySelector(".location_livecurrent");
+        const liveLocationContent = document.querySelector(".livelcation_content");
+        const timeButtons = document.querySelectorAll(".livelcation_content .time_btntxt");
+        const liveLocationBtn = document.querySelector(".livelocation_btn");
+        const currentLocationBtn = document.querySelector(".currentlocation_btn");
+        const optionLinks = document.querySelectorAll(".optionlist_div li a");
+    
+        // Initially hide livelcation_content
+        liveLocationContent.style.display = "none";
+        locationLiveCurrent.style.display = "none";
+    
+        // Show only locationLiveCurrent on map icon click
+        mapClickDiv.addEventListener("click", function (e) {
+            locationLiveCurrent.style.display = "flex";
+            document.querySelector('.optionlist_div').classList.add('spacetop_ul');
+            e.stopPropagation(); // Prevent bubbling to body
+        });
+    
+        // Hide both when clicking outside
+        document.addEventListener("click", function (e) {
+            if (!e.target.closest(".location_livecurrent") && 
+                !e.target.closest(".livelcation_content") && 
+                !e.target.closest(".mapclick_div")) {
+                locationLiveCurrent.style.display = "none";
+                liveLocationContent.style.display = "none";
+                liveLocationBtn.classList.remove("active");
+                currentLocationBtn.classList.remove("active");
+                document.querySelector('.optionlist_div').classList.remove('spacetop_ul');
+            }
+        });
+    
+        // Time button active toggle
+        timeButtons.forEach(btn => {
+            btn.addEventListener("click", function () {
+                timeButtons.forEach(b => b.parentElement.classList.remove("active"));
+                this.parentElement.classList.add("active");
+            });
+        });
+    
+        // Live Location button click
+        liveLocationBtn.addEventListener("click", function () {
+            liveLocationContent.style.display = "block";
+            liveLocationBtn.classList.add("active");
+            currentLocationBtn.classList.remove("active");
+        });
+    
+        // Current Location button click
+        currentLocationBtn.addEventListener("click", function () {
+            liveLocationContent.style.display = "none";
+            currentLocationBtn.classList.add("active");
+            liveLocationBtn.classList.remove("active");
+        });
+    
+        // Option list active toggle
+        optionLinks.forEach(link => {
+            link.addEventListener("click", function () {
+                optionLinks.forEach(l => l.parentElement.classList.remove("active"));
+                this.parentElement.classList.add("active");
+            });
+        });
+    });
+    </script>
+<!-- line and dot -->
+<script> 
+document.querySelectorAll('.audio-container').forEach(container => {
+    const audio = container.querySelector('audio');
+    const playPauseBtn = container.querySelector('.playPauseBtn');
+    const progress = container.querySelector('.progress');
+    const dot = container.querySelector('.dot');
+    const durationText = container.querySelector('.audio-duration');
+    const timeText = container.querySelector('.current-time');
+
+    // Toggle Play/Pause
+    playPauseBtn.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+            playPauseBtn.src = 'images/showings/communication/new_communication/pause_img.svg'; // change icon
+        } else {
+            audio.pause();
+            playPauseBtn.src = 'images/showings/communication/new_communication/playicon.svg'; // change icon
+        }
+    });
+
+    // On metadata load, update duration
+    audio.addEventListener('loadedmetadata', () => {
+        const sec = Math.floor(audio.duration);
+        durationText.textContent = `${sec} Sec`;
+    });
+
+    // Update progress and dot on timeupdate
+    audio.addEventListener('timeupdate', () => {
+        const percent = (audio.currentTime / audio.duration) * 100;
+        progress.style.width = `${percent}%`;
+        dot.style.left = `${percent}%`;
+
+        // Optional: update current time display
+        const min = Math.floor(audio.currentTime / 60);
+        const sec = Math.floor(audio.currentTime % 60).toString().padStart(2, '0');
+        timeText.textContent = `${min}:${sec}`;
+    });
+
+    // Reset icon on end
+    audio.addEventListener('ended', () => {
+        playPauseBtn.src = 'pause_img.svg';
+    });
+});
+</script>
+
+<script>
+     const modal = document.getElementById("videoModal");
+  const video = document.getElementById("videoPlayer");
+  const videoSource = document.getElementById("videoSource");
+  const closeBtn = document.getElementById("closeModalBtn");
+
+  let activeProgress = null;
+  let activeDot = null;
+
+  // OPEN VIDEO MODAL
+  document.querySelectorAll('.audiovideo_calls.videosection').forEach(item => {
+    item.addEventListener('click', () => {
+      const videoFile = item.getAttribute('data-video');
+      const videoId = item.getAttribute('data-id');
+
+      // Set video source
+      videoSource.src = videoFile;
+      video.load();
+      modal.style.display = "block";
+      video.play();
+
+      // Find corresponding progress bar and dot
+      const container = document.querySelector(`.videocontainer[data-id="${videoId}"]`);
+      activeProgress = container.querySelector('.progress');
+      activeDot = container.querySelector('.video_dot');
+    });
+  });
+
+  // CLOSE MODAL
+  closeBtn.onclick = () => {
+    modal.style.display = "none";
+    video.pause();
+  };
+
+  window.onclick = (event) => {
+    if (event.target === modal) {
+      modal.style.display = "none";
+      video.pause();
+    }
+  };
+
+  // UPDATE PROGRESS BAR AND DOT
+  video.ontimeupdate = () => {
+    if (!activeProgress || !activeDot || !video.duration) return;
+    const percent = (video.currentTime / video.duration) * 100;
+    activeProgress.style.width = percent + "%";
+    activeDot.style.left = percent + "%";
+  };
+
+  // RESET on close
+  modal.addEventListener("hide", () => {
+    activeProgress = null;
+    activeDot = null;
+  });
+</script>
+
+
+
 </body>
 </html>
