@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Video Call</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- font awesome 4 -->
+<link rel="stylesheet" href="font-awesome.css">
+<!--  slick slider css -->
+<link rel="stylesheet" href="css/slick-theme.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<!-- swiper slider -->
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<style>
+
+</style>
+</head>
+<body>
+
+<header class="l-header">
+<div class="l-header__inner clearfix">
+<div class="c-header-icon desktopversion_search">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+<div class="logo">
+<div class="logo__txt">
+<a href="tenant.html" class="desktopversion_logo"><img src="images/logo.svg"></a>
+<div class="mobileversion_view">
+<a href="tenant.html"><img src="images/mobile_logo.svg"></a>
+</div>
+</div>
+</div>
+
+<div class="c-search desktopversion_search">
+<input class="c-search__input form-control" placeholder="Search" type="text"/>
+<button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+</button>
+</div>
+
+<div class="mobileversion_view txt_heading">
+<h3></h3>
+</div>
+
+<div class="links">
+<ul>
+<li class="phone desktopversion_search"> <a href="">
+<img src="images/phone.svg"></a>
+<div class="count_phone">
+<span>4</span>
+</div>
+</li>
+<li class="comment desktopversion_search"> <a href="">
+<img src="images/comment.svg"></a>
+<div class="count_comment">
+<span>5</span>
+</div>
+</li>
+<li class="email desktopversion_search"> <a href="">
+<img src="images/email.svg"></a>
+<div class="count_email">
+<span>6</span>
+</div>
+</li>
+<li class="notify"> <a href="">
+<img src="images/notify.svg"></a>
+<div class="count_notify">
+<span>30</span>
+</div>
+</li>
+</ul>
+</div>
+
+<div class="c-header-icon mobileversion_view">
+<a href="javascript:void(0)" onclick="openNav()">
+<div class="hamburger-toggle">
+<span class="bar-top"></span>
+<span class="bar-mid">
+</span><span class="bar-bot"></span>
+</div>
+</a>
+</div>
+</div>
+</header>
+
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="topsec_menu">
+    <div class="profilepic">
+    <img src="images/menu/profilemenu.svg">
+    <div class="status status_green">
+    <span></span>
+    </div>
+    </div>
+    <div class="profiledetails">
+    <p>Mae Coleman <small>Tenant</small></p>
+    <a href="">View Profile</a>
+    </div>
+    <div class="menu_scanicon">
+    <img src="images/menu/menu_scan.svg">
+    </div>
+    </div>
+    <div class="c-search menusearch">
+    <input class="c-search__input form-control" placeholder="Search" type="text"/>
+    <button type="submit" class="submt_btn"><i class="fa fa-search"></i>
+    </button>
+    </div>
+    <div class="menu_nav">
+    <a href="myinformation.html">  <img src="images/menu/my_info.svg"> My Information</a>
+    <a href="#">  <img src="images/menu/communication.svg"> Communications</a>
+    <a href="my_lease.html">  <img src="images/menu/active_lease.svg"> Active Lease</a>
+    <a href="#" class="active">  <img src="images/menu/showings.svg"> showings & offers</a>
+    <a href="#">  <img src="images/menu/maintenance.svg"> Maintenance</a>
+    <a href="#">  <img src="images/menu/transaction.svg"> Transactions</a>
+    <a href="#">  <img src="images/menu/benefits.svg"> Benefits</a>
+    <a href="#">  <img src="images/menu/properties.svg"> Find a Properties</a>
+    <a href="#">  <img src="images/menu/scanqr.svg"> Scan QR Code</a>
+    <div class="logoutsec">
+    <div>
+    <a href="javascript:void(0);">Logout</a>
+    </div>
+    <div>
+    <button class="btn upgrade_btn">Upgrade</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="topsec_videocall">
+        <div class="d-flex justify-content-between voicerecorder_div align-items-center">
+            <div class="addpeople_iconplus">
+               <a href="javascript:void(0);"> <img src="images/contact_message/call/addpeople.svg"></a>
+            </div>
+        
+            <div class="minutes_voicerecord">
+                <p class="mb-0">1:00 Min   <img src="images/contact_message/call/redrecorder.svg"></p>
+            </div>
+            <div class="expandvoice_icon">
+                <a href="javascript:void(0);"><img src="images/contact_message/call/expandimg.svg"></a>
+            </div>
+        </div>
+        </div>
+
+<div class="videocall_persons">
+    <video id="videoperson" autoplay muted>
+        <source src="images/video.mp4" type="video/mp4" id="videocall_contact">
+    </video>
+
+<div class="smallscreen_bottomright">
+    <video id="videoperson" autoplay muted>
+        <source src="images/video.mp4" type="video/mp4" id="videocall_contact">
+    </video>
+</div>
+
+
+
+<div class="call-icon-container">
+<!-- share details -->
+        <div class="sharedetails_div">
+            <ul class="list-unstyled p-0">
+                <li>
+                    <a href="javascript:void(0);" class="link_video d-block text-center mb-2">share screen</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="link_video d-block text-center">View Together</a>
+                </li>
+            </ul>
+        </div>
+<!-- share details -->
+        <button class="btn speaker-button blue p-0 border-0 mr-2"><img src="images/contact_message/call/speakericon.svg"></button>
+        <button class="btn call-button p-0 border-0 mr-2"><img src="images/contact_message/call/callimg.svg"></button>
+        <button class="btn videocall-button p-0 border-0 mr-2"><img src="images/contact_message/call/videocallicon.svg"></button>
+        <button class="btn bluetooth-button p-0 border-0 mr-2"><img src="images/contact_message/call/bluetooth_blue.svg"></button>
+        <button class="btn sharecall-button p-0 border-0"><img src="images/contact_message/call/sharescreen.svg"></button>
+      </div>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function() {
+      $('.sharedetails_div .link_video').click(function(e) {
+        e.preventDefault();
+        $('.sharedetails_div .link_video').removeClass('active'); // Remove active from all
+        $(this).addClass('active'); // Add active to clicked
+      });
+    });
+  </script>
+
+<script>
+$(document).ready(function () {
+    const $shareBtn = $('.sharecall-button');
+    const $detailsDiv = $('.sharedetails_div');
+
+    $shareBtn.on('click', function (e) {
+        e.stopPropagation(); // prevent document click
+
+        $detailsDiv.show();
+        $shareBtn.addClass('active-sharecall'); // add both classes
+    });
+
+    // Prevent click inside the sharedetails_div from bubbling to document
+    $detailsDiv.on('click', function (e) {
+        e.stopPropagation();
+    });
+
+    // Click anywhere else in the document
+    $(document).on('click', function () {
+        $detailsDiv.hide();
+        $shareBtn.removeClass('active-sharecall'); // remove both classes
+    });
+
+    // Also hide on other call buttons
+    $('.call-icon-container .btn').not('.sharecall-button').on('click', function () {
+        $detailsDiv.hide();
+        $shareBtn.removeClass('active-sharecall'); // remove both classes
+    });
+});
+  </script>
+</body>
+</html>
