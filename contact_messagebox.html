@@ -224,7 +224,12 @@
     <div id="contactEmojiPicker">
       <div class="emoji-container" id="contactEmojiContainer"></div>
     </div>
-  
+        <!-- Typing indicator -->
+<div class="typing-indicator" style="display: none;">
+  <span class="dotmessage"></span>
+  <span class="dotmessage"></span>
+  <span class="dotmessage"></span>
+</div>
     <div class="bottombtns_sectioncontact">
         <div class="d-flex justify-content-between">
             <div class="input-area contactarea_msg" id="contactInputArea">
@@ -518,7 +523,7 @@ $("#contactSendBtn").click(function () {
         '</div>';
     } else {
       msgHtml += '<div class="message sent">' + message +
-        '<div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span></div>' +
+        '<div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span><span class="ticks single-tick"><img src="images/showings/communication/commuication_all/tick_unread.svg"></span></div>' +
         '</div>';
     }
 
@@ -599,6 +604,26 @@ populateContactEmojis();
     });
   });
 </script>
+
+
+<script>
+const typingIndicator = $(".typing-indicator");
+
+$("#contactMessageInput").on("focus input", function () {
+  typingIndicator.css("display", "flex");
+});
+
+$("#contactMessageInput").on("blur", function () {
+  typingIndicator.css("display", "none");
+});
+
+$("#contactSendBtn").click(function () {
+  typingIndicator.css("display", "none");
+});
+
+</script>
+
+
 </body>
 </html>
 
