@@ -16184,23 +16184,25 @@ background: #EDF2FA;
 border-radius: 36px;
 padding: 0 17px 0 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.callemail_dots{
+    position: relative;
+}
+.callemail_dots .savedproperties_share{
+    position: absolute;
+    right: -18px;
+    top: 31px;
+}
+.callemail_dots .savedproperties_share .btn.btnsave_prop{
+    padding: 0;
+    width: 200px;
+    background-color: #9ca9bd7a;
+    border-radius: 30px;
+    line-height: 44px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #20364D;
+}
 .contactarea_msg{
 flex-basis: 88%;
 }
@@ -16208,10 +16210,13 @@ flex-basis: 88%;
 flex-basis: 10%;
 }
 .bottombtns_sectioncontact {
-position: fixed;
-width: 97%;
-bottom: 9px;
-left: 15px;
+    position: absolute;
+    width: 97%;
+    bottom: 9px;
+    left: 11px;
+}
+.bottombtns_sectioncontact.topspade_pad.maptopspade_pad {
+    bottom: 181px;
 }
 .btn.pluscontactbtm img{
 vertical-align: initial;
@@ -16383,9 +16388,6 @@ text-align: center;
 color: #999;
 font-size: 12px;
 margin: 10px 0;
-}
-.contactchatboxmessage .selected {
-outline: 2px dashed #aaa;
 }
 .contactchatboxmessage .bottombtns_section .input-area{
 background: rgba(201, 215, 229, 0.6);

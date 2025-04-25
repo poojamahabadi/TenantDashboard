@@ -162,14 +162,15 @@
                             <li class="mr-2"><a href="javascript:void(0);"><img src="images/contact_message/callic_contact.svg"></a></li>
                             <li class="mr-2"><a href="javascript:void(0);"><img src="images/contact_message/chattext.svg"></a></li>
                             <li class="mr-3"><a href="javascript:void(0);"><img src="images/contact_message/calen_icon.svg"></a></li>
-                            <li><a href="javascript:void(0);"><img src="images/contact_message/dots_contact.svg"></a></li>
+                            <li class="clickdots_prop"><a href="javascript:void(0);"><img src="images/contact_message/dots_contact.svg"></a></li>
                         </ul>
+                        
+                        <div class="savedproperties_share">
+                          <button class="btn btnsave_prop">Share Saved Properties</button>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-
 
             <div class="profimg_centernochat">
               <div class="center-content">
@@ -178,17 +179,7 @@
                   <h3 class="mb-0 mt-2">Aarchi <img src="images/contact_message/verify_checked.svg"></h3>
                 </div>
               </div>
-            
             </div>
-
-
-
-
-
-
-
-
-
 
 
 <!-- chat box -->
@@ -447,112 +438,156 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
+<script>
+   $(document).ready(function () {
+    const $toggleButton = $('.clickdots_prop > a');
+    const $shareBox = $('.savedproperties_share');
+
+    // Initially hide the shareBox
+    $shareBox.hide();
+
+    // Toggle visibility on dots icon click
+    $toggleButton.on('click', function (e) {
+      e.stopPropagation(); // prevent event from bubbling to document
+      $shareBox.toggle();
+    });
+
+    // Hide the box if clicking anywhere else
+    $(document).on('click', function () {
+      $shareBox.hide();
+    });
+
+    // Prevent hiding when clicking inside the share box
+    $shareBox.on('click', function (e) {
+      e.stopPropagation();
+    });
+  });
+</script>
+
+
+
 <!-- chat  -->
 <script>
-   let contactReplyTo = null;
-  let contactReplyToElement = null;
+  let contactReplyTo = null;
+let contactReplyToElement = null;
 
-  const emojiList = ["😊", "😂", "😍", "😢", "😎", "👍", "🎉", "❤️", "💔", "😜"];
+const emojiList = ["😊", "😂", "😍", "😢", "😎", "👍", "🎉", "❤️", "💔", "😜"];
 
-  function populateContactEmojis() {
-    const container = $("#contactEmojiContainer");
-    container.empty();
-    emojiList.forEach(e => {
-      container.append(`<span class="emoji">${e}</span>`);
-    });
-  }
-
-  function contactFormattedTime() {
-    const now = new Date();
-    return now.getHours().toString().padStart(2, "0") + ":" + now.getMinutes().toString().padStart(2, "0");
-  }
-
-  function contactAddDateSeparator() {
-    const currentDate = new Date().toDateString();
-    if ($(".date-separator").last().text() !== currentDate) {
-      $("#contactChatBox").append('<div class="date-separator">' + currentDate + '</div>');
-    }
-  }
-
-  function contactAutoReply() {
-    setTimeout(() => {
-      contactAddDateSeparator();
-      const replies = ["Okay!", "Got it!", "Interesting...", "Tell me more!", "I agree!", "Let's do it!"];
-      const botReply = replies[Math.floor(Math.random() * replies.length)];
-      $("#contactChatBox").append('<div class="message received"><p>' + botReply + '</p><div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span></div></div>');
-      $("#contactChatBox").scrollTop($("#contactChatBox")[0].scrollHeight);
-    }, 1000);
-  }
-
-  $("#contactSendBtn").click(function () {
-    const message = $("#contactMessageInput").val();
-    if (message) {
-      contactAddDateSeparator();
-      let msgHtml = "";
-
-      if (contactReplyTo) {
-        $(contactReplyToElement).removeClass("sent received").addClass("reply-box");
-        msgHtml += '<div class="message sent replied_div">' +
-          $(contactReplyToElement).prop("outerHTML") +
-          '<div class="msg_chat"><p>' + message + '</p></div>' +
-          '<div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span></div>' +
-          '</div>';
-      } else {
-        msgHtml += '<div class="message sent">' + message +
-          '<div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span></div>' +
-          '</div>';
-      }
-
-      $("#contactChatBox").append(msgHtml);
-      $("#contactMessageInput").val("");
-      contactReplyTo = null;
-      contactReplyToElement = null;
-      $(".message").removeClass("selected");
-      $("#contactChatBox").scrollTop($("#contactChatBox")[0].scrollHeight);
-
-      contactAutoReply();
-    }
+function populateContactEmojis() {
+  const container = $("#contactEmojiContainer");
+  container.empty();
+  emojiList.forEach(e => {
+    container.append(`<span class="emoji">${e}</span>`);
   });
-  $(".minuscontactmsg").hide();
-  $(document).on("click", ".message", function () {
+}
+
+function contactFormattedTime() {
+  const now = new Date();
+  return now.getHours().toString().padStart(2, "0") + ":" + now.getMinutes().toString().padStart(2, "0");
+}
+
+function contactAddDateSeparator() {
+  const currentDate = new Date().toDateString();
+  if ($(".date-separator").last().text() !== currentDate) {
+    $("#contactChatBox").append('<div class="date-separator">' + currentDate + '</div>');
+  }
+}
+
+function contactAutoReply() {
+  setTimeout(() => {
+    contactAddDateSeparator();
+    const replies = ["Okay!", "Got it!", "Interesting...", "Tell me more!", "I agree!", "Let's do it!"];
+    const botReply = replies[Math.floor(Math.random() * replies.length)];
+    $("#contactChatBox").append('<div class="message received"><p>' + botReply + '</p><div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span></div></div>');
+    $("#contactChatBox").scrollTop($("#contactChatBox")[0].scrollHeight);
+  }, 1000);
+}
+
+$("#contactSendBtn").click(function () {
+  const message = $("#contactMessageInput").val();
+  if (message) {
+    contactAddDateSeparator();
+    let msgHtml = "";
+
+    if (contactReplyTo) {
+      $(contactReplyToElement).removeClass("sent received").addClass("reply-box");
+      msgHtml += '<div class="message sent replied_div">' +
+        $(contactReplyToElement).prop("outerHTML") +
+        '<div class="msg_chat"><p>' + message + '</p></div>' +
+        '<div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span></div>' +
+        '</div>';
+    } else {
+      msgHtml += '<div class="message sent">' + message +
+        '<div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span></div>' +
+        '</div>';
+    }
+
+    $("#contactChatBox").append(msgHtml);
+    $("#contactMessageInput").val("");
+    contactReplyTo = null;
+    contactReplyToElement = null;
     $(".message").removeClass("selected");
-    $(this).addClass("selected");
-    contactReplyTo = $(this).text();
-    contactReplyToElement = $(this).clone();
-  });
+    $("#contactChatBox").scrollTop($("#contactChatBox")[0].scrollHeight);
 
-  $("#contactPlusBtn").click(function () {
-    $(".hidecontactmsgbtns,.minuscontactmsg").show();
-    $(".pluscontactbtm").hide();
-    $(".bottombtns_sectioncontact").addClass('topspade_pad');
-  });
+    contactAutoReply();
+  }
+});
 
-  $("#contactMinusBtn").click(function () {
-    $("#contactInputArea").show();
-    $(".bottombtns_sectioncontact").removeClass('topspade_pad');
-    $(".pluscontactbtm").show();
-    $(".minuscontactmsg").hide();
+$(".minuscontactmsg").hide();
+
+$(document).on("click", ".message", function () {
+  $(".message").removeClass("selected");
+  $(this).addClass("selected");
+  contactReplyTo = $(this).text();
+  contactReplyToElement = $(this).clone();
+});
+
+$("#contactPlusBtn").click(function () {
+  $(".hidecontactmsgbtns,.minuscontactmsg").show();
+  $(".pluscontactbtm").hide();
+  $(".bottombtns_sectioncontact").addClass('topspade_pad');
+});
+
+$("#contactMinusBtn").click(function () {
+  $("#contactInputArea").show();
+  $(".bottombtns_sectioncontact").removeClass('topspade_pad');
+  $(".bottombtns_sectioncontact").removeClass('maptopspade_pad');
+  $(".pluscontactbtm").show();
+  $(".minuscontactmsg").hide();
+  $(".hidecontactmsgbtns").hide();
+});
+
+$(".mapimg a").click(function () {
+  $(".bottombtns_sectioncontact").addClass('maptopspade_pad');
+});
+
+$("#contactEmojiBtn").click(function (e) {
+  e.stopPropagation();
+  $("#contactEmojiPicker").toggle();
+});
+
+$("#contactEmojiContainer").on("click", ".emoji", function () {
+  const emoji = $(this).text();
+  const input = $("#contactMessageInput");
+  input.val(input.val() + emoji).focus();
+});
+
+$(document).on("click", function (e) {
+  // Hide emoji picker when clicking outside
+  if (!$(e.target).closest("#contactEmojiPicker, #contactEmojiBtn").length) {
+    $("#contactEmojiPicker").hide();
+  }
+
+  // Hide hidden message buttons when clicking outside of them and plus button
+  if (!$(e.target).closest(".hidecontactmsgbtns, #contactPlusBtn").length) {
     $(".hidecontactmsgbtns").hide();
-  });
+    $(".minuscontactmsg").hide();
+    $(".pluscontactbtm").show();
+    $(".bottombtns_sectioncontact").removeClass('topspade_pad');
+  }
+});
 
-  $("#contactEmojiBtn").click(function (e) {
-    e.stopPropagation();
-    $("#contactEmojiPicker").toggle();
-  });
-
-  $("#contactEmojiContainer").on("click", ".emoji", function () {
-    const emoji = $(this).text();
-    const input = $("#contactMessageInput");
-    input.val(input.val() + emoji).focus();
-  });
-
-  $(document).on("click", function (e) {
-    if (!$(e.target).closest("#contactEmojiPicker, #contactEmojiBtn").length) {
-      $("#contactEmojiPicker").hide();
-    }
-  });
-
-  populateContactEmojis();
+populateContactEmojis();
   </script>
 <!-- end of chat -->
 
