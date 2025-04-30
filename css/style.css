@@ -7277,9 +7277,7 @@ align-self: flex-end;
 text-align: left;
 border-radius: 20px 0px 20px 20px;
 }
-.chat-container .message.received.selected{
-border-left: unset !important;
-}
+
 .chat-container .message.received.selected:after {
 border-right-color: #b2c3d4;
 }
@@ -7365,7 +7363,7 @@ position: absolute;
 pointer-events: none;
 }
 .chat-container{
-padding: 0 0 105px 0;
+    padding: 24px 0 105px 0;
 }
 .chat-container .message.reply-box .time-stamp-container{
 display: none;
@@ -14547,17 +14545,24 @@ height: 46px;
 
 
 /* new communication pages  */
+.newcommu_bottomimg .videocssimg a img{
+    height: 58px;
+}
 .new_commu_toptabs ul li a.nav-link.active{
 background-color: #20364D;
 border-radius: 36px;
 color: #FFFFFF;
+}
+.docu_blockdiv{
+    margin: 0 0 20px 0;
 }
 .new_commu_toptabs ul li a.nav-link{
 font-weight: 700;
 font-size: 14px;
 line-height: 19px;
 color: #20364D;
-padding: 2px 20px 4px 20px;
+padding: 2px 9px 4px 9px;
+text-transform: capitalize;
 }
 .new_commu_toptabs ul.nav.nav-tabs{
 justify-content: space-between;
@@ -14576,8 +14581,9 @@ background-color: #EDF2FA;
 height: 40px;
 }
 .c-search.srch_communu.newcommu_searchdiv .btn.searchicbtn{
-border-radius: 36px 0 0 36px;
-padding: 0 7px 4px 14px;
+    border-radius: 36px 0 0 36px;
+    padding: 4px 7px 4px 14px;
+    border: unset;
 }
 .c-search.srch_communu.newcommu_searchdiv .btn.micbtn{
 border-radius: 0 36px 36px 0;
@@ -14604,7 +14610,7 @@ vertical-align: text-top;
 }
 
 .contact-list.recenttab_communication .contact .inner {
-padding: 6px 12px 7px 8px;
+padding: 6px 8px 7px 8px;
 }
 .timecount_nuumber p{
 font-weight: 400;
@@ -14693,7 +14699,6 @@ color: #A7BBCE;
 .newbtm_menucommu{
 padding: 0;
 position: relative;
-margin: 10em 0 0 0;
 }
 .newcommu_bottomimg ul li a{
 padding: 11px;
@@ -14710,12 +14715,13 @@ margin: 10px 0 0 0;
 padding: 0px 15px 7px 0px;
 }
 .reqst_div h3{
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-text-align: center;
-text-transform: capitalize;
-color: #20364D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #20364D;
+    margin: 0 0 13px 0;
 }
 .reqst_div h3 img{
 width: 16px;
@@ -14751,7 +14757,7 @@ width: 17px;
 height: 16px;
 }
 .headerdoc{
-background: #C9D7E5;
+background: #A7BBCE;
 border-radius: 30px 30px 0px 0px;
 }
 .headerdoc h4{
@@ -14766,7 +14772,14 @@ width: 100%;
 }
 .btm_communew_loca{
 text-align: center;
-padding: 11px 13px 13px 13px;
+padding: 10px 13px 10px 13px;
+}
+.btm_communew_loca p{
+font-weight: 400;
+font-size: 14px;
+line-height:22px;
+text-transform: capitalize;
+color: #20364D;
 }
 .docu_body_request{
 background: #EDF2FA;
@@ -14791,7 +14804,6 @@ color: #EDF2FA;
 }
 .apartments_details span img{
 margin: 0px 7px 0 0px;
-vertical-align: sub;
 }
 .bedcount_div img{
 width: 16px;
@@ -14800,6 +14812,7 @@ height: 14px;
 .bathcount_div img{
 width: 14px;
 height: 14px;
+vertical-align: text-bottom;
 }
 .bedcount_div{
 margin: 0 7px 0 0px;
@@ -15719,14 +15732,14 @@ font-weight: 700;
 font-size: 14px;
 line-height: 15px;
 text-transform: capitalize;
-color: #63829E;
+color: #20364D;
 }
 .daysname_eventcomm h3{
 font-weight: 700;
 font-size: 10px;
 line-height: 10px;
 text-transform: capitalize;
-color: #A7BBCE;
+color: #63829E;
 padding: 0 8px 3px 8px;
 border-bottom:2px solid transparent;
 }
@@ -15734,7 +15747,7 @@ border-bottom:2px solid transparent;
 font-weight: 700;
 }
 .daysname_eventcomm.active h3{
-color:#63829E;
+color:#20364D;
 }
 .middlecalender_section{
 background: #FFFFFF;
@@ -15749,13 +15762,14 @@ text-transform: capitalize;
 color: #FFFFFF;
 width: 90px;
 height: 22px;
-background: #A7BBCE;
+background: #63829E;
 border-radius: 49px;
 padding: 0;
 margin: -2px 0 0 0;
 }
 .middlecalender_section ul.uldayname_heading {
 padding: 10px 20px;
+margin: 0;
 }
 .eventcalender_details{
 padding: 0 6px;
@@ -15773,11 +15787,11 @@ text-transform: capitalize;
 font-weight: 700;
 font-size: 10px;
 text-transform: capitalize;
-color: #A7BBCE;
+color: #63829E;
 }
 .eventdivider_details {
 content: '';
-border-left: 3px solid #A7BBCE;
+border-left: 3px solid #63829E;
 margin: 5px 0px 0 0;
 height: 15px;
 border-radius: 12px;
@@ -15786,14 +15800,14 @@ border-radius: 12px;
 font-weight: 400;
 font-size: 12px;
 line-height:19px;
-color: #A7BBCE;
+color: #63829E;
 }
 .eventtime_cal_details h2 span {
 background: #ffffff;
 padding: 0 10px;
 }
 .daysname_eventcomm.active h3{
-border-bottom:2px solid #63829E;
+border-bottom:2px solid #20364D;
 border-radius: 2px;
 }
 .autocan_time span{
@@ -15802,7 +15816,7 @@ text-transform: capitalize;
 .autocan_time p{
 font-size: 12px;
 line-height:12px;
-color: #A7BBCE;
+color:#63829E;
 }
 .address_commu{
 padding: 4px 0 10px 0;
@@ -15824,7 +15838,9 @@ flex-basis: 11%;
 flex-basis: 89%;
 }
 .combined_detailsevent{
-padding: 7px 10px 0 10px;
+    padding: 7px 10px 0 10px;
+    background-color: #EDF2FA;
+    border-radius: 0 10px 0 0;
 }
 .tabmenus_wid{
 flex-basis: 89%;
@@ -15840,11 +15856,11 @@ text-align: center;
 color:#ffffff;
 }
 .new_commu_toptabs .tabmenus_wid ul li a.nav-link{
-border-radius: 4px;
-font-weight: 700;
-font-size: 12px;
-line-height:14px;
-text-transform: capitalize;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: capitalize;
 color: #A7BBCE;
 }
 .confirmbtn_divevent .btn.confirmevent{
@@ -15861,14 +15877,15 @@ margin: -2px 0 0 0;
 padding: 0;
 }
 .eventinfodetails_comm{
-background: #EDF2FA;
+background: #DAE3F2;
 border-radius: 10px;
 min-height: 86px;
 }
 .eventleftimg_div img{
 width: 100%;
 object-fit: cover;
-height: 86px;
+/* height: 86px; */
+height: 100%;
 border-radius: 10px;
 }
 .autodiv_cancelstime{
@@ -15887,18 +15904,18 @@ height: 12px;
 }
 .dividerevent_cal {
 content: '';
-border-left: 3px solid #A7BBCE;
+border-left: 3px solid #20364D;
 margin: 0 15px;
 height: 15px;
 border-radius: 20px;
 }
 .plusic_eventimg{
-height: 20px;
-width: 20px;
-background-color: #A7BBCE;
-border-radius: 50%;
-padding: 4px;
-margin: 0 4px 0 0;
+    height: 20px;
+    width: 20px;
+    background-color: #A7BBCE;
+    border-radius: 50%;
+    padding: 4px;
+    margin: 0 11px 0 0;
 }
 .posbtn_div{
 position: relative;
@@ -16185,23 +16202,23 @@ border-radius: 36px;
 padding: 0 17px 0 0;
 }
 .callemail_dots{
-    position: relative;
+position: relative;
 }
 .callemail_dots .savedproperties_share{
-    position: absolute;
-    right: -18px;
-    top: 31px;
+position: absolute;
+right: -18px;
+top: 31px;
 }
 .callemail_dots .savedproperties_share .btn.btnsave_prop{
-    padding: 0;
-    width: 200px;
-    background-color: #9ca9bd7a;
-    border-radius: 30px;
-    line-height: 44px;
-    font-weight: 700;
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #20364D;
+padding: 0;
+width: 200px;
+background-color: #9ca9bd7a;
+border-radius: 30px;
+line-height: 44px;
+font-weight: 700;
+font-size: 16px;
+text-transform: capitalize;
+color: #20364D;
 }
 .contactarea_msg{
 flex-basis: 88%;
@@ -16209,14 +16226,24 @@ flex-basis: 88%;
 .contactdiv{
 flex-basis: 10%;
 }
+.contactchatboxmessage .chat-box {
+    margin-top: 53px;
+    margin-bottom: 0px;
+    overflow-y: auto;
+    height: calc(100vh - 224px);
+    overflow-x: hidden;
+  }
+  .contactchatboxmessage .chat-box::-webkit-scrollbar {
+    width: 6px;
+}
 .bottombtns_sectioncontact {
-    position: absolute;
-    width: 97%;
-    bottom: 9px;
-    left: 11px;
+position: fixed;
+width: 97%;
+bottom: 9px;
+left: 11px;
 }
 .bottombtns_sectioncontact.topspade_pad.maptopspade_pad {
-    bottom: 181px;
+bottom: 181px;
 }
 .btn.pluscontactbtm img{
 vertical-align: initial;
@@ -16225,7 +16252,7 @@ vertical-align: initial;
 vertical-align: middle;
 }
 .bottombtns_sectioncontact.topspade_pad{
-    bottom: 330px;
+bottom: 330px;
 }
 .hidden-buttons.hidecontactmsgbtns{
 position: fixed;
@@ -16408,29 +16435,29 @@ height: 216px;
 overflow-y: auto;
 }
 .leftfilter_img img{
-    border-radius: 14px 0 0 14px;
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
+border-radius: 14px 0 0 14px;
+height: 100%;
+object-fit: cover;
+width: 100%;
 }
 .leftfilter_img{
-    position: relative;
-  }
-  .leftfilter_img .click-countprop{
-    top: 34%;
-    left: 34%;
-    background: #20364D;
-    padding: 0;
-    border-radius: 50%;
-    font-weight: bold;
-    width: 26px;
-    height: 26px;
-    font-size: 10px;
-    line-height: 23px;
-    color: #FFFFFF;
-    border: 2px solid #A7BBCE;
-    position: absolute;
-  }
+position: relative;
+}
+.leftfilter_img .click-countprop{
+top: 34%;
+left: 34%;
+background: #20364D;
+padding: 0;
+border-radius: 50%;
+font-weight: bold;
+width: 26px;
+height: 26px;
+font-size: 10px;
+line-height: 23px;
+color: #FFFFFF;
+border: 2px solid #A7BBCE;
+position: absolute;
+}
 .filterdate_div{
 height: 71px;
 background: #FFFFFF;
@@ -16844,6 +16871,7 @@ border-radius: 17px;
 padding: 10px 0;
 width: 96%;
 margin: 12px auto 0 auto;
+position: relative;
 }
 .house_heartdiv img{
 width: 18px;
@@ -16862,15 +16890,15 @@ border-radius: unset;
 object-fit: unset;
 }
 .priceslider_details h3 img{
-    width: 11px;
-    height: 16px;
-    vertical-align: text-top;
-    margin: 0 3px 0 0;
+width: 11px;
+height: 16px;
+vertical-align: text-top;
+margin: 0 3px 0 0;
 }
 .locationdetails{
-    background: #20364D;
-    border-radius: 0px 0px 18px 18px;
-    padding: 8px 10px 10px 10px;
+background: #20364D;
+border-radius: 0px 0px 18px 18px;
+padding: 8px 10px 10px 10px;
 }
 .locationdetails .priceslider_details h3{
 font-weight: 400;
@@ -16899,8 +16927,76 @@ line-height:22px;
 text-transform: capitalize;
 color: #20364D;
 }
-.sliderdeatils{
-padding: 10px;
+.viewdetail_propertysec,.viewdetail_btnview,.btns_propfeatures{
+padding: 10px 0;
+width: 96%;
+position: relative;
+}
+.propertyslider .carousel-indicators li{
+width: 7px;
+height: 7px;
+margin: 0 2px 0 2px;
+cursor: pointer;
+background-color: #fff;
+border-top: unset;
+border-bottom: unset;
+border-radius: 50%;
+opacity: 1;
+}
+.propcenter_div.dragging{
+    object-fit: contain;
+}
+.propcenter_div img{
+width: 134px;
+
+height: 149px;
+ transition: height 0.3s ease, object-fit 0.3s ease;
+}
+.propertyslider .carousel-indicators li.active{
+width: 9px;
+height: 9px;
+}
+.locdetails_view h3{
+font-weight: 400;
+font-size: 14px;
+line-height:22px;
+text-transform: capitalize;
+color: #20364D;
+}
+.locdetails_view img{
+    width: 11px;
+    height: 16px;
+    margin: 0 7px 0 0;
+}
+.sliderdeatils,.locdetails_viewdeatils{
+padding: 10px 14px;
+}
+.locdetails_viewdeatils{
+background: #EDF2FA;
+}
+.locationdetails .priceslider_details h3{
+font-weight: 700;
+font-size: 18px;
+line-height:22px;
+text-transform: capitalize;
+color: #EDF2FA;
+}
+.btns_propfeatures .btn{
+width: 180px;
+height: 30px;
+border-radius: 25px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+
+
+}
+.btns_propfeatures .btn.schetour_btn{
+    background: #5A7C96;
+}
+.btns_propfeatures .btn.reserve_btn{
+background: #3A9A76;
 }
 .flatdetails ul li span{
 font-weight: 700;
@@ -16910,114 +17006,157 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .flatdetails ul li.dividerflat img{
-    height: 22px;
-    margin: 0 5px 0 8px;
+height: 22px;
+margin: 0 5px 0 8px;
 }
 .sliderposition{
-    position: relative;
+position: relative;
 }
 .verifiedcheck_view,.posi_topicons{
-    position: absolute;
+position: absolute;
 }
 .verifiedcheck_view{
-    top: 0;
-    left: 0;
+top: 0px;
+z-index: 10;
+left: 0;
 }
 .verifiedcheck_view img{
-    width: 68px;
-    height: 68px;
+width: 68px;
+height: 68px;
 }
 .posi_topicons{
-right:8px;
+right: 8px;
 top: 8px;
+z-index: 10;
 }
 .uploadlink img,.heartlink img{
 width: 27px;
 height: 27px;
 }
 .gallerybtm_div img,.videobtm_div img{
-    height: 12px;
+height: 12px;
+vertical-align: text-bottom;
+margin: 0 3px;
 }
 .gallerybtm_div span{
-    background: #20364D;
-    border-radius: 20px;
-    padding: 3px 25px 4px 6px;
+background: #20364D;
+border-radius: 20px;
+padding: 3px 25px 4px 6px;
+font-weight: 600;
+color: #ffffff;
+font-size: 12px;
 }
 .videobtm_div span{
 background: #365B81;
 border-radius: 20px;
 padding: 3px 10px 4px 6px;
-}
-.toge_divcolr span{
-    font-weight: 700;
-    font-size: 12px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    line-height: 13px;
-    display: block;
-}
-.imag_gallery_div{
-    position: relative;
-}
-.toge_divcolr span img{
-    margin: 0 2px 0 0;
+font-weight: 600;
+color: #ffffff;
+font-size: 12px;
 }
 .bottomgallery_videocount{
-    position: absolute;
-    right: 7px;
-    bottom: 7px;
+position: absolute;
+right: 7px;
+bottom: 11px;
+z-index: 10;
 }
 .videobtm_div{
-    margin: 0 0 0 -17px;
+margin: 0 0 0 -17px;
+}
+ .btn.view_detailbtn{
+width: 180px;
+height: 30px;
+background: #5A7C96;
+border-radius: 25.6499px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
 }
 .click-count {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    background:#20364D;
-    padding: 0;
-    border-radius: 50%;
-    font-weight: bold;
-    width: 13px;
-    height: 13px;
+position: absolute;
+top: 5px;
+right: 5px;
+background:#20364D;
+padding: 0;
+border-radius: 50%;
+font-weight: bold;
+width: 13px;
+height: 13px;
 font-size: 10px;
 line-height:12px;
 color: #FFFFFF;
-  }
+}
 
-  .typing-indicator {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 30px;
-    padding: 0 10px;
-    margin: 10px 0;
-    gap: 6px;
-  }
-  
-  .typing-indicator .dotmessage {
-    width: 8px;
-    height: 8px;
-    background-color: #888;
-    border-radius: 50%;
-    opacity: 0.3;
-    animation: typing-bounce 1.4s infinite;
-  }
-  
-  .typing-indicator .dotmessage:nth-child(2) {
-    animation-delay: 0.2s;
-  }
-  .typing-indicator .dotmessage:nth-child(3) {
-    animation-delay: 0.4s;
-  }
-  
-  @keyframes typing-bounce {
-    0%, 80%, 100% {
-      transform: scale(0.8);
-      opacity: 0.3;
-    }
-    40% {
-      transform: scale(1.2);
-      opacity: 1;
-    }
-  }
+.typing-indicator {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+height: 30px;
+padding: 0 10px;
+margin:-13px 0 0 0;
+gap: 6px;
+}
+
+.typing-indicator .dotmessage {
+width: 8px;
+height: 8px;
+background-color: #888;
+border-radius: 50%;
+opacity: 0.3;
+animation: typing-bounce 1.4s infinite;
+}
+
+.typing-indicator .dotmessage:nth-child(2) {
+animation-delay: 0.2s;
+}
+.typing-indicator .dotmessage:nth-child(3) {
+animation-delay: 0.4s;
+}
+.viewdetails_propfeatures, .viewdetail_btnview {
+    display: none;
+}
+@keyframes typing-bounce {
+0%, 80%, 100% {
+transform: scale(0.8);
+opacity: 0.3;
+}
+40% {
+transform: scale(1.2);
+opacity: 1;
+}
+}
+
+
+/* contact message box */
+.chatboxdiv{
+    position: relative;
+}
+
+.posfixed{
+    position: fixed;
+    width: 94%;
+    left: 10px;
+    z-index: 10;
+    top: 80px;
+}
+.chat-container.contactchatboxmessage .message.received p,
+.contactchatboxmessage .sent{
+font-size: 16px;
+    line-height: 19px;
+    color: #20364D;
+}
+.chat-container.contactchatboxmessage .message.received .time-stamp,
+.chat-container.contactchatboxmessage .message.sent .time-stamp{
+font-size: 10px;
+line-height:12px;
+text-align: right;
+color: #A7BBCE;
+}
+.chat-container.contactchatboxmessage{
+height: auto ;
+overflow: hidden;
+padding: 0;
+}

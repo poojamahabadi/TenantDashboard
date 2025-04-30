@@ -5600,6 +5600,72 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
+
+/* new design recent tabs */
+.recenttab_height,.contact_height,.helpstab_recent{
+    overflow-y: auto;
+    max-height: 518px;
+    overflow-x: hidden;
+}
+.eventcalender_details,.listview_eventtabcomm {
+    max-height: 450px;
+    overflow-y: auto;
+}
+.requesttab_div{
+    overflow-y: auto;
+    max-height: 666px;
+    overflow-x: hidden;  
+}
+.new_commu_toptabs{
+    padding: 3px 15px 0 15px;
+    margin: 0 0 7em 0;
+}
+.flexapartment_details {
+    padding: 7px 13px 7px 18px;
+}
+.reqst_div {
+    margin: 11px 0 0 0;
+}
+.btm_communew_loca p img{
+    width: 11px;
+    height: 16px;
+    vertical-align: text-top;
+    margin: 0 2px 0 0;
+}
+.apartimg{
+    margin: 6px 0 0 0;
+}
+.docreq_blkamt h4 small{
+    font-size: 12px;
+    font-weight: 700;
+}
+/* end of new design recent tabs */
+
+/* new design chat box mobile */
+.contactdiv {
+    flex-basis: 7%;
+}
+.bottombtns_sectioncontact.topspade_pad {
+    bottom: 325px;
+}
+.bottombtns_sectioncontact.topspade_pad {
+    bottom: 333px;
+}
+.contactarea_msg {
+    flex-basis: 92%;
+}
+.bottombtns_sectioncontact {
+    left: 13px;
+}
+.chatboxdiv{
+    padding: 0 10px;
+}
+.bck_arrowdiv {
+    text-align: center;
+}
+/* end of new design chat box mobile end */
+
+
 /* communication about me */
 .tab-content.allcommuni_tabs{
     margin: 0 0 4em 0;
@@ -9153,12 +9219,27 @@ right: 13px;
 }
 @media only screen and (max-width: 641px){
 /* communication about me */
-.new_commu_toptabs{
-    padding: 0 15px;
-    margin: 0 0 7em 0;
+.eventcalender_details {
+    max-height: 346px;
+}
+.listview_eventtabcomm {
+    max-height: 431px;
+}
+.contact-list.recenttab_communication .contact .personinfo,
+.contact-list.recenttab_communication .contact .name,
+.reqinner .name,.reqinner .personinfo {
+    width: 133px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.recenttab_styl span.countreq_no {
+    right: -3px;
+    top: -2px;
+    z-index: 10;
 }
 .newcommu_bottomimg ul {
-    width: 87%;
+    width: 91%;
 }
 .newcommu_bottomimg {
     height: 71px;
@@ -10199,6 +10280,11 @@ width: 85px;
 }
 }
 @media only screen and (max-width: 640px) and (min-width:569px) {
+/* recent tab */
+.alpha_contact.newcommtab_contact p {
+    margin: 13px 0 0 0;
+}
+/* end of recent tab */
 /* communication */
 .profiledetail_div .multi_icons_commu ul {
     width: 49%;
@@ -10336,6 +10422,23 @@ top: -28px;
 }
 }
 @media only screen and (max-width:576px) {
+/* recent tab new design */
+.newcommu_bottomimg ul li.videocssimg a img {
+    margin: -30px 0 0 4px;
+}
+.plusic_eventimg {
+    margin: 0 6px 0 0;
+}
+.eventcalender_details {
+    max-height: 308px;
+}
+.eventrightdetails_info {
+    flex-basis: 87%;
+}
+.eventleftimg_div {
+    flex-basis: 13%;
+}
+/* end of recent tab new design */
 /* communication */
 .btn.blockbtn{
     padding: 8px 13px 8px 11px;
@@ -10362,12 +10465,10 @@ top: -28px;
 .mycont_container .contact-list .contact .infodescrip{
     flex-basis: 18%;
 }
-.contact-list .contact .name {
+.contact-list .contact .name,.reqinner .name,.contact-list .contact .personinfo,.reqinner .personinfo {
     line-height: 18px;
 }
-.contact-list .contact .personinfo {
-    line-height: 18px;
-}
+
 .mycont_container .contact-list .contact .avatar-holder,.support_container .contact-list .contact .avatar-holder  {
     flex-basis: 75%;
 }
@@ -12142,6 +12243,12 @@ flex-basis: 55%;
 }
 @media only screen and (max-width: 568px) and (min-width:481px) {
 
+/* new design recent tab */
+.newcommu_bottomimg ul li.videocssimg a img {
+    margin: -29px 0 0 4px;
+}
+/* new design recent tab end */
+
 /* give notice */
 .mobsecmain_notice .bordm_btm {
 margin: 15px 0;
@@ -12435,6 +12542,54 @@ top: 11px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
+
+/* new design recent tab */
+.c-search.srch_communu.newcommu_searchdiv {
+    flex-basis: 80%;
+}
+.confirmbtn_divevent .btn.confirmevent,.reschedule_divevent .btn.rescheduleevent {
+    margin: 1px 0 0 0;
+}
+.datetimeevent_details {
+    width: 58%;
+}
+.eventrightdetails_info .autocan_time{
+    flex-basis: 52%;
+}
+.quesmark_div{
+    flex-basis: 15%;
+}
+.reschedule_divevent{
+    margin: 0 0 0 14px;
+    flex-basis: 20%;
+}
+.eventleftimg_div {
+    flex-basis: 17%;
+}
+.eventrightdetails_info {
+    flex-basis: 83%;
+}
+.tabmenus_wid {
+    flex-basis: 86%;
+}
+.rightsidefilter {
+    flex-basis: 13%;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+    margin: -37px 0 0 4px;
+    height: 56px;
+}
+.newcommu_bottomimg {
+    height: 66px;
+}
+.filterimg_commuicon, .addpeopleicon {
+    flex-basis: 10%;
+}
+.new_commu_toptabs ul li a.nav-link {
+    padding: 2px 12px 4px 12px;
+}
+/* end of new design recent tab */
+
 /* communication */
 .profilemenu_bottom {
     left: 12px;
@@ -13454,6 +13609,37 @@ width: 56%;
 }
 }
 @media only screen and (max-width: 448px) and (min-width:416px) {
+
+/* new design recent tab */
+.tabmenus_wid {
+    flex-basis: 84%;
+}
+.rightsidefilter {
+    flex-basis: 16%;
+}
+.new_commu_toptabs ul li a.nav-link {
+    padding: 2px 11px 4px 11px;
+}
+.eventcalender_tabview {
+    max-height: 490px;
+}
+.newcommu_bottomimg {
+    height: 62px;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+    height: 52px;
+    margin: -32px 0 0 4px;
+}
+.newcommu_bottomimg ul {
+    width: 95%;
+}
+.c-search.srch_communu.newcommu_searchdiv {
+    flex-basis: 80%;
+}
+.filterimg_commuicon, .addpeopleicon {
+    flex-basis: 10%;
+}
+/* end of new design recent tab */
 /* communication */
 .alpha_contact p {
     margin: 20px 0 0 0;
@@ -14073,8 +14259,45 @@ margin-left: 66px;
 /* end of schedule showings */
 }
 
-@media only screen and (max-width: 430px) {
 
+@media only screen and (max-width: 431px) {
+    .newcommu_bottomimg ul li a {
+        padding: 9px;
+    }
+    .confirmbtn_divevent .btn.confirmevent,.reschedule_divevent .btn.rescheduleevent {
+        margin: 1px 0 0 0;
+    }
+    .datetimeevent_details {
+        width: 58%;
+    }
+    .eventrightdetails_info .autocan_time {
+        flex-basis: 62%;
+    }
+    .quesmark_div {
+        flex-basis: 6%;
+    }
+    .reschedule_divevent {
+        margin: 0 0 0 6px;
+        flex-basis: 12%;
+    }
+    .eventleftimg_div {
+        flex-basis: 17%;
+    }
+    .eventrightdetails_info {
+        flex-basis: 83%;
+    }
+    .eventcalender_details {
+        max-height: 605px;
+    }
+    .listview_eventtabcomm {
+        max-height: 692px;
+    }
+    .newcommu_bottomimg ul li.videocssimg a img {
+        margin: -36px 0 0 14px;
+    }
+    .newcommu_bottomimg ul li a.profimgcommu_img img {
+        height: 42px;
+    }
 /* property */
 .toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
 width: 92%;
@@ -14171,8 +14394,67 @@ margin: 0 0 0 10px;
 }
 
 
-
 @media only screen and (max-width: 415px) and (min-width:388px) {
+/* recent tab new design */
+.newcommu_bottomimg {
+    height: 57px;
+}
+.eventrightdetails_info .autocan_time {
+    flex-basis: 80%;
+}
+.quesmark_div {
+    flex-basis: 9%;
+}
+.reschedule_divevent {
+    margin: 0 0 0 2px;
+    flex-basis: 11%;
+}
+.autocan_time p {
+    font-size: 11px;
+}
+.datetimeevent_details {
+    width: 71%;
+}
+.eventleftimg_div {
+    flex-basis: 19%;
+}
+.eventrightdetails_info {
+    flex-basis: 81%;
+}
+.tabmenus_wid {
+    flex-basis: 84%;
+}
+.rightsidefilter {
+    flex-basis: 16%;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+    margin: -34px 0 0 3px;
+    height: 50px;
+}
+.newcommu_bottomimg ul li a.profimgcommu_img img {
+    height: 42px;
+}
+.newcommu_bottomimg ul li a img {
+    height: 24px;
+}
+.new_commu_toptabs ul li a.nav-link {
+    padding: 2px 10px 4px 10px;
+}
+.c-search.srch_communu.newcommu_searchdiv {
+    flex-basis: 79%;
+}
+.filterimg_commuicon, .addpeopleicon {
+    flex-basis: 10%;
+}
+.eventcalender_details {
+    max-height: 385px;
+}
+.listview_eventtabcomm {
+    max-height: 518px;
+}
+/* end of new design recent tab */
+
+
 /* communication */
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 78%;
@@ -15837,12 +16119,60 @@ left: -18px;
 }
 }
 
+@media only screen and (max-width: 401px) {
+    /* recent tab new design */
+      .newcommu_bottomimg {
+          height: 56px;
+      }
+      .newcommu_bottomimg ul li.videocssimg a img {
+          margin: -37px 0 0 8px;
+      }
+      .eventcalender_details {
+        max-height: 562px;
+    }
+      .listview_eventtabcomm {
+        max-height: 645px;
+      }
+  /* recent tab new design end */
+  }
 @media only screen and (max-width: 394px) {
+    /* new design recent tab */
+    .btn.rescheduleevent{
+        width: 85px;
+    }
+    .new_commu_toptabs ul li a.nav-link{
+        line-height: 17px;
+    }
+    .eventrightdetails_info .autocan_time {
+        flex-basis: 73%;
+    }
+    .newcommu_bottomimg ul li a.profimgcommu_img img {
+        height: 38px;
+    }
+    .help_contactlist .reqinner {
+        padding: 6px 14px 5px 10px;
+    } 
+    .listview_eventtabcomm {
+        max-height: 637px;
+    }
+    .eventcalender_details {
+        max-height: 533px;
+    }
+    /* end of new design recent tab */
 /* communication */
 .commu_detailaboutme .multi_icons_commu ul {
     width: 81%;
 }
-
+.newcommu_bottomimg {
+    height: 54px;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+    margin: -35px 0 0 1px;
+    height: 50px;
+}
+.contact-list.recenttab_communication .contact .personinfo, .contact-list.recenttab_communication .contact .name {
+    width: 113px;
+}
     .profilemenu_bottom {
        left: 9px;
     }
@@ -16460,9 +16790,46 @@ height: 21px;
 
 
 
+
 @media only screen and (max-width: 387px) and (min-width:377px) {
+/* recent tab new design */
+.newcommu_bottomimg ul li a img {
+    height: 25px;
+}
+.datetimeevent_details {
+    width: 76%;
+}
+.tabmenus_wid {
+    flex-basis: 85%;
+}
+.rightsidefilter {
+    flex-basis: 14%;
+}
+.eventcalender_details {
+    max-height: 309px;
+}
+.listview_eventtabcomm {
+    max-height: 421px;
+}
+.new_commu_toptabs ul li a.nav-link {
+    font-size: 12px;
+}
+.new_commu_toptabs ul li a.nav-link {
+    padding: 2px 10px 4px 10px;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+    margin: -31px 0 0 4px;
+    height: 44px;
+}
+.filterimg_commuicon, .addpeopleicon {
+    flex-basis: 10%;
+}
+.c-search.srch_communu.newcommu_searchdiv {
+    flex-basis: 78%;
+}
+/* end of recent tab new design */
 /* communication */
-.contact-list .contact .name {
+.contact-list .contact .name,.reqinner .name {
     font-size: 14px;
 }
 
@@ -16497,7 +16864,7 @@ ul.mobview_commu_tabs li a.nav-link {
 .contact-list li {
     padding: 4px 0px 1px 0px;
 }
-.contact-list .contact .personinfo {
+.contact-list .contact .personinfo,.reqinner .personinfo {
     line-height: 15px;
     font-size: 12px;
 }
@@ -17221,6 +17588,65 @@ left: -22px;
 
 
 @media only screen and (max-width: 376px) and (min-width:362px) {
+
+/* new recent tab design */
+.newcommu_bottomimg {
+    height: 53px;
+}
+.reschedule_divevent {
+    margin: 0 0 0 3px;
+}
+.quesmark_div {
+    flex-basis: 5%;
+}
+.rightsidefilter {
+    flex-basis: 17%;
+}
+.tabmenus_wid {
+    flex-basis: 84%;
+}
+.datetimeevent_details {
+    width: 77%;
+}
+.autocan_time p {
+    font-size: 11px;
+}
+.help_contactlist .reqinner {
+    padding: 6px 14px 5px 7px;
+}
+.eventcalender_details {
+    max-height: 391px;
+}
+ .listview_eventtabcomm {
+    max-height: 448px;
+}
+.new_commu_toptabs ul li a.nav-link {
+    font-size: 12px;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+    margin: -31px 0 0 -12px;
+    height: 46px;
+}
+.newcommu_bottomimg ul li a.chatblck  img {
+    height: 19px;
+}
+.chat_callemail_div a.common_link img{
+    height: 28px;
+}
+.c-search.srch_communu.newcommu_searchdiv {
+    flex-basis: 79%;
+}
+.filterimg_commuicon, .addpeopleicon {
+    flex-basis: 10%;
+}
+.newcommu_bottomimg ul li a.profimgcommu_img img {
+    height: 39px;
+}
+.new_commu_toptabs ul li a.nav-link {
+    padding: 2px 9px 4px 9px;
+    font-size: 12px;
+}
+/* end of recent new tab design */
 /* communication */
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
     width: 87%;
@@ -17296,11 +17722,10 @@ ul.mobview_commu_tabs li a.nav-link{
 .c-search.srch_communu .c-search__input.form-control {
     font-size: 13px;
 }
-.contact-list .contact .name {
+.contact-list .contact .name,.reqinner .name {
     font-size: 14px;;
 }
-.contact-list .contact .personinfo {
-    line-height: 15px;
+.contact-list .contact .personinfo,.reqinner .personinfo {
     font-size: 12px;
 }
 /* end of communication */
@@ -18694,6 +19119,78 @@ width: 37%;
 
 
 @media only screen and (max-width: 361px) and (min-width:341px) {
+
+/* recent tab new design */
+.modal_saleshelp .modal-dialog {
+    width: 315px;
+}
+.tabmenus_wid {
+    flex-basis: 82%;
+}
+.rightsidefilter {
+    flex-basis: 17%;
+}
+.datetimeevent_details {
+    width: 78%;
+}
+.eventleftimg_div {
+    flex-basis: 25%;
+}
+.eventrightdetails_info {
+    flex-basis: 75%;
+}
+
+.listview_eventtabcomm {
+    max-height: 533px;
+}
+.help_contactlist .reqinner {
+    padding: 6px 14px 5px 7px;
+}
+.reqinner {
+    padding: 6px 10px;
+}
+.btm_communew_loca p {
+    font-size: 13px;
+}
+.flexapartment_details {
+    padding: 7px 13px;
+}
+.docreq_blkamt h4 {
+    font-size: 16px;
+}
+.new_commu_toptabs ul li a.nav-link {
+    font-size: 12px;
+    padding: 2px 8px 4px 8px;
+}
+.eventcalender_details {
+    max-height: 315px;
+}
+.c-search.srch_communu.newcommu_searchdiv {
+    flex-basis: 78%;
+}
+.filterimg_commuicon, .addpeopleicon {
+    flex-basis: 11%;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+    margin: -32px 0 0 2px;
+    height: 43px;
+}
+.newcommu_bottomimg ul li a.chatblck img {
+    height: 27px;
+}
+.chat_callemail_div a.common_link img{
+    height: 25px;
+}
+.newcommu_bottomimg ul li a.profimgcommu_img img {
+    height: 38px;
+}
+.newcommu_bottomimg {
+    height: 51px;
+}
+.newcommu_bottomimg ul li a {
+    padding: 9px;
+}
+/* emd of new tab design */
 /* communication */
 .liveloc_div ul li button {
     font-size: 14px;
@@ -18780,12 +19277,18 @@ ul.mobview_commu_tabs {
 .c-search.srch_communu .c-search__input.form-control {
     font-size: 12px;
 }
-.contact-list .contact .personinfo {
+.contact-list .contact .personinfo,.reqinner .personinfo {
     line-height: 15px;
     font-size: 12px;
 }
-.contact-list .contact .name {
-    font-size: 14px;
+.contact-list .contact .name, .reqinner .name {
+    font-size: 13px;
+}
+.salesli_txt a img {
+    height: 18px;
+}
+.helpcomm_sales_div ul li a {
+    font-size: 13px;
 }
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
     max-width: 97%;
@@ -20617,7 +21120,109 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
-/* communication */
+/* recent tab new design */
+.new_commu_toptabs ul li a.nav-link {
+    font-size: 12px;
+    padding: 2px 6px 4px 6px;
+}
+.eventrightdetails_info .autocan_time {
+    flex-basis: 47%;
+}
+.middlecalender_section ul.uldayname_heading {
+    padding: 10px 6px;
+}
+.calimg_event, .yearevent_txt p {
+    font-size: 12px;
+}
+.address_commu p {
+    line-height: 13px;
+}
+.dateinfoeventcal_div span, .timeinfoevent_caldiv span {
+    font-size: 11px;
+}
+.btn.rescheduleevent,.confirmbtn_divevent .btn.confirmevent{
+    font-size: 11px;
+}
+.autocan_time p {
+    font-size: 10px;
+}
+.rightsidefilter {
+    flex-basis: 18%;
+}
+.tabmenus_wid {
+    flex-basis: 82%;
+}
+.datetimeevent_details {
+    width: 100%;
+}
+.eventleftimg_div {
+    flex-basis: 25%;
+}
+.eventrightdetails_info {
+    flex-basis: 75%;
+}
+.listview_eventtabcomm {
+    max-height: 280px;
+}
+.eventcalender_details {
+    max-height: 156px;
+}
+.help_contactlist .reqinner {
+    padding: 6px 14px 5px 7px;
+}
+.docreq_blkamt h4 {
+    font-size: 15px;
+}
+.salesli_txt a img {
+    height: 17px;
+}
+.cs_li_txt a img {
+    height: 15px;
+}
+.helpcomm_sales_div ul li a {
+    font-size: 13px;
+}
+.flexapartment_details {
+    padding: 7px 12px;
+}
+.btm_communew_loca p {
+    font-size: 12px;
+    line-height: 18px;
+}
+.modal_saleshelp .modal-dialog {
+    width: 315px;
+}
+.c-search.srch_communu.newcommu_searchdiv {
+    flex-basis: 74%;
+}
+.filterimg_commuicon, .addpeopleicon {
+    flex-basis: 12%;
+}
+.alpha_contact.newcommtab_contact p {
+    margin: 13px 0 0 0;
+    font-size: 13px;
+}
+.newcommu_bottomimg ul li a img {
+    height: 27px;
+}
+.chat_callemail_div a img{
+height: 20px;
+}
+.newcommu_bottomimg ul li a.profimgcommu_img img {
+    height: 36px;
+}
+.newcommu_bottomimg ul li a {
+    padding: 7px;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+    margin: -29px 0 0 1px;
+    height: 40px;
+}
+.newcommu_bottomimg {
+    height: 47px;
+}
+/* end of recent tab new design */
+    /* communication */
 .scancommu_div a {
     left: 16px;
     top: -5px;
@@ -20715,11 +21320,11 @@ ul.mobview_commu_tabs li a.nav-link {
     width: 87%;
     margin: 0px 14px 7px auto;
 }
-.contact-list .contact .personinfo {
+.contact-list .contact .personinfo,.reqinner .personinfo {
     line-height: 13px;
     font-size: 12px;
 }
-.contact-list .contact .name {
+.contact-list .contact .name,.reqinner .name {
     font-size: 12px;
 }
 /* end of communication */
@@ -22876,6 +23481,33 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+/* recent tab new design */
+.newcommu_bottomimg {
+    height: 44px;
+}
+.modal_saleshelp .modal-dialog {
+    width: 302px;
+}
+.chat_callemail_div a img {
+    height: 18px;
+}
+.contact-list.recenttab_communication .contact .personinfo, .contact-list.recenttab_communication .contact .name {
+    width: 100px;
+}
+.newcommu_bottomimg ul li a {
+    padding: 5px;
+}
+.chatblck {
+    border-radius: 16px;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+    height: 37px;
+}
+.newcommu_bottomimg ul li a.profimgcommu_img img {
+    height: 33px;
+}
+/* end of recent tab new design */
+
 /* communication */
 .commu_detailaboutme .multi_icons_commu ul {
     width: 100%;
@@ -22894,7 +23526,7 @@ left: 14px;
     width: 17px;
     height: 16px;
 }
-.contact-list .contact .personinfo {
+.contact-list .contact .personinfo,.reqinner .personinfo {
     line-height: 13px;
     font-size: 10px;
 }
