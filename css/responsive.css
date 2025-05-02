@@ -2,19 +2,19 @@
 /* maintenance */
 /* work order */
 .modal.workorder_modal .modal-dialog {
-    max-width: 62%;
+max-width: 62%;
 }
 .succ_msg p {
-    width: 55%;
-    margin: 0 auto;
+width: 55%;
+margin: 0 auto;
 }
 .modal.workorder_modal.successfullorder  .modal-body {
-    padding: 10px 68px 75px 68px;
+padding: 10px 68px 75px 68px;
 }
 /* end of work order */
 /* timeline pop up */
 .timeline_divorder .linediv.redclr:before {
-    height: 100%;
+height: 100%;
 }
 /* end of timeline pop up */
 .modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
@@ -104,7 +104,7 @@ height: 94px;
 /* end of showing confirmed */
 /* find property */
 .prop_rowalign {
-    margin: 0em 0 2em 0;
+margin: 0em 0 2em 0;
 }
 /* find property end */
 
@@ -322,7 +322,7 @@ font-size: 15px;
 @media only screen and (max-width: 1600px) {
 /* work order */
 .succ_msg p {
-    width: 68%;
+width: 68%;
 }
 /* end of work order */
 /* maintenance */
@@ -577,7 +577,7 @@ left: -25px;
 @media only screen and (max-width: 1400px){
 /* work order */
 .succ_msg p {
-    width: 79%;
+width: 79%;
 }
 /* end of work order */
 /* maintenance */
@@ -779,7 +779,7 @@ margin-left: 12px;
 @media only screen and (max-width: 1366px){
 /* maintenance */
 .modal.workorder_modal .modal-dialog {
-    max-width: 68%;
+max-width: 68%;
 }
 .belowpart_tenant.maintenance_div .profimg_div img{
 height: 146px;
@@ -1107,7 +1107,7 @@ padding: 10px 4px 11px 6px;
 
 /* find property */
 .listimges_prop.propfind {
-    width: 96%;
+width: 96%;
 }
 .prop_find_details img {
 height: 110px;
@@ -1251,7 +1251,7 @@ font-size: 9px;
 margin-left: -71px;
 }
 .pricerangedivs .slidelocation_div {
-    align-items: flex-start;
+align-items: flex-start;
 }
 /* end of showings offer to lease  */
 /* schedule showings */
@@ -1388,8 +1388,8 @@ font-size: 11px;
 font-size: 10px;
 }
 .tabcontent_tenant p {
-    font-size: 12px;
-    line-height: 120%;
+font-size: 12px;
+line-height: 120%;
 }
 .flexcss_tenant p {
 font-size: 11px;
@@ -1439,12 +1439,12 @@ margin-left: 212px;
 @media only screen and (max-width: 1200px){
 /* work order */
 .categ_section .dropdown-option {
-    padding: 6px 14px;
+padding: 6px 14px;
 }
 /* end of work order */
 /* maintenance */
 .modal.workorder_modal .modal-dialog {
-    max-width: 73%;
+max-width: 73%;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
 padding: 9px 0 0 0;
@@ -1879,7 +1879,7 @@ font-size: 15px;
 @media only screen and (max-width:1136px){
 /* work order */
 .modal.workorder_modal .modal-dialog {
-    max-width: 77%;
+max-width: 77%;
 }
 /* end of work order */
 /* my team */
@@ -1894,7 +1894,7 @@ margin: 0;
 
 /* timeline  */
 .timelinewidth {
-    flex-basis: 32%;
+flex-basis: 32%;
 }
 /* end of timeline */
 .calenderview_div.maintenance_upcomingevents .upcoming_eventsdiv .nav.upcom_events {
@@ -2075,10 +2075,10 @@ padding: 5px 9px;
 /* end of transactions */
 /* find property */
 .prop_find_details img {
-    height: 100px;
+height: 100px;
 }
 .prop_rowalign {
-    margin: 0em auto 30px auto;
+margin: 0em auto 30px auto;
 }
 /* end of find property */
 
@@ -2475,7 +2475,7 @@ right: -5px;
 @media only screen and (max-width:1080px){
 /* maintenance */
 .modal.workorder_modal .modal-dialog {
-    max-width: 80%;
+max-width: 80%;
 }
 .modal.viewallreq_modal .modal-dialog.modal-xl, .techni_modalstyl .modal-dialog.modal-xl {
 max-width: 96%;
@@ -2935,10 +2935,10 @@ font-size: 10px;
 /* end of showings */
 /* find property */
 .txt_details_prop {
-    padding: 8px 9px 10px 9px;
+padding: 8px 9px 10px 9px;
 }
 .pricerangedivs .lochouse_details .house span, .pricerangedivs .lochouse_details .clock span {
-    font-size: 11px;
+font-size: 11px;
 }
 /* end of find property */
 .basicdata {
@@ -2991,7 +2991,7 @@ right: -15px;
 
 /* timeline */
 .modal.workorder_modal .modal-dialog {
-    max-width: 85%;
+max-width: 85%;
 }
 /* end of timeline */
 .techni_profsection .statusmodal {
@@ -3450,7 +3450,7 @@ margin: 10px 0 0 0;
 
 /* my info */
 .req_document .tabsdiv .tab-content .tab-pane .details_block {
-    padding: 6px 5px 6px 6px;
+padding: 6px 5px 6px 6px;
 }
 /* end of my info */
 }
@@ -3460,7 +3460,7 @@ margin: 10px 0 0 0;
 
 /* timeline */
 .modal.workorder_modal .modal-dialog {
-    max-width: 87%;
+max-width: 87%;
 }
 /* end of timeline */
 .maint_pagediv .infopad {
@@ -4039,36 +4039,36 @@ padding: 4px 22px 4px 12px;
 /* maintenance */
 /* work order */
 .succ_msg p {
-    width: 89%;
+width: 89%;
 }
 .modal.workorder_modal .modal-dialog {
-    max-width: 92%;
+max-width: 92%;
 }
 .modal.workorder_modal .modal-body {
-    padding: 10px 38px 44px 38px;
+padding: 10px 38px 44px 38px;
 }
 /* end of work order */
 /* timeline */
 .timelinepop_up .modal-dialog {
-    max-width: 93%;
+max-width: 93%;
 }
 .orderbefaftr_div .galdiv_clr {
-    padding: 1px 31px 1px 10px;
+padding: 1px 31px 1px 10px;
 }
 .jobdescrip_order.applyheight {
-    max-height: 513px;
+max-height: 513px;
 }
 .timelinewidth {
-        flex-basis: 36%;
+flex-basis: 36%;
 }
 .timedate_line {
-    flex-basis: 28%;
+flex-basis: 28%;
 }
 .jobdescrip_order {
-    max-height: 422px;
+max-height: 422px;
 }
 .timelinepop_up .modal-content {
-    width: 100%;
+width: 100%;
 }
 /* end of timeline */
 .reqservdiv_styl img {
@@ -4391,10 +4391,10 @@ flex-basis: 58%;
 /* end of price range */
 /* find property */
 .price-range-slider {
-    width: 69%;
+width: 69%;
 }
 .pricerangedivs .leasedslider {
-    padding: 10px;
+padding: 10px;
 }
 .prop_find_details img {
 height: 145px;
@@ -5197,7 +5197,7 @@ padding: 14px 20px;
 }
 /* my info */
 .tenantaccord .card .card-header h2 .save_btn_all {
-    line-height: 16px;
+line-height: 16px;
 }
 /* end of my info */
 
@@ -5206,19 +5206,19 @@ padding: 14px 20px;
 @media only screen and (max-width:768px){
 /* work order */
 .categ_section .dropdown-selected {
-    padding: 4px 21px 4px 6px;
-    font-size: 12px;
+padding: 4px 21px 4px 6px;
+font-size: 12px;
 }
 .flex_containerdiv {
-    gap: 13px;
+gap: 13px;
 }
 .flex_containerdiv label,.categ_section .dropdown-option span {
-    font-size: 12px;
+font-size: 12px;
 }
 /* end of work order */
 /* maintenance */
 .headersec_order h4 span,.befafter_descriptheader h4 {
-    font-size: 16px;
+font-size: 16px;
 }
 .certifidiv_flexcontainer .btn.btnview_div {
 width: 36%;
@@ -5603,231 +5603,243 @@ width: 57%;
 
 /* new design recent tabs */
 .recenttab_height,.contact_height,.helpstab_recent{
-    overflow-y: auto;
-    max-height: 518px;
-    overflow-x: hidden;
+overflow-y: auto;
+max-height: 518px;
+overflow-x: hidden;
 }
 .eventcalender_details,.listview_eventtabcomm {
-    max-height: 450px;
-    overflow-y: auto;
+max-height: 450px;
+overflow-y: auto;
 }
 .requesttab_div{
-    overflow-y: auto;
-    max-height: 666px;
-    overflow-x: hidden;  
+overflow-y: auto;
+max-height: 666px;
+overflow-x: hidden;  
 }
 .new_commu_toptabs{
-    padding: 3px 15px 0 15px;
-    margin: 0 0 7em 0;
+padding: 3px 15px 0 15px;
+margin: 0 0 7em 0;
 }
 .flexapartment_details {
-    padding: 7px 13px 7px 18px;
+padding: 7px 13px 7px 18px;
 }
 .reqst_div {
-    margin: 11px 0 0 0;
+margin: 11px 0 0 0;
 }
 .btm_communew_loca p img{
-    width: 11px;
-    height: 16px;
-    vertical-align: text-top;
-    margin: 0 2px 0 0;
+width: 11px;
+height: 16px;
+vertical-align: text-top;
+margin: 0 2px 0 0;
 }
 .apartimg{
-    margin: 6px 0 0 0;
+margin: 6px 0 0 0;
 }
 .docreq_blkamt h4 small{
-    font-size: 12px;
-    font-weight: 700;
+font-size: 12px;
+font-weight: 700;
 }
 /* end of new design recent tabs */
 
 /* new design chat box mobile */
 .contactdiv {
-    flex-basis: 7%;
+flex-basis: 7%;
 }
 .bottombtns_sectioncontact.topspade_pad {
-    bottom: 325px;
+bottom: 325px;
 }
 .bottombtns_sectioncontact.topspade_pad {
-    bottom: 333px;
+bottom: 333px;
 }
 .contactarea_msg {
-    flex-basis: 92%;
+flex-basis: 92%;
 }
 .bottombtns_sectioncontact {
-    left: 13px;
+left: 13px;
+}
+.bottombtns_sectioncontact.galleryspaceadd {
+bottom: 325px;
+}
+.bottombtns_sectioncontact.cameraspaceadd {
+bottom: 109px;
+}
+.bottombtns_sectioncontact.userspaceadd {
+bottom: 101px;
+}
+.bottombtns_sectioncontact.spacetophiddendiv{
+bottom: 107px;
 }
 .chatboxdiv{
-    padding: 0 10px;
+padding: 0 10px;
 }
 .bck_arrowdiv {
-    text-align: center;
+text-align: center;
 }
 /* end of new design chat box mobile end */
 
 
 /* communication about me */
 .tab-content.allcommuni_tabs{
-    margin: 0 0 4em 0;
+margin: 0 0 4em 0;
 }
 .links_loc >li {
-    padding: 0 10px;
+padding: 0 10px;
 }
 .live_location {
-    padding: 10px 0 7em 0;
+padding: 10px 0 7em 0;
 }
 .profiledetail_div .prof_persondetails {
-    margin: 2.4em 0 7em 0;
+margin: 2.4em 0 7em 0;
 }
 .profiledetail_div .multi_icons_commu ul {
-    width: 39%;
+width: 39%;
 }
 .profiledetail_div,.commu_detailaboutme{
-    width: 95%;
-    margin:0 auto;
+width: 95%;
+margin:0 auto;
 }
 .l-main.chatcommu_top {
-    margin-top: 71px !important;
-    height: 100vh;
-    background: #EDF2FA url("../images/showings/communication/commuication_all/lion_backg.svg") bottom right no-repeat;
-    background-size: contain;
+margin-top: 71px !important;
+height: 100vh;
+background: #EDF2FA url("../images/showings/communication/commuication_all/lion_backg.svg") bottom right no-repeat;
+background-size: contain;
 }
 .commu_detailaboutme .profimg_dets > img {
-    width: 101px;
-    height: 97px;
+width: 101px;
+height: 97px;
 }
 .multi_icons_commu ul {
-    width: 39%;
+width: 39%;
 }
 .profiledetail_div .view_morediv a {
-    padding: 0px 10px 13px 10px;
+padding: 0px 10px 13px 10px;
 }
 /* end of communication about me */
 /* timeline mobile view */
 
 .tabcon_timelinemobileview .container {
-    max-width: 100%;
+max-width: 100%;
 }
 .flex_containerdiv label,.descrip_div label, .workorder_mobileview .issue_select label,.workorder_mobileview .uploadphotos_div label {
-    font-size: 14px;
+font-size: 14px;
 }
 .uploadphotos_div .upload-container label.upload-label {
-    padding-left:0px;
+padding-left:0px;
 }
 .workorder_mobileview h4 {
-    margin: 0 0 15px 0;
+margin: 0 0 15px 0;
 }
 .categ_section .dropdown-selected ,.work_contentsection .issueselectbox{
-    font-size: 14px;
+font-size: 14px;
 }
 .workorder_mobileview{
-    width: 95%;
-    margin: 0 auto;
+width: 95%;
+margin: 0 auto;
 }
 .categoryinputdiv .issuewrapper .fa {
-    right: 10px;
+right: 10px;
 }
 .jobdescrip_order.applyheight,.jobdescrip_order{
-    max-height: unset;
+max-height: unset;
 }
 .height_befafterlist{
-    height: 500px;
-    overflow-y: scroll; /* Enable scrolling */
-    scrollbar-width: none; /* Hide scrollbar in Firefox */
-    -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+height: 500px;
+overflow-y: scroll; /* Enable scrolling */
+scrollbar-width: none; /* Hide scrollbar in Firefox */
+-ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
 }
 .orderdivtime_linetab .vertical-steps .list-group-item .wideqlleft p:nth-child(2) {
-    line-height: 14px;
+line-height: 14px;
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item::before {
-    margin: -2px 0 0 -35px;
+margin: -2px 0 0 -35px;
 }
 .befafter_sectionimg{
-    margin:0 0 20px 0;
+margin:0 0 20px 0;
 }
 .befafter_sectionimg:last-child{
-    margin:0;
+margin:0;
 }
 .viewallbtn_link {
-    margin: 0 0 5px 0;
+margin: 0 0 5px 0;
 }
 .height_befafterlist::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in Chrome, Safari */
-  }
+display: none; /* Hide scrollbar in Chrome, Safari */
+}
 .relv_mapcss.css_remove_position {
-    margin: 0;
+margin: 0;
 }
 .css_remove_position .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs{
-    width: 100%;
+width: 100%;
 }
 .tabcon_timelinemobileview .container{
-    max-width: 100%;
+max-width: 100%;
 }
 .descripcontainerdiv .galdiv_clr span,.descripcontainerdiv .videodiv_clr span {
-    font-size: 12px;
+font-size: 12px;
 }
 .orderbefaftr_div .galdiv_clr {
-    padding: 0px 29px 0px 10px;
+padding: 0px 29px 0px 10px;
 }
 .orderbefaftr_div .galdiv_clr img,.orderbefaftr_div .videodiv_clr img {
-    vertical-align: inherit;
+vertical-align: inherit;
 }
 .orderbefaftr_div .videodiv_clr{
-    padding: 0px 12px 0px 7px;
+padding: 0px 12px 0px 7px;
 }
 .tabcon_timelinemobileview .container.orderdivtime_linetab{
-    max-width: 100%;
-    padding: 0;
+max-width: 100%;
+padding: 0;
 }
 .jobdescrip_order, .bef_afterimgdecrip, .clos_notesheader{
-    background: #EDF2FA;
-    margin: 0 0 20px 0;
+background: #EDF2FA;
+margin: 0 0 20px 0;
 }
 .viewreport_div a{
-    background: #315D80;
-    border-radius: 25.6499px;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 26px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    width: 322px;
-    height: 28px;
-    display: block;
-    margin: 0 auto;
-    letter-spacing: 1px;
+background: #315D80;
+border-radius: 25.6499px;
+font-weight: 700;
+font-size: 12px;
+line-height: 26px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+width: 322px;
+height: 28px;
+display: block;
+margin: 0 auto;
+letter-spacing: 1px;
 }
 .viewreport_div img{
-    width: 14px;
-    height: 16px;
-    margin:0 6px 0 0;
+width: 14px;
+height: 16px;
+margin:0 6px 0 0;
 }
 .viewreport_div{
-    margin-bottom: 7em;
+margin-bottom: 7em;
 }
 .css_remove_position .main_timeline{
-    position: unset;
+position: unset;
 }
 .main_timeline{
-    width: 385px;
-    margin: 0 auto;
+width: 385px;
+margin: 0 auto;
 }
 .tabcon_timelinemobileview .order_descrip_content {
-    flex-direction: column;
+flex-direction: column;
 }
 .flex_menubottom img{
-    height: 28px;
-    width: 28px;
+height: 28px;
+width: 28px;
 }
 .main_timeline .flexdiv_myinfo .addr{
 font-weight: 400;
 font-size: 10px;
 }
 .orderdivtime_linetab .list-group.vertical-steps {
-    width: 89%;
-    margin: 0 0 0 auto;
-    flex-direction: column;
+width: 89%;
+margin: 0 0 0 auto;
+flex-direction: column;
 }
 
 .tabsmobileview_timeline ul.nav.nav-tabs {
@@ -5836,54 +5848,54 @@ margin: 17px auto 0px auto;
 width: 100%;
 }
 .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs .nav-link{
-    font-weight: 700;
+font-weight: 700;
 }
 .listorder_timelimetab{
-    background: #EDF2FA;
-    box-shadow: 0px 5px 15px rgba(48, 48, 48, 0.2);
-    border-radius: 17px;
-    position: relative;
-    top: -52px;
-    max-height: unset;
-    overflow-y: unset;
-    padding: 37px 10px 40px 10px;
-    width: 99.66%;
-    margin: 0 auto;
+background: #EDF2FA;
+box-shadow: 0px 5px 15px rgba(48, 48, 48, 0.2);
+border-radius: 17px;
+position: relative;
+top: -52px;
+max-height: unset;
+overflow-y: unset;
+padding: 37px 10px 40px 10px;
+width: 99.66%;
+margin: 0 auto;
 }
 .main_timeline .flexdiv_myinfo .nm{
-    font-weight: 700;
-    font-size: 14px;
+font-weight: 700;
+font-size: 14px;
 }
 .main_timeline{
-    position: absolute;
-    left: 25%;
-    top: -39px;
+position: absolute;
+left: 25%;
+top: -39px;
 }
 .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs li {
-    width: 192px;
+width: 192px;
 }
 .main_timeline .timeline_divorder {
-    background: #EDF2FA;
-    border-radius: 10px;
-    padding: 20px 15px;
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
+background: #EDF2FA;
+border-radius: 10px;
+padding: 20px 15px;
+width: 100%;
+margin: 0 auto;
+align-items: center;
+justify-content: space-between;
 }
 .main_timeline .timelinewidth {
-    flex-basis: 60%;
+flex-basis: 60%;
 }
 .main_timeline .arrow_space {
-    flex-basis: 10%;
+flex-basis: 10%;
 }
 .main_timeline .timelinestatus {
-    flex-basis: 26%;
-    justify-content: end;
+flex-basis: 26%;
+justify-content: end;
 }
 .relv_mapcss {
-    position: relative;
-    margin: 39px 0 0 0px;
+position: relative;
+margin: 39px 0 0 0px;
 }
 /* end of timeline mobile view */
 /* work order mobile view */
@@ -5927,42 +5939,42 @@ line-height: 37px;
 border-radius: 30px;
 }
 .work_contentsection {
-    background: #EDF2FA;
-    border-radius: 17px;
-    padding: 10px 15px;
-    margin: 0 0 10px 0;
+background: #EDF2FA;
+border-radius: 17px;
+padding: 10px 15px;
+margin: 0 0 10px 0;
 }
 .successful_modaldiv {
-    margin: 4em 0 3em 0;
+margin: 4em 0 3em 0;
 }
 .succ_msg p {
-    width: 81%;
-    margin: 0 auto;
+width: 81%;
+margin: 0 auto;
 }
 .successful_modaldiv img {
-    margin: 2em 0 3em 0;
+margin: 2em 0 3em 0;
 }
 .successful_modaldiv h4{
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 35px;
-    text-align: center;
-    color: #315D80;
-    margin:0;
-    }
-    .btn.reqtechician {
-        width: 318px;
-        margin: 20px auto 30px auto;
-        letter-spacing: 1px;
-    }
+font-weight: 700;
+font-size: 22px;
+line-height: 35px;
+text-align: center;
+color: #315D80;
+margin:0;
+}
+.btn.reqtechician {
+width: 318px;
+margin: 20px auto 30px auto;
+letter-spacing: 1px;
+}
 .categ_section{
 flex-direction: column;
 width: 100%;
 }
 .categorytxt{
-    margin: 5px auto 0 auto;
-    width: 90%;
-    text-align: center;
+margin: 5px auto 0 auto;
+width: 90%;
+text-align: center;
 }
 .uploadphotos_div label span{
 font-weight: 700;
@@ -6126,13 +6138,13 @@ ul.commdetails_mobileview li a.nav-link.email_txtlink.active img{
 content: url('../images/showings/communication/communication_details/activeemail.svg');
 }
 ul.commdetails_mobileview li a.nav-link.call_txtlink.active img{
-    content: url('../images/showings/communication/communication_details/callactive.svg');
+content: url('../images/showings/communication/communication_details/callactive.svg');
 }
 ul.commdetails_mobileview li a.nav-link.all_txtlink.active img{
-        content: url('../images/showings/communication/communication_details/activeall.svg');
+content: url('../images/showings/communication/communication_details/activeall.svg');
 }
- ul.commdetails_mobileview li a.nav-link.text_txtlink.active img{
-            content: url('../images/showings/communication/communication_details/commu_text.svg');
+ul.commdetails_mobileview li a.nav-link.text_txtlink.active img{
+content: url('../images/showings/communication/communication_details/commu_text.svg');
 }
 .filtercommu_options .commu_closefilterclk{
 background: rgba(99, 136, 165, 0.2);
@@ -6988,14 +7000,14 @@ margin: 0px 0px 0 84px;
 padding: 23px 0 20px 0 !important;
 }
 .belowpart_tenant.maintenance_div .profimg_div .status {
-    right: 16px;
-    bottom: 8px;
+right: 16px;
+bottom: 8px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    position: relative;
-    height: 133px;
-    width: 132px;
-    margin-top: -87px;
+position: relative;
+height: 133px;
+width: 132px;
+margin-top: -87px;
 }
 /* end of maintenance */
 .setup_modalprop .modal-header,.setup_modalprop .modal-body{
@@ -8208,7 +8220,7 @@ height: 19px;
 margin: 5px 0 0 0;
 }
 .flexprice_range .price-range-slider .box-minmax {
-    width: 91.3%;
+width: 91.3%;
 }
 .price-range-slider {
 padding: 10px 9px;
@@ -8239,10 +8251,10 @@ padding: 5px 55px 5px 0;
 
 /* find property */
 .similar_unitsdiv.pricerangedivs .lochouse_details .house span, .similar_unitsdiv.pricerangedivs .lochouse_details .clock span {
-    font-size: 12px;
+font-size: 12px;
 }
 .l-main .similar_unitsdiv.pricerangedivs .slidelocation_div .txt_loc {
-    font-size: 14px;
+font-size: 14px;
 }
 .l-main .listimges_prop.propfind {
 margin: 0 auto;
@@ -9218,58 +9230,67 @@ right: 13px;
 }
 }
 @media only screen and (max-width: 641px){
+/* recent tab */
+.contactchatboxmessage .chat-box {
+height: calc(100vh - 257px);
+margin-top: 33px;
+}
+.posfixed {
+top: 95px;
+}
+/* recent tab end */
 /* communication about me */
 .eventcalender_details {
-    max-height: 346px;
+max-height: 346px;
 }
 .listview_eventtabcomm {
-    max-height: 431px;
+max-height: 431px;
 }
 .contact-list.recenttab_communication .contact .personinfo,
 .contact-list.recenttab_communication .contact .name,
 .reqinner .name,.reqinner .personinfo {
-    width: 133px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+width: 133px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
 }
 .recenttab_styl span.countreq_no {
-    right: -3px;
-    top: -2px;
-    z-index: 10;
+right: -3px;
+top: -2px;
+z-index: 10;
 }
 .newcommu_bottomimg ul {
-    width: 91%;
+width: 91%;
 }
 .newcommu_bottomimg {
-    height: 71px;
+height: 71px;
 }
 .commu_detailaboutme .multi_icons_commu ul {
-    width: 46%;
+width: 46%;
 }
 .newcommu_bottomimg ul li.videocssimg a img{
-    height: 61px;
-    margin: -15px 0 0 4px;
+height: 61px;
+margin: -15px 0 0 4px;
 }
 /* end of communication about me */
 /* maintenance */
 .succ_msg p {
-    width: 95%;
+width: 95%;
 }
 .orderdivtime_linetab .list-group.vertical-steps {
-    width: 90%;
+width: 90%;
 }
 .relv_mapcss.css_remove_position {
-    margin: 102px 0 0 0px;
+margin: 102px 0 0 0px;
 }
 .viewreport_div {
-    margin-bottom: 6.5em;
+margin-bottom: 6.5em;
 }
 .relv_mapcss {
-    margin: 141px 0 0 0px;
+margin: 141px 0 0 0px;
 }
 .main_timeline {
-    left: 20%;
+left: 20%;
 }
 .maint_pagediv .stat_div {
 margin: 1px 0 1px 34px;
@@ -9338,7 +9359,7 @@ padding: 23px 0 24px 0 !important;
 margin: 0 0 21px 0;
 }
 .belowpart_tenant.maintenance_div .profimg_div .status {
-    right: 18px;
+right: 18px;
 }
 .belowpart_tenant.maintenance_div .profimg_div .avatar-preview .status, .belowpart_tenant.maintenance_div .profimg_div .status {
 bottom: 19px;
@@ -10282,16 +10303,16 @@ width: 85px;
 @media only screen and (max-width: 640px) and (min-width:569px) {
 /* recent tab */
 .alpha_contact.newcommtab_contact p {
-    margin: 13px 0 0 0;
+margin: 13px 0 0 0;
 }
 /* end of recent tab */
 /* communication */
 .profiledetail_div .multi_icons_commu ul {
-    width: 49%;
+width: 49%;
 }
 .commu_detailaboutme{
-    width: 95%;
-    margin: 0 auto;
+width: 95%;
+margin: 0 auto;
 }
 /* end of communication */
 
@@ -10424,86 +10445,86 @@ top: -28px;
 @media only screen and (max-width:576px) {
 /* recent tab new design */
 .newcommu_bottomimg ul li.videocssimg a img {
-    margin: -30px 0 0 4px;
+margin: -30px 0 0 4px;
 }
 .plusic_eventimg {
-    margin: 0 6px 0 0;
+margin: 0 6px 0 0;
 }
 .eventcalender_details {
-    max-height: 308px;
+max-height: 308px;
 }
 .eventrightdetails_info {
-    flex-basis: 87%;
+flex-basis: 87%;
 }
 .eventleftimg_div {
-    flex-basis: 13%;
+flex-basis: 13%;
 }
 /* end of recent tab new design */
 /* communication */
 .btn.blockbtn{
-    padding: 8px 13px 8px 11px;
+padding: 8px 13px 8px 11px;
 }
 .two_buttonsreport.aboutme_commuabout {
-    margin: 57px 0 0px 0;
+margin: 57px 0 0px 0;
 }
 .commu_detailaboutme {
-    width: 95%;
-    margin: 0 auto;
+width: 95%;
+margin: 0 auto;
 }
 .commu_detailaboutme .multi_icons_commu ul,.profiledetail_div .multi_icons_commu ul {
-    width: 52%;
+width: 52%;
 } 
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
-    max-width: 55%;
+max-width: 55%;
 }
 .mycont_container .contact-list .contact .avatar-holder{
-    flex-basis: 80%;
+flex-basis: 80%;
 }
 .allcommuni_tabs .timecomm_txt {
-    font-size: 10px;
+font-size: 10px;
 }
 .mycont_container .contact-list .contact .infodescrip{
-    flex-basis: 18%;
+flex-basis: 18%;
 }
 .contact-list .contact .name,.reqinner .name,.contact-list .contact .personinfo,.reqinner .personinfo {
-    line-height: 18px;
+line-height: 18px;
 }
 
 .mycont_container .contact-list .contact .avatar-holder,.support_container .contact-list .contact .avatar-holder  {
-    flex-basis: 75%;
+flex-basis: 75%;
 }
 .mycont_container .contact-list .contact .infodescrip,.support_container .contact-list .contact .infodescrip {
-    flex-basis: 21%;
-    text-align: right;
+flex-basis: 21%;
+text-align: right;
 }
 .reqt_container .contact-list .contact .avatar-holder{
-    flex-basis: 55.33%;
+flex-basis: 55.33%;
 }
 .reqt_container .contact-list .contact .infodescrip{
-    flex-basis: 23%;
-    text-align: right;
+flex-basis: 23%;
+text-align: right;
 }
 .reqt_container .contact-list .contact .accpt_rejectdiv{
-    flex-basis: 20%;
-    text-align: right;
+flex-basis: 20%;
+text-align: right;
 }
 .salescommuni_div li.active .topsec_salesdiv {
-    padding: 13px 10px 13px 17px;
+padding: 13px 10px 13px 17px;
 }
 .salescommuni_div li a img {
-    margin: 0 12px 0 0;
+margin: 0 12px 0 0;
 }
 ul.mobview_commu_tabs {
-    margin: 4px 0 1em 0;
+margin: 4px 0 1em 0;
 }
 .alpha_contact p {
-    margin: 20px 0 0 0;
+margin: 20px 0 0 0;
 }
 /* end of communication */
 
 /* maintenance */
 .main_timeline {
-    left: 16%;
+left: 16%;
 }
 .maintenance_upcomingevents .calview_show {
 padding: 10px;
@@ -10630,7 +10651,7 @@ margin: 0px 14px 0 0;
 font-size: 12px;
 }
 .leftsec_listdiv {
-    flex-basis: 15%;
+flex-basis: 15%;
 }
 .maintenance_upcomingevents .listdate_show p {
 font-size: 10px;
@@ -10644,7 +10665,7 @@ width: 11px;
 margin: 0 9px;
 }
 .rightsec_listdiv {
-    flex-basis: 84%;
+flex-basis: 84%;
 }
 .maintenance_upcomingevents .headingcalen h3 img {
 width: 22px;
@@ -10655,11 +10676,11 @@ display: flex;
 align-items: center;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-    margin: 0;
-    padding: 14px 43px 14px 20px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+margin: 0;
+padding: 14px 43px 14px 20px;
+align-items: center;
+display: flex;
+justify-content: space-between;
 }
 .mobile_listview .timings_datalist {
 justify-content: space-between;
@@ -10802,7 +10823,7 @@ right: 9px;
 bottom: 16px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 8px 0 0 27px;
+margin: 8px 0 0 27px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .profilename {
 order: 2;
@@ -10811,11 +10832,11 @@ order: 2;
 line-height: 12px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 8px 20px 0 0px;
-    text-align: right;
+margin: 8px 20px 0 0px;
+text-align: right;
 }
 .belowpart_tenant.maintenance_div {
-    padding: 10px 0 10px 0 !important;
+padding: 10px 0 10px 0 !important;
 }
 .belowpart_tenant.maintenance_div .profilename,.belowpart_tenant.maintenance_div .account_no {
 font-size: 18px;
@@ -10829,15 +10850,15 @@ margin: 0 3px 0 0px;
 text-align: center;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-    max-height: 76px;
-    padding: 7px 7px 9px 12px;
+max-height: 76px;
+padding: 7px 7px 9px 12px;
 }
 .mainteam_mobileview .teamtxt {
-    margin: 0 0 0 -4px;
+margin: 0 0 0 -4px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 45%;
-    margin: 0 auto 0 -18px;
+width: 45%;
+margin: 0 auto 0 -18px;
 }
 .myteam_mobileview.mainteam_mobileview .myleaseteam_flex.desk .prof_name p:nth-child(2) {
 font-size: 8px;
@@ -11132,10 +11153,10 @@ font-size: 15px;
 
 /* find property */
 .search_ip_prop .input-group input.form-control {
-    padding: 10px 126px 10px 48px;
+padding: 10px 126px 10px 48px;
 }
 .btn.submt_btnprop {
-    left: 14px;
+left: 14px;
 }
 .l-main .listimges_prop.propfind {
 width: 93%;
@@ -11994,9 +12015,9 @@ top: 15px;
 right: 20px;
 }
 .profile_infotxt .profilename {
-    display: block;
-    order: 1;
-    margin: 10px 0 0 0;
+display: block;
+order: 1;
+margin: 10px 0 0 0;
 }
 .profile_infotxt .prof_label {
 order: 1;
@@ -12183,7 +12204,7 @@ background-position: bottom;
 height: 115px;
 }
 header.l-header .l-header__inner {
-    height: 71px;
+height: 71px;
 }
 .links {
 margin: 0;
@@ -12200,42 +12221,42 @@ flex-basis: 55%;
 
 /* my info */
 .profilename, .account_no {
-    line-height: 16px;
-    font-size: 15px;
+line-height: 16px;
+font-size: 15px;
 }
 .req_document .tabsdiv .nav.nav-tabs li a {
-    font-size: 15px;
+font-size: 15px;
 }
 .req_document .divinfo.req_border {
-    padding: 13px 15px 10px 0;
+padding: 13px 15px 10px 0;
 }
 .tooltipdivcss .tabsdiv .nav-item a.nav-link img {
-    vertical-align: middle;
+vertical-align: middle;
 }
 .belowpart_tenant {
-    padding: 10px 14px 11px 16px !important;
+padding: 10px 14px 11px 16px !important;
 }
 .belowpart_tenant .profimg_div .status {
-    right: 5px;
+right: 5px;
 }
 .belowpart_tenant .acc_infotxt.tenantacc.rightalignid .account_no,.profile_infotxt .profilename.clickhide p.user_name {
-    margin: 0 0 4px 0;
+margin: 0 0 4px 0;
 }
 .profimg_div .status {
-    width: 10px;
-    height: 10px;
+width: 10px;
+height: 10px;
 }
 .belowpart_tenant .profimg_div {
-    margin-top: -76px;
-    margin-left: 0px;
-    width: 95px;
-    height: 95px;
+margin-top: -76px;
+margin-left: 0px;
+width: 95px;
+height: 95px;
 }
 .belowpart_tenant .acc_infotxt.tenantacc.rightalignid .editprofi {
-    margin: -15px 0 10px 0;
+margin: -15px 0 10px 0;
 }
 .tenantaccord .card .card-header {
-    padding: 10px 20px;
+padding: 10px 20px;
 }
 
 
@@ -12243,9 +12264,26 @@ flex-basis: 55%;
 }
 @media only screen and (max-width: 568px) and (min-width:481px) {
 
+/* chat box */
+.posfixed {
+top: 124px;
+width: 97%;
+left: 3px;
+}
+.contactarea_msg {
+flex-basis: 89%;
+}
+.contactdiv {
+flex-basis: 10%;
+}
+.contactchatboxmessage .chat-box {
+margin-top: 50px;
+height: calc(100vh - 234px);
+}
+/* end of chat box */
 /* new design recent tab */
 .newcommu_bottomimg ul li.videocssimg a img {
-    margin: -29px 0 0 4px;
+margin: -29px 0 0 4px;
 }
 /* new design recent tab end */
 
@@ -12543,78 +12581,101 @@ top: 11px;
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
 
+/* chatbox */
+.maploc_contactdiv {
+width: 69%;
+}
+
+.contactchatboxmessage .chat-box {
+margin-top: 59px;
+height: calc(100vh - 258px);
+}
+.bottombtns_sectioncontact {
+left: 9px;
+}
+.contactarea_msg {
+flex-basis: 88%;
+}
+.contactdiv {
+flex-basis: 11%;
+}
+.posfixed {
+top: 100px;
+}
+/* end of chatbox */
+
 /* new design recent tab */
 .c-search.srch_communu.newcommu_searchdiv {
-    flex-basis: 80%;
+flex-basis: 80%;
 }
 .confirmbtn_divevent .btn.confirmevent,.reschedule_divevent .btn.rescheduleevent {
-    margin: 1px 0 0 0;
+margin: 1px 0 0 0;
 }
 .datetimeevent_details {
-    width: 58%;
+width: 58%;
 }
 .eventrightdetails_info .autocan_time{
-    flex-basis: 52%;
+flex-basis: 52%;
 }
 .quesmark_div{
-    flex-basis: 15%;
+flex-basis: 15%;
 }
 .reschedule_divevent{
-    margin: 0 0 0 14px;
-    flex-basis: 20%;
+margin: 0 0 0 14px;
+flex-basis: 20%;
 }
 .eventleftimg_div {
-    flex-basis: 17%;
+flex-basis: 17%;
 }
 .eventrightdetails_info {
-    flex-basis: 83%;
+flex-basis: 83%;
 }
 .tabmenus_wid {
-    flex-basis: 86%;
+flex-basis: 86%;
 }
 .rightsidefilter {
-    flex-basis: 13%;
+flex-basis: 13%;
 }
 .newcommu_bottomimg ul li.videocssimg a img {
-    margin: -37px 0 0 4px;
-    height: 56px;
+margin: -37px 0 0 4px;
+height: 56px;
 }
 .newcommu_bottomimg {
-    height: 66px;
+height: 66px;
 }
 .filterimg_commuicon, .addpeopleicon {
-    flex-basis: 10%;
+flex-basis: 10%;
 }
 .new_commu_toptabs ul li a.nav-link {
-    padding: 2px 12px 4px 12px;
+padding: 2px 12px 4px 12px;
 }
 /* end of new design recent tab */
 
 /* communication */
 .profilemenu_bottom {
-    left: 12px;
+left: 12px;
 }
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
-    max-width: 67%;
+max-width: 67%;
 }
 .scan_infodiv p {
-    width: 47%;
+width: 47%;
 }
 .scancommu_div a {
-    left: 5px;
-    top: -4px;
+left: 5px;
+top: -4px;
 }
 .commu_detailaboutme .multi_icons_commu ul,.profiledetail_div .multi_icons_commu ul {
-    width: 66%;
+width: 66%;
 }
 .flex_menubottom.communication_btmmenu div a img {
-    height: 27px;
+height: 27px;
 }
 .flex_menubottom.communication_btmmenu  p {
-    font-size: 12px;
+font-size: 12px;
 }
 .profilescan_div .prof_persondetails {
-    padding: 0 0 1.5em 0;
+padding: 0 0 1.5em 0;
 }
 /* end of communication */
 
@@ -12624,23 +12685,23 @@ top: 11px;
 margin: 8px 0 0 0;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 50%;
-    margin: 0 auto 0 -6px;
+width: 50%;
+margin: 0 auto 0 -6px;
 }
 .viewreport_div {
-    margin-bottom: 4.1em;
+margin-bottom: 4.1em;
 }
 .orderdivtime_linetab .list-group.vertical-steps {
-    width: 93%;
+width: 93%;
 }
 .relv_mapcss {
-    margin: 39px 0 0 0px;
+margin: 39px 0 0 0px;
 }
 .main_timeline {
-    left: 10%;
+left: 10%;
 }
 .relv_mapcss.css_remove_position {
-    margin: 0px 0 0 0px;
+margin: 0px 0 0 0px;
 }
 .mobview_technician .phono_comment ul {
 margin: -24px 0 0 0;
@@ -12678,7 +12739,7 @@ flex-basis: 69%;
 flex-basis: 33%;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-    padding: 8px 7px 8px 14px;
+padding: 8px 7px 8px 14px;
 }
 .maintenance_upcomingevents .seldatebox {
 flex-basis: 59%;
@@ -12917,7 +12978,7 @@ margin: 0 0 5px 0;
 height: 23px;
 }
 .search_ip_prop .input-group input.form-control {
-    padding: 10px 115px 10px 55px;
+padding: 10px 115px 10px 55px;
 }
 /* end of find property */
 /* active lease */
@@ -13612,67 +13673,67 @@ width: 56%;
 
 /* new design recent tab */
 .tabmenus_wid {
-    flex-basis: 84%;
+flex-basis: 84%;
 }
 .rightsidefilter {
-    flex-basis: 16%;
+flex-basis: 16%;
 }
 .new_commu_toptabs ul li a.nav-link {
-    padding: 2px 11px 4px 11px;
+padding: 2px 11px 4px 11px;
 }
 .eventcalender_tabview {
-    max-height: 490px;
+max-height: 490px;
 }
 .newcommu_bottomimg {
-    height: 62px;
+height: 62px;
 }
 .newcommu_bottomimg ul li.videocssimg a img {
-    height: 52px;
-    margin: -32px 0 0 4px;
+height: 52px;
+margin: -32px 0 0 4px;
 }
 .newcommu_bottomimg ul {
-    width: 95%;
+width: 95%;
 }
 .c-search.srch_communu.newcommu_searchdiv {
-    flex-basis: 80%;
+flex-basis: 80%;
 }
 .filterimg_commuicon, .addpeopleicon {
-    flex-basis: 10%;
+flex-basis: 10%;
 }
 /* end of new design recent tab */
 /* communication */
 .alpha_contact p {
-    margin: 20px 0 0 0;
+margin: 20px 0 0 0;
 }
 
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
-    width: 77%;
+width: 77%;
 }
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
-    max-width: 72%;
+max-width: 72%;
 }
 .scancommu_div a {
-    left: -7px;
-    top: -3px;
+left: -7px;
+top: -3px;
 }
 .scan_infodiv p {
-    width: 53%;
+width: 53%;
 }
 
 
 /* end of communication  */
 /* maintenance */
 .relv_mapcss.css_remove_position {
-    margin:0;
+margin:0;
 }
 .viewreport_div {
-    margin-bottom: 5.2em;
+margin-bottom: 5.2em;
 }
 .relv_mapcss {
-    margin: 40px 0 0 0px;
+margin: 40px 0 0 0px;
 }
 .main_timeline {
-    left: 7%;
+left: 7%;
 }
 .flexparent_reviewblock {
 padding: 5px 12px 13px 14px;
@@ -14261,49 +14322,65 @@ margin-left: 66px;
 
 
 @media only screen and (max-width: 431px) {
-    .newcommu_bottomimg ul li a {
-        padding: 9px;
-    }
-    .confirmbtn_divevent .btn.confirmevent,.reschedule_divevent .btn.rescheduleevent {
-        margin: 1px 0 0 0;
-    }
-    .datetimeevent_details {
-        width: 58%;
-    }
-    .eventrightdetails_info .autocan_time {
-        flex-basis: 62%;
-    }
-    .quesmark_div {
-        flex-basis: 6%;
-    }
-    .reschedule_divevent {
-        margin: 0 0 0 6px;
-        flex-basis: 12%;
-    }
-    .eventleftimg_div {
-        flex-basis: 17%;
-    }
-    .eventrightdetails_info {
-        flex-basis: 83%;
-    }
-    .eventcalender_details {
-        max-height: 605px;
-    }
-    .listview_eventtabcomm {
-        max-height: 692px;
-    }
-    .newcommu_bottomimg ul li.videocssimg a img {
-        margin: -36px 0 0 14px;
-    }
-    .newcommu_bottomimg ul li a.profimgcommu_img img {
-        height: 42px;
-    }
+
+/* chat box */
+.contactchatboxmessage .chat-box {
+margin-top: 60px;
+height: calc(100vh - 244px);
+}
+.contactarea_msg {
+flex-basis: 84%;
+}
+.posfixed {
+top: 103px;
+}
+.contactdiv {
+flex-basis: 14%;
+}
+/* end of chatbox */
+.newcommu_bottomimg ul li a {
+padding: 9px;
+}
+.confirmbtn_divevent .btn.confirmevent,.reschedule_divevent .btn.rescheduleevent {
+margin: 1px 0 0 0;
+}
+.datetimeevent_details {
+width: 58%;
+}
+.eventrightdetails_info .autocan_time {
+flex-basis: 62%;
+}
+.quesmark_div {
+flex-basis: 6%;
+}
+.reschedule_divevent {
+margin: 0 0 0 6px;
+flex-basis: 12%;
+}
+.eventleftimg_div {
+flex-basis: 17%;
+}
+.eventrightdetails_info {
+flex-basis: 83%;
+}
+.eventcalender_details {
+max-height: 605px;
+}
+.listview_eventtabcomm {
+max-height: 692px;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+margin: -36px 0 0 14px;
+}
+.newcommu_bottomimg ul li a.profimgcommu_img img {
+height: 42px;
+}
 /* property */
 .toursche_slidiv .unit_newlist_lease ul.nav.nav-tabs {
 width: 92%;
 }
 header.l-header .l-header__inner {
-    height: 75px;
+height: 75px;
 }
 .schedtour_popup .tenantaccord .flexdiv .mobilebedbathrm_fields .basicdata {
 width: 58px;
@@ -14395,115 +14472,127 @@ margin: 0 0 0 10px;
 
 
 @media only screen and (max-width: 415px) and (min-width:388px) {
+
+/* chatbox */
+.maploc_contactdiv {
+width: 80%;
+}
+.callemail_dots ul li.clickdots_prop a img{
+height: auto;
+}
+.callemail_dots ul li a img{
+height: 30px;
+}
+/* end of chatbox */
 /* recent tab new design */
 .newcommu_bottomimg {
-    height: 57px;
+height: 57px;
 }
 .eventrightdetails_info .autocan_time {
-    flex-basis: 80%;
+flex-basis: 80%;
 }
 .quesmark_div {
-    flex-basis: 9%;
+flex-basis: 9%;
 }
 .reschedule_divevent {
-    margin: 0 0 0 2px;
-    flex-basis: 11%;
+margin: 0 0 0 2px;
+flex-basis: 11%;
 }
 .autocan_time p {
-    font-size: 11px;
+font-size: 11px;
 }
 .datetimeevent_details {
-    width: 71%;
+width: 71%;
 }
 .eventleftimg_div {
-    flex-basis: 19%;
+flex-basis: 19%;
 }
 .eventrightdetails_info {
-    flex-basis: 81%;
+flex-basis: 81%;
 }
 .tabmenus_wid {
-    flex-basis: 84%;
+flex-basis: 84%;
 }
 .rightsidefilter {
-    flex-basis: 16%;
+flex-basis: 16%;
 }
 .newcommu_bottomimg ul li.videocssimg a img {
-    margin: -34px 0 0 3px;
-    height: 50px;
+margin: -34px 0 0 3px;
+height: 50px;
 }
 .newcommu_bottomimg ul li a.profimgcommu_img img {
-    height: 42px;
+height: 42px;
 }
 .newcommu_bottomimg ul li a img {
-    height: 24px;
+height: 24px;
 }
 .new_commu_toptabs ul li a.nav-link {
-    padding: 2px 10px 4px 10px;
+padding: 2px 10px 4px 10px;
 }
 .c-search.srch_communu.newcommu_searchdiv {
-    flex-basis: 79%;
+flex-basis: 79%;
 }
 .filterimg_commuicon, .addpeopleicon {
-    flex-basis: 10%;
+flex-basis: 10%;
 }
 .eventcalender_details {
-    max-height: 385px;
+max-height: 385px;
 }
 .listview_eventtabcomm {
-    max-height: 518px;
+max-height: 518px;
 }
 /* end of new design recent tab */
 
 
 /* communication */
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
-    max-width: 78%;
+max-width: 78%;
 }
 .scancommu_div a {
-    left: 6px;
-    top: -4px;
+left: 6px;
+top: -4px;
 }
 .profilescan_div .prof_persondetails {
-    padding: 0 0 1.7em 0;
+padding: 0 0 1.7em 0;
 }
 .scan_infodiv p {
-    width: 54%;
+width: 54%;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 78%;
+width: 78%;
 }
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
-    width: 77%;
+width: 77%;
 }
 /* end of communication */
 /* maintenance */
 .relv_mapcss.css_remove_position {
-    margin: 0;
+margin: 0;
 }
 .listorder_timelimetab .wideqlleft {
-    margin: 2px 0 0 12px;
+margin: 2px 0 0 12px;
 }
 .descripcontainerdiv .galdiv_clr span, .descripcontainerdiv .videodiv_clr span {
-    vertical-align: text-bottom;
+vertical-align: text-bottom;
 }
 .viewreport_div {
-    margin-bottom: 5.3em;
+margin-bottom: 5.3em;
 }
 .orderdivtime_linetab .list-group.vertical-steps {
-    width: 95%;
-    margin: 0 0 0 auto;
+width: 95%;
+margin: 0 0 0 auto;
 }
 .main_timeline .flexdiv_myinfo .addr{
-    margin: 5px 0 0 0;
+margin: 5px 0 0 0;
 }
 .main_timeline {
-    left: 3.5%;
+left: 3.5%;
 }
 .relv_mapcss {
-    margin: 39px 0 0 0px;
+margin: 39px 0 0 0px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -85px 0 0 17px;
+margin: -85px 0 0 17px;
 }
 .widextend_mobviewright {
 flex: 0 0 85.666667%;
@@ -14579,8 +14668,8 @@ flex-basis: 59%;
 padding: 3px 0 9px 0px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 77%;
-    margin: 0 auto 0 -8px;
+width: 77%;
+margin: 0 auto 0 -8px;
 }
 .viewdescrip_reqserv_list h3 {
 font-size: 13px;
@@ -14616,13 +14705,13 @@ width: 100%;
 margin: 0px 9px 0 0;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-    padding: 14px 31px 14px 15px;
+padding: 14px 31px 14px 15px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
 line-height: 13px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 8px 0 0 21px;
+margin: 8px 0 0 21px;
 }
 /* end of maintenance */
 /* payment desposit */
@@ -14989,17 +15078,17 @@ margin: 0;
 
 /* find property */
 .btn.submt_btnprop {
-    top: 10px;
-    padding: 0;
+top: 10px;
+padding: 0;
 }
 .btn.submt_btnprop {
-    left: 19px;
+left: 19px;
 }
 .l-main .listimges_prop.propfind {
 width: 91%;
 }
 .search_ip_prop .input-group input.form-control {
-    padding: 10px 114px 10px 48px;
+padding: 10px 114px 10px 48px;
 }
 .divinfo.findpropinfo {
 margin: 12px 0 0 0;
@@ -16075,7 +16164,7 @@ font-size: 17px;
 font-size: 17px;  
 }
 .profilename, .account_no {
-    line-height: 12px;
+line-height: 12px;
 }
 .edit_profi_name input.form-control {
 width: 88%;
@@ -16120,121 +16209,129 @@ left: -18px;
 }
 
 @media only screen and (max-width: 401px) {
-    /* recent tab new design */
-      .newcommu_bottomimg {
-          height: 56px;
-      }
-      .newcommu_bottomimg ul li.videocssimg a img {
-          margin: -37px 0 0 8px;
-      }
-      .eventcalender_details {
-        max-height: 562px;
-    }
-      .listview_eventtabcomm {
-        max-height: 645px;
-      }
-  /* recent tab new design end */
-  }
-@media only screen and (max-width: 394px) {
-    /* new design recent tab */
-    .btn.rescheduleevent{
-        width: 85px;
-    }
-    .new_commu_toptabs ul li a.nav-link{
-        line-height: 17px;
-    }
-    .eventrightdetails_info .autocan_time {
-        flex-basis: 73%;
-    }
-    .newcommu_bottomimg ul li a.profimgcommu_img img {
-        height: 38px;
-    }
-    .help_contactlist .reqinner {
-        padding: 6px 14px 5px 10px;
-    } 
-    .listview_eventtabcomm {
-        max-height: 637px;
-    }
-    .eventcalender_details {
-        max-height: 533px;
-    }
-    /* end of new design recent tab */
-/* communication */
-.commu_detailaboutme .multi_icons_commu ul {
-    width: 81%;
-}
+/* recent tab new design */
 .newcommu_bottomimg {
-    height: 54px;
+height: 56px;
 }
 .newcommu_bottomimg ul li.videocssimg a img {
-    margin: -35px 0 0 1px;
-    height: 50px;
+margin: -37px 0 0 8px;
+}
+.eventcalender_details {
+max-height: 562px;
+}
+.listview_eventtabcomm {
+max-height: 645px;
+}
+/* recent tab new design end */
+}
+@media only screen and (max-width: 394px) {
+/* chatbox */
+.maploc_contactdiv {
+width: 85%;
+}
+.profname_contacttxt h3 {
+font-size: 13px;
+}
+/* end of chatbox */
+/* new design recent tab */
+.btn.rescheduleevent{
+width: 85px;
+}
+.new_commu_toptabs ul li a.nav-link{
+line-height: 17px;
+}
+.eventrightdetails_info .autocan_time {
+flex-basis: 73%;
+}
+.newcommu_bottomimg ul li a.profimgcommu_img img {
+height: 38px;
+}
+.help_contactlist .reqinner {
+padding: 6px 14px 5px 10px;
+} 
+.listview_eventtabcomm {
+max-height: 637px;
+}
+.eventcalender_details {
+max-height: 533px;
+}
+/* end of new design recent tab */
+/* communication */
+.commu_detailaboutme .multi_icons_commu ul {
+width: 81%;
+}
+.newcommu_bottomimg {
+height: 54px;
+}
+.newcommu_bottomimg ul li.videocssimg a img {
+margin: -35px 0 0 1px;
+height: 50px;
 }
 .contact-list.recenttab_communication .contact .personinfo, .contact-list.recenttab_communication .contact .name {
-    width: 113px;
+width: 113px;
 }
-    .profilemenu_bottom {
-       left: 9px;
-    }
+.profilemenu_bottom {
+left: 9px;
+}
 .scan_infodiv p {
-    width: 60%;
+width: 60%;
 }
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
-    max-width: 81%;
+max-width: 81%;
 }
 .mycont_container .contact-list .contact .avatar-holder, .support_container .contact-list .contact .avatar-holder {
-    flex-basis: 70%;
+flex-basis: 70%;
 }
 .mycont_container .contact-list .contact .infodescrip, .support_container .contact-list .contact .infodescrip {
-    flex-basis: 29%;
+flex-basis: 29%;
 }
 .accpt_rejectdiv img {
-    width: 16px;
-    height: 16px;
+width: 16px;
+height: 16px;
 }
 .contact-list .contact .inner {
-    padding: 0 13px 4px 8px;
+padding: 0 13px 4px 8px;
 }
 /* end of communication */
 
 /* maintenance */
 .succ_msg p {
-    width: 100%;
+width: 100%;
 }
 .workorder_block .addr {
-    max-width: 200px;
+max-width: 200px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 78%;
+width: 78%;
 }
 /* timeline */
 .orderdivtime_linetab .list-group.vertical-steps {
-    width: 92%;
+width: 92%;
 }
 .main_timeline {
-    width: 358px;
-    left: 4.5%;
+width: 358px;
+left: 4.5%;
 }
 .main_timeline .timelinestatus {
-    flex-basis: 34%;
+flex-basis: 34%;
 }
 .main_timeline .timelinewidth {
-    flex-basis: 51%;
+flex-basis: 51%;
 }
 .main_timeline .arrow_space {
-    flex-basis: 11%;
+flex-basis: 11%;
 }
 .tabsmobileview_timeline ul.nav.nav-tabs {
-    margin: 12px auto 0px auto;
+margin: 12px auto 0px auto;
 }
 .listorder_timelimetab .wideqlleft {
-    flex-basis: 60%;
+flex-basis: 60%;
 }
 .listorder_timelimetab .wideqlright {
-    flex-basis: 28%;
+flex-basis: 28%;
 }
 .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs li {
-    width: 179px;
+width: 179px;
 }
 /* timeline end */
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
@@ -16523,8 +16620,8 @@ height: 128px;
 max-width: 96%;
 }
 .btn.submt_btnprop {
-    top: 10px;
-    padding: 0;
+top: 10px;
+padding: 0;
 }
 /* end of find property */
 .bookappnt_divabs, .sched_meeting {
@@ -16794,129 +16891,129 @@ height: 21px;
 @media only screen and (max-width: 387px) and (min-width:377px) {
 /* recent tab new design */
 .newcommu_bottomimg ul li a img {
-    height: 25px;
+height: 25px;
 }
 .datetimeevent_details {
-    width: 76%;
+width: 76%;
 }
 .tabmenus_wid {
-    flex-basis: 85%;
+flex-basis: 85%;
 }
 .rightsidefilter {
-    flex-basis: 14%;
+flex-basis: 14%;
 }
 .eventcalender_details {
-    max-height: 309px;
+max-height: 309px;
 }
 .listview_eventtabcomm {
-    max-height: 421px;
+max-height: 421px;
 }
 .new_commu_toptabs ul li a.nav-link {
-    font-size: 12px;
+font-size: 12px;
 }
 .new_commu_toptabs ul li a.nav-link {
-    padding: 2px 10px 4px 10px;
+padding: 2px 10px 4px 10px;
 }
 .newcommu_bottomimg ul li.videocssimg a img {
-    margin: -31px 0 0 4px;
-    height: 44px;
+margin: -31px 0 0 4px;
+height: 44px;
 }
 .filterimg_commuicon, .addpeopleicon {
-    flex-basis: 10%;
+flex-basis: 10%;
 }
 .c-search.srch_communu.newcommu_searchdiv {
-    flex-basis: 78%;
+flex-basis: 78%;
 }
 /* end of recent tab new design */
 /* communication */
 .contact-list .contact .name,.reqinner .name {
-    font-size: 14px;
+font-size: 14px;
 }
 
 .scannerimg_div {
-    margin: 2.5em 0 0.5em 0;
+margin: 2.5em 0 0.5em 0;
 }
 .scancommu_div a {
-    left: 17px;
+left: 17px;
 }
 .bottomcommu_details ul li a img {
-    width: 17px;
-    height: 17px;
+width: 17px;
+height: 17px;
 }
 .salescommuni_div li.active .topsec_salesdiv {
-    padding: 10px 10px 10px 17px;
+padding: 10px 10px 10px 17px;
 }
 .topsec_salesdiv a {
-    font-size: 14px;
-    line-height: 19px;
+font-size: 14px;
+line-height: 19px;
 }
 .sal_custserv a {
-    font-size: 12px;
-    padding: 7px 10px;
+font-size: 12px;
+padding: 7px 10px;
 }
 .allcommuni_tabs .contact .inner a img{
-    width: 15px;
-    height: 15px;
+width: 15px;
+height: 15px;
 }
 ul.mobview_commu_tabs li a.nav-link {
-    font-size: 13px;
+font-size: 13px;
 }
 .contact-list li {
-    padding: 4px 0px 1px 0px;
+padding: 4px 0px 1px 0px;
 }
 .contact-list .contact .personinfo,.reqinner .personinfo {
-    line-height: 15px;
-    font-size: 12px;
+line-height: 15px;
+font-size: 12px;
 }
 .alpha_contact p {
-    font-size: 14px;
+font-size: 14px;
 }
 /* end of communication */
-    /* maintenance  */
-    .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-        margin: 0 auto 0 0px;
-        width: 74%;
-    }
-    .belowpart_tenant.maintenance_div .profimg_div {
-        margin: -86px 0 0 16px;
-    }
-    .belowpart_tenant.maintenance_div .profile_infotxt {
-        margin: 8px 0 0 20px;
-    }
-    .calenderview_div.maintenance_upcomingevents .listrow {
-        padding: 14px 17px 14px 14px;
-    }
-    .maintenance_upcomingevents .left_arrow {
-        margin-right: 5px;
-    }
-    .maintenance_upcomingevents .imgarrw_div {
-        margin-left: 6px;
-    }
-    /* timeline */
-    .bottom_sectionorder .category p {
-        font-size: 13px;
-        padding: 6px 0;
-    }
+/* maintenance  */
+.myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
+margin: 0 auto 0 0px;
+width: 74%;
+}
+.belowpart_tenant.maintenance_div .profimg_div {
+margin: -86px 0 0 16px;
+}
+.belowpart_tenant.maintenance_div .profile_infotxt {
+margin: 8px 0 0 20px;
+}
+.calenderview_div.maintenance_upcomingevents .listrow {
+padding: 14px 17px 14px 14px;
+}
+.maintenance_upcomingevents .left_arrow {
+margin-right: 5px;
+}
+.maintenance_upcomingevents .imgarrw_div {
+margin-left: 6px;
+}
+/* timeline */
+.bottom_sectionorder .category p {
+font-size: 13px;
+padding: 6px 0;
+}
 
 .main_timeline {
 width: 358px;
 }
 .descripcontainerdiv .galdiv_clr span, .descripcontainerdiv .videodiv_clr span {
-    vertical-align: text-bottom;
+vertical-align: text-bottom;
 }
 .main_timeline {
-    left: 14px;
+left: 14px;
 }
 .relv_mapcss {
-    margin: 40px 0 0 0px;
+margin: 40px 0 0 0px;
 }
 .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs li {
-    width: 179px;
+width: 179px;
 }
 .relv_mapcss.css_remove_position {
 margin: 0px;
 }
-    /* timeline end*/
+/* timeline end*/
 .abt_rev_certifi ul.nav.nav-tabs .nav-item {
 margin: 0 8px 0 0;
 font-size: 16px;
@@ -16949,7 +17046,7 @@ font-size: 15px;
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
 font-size: 16px;
 }
- /* maintenance end */
+/* maintenance end */
 /* confirm showing pop up */
 .confirmpopupdiv .modal-header p,.confirmreschedule .modal-header p {
 width: 88%;
@@ -17588,167 +17685,169 @@ left: -22px;
 
 
 @media only screen and (max-width: 376px) and (min-width:362px) {
-
+.contactchatboxmessage .input-area input {
+font-size: 14px;
+}
 /* new recent tab design */
 .newcommu_bottomimg {
-    height: 53px;
+height: 53px;
 }
 .reschedule_divevent {
-    margin: 0 0 0 3px;
+margin: 0 0 0 3px;
 }
 .quesmark_div {
-    flex-basis: 5%;
+flex-basis: 5%;
 }
 .rightsidefilter {
-    flex-basis: 17%;
+flex-basis: 17%;
 }
 .tabmenus_wid {
-    flex-basis: 84%;
+flex-basis: 84%;
 }
 .datetimeevent_details {
-    width: 77%;
+width: 77%;
 }
 .autocan_time p {
-    font-size: 11px;
+font-size: 11px;
 }
 .help_contactlist .reqinner {
-    padding: 6px 14px 5px 7px;
+padding: 6px 14px 5px 7px;
 }
 .eventcalender_details {
-    max-height: 391px;
+max-height: 391px;
 }
- .listview_eventtabcomm {
-    max-height: 448px;
+.listview_eventtabcomm {
+max-height: 448px;
 }
 .new_commu_toptabs ul li a.nav-link {
-    font-size: 12px;
+font-size: 12px;
 }
 .newcommu_bottomimg ul li.videocssimg a img {
-    margin: -31px 0 0 -12px;
-    height: 46px;
+margin: -31px 0 0 -12px;
+height: 46px;
 }
 .newcommu_bottomimg ul li a.chatblck  img {
-    height: 19px;
+height: 19px;
 }
 .chat_callemail_div a.common_link img{
-    height: 28px;
+height: 28px;
 }
 .c-search.srch_communu.newcommu_searchdiv {
-    flex-basis: 79%;
+flex-basis: 79%;
 }
 .filterimg_commuicon, .addpeopleicon {
-    flex-basis: 10%;
+flex-basis: 10%;
 }
 .newcommu_bottomimg ul li a.profimgcommu_img img {
-    height: 39px;
+height: 39px;
 }
 .new_commu_toptabs ul li a.nav-link {
-    padding: 2px 9px 4px 9px;
-    font-size: 12px;
+padding: 2px 9px 4px 9px;
+font-size: 12px;
 }
 /* end of recent new tab design */
 /* communication */
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
-    width: 87%;
+width: 87%;
 }
 .scancommu_div a {
-    left: 12px;
+left: 12px;
 }
 .profilescan_div .prof_persondetails {
-    padding: 0 0 1.7em 0;
+padding: 0 0 1.7em 0;
 }
 .scannerimg_div {
-    margin: 2.1em 0 2em 0;
+margin: 2.1em 0 2em 0;
 }
 .profilescan_div .prof_name.scanp_txt p {
-    font-size: 13px;
+font-size: 13px;
 }
 .prof_name h3 {
-    font-size: 18px;
+font-size: 18px;
 }
 .scan_infodiv p {
-    width: 62%;
+width: 62%;
 }
 .liveloc_div ul li button {
-    font-size: 14px;
+font-size: 14px;
 }
 .live_location h4 {
-    font-size: 16px;
+font-size: 16px;
 }
 .btn.btn-repblk_mod, .btn.btn-blkmod {
-    width: 156px;
-    padding: 0 6px 0 16px;
+width: 156px;
+padding: 0 6px 0 16px;
 }
 .btn.btn-repblk_mod img, .btn.btn-blkmod img {
-    margin: 0px 10px 0 0;
+margin: 0px 10px 0 0;
 }
 .audio_video_div h2 {
-    font-size: 16px;
+font-size: 16px;
 }
 .audio_date_sectionhead h4,.leftaudio_div span, .rightaudio_div span {
-    font-size: 13px;
+font-size: 13px;
 }
 .about_bodysec {
-    padding: 15px;
+padding: 15px;
 }
 .about_bodysec p {
-    font-size: 13px;
+font-size: 13px;
 }
 ul.mobview_commu_tabs li a.nav-link {
-    padding: 2px 12px 4px 12px;
+padding: 2px 12px 4px 12px;
 }
 .maint_pagediv .name_addr p.nm {
-    line-height: 17px;
+line-height: 17px;
 }
 .workorder_block .addr {
-    max-width: 188px;
+max-width: 188px;
 }
 .allcommuni_tabs .contact .inner a img{
-    width: 15px;
-    height: 15px;
+width: 15px;
+height: 15px;
 }
 .topsec_salesdiv a {
-    font-size: 14px;
-    line-height: 20px;
+font-size: 14px;
+line-height: 20px;
 }
 .sal_custserv a {
-    font-size: 12px;
-    line-height: 18px;
-    padding: 4px 10px;
+font-size: 12px;
+line-height: 18px;
+padding: 4px 10px;
 }
 ul.mobview_commu_tabs li a.nav-link{
-    font-size: 13px;
+font-size: 13px;
 }
 .c-search.srch_communu .c-search__input.form-control {
-    font-size: 13px;
+font-size: 13px;
 }
 .contact-list .contact .name,.reqinner .name {
-    font-size: 14px;;
+font-size: 14px;;
 }
 .contact-list .contact .personinfo,.reqinner .personinfo {
-    font-size: 12px;
+font-size: 12px;
 }
 /* end of communication */
 /* maintenance */
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 73%;
-    margin: 0 auto 0 0px;
+width: 73%;
+margin: 0 auto 0 0px;
 }
 .relv_mapcss.css_remove_position {
-    margin: 0;
+margin: 0;
 }
 .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs li {
-    width: 172px;
+width: 172px;
 }
 .main_timeline {
-    width: 344px;
-        left: 4.1%;
+width: 344px;
+left: 4.1%;
 }
 .viewreport_div {
-    margin-bottom: 5.3em;
+margin-bottom: 5.3em;
 }
 .relv_mapcss {
-    margin: 39px 0 0 0px;
+margin: 39px 0 0 0px;
 }
 .similar_unitsdiv.toursche_slidiv .lochouse_details .house span, .similar_unitsdiv.toursche_slidiv .lochouse_details .clock span {
 font-size: 9px;
@@ -17858,7 +17957,7 @@ margin: -82px 0 0 17px;
 width:100%;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-    padding: 11px 24px 11px 8px;
+padding: 11px 24px 11px 8px;
 }
 .reqserv_descrip p {
 font-size: 13px;
@@ -17882,7 +17981,7 @@ font-size: 16px;
 margin: 6px 0 0 0;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex.desk {
-    padding: 7px 5px 9px 9px;
+padding: 7px 5px 9px 9px;
 }
 .myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
 line-height: 11px;
@@ -17892,16 +17991,16 @@ font-size: 11px;
 line-height: 14px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 8px 0 0 23px;
+margin: 8px 0 0 23px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
 line-height: 13px;
 }
 .maintenance_upcomingevents .left_arrow {
-    margin-right: 4px;
+margin-right: 4px;
 }
 .maintenance_upcomingevents .imgarrw_div {
-    margin-left: 4px;
+margin-left: 4px;
 }
 /* end of maintenance */
 /* payment deposit */
@@ -19122,262 +19221,262 @@ width: 37%;
 
 /* recent tab new design */
 .modal_saleshelp .modal-dialog {
-    width: 315px;
+width: 315px;
 }
 .tabmenus_wid {
-    flex-basis: 82%;
+flex-basis: 82%;
 }
 .rightsidefilter {
-    flex-basis: 17%;
+flex-basis: 17%;
 }
 .datetimeevent_details {
-    width: 78%;
+width: 78%;
 }
 .eventleftimg_div {
-    flex-basis: 25%;
+flex-basis: 25%;
 }
 .eventrightdetails_info {
-    flex-basis: 75%;
+flex-basis: 75%;
 }
 
 .listview_eventtabcomm {
-    max-height: 533px;
+max-height: 533px;
 }
 .help_contactlist .reqinner {
-    padding: 6px 14px 5px 7px;
+padding: 6px 14px 5px 7px;
 }
 .reqinner {
-    padding: 6px 10px;
+padding: 6px 10px;
 }
 .btm_communew_loca p {
-    font-size: 13px;
+font-size: 13px;
 }
 .flexapartment_details {
-    padding: 7px 13px;
+padding: 7px 13px;
 }
 .docreq_blkamt h4 {
-    font-size: 16px;
+font-size: 16px;
 }
 .new_commu_toptabs ul li a.nav-link {
-    font-size: 12px;
-    padding: 2px 8px 4px 8px;
+font-size: 12px;
+padding: 2px 8px 4px 8px;
 }
 .eventcalender_details {
-    max-height: 315px;
+max-height: 315px;
 }
 .c-search.srch_communu.newcommu_searchdiv {
-    flex-basis: 78%;
+flex-basis: 78%;
 }
 .filterimg_commuicon, .addpeopleicon {
-    flex-basis: 11%;
+flex-basis: 11%;
 }
 .newcommu_bottomimg ul li.videocssimg a img {
-    margin: -32px 0 0 2px;
-    height: 43px;
+margin: -32px 0 0 2px;
+height: 43px;
 }
 .newcommu_bottomimg ul li a.chatblck img {
-    height: 27px;
+height: 27px;
 }
 .chat_callemail_div a.common_link img{
-    height: 25px;
+height: 25px;
 }
 .newcommu_bottomimg ul li a.profimgcommu_img img {
-    height: 38px;
+height: 38px;
 }
 .newcommu_bottomimg {
-    height: 51px;
+height: 51px;
 }
 .newcommu_bottomimg ul li a {
-    padding: 9px;
+padding: 9px;
 }
 /* emd of new tab design */
 /* communication */
 .liveloc_div ul li button {
-    font-size: 14px;
+font-size: 14px;
 }
 .scancommu_div a {
-    left: 17px;
-    top: -5px;
+left: 17px;
+top: -5px;
 }
 .live_location h4 {
-    font-size: 16px;
+font-size: 16px;
 }
 .reqt_container .contact-list .contact .infodescrip {
-    flex-basis: 25%;
+flex-basis: 25%;
 }
 .audio_video_div h2 {
-    font-size: 16px;
+font-size: 16px;
 }
 .audio_date_sectionhead h4,.leftaudio_div span, .rightaudio_div span {
-    font-size: 13px;
+font-size: 13px;
 }
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
-    width: 88%;
+width: 88%;
 }
 .about_bodysec p {
-    font-size: 13px;
-    line-height: 21px;
+font-size: 13px;
+line-height: 21px;
 }
 .about_bodysec {
-    padding: 15px;
+padding: 15px;
 }
 .btn.btn-repblk_mod img, .btn.btn-blkmod img {
-    margin: 0 7px 0 0;
+margin: 0 7px 0 0;
 }
 .btn.btn-repblk_mod, .btn.btn-blkmod {
-    width: 147px;
-    font-size: 13px;
-    padding: 0 10px 0 10px;
+width: 147px;
+font-size: 13px;
+padding: 0 10px 0 10px;
 }
 ul.mobview_commu_tabs li a.nav-link {
-    font-size: 12px;
-    padding: 2px 11px 4px 11px;
+font-size: 12px;
+padding: 2px 11px 4px 11px;
 }
 .workorder_block .addr {
-    max-width: 178px;
+max-width: 178px;
 }
 .maint_pagediv .name_addr p.nm {
-    line-height: 17px;
+line-height: 17px;
 }
 ul.mobview_commu_tabs {
-    margin: 4px 0 10px 0;
+margin: 4px 0 10px 0;
 }
 .salescommuni_div li.active .topsec_salesdiv {
-    padding: 9px 10px 9px 17px;
+padding: 9px 10px 9px 17px;
 }
 .topsec_salesdiv a {
-    font-size: 14px;
-    line-height: 24px;
+font-size: 14px;
+line-height: 24px;
 }
 .mycont_container .contact-list .contact .avatar-holder, .support_container .contact-list .contact .avatar-holder {
-    flex-basis: 75%;
+flex-basis: 75%;
 }
 .mycont_container .contact-list .contact .infodescrip, .support_container .contact-list .contact .infodescrip {
-    flex-basis: 23%;
+flex-basis: 23%;
 }
 .alpha_contact p {
-    font-size: 14px;
+font-size: 14px;
 }
 .allcommuni_tabs .timecomm_txt {
-    font-size: 10px;
+font-size: 10px;
 }
 .c-search.srch_communu {
-    width: 86%;
-    margin: 0px 20px 0px auto;
+width: 86%;
+margin: 0px 20px 0px auto;
 }
 .sal_custserv a {
-    font-size: 12px;
-    line-height: 19px;
-    padding: 6px 10px;
+font-size: 12px;
+line-height: 19px;
+padding: 6px 10px;
 }
 .allcommuni_tabs .contact .inner a img {
-    width: 13px;
-    height: 13px;
+width: 13px;
+height: 13px;
 }
 .c-search.srch_communu .c-search__input.form-control {
-    font-size: 12px;
+font-size: 12px;
 }
 .contact-list .contact .personinfo,.reqinner .personinfo {
-    line-height: 15px;
-    font-size: 12px;
+line-height: 15px;
+font-size: 12px;
 }
 .contact-list .contact .name, .reqinner .name {
-    font-size: 13px;
+font-size: 13px;
 }
 .salesli_txt a img {
-    height: 18px;
+height: 18px;
 }
 .helpcomm_sales_div ul li a {
-    font-size: 13px;
+font-size: 13px;
 }
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
-    max-width: 97%;
+max-width: 97%;
 }
 /* end of communication */
 /* maintenance  */
 .categoryinputdiv .issueselectbox {
-    font-size: 12px;
+font-size: 12px;
 }
 .maintenance_upcomingevents .left_arrow {
-    margin-right: 3px;
+margin-right: 3px;
 }
 .maintenance_upcomingevents .imgarrw_div {
-    margin-left: 4px;
+margin-left: 4px;
 }
 .succ_msg p{
-    font-size: 14px;
-    line-height: 19px;
+font-size: 14px;
+line-height: 19px;
 }
 .btn.reqtechician {
-    width: 100%;
+width: 100%;
 }
 .categoryinputdiv .issuewrapper, .categoryinputdiv input.form-control {
-    width: 169px;
-    font-size: 13px;
+width: 169px;
+font-size: 13px;
 }
 .maintenancepage .c-search.menusearch {
 width:100%;
 }
 .main_timeline {
-    width: 325px;
+width: 325px;
 }
 .listorder_timelimetab .wideqlleft {
-    margin: 2px 0 0 5px;
+margin: 2px 0 0 5px;
 }
 .orderdivtime_linetab .vertical-steps .list-group-item .wideqlleft p:first-child {
-    font-size: 13px;
+font-size: 13px;
 }
 .orderdivtime_linetab .list-group.vertical-steps .list-group-item {
-    padding: 0px 0px 13px 20px;
+padding: 0px 0px 13px 20px;
 }
 .timelinestatus .btn.commn.high {
-    width: 90px;
+width: 90px;
 }
 .main_timeline .timelinewidth {
-    flex-basis: 54%;
+flex-basis: 54%;
 }
 .main_timeline .timelinestatus {
-    flex-basis: 31%;
+flex-basis: 31%;
 }
 .viewreport_div {
-    margin-bottom: 5.3em;
+margin-bottom: 5.3em;
 }
 .orderdivtime_linetab .list-group.vertical-steps {
-    width: 93%;
+width: 93%;
 }
 .listorder_timelimetab {
-    padding: 25px 10px 39px 10px;
+padding: 25px 10px 39px 10px;
 }
 .befafter_sectionimg {
-    margin: 0 0 15px 0;
+margin: 0 0 15px 0;
 }
 .relv_mapcss {
-    margin: 39px 0 0 0px;
+margin: 39px 0 0 0px;
 }
 .main_timeline .timeline_divorder {
-    padding: 17px 10px;
+padding: 17px 10px;
 }
 .jobdescrip_order, .bef_afterimgdecrip, .clos_notesheader {
-    padding: 11px 15px;
+padding: 11px 15px;
 }
 .relv_mapcss.css_remove_position {
-    margin: 0;
+margin: 0;
 }
 .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs li {
-    width: 162px;
+width: 162px;
 }
 .bottom_sectionorder .category p {
-    font-size: 11px;
-    line-height: 19px;
+font-size: 11px;
+line-height: 19px;
 }
 .middec_order p {
-    font-size: 12px;
+font-size: 12px;
 }
 .headersec_order h4 span ,.befafter_descriptheader h4 {
-    font-size: 16px;
+font-size: 16px;
 }
 .bottom_sectionorder .category p {
-    font-size: 12px;
+font-size: 12px;
 }
 .req_service .maintenancepage .divinfo {
 padding: 11px 12px 11px 18px;
@@ -19448,8 +19547,8 @@ margin: 0 auto;
 padding: 18px 8px 15px 8px;
 }
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 76%;
-    margin: 0 auto 0 -2px;
+width: 76%;
+margin: 0 auto 0 -2px;
 }
 .mobile_listview .listdate_show p img {
 vertical-align: middle;
@@ -19484,13 +19583,13 @@ font-size: 11px;
 margin: 0 5px;
 }
 .mobile_listview .timings_datalist {
-    margin: 2px 0px 0px 0px;
+margin: 2px 0px 0px 0px;
 }
 .calenderview_div.maintenance_upcomingevents .listviewsec_cal .linediv:before {
 margin: 0px 6px 0 0;
 }
 .calenderview_div.maintenance_upcomingevents .listrow {
-    padding: 9px 23px 9px 8px;
+padding: 9px 23px 9px 8px;
 }
 .maint_pagediv .mainte_tabs .nav-tabs .nav-item .nav-link {
 font-size: 16px;
@@ -19508,13 +19607,13 @@ flex-basis: 56%;
 flex-basis: 42%;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -83px 0 0 15px;
+margin: -83px 0 0 15px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt .prof_label, .belowpart_tenant.maintenance_div .acc_infotxt .acc_label {
 line-height: 15px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 4px 16px 0 0px;
+margin: 4px 16px 0 0px;
 }
 .maintenancepage .c-search.menusearch .c-search__input {
 font-size: 13px;
@@ -19537,7 +19636,7 @@ font-size: 13px;
 line-height: 20px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 4px 0 0 19px;
+margin: 4px 0 0 19px;
 }
 .myteam_mobileview .myleaseteam_flex .prof_name p:nth-child(2) {
 line-height: 11px;
@@ -21122,343 +21221,343 @@ font-size: 15px;
 @media only screen and (max-width: 340px) and (min-width:320px) {
 /* recent tab new design */
 .new_commu_toptabs ul li a.nav-link {
-    font-size: 12px;
-    padding: 2px 6px 4px 6px;
+font-size: 12px;
+padding: 2px 6px 4px 6px;
 }
 .eventrightdetails_info .autocan_time {
-    flex-basis: 47%;
+flex-basis: 47%;
 }
 .middlecalender_section ul.uldayname_heading {
-    padding: 10px 6px;
+padding: 10px 6px;
 }
 .calimg_event, .yearevent_txt p {
-    font-size: 12px;
+font-size: 12px;
 }
 .address_commu p {
-    line-height: 13px;
+line-height: 13px;
 }
 .dateinfoeventcal_div span, .timeinfoevent_caldiv span {
-    font-size: 11px;
+font-size: 11px;
 }
 .btn.rescheduleevent,.confirmbtn_divevent .btn.confirmevent{
-    font-size: 11px;
+font-size: 11px;
 }
 .autocan_time p {
-    font-size: 10px;
+font-size: 10px;
 }
 .rightsidefilter {
-    flex-basis: 18%;
+flex-basis: 18%;
 }
 .tabmenus_wid {
-    flex-basis: 82%;
+flex-basis: 82%;
 }
 .datetimeevent_details {
-    width: 100%;
+width: 100%;
 }
 .eventleftimg_div {
-    flex-basis: 25%;
+flex-basis: 25%;
 }
 .eventrightdetails_info {
-    flex-basis: 75%;
+flex-basis: 75%;
 }
 .listview_eventtabcomm {
-    max-height: 280px;
+max-height: 280px;
 }
 .eventcalender_details {
-    max-height: 156px;
+max-height: 156px;
 }
 .help_contactlist .reqinner {
-    padding: 6px 14px 5px 7px;
+padding: 6px 14px 5px 7px;
 }
 .docreq_blkamt h4 {
-    font-size: 15px;
+font-size: 15px;
 }
 .salesli_txt a img {
-    height: 17px;
+height: 17px;
 }
 .cs_li_txt a img {
-    height: 15px;
+height: 15px;
 }
 .helpcomm_sales_div ul li a {
-    font-size: 13px;
+font-size: 13px;
 }
 .flexapartment_details {
-    padding: 7px 12px;
+padding: 7px 12px;
 }
 .btm_communew_loca p {
-    font-size: 12px;
-    line-height: 18px;
+font-size: 12px;
+line-height: 18px;
 }
 .modal_saleshelp .modal-dialog {
-    width: 315px;
+width: 315px;
 }
 .c-search.srch_communu.newcommu_searchdiv {
-    flex-basis: 74%;
+flex-basis: 74%;
 }
 .filterimg_commuicon, .addpeopleicon {
-    flex-basis: 12%;
+flex-basis: 12%;
 }
 .alpha_contact.newcommtab_contact p {
-    margin: 13px 0 0 0;
-    font-size: 13px;
+margin: 13px 0 0 0;
+font-size: 13px;
 }
 .newcommu_bottomimg ul li a img {
-    height: 27px;
+height: 27px;
 }
 .chat_callemail_div a img{
 height: 20px;
 }
 .newcommu_bottomimg ul li a.profimgcommu_img img {
-    height: 36px;
+height: 36px;
 }
 .newcommu_bottomimg ul li a {
-    padding: 7px;
+padding: 7px;
 }
 .newcommu_bottomimg ul li.videocssimg a img {
-    margin: -29px 0 0 1px;
-    height: 40px;
+margin: -29px 0 0 1px;
+height: 40px;
 }
 .newcommu_bottomimg {
-    height: 47px;
+height: 47px;
 }
 /* end of recent tab new design */
-    /* communication */
+/* communication */
 .scancommu_div a {
-    left: 16px;
-    top: -5px;
+left: 16px;
+top: -5px;
 }
 .scannerimg_div {
-    margin: 2em 0 0.7em 0;
+margin: 2em 0 0.7em 0;
 }
 .scan_infodiv p {
-    width: 69%;
+width: 69%;
 }
 .scannerimg_div img {
-    width: 155px;
-    height: 155px;
+width: 155px;
+height: 155px;
 }
 .profilescan_div {
-    width: 284px;
+width: 284px;
 }
 .btn.btn-repblk_mod, .btn.btn-blkmod {
-    width: 133px;
-    font-size: 13px;
-    padding: 0 7px 0 7px;
+width: 133px;
+font-size: 13px;
+padding: 0 7px 0 7px;
 }
 .liveloc_div ul li button {
-    font-size: 14px;
+font-size: 14px;
 }
 .live_location h4 {
-    font-size: 16px;
+font-size: 16px;
 }
 .btn.blockbtn, .btn.reportblk_btn {
-    font-size: 13px;
+font-size: 13px;
 }
 .audio_video_div h2 {
-    font-size: 16px;
+font-size: 16px;
 }
 .audio_date_sectionhead h4,.leftaudio_div span, .rightaudio_div span {
-    font-size: 13px;
+font-size: 13px;
 }
 .reqt_container .contact-list .contact .infodescrip {
-    flex-basis: 25%;
+flex-basis: 25%;
 }
 .commu_detailaboutme {
-    width: 92%;
+width: 92%;
 }
 .about_bodysec {
-    padding: 15px;
+padding: 15px;
 }
 .commu_reportblkmodal .modal-header h4.modal-title img {
-    vertical-align: middle;
+vertical-align: middle;
 }
 .btn.btn-repblk_mod img, .btn.btn-blkmod img {
-    margin: 0 7px 0 0;
+margin: 0 7px 0 0;
 }
 .commu_detailaboutme .multi_icons_commu ul, .profiledetail_div .multi_icons_commu ul {
-    width: 95%;
+width: 95%;
 }
 ul.mobview_commu_tabs li a.nav-link {
-    font-size: 12px;
-    padding: 2px 11px 4px 11px;
+font-size: 12px;
+padding: 2px 11px 4px 11px;
 }
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .btnappoint button.btn.btn_appoint.mobilebook {
-    width: 98px;
-    font-size: 11px;
+width: 98px;
+font-size: 11px;
 }
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
-    max-width: 97%;
+max-width: 97%;
 }
 .allcommuni_tabs .timecomm_txt {
-    margin-right: 3px;
+margin-right: 3px;
 }
 .sal_custserv a {
-    font-size: 12px;
-    line-height: 19px;
-    padding: 6px 10px;
+font-size: 12px;
+line-height: 19px;
+padding: 6px 10px;
 }
 .maint_pagediv .name_addr p.nm {
-    line-height: 17px;
+line-height: 17px;
 }
 .alpha_contact p {
-    font-size: 14px;
+font-size: 14px;
 }
 .c-search.srch_communu .c-search__input.form-control {
-    font-size: 12px;
+font-size: 12px;
 }
 .reqt_container .contact-list .contact .accpt_rejectdiv {
-    flex-basis: 17%;
+flex-basis: 17%;
 }
 .accept_ic_comm {
-    margin: 0 6px 0 0px;
+margin: 0 6px 0 0px;
 }
 .allcommuni_tabs .contact .inner a img {
-    width: 13px;
-    height: 13px;
+width: 13px;
+height: 13px;
 }
 .c-search.srch_communu {
-    width: 87%;
-    margin: 0px 14px 7px auto;
+width: 87%;
+margin: 0px 14px 7px auto;
 }
 .contact-list .contact .personinfo,.reqinner .personinfo {
-    line-height: 13px;
-    font-size: 12px;
+line-height: 13px;
+font-size: 12px;
 }
 .contact-list .contact .name,.reqinner .name {
-    font-size: 12px;
+font-size: 12px;
 }
 /* end of communication */
 /* maintenance */
 .myteam_mobileview.mainteam_mobileview .leasflx_team .leaseflex .twotem_images {
-    width: 79%;
-    margin: 0 auto 0 -3px;
+width: 79%;
+margin: 0 auto 0 -3px;
 }
 .flex_containerdiv label,.descrip_div label, .workorder_mobileview .issue_select label, .workorder_mobileview .uploadphotos_div label {
-    font-size: 12px;
+font-size: 12px;
 }
 .belowpart_tenant.maintenance_div .profile_infotxt {
-    margin: 7px 0 0 20px;
+margin: 7px 0 0 20px;
 }
 .belowpart_tenant.maintenance_div .acc_infotxt {
-    margin: 8px 15px 0 0px;
+margin: 8px 15px 0 0px;
 }
 .orderdivtime_linetab .list-group.vertical-steps {
-    width: 94%;
+width: 94%;
 }
 .succ_msg p{
-    font-size: 14px;
-    line-height: 19px;
+font-size: 14px;
+line-height: 19px;
 }
 .btn.reqtechician {
-    width: 100%;
+width: 100%;
 }
 .categ_section .dropdown-selected, .work_contentsection .issueselectbox {
-    font-size: 13px;
+font-size: 13px;
 }
 /* timeline */
 .descripcontainerdiv .galdiv_clr span, .descripcontainerdiv .videodiv_clr span {
-    font-size: 11px;
+font-size: 11px;
 }
 .main_timeline {
-    width: 325px;
+width: 325px;
 }
 .main_timeline .flexdiv_myinfo .nm {
-    font-size: 13px;
+font-size: 13px;
 }
 .categoryinputdiv .issuewrapper, .categoryinputdiv input.form-control {
-    width: 169px;
+width: 169px;
 }
 .categoryinputdiv .issueselectbox, .categoryinputdiv input.form-control{
-    font-size: 13px;
+font-size: 13px;
 }
 .maintenance_upcomingevents .select-box .label, .maintenance_upcomingevents .select-box1 .label {
-    font-size: 10px;
+font-size: 10px;
 }
 .datedetailsshow p {
-    font-size: 10px;
+font-size: 10px;
 }
 .left_arrow {
-    margin-right: 3px;
+margin-right: 3px;
 }
 .left_arrow {
-    margin-right: 3px;
+margin-right: 3px;
 }
 .viewreport_div a {
-    width: 100%;
+width: 100%;
 }
 .main_timeline .arrow_space {
-    flex-basis: 12%;
+flex-basis: 12%;
 }
 .main_timeline .timelinestatus {
-    flex-basis: 31%;
+flex-basis: 31%;
 }
 .main_timeline .timelinewidth {
-    flex-basis: 60%;
+flex-basis: 60%;
 }
 .viewreport_div a {
-    line-height: 27px;
+line-height: 27px;
 }
 .vertical-steps .list-group-item .wideqlright img {
-    vertical-align: text-top;
+vertical-align: text-top;
 }
 .listorder_timelimetab {
-    padding: 26px 10px 12px 10px;
+padding: 26px 10px 12px 10px;
 }
 .listorder_timelimetab .wideqlleft {
-    margin: 2px 0 0 5px;
+margin: 2px 0 0 5px;
 }
 .orderdivtime_linetab .vertical-steps .list-group-item .wideqlleft p:first-child {
-    font-size: 13px;
+font-size: 13px;
 }
 .tabcon_timelinemobileview .container {
-    padding: 0 8px;
+padding: 0 8px;
 }
 .viewallbtn_link a {
-    font-size: 13px;
+font-size: 13px;
 }
 .viewreport_div {
-    margin-bottom: 4.8em;
+margin-bottom: 4.8em;
 }
 .bottom_sectionorder .category p {
-    font-size: 12px;
-    line-height: 18px;
+font-size: 12px;
+line-height: 18px;
 }
 .middec_order p {
-    line-height: 17px;
+line-height: 17px;
 }
 .headersec_order h4 span,.befafter_descriptheader h4{
-    font-size: 16px;
+font-size: 16px;
 }
 .relv_mapcss {
-    margin: 39px 0 0 0px;
+margin: 39px 0 0 0px;
 }
 .jobdescrip_order, .bef_afterimgdecrip, .clos_notesheader {
-    padding: 10px 15px;
+padding: 10px 15px;
 }
 .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs li {
-    width: 162px;
+width: 162px;
 }
 .main_timeline {
-    left: 2.3%;
+left: 2.3%;
 }
 .timelinestatus .btn.commn.high {
-    width: 88px;
+width: 88px;
 }
 .main_timeline .timeline_divorder {
-    padding: 10px 9px;
+padding: 10px 9px;
 }
 .relv_mapcss.css_remove_position {
-    margin: 0;
+margin: 0;
 }
 /* end of timeline */
 .midsche_toursec {
 margin-top: 0;
 }
 .maintenance_upcomingevents .left_arrow {
-    margin-right: 5px;
+margin-right: 5px;
 }
 .maint_pagediv .name_addr p.addr {
-    max-width: 168px;
+max-width: 168px;
 }
 .certidetails_div {
 padding: 0 9px 0 10px;
@@ -21636,7 +21735,7 @@ flex-basis: 56%;
 flex-basis: 42%;
 }
 .mainteam_mobileview .btnappoint {
-    margin: 2px 0 0 -25px;
+margin: 2px 0 0 -25px;
 }
 
 .myteam_mobileview.mainteam_mobileview .my_teamdiv.myleaseteam_flex .row.leasflx_team .teamtxt h3 {
@@ -21657,7 +21756,7 @@ padding: 7px 3px 9px 6px;
 line-height: 11px;
 }
 .belowpart_tenant.maintenance_div .profimg_div {
-    margin: -83px 0 0 15px;
+margin: -83px 0 0 15px;
 }
 
 .rightsec_listdiv {
@@ -23483,84 +23582,84 @@ left: 14px;
 @media only screen and (max-width:320px){
 /* recent tab new design */
 .newcommu_bottomimg {
-    height: 44px;
+height: 44px;
 }
 .modal_saleshelp .modal-dialog {
-    width: 302px;
+width: 302px;
 }
 .chat_callemail_div a img {
-    height: 18px;
+height: 18px;
 }
 .contact-list.recenttab_communication .contact .personinfo, .contact-list.recenttab_communication .contact .name {
-    width: 100px;
+width: 100px;
 }
 .newcommu_bottomimg ul li a {
-    padding: 5px;
+padding: 5px;
 }
 .chatblck {
-    border-radius: 16px;
+border-radius: 16px;
 }
 .newcommu_bottomimg ul li.videocssimg a img {
-    height: 37px;
+height: 37px;
 }
 .newcommu_bottomimg ul li a.profimgcommu_img img {
-    height: 33px;
+height: 33px;
 }
 /* end of recent tab new design */
 
 /* communication */
 .commu_detailaboutme .multi_icons_commu ul {
-    width: 100%;
+width: 100%;
 }
 .mycont_container .contact-list .contact .avatar-holder{
-    flex-basis: 77%;
+flex-basis: 77%;
 }
 .salescommuni_div li.active .topsec_salesdiv {
-    padding: 10px 10px 10px 17px;
+padding: 10px 10px 10px 17px;
 }
 .topsec_salesdiv a {
-    font-size: 14px;
-    line-height: 22px;
+font-size: 14px;
+line-height: 22px;
 }
 .bottomcommu_details ul li a img {
-    width: 17px;
-    height: 16px;
+width: 17px;
+height: 16px;
 }
 .contact-list .contact .personinfo,.reqinner .personinfo {
-    line-height: 13px;
-    font-size: 10px;
+line-height: 13px;
+font-size: 10px;
 }
 .mycont_container .contact-list .contact .infodescrip{
-    flex-basis: 20%;
+flex-basis: 20%;
 }
 /* maintenance */
 .main_workdescrip {
 flex-basis: 71%;
 }
 .categoryinputdiv .issueselectbox, .categoryinputdiv input.form-control {
-    font-size: 12px;
+font-size: 12px;
 }
 .listorder_timelimetab {
-    padding: 20px 10px 12px 10px;
+padding: 20px 10px 12px 10px;
 }
 .main_timeline {
-    left: 2.5%;
+left: 2.5%;
 }
 .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs li {
-    width: 152px;
+width: 152px;
 }
 .headersec_order h4 img {
-    width: 19px;
-    height: 21px;
+width: 19px;
+height: 21px;
 }
 .headersec_order h4 span, .befafter_descriptheader h4 {
-    font-size: 15px;
+font-size: 15px;
 }
 .main_timeline {
-    width: 304px;
+width: 304px;
 }
 .maint_pagediv .name_addr p.addr {
-    max-width: 143px;
+max-width: 143px;
 }
 .abt_rev_certifi ul.nav.nav-tabs .nav-item .nav-link {
 width: 86px;

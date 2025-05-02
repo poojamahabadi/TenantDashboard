@@ -16210,13 +16210,14 @@ right: -18px;
 top: 31px;
 }
 .callemail_dots .savedproperties_share .btn.btnsave_prop{
-padding: 0;
-width: 200px;
-background-color: #9ca9bd7a;
-border-radius: 30px;
-line-height: 44px;
+width: 134px;
+height: 34px;
+background: rgba(167, 187, 206, 0.5);
+box-shadow: 0px 0px 9.86051px rgba(133, 178, 255, 0.31);
+border-radius: 25px;
 font-weight: 700;
-font-size: 16px;
+font-size: 10px;
+line-height:12px;
 text-transform: capitalize;
 color: #20364D;
 }
@@ -16241,6 +16242,12 @@ position: fixed;
 width: 97%;
 bottom: 9px;
 left: 11px;
+}
+.bottombtns_sectioncontact.propertysecadd{
+    bottom: 333px;
+} 
+.bottombtns_sectioncontact.maptopspade_pad {
+    bottom: 181px;
 }
 .bottombtns_sectioncontact.topspade_pad.maptopspade_pad {
 bottom: 181px;
@@ -16289,7 +16296,7 @@ padding: 18px 10px;
 border-radius: 12px;
 }
 .contactchatboxmessage .message {
-margin: 8px 0;
+margin: 8px 0 0 0;
 padding: 10px;
 border-radius: 8px;
 max-width: 70%;
@@ -17159,4 +17166,7 @@ color: #A7BBCE;
 height: auto ;
 overflow: hidden;
 padding: 0;
+}
+.imag_gallery_div{
+    position: relative;
 }

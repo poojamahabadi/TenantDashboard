@@ -152,7 +152,7 @@
                             </div>
                         </div>
                             <div class="profname_contacttxt">
-                                <h3 class="mb-0">Aarchi <img src="images/contact_message/verify_checked.svg"></h3>
+                                <h3 class="mb-0">Leasing Agent  <img src="images/contact_message/verify_checked.svg"></h3>
                                 <p class="mb-0">my landlord</p>
                         </div>
                     </div>
@@ -247,14 +247,14 @@
     </div>
     <div class="hidden-buttons hidecontactmsgbtns" id="contactHiddenButtons">
        <ul class="nav nav-tabs d-flex justify-content-center list-unstyled mb-0">
-        <li class="nav-item mr-2 galleryimg"><a class="nav-link active" data-toggle="tab" href="#gallerytab"><img src="images/contact_message/gallery.svg"></a></li>
-        <li class="nav-item mr-2"><a class="nav-link" data-toggle="tab" href="#phototab"><img src="images/contact_message/photomob.svg"></a></li>
+        <li class="nav-item mr-2 galleryimg"><a class="nav-link" data-toggle="tab" href="#gallerytab"><img src="images/contact_message/gallery.svg"></a></li>
+        <li class="nav-item mr-2 cameraimg"><a class="nav-link" data-toggle="tab" href="#phototab"><img src="images/contact_message/photomob.svg"></a></li>
         <li class="nav-item dateimg mr-2"><a lass="nav-link" data-toggle="tab" href="#datetab"><img src="images/contact_message/datemob.svg"></a></li>
         <li class="nav-item mapimg mr-2"><a lass="nav-link" data-toggle="tab" href="#maptab"><img src="images/contact_message/mapcontact.svg"></a></li>
-        <li class="nav-item"><a lass="nav-link" data-toggle="tab" href="#usercontacttab"><img src="images/contact_message/user_contact.svg"></a></li>
+        <li class="nav-item userimg"><a lass="nav-link" data-toggle="tab" href="#usercontacttab"><img src="images/contact_message/user_contact.svg"></a></li>
        </ul>
        <div class="tab-content">
-        <div class="tab-pane mt-2 active" id="gallerytab">
+        <div class="tab-pane mt-2" id="gallerytab">
 
           <!-- gallery -->
           <div class="gallery_mainsection">
@@ -473,153 +473,165 @@
 
 <!-- chat  -->
 <script>
+  const emojiList = ["😊", "😂", "😍", "😢", "😎", "👍", "🎉", "❤️", "💔", "😜"];
   let contactReplyTo = null;
-let contactReplyToElement = null;
+  let contactReplyToElement = null;
+  const chatBox = $("#contactChatBox");
+  const messageInput = $("#contactMessageInput");
+  const typingIndicator = $(".typing-indicator");
 
-const emojiList = ["😊", "😂", "😍", "😢", "😎", "👍", "🎉", "❤️", "💔", "😜"];
-
-function populateContactEmojis() {
-  const container = $("#contactEmojiContainer");
-  container.empty();
-  emojiList.forEach(e => {
-    container.append(`<span class="emoji">${e}</span>`);
-  });
-}
-
-function contactFormattedTime() {
-  const now = new Date();
-  return now.getHours().toString().padStart(2, "0") + ":" + now.getMinutes().toString().padStart(2, "0");
-}
-
-function contactAddDateSeparator() {
-  const currentDate = new Date().toDateString();
-  if ($(".date-separator").last().text() !== currentDate) {
-    $("#contactChatBox").append('<div class="date-separator">' + currentDate + '</div>');
+  function formattedTime() {
+    const now = new Date();
+    return now.getHours().toString().padStart(2, "0") + ":" + now.getMinutes().toString().padStart(2, "0");
   }
-}
 
-function contactAutoReply() {
-  setTimeout(() => {
-    contactAddDateSeparator();
-    const replies = ["Okay!", "Got it!", "Interesting...", "Tell me more!", "I agree!", "Let's do it!"];
-    const botReply = replies[Math.floor(Math.random() * replies.length)];
-    $("#contactChatBox").append('<div class="message received"><p>' + botReply + '</p><div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span></div></div>');
-    $("#contactChatBox").scrollTop($("#contactChatBox")[0].scrollHeight);
-  }, 1000);
-}
+  function addDateSeparator() {
+    const currentDate = new Date().toDateString();
+    if ($(".date-separator").last().text() !== currentDate) {
+      chatBox.append(`<div class="date-separator">${currentDate}</div>`);
+    }
+  }
 
-$("#contactSendBtn").click(function () {
-  const message = $("#contactMessageInput").val();
-  if (message) {
-    contactAddDateSeparator();
+  function autoReply() {
+    setTimeout(() => {
+      addDateSeparator();
+      const replies = ["Okay!", "Got it!", "Interesting...", "Tell me more!", "I agree!", "Let's do it!"];
+      const reply = replies[Math.floor(Math.random() * replies.length)];
+      chatBox.append(`
+        <div class="message received">
+          <p>${reply}</p>
+          <div class="time-stamp-container">
+            <span class="time-stamp">${formattedTime()}</span>
+          </div>
+        </div>
+      `);
+      chatBox.scrollTop(chatBox[0].scrollHeight);
+    }, 1000);
+  }
+
+  function populateEmojis() {
+    const container = $("#contactEmojiContainer").empty();
+    emojiList.forEach(emoji => {
+      container.append(`<span class="emoji">${emoji}</span>`);
+    });
+  }
+
+  function resetReplyState() {
+    contactReplyTo = null;
+    contactReplyToElement = null;
+    $(".message").removeClass("selected");
+  }
+
+  function sendMessage() {
+    const message = messageInput.val().trim();
+    if (!message) return;
+
+    addDateSeparator();
     let msgHtml = "";
 
     if (contactReplyTo) {
       $(contactReplyToElement).removeClass("sent received").addClass("reply-box");
-      msgHtml += '<div class="message sent replied_div">' +
-        $(contactReplyToElement).prop("outerHTML") +
-        '<div class="msg_chat"><p>' + message + '</p></div>' +
-        '<div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span></div>' +
-        '</div>';
+      msgHtml = `
+        <div class="message sent replied_div">
+          ${contactReplyToElement.prop("outerHTML")}
+          <div class="msg_chat"><p>${message}</p></div>
+          <div class="time-stamp-container">
+            <span class="time-stamp">${formattedTime()}</span>
+          </div>
+        </div>
+      `;
     } else {
-      msgHtml += '<div class="message sent">' + message +
-        '<div class="time-stamp-container"><span class="time-stamp">' + contactFormattedTime() + '</span><span class="ticks single-tick"><img src="images/showings/communication/commuication_all/tick_unread.svg"></span></div>' +
-        '</div>';
+      msgHtml = `
+        <div class="message sent">
+          ${message}
+          <div class="time-stamp-container">
+            <span class="time-stamp">${formattedTime()}</span>
+            <span class="ticks single-tick">
+              <img src="images/showings/communication/commuication_all/tick_unread.svg">
+            </span>
+          </div>
+        </div>
+      `;
     }
 
-    $("#contactChatBox").append(msgHtml);
-    $("#contactMessageInput").val("");
-    contactReplyTo = null;
-    contactReplyToElement = null;
+    chatBox.append(msgHtml);
+    messageInput.val("");
+    resetReplyState();
+    chatBox.scrollTop(chatBox[0].scrollHeight);
+    autoReply();
+    typingIndicator.hide();
+  }
+
+  // Initial setup
+  populateEmojis();
+
+  // Event listeners
+  $("#contactSendBtn").click(sendMessage);
+
+  $(document).on("click", ".message", function () {
     $(".message").removeClass("selected");
-    $("#contactChatBox").scrollTop($("#contactChatBox")[0].scrollHeight);
+    $(this).addClass("selected");
+    contactReplyTo = $(this).text();
+    contactReplyToElement = $(this).clone();
+  });
 
-    contactAutoReply();
-  }
-});
+  $("#contactPlusBtn").click(() => {
+    $(".hidecontactmsgbtns, .minuscontactmsg").show();
+    $(".pluscontactbtm").hide();
+    $(".bottombtns_sectioncontact").addClass('spacetophiddendiv');
+  });
 
-$(".minuscontactmsg").hide();
-
-$(document).on("click", ".message", function () {
-  $(".message").removeClass("selected");
-  $(this).addClass("selected");
-  contactReplyTo = $(this).text();
-  contactReplyToElement = $(this).clone();
-});
-
-$("#contactPlusBtn").click(function () {
-  $(".hidecontactmsgbtns,.minuscontactmsg").show();
-  $(".pluscontactbtm").hide();
-  $(".bottombtns_sectioncontact").addClass('topspade_pad');
-});
-
-$("#contactMinusBtn").click(function () {
-  $("#contactInputArea").show();
-  $(".bottombtns_sectioncontact").removeClass('topspade_pad');
-  $(".bottombtns_sectioncontact").removeClass('maptopspade_pad');
-  $(".pluscontactbtm").show();
-  $(".minuscontactmsg").hide();
-  $(".hidecontactmsgbtns").hide();
-});
-
-$(".mapimg a").click(function () {
-  $(".bottombtns_sectioncontact").addClass('maptopspade_pad');
-});
-
-$("#contactEmojiBtn").click(function (e) {
-  e.stopPropagation();
-  $("#contactEmojiPicker").toggle();
-});
-
-$("#contactEmojiContainer").on("click", ".emoji", function () {
-  const emoji = $(this).text();
-  const input = $("#contactMessageInput");
-  input.val(input.val() + emoji).focus();
-});
-
-$(document).on("click", function (e) {
-  // Hide emoji picker when clicking outside
-  if (!$(e.target).closest("#contactEmojiPicker, #contactEmojiBtn").length) {
-    $("#contactEmojiPicker").hide();
-  }
-
-  // Hide hidden message buttons when clicking outside of them and plus button
-  if (!$(e.target).closest(".hidecontactmsgbtns, #contactPlusBtn").length) {
-    $(".hidecontactmsgbtns").hide();
-    $(".minuscontactmsg").hide();
+  $("#contactMinusBtn").hide();
+  $("#contactMinusBtn").click(() => {
+    $("#contactInputArea").show();
+    $(".bottombtns_sectioncontact").removeClass('spacetophiddendiv');
+    $(".bottombtns_sectioncontact").removeClass('topspade_pad maptopspade_pad propertysecadd galleryspaceadd userspaceadd');
     $(".pluscontactbtm").show();
-    $(".bottombtns_sectioncontact").removeClass('topspade_pad');
-  }
-});
+    $(".minuscontactmsg, .hidecontactmsgbtns").hide();
+  });
 
-populateContactEmojis();
-  </script>
-<!-- end of chat -->
+  const sectionButtons = {
+    '.mapimg a': 'maptopspade_pad',
+    '.galleryimg a': 'galleryspaceadd',
+    '.dateimg a': 'propertysecadd',
+    '.userimg a': 'userspaceadd',
+    '.cameraimg a': 'cameraspaceadd',
+  };
 
-<script>
-  document.querySelectorAll('.time_btntxt').forEach(button => {
-    button.addEventListener('click', () => {
-      document.querySelectorAll('.livelocation_time li').forEach(li => li.classList.remove('active'));
-      button.parentElement.classList.add('active');
+  Object.entries(sectionButtons).forEach(([selector, className]) => {
+    $(selector).click(() => {
+      const container = $(".bottombtns_sectioncontact");
+      $(".bottombtns_sectioncontact").removeClass('spacetophiddendiv');
+      container.removeClass('propertysecadd maptopspade_pad galleryspaceadd userspaceadd cameraspaceadd');
+      container.addClass(className);
     });
   });
-</script>
 
+  $("#contactEmojiBtn").click(e => {
+    e.stopPropagation();
+    $("#contactEmojiPicker").toggle();
+  });
 
-<script>
-const typingIndicator = $(".typing-indicator");
+  $("#contactEmojiContainer").on("click", ".emoji", function () {
+    messageInput.val(messageInput.val() + $(this).text()).focus();
+    $("#contactEmojiPicker").hide();
+  });
 
-$("#contactMessageInput").on("focus input", function () {
-  typingIndicator.css("display", "flex");
-});
+  $(document).on("click", function (e) {
+    if (!$(e.target).closest("#contactEmojiPicker, #contactEmojiBtn").length) {
+      $("#contactEmojiPicker").hide();
+    }
+    if (!$(e.target).closest(".hidecontactmsgbtns, #contactPlusBtn").length) {
+      $(".hidecontactmsgbtns, .minuscontactmsg").hide();
+      $(".pluscontactbtm").show();
+      $(".bottombtns_sectioncontact").removeClass('spacetophiddendiv');
+      $(".bottombtns_sectioncontact").removeClass('propertysecadd maptopspade_pad galleryspaceadd userspaceadd cameraspaceadd');
+    }
+  });
 
-$("#contactMessageInput").on("blur", function () {
-  typingIndicator.css("display", "none");
-});
-
-$("#contactSendBtn").click(function () {
-  typingIndicator.css("display", "none");
-});
+  // Typing indicator
+  messageInput.on("focus input", () => typingIndicator.show());
+  messageInput.on("blur", () => typingIndicator.hide());
 
 </script>
 
