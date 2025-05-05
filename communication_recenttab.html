@@ -38,15 +38,15 @@
 <li class="nav-item">
 <a class="nav-link border-0 text-center" data-toggle="tab" href="#helpcomm">help</a>
 </li>
-<li class="nav-item">
+<li class="nav-item eventstab_commlink">
 <a class="nav-link border-0 text-center" data-toggle="tab" href="#eventscomm">Events</a>
 </li>
 </ul>
 
 <!-- Tab panes -->
-<div class="tab-content">
+<div class="tab-content mt-3">
 
-<div class="searchfilter_addpeople d-flex align-items-center mt-3">
+<div class="searchfilter_addpeople align-items-center">
 <div class="c-search srch_communu input-group newcommu_searchdiv">
 <div class="input-group-prepend">
 <button class="btn searchicbtn" type="button"><img src="images/showings/communication/searchic.svg"></button>
@@ -899,7 +899,7 @@ property manager
 <!-- end of help tab -->
 
 <!-- event tab -->
-<div class="tab-pane mt-3 fade" id="eventscomm">
+<div class="tab-pane fade" id="eventscomm">
 <div class="eventstab_comm">
 
 
@@ -908,10 +908,10 @@ property manager
 <div class="tabmenus_wid">
 <ul class="nav nav-tabs border-0">
 <li class="nav-item">
-<a class="nav-link text-center active border-0" data-toggle="tab" href="#event_comm_calender">Calendar View</a>
+<a class="nav-link text-center calenderevent_link active border-0" data-toggle="tab" href="#event_comm_calender">Calendar View</a>
 </li>
 <li class="nav-item">
-<a class="nav-link text-center border-0" data-toggle="tab" href="#event_comm_listview">List View</a>
+<a class="nav-link text-center listlink_view  border-0" data-toggle="tab" href="#event_comm_listview">List View</a>
 </li>
 </ul>
 </div>
@@ -1758,6 +1758,25 @@ property manager
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const filterElement = document.querySelector(".searchfilter_addpeople");
+
+  if (!filterElement) return;
+
+  document.addEventListener("click", function (e) {
+    const target = e.target.closest("li.eventstab_commlink > a,.calenderevent_link,.listlink_view");
+
+    if (target) {
+      // If click is on the specific link
+      filterElement.style.display = "none";
+    } else {
+      // If click is anywhere else
+      filterElement.style.display = "flex";
+    }
+  });
+});
+</script>
 
 <script>
 $(document).ready(function () {

@@ -14703,11 +14703,7 @@ position: relative;
 .newcommu_bottomimg ul li a{
 padding: 11px;
 }
-.chatblck{
-background: #20364D;
-border: 1px solid #ACB5C0;
-border-radius: 18px;
-}
+
 .alpha_contact.newcommtab_contact p{
 margin: 10px 0 0 0;
 }
@@ -15052,10 +15048,10 @@ display: block;
 padding: 0 7px;
 }
 .emailreq_send{
-padding: 0 0 0 7px;
+padding:0 8px 0 7px;
 }
 .profilemenu_bottom ul li.active a.sendrequest_secdiv img {
-content: url(../images/showings/communication/new_communication/active_share.svg);
+content: url('../images/showings/communication/new_communication/active_share.svg');
 }
 .searchdiv_requ .btn.searchicbtn {
 border-radius: 36px 0 0 36px;
@@ -15244,14 +15240,18 @@ background: #EDF2FA;
 border-radius: 24.6513px;
 padding: 10px;
 margin: 20px 20px 40px 20px;
-min-height: 77vh;
+height: calc(100vh - 131px);
+}
+.profilecontent_contact::-webkit-scrollbar {
+    width: 1px;
 }
 .profilecontent_contact{
 background: #FFFFFF;
 border-radius: 20px;
 padding: 10px 10px 47px 10px;
-min-height: 71vh;
-position: relative;
+height: calc(100vh - 188px);
+overflow-y: auto;
+overflow-x: hidden;
 }
 .headtop_contact span a{
 float: left;
@@ -15445,11 +15445,9 @@ background-color: rgba(0, 0, 0, 0.6);
 }
 
 .videomodal_div .modal-content {
-position: relative;
-margin: 10% auto;
-width: 80%;
-max-width: 700px;
-
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .videomodal_div .close {
@@ -15497,10 +15495,10 @@ height: 20px;
 width: 20px;
 }
 .profilemenu_bottom{
-position: absolute;
-bottom: -32px;
-width: 95%;
-left: 21px;
+    position: absolute;
+    bottom: -17px;
+    width: 86%;
+    left: 44px;
 }
 .eventstab_newcomm h2{
 background: #EDF2FA;
@@ -15873,7 +15871,6 @@ background: #3A9A76;
 border-radius: 49px;
 width: 90px;
 height: 22px;
-margin: -2px 0 0 0;
 padding: 0;
 }
 .eventinfodetails_comm{
@@ -16160,6 +16157,7 @@ height: 52px;
 .profdetails_user img {
 width: 100%;
 height: 100%;
+border-radius: 50%;
 }
 .profdetails_user .status{
 width: 8px;
@@ -16238,19 +16236,8 @@ flex-basis: 10%;
     width: 6px;
 }
 .bottombtns_sectioncontact {
-position: fixed;
-width: 97%;
-bottom: 9px;
-left: 11px;
-}
-.bottombtns_sectioncontact.propertysecadd{
-    bottom: 333px;
-} 
-.bottombtns_sectioncontact.maptopspade_pad {
-    bottom: 181px;
-}
-.bottombtns_sectioncontact.topspade_pad.maptopspade_pad {
-bottom: 181px;
+    width: 98%;
+    margin: 0 auto 7px auto;
 }
 .btn.pluscontactbtm img{
 vertical-align: initial;
@@ -16258,18 +16245,12 @@ vertical-align: initial;
 .btn.minuscontactmsg img{
 vertical-align: middle;
 }
-.bottombtns_sectioncontact.topspade_pad{
-bottom: 330px;
-}
 .hidden-buttons.hidecontactmsgbtns{
-position: fixed;
-bottom: 0px;
-border-radius: 12px;
-width: 100%;
-left: 0px;
-margin: 0;
-background-color: unset;
-border: unset;
+    width: 100%;
+    border: unset;
+    margin: 0;
+    background-color: unset;
+    padding: 0 10px 10px 10px;
 }
 .hidecontactmsgbtns ul li.galleryimg a.active img{
 content: url('../images/contact_message/activegallery.svg');
@@ -17169,4 +17150,12 @@ padding: 0;
 }
 .imag_gallery_div{
     position: relative;
+}
+.whitebackg_div{
+    background-color: #fff;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1000;
+    left: 0;
 }

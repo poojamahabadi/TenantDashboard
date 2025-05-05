@@ -5600,21 +5600,24 @@ width: 57%;
 }
 
 @media only screen and (max-width: 767px) and (min-width:320px) {
-
+/* profile details */
+.emailreq_send .slick-track{
+    margin-left: 52px;
+}
 /* new design recent tabs */
-.recenttab_height,.contact_height,.helpstab_recent{
-overflow-y: auto;
-max-height: 518px;
-overflow-x: hidden;
+.new_commu_toptabs .tab-content{
+    height: calc(100vh - 20px);
+    overflow-y: auto;
+    overflow-x: hidden;
 }
-.eventcalender_details,.listview_eventtabcomm {
-max-height: 450px;
-overflow-y: auto;
+.new_commu_toptabs .tab-content::-webkit-scrollbar {
+    width: 2px;
+    }
+.searchfilter_addpeople{
+    display: flex;
 }
-.requesttab_div{
-overflow-y: auto;
-max-height: 666px;
-overflow-x: hidden;  
+.new_commu_toptabs .eventstab_comm .tab-content{
+    overflow: unset;
 }
 .new_commu_toptabs{
 padding: 3px 15px 0 15px;
@@ -5642,32 +5645,17 @@ font-weight: 700;
 /* end of new design recent tabs */
 
 /* new design chat box mobile */
-.contactdiv {
-flex-basis: 7%;
-}
-.bottombtns_sectioncontact.topspade_pad {
-bottom: 325px;
-}
-.bottombtns_sectioncontact.topspade_pad {
-bottom: 333px;
-}
 .contactarea_msg {
 flex-basis: 92%;
 }
+.contactchatboxmessage .chat-box {
+height: calc(100vh - 165px);
+}
 .bottombtns_sectioncontact {
-left: 13px;
+width: 97%;
 }
-.bottombtns_sectioncontact.galleryspaceadd {
-bottom: 325px;
-}
-.bottombtns_sectioncontact.cameraspaceadd {
-bottom: 109px;
-}
-.bottombtns_sectioncontact.userspaceadd {
-bottom: 101px;
-}
-.bottombtns_sectioncontact.spacetophiddendiv{
-bottom: 107px;
+.contactdiv {
+flex-basis: 6%;
 }
 .chatboxdiv{
 padding: 0 10px;
@@ -9232,7 +9220,7 @@ right: 13px;
 @media only screen and (max-width: 641px){
 /* recent tab */
 .contactchatboxmessage .chat-box {
-height: calc(100vh - 257px);
+height: calc(100vh - 215px);
 margin-top: 33px;
 }
 .posfixed {
@@ -9240,12 +9228,6 @@ top: 95px;
 }
 /* recent tab end */
 /* communication about me */
-.eventcalender_details {
-max-height: 346px;
-}
-.listview_eventtabcomm {
-max-height: 431px;
-}
 .contact-list.recenttab_communication .contact .personinfo,
 .contact-list.recenttab_communication .contact .name,
 .reqinner .name,.reqinner .personinfo {
@@ -10305,6 +10287,9 @@ width: 85px;
 .alpha_contact.newcommtab_contact p {
 margin: 13px 0 0 0;
 }
+.new_commu_toptabs {
+    margin: 0 0 5em 0;
+}
 /* end of recent tab */
 /* communication */
 .profiledetail_div .multi_icons_commu ul {
@@ -10443,16 +10428,41 @@ top: -28px;
 }
 }
 @media only screen and (max-width:576px) {
+
+/* profile details */
+.callnames_txt {
+    flex-basis: 57%;
+}
+.videomodal_div .modal-content {
+    width: 100%;
+}
+.profilemenu_bottom {
+    left: 42px;
+}
+.pause_orplay {
+    flex-basis: 30%;
+}
+.audiovideo_time {
+    flex-basis: 13%;
+}
+/* end of profile details */
+/* contact message  */
+.contactchatboxmessage .chat-box {
+height: calc(100vh - 247px);
+margin-top: 46px;
+}
+/* end of contact message */
 /* recent tab new design */
+.new_commu_toptabs {
+    margin: 0 0 5em 0;
+}
 .newcommu_bottomimg ul li.videocssimg a img {
 margin: -30px 0 0 4px;
 }
 .plusic_eventimg {
 margin: 0 6px 0 0;
 }
-.eventcalender_details {
-max-height: 308px;
-}
+
 .eventrightdetails_info {
 flex-basis: 87%;
 }
@@ -12581,17 +12591,18 @@ top: 11px;
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
 
+/* profile details */
+.emailreq_send .slick-track {
+    margin-left: 36px;
+}
+/* end of profile details */
 /* chatbox */
 .maploc_contactdiv {
 width: 69%;
 }
-
 .contactchatboxmessage .chat-box {
 margin-top: 59px;
 height: calc(100vh - 258px);
-}
-.bottombtns_sectioncontact {
-left: 9px;
 }
 .contactarea_msg {
 flex-basis: 88%;
@@ -12649,11 +12660,17 @@ flex-basis: 10%;
 .new_commu_toptabs ul li a.nav-link {
 padding: 2px 12px 4px 12px;
 }
+.new_commu_toptabs {
+    margin: 0 0 5em 0;
+}
 /* end of new design recent tab */
 
 /* communication */
 .profilemenu_bottom {
-left: 12px;
+    width: 83%;
+}
+.newcommu_bottomimg ul {
+    width: 88%;
 }
 .modal.salesmod_popup .modal-dialog, .modal.customerservice_popup .modal-dialog {
 max-width: 67%;
@@ -13670,7 +13687,9 @@ width: 56%;
 }
 }
 @media only screen and (max-width: 448px) and (min-width:416px) {
-
+    .emailreq_send .slick-track {
+        margin-left: 34px;
+    }
 /* new design recent tab */
 .tabmenus_wid {
 flex-basis: 84%;
@@ -14323,10 +14342,21 @@ margin-left: 66px;
 
 @media only screen and (max-width: 431px) {
 
+/* profile details */
+.contact_profiledeatils {
+    margin: 20px 10px 40px 10px;
+}
+.tabs_profledetailscont ul li a.nav-link {
+    padding: 3px 15px 4px 15px;
+}
+.profilemenu_bottom {
+    left: 7%;
+}
+/* end of profile details */
 /* chat box */
 .contactchatboxmessage .chat-box {
 margin-top: 60px;
-height: calc(100vh - 244px);
+height: calc(100vh - 266px);
 }
 .contactarea_msg {
 flex-basis: 84%;
@@ -14362,12 +14392,6 @@ flex-basis: 17%;
 }
 .eventrightdetails_info {
 flex-basis: 83%;
-}
-.eventcalender_details {
-max-height: 605px;
-}
-.listview_eventtabcomm {
-max-height: 692px;
 }
 .newcommu_bottomimg ul li.videocssimg a img {
 margin: -36px 0 0 14px;
@@ -14470,9 +14494,21 @@ margin: 0 0 0 10px;
 }
 }
 
-
 @media only screen and (max-width: 415px) and (min-width:388px) {
-
+/* profile details */
+.emailreq_send .slick-track {
+    margin-left: 32px;
+}
+.callnames_txt {
+    flex-basis: 50%;
+}
+.audiovideo_time {
+    flex-basis: 17%;
+}
+.pause_orplay {
+    flex-basis: 33%;
+}
+/* end of profile details */
 /* chatbox */
 .maploc_contactdiv {
 width: 80%;
@@ -14534,12 +14570,6 @@ flex-basis: 79%;
 }
 .filterimg_commuicon, .addpeopleicon {
 flex-basis: 10%;
-}
-.eventcalender_details {
-max-height: 385px;
-}
-.listview_eventtabcomm {
-max-height: 518px;
 }
 /* end of new design recent tab */
 
@@ -16216,23 +16246,52 @@ height: 56px;
 .newcommu_bottomimg ul li.videocssimg a img {
 margin: -37px 0 0 8px;
 }
-.eventcalender_details {
-max-height: 562px;
-}
-.listview_eventtabcomm {
-max-height: 645px;
-}
 /* recent tab new design end */
 }
 @media only screen and (max-width: 394px) {
-/* chatbox */
+/* profile details */
+.userdetail_section {
+    padding: 5px 8px 6px 8px;
+}
+.emailreq_send .slick-track {
+    margin-left: 32px;
+}
+.profilemenu_bottom {
+    left: 26px;
+}
+.rating_starsnumber {
+    margin: 0 2px 0 0;
+}
+/* end of profile details */
+
+    /* chatbox */
 .maploc_contactdiv {
 width: 85%;
+}
+.profname_contacttxt p {
+font-size: 13px;
+line-height: 18px;
+}
+.contactarea_msg {
+flex-basis: 85%;
+}
+.contactdiv {
+flex-basis: 12.9%;
 }
 .profname_contacttxt h3 {
 font-size: 13px;
 }
-/* end of chatbox */
+.contactchatboxmessage .chat-box {
+    height: calc(100vh - 251px);
+}
+.callemail_dots ul li.clickdots_prop a img {
+height: auto;
+}
+.chat-container.contactchatboxmessage .message.received p, .contactchatboxmessage .sent {
+    font-size: 14px;
+    line-height: 19px;
+}
+/* end of chat box */
 /* new design recent tab */
 .btn.rescheduleevent{
 width: 85px;
@@ -16249,12 +16308,6 @@ height: 38px;
 .help_contactlist .reqinner {
 padding: 6px 14px 5px 10px;
 } 
-.listview_eventtabcomm {
-max-height: 637px;
-}
-.eventcalender_details {
-max-height: 533px;
-}
 /* end of new design recent tab */
 /* communication */
 .commu_detailaboutme .multi_icons_commu ul {
@@ -16270,9 +16323,7 @@ height: 50px;
 .contact-list.recenttab_communication .contact .personinfo, .contact-list.recenttab_communication .contact .name {
 width: 113px;
 }
-.profilemenu_bottom {
-left: 9px;
-}
+
 .scan_infodiv p {
 width: 60%;
 }
@@ -16889,6 +16940,24 @@ height: 21px;
 
 
 @media only screen and (max-width: 387px) and (min-width:377px) {
+/* profile details */
+.contact_profiledeatils h3 {
+    font-size: 16px;
+}
+.tabs_profledetailscont ul li a.nav-link {
+    font-size: 12px;
+}
+/* emd of profile details */
+/* chat box */
+.callemail_dots ul li.clickdots_prop a img {
+height: auto;
+}
+.chat-container.contactchatboxmessage .message.received p, .contactchatboxmessage .sent {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+/* end of chat box */
 /* recent tab new design */
 .newcommu_bottomimg ul li a img {
 height: 25px;
@@ -16901,12 +16970,6 @@ flex-basis: 85%;
 }
 .rightsidefilter {
 flex-basis: 14%;
-}
-.eventcalender_details {
-max-height: 309px;
-}
-.listview_eventtabcomm {
-max-height: 421px;
 }
 .new_commu_toptabs ul li a.nav-link {
 font-size: 12px;
@@ -17681,13 +17744,52 @@ width: 85%;
 top: 4em;
 left: -22px;
 }
+
 }
 
 
 @media only screen and (max-width: 376px) and (min-width:362px) {
+/* profile details */
+.contact_profiledeatils h3 {
+    font-size: 16px;
+}
+    .emailreq_send .slick-track {
+        margin-left: 6px;
+    }
+.profimg_usercont > img {
+    width: 79px;
+    height: 79px;
+    margin: 0 6px 0 0px;
+}
+.tabs_profledetailscont ul li a.nav-link {
+    font-size: 12px;
+}
+/* emd of profile details */
+/* chat box */
+.contactchatboxmessage .chat-box {
+    height: calc(100vh - 245px);
+    margin-top: 57px;
+}
+.datetab_mainsec {
+    padding: 20px 10px 10px 10px;
+}
+.timecontact_div p, .datecontact_div p {
+    font-size: 11px;
+}
+.callemail_dots ul li.clickdots_prop a img {
+height: auto;
+}
+.callemail_dots ul li a img {
+height: 30px;
+}
 .contactchatboxmessage .input-area input {
 font-size: 14px;
 }
+.chat-container.contactchatboxmessage .message.received p, .contactchatboxmessage .sent {
+    font-size: 13px;
+    line-height: 18px;
+}
+/* end of chatbox */
 /* new recent tab design */
 .newcommu_bottomimg {
 height: 53px;
@@ -17712,12 +17814,6 @@ font-size: 11px;
 }
 .help_contactlist .reqinner {
 padding: 6px 14px 5px 7px;
-}
-.eventcalender_details {
-max-height: 391px;
-}
-.listview_eventtabcomm {
-max-height: 448px;
 }
 .new_commu_toptabs ul li a.nav-link {
 font-size: 12px;
@@ -19215,10 +19311,67 @@ width: 37%;
 }
 }
 
-
-
 @media only screen and (max-width: 361px) and (min-width:341px) {
-
+/* profile details */
+.callnames_txt {
+    flex-basis: 50%;
+}
+.contact_profiledeatils h3 {
+    font-size: 16px;
+}
+.tabs_profledetailscont ul li a.nav-link {
+    font-size: 13px;
+}
+.profimg_usercont > img {
+    width: 74px;
+    height: 74px;
+}
+.profilemenu_bottom ul li a {
+    width: 38px;
+    height: 38px;
+    padding: 6px 0 0 0;
+}
+.emailreq_send .slick-track {
+    margin-left:3px;
+}
+.audiovideo_time {
+    flex-basis: 17%;
+}
+.callnames_txt p img {
+    margin: 0 4px 0 0px;
+}
+.pause_orplay {
+    flex-basis: 31%;
+}
+.pause_orplay p img {
+    margin: 0 4px 0 0px;
+}
+/* end of profile details */
+/* chat box */
+.callemail_dots ul li a img {
+height: 30px;
+}
+.contactchatboxmessage .input-area input {
+    font-size: 14px;
+    }
+.callemail_dots ul li.clickdots_prop a img {
+height: auto;
+}
+.leftdetailsprofile .profname_contacttxt {
+margin: 0 0 0 7px;
+}
+.profname_contacttxt p {
+font-size: 12px;
+line-height: 16px;
+}
+.contactchatboxmessage .chat-box {
+    height: calc(100vh - 249px);
+}
+.chat-container.contactchatboxmessage .message.received p, .contactchatboxmessage .sent {
+    font-size: 13px;
+    line-height: 18px;
+}
+/* end of chat box */
 /* recent tab new design */
 .modal_saleshelp .modal-dialog {
 width: 315px;
@@ -19238,10 +19391,6 @@ flex-basis: 25%;
 .eventrightdetails_info {
 flex-basis: 75%;
 }
-
-.listview_eventtabcomm {
-max-height: 533px;
-}
 .help_contactlist .reqinner {
 padding: 6px 14px 5px 7px;
 }
@@ -19260,9 +19409,6 @@ font-size: 16px;
 .new_commu_toptabs ul li a.nav-link {
 font-size: 12px;
 padding: 2px 8px 4px 8px;
-}
-.eventcalender_details {
-max-height: 315px;
 }
 .c-search.srch_communu.newcommu_searchdiv {
 flex-basis: 78%;
@@ -21219,6 +21365,79 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+/* profile details */
+.profimg_usercont > img {
+    width: 60px;
+    height: 60px;
+    margin: 0 5px 0 0px;
+}
+.profilemenu_bottom ul li a {
+    width: 38px;
+    height: 38px;
+    padding: 6px 0 0 0;
+}
+.name_designation p {
+    font-size: 11px;
+}
+.name_designation h4 {
+    font-size: 14px;
+}
+.profilemenu_bottom {
+    left: 23px;
+}
+.emailreq_send .slick-track {
+    margin-left: 6px;
+}
+.contact_profiledeatils h3 {
+    font-size: 16px;
+}
+.pause_orplay p img {
+    margin: 0 4px 0 0px;
+}
+.callnames_txt {
+    flex-basis: 43%;
+}
+.audiovideo_time {
+    flex-basis: 19%;
+}
+.pause_orplay {
+    flex-basis: 35%;
+}
+.tabs_profledetailscont ul li a.nav-link {
+    font-size: 13px;
+}
+/* end of profile details */
+    /* chat box */
+.callemail_dots ul li a img {
+height: 26px;
+}
+.contactchatboxmessage .input-area input {
+    font-size: 14px;
+    }
+.contactchatboxmessage .chat-box {
+    height: calc(100vh - 248px);
+}
+.contactarea_msg {
+    flex-basis: 83%;
+}
+.contactdiv {
+    flex-basis: 15%;
+}
+.leftdetailsprofile .profname_contacttxt {
+margin: 0 0 0 7px;
+}
+.callemail_dots ul li.clickdots_prop a img {
+height: auto;
+}
+.profname_contacttxt p {
+font-size: 12px;
+}
+.chat-container.contactchatboxmessage .message.received p, .contactchatboxmessage .sent {
+    font-size: 13px;
+    line-height: 18px;
+}
+/* end of chatbox */
+
 /* recent tab new design */
 .new_commu_toptabs ul li a.nav-link {
 font-size: 12px;
@@ -21259,12 +21478,6 @@ flex-basis: 25%;
 }
 .eventrightdetails_info {
 flex-basis: 75%;
-}
-.listview_eventtabcomm {
-max-height: 280px;
-}
-.eventcalender_details {
-max-height: 156px;
 }
 .help_contactlist .reqinner {
 padding: 6px 14px 5px 7px;
@@ -21532,7 +21745,7 @@ font-size: 16px;
 margin: 39px 0 0 0px;
 }
 .jobdescrip_order, .bef_afterimgdecrip, .clos_notesheader {
-padding: 10px 15px;
+padding: 10px 15px
 }
 .tabsorder_section.tabsmobileview_timeline ul.nav.nav-tabs li {
 width: 162px;
@@ -23606,6 +23819,7 @@ height: 37px;
 height: 33px;
 }
 /* end of recent tab new design */
+
 
 /* communication */
 .commu_detailaboutme .multi_icons_commu ul {
