@@ -5645,6 +5645,9 @@ font-weight: 700;
 /* end of new design recent tabs */
 
 /* new design chat box mobile */
+.maploc_contactdiv {
+    width: 100%;
+}
 .contactarea_msg {
 flex-basis: 92%;
 }
@@ -12625,7 +12628,7 @@ top: 11px;
 /* end of profile details */
 /* chatbox */
 .maploc_contactdiv {
-width: 69%;
+width: 100%;
 }
 .contactchatboxmessage .chat-box {
     margin-top: 59px;
@@ -16349,7 +16352,7 @@ flex-basis: 12.9%;
 font-size: 13px;
 }
 .contactchatboxmessage .chat-box {
-    height: calc(100vh - 314px);
+    height: calc(100vh - 288px);
 }
 .callemail_dots ul li.clickdots_prop a img {
 height: auto;
