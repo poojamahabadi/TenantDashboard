@@ -16293,6 +16293,9 @@ height: auto;
 }
 /* end of chat box */
 /* new design recent tab */
+.picker {
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+}
 .btn.rescheduleevent{
 width: 85px;
 }
@@ -16961,6 +16964,9 @@ height: auto;
 /* recent tab new design */
 .newcommu_bottomimg ul li a img {
 height: 25px;
+}
+.picker .current-item {
+    font-size: 15px !important;
 }
 .datetimeevent_details {
 width: 76%;
@@ -17753,6 +17759,12 @@ left: -22px;
 .contact_profiledeatils h3 {
     font-size: 16px;
 }
+select.dropdown_menuselect {
+    font-size: 13px;
+}
+.eventtype_label label {
+    font-size: 13px;
+}
     .emailreq_send .slick-track {
         margin-left: 6px;
     }
@@ -17791,6 +17803,18 @@ font-size: 14px;
 }
 /* end of chatbox */
 /* new recent tab design */
+.picker .smaller-item {
+    font-size: 11px !important;
+}
+.picker li {
+    font-size: 13px;
+}
+.picker .current-item {
+    font-size: 15px !important;
+}
+ul.addevntsmenutabs li a.nav-link {
+    padding: 0px 7px;
+}
 .newcommu_bottomimg {
 height: 53px;
 }
@@ -19373,6 +19397,45 @@ line-height: 16px;
 }
 /* end of chat box */
 /* recent tab new design */
+.schedulefooter .btn.btn-schedule {
+    width: 308px;
+}
+.schedulefooter .btn.btn-schedule {
+    width: 308px;
+}
+.address_commu p {
+    line-height: 12px;
+}
+.autocan_time p {
+    font-size: 11px;
+}
+.picker .smaller-item {
+    font-size: 11px !important;
+}
+.schedulefooter .btn.btn-schedule {
+    font-size: 15px;
+}
+.picker li {
+    font-size: 13px;
+}
+.calimg_event img {
+    width: 22px;
+    height: 22px;
+}
+.shw_date span img, .shw_time span img {
+    width: 22px;
+    height: 22px;
+    padding: 5px;
+}
+.shw_datetxt {
+    font-size: 13px;
+}
+.picker .current-item {
+    font-size: 15px !important;
+}
+ul.addevntsmenutabs li a.nav-link {
+    padding: 0px 7px;
+}
 .modal_saleshelp .modal-dialog {
 width: 315px;
 }
@@ -21439,6 +21502,59 @@ font-size: 12px;
 /* end of chatbox */
 
 /* recent tab new design */
+.schedulefooter .btn.btn-schedule {
+    width: 390px;
+}
+.eventtype_label label {
+    font-size: 12px;
+}
+.shw_date span img, .shw_time span img {
+    margin: 0 3px 0 0;
+}
+select.dropdown_menuselect{
+    font-size: 13px;
+}
+.shw_datetxt {
+    font-size: 12px;
+}
+.plusic_eventimg {
+    margin: 0 3px 0 0;
+}
+ul.addevntsmenutabs li a.nav-link {
+    padding: 0px 4px;
+}
+ul.addevntsmenutabs li a.nav-link img {
+    margin: 0 3px 0 0;
+    height: 11px;
+    width: 11px;
+}
+.picker .smaller-item {
+    font-size: 10px !important;
+}
+.schedulefooter .btn.btn-schedule {
+    font-size: 15px;
+}
+.picker li {
+    font-size: 12px;
+}
+.calimg_event img {
+    width: 22px;
+    height: 22px;
+}
+.shw_date span img, .shw_time span img {
+    width: 22px;
+    height: 22px;
+    padding: 5px;
+}
+.shw_datetxt {
+    font-size: 13px;
+}
+.picker .current-item {
+    font-size: 14px !important;
+}
+ul.addevntsmenutabs li a.nav-link {
+    padding: 0px 7px;
+}
 .new_commu_toptabs ul li a.nav-link {
 font-size: 12px;
 padding: 2px 6px 4px 6px;
@@ -23796,6 +23912,12 @@ left: 14px;
 /* recent tab new design */
 .newcommu_bottomimg {
 height: 44px;
+}
+.picker {
+    grid-template-columns: 3.4fr 1.3fr 1fr 1fr;
+}
+.schedulefooter .btn.btn-schedule {
+    width: 272px;
 }
 .modal_saleshelp .modal-dialog {
 width: 302px;

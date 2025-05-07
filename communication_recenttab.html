@@ -1765,7 +1765,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!filterElement) return;
 
   document.addEventListener("click", function (e) {
-    const target = e.target.closest("li.eventstab_commlink > a,.calenderevent_link,.listlink_view");
+    const target = e.target.closest("li.eventstab_commlink > a,.calenderevent_link,.listlink_view,.plusic_eventimg,.addevents_modal .close");
 
     if (target) {
       // If click is on the specific link
