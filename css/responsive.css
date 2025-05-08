@@ -4036,6 +4036,11 @@ padding: 4px 22px 4px 12px;
 }
 }
 @media only screen and (max-width:800px){
+/* chat box */
+.posfixed {
+    top: 109px;
+}
+/* end of chat box */
 /* maintenance */
 /* work order */
 .succ_msg p {
@@ -5204,6 +5209,11 @@ line-height: 16px;
 }
 
 @media only screen and (max-width:768px){
+    /* chat box */
+    .contactchatboxmessage .chat-box {
+        height: calc(100vh - 326px);
+    }
+    /* end of chat box */
 /* work order */
 .categ_section .dropdown-selected {
 padding: 4px 21px 4px 6px;
@@ -5616,6 +5626,12 @@ width: 57%;
     height: 122px;
 }
 /* new design recent tabs */
+.communcation_tabs .content-wrapper.content-wrapper--with-bg{
+    height: unset;
+}
+.communcation_tabs .content-wrapper.content-wrapper--with-bg  .container-fluid{
+    height: unset;
+}
 .new_commu_toptabs .tab-content{
     height: calc(100vh - 20px);
     overflow-y: auto;
@@ -9239,8 +9255,8 @@ right: 13px;
 /* end if contact message call */
 /* recent tab */
 .contactchatboxmessage .chat-box {
-    height: calc(100vh - 254px);
-margin-top: 33px;
+    height: calc(100vh - 291px);
+    margin-top: 33px;
 }
 .posfixed {
 top: 95px;
@@ -10490,8 +10506,8 @@ top: -28px;
 /* end of profile details */
 /* contact message  */
 .contactchatboxmessage .chat-box {
-    height: calc(100vh - 273px);
-margin-top: 46px;
+    height: calc(100vh - 298px);
+    margin-top: 46px;
 }
 .contactarea_msg {
     flex-basis: 90%;
@@ -12661,7 +12677,7 @@ width: 100%;
 }
 .contactchatboxmessage .chat-box {
     margin-top: 59px;
-    height: calc(100vh - 270px);
+    height: calc(100vh - 316px);
 }
 .contactarea_msg {
 flex-basis: 88%;
@@ -12720,7 +12736,7 @@ flex-basis: 10%;
 padding: 2px 12px 4px 12px;
 }
 .new_commu_toptabs {
-    margin: 0 0 5em 0;
+    margin: 0 0 6em 0;
 }
 /* end of new design recent tab */
 
@@ -13745,6 +13761,9 @@ left: 39%;
 width: 56%;
 }
 }
+
+
+
 @media only screen and (max-width: 448px) and (min-width:416px) {
     /* request video call  */
     .topsec_videocall {
@@ -14411,7 +14430,12 @@ margin-left: 66px;
 /* end of schedule showings */
 }
 
-
+@media only screen and (max-width: 441px){
+    .contactchatboxmessage .chat-box {
+        height: calc(100vh - 353px);
+        margin-top: 55px;
+    }
+}
 @media only screen and (max-width: 431px) {
  /* request video call */
  .topsec_videocall {
@@ -14442,10 +14466,13 @@ margin-left: 66px;
     flex-basis: 85%;
 }
 .posfixed {
-top: 103px;
+    top: 98px;
 }
 .contactdiv {
     flex-basis: 12%;
+}
+.contactchatboxmessage .chat-box {
+    height: calc(100vh - 363px);
 }
 /* end of chatbox */
 .newcommu_bottomimg ul li a {
@@ -14608,6 +14635,10 @@ margin: 0 0 0 10px;
 /* chatbox */
 .maploc_contactdiv {
     width: 100%;
+}
+.contactchatboxmessage .chat-box {
+    margin-top: 55px;
+    height: calc(100vh - 346px);
 }
 .callemail_dots ul li.clickdots_prop a img{
 height: auto;
@@ -16396,9 +16427,6 @@ flex-basis: 12.9%;
 .profname_contacttxt h3 {
 font-size: 13px;
 }
-.contactchatboxmessage .chat-box {
-    height: calc(100vh - 288px);
-}
 .callemail_dots ul li.clickdots_prop a img {
 height: auto;
 }
@@ -17940,7 +17968,7 @@ select.dropdown_menuselect {
 /* emd of profile details */
 /* chat box */
 .contactchatboxmessage .chat-box {
-    height: calc(100vh - 281px);
+    height: calc(100vh - 345px);
     margin-top: 57px;
 }
 .datetab_mainsec {
@@ -19584,7 +19612,7 @@ font-size: 12px;
 line-height: 16px;
 }
 .contactchatboxmessage .chat-box {
-    height: calc(100vh - 277px);
+    height: calc(100vh - 319px);
     margin-top: 58px;
 }
 .chat-container.contactchatboxmessage .message.received p, .contactchatboxmessage .sent {
@@ -21719,7 +21747,7 @@ height: 26px;
     font-size: 14px;
     }
     .contactchatboxmessage .chat-box {
-        height: calc(100vh - 266px);
+        height: calc(100vh - 304px);
     }
 .contactarea_msg {
     flex-basis: 83%;
