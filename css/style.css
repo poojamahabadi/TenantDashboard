@@ -16592,15 +16592,6 @@ width: 16px;
     height: calc(100vh - 264px);
 }
 
-.center-content {
-display: flex;
-flex-direction: column;
-align-items: center;
-flex: 1;
-justify-content: center;
-text-align: center;
-}
-
 .profile-pic {
 width: 100px;
 height: 100px;
@@ -16697,20 +16688,16 @@ margin:0 auto;
 margin: 8em 0 0 0;
 }
 .topsec_videocall{
-margin: 40px 0 0 0;
-position: absolute;
-top: 45px;
-z-index: 10;
-width: 100%;
+    margin: 40px 0 0 0;
+    position: absolute;
+    top: 19px;
+    z-index: 10;
+    width: 100%;
 }
 .videocalldiv{
-margin: 53px 0 0 0;
+        text-align: center;
 }
 .videocalldiv .center-content .profileusername h3{
-font-weight: 700;
-font-size: 16px;
-line-height:26px;
-text-transform: capitalize;
 color: #FFFFFF;
 }
 .videocalldiv p.calling-text{
@@ -16720,10 +16707,6 @@ line-height:26px;
 text-align: center;
 text-transform: capitalize;
 color: #FFFFFF;
-}
-.call-icon-container button.speaker-button.blue img{
-width: 14px;
-height: 19px;
 }
 .videocalldiv .spacer {
 height: 64px;

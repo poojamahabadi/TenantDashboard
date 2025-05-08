@@ -10304,7 +10304,13 @@ width: 85px;
 @media only screen and (max-width: 640px) and (min-width:569px) {
 /* contact message call */
 .call-icon-container {
-    left: 28%;
+    left: 32%;
+}
+.topsec_videocall {
+    top: 36px;
+}
+.videocalldiv .spacer {
+    height: 96px;
 }
 /* end of contact message call */
 /* recent tab */
@@ -10452,7 +10458,11 @@ top: -28px;
 }
 }
 @media only screen and (max-width:576px) {
-
+/* request video call */
+.videocalldiv .spacer {
+    height: 96px;
+}
+/* end of request video call */
 /* contact message call */
 .call-icon-container {
     left: 26%;
@@ -12624,6 +12634,14 @@ top: 11px;
 }
 
 @media only screen and (max-width: 480px) and (min-width:449px) {
+/* request video call */
+.topsec_videocall {
+    top: 26px;
+}
+.videocalldiv .spacer {
+    height: 70px;
+}
+/* end of request video call */
 /* contact message call */
 .call-icon-container {
     left: 22%;
@@ -13728,12 +13746,19 @@ width: 56%;
 }
 }
 @media only screen and (max-width: 448px) and (min-width:416px) {
+    /* request video call  */
+    .topsec_videocall {
+        top: 32px;
+    }
+    .videocalldiv .spacer {
+        height: 70px;
+    }
+    /* end request video call  */
   /* contact message call */
   .call-icon-container {
     left: 20%;
 }
 /* end of contact message call */
- 
     .emailreq_send .slick-track {
         margin-left: 34px;
     }
@@ -14388,7 +14413,11 @@ margin-left: 66px;
 
 
 @media only screen and (max-width: 431px) {
- 
+ /* request video call */
+ .topsec_videocall {
+    top: 22px;
+}
+/* end of request call */
  /* contact message call */
     .call-icon-container {
         left: 18.5%;
@@ -14546,6 +14575,11 @@ margin: 0 0 0 10px;
 }
 
 @media only screen and (max-width: 415px) and (min-width:388px) {
+/* request video call */
+.topsec_videocall {
+    top: 37px;
+}
+/* end of request video call */
 /* contact message call */
 .call-icon-container {
     left: 14%;
@@ -16320,7 +16354,11 @@ margin: -37px 0 0 8px;
 }
 
 @media only screen and (max-width: 394px) {
-
+/* request video call */
+.videocalldiv .spacer {
+    height: 74px;
+}
+/* end of request video call */
 /* contact message call */
 .voicerecording_screen .profimg_centernochat {
     height: calc(100vh - 311px);
@@ -17020,6 +17058,11 @@ height: 21px;
 
 
 @media only screen and (max-width: 387px) and (min-width:377px) {
+/* request video call */
+.topsec_videocall {
+    top: 31px;
+}
+/* end of request video call */
 /* contact message call */
 .voicerecording_screen .profimg_centernochat {
     height: calc(100vh - 320px);
@@ -17845,6 +17888,15 @@ left: -22px;
 
 
 @media only screen and (max-width: 376px) and (min-width:362px) {
+  /* request video call */
+.topsec_videocall {
+    top: 21px;
+}
+.voicerecorder_div {
+    margin: 40px auto 0 23px;
+}
+
+/* end of request video call */  
 /* contact message call */
 .voicerecording_screen .profimg_centernochat {
     height: calc(100vh - 307px);
@@ -17859,9 +17911,6 @@ left: -22px;
 }
 .call-icon-container {
     left: 13%;
-}
-.voicerecorder_div {
-    margin: 30px auto 0 auto;
 }
 /* end of contact message call */
     /* profile details */
@@ -19451,6 +19500,15 @@ width: 37%;
 }
 
 @media only screen and (max-width: 361px) and (min-width:341px) {
+  /* request video call */
+  .topsec_videocall {
+    top: 21px;
+}
+.voicerecorder_div {
+    margin: 40px auto 0 23px;
+}
+/* end of request video call */ 
+
 /* contact message call */
 .voicerecording_screen .profimg_centernochat {
     height: calc(100vh - 321px);
@@ -21566,6 +21624,32 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 340px) and (min-width:320px) {
+  /* request video call */
+  .topsec_videocall {
+    top: 21px;
+}
+.videocalldiv .spacer {
+    height: 48px;
+}
+.expandvoice_icon a img {
+    width: 20px;
+    height: 20px;
+}
+.addpeople_iconplus a img {
+    width: 21px;
+    height: 21px;
+}
+.voicerecorder_div {
+    margin: 40px auto 0 23px;
+}
+.minutes_voicerecord p {
+    font-size: 15px;
+}
+.videocalldiv p.calling-text {
+    font-size: 14px;
+}
+/* end of request video call */
+
 /* contact message call */
 .voicerecording_screen .profimg_centernochat .center-content img, .videocalldiv .center-content img {
     width: 150px;
@@ -24067,6 +24151,11 @@ left: 14px;
 }
 
 @media only screen and (max-width:320px){
+/* request video call */
+.voicerecorder_div {
+    margin: 40px auto 0 21px;
+}
+/* end of request video call */
 /* contact message call */
 .voicerecording_screen .profimg_centernochat .center-content img, .videocalldiv .center-content img {
     width: 122px;
