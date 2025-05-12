@@ -16724,7 +16724,7 @@ padding: 7px;
 border-radius: 50%;
 }
 .accept_rejectdivbtns .btn.btn_answer,.accept_rejectdivbtns .btn.btn_decline{
-width: 50%;
+width: 124px;
 height: 46px;
 border-radius: 100px;
 font-weight: 700;
@@ -16744,11 +16744,12 @@ background: #EA4B61;
 margin:0 10px 0 0;
 }
 .accept_rejectdivbtns{
-background: #EDF2FA;
-border-radius: 49px;
-padding: 10px;
-width: 49.7%;
-margin: 0 auto 20px auto;
+    background: #EDF2FA;
+    border-radius: 49px;
+    padding: 8px;
+    width: 270px;
+    margin: 0 auto 20px auto;
+    justify-content: space-between;
 }
 .videocall_persons {
 position: relative;
@@ -16836,12 +16837,12 @@ background: #DAE3F2;
 border-radius: 10px;
 }
 .contact_propertydetails{
-background: #EDF2FA;
-border-radius: 17px;
-padding: 10px 0;
-width: 96%;
-margin: 12px auto 0 auto;
-position: relative;
+    background: #EDF2FA;
+    border-radius: 17px;
+    padding: 10px 0 0 0;
+    width: 96%;
+    margin: 12px auto 20px auto;
+    position: relative;
 }
 .house_heartdiv img{
 width: 18px;
@@ -16890,17 +16891,29 @@ line-height: 19px;
 text-transform: capitalize;
 color: #20364D;
 }
-.priceslider_details h3{
+.viewdetail_btnview .priceslider_details h3{
 font-weight: 700;
 font-size: 18px;
 line-height:22px;
 text-transform: capitalize;
-color: #20364D;
+color: #ffffff;
+} 
+.viewdetail_propertysec{
+padding: 10px 0;
 }
 .viewdetail_propertysec,.viewdetail_btnview,.btns_propfeatures{
-padding: 10px 0;
 width: 96%;
 position: relative;
+}
+.viewdetail_btnview .gallerybtm_div span{
+background: rgba(248, 248, 248, 0.2);
+}
+.viewdetail_btnview .gallerybtm_div img{
+    height: 15px;
+    vertical-align: middle;
+}
+.viewdetail_btnview .videobtm_div span{
+background: rgba(201, 215, 229, 0.2);
 }
 .propertyslider .carousel-indicators li{
 width: 7px;
@@ -16913,8 +16926,78 @@ border-bottom: unset;
 border-radius: 50%;
 opacity: 1;
 }
-.propcenter_div.dragging{
-    object-fit: contain;
+.hidebtn_together{
+    margin: 20px 0 94px 0;
+}
+.viewdetail_btnview  .locationdetails .flatdetails ul li span{
+    color:#EDF2FA;
+}
+.prop_feature.viewtogether_detailsslider {
+    margin: 10px auto;
+    width: 96%;
+    padding: 11px 4px 10px 4px;
+}
+.prop_feature.viewtogether_detailsslider .dropdw_mobileview .dropdown .btn.drop_optionlist{
+    width: auto;
+    background: unset;
+    color: #20364D;
+    padding: 0 9px;
+    height: auto;
+}
+.prop_feature.viewtogether_detailsslider .propfeat_tab{
+background-color: unset;
+}
+.prop_feature.viewtogether_detailsslider .category-button.active{
+background: #20364D;
+
+color: #FFFFFF;
+}
+.prop_feature.viewtogether_detailsslider .category-button{
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-transform: capitalize;
+color: #20364D;
+box-shadow: unset;
+}
+.whitebg_about{
+    background-color: #ffffff;
+padding: 10px;
+border-radius: 14px;
+}
+.about_descrip.mobileviewabout.viewtoge_details ul li{
+color:#365B81;
+font-size: 14px;
+font-weight: 400;
+    border-right: 1px solid #365B81;
+}
+   .about_descrip.mobileviewabout.viewtoge_details{
+        display: block;
+        width: 96%;
+        margin:0 auto;
+    }
+   .about_descrip.mobileviewabout.viewtoge_details h3{
+color:#20364D;
+    }
+   .about_descrip.mobileviewabout.viewtoge_details p{
+color: #365B81;
+font-size: 14px;
+line-height: 24px;
+    }
+.prop_feature.viewtogether_detailsslider .category-lists-slider .swiper-container{
+    background-color: #ffffff;
+}
+.prop_feature.viewtogether_detailsslider .dropdw_mobileview .dropdown .btn.drop_optionlist::after{
+    content: url(../images/contact_message/view_together/arrow.svg);
+    margin: 0 0 0 7px;
+    position: unset;
+    vertical-align: text-bottom;
+}
+.prop_feature.viewtogether_detailsslider .prop_headingfeat h3{
+    color:#20364D;
+}
+.viewdetail_btnview  .locationdetails .flatdetails ul li.apartdetails span,.viewdetail_btnview .locationdetails .flatdetails ul li.daysdetails span{
+    color:#ffffff;
 }
 .propcenter_div img{
 width: 134px;
@@ -16944,13 +17027,7 @@ padding: 10px 14px;
 .locdetails_viewdeatils{
 background: #EDF2FA;
 }
-.locationdetails .priceslider_details h3{
-font-weight: 700;
-font-size: 18px;
-line-height:22px;
-text-transform: capitalize;
-color: #EDF2FA;
-}
+
 .btns_propfeatures .btn{
 width: 180px;
 height: 30px;
@@ -16977,7 +17054,7 @@ color: #FFFFFF;
 }
 .flatdetails ul li.dividerflat img{
 height: 22px;
-margin: 0 5px 0 8px;
+margin: 0 1px 0 6px;
 }
 .sliderposition{
 position: relative;
@@ -17084,9 +17161,6 @@ animation-delay: 0.2s;
 }
 .typing-indicator .dotmessage:nth-child(3) {
 animation-delay: 0.4s;
-}
-.viewdetails_propfeatures, .viewdetail_btnview {
-    display: none;
 }
 @keyframes typing-bounce {
 0%, 80%, 100% {
